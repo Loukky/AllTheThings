@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Runecarving Power"",
+	readable = "Runecarving Power",
 	constant = "RUNECARVING_POWER",
 	export = true,
 	text = {

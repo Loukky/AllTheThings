@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Toy (item)"",
+	readable = "Toy (item)",
 	constant = "TOY_ITEM",
 	export = true,
 	text = {

@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Spell"",
+	readable = "Spell",
 	constant = "SPELL",
 	export = true,
 	text = {

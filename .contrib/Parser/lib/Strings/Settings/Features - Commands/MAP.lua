@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Map"",
+	readable = "Map",
 	constant = "MAP",
 	export = true,
 	text = {
