@@ -4,6 +4,6 @@ createLocalizationString({
 	export = true,
 	text = {
 		en = "Recipe (spell)",
-        cn = "配方（法术）",
+		cn = "配方（法术）",
 	},
 })

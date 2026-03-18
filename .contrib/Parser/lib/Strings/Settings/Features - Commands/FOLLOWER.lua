@@ -4,6 +4,6 @@ createLocalizationString({
 	export = true,
 	text = {
 		en = "Follower",
-        cn = "追随者",
+		cn = "追随者",
 	},
 })

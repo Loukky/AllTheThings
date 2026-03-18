@@ -4,6 +4,6 @@ createLocalizationString({
 	export = true,
 	text = {
 		en = "Mount (spell)",
-        cn = "坐骑（法术）",
+		cn = "坐骑（法术）",
 	},
 })
