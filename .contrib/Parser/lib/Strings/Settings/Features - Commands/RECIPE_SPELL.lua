@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Recipe_spell",
+	readable = "Recipe (spell)",
 	constant = "RECIPE_SPELL",
 	export = true,
 	text = {
