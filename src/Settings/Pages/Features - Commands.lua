@@ -54,7 +54,7 @@ end
 
 -- TODO: Localize this
 CreateText1(L.ACHIEVEMENT)
-CreateText1("Artifact")
+CreateText1(L.ARTIFACT)
 CreateText1("Azerite Essence")
 CreateText1("Battle Pet")
 CreateText1("Category")
