@@ -1,6 +1,6 @@
 createLocalizationString({
-	readable = "Toy (item)",
-	constant = "TOY_ITEM",
+	readable = "Toy",
+	constant = "TOY",
 	export = true,
 	text = {
 		en = [[~TOY]],

@@ -89,7 +89,7 @@ CreateText2(L.RUNECARVING_POWER)
 CreateText2(L.SOURCES)
 CreateText2(L.SPELL)
 CreateText2(L.TITLE)
-CreateText2(L.TOY_ITEM)
+CreateText2(L.TOY)
 
 CreateText3("/att achievement:ID")
 CreateText3("/att artifact:ID")

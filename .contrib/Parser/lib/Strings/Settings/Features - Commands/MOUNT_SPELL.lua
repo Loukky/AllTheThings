@@ -1,5 +1,5 @@
 createLocalizationString({
-	readable = "Mount (spell)",
+	readable = "Mount _spell",
 	constant = "MOUNT_SPELL",
 	export = true,
 	text = {
