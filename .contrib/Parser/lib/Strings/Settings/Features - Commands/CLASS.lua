@@ -1,6 +1,6 @@
 createLocalizationString({
 	readable = "Class",
-	constant = "Class",
+	constant = "CLASS",
 	export = true,
 	text = {
 		en = [[~CLASS]],
