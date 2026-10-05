@@ -125,7 +125,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					i(28789),	-- Eye of Magtheridon
 					i(34846, {	-- Black Sack of Gems
 						-- #if BEFORE WRATH
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The epic gems may not be available until Black Temple is released, however, some users have reported getting one out of this bag already.",
 							constant = "THE_EPIC_GEMS_MAY_NOT_BE_AVAILABLE_UNTIL_BLACK",
 							export = true,

@@ -10,7 +10,7 @@ local THOMAS_YANCE_GROUPS = {
 root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, {
 	inst(251, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_3 } }, {	-- Old Hillsbrad Foothills
 		["lore"] = "Old Hillsbrad Foothills is one of the timeways accessible in the Caverns of Time. The setting is seven years before WoW's present, to when the future Warchief Thrall was a slave of Aedelas Blackmoore, master of Durnholde Keep. The questing involves helping Thrall escape. The instance area in question spans from Southshore (where familiar personalities of WoW present can be found) to Tarren Mill.",
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This is an event-triggered dungeon with the following steps:\n\n1. Talk to Erozion at the beginning of the dungeon to obtain a Pack of Incendiary Bombs.\n\n2. Traverse to the internment camps in Durnholde Keep and interact with a barrel in each building to start a fire and summon the first boss Lieutenant Drake.\n\n3. Find Thrall in the basement of the keep and follow him for the remainder of the dungeon.",
 			constant = "THIS_IS_AN_EVENT_TRIGGERED_DUNGEON_WITH_THE",
 			export = true,
@@ -143,7 +143,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					i(22539),	-- Formula: Enchant Shield - Intellect (RECIPE!)
 				}),
 				n(20377, {	-- Barkeep Kelly <Bartender>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found inside Southshore tavern.",
 						constant = "CAN_BE_FOUND_INSIDE_SOUTHSHORE_TAVERN",
 						export = true,
@@ -191,7 +191,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				n(28132, {	-- Don Carlos
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a neutral Elite Creature that wanders the road.",
 						constant = "THIS_IS_A_NEUTRAL_ELITE_CREATURE_THAT_WANDERS",
 						export = true,

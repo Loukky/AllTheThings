@@ -1070,7 +1070,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["timeline"] = { REMOVED_3_3_3 },
 				}),
 				i(185048, {	-- Shoveltusk Soul
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available during Brawl: Comp Stomp",
 						constant = "AVAILABLE_DURING_BRAWL_COMP_STOMP",
 						export = true,

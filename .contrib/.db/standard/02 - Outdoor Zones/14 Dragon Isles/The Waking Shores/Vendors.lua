@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 					i(194890),	-- GG-117 Micro-Jetpack
 					i(201837, {	-- Magmammoth Harness
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use it while riding the Tame Magmammoth @ 33.3, 72.2",
 							constant = "USE_IT_WHILE_RIDING_THE_TAME_MAGMAMMOTH_33_3_72",
 							export = true,

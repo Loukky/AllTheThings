@@ -64,7 +64,7 @@ root(ROOTS.Zones, {
 				}),
 				n(97215, {	-- Beastmaster Pao'lek
 					["questID"] = 39784,	-- Beastmaster Pao'lek
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak with Beastmastr Pao'lek then help him tame Arru. Loot Thunder Totem Stolen Goods afterward.",
 						constant = "SPEAK_WITH_BEASTMASTR_PAO_LEK_THEN_HELP_HIM",
 						export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(100495, {	-- Devouring Darkness
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click all candles to summon the mob.",
 						constant = "CLICK_ALL_CANDLES_TO_SUMMON_THE_MOB",
 						export = true,
@@ -159,7 +159,7 @@ root(ROOTS.Zones, {
 				}),
 				n(96072, {	-- Durguth
 					["isDaily"] = true,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This rare is only available when its associated world quest is active.",
 						constant = "THIS_RARE_IS_ONLY_AVAILABLE_WHEN_ITS_ASSOCIATED",
 						export = true,
@@ -184,7 +184,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(97793, {	-- Flamescale
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the Abandoned Fishing Pole to summon Flamescale.",
 						constant = "CLICK_ON_THE_ABANDONED_FISHING_POLE_TO_SUMMON",
 						export = true,
@@ -274,7 +274,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(97579, {	-- Scout Harefoot (Mynta Talonscreech)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to Scout Harefoot and Mynta Talonscreech will spawn.",
 						constant = "SPEAK_TO_SCOUT_HAREFOOT_AND_MYNTA_TALONSCREECH",
 						export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Zones, {
 				}),
 				o(240353, {	-- Seemingly Unguarded Treasure
 					["questID"] = 40423,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Loot the treasure inside the cave and a party of enemies will appear. Kill them and loot the treasure.",
 						constant = "LOOT_THE_TREASURE_INSIDE_THE_CAVE_AND_A_PARTY",
 						export = true,

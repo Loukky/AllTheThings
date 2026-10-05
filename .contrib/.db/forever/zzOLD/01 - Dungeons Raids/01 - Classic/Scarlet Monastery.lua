@@ -90,7 +90,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			-- #if AFTER 10.1.7
 			header(HEADERS.Spell, 419654, {	-- Scarlet Monastery of Old
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocked via 'The Scarlet Key' from the Loot-Filled Pumpkin during Hallow's End, or bought from the Auction House.\n\nInteract with the keychain at the top of the stairs to get The Scarlet Key buff, which opens up all four old wings. This unlock is account-wide.\n\nFrom left to right: Graveyard, Monastery, Armory, Library.",
 					constant = "UNLOCKED_VIA_THE_SCARLET_KEY_FROM_THE_LOOT",
 					export = true,
@@ -315,7 +315,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 												{ "i", 5535 },	-- Compendium of the Fallen
 												{ "o", 19283 },	-- Compendium of the Fallen
 											},
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "On one of the shelves on the left as you enter the final hallway leading to Doan.",
 												constant = "ON_ONE_OF_THE_SHELVES_ON_THE_LEFT_AS_YOU_ENTER",
 												export = true,
@@ -373,7 +373,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 												{ "i", 5536 },	-- Mythology of the Titans
 												{ "o", 19284 },	-- Mythology of the Titans
 											},
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "In the hallway with the benches immediately to your left upon entering it.",
 												constant = "IN_THE_HALLWAY_WITH_THE_BENCHES_IMMEDIATELY_TO",
 												export = true,
@@ -448,7 +448,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 												{ "i", 5861 },	-- Beginnings of the Undead Threat
 												{ "o", 20726 },	-- Beginnings of the Undead Threat
 											},
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "In the first cooridor with books, there are 2 pocket rooms, the first pocket room has a table with 2 clickable books on it.\n\nOne of them is a container.",
 												constant = "IN_THE_FIRST_COORIDOR_WITH_BOOKS_THERE_ARE_2",
 												export = true,
@@ -552,7 +552,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									o(103821, {	-- Doan's Strongbox
 										["groups"] = {
 											i(7146, {	-- The Scarlet Key
-												createLocalizationString({
+												["description"] = createLocalizationString({
 													readable = "Found in the chest after killing Arcanist Doan.",
 													constant = "FOUND_IN_THE_CHEST_AFTER_KILLING_ARCANIST_DOAN",
 													export = true,
@@ -573,7 +573,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 												["timeline"] = { REMOVED_4_0_3 },
 											}),
 											i(208485, {	-- The Scarlet Key
-												createLocalizationString({
+												["description"] = createLocalizationString({
 													readable = "Found in the chest after killing Arcanist Doan. Can be looted once per week per account.",
 													constant = "FOUND_IN_THE_CHEST_AFTER_KILLING_ARCANIST_DOAN_2",
 													export = true,

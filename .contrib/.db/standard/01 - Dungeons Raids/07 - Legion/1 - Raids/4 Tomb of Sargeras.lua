@@ -399,7 +399,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			n(SPECIAL, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 				n(118930, {	-- Ixallon the Soulbreaker
 					i(212779, {	-- Grimoire of the Bloodrage Tyrant (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops from the last Mob before Kil'Jaeden.\nQueue for Deceiver's Fall in Dalaran for very quick access to him.",
 							constant = "DROPS_FROM_THE_LAST_MOB_BEFORE_KIL_JAEDEN_QUEUE",
 							export = true,
@@ -511,7 +511,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
 				n(QUESTS, {
 					q(47725, {	-- Tomb of Sargeras: Aegwynn's Path (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_ACCESS_TO",
 							export = true,
@@ -558,7 +558,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
 				n(QUESTS, {
 					q(47726, {	-- Tomb of Sargeras: Aegwynn's Path (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_ACCESS_TO_2",
 							export = true,
@@ -595,7 +595,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				n(QUESTS, {
 					q(47727, {	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Mythic difficulty each week.\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_ACCESS_TO_3",
 							export = true,

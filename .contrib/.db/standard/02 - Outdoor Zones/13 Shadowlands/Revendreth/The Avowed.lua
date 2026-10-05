@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(FACTIONS, {
 			header(HEADERS.Faction, FACTION_THE_AVOWED, {	-- The Avowed
 				["icon"] = 458226,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock this faction, you must complete |cFFFFD700The Final Atonement|r questline in Revendreth.\n\nReputation with The Avowed is gained first by killing Depraved mobs outside the Halls of Atonement. Once you reach Friendly, use your |cFFFFFFFFSinstone Fragments|r to complete daily quests and summon Inquisitors, High Inquisitors, and Grand Inquisitors.\n\nMembers of the |cFFfe040fVenthyr Covenant|r can purchase a special mount and cosmetic cloak from the Avowed quartermaster that are unavailable to other covenants.",
 					constant = "TO_UNLOCK_THIS_FACTION_YOU_MUST_COMPLETE",
 					export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					n(ACHIEVEMENTS, {
 						ach(14274, {	-- Absolution For All
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Fugitive Souls are friendly NPCs that can be found all over the Court of Harvesters. Find them and bring them to an Avowed Ritualist to perform a ritual of absolution.\n\nOnly one soul can be picked up at a time.",
 								constant = "FUGITIVE_SOULS_ARE_FRIENDLY_NPCS_THAT_CAN_BE",
 								export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(156918, {	-- Inquisitor Otilia
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff18bb0aInquisitor Otilia's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF18BB0AINQUISITOR_OTILIA_S_SINSTONE",
 									export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								["provider"] = { "i", 172998 },	-- Inquisitor Otilia's Sinstone
 							}),
 							n(156919, {	-- Inquisitor Petre
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff18bb0aInquisitor Petre's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF18BB0AINQUISITOR_PETRE_S_SINSTONE_R",
 									export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								["provider"] = { "i", 172997 },	-- Inquisitor Petre's Sinstone
 							}),
 							n(156916, {	-- Inquisitor Sorin
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff18bb0aInquisitor Sorin's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF18BB0AINQUISITOR_SORIN_S_SINSTONE_R",
 									export = true,
@@ -237,7 +237,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								["provider"] = { "i", 172996 },	-- Inquisitor Sorin's Sinstone
 							}),
 							n(159151, {	-- Inquisitor Traian
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff18bb0aInquisitor Traian's Sinstone|r to summon. Inquisitor Traian is killed as part of the quest |cFFFFD700Hunting an Inquisitor|r.",
 									constant = "REQUIRES_CFF18BB0AINQUISITOR_TRAIAN_S_SINSTONE",
 									export = true,
@@ -279,7 +279,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(159155, {	-- High Inquisitor Dacian
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff0c5baeHigh Inquisitor Dacian's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF0C5BAEHIGH_INQUISITOR_DACIAN_S",
 									export = true,
@@ -304,7 +304,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(159152, {	-- High Inquisitor Gabi
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff0c5baeHigh Inquisitor Gabi's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF0C5BAEHIGH_INQUISITOR_GABI_S",
 									export = true,
@@ -329,7 +329,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(159154, {	-- High Inquisitor Magda
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff0c5baeHigh Inquisitor Magda's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF0C5BAEHIGH_INQUISITOR_MAGDA_S",
 									export = true,
@@ -354,7 +354,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(159153, {	-- High Inquisitor Radu
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff0c5baeHigh Inquisitor Radu's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF0C5BAEHIGH_INQUISITOR_RADU_S",
 									export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								},
 							}),
 							n(159157, {	-- Grand Inquisitor Aurica
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff712daaGrand Inquisitor Aurica's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF712DAAGRAND_INQUISITOR_AURICA_S",
 									export = true,
@@ -414,7 +414,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								["provider"] = { "i", 173008 },	-- Grand Inquisitor Aurica's Sinstone
 							}),
 							n(159156, {	-- Grand Inquisitor Nicu
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires |cff712daaGrand Inquisitor Nicu's Sinstone|r to summon. Sinstones have a chance of dropping from the Depraved mobs around Halls of Atonement.",
 									constant = "REQUIRES_CFF712DAAGRAND_INQUISITOR_NICU_S",
 									export = true,
@@ -488,7 +488,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							}),
 						}),
 						n(159088, {	-- Bored Dredger
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There is a chance to find this vendor when opening a crypt with an |cFFFFFFFFAtonement Crypt Key|r.\n\nHe runs away shortly after exiting the crypt, so make your purchases quickly!",
 								constant = "THERE_IS_A_CHANCE_TO_FIND_THIS_VENDOR_WHEN",
 								export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					-- there are 10 different broken bells, 5 sets of 2 with the same name. not sure what the difference is, as they are not tied to specific souls (i saw Khongordzolo with two different bells in a row)
 					-- just putting this info here because it doesn't really belong in a specific header, it's just buffs you can get to boost your faction rep. will only show up in debug, but put tooltips on associated NPCs
 					n(176006, {	-- Caretaker Pancha
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Pancha periodically brings out a soul to help it earn atonement. When she has a soul and the broken bell next to her is present, you can repair it for 30 |cFFFFFFFFInfused Rubies|r. Depending on which soul Caretaker Pancha has, you will get a 20-minute buff that helps you earn reputation with The Avowed.\n\nThe bell will be unavailable from :00 to :30, at which point Caretaker Pancha will bring out a new soul until the next hour begins. Once the bell is repaired, anyone can ring it to get the buff, but it disappears a few minutes later.",
 							constant = "PANCHA_PERIODICALLY_BRINGS_OUT_A_SOUL_TO_HELP",
 							export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}),
 					n(176043, {	-- Gahiji the Tomb Raider
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repairing the Broken Bell when this soul is present will increase your chance to find |cFFFFFFFFAtonement Crypt Keys|r, but enemy venthyr will detect you from further away.",
 							constant = "REPAIRING_THE_BROKEN_BELL_WHEN_THIS_SOUL_IS",
 							export = true,
@@ -573,7 +573,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}),
 					n(176051, {	-- Ick the Illiterate
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repairing the Broken Bell when this soul is present will increase the amount of |cFFFFFFFFSinstones|r you loot, but your damage will be reduced.",
 							constant = "REPAIRING_THE_BROKEN_BELL_WHEN_THIS_SOUL_IS_2",
 							export = true,
@@ -593,7 +593,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}),
 					n(176050, {	-- Khongordzolo the Manipulator
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repairing the Broken Bell when this soul is present will increase your reputation from killing mobs, but you will take more damage.\n\nCharacters who are Friendly or higher with The Avowed will get +1 Avowed reputation per kill and occasionally +50 with Court of Harvesters.",
 							constant = "REPAIRING_THE_BROKEN_BELL_WHEN_THIS_SOUL_IS_3",
 							export = true,
@@ -613,7 +613,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),	-- TODO: can't figure out how the CoH rep works. not sure if it's only for the ~5 minutes the bell is resonating or if you're in the area of the bell, or both, or something totally different
 					}),
 					n(176049, {	-- Werimu the Traitor-King
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repairing the Broken Bell when this soul is present will increase your reputation from killing Inquisitors, but vengeful souls will periodically attack you.",
 							constant = "REPAIRING_THE_BROKEN_BELL_WHEN_THIS_SOUL_IS_4",
 							export = true,
@@ -633,7 +633,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),	-- TODO: add reputation info
 					}),
 					n(176004, {	-- Yevkek the Slaver
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repairing the Broken Bell when this soul is present will increase your reputation from absolving Fugitive Souls, but enemy venthyr will detect you from further away.",
 							constant = "REPAIRING_THE_BROKEN_BELL_WHEN_THIS_SOUL_IS_5",
 							export = true,

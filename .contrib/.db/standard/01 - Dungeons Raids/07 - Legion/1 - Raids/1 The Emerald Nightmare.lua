@@ -227,7 +227,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			petbattle(filter(BATTLE_PETS, {
 				pet(1722, {	-- Dream Whelpling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once you defeat Xavius these will spawn in the area after him.",
 						constant = "ONCE_YOU_DEFEAT_XAVIUS_THESE_WILL_SPAWN_IN_THE",
 						export = true,
@@ -364,7 +364,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(44283, {	-- The Emerald Nightmare: Piercing the Veil (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Cenarius on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_7",
 							export = true,
@@ -409,7 +409,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(44284, {	-- The Emerald Nightmare: Piercing the Veil [Heroic]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Cenarius on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_8",
 							export = true,
@@ -446,7 +446,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(44285, {	-- The Emerald Nightmare: Piercing the Veil [Mythic]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Cenarius on Mythic difficulty each week.\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_9",
 							export = true,

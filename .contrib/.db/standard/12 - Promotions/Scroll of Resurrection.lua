@@ -441,7 +441,7 @@ root(ROOTS.Promotions, n(SCROLL_OF_RESURRECTION, {
 			-- #endif
 		}),
 		bubbleDown({ ["u"] = REAL_MONEY }, i(77956, bubbleDown({ ["timeline"] = { ADDED_4_3_0, REMOVED_5_4_7 } }, {	-- Spectral Mount Crate
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This crate was given to players whose friends returned to the game by means of the Scroll of Resurrection.",
 				constant = "THIS_CRATE_WAS_GIVEN_TO_PLAYERS_WHOSE_FRIENDS",
 				export = true,

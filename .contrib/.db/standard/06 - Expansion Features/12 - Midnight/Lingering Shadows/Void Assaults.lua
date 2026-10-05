@@ -115,7 +115,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(EVENT_COMPLETION, {
 						filter(BATTLE_PETS, {
 							i(270990, {	-- Curious Lynx Kitten (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This pet can drop only during Void Assault in Eversong Woods.",
 									constant = "THIS_PET_CAN_DROP_ONLY_DURING_VOID_ASSAULT_IN",
 									export = true,
@@ -135,7 +135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								}),
 							}),
 							i(270988, {	-- Wriggling Capybara (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This pet can drop only during Void Assault in Zul'Aman.",
 									constant = "THIS_PET_CAN_DROP_ONLY_DURING_VOID_ASSAULT_IN_2",
 									export = true,
@@ -323,7 +323,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						-- Boxes given to Leveling Characters
 						i(271222, {	-- Bulging Recruit's Field Pouch
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Earned with characters under level 90.",
 								constant = "EARNED_WITH_CHARACTERS_UNDER_LEVEL_90",
 								export = true,
@@ -385,7 +385,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 48.1, 49.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(94383, {	-- Ritual Interest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Becomes available after accepting 'Outfitting and Allies' (94381).",
 								constant = "BECOMES_AVAILABLE_AFTER_ACCEPTING_OUTFITTING",
 								export = true,
@@ -559,7 +559,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							}),
 							q(96831, {	-- Magister's Summons
 								["sourceQuest"] = 96410,	-- Seeking Knowledge: The Omnium Folio
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can accept this quest from your Adventure Journal after first weekly reset, following the completion of the previous 'Seeking Knowledge' quest.",
 									constant = "YOU_CAN_ACCEPT_THIS_QUEST_FROM_YOUR_ADVENTURE",
 									export = true,
@@ -599,7 +599,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							------ Stay awhile and listen ------
 							hqt(97139, {	-- Stay awhile and listen: Grand Magister Rommath
 								["name"] = "Stay awhile and listen: Grand Magister Rommath",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Dialogue becomes available after completing 'Seeking Knowledge Week 2 of 5: Ritualized Arcana' (96441).",
 									constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_6",
 									export = true,

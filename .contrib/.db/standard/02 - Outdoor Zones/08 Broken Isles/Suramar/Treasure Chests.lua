@@ -33,7 +33,7 @@ root(ROOTS.Zones, {
 				}),
 				o(252831, {	-- Glimmering Treasure Chest
 					["questID"] = 43856,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside a cave hidden behind the waterfall.",
 						constant = "INSIDE_A_CAVE_HIDDEN_BEHIND_THE_WATERFALL",
 						export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, {
 					["groups"] = { i(140327) }	-- Krytos's Research Notes (CI!)
 				}),
 				o(257291, {	-- Nightborne Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These repeatable chests spawn all over the map in Suramar.",
 						constant = "THESE_REPEATABLE_CHESTS_SPAWN_ALL_OVER_THE_MAP_4",
 						export = true,
@@ -99,7 +99,7 @@ root(ROOTS.Zones, {
 					["maps"] = { SURAMAR },
 				}),
 				o(251052, {	-- Protected Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Does not show on minimap.\nMay require dying to resurrect on the other side of the magic barrier. However it may be possible to bounce or phase through the wall when approached from the very edge at different angles or speeds.",
 						constant = "DOES_NOT_SHOW_ON_MINIMAP_MAY_REQUIRE_DYING_TO",
 						export = true,
@@ -121,7 +121,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 38.1, 42.5, 683 },
 				}),
 				o(258034, {	-- Protected Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Does not show on minimap.",
 						constant = "DOES_NOT_SHOW_ON_MINIMAP",
 						export = true,
@@ -257,7 +257,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 44.4, 75.9, SURAMAR },
 				}),
 				o(252813, {	-- Small Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located in a cave (19.4, 19.4).",
 						constant = "LOCATED_IN_A_CAVE_19_4_19_4",
 						export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Zones, {
 				o(252805, {	-- Treasure Chest
 					["questID"] = 43834,
 					["coord"] = { 32.3, 77.1, SURAMAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Bottom floor of |cFFFFD700The Lightbreaker|r.",
 						constant = "BOTTOM_FLOOR_OF_CFFFFD700THE_LIGHTBREAKER_R",
 						export = true,

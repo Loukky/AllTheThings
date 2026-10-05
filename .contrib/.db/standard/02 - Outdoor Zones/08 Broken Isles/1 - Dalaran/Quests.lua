@@ -370,7 +370,7 @@ root(ROOTS.Zones, {
 					["classes"] = { MONK },
 				}),
 				q(40717, {	-- Calling of the Council [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can start this quest by going to Dalaran (Legion) and talking to Archivist Elysiana in The Violet Citadel.",
 						constant = "YOU_CAN_START_THIS_QUEST_BY_GOING_TO_DALARAN",
 						export = true,
@@ -431,7 +431,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 41.0, 26.2, LEGION_DALARAN },
 				}),
 				q(45125, {	-- Dabbling in the Demonic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To stabilize the portal, activate following runes: Dregla, Taam, and Talar.",
 						constant = "TO_STABILIZE_THE_PORTAL_ACTIVATE_FOLLOWING",
 						export = true,
@@ -790,7 +790,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(44547, {	-- Isle Hopping
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered after placing your 2nd Pillar of Creation in Dalaran after the NPC dialogue has finished, if you have not quested in Legion zones other than the ones you've chosen previously.\n\nIf your Scouting Map is gone and/or you cannot complete this quest, you can Party Sync to pick up the quest 'Stormheim' from Archmage Landon at 30,40 in Stormheim to fulfil the quest requirements.",
 						constant = "THIS_QUEST_IS_OFFERED_AFTER_PLACING_YOUR_2ND",
 						export = true,
@@ -906,7 +906,7 @@ root(ROOTS.Zones, {
 					["lvl"] = 45,
 				}),
 				q(44549, {	-- Master of the Isles
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered after placing your 4th Pillar of Creation in Dalaran after the NPC dialogue has finished, if you have not quested in Legion zones other than the ones you've chosen previously.\n\nIf your Scouting Map is gone and/or you cannot complete this quest, you can Party Sync to pick up the quest 'Stormheim' from Archmage Landon at 30,40 in Stormheim to fulfil the quest requirements.",
 						constant = "THIS_QUEST_IS_OFFERED_AFTER_PLACING_YOUR_4TH",
 						export = true,
@@ -1002,7 +1002,7 @@ root(ROOTS.Zones, {
 					["classes"] = { ROGUE },
 				}),
 				q(44545, {	-- Pressing the Assault
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered after placing your 1st Pillar of Creation in Dalaran after the NPC dialogue has finished, if you have not quested in Legion zones other than the one you've chosen previously.\n\nIf your Scouting Map is gone and/or you cannot complete this quest, you can Party Sync to pick up the quest 'Stormheim' from Archmage Landon at 30,40 in Stormheim to fulfil the quest requirements.",
 						constant = "THIS_QUEST_IS_OFFERED_AFTER_PLACING_YOUR_1ST",
 						export = true,
@@ -1127,7 +1127,7 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 93538 },	-- Dariness the Learned
 				}),
 				q(44548, {	-- Scouring What Remains
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered after placing your 3rd Pillar of Creation in Dalaran after the NPC dialogue has finished, if you have not quested in Legion zones other than the ones you've chosen previously.\n\nIf your Scouting Map is gone and/or you cannot complete this quest, you can Party Sync to pick up the quest 'Stormheim' from Archmage Landon at 30,40 in Stormheim to fulfil the quest requirements.",
 						constant = "THIS_QUEST_IS_OFFERED_AFTER_PLACING_YOUR_3RD",
 						export = true,
@@ -1331,7 +1331,7 @@ root(ROOTS.Zones, {
 					["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },
 				}),
 				q(39733, {	-- The Lone Mountain
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The quest is automatically acquired when players choose Highmountain from their Command Map in their order hall.",
 						constant = "THE_QUEST_IS_AUTOMATICALLY_ACQUIRED_WHEN",
 						export = true,

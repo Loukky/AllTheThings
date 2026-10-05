@@ -774,7 +774,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						i(138111, {	-- Stormforged Grapple Launcher	// (TOY!) as of 11.2.5
 							-- #if BEFORE 11.2.5
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item can be safely deleted and you'll still be able to interact with the hooks.",
 								constant = "THIS_ITEM_CAN_BE_SAFELY_DELETED_AND_YOU_LL",
 								export = true,

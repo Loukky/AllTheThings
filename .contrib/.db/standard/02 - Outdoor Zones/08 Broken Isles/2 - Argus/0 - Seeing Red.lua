@@ -65,7 +65,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 77795 },	-- Scavenged Artifacts
 					["groups"] = {
 						i(208691, {	-- Argunite Cluster
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Rewarded from any Allies of Arzaal after the questline. Contains a few random items related to Argus.",
 								constant = "REWARDED_FROM_ANY_ALLIES_OF_ARZAAL_AFTER_THE",
 								export = true,

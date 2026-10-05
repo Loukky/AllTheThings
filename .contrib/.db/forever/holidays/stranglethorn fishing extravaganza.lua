@@ -20,7 +20,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(cre
 		tw = "荊棘谷釣魚大賽",
 	},
 }), {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "The Stranglethorn Fishing Extravaganza is a weekly fishing event held every Sunday in Stranglethorn Vale. There is a highly competitive fishing contest and a more casual rare fish turn-in for this event.",
 		constant = "THE_STRANGLETHORN_FISHING_EXTRAVAGANZA_IS_A",
 		export = true,

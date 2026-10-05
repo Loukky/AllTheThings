@@ -29,7 +29,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["lvl"] = 110,
 					["groups"] = {
 						i(141053, {	-- Technique: Glyph of Polymorphic Proportions (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The rare that drops this glyph is only available during the WQ The Arcway: Wandering Plague.",
 								constant = "THE_RARE_THAT_DROPS_THIS_GLYPH_IS_ONLY",
 								export = true,

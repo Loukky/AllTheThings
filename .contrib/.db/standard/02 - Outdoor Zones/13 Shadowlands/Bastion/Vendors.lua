@@ -81,7 +81,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 33.4, 36.4, BASTION },
 				["groups"] = {
 					i(180972, {	-- Pristine Vuline Pelt
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take this to Ta'lan the Antiquary in Oribos (The Broker's Den) |cffffffff(51.3, 43.0)|r.",
 							constant = "TAKE_THIS_TO_TA_LAN_THE_ANTIQUARY_IN_ORIBOS_THE",
 							export = true,

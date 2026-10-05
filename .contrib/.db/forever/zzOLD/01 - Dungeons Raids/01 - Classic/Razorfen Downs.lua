@@ -215,7 +215,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(27024, {	-- Partners in Crime
 					-- #if AFTER 6.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest '|cFFFFD700Blackthorn's Lieutenants|r' (33513).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU",
 						export = true,
@@ -267,7 +267,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(27009, {	-- The Coldbringer
 					-- #if AFTER 6.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest '|cFFFFD700The Ritual|r' (33514).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_2",
 						export = true,
@@ -351,7 +351,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					{ 48.0, 90.4, MAP.THE_BARRENS },
 					{ 48.6, 95.6, MAP.THE_BARRENS },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a rare that is not always present.",
 					constant = "THIS_IS_A_RARE_THAT_IS_NOT_ALWAYS_PRESENT",
 					export = true,
@@ -401,7 +401,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			o(385581, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {	-- Henry's Handbag (object)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Head to the Murder Pens area and look for hanging bag, recipe is inside.",
 					constant = "HEAD_TO_THE_MURDER_PENS_AREA_AND_LOOK_FOR",
 					export = true,
@@ -425,7 +425,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			})),
 			n(8696, bubbleDownSelf({ ["timeline"] = { REMOVED_6_0_2 } }, {	-- Henry Stern
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The only source of acquiring Goldthorn Tea.",
 					constant = "THE_ONLY_SOURCE_OF_ACQUIRING_GOLDTHORN_TEA",
 					export = true,
@@ -446,7 +446,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					recipe(13028, {	-- Goldthorn Tea
 						-- #if AFTER 6.0.2
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Goldthorn Tea will still tease us on our Unlearned tab until Blizzard brings Henry back, takes the recipe off the list, or gives us another way to obtain it.",
 							constant = "GOLDTHORN_TEA_WILL_STILL_TEASE_US_ON_OUR",
 							export = true,
@@ -543,7 +543,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(7354, {	-- Ragglesnout
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a rare spawn that is not always present.",
 					constant = "THIS_IS_A_RARE_SPAWN_THAT_IS_NOT_ALWAYS_PRESENT",
 					export = true,

@@ -419,7 +419,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["lvl"] = 40,
 				}),
 				q(3368, {	-- Suntara Stones (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Singed Letter will be on the ground after you finish escorting Dorius Stonetender.",
 						constant = "THE_SINGED_LETTER_WILL_BE_ON_THE_GROUND_AFTER",
 						export = true,

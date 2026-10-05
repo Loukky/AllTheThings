@@ -54,7 +54,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			n(QUESTS, {
 				------ RENOWN 8 ------
 				q(69869, {	-- A Cataloger's Paradise
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns Anywhere on Dragon Isles.",
 						constant = "SPAWNS_ANYWHERE_ON_DRAGON_ISLES",
 						export = true,

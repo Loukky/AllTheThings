@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.MID, {
 	header(HEADERS.Achievement, 62189, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {	-- Mind-Seeker
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",
 			constant = "SWIM_OUT_TO_THE_COORDINATES_THEN_FURTHER_OUT",
 			export = true,
@@ -25,7 +25,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.MID, {
 		["coord"] = { 15.0, 90.0, VASHJIR_ABYSSAL_DEPTHS },
 		["groups"] = {	-- Everything here is in a mapless place.
 			n(256536, {	-- Anakron <Mind-Seeker>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",
 					constant = "AROUND_THE_ROOM_ARE_DISPLAYS_TRACKING_VARIOUS",
 					export = true,

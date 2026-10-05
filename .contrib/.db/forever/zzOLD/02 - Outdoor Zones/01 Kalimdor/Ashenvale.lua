@@ -412,7 +412,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 							["cr"] = 3986,	-- Sarilus Foulborne
 						}),
 						i(5816, {	-- Light of Elune
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Single use. Save this for AQ40 or Naxx.",
 								constant = "SINGLE_USE_SAVE_THIS_FOR_AQ40_OR_NAXX",
 								export = true,
@@ -595,7 +595,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 								{ "i", 5519 },	-- Iron Pommel
 								{ "o", 19021 },	-- Rusty Chest
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "When you kill a slime, it can drop a Rusty Chest which can contain this item.",
 								constant = "WHEN_YOU_KILL_A_SLIME_IT_CAN_DROP_A_RUSTY_CHEST",
 								export = true,
@@ -689,7 +689,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 						}),
 						objective(2, {	-- 0/1 Dartol's Rod of Transformation
 							["provider"] = { "i", 5462 },	-- Dartol's Rod of Transformation
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There's a trick to keep this item forever:\nBefore turning in the quest to Raene, destroy the item. Ask Raene for it back. Then turn in the quest. The item will be removed from your inventory. However, since you destroyed the first one, you can then use the Blizzard Item Restoration tool to get your destroyed rod back.",
 								constant = "THERE_S_A_TRICK_TO_KEEP_THIS_ITEM_FOREVER",
 								export = true,
@@ -1493,7 +1493,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				i(1351, {	-- Fingerbone Bracers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item is only naturally accessible to Alliance players due to the allegiance of the creatures that drop this item.",
 						constant = "THIS_ITEM_IS_ONLY_NATURALLY_ACCESSIBLE_TO",
 						export = true,

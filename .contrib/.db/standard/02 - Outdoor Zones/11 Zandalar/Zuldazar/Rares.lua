@@ -173,7 +173,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(149147, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_0 } }, {	-- N'chala the Egg Thief
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "N'chala pats between the coordinates.",
 					constant = "N_CHALA_PATS_BETWEEN_THE_COORDINATES",
 					export = true,

@@ -30,7 +30,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 				}),
 				ach(19787, {	-- Clued In
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Look for glowing objects on the floor during Research World Quests, or find them at The Big Dig when someone has the relevant task.",
 						constant = "LOOK_FOR_GLOWING_OBJECTS_ON_THE_FLOOR_DURING",
 						export = true,
@@ -83,7 +83,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				ach(19792, {	-- Just One More Thing
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Each related Research World Quest needs to be completed 3 times to get credit for one criteria.",
 						constant = "EACH_RELATED_RESEARCH_WORLD_QUEST_NEEDS_TO_BE",
 						export = true,
@@ -129,7 +129,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}),
 				ach(19788),	-- Tome Comber
 				ach(19786, {	-- When a Rock is Just a Rock
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found during Excavation World Quests, look for a rock near dirt piles or geysers.",
 						constant = "CAN_BE_FOUND_DURING_EXCAVATION_WORLD_QUESTS",
 						export = true,

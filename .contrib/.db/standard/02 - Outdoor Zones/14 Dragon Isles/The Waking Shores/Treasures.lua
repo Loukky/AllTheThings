@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(379296, {	-- Broken Banding
 				["coord"] = { 81.0, 30.4, THE_WAKING_SHORES },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found on the right foot of the statue.",
 					constant = "FOUND_ON_THE_RIGHT_FOOT_OF_THE_STATUE",
 					export = true,
@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(381071, {	-- Box of Rocks
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can almost be anywhere in the zone, won't show up via treasure tracking.",
 					constant = "CAN_ALMOST_BE_ANYWHERE_IN_THE_ZONE_WON_T_SHOW",
 					export = true,
@@ -66,7 +66,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(195939, {	-- Bubble Drifter
 				["coord"] = { 40.6, 41.2, THE_WAKING_SHORES },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use nearby Fragrant Plant to attract Bubble Drifter.",
 					constant = "USE_NEARBY_FRAGRANT_PLANT_TO_ATTRACT_BUBBLE",
 					export = true,
@@ -93,7 +93,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			o(380654, {	-- Dead Man's Chestplate
 				["coord"] = { 69.3, 46.5, THE_WAKING_SHORES },
 				["questID"] = 70346,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This treasure will drop the corresponding chest piece for your armor class. Players will have to collect it four times total for all appearances.",
 					constant = "THIS_TREASURE_WILL_DROP_THE_CORRESPONDING_CHEST",
 					export = true,
@@ -120,7 +120,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(380518, {	-- Dislodged Dragoneye
 				["coord"] = { 60.5, 57.8, THE_WAKING_SHORES },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Behind a pile of stones underneath the dragon statue.",
 					constant = "BEHIND_A_PILE_OF_STONES_UNDERNEATH_THE_DRAGON",
 					export = true,
@@ -201,7 +201,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(385022, {	-- Eroded Fossil
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available when world quest |cffffffffBrightblade's Bones|r (66070) is active.",
 					constant = "ONLY_AVAILABLE_WHEN_WORLD_QUEST",
 					export = true,
@@ -259,7 +259,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(375668, {	-- Misty Treasure Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Stand on the Handhold sticking out of the waterfall and walk forward to find this treasure (It's very hidden behind the water).",
 					constant = "STAND_ON_THE_HANDHOLD_STICKING_OUT_OF_THE",
 					export = true,
@@ -329,7 +329,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(380648, {	-- Odd Book
 				["sourceQuests"] = { 70134 },	-- Memories
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the Obsidian Citadel.",
 					constant = "UNDERNEATH_THE_OBSIDIAN_CITADEL",
 					export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(380430, {	-- Tail Fragment
 				["coord"] = { 58.2, 68.3, THE_WAKING_SHORES },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the tail of the dragon statue.",
 					constant = "UNDERNEATH_THE_TAIL_OF_THE_DRAGON_STATUE",
 					export = true,

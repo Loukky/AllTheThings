@@ -31,7 +31,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61863, {	-- Adventurer: Apolon
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 27.",
 										constant = "REQUIRES_RENOWN_27",
 										export = true,
@@ -57,7 +57,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(64463, {	-- Adventurer: Auric Spiritguide
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 71.",
 										constant = "REQUIRES_RENOWN_71",
 										export = true,
@@ -83,7 +83,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61864, {	-- Adventurer: Bron
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 33.",
 										constant = "REQUIRES_RENOWN_33",
 										export = true,
@@ -118,7 +118,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(64462, {	-- Adventurer: Cromas the Mystic
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 62.",
 										constant = "REQUIRES_RENOWN_62",
 										export = true,
@@ -144,7 +144,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61865, {	-- Adventurer: Disciple Kosmas
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 38.",
 										constant = "REQUIRES_RENOWN_38",
 										export = true,
@@ -170,7 +170,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(64461, {	-- Adventurer: Hermestes
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 44.",
 										constant = "REQUIRES_RENOWN_44",
 										export = true,
@@ -196,7 +196,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61859, {	-- Adventurer: Nemea
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 4. Must choose Nemea in the Pride or Unit quest to get this follower.",
 										constant = "REQUIRES_RENOWN_4_MUST_CHOOSE_NEMEA_IN_THE",
 										export = true,
@@ -227,7 +227,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61860, {	-- Adventurer: Pelodis
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 4. Must choose Pelodis in the Pride or Unit quest to get this follower.",
 										constant = "REQUIRES_RENOWN_4_MUST_CHOOSE_PELODIS_IN_THE",
 										export = true,
@@ -258,7 +258,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61861, {	-- Adventurer: Sika
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 12.",
 										constant = "REQUIRES_RENOWN_12",
 										export = true,
@@ -288,7 +288,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 42.6, 53.1, ARCHONS_RISE },
 								}),
 								q(63068, {	-- Settling Disputes
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires Renown 4.",
 										constant = "REQUIRES_RENOWN_4",
 										export = true,

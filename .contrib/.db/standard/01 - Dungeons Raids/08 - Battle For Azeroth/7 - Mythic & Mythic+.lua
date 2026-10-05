@@ -48,7 +48,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 		n(AZERITE_ESSENCES, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0, REMOVED_9_0_1 } }, {
 			i(169491),	-- Focused Life Anima
 			i(168399, {	-- Fetish of the Dark Caverns (Rank 1)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completing a +4 Mythic and looting the chest at the end of the dungeon.\n",
 					constant = "REQUIRES_COMPLETING_A_4_MYTHIC_AND_LOOTING_THE",
 					export = true,
@@ -68,7 +68,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 				}),
 			}),
 			i(168558, {	-- Fetish of the Deep Dungeons (Rank 2)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completing a +7 Mythic and looting the chest at the end of the dungeon.\n",
 					constant = "REQUIRES_COMPLETING_A_7_MYTHIC_AND_LOOTING_THE",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 				}),
 			}),
 			i(168559, {	-- Fetish of the Hidden Labyrinths (Rank 3)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The amount of |cff9832dfFocused Life Anima|r you receive from your weekly chest varies depending on the highest Mythic+ you completed during the previous week.\n\n+2 to +3 - 1\n+4 to +6 - 2\n+7 to +9 - 3\n+10 to +14 - 5\n+15 or higher - 8\n\nIf you have already earned a Rank 3 Mythic+ essence, you will receive more Anima in your weekly chest.\n",
 					constant = "THE_AMOUNT_OF_CFF9832DFFOCUSED_LIFE_ANIMA_R_YOU",
 					export = true,

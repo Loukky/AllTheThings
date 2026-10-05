@@ -39,7 +39,7 @@ root(ROOTS.Zones, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(58989, {	-- Runeforging 101
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your Death Gate after finishing previous quest, Darion will be in Acherus.",
 						constant = "USE_YOUR_DEATH_GATE_AFTER_FINISHING_PREVIOUS",
 						export = true,

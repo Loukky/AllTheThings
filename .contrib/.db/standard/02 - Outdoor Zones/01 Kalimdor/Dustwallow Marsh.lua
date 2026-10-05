@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				["groups"] = {
 					pet(385),	-- Mouse (PET!)
 					pet(489, {	-- Spawn of Onyxia (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the area around Onyxia's Lair in Dustwallow Marsh.",
 							constant = "CAN_BE_FOUND_IN_THE_AREA_AROUND_ONYXIA_S_LAIR",
 							export = true,
@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66436, {	-- Grazzle the Great <Master Pet Tamer>
 					["coord"] = { 53.8, 74.8, DUSTWALLOW_MARSH },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nGrazzle's pets are level 14 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Dragonkin - see above.\n3. Dragonkin - see above.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_THOUGH_ALLIANCE",
 						export = true,
@@ -1738,7 +1738,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13826, {	-- Nat Pagle, Angler Extreme
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you deleted your fishing pole from the old version of the quest, you can get a new one by completing this quest.",
 						constant = "IF_YOU_DELETED_YOUR_FISHING_POLE_FROM_THE_OLD",
 						export = true,
@@ -3993,7 +3993,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				i(12718, {	-- Plans: Runic Breastplate (RECIPE!)
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This recipe has a very low droprate & is recommend to farm from Spiny Rock Crabs, but can also drop from any other creature in the zone. |cFFE50D12WARNING:|r This recipe binds to your character when looted.",
 						constant = "THIS_RECIPE_HAS_A_VERY_LOW_DROPRATE_IS",
 						export = true,

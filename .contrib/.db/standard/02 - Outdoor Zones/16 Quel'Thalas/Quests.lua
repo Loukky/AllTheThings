@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH } }, {
 	n(QUESTS, {
 		q(94993, {	-- Adventuring in Midnight (Horde only?)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Pops up on Alts the first time you enter Sanctum of Light and leads you to the Scouting Map so you can chose where to start your Campaign.",
 				constant = "POPS_UP_ON_ALTS_THE_FIRST_TIME_YOU_ENTER",
 				export = true,
@@ -367,7 +367,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 			["coord"] = { 55.7, 70.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 		}),
 		q(91854, {	-- Deepening Shadows
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available after completing one of the optional zones after Eversong's campaign.",
 				constant = "AVAILABLE_AFTER_COMPLETING_ONE_OF_THE_OPTIONAL",
 				export = true,
@@ -887,7 +887,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 					["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(90876, {	-- Reluctant Hand
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available after accepting 'A Path Forward' (92689).",
 						constant = "BECOMES_AVAILABLE_AFTER_ACCEPTING_A_PATH",
 						export = true,
@@ -947,7 +947,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 				------ Stay awhile and listen ------
 				hqt(92802, {	-- Stay awhile and listen: Arator
 					["name"] = "Stay awhile and listen: Arator",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after the cutscene during 'From Darkness, Light' (90867).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_THE_CUTSCENE",
 						export = true,

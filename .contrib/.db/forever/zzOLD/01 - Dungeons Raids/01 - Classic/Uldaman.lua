@@ -27,7 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(PROFESSIONS, {
 				prof(ENCHANTING, {
 					n(11073, {	-- Annora <Master Enchanter>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To get the Annora to spawn, you'll have to kill all scorpions first.",
 							constant = "TO_GET_THE_ANNORA_TO_SPAWN_YOU_LL_HAVE_TO_KILL",
 							export = true,
@@ -445,7 +445,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(2278, {	-- The Platinum Discs (1/3)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Right click on The Discs of Norgannon after defeating Archaedas to start this quest.",
 						constant = "RIGHT_CLICK_ON_THE_DISCS_OF_NORGANNON_AFTER",
 						export = true,
@@ -654,7 +654,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(TREASURES, {
 				o(141979, {	-- Ancient Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the Hall of the Crafters after you defeat Archaedas. Contains 2-3 items.",
 						constant = "FOUND_IN_THE_HALL_OF_THE_CRAFTERS_AFTER_YOU",
 						export = true,
@@ -679,7 +679,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				o(123329, {	-- Baelog's Chest
 					i(7740, {	-- Gni'kiv Medallion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use this item along with the Shaft of Tsol to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should ask whoever loots the Shaft of Tsol from Revelosh to trade it to you.",
 							constant = "USE_THIS_ITEM_ALONG_WITH_THE_SHAFT_OF_TSOL_TO",
 							export = true,
@@ -701,7 +701,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 				}),
 				o(125477, {	-- Conspicuous Urn
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In the room with the Lost Dwarves next to the sealed door opposite to the dwarves on top of the stairs. You will need to kill some stealthed Troggs to get there.",
 						constant = "IN_THE_ROOM_WITH_THE_LOST_DWARVES_NEXT_TO_THE",
 						export = true,
@@ -724,7 +724,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				o(113757, {	-- Shadowforge Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "WARNING: Defeat the Galgann Firehammer first as looting this chest will spawn two dwarven Ambushers.\n\nNOTE: This trigger only occurs once per instance lockout.",
 						constant = "WARNING_DEFEAT_THE_GALGANN_FIREHAMMER_FIRST_AS",
 						export = true,
@@ -747,7 +747,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(7733, {	-- Staff of Prehistoria
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use this on the Keystone in the digsite that has the miniature city to open the door to Ironaya.\n\nThis is a reference to the Raiders of the Lost Ark.",
 						constant = "USE_THIS_ON_THE_KEYSTONE_IN_THE_DIGSITE_THAT",
 						export = true,
@@ -772,7 +772,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				o(142088, {	-- Tablet of Will
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located in the same room as Galgann Firehammer.",
 						constant = "LOCATED_IN_THE_SAME_ROOM_AS_GALGANN_FIREHAMMER",
 						export = true,
@@ -795,7 +795,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				o(131474, {	-- The Discs of Norgannon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to the Lore Keeper until he has finished talking and then pick up the quest from The Discs of Norgannon again.",
 						constant = "TALK_TO_THE_LORE_KEEPER_UNTIL_HE_HAS_FINISHED",
 						export = true,
@@ -844,7 +844,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #else
 			n(6906, {	-- Baelog
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This dwarf is named after the French Archiologist, René Belloq, from the Raiders of the Lost Ark.",
 					constant = "THIS_DWARF_IS_NAMED_AFTER_THE_FRENCH",
 					export = true,
@@ -894,7 +894,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			n(6912, {	-- Remains of a Paladin
 				-- #if AFTER 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This dead Paladin was central in now removed dungeon quests, and remains abandoned on the ground without any purpose.",
 					constant = "THIS_DEAD_PALADIN_WAS_CENTRAL_IN_NOW_REMOVED",
 					export = true,
@@ -921,7 +921,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["creatureID"] = 6910,
 				["groups"] = {
 					i(7741, {	-- The Shaft of Tsol
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use this item along with the Gni'kiv Medallion to create the Staff of Prehistoria required to open the door to Ironaya.\n\nYou should trade this to the person that looted the Gni'kiv Medallion.",
 							constant = "USE_THIS_ITEM_ALONG_WITH_THE_GNI_KIV_MEDALLION",
 							export = true,

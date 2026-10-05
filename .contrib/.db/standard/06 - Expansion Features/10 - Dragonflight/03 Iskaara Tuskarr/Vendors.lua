@@ -52,7 +52,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}},
 			}),
 			n(186564, {	-- Jiq
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Runs around in the village.",
 					constant = "RUNS_AROUND_IN_THE_VILLAGE",
 					export = true,

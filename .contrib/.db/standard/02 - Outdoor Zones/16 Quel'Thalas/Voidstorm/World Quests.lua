@@ -102,7 +102,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 35.8, 70.4, MAP.MIDNIGHT.VOIDSTORM },
 					["groups"] = {
 						ach(62105, {	-- Lysikas Would Be Proud
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This achievement has a lot of bugs. Keep reporting to blizzard if you dont get it.",
 								constant = "THIS_ACHIEVEMENT_HAS_A_LOT_OF_BUGS_KEEP",
 								export = true,

@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(236849, {	-- Greexit Coarsebub
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Sells different cosmetics depending on which cartel you have a contract with.",
 					constant = "SELLS_DIFFERENT_COSMETICS_DEPENDING_ON_WHICH",
 					export = true,

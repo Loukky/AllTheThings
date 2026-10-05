@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 50,
 				}),
 				q(2751, {	-- Barbaric Battlements
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available at Blacksmithing skill level 140 when character level requirement is met.",
 						constant = "BECOMES_AVAILABLE_AT_BLACKSMITHING_SKILL_LEVEL",
 						export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 32,
 					["groups"] = {
 						i(7979, {	-- Plans: Barbaric Iron Breastplate (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This recipe can be sold on the Neutral Auction House to Alliance Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Horde Blacksmiths, this recipe is not soulbound and can be mailed to Horde alts.",
 								constant = "THIS_RECIPE_CAN_BE_SOLD_ON_THE_NEUTRAL_AUCTION",
 								export = true,
@@ -471,7 +471,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 20,
 				}),
 				q(2754, {	-- Horns of Frenzy
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This questline begins with the quest 'Barbaric Battlements', which requires Blacksmithing skill level 140.\n\nPlans: Solid Iron Maul is a 1-in-stock recipe that can either be bought from Muuran at Ghost Walker Post in Desolace, or the Alliance-only vendor Jannos Ironwill at Refuge Pointe in Arathi Highlands.",
 						constant = "THIS_QUESTLINE_BEGINS_WITH_THE_QUEST_BARBARIC",
 						export = true,
@@ -508,7 +508,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(2755, {	-- Joys of Omosh
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This questline begins with the quest 'Barbaric Battlements', which requires Blacksmithing skill level 140.",
 						constant = "THIS_QUESTLINE_BEGINS_WITH_THE_QUEST_BARBARIC_2",
 						export = true,
@@ -816,7 +816,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(7660, {	-- Wolf Swapping - Arctic Wolf
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you are one of the poor unfortunate souls that turned in your unique mount for one of the generic mounts I'm so sorry.",
 						constant = "IF_YOU_ARE_ONE_OF_THE_POOR_UNFORTUNATE_SOULS",
 						export = true,
@@ -941,7 +941,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(12793, {	-- Brave Stonehide <Officer Accessories Quartermaster>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found within the Hall of Legends.",
 						constant = "FOUND_WITHIN_THE_HALL_OF_LEGENDS",
 						export = true,
@@ -969,7 +969,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(3367, {	-- Felika <Trade Supplies>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This NPC walks between the Valley of Wisdom and Valley of Strength on the right path.",
 						constant = "THIS_NPC_WALKS_BETWEEN_THE_VALLEY_OF_WISDOM_AND",
 						export = true,
@@ -1174,7 +1174,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 				n(8122, {	-- Kizzak Sparks
 					["coord"] = { 57.8, 56.6, MAP.ORGRIMMAR },
 					["races"] = HORDE_ONLY,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This NPC is only available on July 4th (US) or September 30th (EU).",
 						constant = "THIS_NPC_IS_ONLY_AVAILABLE_ON_JULY_4TH_US_OR",
 						export = true,
@@ -2076,7 +2076,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(8404, {	-- Xan'tish <Snake Vendor>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This NPC walks around in a circle in the Valley of Spirits.",
 						constant = "THIS_NPC_WALKS_AROUND_IN_A_CIRCLE_IN_THE_VALLEY",
 						export = true,

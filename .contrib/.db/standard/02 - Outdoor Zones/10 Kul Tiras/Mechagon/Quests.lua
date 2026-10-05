@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 		n(QUESTS, {
 			n(REWARDS, {
 				i(246697, {	-- Self-Assembling Homeware Kit
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Randomly can replace the one of the rewards of between 3-4 of the island's daily quests, with some exceptions.\nUse /attwq to quickly check all daily quests visible on the map.",
 						constant = "RANDOMLY_CAN_REPLACE_THE_ONE_OF_THE_REWARDS_OF",
 						export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55688, {	-- A Growing Mystery
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is only available if you pick up the clue from the |cFFFfffffDirt Pile|r while on |cFFefc400Clues Abound|r.",
 					constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_PICK_UP_THE",
 					export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["groups"] = { i(169391) },	-- Bubble-eyed Rolly (QI!)
 			}),
 			q(55672, {	-- A Historical Mess
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is only available if you pick up the clue from the |cFFffffffWaterlogged Scroll Case|r while on |cFFefc400Clues Abound|r.",
 					constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_PICK_UP_THE_2",
 					export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56142, {	-- Adapt, Improve, Overcome!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available in the alternate timeline. Speak to |cFFFFD700Chromie|r when she is in town.",
 					constant = "ONLY_AVAILABLE_IN_THE_ALTERNATE_TIMELINE_SPEAK",
 					export = true,
@@ -242,7 +242,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(55658, {	-- Clues Abound
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Depending on which clue you pick up, the follow-ups to this quest fulfill different achievement criteria for |cFFf0ef00Outside Influences|r.\n\n|cFFffffffDirt Pile|r > |cFFefc400A Growing Mystery|r\n|cFFffffffHearthstone Card|r > |cFFefc400Time for Heroics|r > |cFFefc400Deck 'Em|r\n|cFFffffffWaterlogged Scroll Case|r > |cFFefc400A Historical Mess|r\n\nWhile on any of the follow-up quests, |cFFcc4d38Congealed Oil|r has a chance to drop an item that will start |cFFefc400Pirates? I Hate Those Guys!|r and |cFFcc4d38Toxic Lurkers|r have a chance to drop an item that will start |cFFefc400Strange Discovery|r.\n",
 					constant = "DEPENDING_ON_WHICH_CLUE_YOU_PICK_UP_THE_FOLLOW",
 					export = true,
@@ -269,7 +269,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					i(168223),	-- Old Parchment (QI!)
 					i(168235),	-- Rusty Knife (QI!)
 					i(168256, {	-- Night Elf Ring
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to be on either |cFFFFD700A Growing Mytery|r, |cFFFFD700Time for Heroics|r, |cFFFFD700Deck 'Em|r or |cFFFFD700A Historical Mess|r to get this item.",
 							constant = "YOU_NEED_TO_BE_ON_EITHER_CFFFFD700A_GROWING",
 							export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56410, {	-- Discs of Norgannon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The |cFF0070ddCorrupted Data Disc|r is the quest item for Discs of Norgannon, but on the day the quest is up you can loot the other four items. They each have a daily cooldown, so you can use them to summon 4 Data Anomalies, abandon the quests, and use the items again the next day.\n\nIf the disc can summon more than one Data Anomaly, they share a daily lockout and you can only loot one of the two each day.\n",
 					constant = "THE_CFF0070DDCORRUPTED_DATA_DISC_R_IS_THE_QUEST",
 					export = true,
@@ -450,7 +450,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["sym"] = {{"select","itemID",151451}},	-- Strip-Thorn Gauntlets
 					}),
 					i(169591, {	-- Cracked Numeric Cylinder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dropped by trogg mobs once '|cffffffffDiscs of Norgannon|r' has been completed the same day.",
 							constant = "DROPPED_BY_TROGG_MOBS_ONCE_CFFFFFFFFDISCS_OF",
 							export = true,
@@ -470,7 +470,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						}),
 					}),
 					i(169593, {	-- Large Storage Fragment
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dropped by mobs in Junkwatt Depot once '|cffffffffDiscs of Norgannon|r' has been completed the same day.\n\nThis appears to have a lower droprate than the other three discs.",
 							constant = "DROPPED_BY_MOBS_IN_JUNKWATT_DEPOT_ONCE",
 							export = true,
@@ -676,7 +676,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							i(167795),	-- Paint Vial: Copper Trim
 							i(169848),	-- Azeroth Mini Pack: Bondo's Yard
 							i(169594, {	-- Rust Covered Disc
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Contained in Recycling Requisitions (usually during 'Rainy' weather) once '|cffffffffDiscs of Norgannon|r' has been completed the same day.",
 									constant = "CONTAINED_IN_RECYCLING_REQUISITIONS_USUALLY",
 									export = true,
@@ -697,7 +697,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 								["sourceQuest"] = 56410,	-- Discs of Norgannon
 							}),
 							i(169595, {	-- Scorched Data Disc
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Contained in Recycling Requisitions (usually during 'Sunny' weather) once '|cffffffffDiscs of Norgannon|r' has been completed the same day.",
 									constant = "CONTAINED_IN_RECYCLING_REQUISITIONS_USUALLY_2",
 									export = true,
@@ -750,7 +750,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 				["groups"] = {
 					i(169381, {	-- OOX-35/MG (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When the quest |cFFFFD700My Chickens are Not for Eating!|r is active, there are Dismantled OOX-35s in the zone that can be repaired for 25 spare parts, rewarding the pet.",
 							constant = "WHEN_THE_QUEST_CFFFFD700MY_CHICKENS_ARE_NOT_FOR",
 							export = true,
@@ -778,7 +778,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["coord"] = { 59.1, 55.1, MECHAGON },
 			}),
 			q(56756, {	-- My Punkin, the Action Figure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Once you are exalted with Rustbolt Resistance, this quest is awarded after completing the Toys Like Us daily.",
 					constant = "ONCE_YOU_ARE_EXALTED_WITH_RUSTBOLT_RESISTANCE",
 					export = true,
@@ -829,7 +829,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					i(168184),	-- Rare Metal (QI!)
 					i(168183),	-- Rare Metal Collector (QI!)
 					i(168204, {	-- Small Metal Box
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Small Metal Boxes can be collected when using the Rare Metal Collector.",
 							constant = "SMALL_METAL_BOXES_CAN_BE_COLLECTED_WHEN_USING",
 							export = true,
@@ -881,7 +881,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56746, {	-- Our Direct Line
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Quest is offered once you have completed |cFFFFD700Other Interests|r dailies three times.",
 					constant = "QUEST_IS_OFFERED_ONCE_YOU_HAVE_COMPLETED",
 					export = true,
@@ -1203,7 +1203,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56131, {	-- Security First
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "One-time completion per character.",
 					constant = "ONE_TIME_COMPLETION_PER_CHARACTER",
 					export = true,
@@ -1247,7 +1247,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(56740, {	-- S.P.A.R.E. Crates
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Quest is available if you have 250 Spare Parts in your bag",
 					constant = "QUEST_IS_AVAILABLE_IF_YOU_HAVE_250_SPARE_PARTS",
 					export = true,
@@ -1274,7 +1274,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["isDaily"] = true,
 			}),
 			q(56501, {	-- Taking the Air Out
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available during Unprofitable Ventures.",
 					constant = "ONLY_AVAILABLE_DURING_UNPROFITABLE_VENTURES",
 					export = true,
@@ -1417,7 +1417,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["requireSkill"] = FISHING,
 			}),
 			q(55717, {	-- Time for Heroics
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is only available if you pick up the clue from the |cFFffffffHearthstone Card|r while on |cFFefc400Clues Abound|r.",
 					constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_PICK_UP_THE_3",
 					export = true,
@@ -1526,7 +1526,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["repeatable"] = true,	-- repeatable when the tower is up to craft filled energy cells
 			}),
 			q(55979, {	-- Iteration is Key
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You do not lose your Ub3r-Spanner while completing this quest, you simply need to have it in your inventory.",
 					constant = "YOU_DO_NOT_LOSE_YOUR_UB3R_SPANNER_WHILE",
 					export = true,

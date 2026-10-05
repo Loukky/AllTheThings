@@ -136,7 +136,7 @@ local SARTH_10MAN_LOOT = d(DIFFICULTY.LEGACY_RAID.PLAYER10_NORMAL, {
 			i(40430),	-- Majestic Dragon Figurine
 			i(43345),	-- Dragon Hide Bag
 			i(43347, {	-- Satchel of Spoils
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Contains gold.",
 					constant = "CONTAINS_GOLD",
 					export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(REVENDRETH, {
 		n(SPECIAL, {
 			n(181660, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Lost Soul (Chicken)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Gather the |cFFFFFFFFSpectral Feed|r, located at |cFFFFFFFF63.75, 61.69|r in Revendreth. This has roughly a 60 minute respawn, and is lootable by others shortly after being looted by one player.\nAfter, head to the Lost Soul located at 63.18, 42.76 in Revendreth. Use |cFFFFFFFF/chicken|r on the soul, then use the |cFFFFFFFFSpectral Feed|r from your Bag.\nThe soul may have multiple spawn points, or a separate respawn timer than the Feed, it is unknown. However, you can only see the Soul when you have the Feed in your bags.",
 					constant = "GATHER_THE_CFFFFFFFFSPECTRAL_FEED_R_LOCATED_AT",
 					export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["lockCriteria"] = { 1, "spellID", 339588 },
 				["DisablePartySync"] = true,
 			}, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Enable quest tracking to see all the steps.\n\nTo get Blanchy's Reins, you must interact with Dead Blanchy once a day for 6 days. On each day, you must have a specific item. You can gather all the items in advance. You will need to visit Revendreth, Westfall, and take a detour to either Ardenweald or Bastion.\n\nBlanchy spawns around |cFFFFFFFF63.1, 43.1|r in Revendreth. Similar to the Friendly Alpaca in Uldum, anyone can interact with Blanchy for a small window, roughly 5 minutes, and then she will despawn for 1 to 2 hours.",
 					constant = "ENABLE_QUEST_TRACKING_TO_SEE_ALL_THE_STEPS_TO",
 					export = true,
@@ -58,7 +58,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isDaily"] = true,
 				["groups"] = {
 					header(HEADERS.Item, 182581, {	-- Handful of Oats
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 1: Collect 8 |cFFFFFFFFHandfuls of Oats|r. They can be found in |cFFFFFFFFSacks of Oats|r in any of the farmland in the northern half of Westfall — Jansen Stead, Furlbrow's Pumpkin Farm, Saldean's Farm, and the Molsen Farm.\n\nThese can likely be found in more locations than are provided. Check by fences, around the bases of trees, and near carts. They do not sparkle, so they can be difficult to spot.",
 							constant = "DAY_1_COLLECT_8_CFFFFFFFFHANDFULS_OF_OATS_R",
 							export = true,
@@ -105,7 +105,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["cost"] = { { "i", 182581, 8 } },	-- 8x Handful of Oats
 					}),
 					header(HEADERS.Item, 182585, {	-- Grooming Brush
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 2: Borrow 1 |cFFFFFFFFGrooming Brush|r from Snickersnee in Darkhaven.",
 							constant = "DAY_2_BORROW_1_CFFFFFFFFGROOMING_BRUSH_R_FROM",
 							export = true,
@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["cost"] = { { "i", 182581, 1 } },	-- 1x Grooming Brush
 					}),
 					header(HEADERS.Item, 182595, {	-- Sturdy Horseshoe
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 3: Collect 4 |cFFFFFFFFSturdy Horseshoes|r. They can be found scattered around roads in Revendreth. Unlike the Sacks of Oats, these sparkle.",
 							constant = "DAY_3_COLLECT_4_CFFFFFFFFSTURDY_HORSESHOES_R",
 							export = true,
@@ -161,7 +161,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["cost"] = { { "i", 182595, 1 } },	-- 4x Sturdy Horseshoe
 					}),
 					header(HEADERS.Item, 182599, {	-- Bucket of Clean Water
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 4: Pick up the |cFFFFFFFFEmpty Water Bucket|r in Revendreth, and fill it in either Bastion or Ardenweald.",
 							constant = "DAY_4_PICK_UP_THE_CFFFFFFFFEMPTY_WATER_BUCKET_R",
 							export = true,
@@ -185,7 +185,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["cost"] = { { "i", 182599, 1 } },	-- 1x Bucket of Clean Water
 					}),
 					header(HEADERS.Item, 182597, {	-- Comfortable Saddle Blanket
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 5: Purchase 1 |cFFFFFFFFComfortable Saddle Blanket|r from Ta'tru in Revendreth.\n\nNOTE: This item has a varying cost depending on the week!",
 							constant = "DAY_5_PURCHASE_1_CFFFFFFFFCOMFORTABLE_SADDLE",
 							export = true,
@@ -209,7 +209,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["cost"] = { { "i", 182597, 1 } },	-- 1x Comfortable Saddle Blanket
 					}),
 					header(HEADERS.Item, 179271, {	-- Dredhollow Apple
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Day 6: Purchase 3 |cFFFFFFFFDredhollow Apples|r from either Mims or Slabchop in Revendreth.",
 							constant = "DAY_6_PURCHASE_3_CFFFFFFFFDREDHOLLOW_APPLES_R",
 							export = true,

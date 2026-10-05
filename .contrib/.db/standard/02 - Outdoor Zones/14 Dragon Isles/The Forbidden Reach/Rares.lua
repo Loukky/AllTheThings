@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				},
 			}),
 			n(200610, {	-- Duzalgor <Guardian of the Noxious Brood>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside The Support Creche.",
 					constant = "INSIDE_THE_SUPPORT_CRECHE",
 					export = true,
@@ -115,7 +115,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				},
 			}),
 			n(200537, {	-- Gahz'raxes
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In an underwater Cave. Western waypoint is the entrance.",
 					constant = "IN_AN_UNDERWATER_CAVE_WESTERN_WAYPOINT_IS_THE",
 					export = true,
@@ -190,7 +190,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				},
 			}),
 			n(203353, {	-- Loot Specialist <Venture Co. Acquisitions>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can spawn anywhere on the isle.",
 					constant = "CAN_SPAWN_ANYWHERE_ON_THE_ISLE",
 					export = true,
@@ -252,7 +252,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				},
 			}),
 			n(200978, {	-- Pyrachniss
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the War Creche.",
 					constant = "INSIDE_THE_WAR_CRECHE",
 					export = true,
@@ -337,7 +337,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 				},
 			}),
 			n(200911, {	-- Volcanakk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The left coordinates is the entrance point to the cave, the mob is in the middle of the cave.",
 					constant = "THE_LEFT_COORDINATES_IS_THE_ENTRANCE_POINT_TO",
 					export = true,

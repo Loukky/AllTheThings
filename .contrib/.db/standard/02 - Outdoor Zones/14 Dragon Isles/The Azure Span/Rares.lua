@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			})),
 			n(193691, {	-- Fisherman Tinnak <Angered Ghost>
 				["minReputation"] = { FACTION_ISKAARA_TUSKARR, 7 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect the Broken Fishing Pole, Torn Fishing Net and Old Harpoon around to summon him.\n\nRewards you with 950 Reputation if you are summoner or 60 Reputation with a normal tag.",
 					constant = "COLLECT_THE_BROKEN_FISHING_POLE_TORN_FISHING",
 					export = true,
@@ -104,7 +104,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 73876,
 			}),
 			n(191356, {	-- Frostpaw
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be spawned when the three toys are present on the stump nearby- use the hammer at 58.6, 43.4.",
 					constant = "CAN_BE_SPAWNED_WHEN_THE_THREE_TOYS_ARE_PRESENT",
 					export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 73884,
 			}),
 			n(193201, {	-- Mucka the Raker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to fully kill this rare and not have her reset on you, you have to kill two Mucklings in the area. They like to get stuck in rocks.",
 					constant = "IN_ORDER_TO_FULLY_KILL_THIS_RARE_AND_NOT_HAVE",
 					export = true,
@@ -220,7 +220,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 74032,
 			}),
 			n(193238, {	-- Spellwrought Snowman
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect 10 arcane energy around the small mountain & after turning them in, click the Arcane Pedestal to summon the mob.",
 					constant = "COLLECT_10_ARCANE_ENERGY_AROUND_THE_SMALL",
 					export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				-- },
 			}),
 			n(193196, {	-- Trilvarus Loreweaver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect a little blue crystal called Singing Fragment north of Olias & bring it to him to summon Trilvarus.",
 					constant = "COLLECT_A_LITTLE_BLUE_CRYSTAL_CALLED_SINGING",
 					export = true,

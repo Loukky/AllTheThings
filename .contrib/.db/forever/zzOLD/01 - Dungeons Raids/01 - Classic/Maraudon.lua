@@ -85,7 +85,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(7066, {	-- Seed of Life
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest becomes available after you defeat Princess Theradras.",
 						constant = "THIS_QUEST_BECOMES_AVAILABLE_AFTER_YOU_DEFEAT",
 						export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["cr"] = 13718,	-- The Nameless Prophet
 						}),
 						i(17761, {	-- Gem of the First Khan
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Kolk is standing by the little room where you create the portal for Inner Maraudon, in the middle part.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
 								constant = "KOLK_IS_STANDING_BY_THE_LITTLE_ROOM_WHERE_YOU",
 								export = true,
@@ -190,7 +190,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(17762, {	-- Gem of the Second Kahn
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Gelk is located outside the portal of the purple path, hanging with snakes and rock elementals. He is almost just below the portal (use the stairs to get to him).\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
 								constant = "GELK_IS_LOCATED_OUTSIDE_THE_PORTAL_OF_THE",
 								export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(17763, {	-- Gem of the Third Kahn
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Magra is located outside the portal of the orange path. He is in the stairs area.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
 								constant = "MAGRA_IS_LOCATED_OUTSIDE_THE_PORTAL_OF_THE",
 								export = true,
@@ -240,7 +240,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(17764, {	-- Gem of the Fourth Kahn
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Maraudos is located inside the purple path of Maraudon, wandering not too far away from the entrance.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
 								constant = "MARAUDOS_IS_LOCATED_INSIDE_THE_PURPLE_PATH_OF",
 								export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						i(17765, {	-- Gem of the Fifth Kahn
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Veng is located inside the orange path of Maraudon, wandering by the end of the path.\n\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.",
 								constant = "VENG_IS_LOCATED_INSIDE_THE_ORANGE_PATH_OF",
 								export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["lvl"] = 41,
 					["groups"] = {
 						i(17191, {	-- Scepter of Celebras
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item is used to open the portal to the Inner Falls just after Celebras the Cursed in Maraudon.",
 								constant = "THIS_ITEM_IS_USED_TO_OPEN_THE_PORTAL_TO_THE",
 								export = true,
@@ -361,7 +361,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						objective(1, {	-- 0/8 Vylestem Vines healed
 							["provider"] = { "n", 13696 },	-- Noxxious Scion
 							["cost"] = { { "i", 17696, 1 } },	-- Filled Cerulean Vial
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the Filled Cerulean Vial on the vines and then kill the Scions that are spawned.",
 								constant = "USE_THE_FILLED_CERULEAN_VIAL_ON_THE_VINES_AND",
 								export = true,
@@ -381,7 +381,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 						}),
 						i(17696, {	-- Filled Cerulean Vial
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Stand in the Orange Pool of water just outside the Orange Path of Maraudon and use this item to create the filled vial.",
 								constant = "STAND_IN_THE_ORANGE_POOL_OF_WATER_JUST_OUTSIDE",
 								export = true,
@@ -657,7 +657,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, n(223264, {	-- Delirious Ancient
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns after killing Princess and the surrounding trash.",
 							constant = "SPAWNS_AFTER_KILLING_PRINCESS_AND_THE",
 							export = true,

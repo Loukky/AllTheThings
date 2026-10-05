@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				["groups"] = {
 					battlepets({
 						pet(417, {	-- Rat (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in MANY zones on Azeroth and Draenor, this place just seems to have the highest concentration of them.",
 								constant = "FOUND_IN_MANY_ZONES_ON_AZEROTH_AND_DRAENOR_THIS",
 								export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							})
 						}),
 						pet(458, {	-- Lost of Lordaeron (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found mostly around the Ruins of Lordaeron.",
 								constant = "FOUND_MOSTLY_AROUND_THE_RUINS_OF_LORDAERON",
 								export = true,
@@ -280,7 +280,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
 									["provider"] = { "i", 205951 },	-- Memory of a Troubled Acolyte
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Kneel (/kneel) at a Graveyard to gain a Meditation buff, then use the Rune to complete the quest.",
 										constant = "KNEEL_KNEEL_AT_A_GRAVEYARD_TO_GAIN_A_MEDITATION",
 										export = true,
@@ -1175,7 +1175,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 10.1.7
 			pickpocketing({
 				i(3330, {	-- Dargol's Hauberk
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be pickpocketed from Captain Dargol.",
 						constant = "CAN_BE_PICKPOCKETED_FROM_CAPTAIN_DARGOL",
 						export = true,
@@ -1780,7 +1780,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(24992, {	-- Escaped From Gilneas
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Quest is granted by getting in combat with (not by killing) a Cursed Darkhound while on or after completing |cFFFFD700Darkhound Pounding|r.",
 						constant = "QUEST_IS_GRANTED_BY_GETTING_IN_COMBAT_WITH_NOT",
 						export = true,
@@ -1989,7 +1989,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(25039, {	-- Have You Seen Anything Weird Out There?
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available if you abandon |cFFFFD700Escaped From Gilneas|r.",
 						constant = "AVAILABLE_IF_YOU_ABANDON_CFFFFD700ESCAPED_FROM",
 						export = true,
@@ -2101,7 +2101,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 				}),
 				q(14089, {	-- Learn to Ride in Tirisfal Glades
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Undead in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_10",
 						export = true,
@@ -2530,7 +2530,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(25030, {	-- The Haunted Mills
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the bottom of the |cFFFFD700Agamand Family Crypt|r.",
 						constant = "AT_THE_BOTTOM_OF_THE_CFFFFD700AGAMAND_FAMILY",
 						export = true,
@@ -2764,7 +2764,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						i(205183, {	-- Fel-Powered Artifact
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring the Unidentified Artifact back to the warlock trainer in the zone to receive the Powerless Artifact and then come back to acquire this item.\n\nBring it to Carendin Halgar in Undercity to receive the rune.",
 								constant = "BRING_THE_UNIDENTIFIED_ARTIFACT_BACK_TO_THE_2",
 								export = true,
@@ -2804,7 +2804,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				o(240624, {	-- Faerie Dragon Nest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rougly every 15 minutes, 7 Fey-Drunk Darters will group around the Giant Mushroom circle, one by one. They will channel the golden beams of light and begin singing their song.\nOnce event starts, loot the nest quickly, as the event does not run for long.",
 						constant = "ROUGLY_EVERY_15_MINUTES_7_FEY_DRUNK_DARTERS",
 						export = true,
@@ -3222,7 +3222,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			})),
 			-- #endif
 			n(141488, {	-- Zidormi
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you get loaded into Tirisfal Glades by Zidormi and want to phase back into pre-BfA version of the zone, you can talk to this npc. However, if she does not give any options, try to traverse eastwards towards Western Plaguelands. At some point you should hopefully phase back into pre-BfA Tirisfal Glades.",
 					constant = "IF_YOU_GET_LOADED_INTO_TIRISFAL_GLADES_BY",
 					export = true,

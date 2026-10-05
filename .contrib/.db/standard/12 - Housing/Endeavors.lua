@@ -486,7 +486,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					i_DecorCoupons(253599, 15),	-- Artisanal Display Tent (DECOR!)
 					-- Reach the fourth milestone of the endeavor
 					i(253802, {	-- Deed of Patronage
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Once you've purchased this item, you can talk to Hesta Forlath in Midnight Silvermoon City (/att n:252916) to purchase paintings.\n\nYou can safely delete this item.",
 							constant = "ONCE_YOU_VE_PURCHASED_THIS_ITEM_YOU_CAN_TALK_TO",
 							export = true,
@@ -525,7 +525,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 		n(TORTOLLAN_ENDEAVOR, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {
 			n(ACHIEVEMENTS, {
 				ach(63605, {	-- Souvenir Seeker, Founder's Point (Automated)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "There are 60 'hidden' Souvenirs that you must find in your neighborhood. You can find them yourself or you can ask 'Taggi' to activate minimap locations of the Souvenirs already found by your neighbors.",
 						constant = "THERE_ARE_60_HIDDEN_SOUVENIRS_THAT_YOU_MUST",
 						export = true,
@@ -629,7 +629,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 47.3, 61.8, FOUNDERS_POINT },
 				}),
 				n(266694, {	-- Secret Souvenir (21)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The only way to get this Souvenir is to be extremely precise in your 'landing' on the plank JUST above it or switching your Flight Style.",
 						constant = "THE_ONLY_WAY_TO_GET_THIS_SOUVENIR_IS_TO_BE",
 						export = true,
@@ -662,7 +662,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 37.7, 57.0, FOUNDERS_POINT },
 				}),
 				n(266699, {	-- Secret Souvenir (26)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Pop the Balloon inside the Toy Vendor's Shop.",
 						constant = "POP_THE_BALLOON_INSIDE_THE_TOY_VENDOR_S_SHOP",
 						export = true,
@@ -756,7 +756,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 57.1, 38.8, FOUNDERS_POINT },
 				}),
 				n(266724, {	-- Secret Souvenir (51)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Souvenir will appear at the Waterfall at Stoneveli Ridge and will flow down with the water. It will despawn once it washes ashore and a Tortollan kid takes it.",
 						constant = "THIS_SOUVENIR_WILL_APPEAR_AT_THE_WATERFALL_AT",
 						export = true,
@@ -781,7 +781,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					},
 				}),
 				n(266725, {	-- Secret Souvenir (52)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Souvenir requires usage of a water-based AoE spell, such as Druid's Efflorescence, Shaman's Surging Totem or Mage's Blizzard, on the 'Suspiciously Dry Soil'.",
 						constant = "THIS_SOUVENIR_REQUIRES_USAGE_OF_A_WATER_BASED",
 						export = true,
@@ -803,7 +803,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 39.1, 31.3, FOUNDERS_POINT },
 				}),
 				n(266726, {	-- Secret Souvenir (53)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Souvenir can be found in the back of Kirt's Public Carriage.",
 						constant = "THIS_SOUVENIR_CAN_BE_FOUND_IN_THE_BACK_OF_KIRT",
 						export = true,
@@ -825,7 +825,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["maps"] = { FOUNDERS_POINT },
 				}),
 				n(266727, {	-- Secret Souvenir (54)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On a turtle who may waddle around a bit...",
 						constant = "ON_A_TURTLE_WHO_MAY_WADDLE_AROUND_A_BIT",
 						export = true,
@@ -846,7 +846,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 60.3, 52.5, FOUNDERS_POINT },
 				}),
 				n(266728, {	-- Secret Souvenir (55)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Area wide spawn. If you don't see the Souvenir, do as the area vignette states: 'Stay a While and Glisten'. Sit in middle Beach Chair and Relax. Nearby geyser will spit out the Souvenir... Eventually...",
 						constant = "AREA_WIDE_SPAWN_IF_YOU_DON_T_SEE_THE_SOUVENIR",
 						export = true,
@@ -867,7 +867,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 36.8, 46.8, FOUNDERS_POINT },
 				}),
 				n(266729, {	-- Secret Souvenir (56)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Souvenir can be found flying around the neighborhood on the back of a Kite. Crash into the Kite with your Flying Mount to force it to land on the ground.",
 						constant = "THIS_SOUVENIR_CAN_BE_FOUND_FLYING_AROUND_THE",
 						export = true,
@@ -892,7 +892,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 62.1, 82.2, FOUNDERS_POINT },
 				}),
 				n(266731, {	-- Secret Souvenir (58)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Read 'Scroll of the Salty Souvenir: East' at this location. You can buy the scroll from Rada at the center of your Neighborhood.",
 						constant = "READ_SCROLL_OF_THE_SALTY_SOUVENIR_EAST_AT_THIS",
 						export = true,
@@ -914,7 +914,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coords"] = { 77.5, 54.0, FOUNDERS_POINT },
 				}),
 				n(266732, {	-- Secret Souvenir (59)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Read 'Scroll of the Salty Souvenir: West' at this location. You can buy the scroll from Rada at the center of your Neighborhood.",
 						constant = "READ_SCROLL_OF_THE_SALTY_SOUVENIR_WEST_AT_THIS",
 						export = true,
@@ -936,7 +936,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 19.6, 42.6, FOUNDERS_POINT },
 				}),
 				n(266734, {	-- Secret Souvenir (60)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Read 'Scroll of the Salty Souvenir: South' at this location. You can buy the scroll from Rada at the center of your Neighborhood.",
 						constant = "READ_SCROLL_OF_THE_SALTY_SOUVENIR_SOUTH_AT_THIS",
 						export = true,
@@ -995,7 +995,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 69.0, 76.0, RAZORWIND_SHORES },
 				}),
 				n(266624, {	-- Secret Souvenir (12)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Read the scroll to learn how operate the ladders. When you approach the ladders, you will get an 'Extra Action Button'. Use it.",
 						constant = "READ_THE_SCROLL_TO_LEARN_HOW_OPERATE_THE",
 						export = true,
@@ -1020,7 +1020,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 61.5, 89.9, RAZORWIND_SHORES },
 				}),
 				n(266626, {	-- Secret Souvenir (14)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Souvenir is hidden inside Shark's mount.",
 						constant = "SOUVENIR_IS_HIDDEN_INSIDE_SHARK_S_MOUNT",
 						export = true,
@@ -1087,7 +1087,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 51.1, 89.9, RAZORWIND_SHORES },
 				}),
 				n(266641, {	-- Secret Souvenir (29)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside the house, op top of the shelf left of the entrance.",
 						constant = "INSIDE_THE_HOUSE_OP_TOP_OF_THE_SHELF_LEFT_OF",
 						export = true,
@@ -1185,7 +1185,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["coord"] = { 47.2, 59.7, RAZORWIND_SHORES },
 				}),
 				n(266665, {	-- Secret Souvenir (53)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Souvenir can be found in the back of Communal Cart.",
 						constant = "THIS_SOUVENIR_CAN_BE_FOUND_IN_THE_BACK_OF",
 						export = true,
@@ -1220,7 +1220,7 @@ root(ROOTS.Housing, n(ENDEAVOR, {
 					["maps"] = { RAZORWIND_SHORES },
 				}),
 				n(266669, {	-- Secret Souvenir (57)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Under the bartender, in the body of the ship.",
 						constant = "UNDER_THE_BARTENDER_IN_THE_BODY_OF_THE_SHIP",
 						export = true,

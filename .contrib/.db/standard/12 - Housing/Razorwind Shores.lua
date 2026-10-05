@@ -189,7 +189,7 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 				["groups"] = { i(246868) },	-- Wide Hide-Covered Bench (DECOR!)
 			}),
 			q(93132, {	-- Decor Treasure Hunt
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Under the water.",
 					constant = "UNDER_THE_WATER",
 					export = true,
@@ -299,7 +299,7 @@ root(ROOTS.Housing, m(RAZORWIND_SHORES, {
 				},
 			}),
 			n(255326, {	-- "Len" Splinthoof <Decor Vendor>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the cave or outside fishing.",
 					constant = "INSIDE_THE_CAVE_OR_OUTSIDE_FISHING",
 					export = true,

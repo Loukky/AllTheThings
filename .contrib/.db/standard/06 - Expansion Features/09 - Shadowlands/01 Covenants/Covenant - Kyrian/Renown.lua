@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 
 local WISPS_OF_MEMORY = i(186472, {	-- Wisps of Memory
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Rewarded at 52, 67 and 76 Renown.",
 		constant = "REWARDED_AT_52_67_AND_76_RENOWN",
 		export = true,
@@ -26,7 +26,7 @@ local WISPS_OF_MEMORY = i(186472, {	-- Wisps of Memory
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH }, ["customCollect"] = "SL_COV_KYR" }, {
 	n(KYRIAN, {
 		n(RENOWN, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These are rewards automatically granted by reaching a specific level of Renown.",
 				constant = "THESE_ARE_REWARDS_AUTOMATICALLY_GRANTED_BY",
 				export = true,
@@ -50,7 +50,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					["timeline"] = { ADDED_9_1_0 },
 				}),
 				i(186482, {	-- Elysian Aquilon (MOUNT!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 45.",
 						constant = "REQUIRES_RENOWN_45",
 						export = true,
@@ -70,7 +70,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				i(180765, {	-- Eternal Phalynx of Purity (MOUNT!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 39.",
 						constant = "REQUIRES_RENOWN_39",
 						export = true,
@@ -90,7 +90,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				title(445, {	-- Disciple of Devotion
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 80.",
 						constant = "REQUIRES_RENOWN_80",
 						export = true,
@@ -110,7 +110,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				title(425, {	-- Hand of the Archon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 40.",
 						constant = "REQUIRES_RENOWN_40",
 						export = true,
@@ -130,7 +130,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				iensemble(186515, {	-- Ensemble: Aspiring Aspirant's Regalia
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 60.",
 						constant = "REQUIRES_RENOWN_60",
 						export = true,
@@ -150,7 +150,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				i(188005, {	-- Anima-Bathed Blade
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded at 15 and 24 Renown.",
 						constant = "REWARDED_AT_15_AND_24_RENOWN",
 						export = true,
@@ -171,7 +171,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				}),
 				WISPS_OF_MEMORY,
 				SL_Legendaries({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 48.",
 						constant = "REQUIRES_RENOWN_48",
 						export = true,

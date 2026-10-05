@@ -266,7 +266,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(46804, {	-- Fashion History and a Philosophy of Style
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Available for Blacksmithing, Leatherworking, and Tailoring Professions.\n\nYou must turn in the Commendation before this quest becomes available.",
 								constant = "AVAILABLE_FOR_BLACKSMITHING_LEATHERWORKING_AND",
 								export = true,
@@ -293,7 +293,7 @@ root(ROOTS.Zones, {
 					}),
 					n(120751, {	-- Unstable Nether Portal
 						["questID"] = 47700,	-- triggers after killing your 50 elites for the day
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use a Nether Portal Disruptor to spawn a rare elite mob while the Nether Disruptor is up. You can summon and kill up to 50 rares this way per day.",
 							constant = "USE_A_NETHER_PORTAL_DISRUPTOR_TO_SPAWN_A_RARE",
 							export = true,
@@ -404,7 +404,7 @@ root(ROOTS.Zones, {
 					["sourceQuest"] = 46935,	-- The Shadow of the Sentinax
 					["groups"] = {
 						n(RARES, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use an uncommon beacon and then empower the portal using a rare beacon to occasionally spawn a rare mob specific to the type of beacon you used.",
 								constant = "USE_AN_UNCOMMON_BEACON_AND_THEN_EMPOWER_THE",
 								export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						n(ZONE_DROPS, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "While under the Sentinax, kill mobs to have them sometimes drop uncommon beacons. Once a portal is open, the mobs summoned can additionally very rarely drop rare quality beacons used to empower the portal.",
 								constant = "WHILE_UNDER_THE_SENTINAX_KILL_MOBS_TO_HAVE_THEM",
 								export = true,
@@ -655,7 +655,7 @@ root(ROOTS.Zones, {
 						faction(FACTION_IMPUS, {	-- Impus
 							["creatureID"] = 120460,
 							["coord"] = { 33.9, 49.8, BROKEN_SHORE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This Fisherfriend NPC is located at: |cFFFFFFFF33.9, 49.8|r on Deadwood Landing.\n\nThe Fisherfriend NPC's will not always be up and only one is up at any given time. You will have to either travel to the zone, ask a friend or check group finder to see if they are up.\n\nWhen fishing for the item for this particular fisherfriend make sure that you are close enough so that you receive the buff |cFFFFD700Something's Fishy|r, otherwise you won't be able to receive the turn-in items or the boss that is summoned.\n\nIt is recommended to be in a group in order to be able to reach Best Friend the quickest.",
 								constant = "THIS_FISHERFRIEND_NPC_IS_LOCATED_AT_CFFFFFFFF33",
 								export = true,
@@ -823,7 +823,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.6, 63.2, BROKEN_SHORE },
 					}),
 					q(47137, {	-- Champions of Legionfall
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In addition to the prerequisite quests listed, you must complete your class's Order Hall Campaign to pick up this quest.",
 							constant = "IN_ADDITION_TO_THE_PREREQUISITE_QUESTS_LISTED",
 							export = true,
@@ -1300,7 +1300,7 @@ root(ROOTS.Zones, {
 				}),
 				n(RARES, {
 					header(HEADERS.Achievement, 11841, {	-- Naxt Victim
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the associated Portal-Stone to summon each of these rare elites.",
 							constant = "USE_THE_ASSOCIATED_PORTAL_STONE_TO_SUMMON_EACH",
 							export = true,
@@ -1455,7 +1455,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 45.0, 51.3, BROKEN_SHORE },
 						["groups"] = {
 							i(142233, {	-- Netherlord's Accursed Wrathsteed (MOUNT!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This mount is only available to warlocks who have completed |cFFFFD700The Wrathsteed of Xoroth|r quest from the class mount campaign. \nOnce completed you can kill Lord Hel'Nurath for a 100% chance at getting the mount skin.",
 									constant = "THIS_MOUNT_IS_ONLY_AVAILABLE_TO_WARLOCKS_WHO",
 									export = true,
@@ -1520,7 +1520,7 @@ root(ROOTS.Zones, {
 				}),
 				n(VENDORS, {
 					n(118403, {	-- Syaith <Loaner Demon>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "/kiss her during the Where There is a Whip... WQ.",
 							constant = "KISS_HER_DURING_THE_WHERE_THERE_IS_A_WHIP_WQ",
 							export = true,
@@ -1734,7 +1734,7 @@ root(ROOTS.Zones, {
 									["cost"] = { { "c", 1226, 2500 } },	-- 2,500x Nethershard
 								}),
 								i(147775, {	-- Nether Portal Disruptor
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Can be used to summon rare elite mobs from Unstable Nether Portals while the Nether Disruptor is up. You can only kill 50 elites per day. It is consumed on use.\n\nCan be bought or sold on the Auction House.",
 										constant = "CAN_BE_USED_TO_SUMMON_RARE_ELITE_MOBS_FROM",
 										export = true,

@@ -244,7 +244,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(52145, {	-- Heave-Ho!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This WQ doesn't show up on the map when active, plot waypoint to find the location!",
 					constant = "THIS_WQ_DOESN_T_SHOW_UP_ON_THE_MAP_WHEN_ACTIVE",
 					export = true,

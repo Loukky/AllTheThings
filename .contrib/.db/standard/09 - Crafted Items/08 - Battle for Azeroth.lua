@@ -833,7 +833,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(152545),	-- Frenzied Fangtooth
 		i(152547),	-- Great Sea Catfish
 		i(163131, {	-- Great Sea Ray (MOUNT!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Caught in any waters in Kul Tiras or Zandalar, including Mechagon (but not Nazjatar).",
 				constant = "CAUGHT_IN_ANY_WATERS_IN_KUL_TIRAS_OR_ZANDALAR",
 				export = true,
@@ -858,7 +858,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(168646, { ["timeline"] = { ADDED_8_2_0 } }),	-- Mauve Stinger
 		i(162515),	-- Midnight Salmon
 		i(162516, {	-- Rasboralus
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Caught around Boralus's Proudmoore Keep.",
 				constant = "CAUGHT_AROUND_BORALUS_S_PROUDMOORE_KEEP",
 				export = true,
@@ -882,7 +882,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(152544),	-- Slimy Mackerel
 		i(152548),	-- Tiragarde Perch
 		i(162517, {	-- U'taka
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Caught in Dazar'alor.",
 				constant = "CAUGHT_IN_DAZAR_ALOR",
 				export = true,

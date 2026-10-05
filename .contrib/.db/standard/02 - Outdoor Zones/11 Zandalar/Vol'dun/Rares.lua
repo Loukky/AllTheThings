@@ -81,7 +81,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(124722, {	-- Commodore Calhoun
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare is at the very top of the Ashvane encampment, not down by the ship.",
 					constant = "THIS_RARE_IS_AT_THE_VERY_TOP_OF_THE_ASHVANE",
 					export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(162681, {	-- Elusive Quickhoof
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Feed it Seaside Leafy Greens Mix to get the mount.",
 					constant = "FEED_IT_SEASIDE_LEAFY_GREENS_MIX_TO_GET_THE",
 					export = true,

@@ -77,7 +77,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(6522, {	-- An Unholy Alliance (1/2) (Before Wrathgate?)
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is given to players that HAVE NOT completed The Wrath Gate yet.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_GIVEN_TO_PLAYERS",
 						export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(14352, {	-- An Unholy Alliance (1/2) (After Wrathgate?)
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is given to players that HAVE completed The Wrath Gate.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_GIVEN_TO_PLAYERS_2",
 						export = true,

@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(241956, {	-- Arcana-Monger So'zer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare can be summoned and killed only when someone is doing a Warrant quest.",
 					constant = "RARE_CAN_BE_SUMMONED_AND_KILLED_ONLY_WHEN",
 					export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis. Their positions are marked on the minimap.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
 					constant = "YOU_NEED_TO_INTERRACT_WITH_SPECTRAL_LANTERN",
 					export = true,
@@ -108,7 +108,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(231229, {	-- Korgoth the Hungerer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare can be summoned and killed only during the 'Devourer Attack: The Oasis'.",
 					constant = "RARE_CAN_BE_SUMMONED_AND_KILLED_ONLY_DURING_THE",
 					export = true,
@@ -133,7 +133,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["isWeekly"] = true,
 				["groups"] = {
 					i(232467, {	-- Crystallized Anima (QS!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|cFFE50D12SUGGESTION:|r Do not turn in quest obtained from this item unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 							constant = "CFFE50D12SUGGESTION_R_DO_NOT_TURN_IN_QUEST",
 							export = true,
@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Malek'ta is burrowed under the ground. Jump around to lure it out.",
 					constant = "MALEK_TA_IS_BURROWED_UNDER_THE_GROUND_JUMP",
 					export = true,
@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(234970, {	-- Miasmawrath
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare can be summoned and killed only during the 'Devourer Attack: Eco-dome: Primus'.",
 					constant = "RARE_CAN_BE_SUMMONED_AND_KILLED_ONLY_DURING_THE_2",
 					export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(235087, {	-- The Harvester
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare can be summoned and killed only during the 'Devourer Attack: The Atrium'.",
 					constant = "RARE_CAN_BE_SUMMONED_AND_KILLED_ONLY_DURING_THE_3",
 					export = true,
@@ -317,7 +317,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(235104, {	-- The Wallbreaker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare can be summoned and killed only during the 'Devourer Attack: Tazavesh'.",
 					constant = "RARE_CAN_BE_SUMMONED_AND_KILLED_ONLY_DURING_THE_4",
 					export = true,
@@ -379,7 +379,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		})),
 		n(REWARDS, {
 			i(246159, {	-- Translocated Gorger (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cff1eff00Devoured Energy-Pods|r can be obtained by killing Rare Elite Bosses of the 'Devourer Attacks'\n1 Energy-Pod can be obtained per Rare, Warband, and Week.",
 					constant = "CFF1EFF00DEVOURED_ENERGY_PODS_R_CAN_BE_OBTAINED",
 					export = true,

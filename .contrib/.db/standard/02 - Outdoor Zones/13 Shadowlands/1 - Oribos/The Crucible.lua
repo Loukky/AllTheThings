@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(ORIBOS, {
 		m(1673, {	-- The Crucible
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Crucible - sub-zone accessed via Tal-Inara",
 				constant = "THE_CRUCIBLE_SUB_ZONE_ACCESSED_VIA_TAL_INARA",
 				export = true,

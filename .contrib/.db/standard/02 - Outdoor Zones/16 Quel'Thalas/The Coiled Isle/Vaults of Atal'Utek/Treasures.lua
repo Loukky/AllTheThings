@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(278517) },	-- Lost Med'jai Amulet (QS!/QI!)
 				}),
 				o(671498, {	-- Venom-Worn Coffer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Will only show up once you have looted the Corroded Key, in one of 5 random locations",
 						constant = "WILL_ONLY_SHOW_UP_ONCE_YOU_HAVE_LOOTED_THE",
 						export = true,
@@ -104,7 +104,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				-- Repeatables
 				o(649640, {	-- Soulcoiler's Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found randomly throughout the Vaults.",
 						constant = "CAN_BE_FOUND_RANDOMLY_THROUGHOUT_THE_VAULTS",
 						export = true,

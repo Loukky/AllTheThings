@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			n(ZONE_DROPS, {
 				i(144312),	-- Formula: Enchant Neck - Mark of the Versatile [Rank 2] (RECIPE!)
 				i(133820, {	-- Recipe: Drogbar-Style Salmon [Rank 1] (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any Drogbar.",
 						constant = "CAN_DROP_FROM_ANY_DROGBAR",
 						export = true,

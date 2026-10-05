@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				i(137726),	-- Schematic: Leystone Buoy (RECIPE!)
 				prof(INSCRIPTION, {
 					i(141051, {	-- Technique: Glyph of the Trident (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops from Naga in any Broken Isles zone. Recommended to farm the Naga before the first Boss in the Eye of Azshara Dungeon.",
 							constant = "DROPS_FROM_NAGA_IN_ANY_BROKEN_ISLES_ZONE",
 							export = true,

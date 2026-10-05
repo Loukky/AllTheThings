@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.ZULAMAN, {
 		n(ACHIEVEMENTS, {
 			ach(62267, {	-- A Most Violent Loa
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill 100 Kapara or Kapara pups around Zul'Aman to draw the wrath of Filo, Loa of Childhood.",
 					constant = "KILL_100_KAPARA_OR_KAPARA_PUPS_AROUND_ZUL_AMAN",
 					export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 59.2, 71.1, MAP.MIDNIGHT.ZULAMAN },
 				}),
 				o(627489, {	-- Forgotten Button
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to Kalika and take the Forgotten Button.",
 						constant = "TALK_TO_KALIKA_AND_TAKE_THE_FORGOTTEN_BUTTON",
 						export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["_noautomation"] = true,
 				["groups"] = {
 					crit(109749, {	-- Songseeker Baz'wa
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Becomes available after completing Zul'Aman campaign.",
 							constant = "BECOMES_AVAILABLE_AFTER_COMPLETING_ZUL_AMAN",
 							export = true,
@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 47.3, 81.9, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					crit(109753, {	-- Songseeker Ikaja
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of the temple.",
 							constant = "ON_TOP_OF_THE_TEMPLE",
 							export = true,
@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 55.2, 18.1, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					crit(109751, {	-- Songseeker Jebanda
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Walks around with a group of Shadowpine Travelers along the given path.",
 							constant = "WALKS_AROUND_WITH_A_GROUP_OF_SHADOWPINE",
 							export = true,
@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(264335),	-- Colossal Amani Stone Visage (DECOR!)
 			}),
 			ach(62413, {	-- The Curse of Ula'tek
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This achievement will be replaced with Achievement '62297' at the release of Patch 12.1.0.",
 					constant = "THIS_ACHIEVEMENT_WILL_BE_REPLACED_WITH",
 					export = true,

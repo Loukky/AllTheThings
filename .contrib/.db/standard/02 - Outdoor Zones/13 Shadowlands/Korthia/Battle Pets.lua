@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			pet(3141, {		-- Wild Corpsefly (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a secondary battle pet that has a chance to join the battle.\nAppears in 9 different colors.",
 					constant = "THIS_IS_A_SECONDARY_BATTLE_PET_THAT_HAS_A",
 					export = true,

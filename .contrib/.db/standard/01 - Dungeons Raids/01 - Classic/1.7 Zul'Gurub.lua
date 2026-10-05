@@ -1999,7 +1999,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 						},
 					}),
 					q(8183, {	-- The Heart of Hakkar
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Turning this head in will cause a world buff to drop for those on the island or in Booty Bay. Announce when you're going to do this for folks looking to get WBs for raid!",
 							constant = "TURNING_THIS_HEAD_IN_WILL_CAUSE_A_WORLD_BUFF_TO",
 							export = true,
@@ -2532,7 +2532,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 				}),
 				n(14834, {	-- Hakkar the Soulflayer
 					n(ZG_HAKKAR_HARDMODE, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When you leave a specific Priest or Priestess alive and defeat Hakkar, then there is a guaranteed chance that a piece of rare or epic loot from that boss will drop from Hakkar, including an Item from Hakkar himself.",
 							constant = "WHEN_YOU_LEAVE_A_SPECIFIC_PRIEST_OR_PRIESTESS",
 							export = true,

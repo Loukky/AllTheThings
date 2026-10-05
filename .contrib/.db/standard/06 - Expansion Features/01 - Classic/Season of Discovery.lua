@@ -503,7 +503,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 						i(1180),	-- Scroll of Stamina
 						i( 954),	-- Scroll of Strength
 						i(211800, {	-- Scroll of Reintegration
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Consumed on use.",
 								constant = "CONSUMED_ON_USE",
 								export = true,
@@ -2845,7 +2845,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				},
 				{	-- Exalted
 					emeraldchip(75, i(220621, {	-- Nightmare Resonance Crystal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Allows you to see and pick resonating herbs in any of the incursions. Herbalism not required.",
 							constant = "ALLOWS_YOU_TO_SEE_AND_PICK_RESONATING_HERBS_IN",
 							export = true,
@@ -3342,7 +3342,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				},
 			}),
 			applyclassicphase(SOD_PHASE_THREE, i(221978, {	-- Explorer's Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Casting Drain Soul on any mob will reward you with this.",
 					constant = "CASTING_DRAIN_SOUL_ON_ANY_MOB_WILL_REWARD_YOU",
 					export = true,
@@ -3440,7 +3440,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				},
 			})),
 			i(205020, {	-- Pure Soul Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Casting Drain Soul on any critter will reward you with this.",
 					constant = "CASTING_DRAIN_SOUL_ON_ANY_CRITTER_WILL_REWARD",
 					export = true,
@@ -3460,7 +3460,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				}),
 			}),
 			i(205019, {	-- Tainted Soul Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Casting Drain Soul on any of the named mobs listed below will reward you with this. (does not need to be your tag!)",
 					constant = "CASTING_DRAIN_SOUL_ON_ANY_OF_THE_NAMED_MOBS",
 					export = true,
@@ -4345,7 +4345,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				q(78612, {	-- A Full Shipment [iLvl 10 - Gathered]
 					["provider"] = { "i", 211365 },	-- Supply Shipment [iLvl 10 - Gathered]
 					["maxReputation"] = { 2586, FRIENDLY },	-- ACA / DSL, Friendly.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 300 reputation.",
 						constant = "GRANTS_300_REPUTATION",
 						export = true,
@@ -4369,7 +4369,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				q(78872, {	-- A Full Shipment [iLvl 10 - Crafted]
 					["provider"] = { "i", 211367 },	-- Supply Shipment [iLvl 10 - Crafted]
 					["maxReputation"] = { 2586, FRIENDLY },	-- ACA / DSL, Friendly.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 450 reputation.",
 						constant = "GRANTS_450_REPUTATION",
 						export = true,
@@ -4393,7 +4393,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				q(79101, {	-- A Full Shipment [iLvl 25 - Gathered]
 					["provider"] = { "i", 211839 },	-- Supply Shipment [iLvl 25 - Gathered]
 					["maxReputation"] = { 2586, HONORED },	-- ACA / DSL, Honored.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 500 reputation.",
 						constant = "GRANTS_500_REPUTATION",
 						export = true,
@@ -4417,7 +4417,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_TWO, q(80307, {	-- A Full Shipment [iLvl 40 - Gathered]
 					["provider"] = { "i", 217337 },	-- Supply Shipment [iLvl 40 - Gathered]
 					["maxReputation"] = { 2586, REVERED },	-- ACA / DSL, Revered.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 700 reputation.",
 						constant = "GRANTS_700_REPUTATION",
 						export = true,
@@ -4441,7 +4441,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_THREE, q(82307, {	-- A Full Shipment [iLvl 50 - Gathered]
 					["provider"] = { "i", 221008 },	-- Supply Shipment [iLvl 50 - Gathered]
 					["maxReputation"] = { 2586, EXALTED },	-- ACA / DSL, Exalted.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 950 reputation.",
 						constant = "GRANTS_950_REPUTATION",
 						export = true,
@@ -4465,7 +4465,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				q(79102, {	-- A Full Shipment [iLvl 25 - Crafted (Tier 1)]
 					["provider"] = { "i", 211840 },	-- Supply Shipment [iLvl 25 - Crafted (Tier 1)]
 					["maxReputation"] = { 2586, HONORED },	-- ACA / DSL, Honored.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 650 reputation.",
 						constant = "GRANTS_650_REPUTATION",
 						export = true,
@@ -4489,7 +4489,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				q(79103, {	-- A Full Shipment [iLvl 25 - Crafted (Tier 2)]
 					["provider"] = { "i", 211841 },	-- Supply Shipment [iLvl 25 - Crafted (Tier 2)]
 					["maxReputation"] = { 2586, HONORED },	-- ACA / DSL, Honored.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 800 reputation.",
 						constant = "GRANTS_800_REPUTATION",
 						export = true,
@@ -4513,7 +4513,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_TWO, q(80308, {	-- A Full Shipment [iLvl 40 - Crafted (Tier 3)]
 					["provider"] = { "i", 217338 },	-- Supply Shipment [iLvl 40 - Crafted (Tier 3)]
 					["maxReputation"] = { 2586, REVERED },	-- ACA / DSL, Revered.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 850 reputation.",
 						constant = "GRANTS_850_REPUTATION",
 						export = true,
@@ -4537,7 +4537,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_TWO, q(80309, {	-- A Full Shipment [iLvl 40 - Crafted (Tier 4)]
 					["provider"] = { "i", 217339 },	-- Supply Shipment [iLvl 40 - Crafted (Tier 4)]
 					["maxReputation"] = { 2586, REVERED },	-- ACA / DSL, Revered.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 1000 reputation.",
 						constant = "GRANTS_1000_REPUTATION",
 						export = true,
@@ -4561,7 +4561,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_THREE, q(82308, {	-- A Full Shipment [iLvl 50 - Crafted (Tier 5)]
 					["provider"] = { "i", 221009 },	-- Supply Shipment [iLvl 50 - Crafted (Tier 5)]
 					["maxReputation"] = { 2586, EXALTED },	-- ACA / DSL, Exalted.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 1300 reputation.",
 						constant = "GRANTS_1300_REPUTATION",
 						export = true,
@@ -4585,7 +4585,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 				applyclassicphase(SOD_PHASE_THREE, q(82309, {	-- A Full Shipment [iLvl 50 - Crafted (Tier 6)]
 					["provider"] = { "i", 221010 },	-- Supply Shipment [iLvl 50 - Crafted (Tier 6)]
 					["maxReputation"] = { 2586, EXALTED },	-- ACA / DSL, Exalted.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 1850 reputation.",
 						constant = "GRANTS_1850_REPUTATION",
 						export = true,
@@ -4632,7 +4632,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 						{ "i", 211330 },	-- Waylaid Supplies: Spiced Wolf Meat
 					},
 					["maxReputation"] = { 2586, FRIENDLY },	-- ACA / DSL, Friendly.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 100 reputation.",
 						constant = "GRANTS_100_REPUTATION",
 						export = true,
@@ -4679,7 +4679,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, bubbleDown({ ["ti
 						{ "i", 211826 },	-- Waylaid Supplies: Silver Skeleton Keys
 					},
 					["maxReputation"] = { 2586, HONORED },	-- ACA / DSL, Honored.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 200 reputation.",
 						constant = "GRANTS_200_REPUTATION",
 						export = true,

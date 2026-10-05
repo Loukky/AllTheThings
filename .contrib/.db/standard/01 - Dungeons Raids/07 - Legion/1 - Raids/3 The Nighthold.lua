@@ -294,7 +294,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(QUESTS, {
 				q(45417, {	-- The Nighthold: Lord of the Shadow Council
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the Eye of Aman'thul after Gul'dan dies to complete the quest.",
 						constant = "CLICK_ON_THE_EYE_OF_AMAN_THUL_AFTER_GUL_DAN",
 						export = true,
@@ -537,7 +537,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(45381, {	-- The Nighthold: Talisman of the Shal'dorei (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_10",
 							export = true,
@@ -700,7 +700,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(45382, {	-- The Nighthold: Talisman of the Shal'dorei (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_11",
 							export = true,
@@ -853,7 +853,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(45383, {	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Mythic difficulty each week.\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_12",
 							export = true,

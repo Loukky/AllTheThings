@@ -41,7 +41,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["groups"] = {
 			-- #if AFTER 5.2.0.16634
 			m(AHNQIRAJ_THE_FALLEN_KINGDOM, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is an outdoor zone, a non-instanced version of Temple of Ahn'Qiraj and Ruins of Ahn'Qiraj.",
 					constant = "THIS_IS_AN_OUTDOOR_ZONE_A_NON_INSTANCED_VERSION",
 					export = true,
@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}},
 						["groups"] = {
 							pet(512, {	-- Scarab Hatchling (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be found near the gates of Ahn'Qiraj, or in the un-instanced zone south of Silithus.",
 									constant = "CAN_BE_FOUND_NEAR_THE_GATES_OF_AHN_QIRAJ_OR_IN",
 									export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(513, {	-- Qiraji Guardling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Starts spawning June 21st. Stops spawning September 23rd.",
 							constant = "STARTS_SPAWNING_JUNE_21ST_STOPS_SPAWNING",
 							export = true,
@@ -194,7 +194,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				fp(73, {	-- Cenarion Hold, Silithus (A)
 					["cr"] = 15177,	-- Cloud Skydancer <Hippogryph Master>
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to Zidormi to visit the past and access this point.",
 						constant = "SPEAK_TO_ZIDORMI_TO_VISIT_THE_PAST_AND_ACCESS",
 						export = true,
@@ -2796,7 +2796,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}))),
 					applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20419, {	-- Crest of Beckoning: Earth
 						-- #if AFTER CATA
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item became useless after the release of Cataclysm because the rest of the items can't be obtained.",
 							constant = "THIS_ITEM_BECAME_USELESS_AFTER_THE_RELEASE_OF",
 							export = true,
@@ -2947,7 +2947,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							applyclassicphase(PHASE_FOUR, i(20555)),	-- Plans: Darkrune Helm (RECIPE!)
 							i(20527, {	-- Scroll: Create Crest of Beckoning (Earth)
 								-- #if AFTER CATA
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Even though this scroll can still be obtained, it became useless after the release of Cataclysm because the rest of the items are no longer obtainable.\n|cFFE50D12Spending materials listed in the tooltip would be considered a waste.|r",
 									constant = "EVEN_THOUGH_THIS_SCROLL_CAN_STILL_BE_OBTAINED",
 									export = true,
@@ -3401,7 +3401,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				i(20408, {	-- Twilight Cultist Cowl
 					-- #if BEFORE 10.0.5
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order to collect this, you'll need to bind it to you such as by using an enchant / armor kit on a Cloth user and then relog.",
 						constant = "IN_ORDER_TO_COLLECT_THIS_YOU_LL_NEED_TO_BIND_IT",
 						export = true,

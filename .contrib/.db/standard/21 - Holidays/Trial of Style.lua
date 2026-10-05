@@ -437,7 +437,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			["isMonthly"] = true,
 		}, {
 			q(76308, {	-- The Trial of Style
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Blizzard messed up here, this should've been the second quest and not breadcrumb.",
 					constant = "BLIZZARD_MESSED_UP_HERE_THIS_SHOULD_VE_BEEN_THE",
 					export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				["isBreadcrumb"] = true,
 			}),
 			q(76361, {	-- Fashion Week
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Blizzard messed up here, this should've been the first quest and breadcrumb.",
 					constant = "BLIZZARD_MESSED_UP_HERE_THIS_SHOULD_VE_BEEN_THE_2",
 					export = true,

@@ -182,7 +182,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(38807, {	-- Infernal Brimstone Analysis
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Need Rank 2 in all other mining ranks.",
 						constant = "NEED_RANK_2_IN_ALL_OTHER_MINING_RANKS",
 						export = true,
@@ -365,7 +365,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 		}),
 		header(HEADERS.Spell, 184490, {	-- Living Leystone [Rank 3]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Best spot is in Valsharah during the 'Leystone Basilisks' World Quest.",
 				constant = "BEST_SPOT_IS_IN_VALSHARAH_DURING_THE_LEYSTONE",
 				export = true,
@@ -423,7 +423,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		}),
 		n(QUESTS, {
 			q(38901, {	-- The Felsmiths
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must complete all of the Rank 1 Felslate mining techniques before this quest will become available.\n\nWARNING: Completion of the chain is required for Rank 2 Quest Items to drop.",
 					constant = "YOU_MUST_COMPLETE_ALL_OF_THE_RANK_1_FELSLATE",
 					export = true,
@@ -465,7 +465,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				},
 			}),
 			q(38888, {	-- The Highmountain Tauren
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must complete all of the Rank 1 Leystone mining techniques before this quest will become available.\n\nWARNING: Completion of the chain is required for Rank 2 Quest Items to drop.",
 					constant = "YOU_MUST_COMPLETE_ALL_OF_THE_RANK_1_LEYSTONE",
 					export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 			["groups"] = {
 				q(48752, {	-- A Need For Coal
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Kul'Tiran Mining.",
 						constant = "REQUIRES_50_KUL_TIRAN_MINING",
 						export = true,
@@ -622,7 +622,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(51962, {	-- Lumbering Away
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Zandalari Mining",
 						constant = "REQUIRES_50_ZANDALARI_MINING",
 						export = true,
@@ -650,7 +650,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(48761, {	-- Spiderphobia
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 130 Kul'Tiran Mining.",
 						constant = "REQUIRES_130_KUL_TIRAN_MINING",
 						export = true,
@@ -677,7 +677,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(51964, {	-- Insufferable Bloodsuckers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 130 Zandalari Mining",
 						constant = "REQUIRES_130_ZANDALARI_MINING",
 						export = true,
@@ -740,7 +740,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(48767, {	-- Seams Familiar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Monelite Seam|r at any mining level. You can only turn it in at Level 150 Kul Tiran Mining.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700MONELITE_SEAM_R_AT",
 						export = true,
@@ -766,7 +766,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(51971, {	-- An Exquisite Brooch
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Monelite Seam|r at any mining level. You can only turn it in at Level 150 Zandalari Mining.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700MONELITE_SEAM_R_AT_2",
 						export = true,
@@ -855,7 +855,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 			["groups"] = {
 				q(52044, {	-- An Exceptional Platinum Shard [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Kul Tiran Mining.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700PLATINUM_DEPOSITS_R",
 						export = true,
@@ -880,7 +880,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52046, {	-- An Exceptional Platinum Shard [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Platinum Deposits|r and |cFFFFD700Rich Platinum Deposits|r at any mining level. You can only turn it in at Level 150 Zandalari Mining.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700PLATINUM_DEPOSITS_R_2",
 						export = true,
@@ -959,7 +959,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 			["groups"] = {
 				q(51568, {	-- Ritualistic Preparations [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Kul'Tiran Mining\n73.4, 8.4 in Boralus is location of the Forge\n41.8, 30.0 in Tiragarde Sound is the location to get the Blessing",
 						constant = "REQUIRES_50_KUL_TIRAN_MINING_73_4_8_4_IN",
 						export = true,
@@ -992,7 +992,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52014, {	-- Ritualistic Prepartions [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Zandalari Mining\n44.0, 38.3 in Daza'alor is location of the Forge\n52.8, 95.6 in Daza'alor harbor is the location to get the Blessing",
 						constant = "REQUIRES_50_ZANDALARI_MINING_44_0_38_3_IN_DAZA",
 						export = true,
@@ -1025,7 +1025,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(48768, {	-- Brined Justice [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 135 Kul'Tiran Mining.",
 						constant = "REQUIRES_135_KUL_TIRAN_MINING",
 						export = true,
@@ -1054,7 +1054,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				}),
 
 				q(52015, {	-- Brined Justice [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 135 Zandalari Mining",
 						constant = "REQUIRES_135_ZANDALARI_MINING",
 						export = true,
@@ -1098,7 +1098,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 			},
 			["groups"] = {
 				q(48770, {	-- Three Sheets to the Wind [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 125 Kul'Tiran Mining\n75.25, 14.33 in Boralus is Harold Atkey Location\n75.51, 23.21 in Boralus is Franklin the Drunk Location\nWhen you visit Harold you want to buy \"Brennadam Apple Brand\".",
 						constant = "REQUIRES_125_KUL_TIRAN_MINING_75_25_14_33_IN",
 						export = true,
@@ -1128,7 +1128,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(52016, {	-- Three Sheets to the Wind [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 125 Zandalari Mining",
 						constant = "REQUIRES_125_ZANDALARI_MINING",
 						export = true,
@@ -1154,7 +1154,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					},
 				}),
 				q(51380, {	-- Back to Franklin
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 150 Kul'Tiran Mining.",
 						constant = "REQUIRES_150_KUL_TIRAN_MINING",
 						export = true,
@@ -1178,7 +1178,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(52017, {	-- Back to Biru
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 150 Zandalari Mining",
 						constant = "REQUIRES_150_ZANDALARI_MINING",
 						export = true,
@@ -1699,7 +1699,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		})),
 		n(QUESTS, {
 			q(91420, {	-- Swap Meet
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained the first time you harvest Desolate Deposit.",
 					constant = "OBTAINED_THE_FIRST_TIME_YOU_HARVEST_DESOLATE",
 					export = true,

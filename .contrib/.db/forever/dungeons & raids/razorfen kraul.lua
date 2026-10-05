@@ -99,7 +99,7 @@ root(ROOTS.Instances, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Treshala's Pendant
 							["provider"] = { "i", 5825 },	-- Treshala's Pendant
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Drops from any creature in the Dungeon.",
 								constant = "DROPS_FROM_ANY_CREATURE_IN_THE_DUNGEON",
 								export = true,
@@ -177,7 +177,7 @@ root(ROOTS.Instances, {
 				i(1978),	-- Wolfclaw Gloves
 			}),
 			n(6168, {	-- Roogug
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Warriors will need to kill this boss for their racial armor quest. If you are the leader of the group, don't be surprised if they ask to kill this boss first.",
 					constant = "WARRIORS_WILL_NEED_TO_KILL_THIS_BOSS_FOR_THEIR",
 					export = true,
@@ -227,7 +227,7 @@ root(ROOTS.Instances, {
 				i(6686),	-- Tusken Helm
 			}),
 			n(4842, {	-- Earthcaller Halmgar
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After you kill Overlord Ramtusk, go west over a bridge to a plateau.\n\nThis is a Rare Creature and, as such, is not always present.",
 					constant = "AFTER_YOU_KILL_OVERLORD_RAMTUSK_GO_WEST_OVER_A",
 					export = true,

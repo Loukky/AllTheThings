@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(TREASURES, {
 			header(HEADERS.Achievement, 63359, {	-- Treasures of the Coiled Isle
 				header(HEADERS.Object, 619906, {	-- Abandoned Amani Privateer's Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Fish out a 'Grisly Morsel' from 'Grisly Cod Pool'.\n2. Feed the 'Hungry Dolphin' to gain it as your companion.\n3. Dive down and swim around the bay area until the Dolphin helps you find both pieces of the key. DO NOT RESURFACE!\n4. Combine both halves of the key.\n5. Loot the treasure.",
 						constant = "1_FISH_OUT_A_GRISLY_MORSEL_FROM_GRISLY_COD_POOL",
 						export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				header(HEADERS.Object, 649085, {	-- Brine-Crusted Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Find a 'Bubbling Clam' under water to the south of the Cave and obtain a 'Luminescent Pearl'.\n2. Go to the cave and present the Pearl to 'Nacretta'. It will give you the Key in exchange.\n3. Loot the 'Dropped Key' and open the treasure.",
 						constant = "1_FIND_A_BUBBLING_CLAM_UNDER_WATER_TO_THE_SOUTH",
 						export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(278003) },	-- Forgotten Mask
 				}),
 				header(HEADERS.Object, 645549, {	-- Grave of Someone Forgotten
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "***Enable Debug Mode to see all the steps***\n1. Talk to Forgotten Soldier and read the text on the Nameless Grave.\n2. Find Zuzan sitting across The Ring of Glory Vendors\n3. Find Zan'ja croaching atop one of the Defiant Ring pillars. Talk to him.\n4. Find Ru'ko meditating atop one of the Arches of The Ring of Glory. Talk to her.\n5. Go back to the Nameless Grave.",
 						constant = "ENABLE_DEBUG_MODE_TO_SEE_ALL_THE_STEPS_1_TALK",
 						export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.NPC, 261867, {	-- Lost Spirit
 					["lore"] = "Translated from Zandali language:\n'Can you help me? I have lost something. A family heirloom. It must be somewhere nearby. Please bring it to me if you find it.'",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can find a 'Forgotten Trinket' on the left side of the base of |cFFFFD700The Altar of Wrath|r.",
 						constant = "YOU_CAN_FIND_A_FORGOTTEN_TRINKET_ON_THE_LEFT",
 						export = true,
@@ -265,7 +265,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["questID"] = 95941,
 					["groups"] = {
 						n(263202, {	-- Mysterious Trinket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Activate First.",
 								constant = "ACTIVATE_FIRST",
 								export = true,
@@ -285,7 +285,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}),
 						}),
 						n(263187, {	-- Mysterious Trinket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Activate Second.",
 								constant = "ACTIVATE_SECOND",
 								export = true,
@@ -305,7 +305,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}),
 						}),
 						n(263185, {	-- Mysterious Trinket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Activate Third.",
 								constant = "ACTIVATE_THIRD",
 								export = true,
@@ -325,7 +325,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							}),
 						}),
 						n(268062, {	-- Mysterious Trinket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Activate Fourth.",
 								constant = "ACTIVATE_FOURTH",
 								export = true,
@@ -359,7 +359,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(281580) },	-- Pungent Atal'Utek Shroom (DECOR!)
 				}),
 				header(HEADERS.Object, 645208, {	-- Sunken Diver's Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to kill |cFFFFD700Glittering Grouper Brinetail|r and obtain 3 |cFFFFFFFFDiver's Key Fragments|r. Combining them gives you a |cFFFFFFFFDiver's Key|r.",
 						constant = "YOU_NEED_TO_KILL_CFFFFD700GLITTERING_GROUPER",
 						export = true,
@@ -406,7 +406,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				header(HEADERS.Object, 648564, {	-- Vul'zahn's Smuggled Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Steps must be followed in order to unlock gossip options.\n\n1. Talk to Vul'zahn and ask him if you can have the treasure.\n2. Talk to Witherbark Cook and ask him for the Bowl of Stew.\n3. Talk to Apothecary Dezi and ask him to give you a Potion.\n4. Talk to Witherbark Cook and ask him to give you a Bowl of Stew.\n5. Talk to Vul'zahn, give him the Stew. He will give you the key.\n6. Open the treasure.",
 						constant = "STEPS_MUST_BE_FOLLOWED_IN_ORDER_TO_UNLOCK",
 						export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			-- Repeatables
 			o(654991, {	-- Cracked Canopic Jar
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the temples.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_TEMPLES",
 					export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			}),
 			o_repeated({	-- Ossified Relic
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the whole area once opted in to the Curse of the Isle or on a Prey.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_WHOLE_AREA_ONCE",
 					export = true,
@@ -582,7 +582,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 			}),
 			o(656044, {	-- Singing Shell
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around coastal regions.",
 					constant = "SPAWNS_RANDOMLY_AROUND_COASTAL_REGIONS",
 					export = true,
@@ -602,7 +602,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			}),
 			o(656039, {	-- Venom-Clotted Bauble
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the poisoned areas.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_POISONED_AREAS",
 					export = true,
@@ -654,7 +654,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
                     { 69.7, 57.5, MAP.MIDNIGHT.THE_COILED_ISLE },
                     { 70.1, 77.2, MAP.MIDNIGHT.THE_COILED_ISLE },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly edges and ledges around the area after reaching Renown 9.",
 					constant = "SPAWNS_RANDOMLY_EDGES_AND_LEDGES_AROUND_THE",
 					export = true,

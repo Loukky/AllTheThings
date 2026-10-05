@@ -467,7 +467,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["lvl"] = 20,
 				}),
 				q(90, {	-- Seasoned Wolf Kabobs
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Buy the Stormwind Seasoning Herbs from Felicia Gump in Stormwind at 64.3, 60.5.",
 						constant = "BUY_THE_STORMWIND_SEASONING_HERBS_FROM_FELICIA",
 						export = true,
@@ -946,7 +946,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(RARES, {
 				n(771, {	-- Commander Felstrom
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns in the Dawning Wood Catacombs.",
 						constant = "SPAWNS_IN_THE_DAWNING_WOOD_CATACOMBS",
 						export = true,
@@ -971,7 +971,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				n(507, {	-- Fenros
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Patrols between the coordinates.",
 						constant = "PATROLS_BETWEEN_THE_COORDINATES",
 						export = true,
@@ -1007,7 +1007,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				n(521, {	-- Lupos
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns randomly in the north-east area of the zone.",
 						constant = "SPAWNS_RANDOMLY_IN_THE_NORTH_EAST_AREA_OF_THE",
 						export = true,
@@ -1044,7 +1044,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				n(534, {	-- Nefaru
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns randomly in the south and south-eastern part of the zone.",
 						constant = "SPAWNS_RANDOMLY_IN_THE_SOUTH_AND_SOUTH_EASTERN",
 						export = true,

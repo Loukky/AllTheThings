@@ -24,7 +24,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(276227, {	-- Augari Secret Stash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use a |cFFFFD700Goblin Glider Kit|r to reach the floating island.",
 							constant = "USE_A_CFFFFD700GOBLIN_GLIDER_KIT_R_TO_REACH_THE",
 							export = true,
@@ -66,7 +66,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(276230, {	-- Doomseeker's Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drop down into the hole by the waterfall and land on the ledge. You will need a |cFFFFD700Goblin Glider Kit|r to reach this chest.",
 							constant = "DROP_DOWN_INTO_THE_HOLE_BY_THE_WATERFALL_AND",
 							export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(276223, {	-- Eredar Treasure Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can use the |cFFFFD700Lightforged Warframe|r to get across, although it shouldn't be necessary.",
 							constant = "YOU_CAN_USE_THE_CFFFFD700LIGHTFORGED_WARFRAME_R",
 							export = true,
@@ -121,7 +121,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(276229, {	-- Shattered House Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need a |cFFFFD700Goblin Glider Kit|r to reach this chest.",
 							constant = "YOU_WILL_NEED_A_CFFFFD700GOBLIN_GLIDER_KIT_R_TO",
 							export = true,

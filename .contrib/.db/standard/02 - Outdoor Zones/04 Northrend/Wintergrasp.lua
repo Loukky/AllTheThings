@@ -645,7 +645,7 @@ root(ROOTS.Zones, {
 				}),
 				n(REWARDS, {
 					currency(161, {	-- Stone Keeper's Shard
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "While your faction controls Wintergrasp on your layer, this will drop from killing bosses in Wrath dungeons and RDF.",
 							constant = "WHILE_YOUR_FACTION_CONTROLS_WINTERGRASP_ON_YOUR",
 							export = true,
@@ -667,7 +667,7 @@ root(ROOTS.Zones, {
 					});
 				}),
 				n(VENDORS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These vendors will only show if your faction controls Wintergrasp.",
 						constant = "THESE_VENDORS_WILL_ONLY_SHOW_IF_YOUR_FACTION",
 						export = true,

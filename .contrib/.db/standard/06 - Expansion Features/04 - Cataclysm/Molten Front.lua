@@ -7,7 +7,7 @@ local MARK_OF_THE_WORLD_TREE = 416;
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 	applyclassicphase(CATA_PHASE_MOLTEN_FRONT, m(THE_MOLTEN_FRONT, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_0 } }, {
 		["provider"] = { "o", 208900 },	-- Portal to the Firelands
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Molten Front is a volcanic daily quest hub added before the release of Firelands with Patch 4.2. It can be accessed via the Portal to the Firelands in Mount Hyjal. As players complete more daily quests, phasing will occur that shows how the Avengers of Hyjal are making progress against the fire elementals and agents of the Firelord.",
 			constant = "THE_MOLTEN_FRONT_IS_A_VOLCANIC_DAILY_QUEST_HUB",
 			export = true,
@@ -55,7 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["maps"] = { MOUNT_HYJAL },
 					["groups"] = {
 						crit(17824, {	-- Angry Little Squirrel
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring a fire elemental to the green patches with squirrels in the trees. Once they start throwing acorns, you should get credit.",
 								constant = "BRING_A_FIRE_ELEMENTAL_TO_THE_GREEN_PATCHES",
 								export = true,
@@ -80,7 +80,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 							},
 						}),
 						crit(17825, {	-- Hyjal Bear Cub
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Instead of throwing the cub to the trampoline, throw it at a sleeping corehound.",
 								constant = "INSTEAD_OF_THROWING_THE_CUB_TO_THE_TRAMPOLINE",
 								export = true,
@@ -105,7 +105,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 							},
 						}),
 						crit(17826, {	-- Alpine Songbird
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Summon Millagazor and when she starts to fly away, allow the songbirds to kill her.",
 								constant = "SUMMON_MILLAGAZOR_AND_WHEN_SHE_STARTS_TO_FLY",
 								export = true,
@@ -130,7 +130,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 							},
 						}),
 						crit(17827, {	-- Child of Tortolla
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Instead of punting into the water, punt it at a fire elemental. (target its feet)",
 								constant = "INSTEAD_OF_PUNTING_INTO_THE_WATER_PUNT_IT_AT_A",
 								export = true,
@@ -157,7 +157,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				ach(5874, {	-- Death From Above  (Mount Hyjal - The Molten Front)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must choose 'Into the Fire' as the second stage of assault on Molten Front, and progress to the quests for Fireplume Ridge. Sometimes you will get the quest 'Fire in the Skies', which allows for progression on this achievement. Each time three random firelords will be up.",
 						constant = "YOU_MUST_CHOOSE_INTO_THE_FIRE_AS_THE_SECOND",
 						export = true,
@@ -243,7 +243,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["maps"] = { MOUNT_HYJAL },
 				}),
 				ach(5865, {	-- Have... Have We Met?
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Progress is made during the quest 'The Protectors of Hyjal', where 4 druid NPCs are assigned as your protectors in Sethria's Roost for the day. One of the generic druids are often replaced by a named NPC. Only Alliance players can get Tharassian as a guard, and Mankrik will only spawn for Horde players.",
 						constant = "PROGRESS_IS_MADE_DURING_THE_QUEST_THE",
 						export = true,
@@ -309,7 +309,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				ach(5872, {	-- King of the Spider-Hill  (Mount Hyjal - The Molten Front)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Tip: The spiders on the hill will pull you up to them.",
 						constant = "TIP_THE_SPIDERS_ON_THE_HILL_WILL_PULL_YOU_UP_TO",
 						export = true,
@@ -363,7 +363,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						29305,	-- Strike at the Heart (Stage 2: Into the Fire)
 					},
 					["coord"] = { 50.8, 23.0, THE_MOLTEN_FRONT },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires unlocking the presence of the Ancients on the Molten Front.\n\nProtip: You can skip the entire daily questline by keeping the quest 'Strike at the Heart' in your quest log. The next day you can simply speak to the ancient on Ragnaros' Reach again to engage the Lieutenant of Flame.",
 						constant = "REQUIRES_UNLOCKING_THE_PRESENCE_OF_THE_ANCIENTS",
 						export = true,
@@ -507,7 +507,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["maps"] = { MOONGLADE },
 					["groups"] = {
 						i(69854, {	-- Smoke-Stained Locket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item will be mailed to you after completing the achievement Legacy of Leyara.",
 								constant = "THIS_ITEM_WILL_BE_MAILED_TO_YOU_AFTER",
 								export = true,
@@ -872,7 +872,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["timeline"] = { ADDED_4_1_0 },
 				}),
 				heroscall(q(29391, {	-- Guardians of Hyjal: Call of the Ancients (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available to players who have not quested through Mount Hyjal.",
 						constant = "ONLY_AVAILABLE_TO_PLAYERS_WHO_HAVE_NOT_QUESTED",
 						export = true,
@@ -1055,7 +1055,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				q(29272, {	-- Need... Water... Badly...
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Anren Shadowseeker is found inside The Molten Flow, which requires you to pick 'Into the Fire' as the second stage of assault on the Molten Front.",
 						constant = "ANREN_SHADOWSEEKER_IS_FOUND_INSIDE_THE_MOLTEN",
 						export = true,
@@ -1785,7 +1785,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				q(29148, {	-- Wings Aflame
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You have to quit your bird vehicle before you can use the Quill of the Bird-Queen to summon Millagazor.",
 						constant = "YOU_HAVE_TO_QUIT_YOUR_BIRD_VEHICLE_BEFORE_YOU",
 						export = true,
@@ -2017,7 +2017,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					i(71631, {	-- Zen'Vorka's Cache
 						["cost"] = { { "c", MARK_OF_THE_WORLD_TREE, 30 } },
 						-- Danny Donkey: Rumours about greenies from this cache being of different ilvl and/or sourceID than ordinary world drops seems to be pre-release speculations only. No reports confirms this ever being the case from back when 4.2 released on retail, and likewise with Cata Classic.
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a random uncommon quality Cataclysm world drop. Also have a chance of containing the pet Searing Scorchling.",
 							constant = "CONTAINS_A_RANDOM_UNCOMMON_QUALITY_CATACLYSM",
 							export = true,

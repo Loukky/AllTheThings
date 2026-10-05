@@ -5,7 +5,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 	n(ISLAND_EXPEDITIONS, {
 		n(SCENARIO_COMPLETION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These are the random rewards you can receive by completing an Island Expedition or by purchasing the salvage boxes from vendors. It is estimated that winning will give you a higher chance to receive a reward.\n\nIf you receive something not listed here, please screenshot and submit it to our Discord.",
 				constant = "THESE_ARE_THE_RANDOM_REWARDS_YOU_CAN_RECEIVE_BY",
 				export = true,
@@ -660,7 +660,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				}),
 				filter(MISC, {
 					i(163611, {	-- Seafarer's Coin Pouch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains roughly 1-4 dubloons, more if you have the research.",
 							constant = "CONTAINS_ROUGHLY_1_4_DUBLOONS_MORE_IF_YOU_HAVE",
 							export = true,
@@ -683,7 +683,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					i(163612, {	-- Wayfinder's Satchel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains roughly 5-8 dubloons, more if you have the research.",
 							constant = "CONTAINS_ROUGHLY_5_8_DUBLOONS_MORE_IF_YOU_HAVE",
 							export = true,
@@ -706,7 +706,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					i(163613, {	-- Sack of Plunder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains roughly 9-12 dubloons, more if you have the research.",
 							constant = "CONTAINS_ROUGHLY_9_12_DUBLOONS_MORE_IF_YOU_HAVE",
 							export = true,
@@ -729,7 +729,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						},
 					}),
 					i(163217, {	-- Azeroth's Tear [Both]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Magni Bronzebeard in Silithus for Champions of Azeroth rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_MAGNI_BRONZEBEARD_IN",
 							export = true,
@@ -761,7 +761,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["timeline"] = { ADDED_8_3_0 },
 					}),
 					i(163619, {	-- Golden Beetle (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Krag'wa the Huge in Nazmir for Talanji's Expedition rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_KRAG_WA_THE_HUGE_IN_NAZMIR",
 							export = true,
@@ -781,7 +781,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						}),
 					}),
 					i(163620, {	-- Island Flotsam (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Jani in Dazar'alor for Zandalari Empire rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_JANI_IN_DAZAR_ALOR_FOR",
 							export = true,
@@ -804,7 +804,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["description"] = "~L.CFFFF0000TURN_IN_TO_BROTHER_PIKE_IN_STORMSONG",
 					}),
 					i(163617, {	-- Rusted Alliance Insignia (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Vindicator Jaelaana in Boralus for 7th Legion rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_VINDICATOR_JAELAANA_IN",
 							export = true,
@@ -824,7 +824,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						}),
 					}),
 					i(163621, {	-- Rusted Horde Insignia (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Ransa Greyfeather in Zuldazar for Honorbound rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_RANSA_GREYFEATHER_IN",
 							export = true,
@@ -844,7 +844,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						}),
 					}),
 					i(163618, {	-- Shimmering Shell (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Hoarder Jena in Vol'dun for Voldunai rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_HOARDER_JENA_IN_VOL_DUN_FOR",
 							export = true,
@@ -890,7 +890,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					}),
 					i(163488),	-- Weathered Pamphlet
 					i(163487, {	-- Wriggling Mass
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be turned in at old or new Silithus.",
 							constant = "CAN_BE_TURNED_IN_AT_OLD_OR_NEW_SILITHUS",
 							export = true,

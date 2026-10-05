@@ -20,7 +20,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["isBreadcrumb"] = true,
 				}),
 				q(31031, {	-- Into the Monastery
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version is available if you abandon the other version.",
 						constant = "THIS_VERSION_IS_AVAILABLE_IF_YOU_ABANDON_THE",
 						export = true,

@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					prof(FISHING, {
 						spell(1306775, {	-- Venom Fishing
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Enables fishing in the venomous waters surrounding the Temple of Ula'tek on The Coiled Isle.",
 								constant = "ENABLES_FISHING_IN_THE_VENOMOUS_WATERS",
 								export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 						filter(QUEST_ITEMS, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {
 							i(279384, {	-- Bonemail Gauntlet (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished in open waters",
 									constant = "CAN_BE_FISHED_IN_OPEN_WATERS",
 									export = true,
@@ -190,7 +190,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["sourceQuest"] = 98343,	-- Venom Fishing: My Second-Best
 							}),
 							i(278339, {	-- Cursebound Pearl (CI!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished from Abyssal Swirl pools created with the Eerie Bauble",
 									constant = "CAN_BE_FISHED_FROM_ABYSSAL_SWIRL_POOLS_CREATED",
 									export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["provider"] = { "i", 278391 },	-- Eerie Bauble
 							}),
 							i(278001, {	-- Forgotten Amani Fishing Rod (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished in Torrential Gorgerswarm pools created by a Coiled Stargorger Lure.",
 									constant = "CAN_BE_FISHED_IN_TORRENTIAL_GORGERSWARM_POOLS",
 									export = true,
@@ -233,7 +233,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["cost"] = { { "i", 241151, 1 } },	-- 1x Coiled Stargorger Lure
 							}),
 							i(277989, {	-- Ghostcaller's Bell (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished from Bubbling Beryl pools.",
 									constant = "CAN_BE_FISHED_FROM_BUBBLING_BERYL_POOLS",
 									export = true,
@@ -254,7 +254,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["sourceQuest"] = 96113,	-- Venom Fishing: Maximum Potency
 							}),
 							i(277998, {	-- Lump of Crystalline Malachite (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished from Willow Sea and Bubbling Beryl pools.",
 									constant = "CAN_BE_FISHED_FROM_WILLOW_SEA_AND_BUBBLING",
 									export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["sourceQuest"] = 98343,	-- Venom Fishing: My Second-Best
 							}),
 							i(278000, {	-- Sealed Vial of Mysterious Green Liquid (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished in venomous waters surrounding the Temple.",
 									constant = "CAN_BE_FISHED_IN_VENOMOUS_WATERS_SURROUNDING",
 									export = true,
@@ -309,7 +309,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								["sourceQuest"] = 96112,	-- Venom Fishing: Maddening Concoction
 							}),
 							i(277993, {	-- Spiritsurge Incense (QS!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be fished in open cursed waters around areas following a successfully completed Cursed Surge event. Look for the Cursed Land and Waters buff.",
 									constant = "CAN_BE_FISHED_IN_OPEN_CURSED_WATERS_AROUND",
 									export = true,
@@ -337,7 +337,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					n(RARES, {
 						n(270024, {	-- Cook Leathertongue
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Provides 50 Captain Tokka Reputation on kill",
 								constant = "PROVIDES_50_CAPTAIN_TOKKA_REPUTATION_ON_KILL",
 								export = true,
@@ -424,7 +424,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 									["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
 								}),
 								i(278391, {	-- Eerie Bauble
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Throw at a pool of fish to convert it to an Abyssal Swirl.",
 										constant = "THROW_AT_A_POOL_OF_FISH_TO_CONVERT_IT_TO_AN",
 										export = true,

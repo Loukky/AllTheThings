@@ -596,7 +596,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						n(88161, {	-- Challenger Sunforge
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only buy items from this vendor if you have Challenge Warlord: Gold Feat of Strength on your character.",
 								constant = "CAN_ONLY_BUY_ITEMS_FROM_THIS_VENDOR_IF_YOU_HAVE",
 								export = true,

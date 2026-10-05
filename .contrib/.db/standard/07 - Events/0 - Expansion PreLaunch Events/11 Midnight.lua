@@ -28,7 +28,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 		}),
 		n(QUESTS, {
 			q(90759, {	-- The Cult Within [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pops-up upon login",
 					constant = "POPS_UP_UPON_LOGIN",
 					export = true,
@@ -100,7 +100,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			------ Stay awhile and listen ------
 			hqt(92103, {	-- Stay awhile and listen: Squabble Amongst Ministers
 				["name"] = "Stay awhile and listen: Squabble Amongst Ministers",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Dialogue becomes available after accepting 'Midnight Dress' (90765).",
 					constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_7",
 					export = true,
@@ -213,7 +213,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 57.5, 75.4, TWILIGHT_HIGHLANDS },
 			}),
 			n(253378, {	-- Voice of the Eclipse
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This Rare has a chance to be summoned anywhere in Twilight Highlands.\n\nDestroy Disparate Ephemera to force the Ephemeral Void to coalesce and bring forth the Voice of the Eclipse.",
 					constant = "THIS_RARE_HAS_A_CHANCE_TO_BE_SUMMONED_ANYWHERE",
 					export = true,

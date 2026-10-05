@@ -131,7 +131,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(514, {	-- Flayer Youngling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in Razorthorn Rise, on the mountain range between Hellfire Peninsula and Terokkar Forest. Flying is required.",
 								constant = "FOUND_IN_RAZORTHORN_RISE_ON_THE_MOUNTAIN_RANGE",
 								export = true,
@@ -1638,7 +1638,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(21724, {	-- Hawkbane
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a tameable hunter pet that has no notable drops.",
 							constant = "THIS_IS_A_TAMEABLE_HUNTER_PET_THAT_HAS_NO",
 							export = true,
@@ -1681,7 +1681,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(185913, {	-- Skull Pile
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Summons one of 4 Rares using 10 Time-Lost Scrolls. See Terokk's description for more info.",
 							constant = "SUMMONS_ONE_OF_4_RARES_USING_10_TIME_LOST",
 							export = true,
@@ -1750,7 +1750,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(21838, {	-- Terokk
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The process to summon this boss is as follows.\n\n1. Collect Shadow Dust from mobs in Skettis.\n2. Turn in 6 Shadow Dust to Severin for the quest More Shadow Dust to obtain Elixir of Shadows.\n3. Drink the elixir to gain a 20-minute buff that allows you to see Time-Lost mobs around Skettis.\n4. Kill these mobs to obtain Time-Lost Scrolls (40 required per summon).\n5. Make sure you are on the Adversarial Blood quest if this is your first time; it begins with the quest Ishaal's Almanac.\n6. Go to a skull pile and use 10 Time-Lost Scrolls to summon boss. (Darkscreecher Akkarai [Akkarai's Talons], Karrog [Karrog's Spine], Gezzarak the Huntress [Gezzarak's Claws], Vakkiz the Windrager [Vakkiz's Scale]).\n7. Take these 4 items to Hazzik to complete Adversarial Blood which rewards a Time-Lost Offering.\n8. Use the Time-Lost Offering at the Ancient Skull Pile on middle island to summon Terokk. (It has about a 15-minute spawn timer)",
 							constant = "THE_PROCESS_TO_SUMMON_THIS_BOSS_IS_AS_FOLLOWS_1",
 							export = true,
@@ -1788,7 +1788,7 @@ root(ROOTS.Zones, {
 				}),
 				n(REWARDS, {
 					container(35348, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {	-- Bag of Fishing Treasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This bag is exclusive to the daily quest 'Crocolisk in the City'.",
 							constant = "THIS_BAG_IS_EXCLUSIVE_TO_THE_DAILY_QUEST",
 							export = true,
@@ -1823,7 +1823,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					container(34863, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {	-- Bag of Fishing Treasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shared reward bag for all the non-Croc dailies.",
 							constant = "SHARED_REWARD_BAG_FOR_ALL_THE_NON_CROC_DAILIES",
 							export = true,

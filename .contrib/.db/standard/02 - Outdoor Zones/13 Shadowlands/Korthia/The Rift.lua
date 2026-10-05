@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
 	m(KORTHIA, {
 		header(HEADERS.Spell, 354778, {	-- The Rift
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The things in this section are only accessible when you are in The Rift, a version of the Maw populated by shades.",
 				constant = "THE_THINGS_IN_THIS_SECTION_ARE_ONLY_ACCESSIBLE",
 				export = true,
@@ -75,7 +75,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							["isDaily"] = true,
 						}),
 						o(369438, {	-- Riftbound Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this cache spawns in Zelnithop's cave, it is on the lowest level and the opposite side from where the rare spawns.",
 								constant = "IF_THIS_CACHE_SPAWNS_IN_ZELNITHOP_S_CAVE_IT_IS",
 								export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				n(ZONE_DROPS, {
 					i(187174, {	-- Shaded Judgment Stone (TOY!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This has a chance to drop from creatures in The Rift, or from the specific Rares which are pulled out of The Rift.",
 							constant = "THIS_HAS_A_CHANCE_TO_DROP_FROM_CREATURES_IN_THE",
 							export = true,

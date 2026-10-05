@@ -50,7 +50,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			q(44930, {	-- Deadmines: Sea'in Red
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cff3399ffSTEP 1:|r Must be playing a Rogue in Outlaw Specialization, and you must have a Green Wing Macaw pet.\n|cff3399ffSTEP 2:|r Go to Ironclad Cove, near the end of the dungeon (the area with the dock and ship).\n|cff3399ffSTEP 3:|r Locate the Ghostly Parrot (36.5, 17.0).\n|cff3399ffSTEP 4:|r Summon your Green Wing Macaw. An Extra Action Button will appear, allowing you to grapple up the wall.\n|cff3399ffSTEP 5:|r Accept the quest and kill pirates to collect 100 bandanas.\n|cff3399ffSTEP 6:|r Repeat the process to get back to the questgiver to turn it in.",
 					constant = "CFF3399FFSTEP_1_R_MUST_BE_PLAYING_A_ROGUE_IN",
 					export = true,
@@ -438,7 +438,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(1928, {	-- Defias Mage Staff
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item drops from Blood Wizards or Defias Pirates which are located on the boat near the end of the dungeon.",
 					constant = "THE_ITEM_DROPS_FROM_BLOOD_WIZARDS_OR_DEFIAS",
 					export = true,
@@ -469,7 +469,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(1925, {	-- Defias Rapier
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item drops from Defias Pirates which are located on the boat near the end of the dungeon.",
 					constant = "THE_ITEM_DROPS_FROM_DEFIAS_PIRATES_WHICH_ARE",
 					export = true,
@@ -499,7 +499,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(1943, {	-- Goblin Mail Leggings
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Goblin Engineer's around 2nd Boss or Goblin Overseer's around last Boss.",
 					constant = "DROPS_FROM_GOBLIN_ENGINEER_S_AROUND_2ND_BOSS_OR",
 					export = true,
@@ -530,7 +530,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(1936, {	-- Goblin Screwdriver
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item drops from Goblins between 1st and 2nd boss.",
 					constant = "THE_ITEM_DROPS_FROM_GOBLINS_BETWEEN_1ST_AND_2ND",
 					export = true,
@@ -595,7 +595,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(7997, {	-- Red Defias Mask
 				-- #if BEFORE CATA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop in Westfall and The Deadmines. Rogues typically keep this mask for appearance sets.",
 					constant = "CAN_DROP_IN_WESTFALL_AND_THE_DEADMINES_ROGUES",
 					export = true,
@@ -663,7 +663,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(1945, {	-- Woodworking Gloves
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item drops from Goblins or Oaf's Lackey between 1st and 2nd boss.",
 					constant = "THE_ITEM_DROPS_FROM_GOBLINS_OR_OAF_S_LACKEY",
 					export = true,
@@ -720,7 +720,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				["groups"] = {
 					i(5187, {	-- Rhahk'Zor's Hammer [Classic] / Foe Reaper [TBC+]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item was redesigned to a rare quality item called 'Foe Reaper' in Patch 2.3, so if you are making a twink, you may want to keep this item despite it being lower quality now.",
 							constant = "THIS_ITEM_WAS_REDESIGNED_TO_A_RARE_QUALITY_ITEM",
 							export = true,

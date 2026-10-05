@@ -89,7 +89,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, timelineSelf({ ["timeline"] = { A
 					r(370533),	-- Residual Neural Channeling Agent (RECIPE!)
 					-- Decay
 					r(370521, {	-- Bottled Putrescence (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires Decayology.",
 							constant = "REQUIRES_DECAYOLOGY",
 							export = true,
@@ -895,7 +895,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, timelineSelf({ ["timeline"] = { A
 			["requireSkill"] = ENCHANTING,
 		},{
 			r(391185, {	-- Primal Invocation Extract
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Discovered only after obtaining all 5 Glimmers and then disenchanting a Sophic Amalgamation. Turn on +HQT Tracking to see which Glimmers you have already disenchanted",
 					constant = "DISCOVERED_ONLY_AFTER_OBTAINING_ALL_5_GLIMMERS",
 					export = true,
@@ -1144,7 +1144,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, timelineSelf({ ["timeline"] = { A
 		filter(TOYS, {
 			i(200469),	-- Khadgar's Disenchanting Rod (TOY!)
 			i(200636, {	-- Primal Invocation Quintessence (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to accumulate 2600 points. Each Primal Invocation Extract gives you a set amount of points based on its quality:\n\nRank 1: 51 points - (51 extracts)\nRank 2: 100 points - (26 extracts)\nRank 3: 150 points - (18 extracts)\n\nAs Extracts can only be used once every hour, it's recommended to buy 17x Rank 3 extracts, which will give you a total of 2550 points.\nProceed to buy the cheapest one available, no matter what quality it is, it will give you the toy.\nThey all must be used on the same character.\nYou don't need to accumulate the buff for 360 minutes.",
 					constant = "YOU_NEED_TO_ACCUMULATE_2600_POINTS_EACH_PRIMAL",
 					export = true,
@@ -1304,7 +1304,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, timelineSelf({ ["timeline"] = { A
 			i(258253),	-- Titanic Tyrhold Fountain (DECOR!)
 		})),
 		n(DISCOVERY, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Multiple Ways of Discovering.",
 				constant = "MULTIPLE_WAYS_OF_DISCOVERING",
 				export = true,

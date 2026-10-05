@@ -114,7 +114,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(130350, {	-- Guardian of the Spring
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mount the horse located at 62.1, 51.8 and ride it to Roan Berthold at 67.3, 51.6.",
 					constant = "MOUNT_THE_HORSE_LOCATED_AT_62_1_51_8_AND_RIDE",
 					export = true,
@@ -360,7 +360,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(132052, {	-- Vol'Jim
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "It looks like this NPC didn't make it to live from beta.",
 					constant = "IT_LOOKS_LIKE_THIS_NPC_DIDN_T_MAKE_IT_TO_LIVE",
 					export = true,

@@ -7,7 +7,7 @@ root(ROOTS.Zones, {
 		m(AZSUNA, {
 			n(SPECIAL, {
 				n(109028, {	-- Horkus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit.",
 						constant = "CAN_BE_MADE_HOSTILE_BY_DEMON_HUNTERS_USING",
 						export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Zones, {
 					["crs"] = { 109029 },	-- Horkus
 				}),
 				o(251168, {	-- Ephemeral Crystal
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Finding 5 Ephemeral Crystals, scattered across Azsuna, will award this mount, but find them quickly - after someone clicks on 5 crystals, the event will end, and you'll have to wait at least 8 hours (possibly up to 24) for the event to reappear. Remember to play cautiously while you're hunting, because if you die you'll have to restart.",
 						constant = "FINDING_5_EPHEMERAL_CRYSTALS_SCATTERED_ACROSS",
 						export = true,

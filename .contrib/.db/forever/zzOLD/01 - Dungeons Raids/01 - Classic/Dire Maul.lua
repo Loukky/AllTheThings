@@ -189,7 +189,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						MAP.WINTERSPRING,
 					}),
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a hidden reputation. It might not count towards reputation achievements.",
 						constant = "THIS_IS_A_HIDDEN_REPUTATION_IT_MIGHT_NOT_COUNT",
 						export = true,
@@ -214,7 +214,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 			n(QUESTS, {
 				q(1193, {	-- A Broken Trap
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the items on the Broken Trap to trap Guard Slip'kik. It takes a few seconds to finish fixing the trap.\n\nYou must activate this trap in order to do the Tribute Run.",
 						constant = "USE_THE_ITEMS_ON_THE_BROKEN_TRAP_TO_TRAP_GUARD",
 						export = true,
@@ -244,7 +244,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					["lvl"] = lvlsquish(56, 56, 15),
 				}),
 				q(27118, {	-- A Broken Trap
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must trap Guard Slip'kik in order to qualify for the full Tribute loot table.",
 						constant = "YOU_MUST_TRAP_GUARD_SLIP_KIK_IN_ORDER_TO",
 						export = true,
@@ -332,7 +332,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 				q(5527, {	-- A Reliquary of Purity
 					["qg"] = 11801,	-- Rabine Saturna
 					["coord"] = { 51.7, 45.1, MAP.MOONGLADE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The character must first visit Dire Maul, so that the Moonglade NPC will offer a conversation that unlocks the quest.",
 						constant = "THE_CHARACTER_MUST_FIRST_VISIT_DIRE_MAUL_SO",
 						export = true,
@@ -574,7 +574,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 				}),
 				q(5525, {	-- Free Knot!
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Freeing him gets you access to his Cache.\n\nNOTE: Do not free him until after you have finished your Tribute Run!",
 						constant = "FREEING_HIM_GETS_YOU_ACCESS_TO_HIS_CACHE_NOTE",
 						export = true,
@@ -1002,7 +1002,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							["requireSkill"] = LEATHERWORKING,
 						}),
 						i(18258, {	-- Gordok Ogre Suit
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Before using this, clear the trash before Captain Kromcrush. Tell your group to stay back while you talk to Kromcrush with this disguise on. If they aggro him, your group will fail the Tribute Run.",
 								constant = "BEFORE_USING_THIS_CLEAR_THE_TRASH_BEFORE",
 								export = true,
@@ -1064,7 +1064,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					},
 				}),
 				q(5528, {	-- The Gordok Taste Test
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "With Stomper Kreeg left alive, kill |cFFFFD700King Gordok|r to become king, and then return to the courtyard.\n\nHe sells these items after you have completed the quest and if you are Friendly with him.",
 						constant = "WITH_STOMPER_KREEG_LEFT_ALIVE_KILL",
 						export = true,
@@ -1241,7 +1241,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					},
 				}),
 				q(7703, {	-- Unfinished Gordok Business
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill |cFFFFD700King Gordok|r, and then return to the courtyard.",
 						constant = "KILL_CFFFFD700KING_GORDOK_R_AND_THEN_RETURN_TO",
 						export = true,
@@ -1302,7 +1302,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					i(18640),	-- Happy Fun Rock
 					i(18333, {	-- Libram of Focus
 						-- #if AFTER 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This still drops despite being completely worthless.",
 							constant = "THIS_STILL_DROPS_DESPITE_BEING_COMPLETELY",
 							export = true,
@@ -1353,7 +1353,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 			n(COMMON_BOSS_DROPS, {
 				["provider"] = { "o", 179547 },	-- A Dusty Tome
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following items can drop from any boss in Dire Maul and also from Dusty Tomes on the ground.",
 					constant = "THE_FOLLOWING_ITEMS_CAN_DROP_FROM_ANY_BOSS_IN",
 					export = true,
@@ -1531,7 +1531,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						}),
 					}),
 					n(14354, {	-- Pusillin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Talk to him and then chase him. Eventually he will go up a ramp and become killable.",
 							constant = "TALK_TO_HIM_AND_THEN_CHASE_HIM_EVENTUALLY_HE",
 							export = true,
@@ -1655,7 +1655,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 					}),
 					n(11491, {	-- Old Ironbark
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Talk to him for him to break down the door.",
 							constant = "TALK_TO_HIM_FOR_HIM_TO_BREAK_DOWN_THE_DOOR",
 							export = true,
@@ -1675,7 +1675,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						}),
 					}),
 					applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n_conditional(16097, {	-- Isalien
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This boss can be summoned using items from the |cff3399ff(Dungeon Set 2 questline)|r.\nSummon Location: Alzzin the Wildshaper's room.",
 							constant = "THIS_BOSS_CAN_BE_SUMMONED_USING_ITEMS_FROM_THE",
 							export = true,
@@ -1738,7 +1738,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						["creatureID"] = 11492,
 						["groups"] = {
 							i(18501, {	-- Felvine Shard
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Spawns under the vines near the last boss in Dire Maul East.",
 									constant = "SPAWNS_UNDER_THE_VINES_NEAR_THE_LAST_BOSS_IN",
 									export = true,
@@ -1821,7 +1821,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					n(ZONE_DROPS, bubbleDown({ ["timeline"] = { REMOVED_4_0_3, ADDED_10_1_5 } }, {
 						i(18250, {	-- Gordok Shackle Key
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "NOTE: Do NOT Free Knot if you are doing a Tribute Run. He runs away.",
 								constant = "NOTE_DO_NOT_FREE_KNOT_IF_YOU_ARE_DOING_A",
 								export = true,
@@ -1856,7 +1856,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					})),
 					n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {
 						q(77194, {	-- Free Knot!
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest becomes obtainable once a Gordok Shackle Key is looted. Completing it increases your reputation with the Steamwheedle Cartel without lowering your reputation with the Bloodsail Buccaneers.",
 								constant = "THIS_QUEST_BECOMES_OBTAINABLE_ONCE_A_GORDOK",
 								export = true,
@@ -1891,7 +1891,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						}),
 					})),
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The following items can drop from any of the guards.",
 							constant = "THE_FOLLOWING_ITEMS_CAN_DROP_FROM_ANY_OF_THE",
 							export = true,
@@ -1968,7 +1968,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					e(411, {	-- Guard Mol'dar
 						["creatureID"] = 14326,
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you do not have a way to open the inner door, you can kill him for the Inner Door Key.\n\nDoing so will invalidate your Tribute Run.",
 							constant = "IF_YOU_DO_NOT_HAVE_A_WAY_TO_OPEN_THE_INNER_DOOR",
 							export = true,
@@ -2035,7 +2035,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							i(18464),	-- Gordok Nose Ring
 							-- #endif
 							n(VENDORS, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After becoming the king, you can come back to Kreeg to buy some drinks.",
 									constant = "AFTER_BECOMING_THE_KING_YOU_CAN_COME_BACK_TO",
 									export = true,
@@ -2196,7 +2196,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 					}),
 					o(179499, {	-- Ogre Tannin Basket
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Beware! Looting the Ogre Tannin will cause a Gordok Bushwacker to spawn. Quote is homage to the movie The Silence of the Lambs.\n\n'NO! It puts the tannin in the basket, or it gets the mallet again!'",
 							constant = "BEWARE_LOOTING_THE_OGRE_TANNIN_WILL_CAUSE_A",
 							export = true,
@@ -2258,7 +2258,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							i(18483),	-- Mana Channeling Wand
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228064, {	-- Observer's Shield
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This doesn't appear to have been added yet.",
 									constant = "THIS_DOESN_T_APPEAR_TO_HAVE_BEEN_ADDED_YET",
 									export = true,
@@ -2350,7 +2350,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 					}),
 					o(179564, {	-- Gordok Tribute Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Speak with Mizzle after killing |cFFFFD700King Gordok|r to spawn the Tribute Chest.\n\nA full Tribute Run (5 items) requires leaving all bosses alive except King Gordok, and also requires activating the Frost Trap & fooling Kromcrush with the Ogre Suit, granted by the Goblin near the trap.",
 							constant = "SPEAK_WITH_MIZZLE_AFTER_KILLING_CFFFFD700KING",
 							export = true,
@@ -2437,7 +2437,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							}),
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228486, {	-- Treant's Bane
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "There's no evidence that this version has dropped yet. @Crieve if you get one to drop.",
 									constant = "THERE_S_NO_EVIDENCE_THAT_THIS_VERSION_HAS",
 									export = true,
@@ -2692,7 +2692,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 					}),
 					n(16032, {	-- Falrin Treeshaper <House of Shen'dralar>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the Dire Maul Library.",
 							constant = "FOUND_IN_THE_DIRE_MAUL_LIBRARY",
 							export = true,
@@ -2712,7 +2712,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						}),
 						["groups"] = {
 							n(SPECIAL, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Available if a specific Quest (9015) has been completed.",
 									constant = "AVAILABLE_IF_A_SPECIFIC_QUEST_9015_HAS_BEEN",
 									export = true,
@@ -2743,7 +2743,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						["creatureID"] = 11486,
 						["groups"] = {
 							i(18336, {	-- Gauntlet of Gordok Might
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In the corner of the room that the Prince is in, next to the bookshelves, there is a small chest on the ground that contains the gauntlet. You must kill the Prince in order for the chest to be interactable.",
 									constant = "IN_THE_CORNER_OF_THE_ROOM_THAT_THE_PRINCE_IS_IN",
 									export = true,

@@ -105,7 +105,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66520, {	-- Durin Darkhammer <Master Pet Tamer>
 					["coord"] = { 25.6, 47.6, BURNING_STEPPES },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDurin's pets are level 17 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Elemental - use Aquatic (powerful) or Critter (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_THOUGH_HORDE",
 						export = true,
@@ -305,7 +305,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Humans, Dwarfs, Void Elves, Kul Tirans, and Dark Iron Dwarfs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution for Human, Dwarf and Dark Iron Dwarf:\n2 Hides, 4 Handfulls of Mud, and 2 Spools of Thread.\n\nSolution for Void Elf:\n3 Hides, 2 Handfulls of Mud, and 1 Spool of Thread.\n\nSolution for Kul Tiran:\n4 Hides, 1 Handfull of Mud, and 3 Spools of Thread.\n\n",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT",
 						export = true,
@@ -353,7 +353,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Draenei, Worgen, Tushui Pandaren, Lightforged Draenei, and Alliance Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 Handfull of Mud\n3 Spools of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_2",
 						export = true,
@@ -394,7 +394,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Gnomes and Mechagnomes. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 Handfulls of Mud\n4 Spools of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_3",
 						export = true,
@@ -435,7 +435,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Night Elves. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 Handfulls of Mud\n1 Spool of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_4",
 						export = true,
@@ -476,7 +476,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Orcs, Undead, and Mag'har Orcs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n2 Hides\n4 Handfulls of Mud\n2 Spools of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_5",
 						export = true,
@@ -517,7 +517,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Tauren, Huojin Pandaren, Highmountain Tauren, and Horde Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 Handfull of Mud\n3 Spools of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_6",
 						export = true,
@@ -558,7 +558,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Goblins and Vulperas. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 Handfulls of Mud\n4 Spools of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_7",
 						export = true,
@@ -599,7 +599,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Trolls, Blood Elves, Nightborne Elves, and Zandalari Trolls. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 Handfulls of Mud\n1 Spool of Thread",
 						constant = "THIS_IS_A_RACE_SPECIFIC_QUEST_WHERE_DIFFERENT_8",
 						export = true,
@@ -814,7 +814,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(28174, {	-- Burning Vengeance (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Provided to players who DID NOT complete John J. Keeshan's questline in Redridge Mountains.",
 						constant = "PROVIDED_TO_PLAYERS_WHO_DID_NOT_COMPLETE_JOHN_J",
 						export = true,
@@ -847,7 +847,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(28416, {	-- Burning Vengeance (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Provided to players who DID complete John J. Keeshan's questline in Redridge Mountains.",
 						constant = "PROVIDED_TO_PLAYERS_WHO_DID_COMPLETE_JOHN_J",
 						export = true,
@@ -2483,7 +2483,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(14437, {	-- Gorzeeki Wildeyes
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The following items are only available to Warlocks that completed the original |cFFFFD700Dreadsteed of Xoroth|r quest chain.",
 						constant = "THE_FOLLOWING_ITEMS_ARE_ONLY_AVAILABLE_TO",
 						export = true,
@@ -2567,7 +2567,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(15738, {	-- Pattern: Heavy Scorpid Gauntlets (RECIPE!)
 					-- #if AFTER 10.0.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 						constant = "KILLING_THE_CREATURES_AT_ONE_OF_THE_COORDINATES",
 						export = true,
@@ -2677,7 +2677,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 7027,	-- Blackrock Slayer
 				}),
 				o(206971, {	-- War Reaver Parts
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill War Reavers for these objects to spawn. Loot the parts you need from the objects on the ground.",
 						constant = "KILL_WAR_REAVERS_FOR_THESE_OBJECTS_TO_SPAWN",
 						export = true,

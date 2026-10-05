@@ -11,7 +11,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(KYRIAN, {
 		n(REWARDS, {
 			i(183701, {	-- Cleansing Rite Materials
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only Obtainable via Pelagos Soulbind.",
 					constant = "ONLY_OBTAINABLE_VIA_PELAGOS_SOULBIND",
 					export = true,

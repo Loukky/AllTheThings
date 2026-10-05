@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 				}),
 				q(38323, {	-- Return to the Grove
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You will only be able to pick up one 'Return to the Grove' quest, based on the order in which you complete quests. Turning in whichever version you pick up should give you credit for all three.",
 						constant = "YOU_WILL_ONLY_BE_ABLE_TO_PICK_UP_ONE_RETURN_TO",
 						export = true,
@@ -785,7 +785,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 69.5, 49.4, VALSHARAH },
 				}),
 				q(38889, {	-- Adopting the Adorable
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You have to kill Jinikki the Puncturer to get this quest.",
 						constant = "YOU_HAVE_TO_KILL_JINIKKI_THE_PUNCTURER_TO_GET",
 						export = true,

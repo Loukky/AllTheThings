@@ -3,7 +3,7 @@
 -------------------------------------------
 
 root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "You can use one Cartel Deal per week on your account, across three weeks, equip the granted title then collect each dead drop within Manaforge Omega (Any difficulty) then return to the quartermaster for a new quest awarding your mount.",
 		constant = "YOU_CAN_USE_ONE_CARTEL_DEAL_PER_WEEK_ON_YOUR",
 		export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 	},
 	["groups"] = {
 		o(555609, {	-- Cartel Ba Dead Drop
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To the right of the first miniboss after Plexus.",
 				constant = "TO_THE_RIGHT_OF_THE_FIRST_MINIBOSS_AFTER_PLEXUS",
 				export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 			["groups"] = { i(249711) },	-- Cartel Ba Cypher
 		}),
 		o(555611, {	-- Cartel Om Dead Drop
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "On a rock past Fractillus near the edge of the map.",
 				constant = "ON_A_ROCK_PAST_FRACTILLUS_NEAR_THE_EDGE_OF_THE",
 				export = true,
@@ -89,7 +89,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 186639, {	-- Xy Trustee's Gearglider
 			["groups"] = { i(249712) },	-- Cartel Om Cypher
 		}),
 		o(555610, {	-- Cartel Zo Dead Drop
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "On top of a pipe in Mana-Vent Aphis before Forgeweaver Araz.\n\nThis cannot be looted in a cleared instance!",
 				constant = "ON_TOP_OF_A_PIPE_IN_MANA_VENT_APHIS_BEFORE",
 				export = true,

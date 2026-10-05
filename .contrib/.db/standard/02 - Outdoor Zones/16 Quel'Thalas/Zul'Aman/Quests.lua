@@ -172,7 +172,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(91060, {	-- Stay awhile and listen: Loa Speaker Kinduru
 						["name"] = "Stay awhile and listen: Loa Speaker Kinduru",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after accepting 'The Path of the Amani' (86653).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_THE_3",
 							export = true,
@@ -262,7 +262,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(92125, {	-- Stay awhile and listen: Zul'jarra
 						["name"] = "Stay awhile and listen: Zul'jarra",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after accepting 'Shadebasin Watch' (86657).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_6",
 							export = true,
@@ -467,7 +467,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(92108, {	-- Stay awhile and listen: Zul'jan
 						["name"] = "Stay awhile and listen: Zul'jan",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'Broken Bridges' (91062).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_BROKEN",
 							export = true,
@@ -1517,7 +1517,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				header(HEADERS.AchCriteria, 62413.01, {	-- Legacy of the Amani
 				-- #endif
 					q(92897, {	-- The Preparations Are Complete
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can get this Breadcrumb Quest from your Adventure Journal.",
 							constant = "YOU_CAN_GET_THIS_BREADCRUMB_QUEST_FROM_YOUR",
 							export = true,
@@ -1697,7 +1697,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(92898, {	-- Stay awhile and listen: Zul'jara
 						["name"] = "Stay awhile and listen: Zul'jara",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after completing 'Dead End' (93012).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_5",
 							export = true,
@@ -1749,7 +1749,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					-- tw = "",
 				},
 			}), {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "With the return of Jan’alai, Loa of Fire comes a return to past traditions. She’s ready to bring a new clutch of eggs into the world but Loa Speaker Brek requires assistance with the ceremony and with ensuring all the Loa’s young are released safely from their eggs. Be a part of welcoming the first of her offspring and protecting them as they take their first steps.",
 					constant = "WITH_THE_RETURN_OF_JAN_ALAI_LOA_OF_FIRE_COMES_A",
 					export = true,

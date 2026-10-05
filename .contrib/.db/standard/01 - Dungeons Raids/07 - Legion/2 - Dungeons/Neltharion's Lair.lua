@@ -10,7 +10,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(10996, {	-- Got to Ketchum All
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "As soon as you jump into the hole at the start of the dungeon, follow the cliff's path near |cFFFFD700Spiritwalker Ebonhorn|r to a hidden grotto and buy a |cFFFFD700Ketchum Tablet|r from the |cFFFFD700Mushroom Merchant|r.",
 						constant = "AS_SOON_AS_YOU_JUMP_INTO_THE_HOLE_AT_THE_START",
 						export = true,
@@ -33,7 +33,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["groups"] = {
 						crit(31787, {	-- Sparky's imprint collected
 							["provider"] = { "n", 111882 },	-- Sparky
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Dive right where the barrel ride ends and find a pathway to a somewhat hidden cave where the snail is located at.",
 								constant = "DIVE_RIGHT_WHERE_THE_BARREL_RIDE_ENDS_AND_FIND",
 								export = true,
@@ -54,7 +54,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						}),
 						crit(31790, {	-- Turbax's imprint collected
 							["provider"] = { "n", 105742 },	-- Turbax
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Racing around a stone pillar after killing Ularogg Cragshaper.",
 								constant = "RACING_AROUND_A_STONE_PILLAR_AFTER_KILLING",
 								export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						}),
 						crit(31793, {	-- Slinky's imprint collected
 							["provider"] = { "n", 111861 },	-- Slinky
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Follow the long westward path before Ularogg Cragshaper to a cave. He is usually along the cave's back wall.",
 								constant = "FOLLOW_THE_LONG_WESTWARD_PATH_BEFORE_ULAROGG",
 								export = true,
@@ -104,7 +104,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						}),
 						crit(31794, {	-- Sticky's imprint collected
 							["provider"] = { "n", 111864 },	-- Sticky
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Directly after the previous 3 snails. Go into the water with the basalisks and go along the river to the back where there is a cave and more basalisks. Kill all of them and have some one use an ability on Sticky. He is up on top of the cave just chilling out. Once someone attacks him he falls down and you can smack him and claim your achievement.",
 								constant = "DIRECTLY_AFTER_THE_PREVIOUS_3_SNAILS_GO_INTO",
 								export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						}),
 						crit(32888, {	-- Scaly's Imprint Collected
 							["provider"] = { "n", 113204 },	-- Scaly
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After first boss Rokmora, before entering a barrel, use the macro: /tar Scaly and then apply a target icon to him. It sits on a Mushroom on the left river bank and while riding in the barrel, you need to throw the fish at it while riding the barrel to make it fall into the water and come along with you.",
 								constant = "AFTER_FIRST_BOSS_ROKMORA_BEFORE_ENTERING_A",
 								export = true,

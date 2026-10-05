@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				q(53053, {	-- To The Mugambala!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You have to enable War Mode to get this quest.",
 						constant = "YOU_HAVE_TO_ENABLE_WAR_MODE_TO_GET_THIS_QUEST",
 						export = true,

@@ -21,7 +21,7 @@ end
 
 root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 	m(TOL_BARAD, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Tol Barad is a world PvP zone very similar to Wintergrasp. A battle starts on even intervals of time, and the winner of the match gains access to the Baradin Hold raid, as well as a number of special daily quests that grant reputation and currency. In addition to this, both winner and loser gain access to the standard quests in the zone.",
 			constant = "TOL_BARAD_IS_A_WORLD_PVP_ZONE_VERY_SIMILAR_TO",
 			export = true,
@@ -177,7 +177,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				["coord"] = { 51.45, 49.65, TOL_BARAD },
 				-- Danny Donkey: Because classic does not show descriptions on questgivers.
 				-- #if ANYCLASSIC
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This questgiver shares it's spawn with two other quest givers. Win the battle of Tol Barad to have a chance at getting a different questgiver offering other quests in it's place.",
 					constant = "THIS_QUESTGIVER_SHARES_IT_S_SPAWN_WITH_TWO",
 					export = true,
@@ -469,7 +469,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 			-- Helpful event descriptions
 			n(45344, {	-- Abandoned Siege Engine
 				-- #if BEFORE 8.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is used by the attacking faction to destroy towers, which requires the player to have got a honourable kill in the current battle. Players of the defending faction can attack deployed siege engines for credit towards the achievements 'Towers of Power' and 'Tol Barad Saboteur'.",
 					constant = "IS_USED_BY_THE_ATTACKING_FACTION_TO_DESTROY",
 					export = true,
@@ -488,7 +488,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 				-- #else
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is used by the attacking faction to destroy towers, which requires the player to have got a honourable kill in the current battle. Abandoned siege engines can be attacked by high-level players of the defending faction for credit towards the achievement 'Towers of Power'. 'Tol Barad Saboteur' however requires defeating deployed siege engines.",
 					constant = "IS_USED_BY_THE_ATTACKING_FACTION_TO_DESTROY_2",
 					export = true,

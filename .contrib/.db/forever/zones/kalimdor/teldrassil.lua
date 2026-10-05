@@ -673,7 +673,7 @@ maproot(MAP.KALIMDOR, MAP.TELDRASSIL, {
 				["lvl"] = 10,
 			}),
 			q(1581, {	-- Elixirs for the Bladeleafs
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest becomes available at Alchemy skill level 20 when the character level requirement is met.\n\nTODO: Check that this is true in Forever.",
 					constant = "THIS_QUEST_BECOMES_AVAILABLE_AT_ALCHEMY_SKILL",
 					export = true,
@@ -724,7 +724,7 @@ maproot(MAP.KALIMDOR, MAP.TELDRASSIL, {
 							{ "i",  10819 },	-- Wildkin Feather
 							{ "o", 153239 },	-- Wildkin Feather
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Scattered on the ground around the Hinterlands.",
 							constant = "SCATTERED_ON_THE_GROUND_AROUND_THE_HINTERLANDS",
 							export = true,
@@ -1311,7 +1311,7 @@ maproot(MAP.KALIMDOR, MAP.TELDRASSIL, {
 				},
 				["groups"] = {
 					i(5179, {	-- Moss-twined Heart
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is one of the only drops from a rare spawn in the game that start a quest. Good luck!",
 							constant = "THIS_IS_ONE_OF_THE_ONLY_DROPS_FROM_A_RARE_SPAWN",
 							export = true,

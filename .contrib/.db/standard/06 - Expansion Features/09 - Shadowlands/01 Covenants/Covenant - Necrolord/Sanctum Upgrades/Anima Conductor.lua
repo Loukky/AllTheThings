@@ -6,7 +6,7 @@ local GRATEFUL_CURRENCY = currency(GRATEFUL);
 local AMALGAMTED_FORWORNS_JOURNAL = i(184298);
 local TEMPERED_BONEPLASTE_WAISTGUARD = i(184291);
 local GIEGER = n(162741, {	-- Gieger <Experimental Construct>
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "A member of the |cFF40bf40Necrolord Covenant|r must channel anima to the House of Constructs to summon him.",
 		constant = "A_MEMBER_OF_THE_CFF40BF40NECROLORD_COVENANT_R",
 		export = true,
@@ -35,7 +35,7 @@ local GIEGER = n(162741, {	-- Gieger <Experimental Construct>
 	},
 });
 local SABRIEL = n(168147, {	-- Sabriel the Bonecleaver
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Can be killed and looted by any Covenant, but a member of the |cFF40bf40Necrolord Covenant|r must channel anima to the Theater of Pain and pick up the daily quest |cFF349cffSpoiling For A Fight|r to add Sabriel to the arena's rotation.",
 		constant = "CAN_BE_KILLED_AND_LOOTED_BY_ANY_COVENANT_BUT_A",
 		export = true,
@@ -96,7 +96,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 							n(TREASURES, {
 								o(355035, {	-- Chosen Runecoffer [Treasure: House of the Chosen]
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Becomes accessible when selecting the Anima Conduit to 'The House of the Chosen'\nRequires clicking the 3 Runes in the area to unlock",
 										constant = "BECOMES_ACCESSIBLE_WHEN_SELECTING_THE_ANIMA",
 										export = true,

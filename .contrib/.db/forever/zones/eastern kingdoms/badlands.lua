@@ -533,7 +533,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.BADLANDS, {
 				},
 			}),
 			q(795, {	-- Seal of the Earth [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is repeatable but can only be completed while |cffe50d12Broken Alliances|r or |cff4a54e8Tremors of the Earth|r is in your quest log.",
 					constant = "THIS_QUEST_IS_REPEATABLE_BUT_CAN_ONLY_BE",
 					export = true,

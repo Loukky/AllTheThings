@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 	header(HEADERS.Spell, 311289, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5 } }, {	-- Jenafur
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "***Debug Mode is required to see all the steps.***\n",
 			constant = "DEBUG_MODE_IS_REQUIRED_TO_SEE_ALL_THE_STEPS",
 			export = true,
@@ -26,7 +26,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 		["groups"] = {
 			hqt(58076, {	-- Step 1: Speak to Amara
 				["name"] = "|cFFFFFFFFStep 1:|r Speak to Amara",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 1:|r Speak with |cFFFFD700Amara Lunastar|r and follow her dialogue about her cat.\n",
 					constant = "CFFFFFFFFSTEP_1_R_SPEAK_WITH_CFFFFD700AMARA",
 					export = true,
@@ -49,7 +49,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 			}),
 			hqt(58098, {	-- Step 2: Empty Dish
 				["name"] = "|cFFFFFFFFStep 2:|r Empty Dish",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 2:|r Go inside the house in Elwynn Forest to find the |cFFFFD700Empty Dish|r.\n",
 					constant = "CFFFFFFFFSTEP_2_R_GO_INSIDE_THE_HOUSE_IN_ELWYNN",
 					export = true,
@@ -75,7 +75,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 			}),
 			hqt(58099, {	-- Amara's Wish
 				["name"] = "|cFFFFFFFFStep 3:|r Amara's Wish",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 3:|r This step requires collecting various meats throughout |cffffd200Return to Karazhan|r and placing them in the Opera Hall to mimic a section of the Amara's Wish sheet music.\n\n|cffde1c1cOnce the items are picked up, you have 5 minutes to place them into the puzzle. Once placed, they despawn after 5 minutes and 20 seconds. Because of these time limits, it may be wise to ensure you have cleared the trash in the dungeon and have acquainted yourself with the locations of all the meats you need to pick up.\n\nTurn on Debug Mode to see descriptions for the locations of each meat and how to place them in the correct order!|r\n\nYou will need to collect items from Moroes' room as well as the hallways near Maiden of Virtue, and then take the items back to the audience area of the Opera Hall to place them.\n",
 					constant = "CFFFFFFFFSTEP_3_R_THIS_STEP_REQUIRES_COLLECTING",
 					export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 				["coord"] = { 46.7, 70.1, DEADWIND_PASS },	-- Return to Karazhan entrance
 				["groups"] = {
 					n(160374, {	-- Fishy Bits (2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Two are required.\n\n|cFFFFFFFF1.|r The first Fishy Bits can be found in the hallway prior to Maiden of Virtue. Near the middle of hall on the left side, there is a doorway flanked by two lion statues. The Fishy Bits are just past the lion statues and before the left-hand bust directly after them, against the wall.\n\n|cFFFFFFFF2.|r The second Fishy Bits can be found in Moroes' room, very close to the boss's platform. It's between the bottom right corner of the platform and the upper left corner of the small right-hand table.\n",
 							constant = "TWO_ARE_REQUIRED_CFFFFFFFF1_R_THE_FIRST_FISHY",
 							export = true,
@@ -132,7 +132,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = { i(173787) },	-- Fishy Bits
 					}),
 					n(160370, {	-- Marbled Steak (2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Two are required.\n\n|cFFFFFFFF1.|r Progress through the dungeon, killing the Opera boss, and head towards Maiden of Virtue. When you exit the Opera Hall, in the area before you turn towards Maiden, there is a wide hallway with two rugs, one red and one purple. The first Marbled Steak can be found on the right-hand edge of the purple rug.\n\n|cFFFFFFFF2.|r The second Marbled Steak is just before Maiden of Virtue in the last little room off to the left of the hallway. The Marbled Steak is in the upper-left corner of the antechamber, behind what looks like a very large, high-backed chair.\n",
 							constant = "TWO_ARE_REQUIRED_CFFFFFFFF1_R_PROGRESS_THROUGH",
 							export = true,
@@ -153,7 +153,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = { i(173780) },	-- Marbled Steak
 					}),
 					n(160371, {	-- Juicy Drumstick (2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Two are required.\n\n|cFFFFFFFF1.|r The first Juicy Drumstick can be found close to the second Marbled Steak, in the last room before Maiden of Virtue. Head all the way into the room, and you will see the Juicy Drumstick on an ottoman in front of another high-backed chair. It's next to a tall candelabra and a portrait of a woman.\n\n|cFFFFFFFF2.|r The second Juicy Drumstick can be found in Moroes' room, in front of the boss's platform. It's closer to the small left-hand table, near the bottom edge of the big black and gold carpet.\n",
 							constant = "TWO_ARE_REQUIRED_CFFFFFFFF1_R_THE_FIRST_JUICY",
 							export = true,
@@ -174,7 +174,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = { i(173783) },	-- Juicy Drumstick
 					}),
 					n(160373, {	-- Meaty Morsel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found about halfway down the hallway prior to Maiden of Vigilance. There is a section on the right-hand side with a rectangular table and three chairs between two bookshelves, all covered in cobwebs. The Meaty Morsel is on a tiny round table between the first bookshelf and chair.\n",
 							constant = "CAN_BE_FOUND_ABOUT_HALFWAY_DOWN_THE_HALLWAY",
 							export = true,
@@ -195,7 +195,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = { i(173779) },	-- Meaty Morsel
 					}),
 					n(160372, {	-- Slathered Rib
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in Moroes' room, on the right side of the long table. There are a couple on the table, but the easiest one to spot is on a gold platter sitting between a large roast pig and fish.\n",
 							constant = "CAN_BE_FOUND_IN_MOROES_ROOM_ON_THE_RIGHT_SIDE",
 							export = true,
@@ -216,7 +216,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = { i(173777) },	-- Slathered Rib
 					}),
 					o(9999921, {	-- Placement
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you have all the meats collected, head back to the audience area of the Opera Hall. To orient yourself in the room, you want to have your back to the stage.\n\nYou will be placing each meat relative to two very tiny piles of kibble on the left side of the room (again, while faced away from the stage). You will probably need to zoom in to see them. Each tile on the floor represents a box in a 12-by-12 grid.\n\n|cff413f43 00|r = Empty cell\n|cff4db62c 00|r = Pile of Kibble\n|cffeea016 00|r = Fishy Bits\n|cffeee116 00|r = Juicy Drumstick\n|cff16ceee 00|r = Meaty Morsel\n|cffce16ee 00|r = Marbled Steak\n|cff9e5ced 00|r = Slathered Rib\n\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00|r|cffeee116 00|r|cff413f43 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00|r|cff9e5ced 00|r|cff413f43 00|r|cffeea016 00|r|cff413f43 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00|r|cff16ceee 00|r|cff413f43 00 00 00 00 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00|r|cffeea016 00|r|cff413f43 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00|r|cffeee116 00|r|cff413f43 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n\nIf you have placed all the meats properly, Jenafur will spawn as soon as you finish. You can use |cFFFFFFFF/tar Jenafur|r to find her in the room, and then all you have to do is walk over and pet her for her to be added to your collection.\n",
 							constant = "AFTER_YOU_HAVE_ALL_THE_MEATS_COLLECTED_HEAD",
 							export = true,

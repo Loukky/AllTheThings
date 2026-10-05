@@ -3,7 +3,7 @@
 -----------------------------------------------------
 root(ROOTS.WorldDrops, {
 	pickpocketing(true, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "A Rogue can use their Pick Pocket skill to steal the following items from mobs of a specific area.",
 			constant = "A_ROGUE_CAN_USE_THEIR_PICK_POCKET_SKILL_TO",
 			export = true,
@@ -23,7 +23,7 @@ root(ROOTS.WorldDrops, {
 		}),
 		["groups"] = {
 			i(6150, {	-- A Frayed Knot
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be pickpocketed from Classic humanoids.",
 					constant = "CAN_BE_PICKPOCKETED_FROM_CLASSIC_HUMANOIDS",
 					export = true,
@@ -43,7 +43,7 @@ root(ROOTS.WorldDrops, {
 				}),
 			}),
 			i(5373, {	-- Lucky Charm
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "While there's no evidence to suggest that having this item will make the thing you want drop for you, Crieve totally got his second binding after only 97 weeks of Baron Geddon with this bad boy in his bags. Without it, it'd probably have been more than that!",
 					constant = "WHILE_THERE_S_NO_EVIDENCE_TO_SUGGEST_THAT",
 					export = true,
@@ -65,7 +65,7 @@ root(ROOTS.WorldDrops, {
 		},
 	}),
 	header(HEADERS.Spell, 1810, {	-- Lockpicking
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These containers can be opened by a Rogue with Pick Lock or by using a key of the appropriate level. Items exclusive to the boxes will be listed below.",
 			constant = "THESE_CONTAINERS_CAN_BE_OPENED_BY_A_ROGUE_WITH",
 			export = true,
@@ -3415,7 +3415,7 @@ root(ROOTS.WorldDrops, {
 	}),
 	filter(MISC, {
 		i(211786, {	-- Scroll: CHAP BALK WELLES
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Black Sheep Wall'",
 				constant = "BLACK_SHEEP_WALL",
 				export = true,
@@ -3437,7 +3437,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211785, {	-- Scroll: CWAL
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Claw'",
 				constant = "CLAW",
 				export = true,
@@ -3459,7 +3459,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211780, {	-- Scroll: KWYJIBO
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This might just be a Simpsons quote.",
 				constant = "THIS_MIGHT_JUST_BE_A_SIMPSONS_QUOTE",
 				export = true,
@@ -3481,7 +3481,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211787, {	-- Scroll: LOWER PING WHOMEVER
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Overwhelming Power'",
 				constant = "OVERWHELMING_POWER",
 				export = true,
@@ -3503,7 +3503,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211854, {	-- Scroll: OMIT KESA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Time Soak'",
 				constant = "TIME_SOAK",
 				export = true,
@@ -3525,7 +3525,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211855, {	-- Scroll: STHENIC LUNATE
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Ancient Hustle'",
 				constant = "ANCIENT_HUSTLE",
 				export = true,
@@ -3547,7 +3547,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211853, {	-- Scroll: VOCE WELL
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "'Cow Level'",
 				constant = "COW_LEVEL",
 				export = true,
@@ -3569,7 +3569,7 @@ root(ROOTS.WorldDrops, {
 			["timeline"] = { TIMELINE.ADDED_1_60_1 },
 		}),
 		i(211784, {	-- Scroll: WUBBA WUBBA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This might just be a Pee Wee Herman quote.",
 				constant = "THIS_MIGHT_JUST_BE_A_PEE_WEE_HERMAN_QUOTE",
 				export = true,
@@ -4079,7 +4079,7 @@ root(ROOTS.WorldDrops, {
 		--
 		-- Cloth:
 		i(14256, {	-- Felcloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Felcloth drops uncommonly from given satyrs and creatures of the Burning Legion within the given zones.",
 				constant = "FELCLOTH_DROPS_UNCOMMONLY_FROM_GIVEN_SATYRS_AND",
 				export = true,
@@ -4103,7 +4103,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(2589, {	-- Linen Cloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Linen Cloth drops commonly from any humanoid and undead creatures within the given zones.",
 				constant = "LINEN_CLOTH_DROPS_COMMONLY_FROM_ANY_HUMANOID",
 				export = true,
@@ -4134,7 +4134,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(4338, {	-- Mageweave Cloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Mageweave Cloth drops commonly from any humanoid and undead creatures within the given zones.",
 				constant = "MAGEWEAVE_CLOTH_DROPS_COMMONLY_FROM_ANY",
 				export = true,
@@ -4163,7 +4163,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(14047, {	-- Runecloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Runecloth drops commonly from any humanoid and undead creatures within the given zones.",
 				constant = "RUNECLOTH_DROPS_COMMONLY_FROM_ANY_HUMANOID_AND",
 				export = true,
@@ -4192,7 +4192,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(4306, {	-- Silk Cloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Silk Cloth drops commonly from any humanoid and undead creatures within the given zones.",
 				constant = "SILK_CLOTH_DROPS_COMMONLY_FROM_ANY_HUMANOID_AND",
 				export = true,
@@ -4222,7 +4222,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(2592, {	-- Wool Cloth
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Wool Cloth drops commonly from any humanoid and undead creatures within the given zones.",
 				constant = "WOOL_CLOTH_DROPS_COMMONLY_FROM_ANY_HUMANOID_AND",
 				export = true,
@@ -4250,7 +4250,7 @@ root(ROOTS.WorldDrops, {
 		}),
 		-- Silk:
 		i(14227, {	-- Ironweb Spider Silk
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 45-60.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_45_60",
 				export = true,
@@ -4291,7 +4291,7 @@ root(ROOTS.WorldDrops, {
 			["description"] = "~L.DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_45_60",
 		}),
 		i(3182, {	-- Spider's Silk
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 16-36, and are most abundant in Ashenvale. Spiders often share a spawn with other beasts, so kill the bear or whatever if you cannot find spiders.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_16_36",
 				export = true,
@@ -4334,7 +4334,7 @@ root(ROOTS.WorldDrops, {
 				1824,	-- Plague Lurker
 				1822,	-- Venom Mist Lurker
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 32-60.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_32_60",
 				export = true,
@@ -4637,7 +4637,7 @@ root(ROOTS.WorldDrops, {
 				12380,	-- Unliving Resident
 				12377,	-- Wailing Spectre
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Undead creatures in the given zones.",
 				constant = "DROPS_FROM_UNDEAD_CREATURES_IN_THE_GIVEN_ZONES",
 				export = true,
@@ -4664,7 +4664,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(12808, {	-- Essence of Undeath
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Undead creatures in the given instances.",
 				constant = "DROPS_FROM_UNDEAD_CREATURES_IN_THE_GIVEN",
 				export = true,
@@ -4766,7 +4766,7 @@ root(ROOTS.WorldDrops, {
 				MAP.TANARIS,
 				MAP.THE_HINTERLANDS,
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops commonly from humanoid- and beast sea creatures like naga, giants and turtles in the level bracket 40-60.",
 				constant = "DROPS_COMMONLY_FROM_HUMANOID_AND_BEAST_SEA",
 				export = true,
@@ -4802,7 +4802,7 @@ root(ROOTS.WorldDrops, {
 				MAP.SILVERPINE_FOREST,
 				MAP.WESTFALL,
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops commonly from humanoid- and beast sea creatures like naga, giants and turtles in the level bracket 10-20.",
 				constant = "DROPS_COMMONLY_FROM_HUMANOID_AND_BEAST_SEA_2",
 				export = true,
@@ -4831,7 +4831,7 @@ root(ROOTS.WorldDrops, {
 				MAP.HILLSBRAD_FOOTHILLS,
 				MAP.WETLANDS,
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops commonly from humanoid- and beast sea creatures like naga, giants and turtles in the level bracket 20-30.",
 				constant = "DROPS_COMMONLY_FROM_HUMANOID_AND_BEAST_SEA_3",
 				export = true,
@@ -4872,7 +4872,7 @@ root(ROOTS.WorldDrops, {
 				2164,	-- Rabid Thistle Bear
 				2163,	-- Thistle Bear
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from bears in the level bracket 10-20 like Black Bears in Loch Modan.",
 				constant = "DROPS_FROM_BEARS_IN_THE_LEVEL_BRACKET_10_20",
 				export = true,
@@ -4900,7 +4900,7 @@ root(ROOTS.WorldDrops, {
 				3809,	-- Ashenvale Bear
 				3810,	-- Elder Ashenvale Bear
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from bears in the level bracket 20-30 like bears in Ashenvale.",
 				constant = "DROPS_FROM_BEARS_IN_THE_LEVEL_BRACKET_20_30",
 				export = true,
@@ -4927,7 +4927,7 @@ root(ROOTS.WorldDrops, {
 				157,	-- Goretusk
 				454,	-- Young Goretusk
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from boars in the level bracket 10-20 like Goretusks in Westfall.",
 				constant = "DROPS_FROM_BOARS_IN_THE_LEVEL_BRACKET_10_20",
 				export = true,
@@ -4956,7 +4956,7 @@ root(ROOTS.WorldDrops, {
 				5428,	-- Roc
 				5430,	-- Searing Roc
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from carrion birds in the level bracket 30-60 like Rocs in Tanaris. The rocs can be found around the big skeleton rib cages.",
 				constant = "DROPS_FROM_CARRION_BIRDS_IN_THE_LEVEL_BRACKET",
 				export = true,
@@ -5005,7 +5005,7 @@ root(ROOTS.WorldDrops, {
 				1190,	-- Mountain Boar
 				390,	-- Porcine Entourage
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from boars in the level bracket 5-20 like Goretusks in Westfall.",
 				constant = "DROPS_FROM_BOARS_IN_THE_LEVEL_BRACKET_5_20_LIKE",
 				export = true,
@@ -5030,7 +5030,7 @@ root(ROOTS.WorldDrops, {
 				MAP.DARKSHORE,
 				MAP.WESTFALL,
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from crawlers in the level bracket 10-20 like crawlers throughout the shoreline in Ashenvale, Darskshore and Westfall.",
 				constant = "DROPS_FROM_CRAWLERS_IN_THE_LEVEL_BRACKET_10_20",
 				export = true,
@@ -5102,7 +5102,7 @@ root(ROOTS.WorldDrops, {
 		i(2924, {	-- Crocolisk Meat
 			["coord"] = { 54.3, 57.8, MAP.LOCH_MODAN },	-- The Loch (southern isle)
 			["cr"] = 1693,	-- Loch Crocolisk
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from crocolisks in the level bracket 10-20 like crocolisks in Loch Modan.",
 				constant = "DROPS_FROM_CROCOLISKS_IN_THE_LEVEL_BRACKET_10",
 				export = true,
@@ -5131,7 +5131,7 @@ root(ROOTS.WorldDrops, {
 				5428,	-- Roc
 				5430,	-- Searing Roc
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from birds and owlbeasts in the level bracket 40-60 like Rocs in Tanaris. The rocs can be found around the big skeleton rib cages.",
 				constant = "DROPS_FROM_BIRDS_AND_OWLBEASTS_IN_THE_LEVEL",
 				export = true,
@@ -5160,7 +5160,7 @@ root(ROOTS.WorldDrops, {
 				930,	-- Black Widow Hatchling
 				217,	-- Venom Web Spider
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 15-40 like spiders in Duskwood.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_15_40",
 				export = true,
@@ -5201,7 +5201,7 @@ root(ROOTS.WorldDrops, {
 				4702,	-- Ancient Kodo
 				4701,	-- Dying Kodo
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from kodos in Desolace.",
 				constant = "DROPS_FROM_KODOS_IN_DESOLACE",
 				export = true,
@@ -5235,7 +5235,7 @@ root(ROOTS.WorldDrops, {
 				3474,	-- Lakota'mani
 				3237,	-- Wooly Kodo
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from kodos in Mulgore and southern Barrens.",
 				constant = "DROPS_FROM_KODOS_IN_MULGORE_AND_SOUTHERN",
 				export = true,
@@ -5262,7 +5262,7 @@ root(ROOTS.WorldDrops, {
 				565,	-- Rapid Dire Wolf
 				213,	-- Starving Dire Wolf
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from wolves in the level bracket 15-30 like Dire wolves in Duskwood.",
 				constant = "DROPS_FROM_WOLVES_IN_THE_LEVEL_BRACKET_15_30",
 				export = true,
@@ -5290,7 +5290,7 @@ root(ROOTS.WorldDrops, {
 				2385,	-- Foothill Stalker
 				2384,	-- Starving Mountain Lion
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from lions in the level bracket 15-35 like lions in Hillsbrad Foothills and Alterac Mountains.",
 				constant = "DROPS_FROM_LIONS_IN_THE_LEVEL_BRACKET_15_35",
 				export = true,
@@ -5317,7 +5317,7 @@ root(ROOTS.WorldDrops, {
 				1553,	-- Greater Duskbat
 				1554,	-- Vampiric Duskbat
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Only drops from bats in Tirisfal Glades.",
 				constant = "ONLY_DROPS_FROM_BATS_IN_TIRISFAL_GLADES",
 				export = true,
@@ -5349,7 +5349,7 @@ root(ROOTS.WorldDrops, {
 				1418,	-- Bluegill Raider
 				1027,	-- Bluegill Warrior
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from murlocs in the level bracket 15-30 like Bluegill murlocs in Wetlands.",
 				constant = "DROPS_FROM_MURLOCS_IN_THE_LEVEL_BRACKET_15_30",
 				export = true,
@@ -5379,7 +5379,7 @@ root(ROOTS.WorldDrops, {
 				1151,	-- Saltwater Crocolisk
 				1152,	-- Snapjaw Crocolisk
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from a diverse selection of creatures ranging from hyenas to scorpids in the level bracket 30-60 like Crocolisks in Stranglethorn.",
 				constant = "DROPS_FROM_A_DIVERSE_SELECTION_OF_CREATURES",
 				export = true,
@@ -5407,7 +5407,7 @@ root(ROOTS.WorldDrops, {
 				687,	-- Jungle Stalker
 				686,	-- Lashtail Raptor
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from raptors in the level bracket 20-40 like raptors in Stranglethorn Vale.",
 				constant = "DROPS_FROM_RAPTORS_IN_THE_LEVEL_BRACKET_20_40",
 				export = true,
@@ -5435,7 +5435,7 @@ root(ROOTS.WorldDrops, {
 				687,	-- Jungle Stalker
 				686,	-- Lashtail Raptor
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from raptors in the level bracket 30-60 like raptors in Stranglethorn Vale.",
 				constant = "DROPS_FROM_RAPTORS_IN_THE_LEVEL_BRACKET_30_60",
 				export = true,
@@ -5463,7 +5463,7 @@ root(ROOTS.WorldDrops, {
 				8960,	-- Felpaw Scavenger
 				8959,	-- Felpaw Wolf
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from wolves in the level bracket 30-60 like Felpaw wolves in Felwood.",
 				constant = "DROPS_FROM_WOLVES_IN_THE_LEVEL_BRACKET_30_60",
 				export = true,
@@ -5508,7 +5508,7 @@ root(ROOTS.WorldDrops, {
 				10160,	-- Raging Moonkin
 				10159,	-- Young Moonkin
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from birds, owlkin and striders in entry- and lower level vanilla zones",
 				constant = "DROPS_FROM_BIRDS_OWLKIN_AND_STRIDERS_IN_ENTRY",
 				export = true,
@@ -5540,7 +5540,7 @@ root(ROOTS.WorldDrops, {
 				2000,	-- Webwood Silkspinner
 				1999,	-- Webwood Venomfang
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 5-20 like spiders in Silverpine Forest and Teldrassil.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_5_20",
 				export = true,
@@ -5569,7 +5569,7 @@ root(ROOTS.WorldDrops, {
 				6033,	-- Lake Frenzy
 				2173,	-- Reef Frenzy
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from frenzies found in bodies of water.",
 				constant = "DROPS_FROM_FRENZIES_FOUND_IN_BODIES_OF_WATER",
 				export = true,
@@ -5600,7 +5600,7 @@ root(ROOTS.WorldDrops, {
 				3817,	-- Shadowhorn Stag
 				3816,	-- Wild Buck
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from stags in Ashenvale as well as some other vanilla zones.",
 				constant = "DROPS_FROM_STAGS_IN_ASHENVALE_AS_WELL_AS_SOME",
 				export = true,
@@ -5630,7 +5630,7 @@ root(ROOTS.WorldDrops, {
 				3245,	-- Ornery Plainstrider
 				2172,	-- Strider Clutchmother
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from striders in the level bracket 10-20 like Foreststriders throughout Darkshore.",
 				constant = "DROPS_FROM_STRIDERS_IN_THE_LEVEL_BRACKET_10_20",
 				export = true,
@@ -5663,7 +5663,7 @@ root(ROOTS.WorldDrops, {
 				2960,	-- Prairie Wolf Alpha
 				118,	-- Prowler
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from wolves in the level bracket 5-17 like wolves in Elwynn Forest and Mulgore.",
 				constant = "DROPS_FROM_WOLVES_IN_THE_LEVEL_BRACKET_5_17",
 				export = true,
@@ -5691,7 +5691,7 @@ root(ROOTS.WorldDrops, {
 				1088,	-- Monstrous Crawler
 				922,	-- Silt Crawler
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from crawlers in the level bracket 40-45 like Crawlers in Swamp of Sorrows.",
 				constant = "DROPS_FROM_CRAWLERS_IN_THE_LEVEL_BRACKET_40_45",
 				export = true,
@@ -5721,7 +5721,7 @@ root(ROOTS.WorldDrops, {
 				1151,	-- Saltwater Crocolisk
 				1152,	-- Snapjaw Crocolisk
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from crocolisks in the level bracket 20-40 like Crocolisks in Stranglethorn.",
 				constant = "DROPS_FROM_CROCOLISKS_IN_THE_LEVEL_BRACKET_20",
 				export = true,
@@ -5749,7 +5749,7 @@ root(ROOTS.WorldDrops, {
 				8960,	-- Felpaw Scavenger
 				8959,	-- Felpaw Wolf
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from wolves in the level bracket 40-60 like Felpaw wolves in Felwood.",
 				constant = "DROPS_FROM_WOLVES_IN_THE_LEVEL_BRACKET_40_60",
 				export = true,
@@ -5771,7 +5771,7 @@ root(ROOTS.WorldDrops, {
 		i(5470, {	-- Thunder Lizard Tail
 			["coord"] = { 47.0, 48.0, MAP.THE_BARRENS },	-- Taurajo, north of.
 			["cr"] = 3240,	-- Stormsnout
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from lizards in the level bracket 15-30 like Stormsnouts in The Barrens.",
 				constant = "DROPS_FROM_LIZARDS_IN_THE_LEVEL_BRACKET_15_30",
 				export = true,
@@ -5799,7 +5799,7 @@ root(ROOTS.WorldDrops, {
 				1085,	-- Elder Stranglethorn Tiger
 				682,	-- Stranglethorn Tiger
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from tigers in the level bracket 30-60 like tigers in Stranglethorn Vale.",
 				constant = "DROPS_FROM_TIGERS_IN_THE_LEVEL_BRACKET_30_60",
 				export = true,
@@ -5824,7 +5824,7 @@ root(ROOTS.WorldDrops, {
 				{ 61.5, 8.3, MAP.DUSTWALLOW_MARSH },	-- Outer Dreadmurk Shore (between murloc isles)
 			},
 			["cr"] = 4397,	-- Mudrock Spikeshell
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from turtles in the level bracket 30-60 like Mudrock turtles in Dustwallow Marsh.",
 				constant = "DROPS_FROM_TURTLES_IN_THE_LEVEL_BRACKET_30_60",
 				export = true,
@@ -5855,7 +5855,7 @@ root(ROOTS.WorldDrops, {
 				4376,	-- Darkmist Spider
 				4415,	-- Giant Darkfang Spiders
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in the level bracket 35-60 like spiders in Dustwallow Marsh.",
 				constant = "DROPS_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_35_60",
 				export = true,
@@ -5882,7 +5882,7 @@ root(ROOTS.WorldDrops, {
 		i(11754, {["maps"] = { MAP.BLACKROCK_DEPTHS }, }),	-- Black Diamond
 		i(7191),	-- Fused Wiring
 		i(19441, {	-- Huge Venom Sac
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from scorpids and spiders in the level bracket 50-60, and are most abundant in Burning Steppes and Silithus. Spiders and scorpids often share a spawn with other beasts, so kill the hound or whatever if you cannot find scorpids and spiders.",
 				constant = "CAN_DROP_FROM_SCORPIDS_AND_SPIDERS_IN_THE_LEVEL",
 				export = true,
@@ -5919,7 +5919,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(5637, {	-- Large Fang
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from some Beast and Demon creatures like hounds, feline, spiders, raptors and bats ranging from level 25 to 40.",
 				constant = "DROPS_FROM_SOME_BEAST_AND_DEMON_CREATURES_LIKE",
 				export = true,
@@ -5955,7 +5955,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(1288, {	-- Large Venom Sac
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from spiders in the level bracket 20-35, and are most abundant in Ashenvale and Duskwood. Spiders often share a spawn with other beasts, so kill the bear or whatever if you cannot find spiders.",
 				constant = "CAN_DROP_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_20",
 				export = true,
@@ -5986,7 +5986,7 @@ root(ROOTS.WorldDrops, {
 				10160,	-- Raging Moonkin
 				10159,	-- Young Moonkin
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from birds, harpies, owlkin and striders in the level bracket 10-30 like Moonkin in Darkshore.",
 				constant = "DROPS_FROM_BIRDS_HARPIES_OWLKIN_AND_STRIDERS_IN",
 				export = true,
@@ -6022,7 +6022,7 @@ root(ROOTS.WorldDrops, {
 				2658,	-- Razorbeak Gryphon
 				2651,	-- Witherbark Hideskinner
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Alliance players can disregard The Hinterlands due to most mob sources being friendly.",
 				constant = "ALLIANCE_PLAYERS_CAN_DISREGARD_THE_HINTERLANDS",
 				export = true,
@@ -6047,7 +6047,7 @@ root(ROOTS.WorldDrops, {
 				{ 32.4, 66.0, MAP.STONETALON_MOUNTAINS },
 				{ 79.0, 77.0, MAP.THOUSAND_NEEDLES },
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from birds and harpies in the given zones.",
 				constant = "DROPS_FROM_BIRDS_AND_HARPIES_IN_THE_GIVEN_ZONES",
 				export = true,
@@ -6072,7 +6072,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(7072, {	-- Naga Scale
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from nagas ranging from level 28 to 40, though the droprate is low.",
 				constant = "DROPS_FROM_NAGAS_RANGING_FROM_LEVEL_28_TO_40",
 				export = true,
@@ -6098,7 +6098,7 @@ root(ROOTS.WorldDrops, {
 		}),
 		i(12804, {	-- Powerful Mojo
 			["coord"] = { 72.0, 15.0, MAP.EASTERN_PLAGUELANDS },	-- Zul'mashar
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from trolls.",
 				constant = "CAN_DROP_FROM_TROLLS",
 				export = true,
@@ -6122,7 +6122,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(18335, {	-- Pristine Black Diamond
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from ANY content intended for level-capped vanilla players, whether it be Dire Maul, Stratholme, Scholomance, or the raids. This is a rare item, farming it requires luck.",
 				constant = "CAN_DROP_FROM_ANY_CONTENT_INTENDED_FOR_LEVEL",
 				export = true,
@@ -6142,7 +6142,7 @@ root(ROOTS.WorldDrops, {
 			}),
 		}),
 		i(4461, {	-- Raptor Hide
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from raptors ranging from level 30 to 40.",
 				constant = "DROPS_FROM_RAPTORS_RANGING_FROM_LEVEL_30_TO_40",
 				export = true,
@@ -6167,7 +6167,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(5635, {	-- Sharp Claw
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from some Beast and Demon creatures like hounds, felines, spiders, raptors and bats ranging from level 10 to 30.",
 				constant = "DROPS_FROM_SOME_BEAST_AND_DEMON_CREATURES_LIKE_2",
 				export = true,
@@ -6204,7 +6204,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(5784, {	-- Slimy Murloc Scale
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from murlocs in the level bracket 15-25 like Bluegill murlocs in Wetlands.",
 				constant = "DROPS_FROM_MURLOCS_IN_THE_LEVEL_BRACKET_15_25",
 				export = true,
@@ -6242,7 +6242,7 @@ root(ROOTS.WorldDrops, {
 				{ 15.0, 61.0, MAP.SWAMP_OF_SORROWS },
 				{ 62.0, 42.0, MAP.WETLANDS },
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from small dragonkin like darters and whelps.",
 				constant = "DROPS_FROM_SMALL_DRAGONKIN_LIKE_DARTERS_AND",
 				export = true,
@@ -6262,7 +6262,7 @@ root(ROOTS.WorldDrops, {
 			}),
 		}),
 		i(1475, {	-- Small Venom Sac
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from spiders in the level bracket 5-20, and are most abundant in Loch Modan and Stonetalon Mountains. Spiders often share a spawn with other beasts, so kill the bear or whatever if you cannot find spiders.",
 				constant = "CAN_DROP_FROM_SPIDERS_IN_THE_LEVEL_BRACKET_5_20",
 				export = true,
@@ -6357,7 +6357,7 @@ root(ROOTS.WorldDrops, {
 			},
 		}),
 		i(8153, {	-- Wildvine
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from trolls ranging from level 40 to 50.",
 				constant = "DROPS_FROM_TROLLS_RANGING_FROM_LEVEL_40_TO_50",
 				export = true,

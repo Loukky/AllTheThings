@@ -14,7 +14,7 @@ root(ROOTS.ExpansionFeatures,
 				},
 				["isRaid"] = true,
 				["icon"] = 1046782,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Lunarfall is the Alliance Garrison, located in Shadowmoon Valley. Several Shadowmoon clan ruins dotted the area before the garrison was built. A fully-upgraded Lunarfall garrison is considered to be a castle.",
 					constant = "LUNARFALL_IS_THE_ALLIANCE_GARRISON_LOCATED_IN",
 					export = true,

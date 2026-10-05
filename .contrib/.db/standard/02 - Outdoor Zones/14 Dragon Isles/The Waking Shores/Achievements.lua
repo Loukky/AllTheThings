@@ -153,7 +153,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			ach(16400),	-- Explore the Waking Shores
 			ach(16736),	-- Grand Theft Mammoth
 			ach(16493, {	-- Petty Theft Mammoth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find Mammoths to ride from the individual locations to the location specified on this achievement.",
 					constant = "FIND_MAMMOTHS_TO_RIDE_FROM_THE_INDIVIDUAL",
 					export = true,

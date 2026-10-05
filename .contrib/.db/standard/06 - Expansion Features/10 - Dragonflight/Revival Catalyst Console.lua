@@ -17,7 +17,7 @@ end
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 	o(382621, {	-- Revival Catalyst Console
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Help us gather information of what is/isn't available via doing reports in ATT Discord. Especially the alternative sets and if the PvP transmog is available somewhere else.",
 			constant = "HELP_US_GATHER_INFORMATION_OF_WHAT_IS_ISN_T",
 			export = true,
@@ -2626,7 +2626,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				-- #else
 				-- Blizzard forgot to remove season 4 from dungeons, so all of these are possible to gain from Mythic difficulty
 				d(DIFFICULTY.RAID.NORMAL, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items are still obtainable by converting Dragonflight Mythic Dungeon items in the Catalyst",
 						constant = "THESE_ITEMS_ARE_STILL_OBTAINABLE_BY_CONVERTING",
 						export = true,
@@ -3329,7 +3329,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				})),
 				n(PVP_ELITE, bubbleDown({ ["bonusID"] = 7532 }, {	-- "Tier Slots"
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items are obtained by upgrading your Catalyst PvP Gear to 9/9 upgrades.\n|CFFFF0000Requires 2400 rating in any PvP Bracket.|r",
 						constant = "THESE_ITEMS_ARE_OBTAINED_BY_UPGRADING_YOUR",
 						export = true,
@@ -4056,7 +4056,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}),
 				n(PVP_ELITE, bubbleDown({ ["bonusID"] = 7532 }, {	-- "Tier Slots"
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items are obtained by catalysing a PVP from the Great Vault after reaching 2400 in any bracket.\n|CFFFF0000Requires 2400 rating in any PvP Bracket.|r",
 						constant = "THESE_ITEMS_ARE_OBTAINED_BY_CATALYSING_A_PVP",
 						export = true,

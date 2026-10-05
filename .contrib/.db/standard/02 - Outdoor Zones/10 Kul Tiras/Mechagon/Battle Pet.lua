@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				}),
 			}),
 			pet(2662, {	-- Duskytooth Snooter (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare pet. Shares spawns with |cFFFFD700Rustyroot Snooter|r.",
 					constant = "RARE_PET_SHARES_SPAWNS_WITH_CFFFFD700RUSTYROOT",
 					export = true,
@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				})
 			}),
 			pet(2664, {	-- Experimental Roach (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare pet. Shares spawns with |cFFFFD700Junkheap Roach|r.",
 					constant = "RARE_PET_SHARES_SPAWNS_WITH_CFFFFD700JUNKHEAP",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			pet(2673),	-- Scrapyard Tunneler (PET!)
 			pet(2671),	-- Specimen 97 (PET!)
 			pet(2666, {	-- Yellow Junkhopper (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare pet. Shares spawns with |cFFFFD700Fleeting Frog|r.",
 					constant = "RARE_PET_SHARES_SPAWNS_WITH_CFFFFD700FLEETING",
 					export = true,

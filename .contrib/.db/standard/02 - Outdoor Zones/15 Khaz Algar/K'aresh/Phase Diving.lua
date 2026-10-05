@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		header(HEADERS.Spell, 1214374, {	-- Phase Diving
 			n(ACHIEVEMENTS, {
 				ach(61017, {	-- Phase-Lost-and-Found
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|cff00ccffRank 3|r |cffe6cc80Reshii Wraps|r required in order to collect the Orbs. Reward is based on a % chance. Large amount of Orbs have Fixed Coordinates.\n|cff00ccffRank 4|r |cffe6cc80Reshii Wraps|r unlock the ability for Orbs to appear after you kill an enemy.\nIt is possible to obtain more than 1 item from the same Orb, after it respawns.",
 						constant = "CFF00CCFFRANK_3_R_CFFE6CC80RESHII_WRAPS_R",
 						export = true,
@@ -346,7 +346,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["groups"] = {
 					header(HEADERS.Achievement, 42741, {	-- Treasures of K'aresh
 						o(548597, {	-- Bladed Rifle Of Unfettered Momentum
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "It is recommended to buy some Gliders if you can't glide/slow fall yourself.",
 								constant = "IT_IS_RECOMMENDED_TO_BUY_SOME_GLIDERS_IF_YOU",
 								export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						o(527414, {	-- Ethereal Voidforged Container
 							["questID"] = 89378,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires some serious jumping precision in order to get to it.",
 								constant = "REQUIRES_SOME_SERIOUS_JUMPING_PRECISION_IN",
 								export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					-- Phased
 					o(549326, {	-- Phase-Lost Exchequer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found at random locations through Untethered space.",
 							constant = "CAN_BE_FOUND_AT_RANDOM_LOCATIONS_THROUGH",
 							export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(BORALUS, {
 		n(FLIGHT_PATHS, {
 			fp(2278, {	-- Mariner's Row, Tiragarde Sound [Alliance]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mariner's Row, Tiragarde Sound",
 					constant = "MARINER_S_ROW_TIRAGARDE_SOUND",
 					export = true,
@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2277, {	-- Proudmoore Keep, Tiragarde Sound [Alliance]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Proudmoore Keep, Tiragarde Sound",
 					constant = "PROUDMOORE_KEEP_TIRAGARDE_SOUND",
 					export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2105, {	-- Tradewinds Market, Tiragarde Sound (Ferry) [Alliance]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Tradewinds Market, Tiragarde Sound (Ferry)",
 					constant = "TRADEWINDS_MARKET_TIRAGARDE_SOUND_FERRY",
 					export = true,
@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2083, {	-- Tradewinds Market, Tiragarde Sound [Alliance]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Tradewinds Market, Tiragarde Sound",
 					constant = "TRADEWINDS_MARKET_TIRAGARDE_SOUND",
 					export = true,

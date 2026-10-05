@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(BORALUS, {
 		n(TREASURES, {
 			o(292673, {	-- A Damp Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located in the underwater cave in Stormsong Monastery. Scroll located in skeleton's hand next to altar.",
 					constant = "LOCATED_IN_THE_UNDERWATER_CAVE_IN_STORMSONG",
 					export = true,
@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52134,
 			}),
 			o(292674, {	-- A Damp Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located on the floor next to K'thir Occultist in Stormsong Monastery, down in a cellar.",
 					constant = "LOCATED_ON_THE_FLOOR_NEXT_TO_K_THIR_OCCULTIST",
 					export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52135,
 			}),
 			o(292675, {	-- A Damp Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located on the floor next to K'thir Occultist in Stormsong Monastery, down in another cellar.",
 					constant = "LOCATED_ON_THE_FLOOR_NEXT_TO_K_THIR_OCCULTIST_2",
 					export = true,
@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52137,
 			}),
 			o(292676, {	-- A Damp Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located underneath the deck in one of the concrete buildings in Stormsong Monastery.",
 					constant = "LOCATED_UNDERNEATH_THE_DECK_IN_ONE_OF_THE",
 					export = true,
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52138,
 			}),
 			o(292677, {	-- A Damp Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located upstairs in the building before the underwater cave in Stormsong Monastery.",
 					constant = "LOCATED_UPSTAIRS_IN_THE_BUILDING_BEFORE_THE",
 					export = true,
@@ -126,7 +126,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = { i(163716) },	-- Forbidden Sea Shanty of Inebriation
 			}),
 			o(292686, {	-- Ominous Altar
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Once you have clicked all five damp scrolls, return to the altar in the underwater cave. From there you will click the altar and click each time a new line comes up. Once all five are entered it will ask you are sure hit \"Accept\". You will then be teleported (way south of Tiragarde Sound) where a gem will be in front of you. Click it to open it up and receive the toy.",
 					constant = "ONCE_YOU_HAVE_CLICKED_ALL_FIVE_DAMP_SCROLLS",
 					export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52195,	-- Secrets of the Depths
 			}),
 			o(293131, {	-- Pepe
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located inside the fish tank of |cFFFFD700Catherine Morgan's|r cat house.",
 					constant = "LOCATED_INSIDE_THE_FISH_TANK_OF",
 					export = true,

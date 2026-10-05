@@ -1009,7 +1009,7 @@ GLYPH_OF_FLASH_OF_LIGHT_AND_WORD_OF_GLORY = r(57026, {	-- Glyph of Flash of Ligh
 });
 GLYPH_OF_FLICKERING = r(225551, {	-- Glyph of Flickering
 	["name"] = "Glyph of Flickering",
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Currently this Technique can only be learned by Shaman's. We suggest submitting a bug report to Blizzard to have it usuable by all scribes like the other techniques.",
 		constant = "CURRENTLY_THIS_TECHNIQUE_CAN_ONLY_BE_LEARNED_BY",
 		export = true,
@@ -3867,7 +3867,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		-- #if BEFORE WOD
 		header(HEADERS.Item, 45912, {	-- Book of Glyph Mastery
 			["provider"] = { "i", 45912 },	-- Book of Glyph Mastery
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Recipes listed below are learned by using a Book of Glyph Mastery.",
 				constant = "RECIPES_LISTED_BELOW_ARE_LEARNED_BY_USING_A",
 				export = true,
@@ -5106,7 +5106,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(39942, {	-- Aethrem Crystal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Aethril.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN",
 					export = true,
@@ -5130,7 +5130,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(40062, {	-- Bulging Nightmare Pod
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Dreamleaf.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN_2",
 					export = true,
@@ -5154,7 +5154,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(40065, {	-- Fjarnsk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Fjarnskaggl.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN_3",
 					export = true,
@@ -5178,7 +5178,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(39951, {	-- Roseate Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Starlight Rose.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN_4",
 					export = true,
@@ -5202,7 +5202,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(39952, {	-- Sallow Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Felwort.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN_5",
 					export = true,
@@ -5226,7 +5226,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(40064, {	-- Woody Seed Cluster
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a chance of getting this quest when milling Foxflower.",
 					constant = "THERE_IS_A_CHANCE_OF_GETTING_THIS_QUEST_WHEN_6",
 					export = true,
@@ -5250,7 +5250,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			}),
 			q(43929, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {	-- Vantus Mastery
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available to pick after acquired all rank 3 Vantus Techniques from EN, TOV and NH.",
 					constant = "AVAILABLE_TO_PICK_AFTER_ACQUIRED_ALL_RANK_3",
 					export = true,
@@ -5296,7 +5296,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 			------ Tools of Trade Questline ------
 			q(40537, {	-- Drawing Blood [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 skill in Kul Tiran Inscription.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_SKILL_IN_KUL",
 					export = true,
@@ -5320,7 +5320,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49943, {	-- Drawing Blood [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 skill in Zandalari Inscription.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_SKILL_IN",
 					export = true,
@@ -5446,7 +5446,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		}),
 		n(SPECIAL, {
 			i(172450, {	-- Technique: Glyph of Lavish Servings (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "A Mage scribe with 175 skill (BfA) has a chance to create this recipe when conjuring their refreshment table. Other classes must get it from a Mage or the auction house.",
 					constant = "A_MAGE_SCRIBE_WITH_175_SKILL_BFA_HAS_A_CHANCE",
 					export = true,
@@ -5503,7 +5503,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		})),
 		n(QUESTS, {
 			q(70361, {	-- Dragon Isles Inscription
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Inscription.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_8",
 					export = true,
@@ -5711,7 +5711,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			})),
 			o(380570, {	-- Curious Glyph
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the glyph, cross the bridge and kill the neutral NPC at the end, then return to collect the treasure.",
 					constant = "INTERACT_WITH_THE_GLYPH_CROSS_THE_BRIDGE_AND",
 					export = true,
@@ -5745,7 +5745,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 			o(380567, {	-- Eight of Storms
 				-- Interact with objects 380555, 380561, 380562, 380563, 380564, 380564, 380566, 380567
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak to Siennagosa and offer to help putting her deck back together, then gather the cards in the proper order (Ace through Eight) to collect the treasure.",
 					constant = "SPEAK_TO_SIENNAGOSA_AND_OFFER_TO_HELP_PUTTING",
 					export = true,
@@ -5798,7 +5798,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				},
 			})),
 			o(380578, {	-- How to Train Your Whelpling
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect the Pulsing Earth Rune first! Otherwise this treasure might erroneously contain the rune, and you will not be able to collect the proper treasure.",
 					constant = "COLLECT_THE_PULSING_EARTH_RUNE_FIRST_OTHERWISE",
 					export = true,
@@ -5879,7 +5879,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 			q(70518, {	-- DF Weekly Inscription Knowledgepoint #3
 				["name"] = "DF Inscription Drop #1: Qalashi Djaradin",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Qalashi Djaradin.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_QALASHI_DJARADIN_COORDINATES",
 					export = true,
@@ -5910,7 +5910,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 			q(70519, {	-- DF Weekly Inscription Knowledgepoint #4
 				["name"] = "DF Inscription Drop #2: Dragon-kin/Proto Drakes",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Dragon-kin/Proto Drake.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_DRAGON_KIN_PROTO_DRAKE",
 					export = true,

@@ -35,7 +35,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					394437, 412470, 424201,	-- Shadow Rune Buffs
 					394441, 413078, 424205	-- Titan Rune Buffs
 				),
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Defeating the final boss encounter on Defense Protocol Alpha will reward 1 Emblem of Conquest and can also drop T7 tokens for helm, spaulders, and leggings.",
 					constant = "DEFEATING_THE_FINAL_BOSS_ENCOUNTER_ON_DEFENSE",
 					export = true,

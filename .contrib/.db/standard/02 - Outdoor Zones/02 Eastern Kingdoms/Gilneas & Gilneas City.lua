@@ -590,7 +590,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = { WORGEN },
 				}),
 				q(14405, {	-- Escape By Sea
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Given if |cFFFFD700The Hayward Brothers|r questline is completed last.",
 						constant = "GIVEN_IF_CFFFFD700THE_HAYWARD_BROTHERS_R",
 						export = true,
@@ -709,7 +709,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = { WORGEN },
 				}),
 				q(14463, {	-- Horses for Duskhaven
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Given if |cFFFFD700The Crowley Orchard|r questline is completed last.",
 						constant = "GIVEN_IF_CFFFFD700THE_CROWLEY_ORCHARD_R",
 						export = true,
@@ -1046,7 +1046,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(14402, {	-- Ready to Go
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Given if the |cFFFFD700Grandma Wahl|r questline is completed last.",
 						constant = "GIVEN_IF_THE_CFFFFD700GRANDMA_WAHL_R_QUESTLINE",
 						export = true,
@@ -1265,7 +1265,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(14465, {	-- To Greymane Manor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only one of the source quests can be turned in, but all become marked completed.",
 						constant = "ONLY_ONE_OF_THE_SOURCE_QUESTS_CAN_BE_TURNED_IN",
 						export = true,

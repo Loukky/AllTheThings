@@ -155,7 +155,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				i(37587),	-- Ymirjar Physician's Robe
 				-- #endif
 				i(37372, {	-- Harpoon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Gather 3 of these harpoons and then bring him down in one go by clicking each of the launchers.",
 						constant = "GATHER_3_OF_THESE_HARPOONS_AND_THEN_BRING_HIM",
 						export = true,

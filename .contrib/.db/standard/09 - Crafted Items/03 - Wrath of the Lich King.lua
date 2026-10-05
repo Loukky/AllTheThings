@@ -464,7 +464,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			-- Dust:
 			i(34054, {	-- Infinite Dust
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK garments, amulets, rings, shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_18",
 					export = true,
@@ -483,7 +483,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK garments, amulets, rings, shields and off-hand frills within the ilvl bracket 130-182.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_19",
 					export = true,
@@ -506,7 +506,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			-- Essences:
 			i(34055, {	-- Greater Cosmic Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK weapons, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_20",
 					export = true,
@@ -525,7 +525,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK weapons within the ilvl bracket 154-182, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_21",
 					export = true,
@@ -547,7 +547,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(34056, {	-- Lesser Cosmic Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK weapons, except shields and off-hand frills. This gives you Greater Cosmic Essence which you then have to split into Lesser Cosmic Essence.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_22",
 					export = true,
@@ -566,7 +566,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality WotLK weapons within the ilvl bracket 130-150, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_23",
 					export = true,
@@ -589,7 +589,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			-- Shards and crystals:
 			i(34057, {	-- Abyss Crystal
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality WotLK gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_4",
 					export = true,
@@ -608,7 +608,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality WotLK gear within the ilvl bracket 200-225.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_5",
 					export = true,
@@ -630,7 +630,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(34052, {	-- Dream Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality WotLK gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_10",
 					export = true,
@@ -649,7 +649,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality WotLK gear within the ilvl bracket 167-200.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_11",
 					export = true,
@@ -671,7 +671,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(34053, {	-- Small Dream Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Seemingly no longer obtainable but from niche means, there never was any use for them but to convert into Dream Shards.",
 					constant = "SEEMINGLY_NO_LONGER_OBTAINABLE_BUT_FROM_NICHE",
 					export = true,
@@ -690,7 +690,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality WotLK gear within the ilvl bracket 130-166.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_12",
 					export = true,
@@ -877,7 +877,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		filter(MISC, {
 			i(40893, {	-- Bladed Pickaxe
 				-- #if AFTER 10.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item was made redundant with Dragonflight and cannot be equipped as a profession tool. Thus its gathering skill bonus is no longer recognised and have no uses but leveling up Northrend Engineering.",
 					constant = "THIS_ITEM_WAS_MADE_REDUNDANT_WITH_DRAGONFLIGHT",
 					export = true,
@@ -906,7 +906,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(47828, {["timeline"] = { ADDED_3_2_0 }}),	-- Goblin Beam Welder
 			i(40892, {	-- Hammer Pick
 				-- #if AFTER 10.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item was made redundant with Dragonflight and cannot be equipped as a profession tool, despite being recognised as a blacksmith hammer. Its mining skill bonus is no longer recognised.",
 					constant = "THIS_ITEM_WAS_MADE_REDUNDANT_WITH_DRAGONFLIGHT_2",
 					export = true,
@@ -929,7 +929,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(37567),	-- Healing Injector Kit
 			-- #if NOT ANYCLASSIC
 			i(49040, {	-- Jeeves
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This still isn't a toy... BLIZZARD.",
 					constant = "THIS_STILL_ISN_T_A_TOY_BLIZZARD",
 					export = true,
@@ -995,7 +995,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(23821, {	-- Zapthrottle Mote Extractor
 			n(24879, {	-- Arctic Cloud (Gas cloud)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Too few and far between to be reliably farmed on it's own.",
 					constant = "TOO_FEW_AND_FAR_BETWEEN_TO_BE_RELIABLY_FARMED",
 					export = true,
@@ -1045,7 +1045,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["maps_disp"] = { SHOLAZAR_BASIN },
 		}),
 		i(45905, {	-- Bloodtooth Frenzy (Dalaran Fishing daily quest objective)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Kill an animal and then swim in a body of water to create a pool to fish from.",
 				constant = "KILL_AN_ANIMAL_AND_THEN_SWIM_IN_A_BODY_OF_WATER",
 				export = true,
@@ -1091,7 +1091,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The schools have shared spawn with Moonglow Cuttlefish Schools. Borean Tundra have most schools.",
 				constant = "THE_SCHOOLS_HAVE_SHARED_SPAWN_WITH_MOONGLOW",
 				export = true,
@@ -1140,7 +1140,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				-- #endif
 		}),
 		i(44505, {	-- Dustbringer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in schools or open water in Northrend.",
 				constant = "CAN_BE_CAUGHT_IN_SCHOOLS_OR_OPEN_WATER_IN",
 				export = true,
@@ -1172,7 +1172,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			},
 		}),
 		i(41810, {	-- Fangtooth Herring
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Schools can be found in inland waters.",
 				constant = "SCHOOLS_CAN_BE_FOUND_IN_INLAND_WATERS",
 				export = true,
@@ -1194,7 +1194,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192049 },	-- Fangtooth Herring School
 		}),
 		i(43646, {	-- Fountain Goldfish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in the fountain.",
 				constant = "CAN_BE_CAUGHT_IN_THE_FOUNTAIN",
 				export = true,
@@ -1242,7 +1242,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192052 },	-- Imperial Manta Ray School
 		}),
 		i(43572, {	-- Magic Eater
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in any waters on both WotLK and Legion Dalaran.",
 				constant = "CAN_BE_CAUGHT_IN_ANY_WATERS_ON_BOTH_WOTLK_AND",
 				export = true,
@@ -1272,7 +1272,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The schools have shared spawn with Deep Sea Monsterbelly Schools. Borean Tundra have most schools.",
 				constant = "THE_SCHOOLS_HAVE_SHARED_SPAWN_WITH_DEEP_SEA",
 				export = true,
@@ -1303,7 +1303,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192057 },	-- Nettlefish School
 		}),
 		i(45902, {	-- Phantom Ghostfish (Dalaran Fishing daily quest objective)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Eat this before it despawns!",
 				constant = "EAT_THIS_BEFORE_IT_DESPAWNS",
 				export = true,
@@ -1366,7 +1366,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			},
 		}),
 		i(41803, {	-- Rockfin Grouper
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught on the seaside around Northrend.",
 				constant = "CAN_BE_CAUGHT_ON_THE_SEASIDE_AROUND_NORTHREND",
 				export = true,
@@ -1427,7 +1427,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			},
 		}),
 		i(43647, {	-- Shimmering Minnow
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught outside Violet Hold on both WotLK and Legion Dalaran.",
 				constant = "CAN_BE_CAUGHT_OUTSIDE_VIOLET_HOLD_ON_BOTH_WOTLK",
 				export = true,
@@ -1466,7 +1466,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Have shared spawn with Moonglow Cuttlefish Schools. Borean Tundra have most schools.",
 				constant = "HAVE_SHARED_SPAWN_WITH_MOONGLOW_CUTTLEFISH",
 				export = true,
@@ -1496,7 +1496,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			},
 		}),
 		o(192049, {	-- Fangtooth Herring School
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found in inland waters.",
 				constant = "CAN_BE_FOUND_IN_INLAND_WATERS",
 				export = true,
@@ -1539,7 +1539,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Have shared spawn with Deep Sea Monsterbelly Schools. Borean Tundra have most schools.",
 				constant = "HAVE_SHARED_SPAWN_WITH_DEEP_SEA_MONSTERBELLY",
 				export = true,
@@ -1594,7 +1594,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					{ 48.8, 48.4, DRAGONBLIGHT },	-- Ruby Dragonshrine
 					{ 63.5, 72.5, DRAGONBLIGHT },	-- Emerald Dragonshrine
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found on grassy terrain.",
 					constant = "FOUND_ON_GRASSY_TERRAIN",
 					export = true,
@@ -1641,7 +1641,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			o(190170, {	-- Talandra's Rose
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found around the lower tiers of Zul'Drak.",
 					constant = "FOUND_AROUND_THE_LOWER_TIERS_OF_ZUL_DRAK",
 					export = true,
@@ -1665,7 +1665,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				-- #endif
 			}),
 			o(190169, {	-- Tiger Lily
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found around inland waters and waterways.",
 					constant = "FOUND_AROUND_INLAND_WATERS_AND_WATERWAYS",
 					export = true,
@@ -1707,7 +1707,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(37921, {	-- Deadnettle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is obtained from gathering other herbs.",
 					constant = "IS_OBTAINED_FROM_GATHERING_OTHER_HERBS",
 					export = true,
@@ -1758,7 +1758,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				},
 			}),
 			i(36908, {	-- Frost Lotus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can uncommonly be looted when gathering WotLK herbs.",
 					constant = "CAN_UNCOMMONLY_BE_LOOTED_WHEN_GATHERING_WOTLK",
 					export = true,
@@ -1945,7 +1945,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(44210),	-- Faces of Doom
 			i(38322),	-- Iron-Bound Tome
 			salvagerecipe(64051, 45854, {	-- Rituals of the New Moon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This version of the off-hand is a placeholder for the four available versions of it, and crafting it gives you a random one of the four. The four available versions of the off-hands have the same stats, but offer a different coloured giant wholf.",
 					constant = "THIS_VERSION_OF_THE_OFF_HAND_IS_A_PLACEHOLDER",
 					export = true,
@@ -2050,7 +2050,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					i(36920),	-- Sun Crystal
 				}),
 				sharedData({	-- Rare quality (blue) gems:
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from Icy Prism with Jewelcrafting, prospecting Saronite and Titanium Ores offering the second best drop rate.",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_ICY",
 						export = true,
@@ -2082,7 +2082,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					i(36927),	-- Twilight Opal
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, sharedData({	-- Epic quality (purple) gems:
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from transmutation with Alchemy, while prospecting Titanium Ores with Jewelcrafting offers the second best drop rate (5%).",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_5",
 						export = true,
@@ -3205,7 +3205,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 	}),
 	prof(SKINNING, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can be gathered by skinning creatures on Northrend. Note that Borean Leather is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.\n\nThis header will often not show everything uncollected it contains, even when enabling 'Debug Mode'. The best way to track specific reagents is to do /att item:[itemID] or pop out this header.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_BE_GATHERED_BY_SKINNING_4",
 			export = true,
@@ -3225,7 +3225,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		["groups"] = {
 			i(44128, {	-- Arctic Fur
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Arctic Fur is a rare skinned drop from any skinnable creatures.",
 					constant = "ARCTIC_FUR_IS_A_RARE_SKINNED_DROP_FROM_ANY",
 					export = true,
@@ -3245,7 +3245,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				}),
 			}),
 			i(33568, {	-- Borean Leather
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from any skinnable WotLK mobs.",
 					constant = "CAN_BE_SKINNED_FROM_ANY_SKINNABLE_WOTLK_MOBS",
 					export = true,

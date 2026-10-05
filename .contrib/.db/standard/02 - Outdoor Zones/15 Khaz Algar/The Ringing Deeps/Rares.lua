@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(220286, {	-- Deepflayer Broodmother
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flying around entire Earthenworks location.",
 					constant = "FLYING_AROUND_ENTIRE_EARTHENWORKS_LOCATION",
 					export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(220285, {	-- Lurker of the Deeps <Displaced Sea Horror>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with 5 levers located across the zone within 10 seconds to summon this rare.",
 					constant = "INTERACT_WITH_5_LEVERS_LOCATED_ACROSS_THE_ZONE",
 					export = true,
@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221217, {	-- Spore-Infused Shalewing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flying around",
 					constant = "FLYING_AROUND",
 					export = true,
@@ -176,7 +176,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(220268, {	-- Trungal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill roots of Trungal on way to him to make him jump out of terrain.",
 					constant = "KILL_ROOTS_OF_TRUNGAL_ON_WAY_TO_HIM_TO_MAKE_HIM",
 					export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(220276, {	-- Candleflyer Captain
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flying around pretty high.",
 					constant = "FLYING_AROUND_PRETTY_HIGH",
 					export = true,

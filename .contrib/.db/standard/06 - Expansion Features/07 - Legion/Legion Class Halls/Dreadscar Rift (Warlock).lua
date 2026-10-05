@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(ARTIFACTS, {
 					cl(WARLOCK, AFFLICTION, {
 						i(140764, {	-- Grimoire of the First Necrolyte (QS!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be looted from any killed demon.",
 								constant = "CAN_BE_LOOTED_FROM_ANY_KILLED_DEMON",
 								export = true,
@@ -44,7 +44,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 						}),
 						q(44083, {	-- The Grimoire of the First Necrolyte
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only available from Rare Elite (DANGER) World Quests.",
 								constant = "ONLY_AVAILABLE_FROM_RARE_ELITE_DANGER_WORLD",
 								export = true,
@@ -76,7 +76,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 					cl(WARLOCK, DEMONOLOGY, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The heads can drop from any Eredar. Keep killing them until you unlock the hidden appearance.",
 							constant = "THE_HEADS_CAN_DROP_FROM_ANY_EREDAR_KEEP_KILLING",
 							export = true,
@@ -170,7 +170,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Artifact
 					q(40684, {	-- The Tome of Blighted Implements
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must complete the Affliction quest line BEFORE completing the Demonology quest line to obtain certain breadcrumb quests.",
 							constant = "YOU_MUST_COMPLETE_THE_AFFLICTION_QUEST_LINE",
 							export = true,
@@ -285,7 +285,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 						}),
 						q(40712, {	-- The Power Possessed (Good)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Obtainable if you are good to Revil Kost. This quest cross completes with 41156, and is unobtainable if you complete the Demonology artifact weapon before Affliction.",
 								constant = "OBTAINABLE_IF_YOU_ARE_GOOD_TO_REVIL_KOST_THIS",
 								export = true,
@@ -309,7 +309,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["isBreadcrumb"] = true,
 						}),
 						q(41156, {	-- The Power Possessed (Bad)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Obtainable if you attack Revil Kost. This quest cross completes with 40712, and is unobtainable if you complete the Demonology artifact weapon before Affliction.",
 								constant = "OBTAINABLE_IF_YOU_ATTACK_REVIL_KOST_THIS_QUEST",
 								export = true,
@@ -886,7 +886,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = { follower(997) },	-- Kanrethad Ebonlocke
 					})),
 					q(46316, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Champion: Kanrethad Ebonlocke (If completed Green Fire)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is only available if you completed the Green Fire Questline.",
 							constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_COMPLETED",
 							export = true,
@@ -1004,7 +1004,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				}),
 				n(SPECIAL, {
 					gt(366, {	-- Demonic Offering
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This class hall ability allows you and two other members to summon a demon that you must kill. As part of the ritual, one of your party members (or you) will be sacrificed, so make sure to Soulstone yourself prior to summoning. Upon killing them they have a chance of dropping these items.",
 							constant = "THIS_CLASS_HALL_ABILITY_ALLOWS_YOU_AND_TWO",
 							export = true,

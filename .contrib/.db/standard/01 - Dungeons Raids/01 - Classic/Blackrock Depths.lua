@@ -289,7 +289,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, q(82062, {	-- Ever After
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Just east of the Ring in Blackrock Depths is a bridge that leads north over lava.\n\nAs you get onto the bridge, look down and to the left; you'll see a friendly Dark Iron Dwarf below you on the base of a pillar. Clear the rest of the mobs ahead of you (Blazing Fireguards and a group of Shadowforge dwarves).\n\nMove to the left side of the bridge near a small brazier. Get onto the railing, hug the rock wall, and jump ahead onto the platform near the wall.\n\nMove to the end of the platform, hugging the wall, and move hard into the rock corner.\n\nTurn with your left shoulder to the wall and run carefully against the wall, until you just fall down into the exposed corner. Drop down onto the rock outcrop below. \n\nTurn left into a small room, where you'll encounter the Rugged Traveler.",
 						constant = "JUST_EAST_OF_THE_RING_IN_BLACKROCK_DEPTHS_IS_A",
 						export = true,
@@ -1743,7 +1743,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						-- You get these when completing the quest
 						i(141976, {	-- Headguard of the Order
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "May need to re-login to the game to properly trigger this collected from Blizzard.",
 								constant = "MAY_NEED_TO_RE_LOGIN_TO_THE_GAME_TO_PROPERLY",
 								export = true,

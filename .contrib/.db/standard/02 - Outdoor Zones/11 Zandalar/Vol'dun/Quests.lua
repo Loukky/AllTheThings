@@ -275,7 +275,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = {
 					i(153419),	-- Captain Gulnaku's Key (QI!)
 					i(163633, {	-- Captain Gulnaku's Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a small amount of gold and some green gems.",
 							constant = "CONTAINS_A_SMALL_AMOUNT_OF_GOLD_AND_SOME_GREEN",
 							export = true,
@@ -344,7 +344,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(49261, {	-- Crabby Crew Stew
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must be wearing Ashvane Garb to pick up and turn in the quest.",
 					constant = "MUST_BE_WEARING_ASHVANE_GARB_TO_PICK_UP_AND",
 					export = true,
@@ -565,7 +565,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(50596, {	-- Exterminate the Vermin
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Scepter of Prescience in the building at 47.73 to get the snake disguise to pick up this quest.",
 					constant = "USE_THE_SCEPTER_OF_PRESCIENCE_IN_THE_BUILDING",
 					export = true,
@@ -594,7 +594,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["crs"] = { 134245 },	-- Scepter of Prescience
 			}),
 			q(49040, {	-- Fond Farewells
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This version is available before completing Ending the Madness.",
 					constant = "THIS_VERSION_IS_AVAILABLE_BEFORE_COMPLETING",
 					export = true,
@@ -621,7 +621,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(49731, {	-- Fond Farewells
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This version is available after completing Ending the Madness.",
 					constant = "THIS_VERSION_IS_AVAILABLE_AFTER_COMPLETING",
 					export = true,

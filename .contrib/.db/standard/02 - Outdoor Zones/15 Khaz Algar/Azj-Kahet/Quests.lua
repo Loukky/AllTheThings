@@ -275,7 +275,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				------ Stay awhile and listen ------
 				hqt(81946, {	-- Stay awhile and listen: Anduin Wrynn
 					["name"] = "Stay awhile and listen: Anduin Wrynn",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting both 'Like a Spider on the Wall' (78231) and 'Rewriting the Rewritten' (78232) but will be unavailable after completion.",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_BOTH",
 						export = true,
@@ -507,7 +507,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						i(222944),	-- Swollen Brain of Gluttony (QI!)
 						i(222980, {	-- Slim (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "May requires an alt below Level 80 to show up as quest reward.",
 								constant = "MAY_REQUIRES_AN_ALT_BELOW_LEVEL_80_TO_SHOW_UP",
 								export = true,

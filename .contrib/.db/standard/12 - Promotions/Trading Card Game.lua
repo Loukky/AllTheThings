@@ -88,7 +88,7 @@ root(ROOTS.Promotions, n(TRADING_CARD_GAME,
 				["timeline"] = { ADDED_2_4_2 },
 				["groups"] = {
 					i(38186, {	-- Ethereal Credit
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To obtain this, summon your Soul-Trader pet and kill players or NPCs which are no less than 8 levels below you.",
 							constant = "TO_OBTAIN_THIS_SUMMON_YOUR_SOUL_TRADER_PET_AND",
 							export = true,

@@ -343,7 +343,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must completed the 'Hard to Kill' quest chain on Normal Mode before Heroic Mode becomes available.",
 					constant = "YOU_MUST_COMPLETED_THE_HARD_TO_KILL_QUEST_CHAIN",
 					export = true,

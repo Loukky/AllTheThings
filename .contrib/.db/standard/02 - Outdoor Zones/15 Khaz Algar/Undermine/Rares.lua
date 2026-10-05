@@ -114,7 +114,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(231310, {	-- Darkfuse Precipitant
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone with Renown 6 with the Cartels of Undermine and in possession of a 'Canister of Darkfuse Solution' to interact with the De-Pollution Station X1119 to start an event to spawn it.",
 					constant = "REQUIRES_SOMEONE_WITH_RENOWN_6_WITH_THE_CARTELS",
 					export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(234499, {	-- Giovante
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 					constant = "CAN_BE_SUMMONED_BY_ANYONE_WHO_HAS_A_CONTRACT",
 					export = true,
@@ -212,7 +212,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(234480, {	-- M.A.G.N.O. (Aurumensis)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be summoned by anyone who has a contract with the Bilgewater Cartel.",
 					constant = "CAN_BE_SUMMONED_BY_ANYONE_WHO_HAS_A_CONTRACT_2",
 					export = true,
@@ -291,7 +291,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(233471, {	-- Scrapchewer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be summoned by anyone who has a contract with the Venture Co.",
 					constant = "CAN_BE_SUMMONED_BY_ANYONE_WHO_HAS_A_CONTRACT_3",
 					export = true,
@@ -403,7 +403,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(233472, {	-- Voltstrike the Charged
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be summoned by anyome who has a contract with the Blackwater Cartel.",
 					constant = "CAN_BE_SUMMONED_BY_ANYOME_WHO_HAS_A_CONTRACT",
 					export = true,

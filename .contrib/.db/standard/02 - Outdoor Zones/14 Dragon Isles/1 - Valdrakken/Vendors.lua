@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			n(219760, {	-- Da'kash Grimledger <Quartermaster>
 				["coord"] = { 46.5, 45.1, VALDRAKKEN },
 				["timeline"] = { REMOVED_PLUNDERSTORM_END },	-- Was added at the end of Plunderstorm. Previously was only avaiable if you had Renown 5 or higher of the Keg Leg Faction.
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Beware: Talking to this NPC will also unlock the Keg's Leg Faction, but there is no method to get reputation for it.",
 					constant = "BEWARE_TALKING_TO_THIS_NPC_WILL_ALSO_UNLOCK_THE",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				["groups"] = {
 					i(216775, {	-- Deadly Dagger
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Unlocked by talking to Da'kash.",
 							constant = "UNLOCKED_BY_TALKING_TO_DA_KASH",
 							export = true,
@@ -775,7 +775,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(196637, {	-- Tethalash
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To speak to you, you must be a Dracthyr or Exalted with either Dark Talons (Horde) or Obsidian Warders (Alliance)",
 					constant = "TO_SPEAK_TO_YOU_YOU_MUST_BE_A_DRACTHYR_OR",
 					export = true,

@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			pvp(n(PVP, {
 				n(AZERITE_ESSENCES, {
 					i(169902, {	-- Finger-Bone Trophy of Battle (Rank 1)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires earning 500 Conquest and opening your weekly chest.\n",
 							constant = "REQUIRES_EARNING_500_CONQUEST_AND_OPENING_YOUR",
 							export = true,
@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						}),
 					}),
 					i(169901, {	-- Etched Bone Trophy of the Vanquished (Rank 2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires reaching 1,000 rating in PvP and opening your next weekly chest.\n",
 							constant = "REQUIRES_REACHING_1_000_RATING_IN_PVP_AND",
 							export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						}),
 					}),
 					i(169900, {	-- Rib-Bone Choker of Dominance (Rank 3)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The amount of |cff9832dfBurgeoning Battlefield Furor|r you receive from your weekly chest varies depending on your rating.\n\nUnranked - 1\nCombatant - 3\nChallenger - 5\nRival - 6\nDuelist - 8\nElite - 10\n",
 							constant = "THE_AMOUNT_OF_CFF9832DFBURGEONING_BATTLEFIELD",
 							export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = { { "i", 169590, 15 } },	-- 15x Burgeoning Battlefield Furor
 					}),
 					i(169899, {	-- Polished Skull Trophy (Rank 4)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires reaching Elite rating in PvP and opening your next weekly chest.\n",
 							constant = "REQUIRES_REACHING_ELITE_RATING_IN_PVP_AND",
 							export = true,
@@ -257,7 +257,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 			})),
 			n(OUTPOSTS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Alliance Outposts allow you to set up additional bases in Zandalar. You can buy Scouting Reports from Vindicator Jaelaana, the vendor next to Wind's Redemption. Each one will start a mission on your Mission Command Table. After you complete the initial questline, you'll be offered additional missions to upgrade your outposts.",
 					constant = "ALLIANCE_OUTPOSTS_ALLOW_YOU_TO_SET_UP",
 					export = true,
@@ -906,7 +906,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56031, {	-- The Wolf's Offensive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If not encountered the regular way, this can be obtained via party sync. You need to sync with a character which has just started BFA and gotten the portals unlocked in Boralus, but hasn't proceeded further. You then need to pick up the quest A Dying World and run it again. Continue up to and finish the quest Infusing the Heart. Then this quest should pop up for you.",
 					constant = "IF_NOT_ENCOUNTERED_THE_REGULAR_WAY_THIS_CAN_BE",
 					export = true,
@@ -970,7 +970,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 
 			-- Not sorted
 			q(75877, {	-- Time to Fly
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Reaching Level 30 will make this quest pop up.",
 					constant = "REACHING_LEVEL_30_WILL_MAKE_THIS_QUEST_POP_UP",
 					export = true,

@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				pet(3352, {	-- Razortooth Bear Cub (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rare spawn in place of 'Grizzlefur Cub'.",
 						constant = "RARE_SPAWN_IN_PLACE_OF_GRIZZLEFUR_CUB",
 						export = true,

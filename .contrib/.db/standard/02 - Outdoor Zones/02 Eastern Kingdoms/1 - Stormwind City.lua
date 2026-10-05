@@ -1020,7 +1020,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(58496, {	-- An Unwelcome Advisor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED",
 						export = true,
@@ -1210,7 +1210,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				q(53370, {	-- Battle for Azeroth: Hour of Reckoning [SL+] / Hour of Reckoning
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If this quest is not automatically offered, you can try picking it up from a War Board, or taking the boat from Stormwind to Boralus.",
 						constant = "IF_THIS_QUEST_IS_NOT_AUTOMATICALLY_OFFERED_YOU",
 						export = true,
@@ -1613,7 +1613,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6261, {	-- Dungar Longdrink
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Dungar Longdrink' (26395).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_8",
 						export = true,
@@ -2192,7 +2192,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(32675, {	-- I Believe You Can Fly
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered to Alliance players upon reaching the specified level.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED_TO_ALLIANCE",
 						export = true,
@@ -2420,7 +2420,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 20,
 				}),
 				q(32665, {	-- Learn To Ride
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically granted to Pandaren upon reaching the specified level.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_GRANTED_TO_PANDAREN",
 						export = true,
@@ -2549,7 +2549,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(7509, {	-- Manaweave Robe
 							-- #if AFTER 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item is still available in the Ghostlands for Blood Elf Mages, originally only available to the Alliance in Stormwind.",
 								constant = "THIS_ITEM_IS_STILL_AVAILABLE_IN_THE_GHOSTLANDS",
 								export = true,
@@ -2698,7 +2698,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						i(7508, {	-- Ley Orb
 							-- #if AFTER 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item is still available in Eversong Woods for Horde Mages.",
 								constant = "THIS_ITEM_IS_STILL_AVAILABLE_IN_EVERSONG_WOODS",
 								export = true,
@@ -2987,7 +2987,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6285, {	-- Return to Lewis
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Return to Argus' (26396) in Elwynn Forest.",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_9",
 						export = true,
@@ -3121,7 +3121,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, q(78195, {	-- Secrets of Elune (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Completing this quest will allow you to meditate in the same manner as the night elves.",
 						constant = "COMPLETING_THIS_QUEST_WILL_ALLOW_YOU_TO_3",
 						export = true,
@@ -3379,7 +3379,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 42.0, 42.0, BROKEN_ISLES},
 							["groups"] = {
 								i(139389, {	-- Charred Locket
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In order to get this you must do the scenario 'Battle for Broken Shore' and on Stage 6 search for a pile of ash titled 'Ashes of a Fallen Crusader' to retrieve the item. You will then go to 85, 69 in Elywnn Forest located at the Eastvale Logging Camp. From there you will go to the bedroom on the second floor to talk to Alaina. After talking to her leave (log or swap zones) and then come back to her to retrieve the item.",
 										constant = "IN_ORDER_TO_GET_THIS_YOU_MUST_DO_THE_SCENARIO",
 										export = true,
@@ -4446,7 +4446,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "o", 103628 },	-- Ur's Treatise on Shadow Magic
 							},
 							["coord"] = { 79.0, 37.6, REDRIDGE_MOUNTAINS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Located in one of the bookshelves at the top of the tower.",
 								constant = "LOCATED_IN_ONE_OF_THE_BOOKSHELVES_AT_THE_TOP_OF",
 								export = true,
@@ -4687,7 +4687,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				n(112958, {	-- Soulare of Andorhal
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Emote |cFFFFFFFF/tired|r at him to get the toy. Horde players can do this, too!",
 						constant = "EMOTE_CFFFFFFFF_TIRED_R_AT_HIM_TO_GET_THE_TOY",
 						export = true,
@@ -5739,7 +5739,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 73.0, 37.0, STORMWIND_CITY },	-- Pig and Whistle Tavern
 						-- #endif
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Elly is walking around in the Tavern.",
 						constant = "ELLY_IS_WALKING_AROUND_IN_THE_TAVERN",
 						export = true,
@@ -6329,7 +6329,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				n(12784, {	-- Lieutenant Jackspring <Legacy Weapon Quartermaster> [WRATH+] / Lieutenant Jackspring <Weapons Quartermaster>
 					-- #if NOT ANYCLASSIC
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blizzard strikes again. In order to transmog these, you need to have the original title associated with the gear. However, you can still collect them even if you've never had the title.\n\nThese items will require a refresh/reload to register as collected, and it's highly recommended that you keep them in your bank/void storage for later. You'll likely randomly lose credit for them and have to re-equip them to remind the game they exist.",
 						constant = "BLIZZARD_STRIKES_AGAIN_IN_ORDER_TO_TRANSMOG",
 						export = true,
@@ -6513,7 +6513,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				n(8666, {	-- Lil Timmy <Boy with kittens>
 					-- #if AFTER WRATH
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The vendor wanders around Stormwind at random times. He is not always available.",
 						constant = "THE_VENDOR_WANDERS_AROUND_STORMWIND_AT_RANDOM",
 						export = true,
@@ -6759,7 +6759,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if BEFORE TWW
 				-- #if AFTER 8.0.1
 				n(50307, {	-- Lord Candren <Gilneas Quartermaster>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears in Stormwind after War of Thorns.",
 						constant = "APPEARS_IN_STORMWIND_AFTER_WAR_OF_THORNS",
 						export = true,

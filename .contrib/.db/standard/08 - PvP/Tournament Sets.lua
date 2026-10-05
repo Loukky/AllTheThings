@@ -11,7 +11,7 @@ TOURNAMENT_GEAR = createHeader({
 });
 
 root(ROOTS.PVP, pvp(n(TOURNAMENT_GEAR, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "These items were available during Warlords of Draenor, but only served as an iLvl booster for players participating in War Games for fun. They could not be transmogged nor used for any purpose other than War Games.",
 		constant = "THESE_ITEMS_WERE_AVAILABLE_DURING_WARLORDS_OF",
 		export = true,

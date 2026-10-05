@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66478, {	-- David Kosse <Master Pet Tamer>
 					["coord"] = { 62.8, 54.6, THE_HINTERLANDS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDavid's pets are level 13 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_THOUGH_HORDE_5",
 						export = true,
@@ -444,7 +444,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3 },
 						}),
 						i(59253, {	-- Sandrene's Invisible Vest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You will not be able to transmog this item.",
 								constant = "YOU_WILL_NOT_BE_ABLE_TO_TRANSMOG_THIS_ITEM",
 								export = true,
@@ -2181,7 +2181,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(107617, {	-- Ol' Muddle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This rare wanders the eastern portion of the zone, coords provide general areas to look for this rare.",
 						constant = "THIS_RARE_WANDERS_THE_EASTERN_PORTION_OF_THE",
 						export = true,
@@ -2268,7 +2268,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, n(221828, {	-- Vengeful Spirit
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your Sense Undead after 9PM Server near the Quel'Danil Lodge to spawn this rare.",
 						constant = "USE_YOUR_SENSE_UNDEAD_AFTER_9PM_SERVER_NEAR_THE",
 						export = true,
@@ -2426,7 +2426,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, i(220912, {	-- Geode Hammer
 					["provider"] = { "i", 220914 },	-- Broken Geode Hammer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Wield this hammer until it breaks, revealing the rune inside!",
 						constant = "WIELD_THIS_HAMMER_UNTIL_IT_BREAKS_REVEALING_THE",
 						export = true,
@@ -2502,7 +2502,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, i(221261, {	-- Wildwhisper Draught
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dropped by any elite troll at Jintha'Alor.\n\nRequired for 'The Wild Gods'. Bring this to Razorfen Downs and use it after defeating the Coldbringer (the last boss).",
 						constant = "DROPPED_BY_ANY_ELITE_TROLL_AT_JINTHA_ALOR",
 						export = true,

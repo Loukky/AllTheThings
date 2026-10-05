@@ -302,7 +302,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(3512, {	-- In Eranikus' Own Words
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest chain seems to be an incomplete one as there is no follow-up. Still an interesting quest chain as most people do not know about it. It essentially details how Eranikus is not actually dead and likely prepares the player for the Opening of AQ quest chain that does involve Eranikus once again.",
 						constant = "THIS_QUEST_CHAIN_SEEMS_TO_BE_AN_INCOMPLETE_ONE",
 						export = true,
@@ -354,7 +354,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								{ "i", 6288 },	-- Atal'ai Tablet
 								{ "o", 37099 },	-- Atal'ai Tablet
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Scattered around the inside and outside of the instance.",
 								constant = "SCATTERED_AROUND_THE_INSIDE_AND_OUTSIDE_OF_THE",
 								export = true,
@@ -444,7 +444,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(3373, {	-- The Essence of Eranikus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interact with the Essence Font located in the back corner of the room after you defeat Eranikus to turn in this quest and loot the Essence of Eranikus.",
 						constant = "INTERACT_WITH_THE_ESSENCE_FONT_LOCATED_IN_THE",
 						export = true,
@@ -475,7 +475,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(3374, {	-- The Essence of Eranikus [Part 2]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You get the Oathstone by talking to Itharius, at the cave in the SW part of Swamp of Sorrows. You must have the Chained Essence first.",
 						constant = "YOU_GET_THE_OATHSTONE_BY_TALKING_TO_ITHARIUS_AT",
 						export = true,
@@ -682,7 +682,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			o(148832, {	-- Atal'ai Statue
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Go to the Pit of Refuse.\n\nClear all of the trash as you travel around the circular platform. You'll notice balconies that dip out and overlook the center of the pit. Essentially, once it's all cleared, each of your party members should spread out and be assigned to a balcony with an Atal'ai Shrine. The shrines must be clicked in a specific order:\n\n    South (Bottom)\n    North (Top)\n    Southwest (Bottom Left)\n    Southeast (Bottom Right)\n    Northwest (Top Left)\n    Northeast (Top Right)\n\nOnce a statue has been clicked in the correct sequence, it'll turn green. If not, the person attempting to activate will gain a curse.",
 					constant = "GO_TO_THE_PIT_OF_REFUSE_CLEAR_ALL_OF_THE_TRASH",
 					export = true,
@@ -729,7 +729,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(8580, {	-- Atal'alarion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Summoned by activating the Atal'ai Statues in the proper order.",
 							constant = "SUMMONED_BY_ACTIVATING_THE_ATAL_AI_STATUES_IN",
 							export = true,
@@ -861,7 +861,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			e(459, {	-- Wardens of the Dream
 				-- #if BEFORE WRATH
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These four dragons come in pairs. You can tank them away from each other if you pull the one that's behind the other one and get really lucky.",
 					constant = "THESE_FOUR_DRAGONS_COME_IN_PAIRS_YOU_CAN_TANK",
 					export = true,
@@ -919,7 +919,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #if SEASON_OF_DISCOVERY
 			})),
 			applyclassicphase(SOD_PHASE_THREE, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_2, REMOVED_2_0_1 }, }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This instance was converted from a normal difficulty dungeon into a 20-player raid instance.",
 					constant = "THIS_INSTANCE_WAS_CONVERTED_FROM_A_NORMAL",
 					export = true,
@@ -1515,7 +1515,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(222290, {	-- Unfortunate Adventurer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "RIP Guzu <Demon>.\n\nGo watch 'The Fall of Guzu' by Hurricane on YouTube for context!",
 							constant = "RIP_GUZU_DEMON_GO_WATCH_THE_FALL_OF_GUZU_BY",
 							export = true,
@@ -1535,7 +1535,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(218624, {	-- Atal'alarion <Guardian of the Idol>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Atal'alarion has three main abilities.\n\nThe primary danger on this boss is the Pillars of Might stacking 5% damage buff. To remove this, use his Demolishing Smash to get knocked back into the pillars from Pillars of Might. The player bodies will then destroy the pillars and reduce the stacking damage buff. Spreading out around the boss helps to minimize the total movement required to destroy every pillar.",
 							constant = "ATAL_ALARION_HAS_THREE_MAIN_ABILITIES_THE",
 							export = true,
@@ -1570,7 +1570,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(218819, {	-- Festering Rotslime
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kite the boss through the corridor.\n\nPlayers should focus on continuously moving between Gunk casts to avoid the poison pools. Gunk must be cleansed ASAP.\n\nThe boss will gain speed from Slime Time throughout the fight, to stop this: kill the Atal'ai Slab, Atal'ai Mask, Atal'ai Candle, and Atal'ai Drum objects which are located along the corridor. Ideally, have the melee focus on this to avoid getting Devoured themselves.",
 							constant = "KITE_THE_BOSS_THROUGH_THE_CORRIDOR_PLAYERS",
 							export = true,
@@ -1606,7 +1606,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(ATALAI_DEFENDERS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Atal'ai Defenders are the third boss encounter in The Temple of Atal'Hakkar.\n\nGasher & Mijan's abilities are the most threatening.\n\nOnce killed, each boss will respawn as an undead. Do not attack them, instead use Shackle Undead and Freezing Trap to CC them.",
 							constant = "THE_ATAL_AI_DEFENDERS_ARE_THE_THIRD_BOSS",
 							export = true,
@@ -1626,7 +1626,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						["groups"] = {
 							n(221637, {	-- Gasher
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "|cffff0000Fervor|r can cause him to deal a lot of damage, focus him down fast; if needed, the tank can run away from Gasher while still in range of casters to minimize the damage taken if Gasher gets high stacks.\n\nSpinning Axes - Spawns spinning axes around him, this deals minor cleave damage.",
 									constant = "CFFFF0000FERVOR_R_CAN_CAUSE_HIM_TO_DEAL_A_LOT",
 									export = true,
@@ -1662,7 +1662,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								},
 							}),
 							n(218922, {	-- Hukku
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Curse of Blood - Dispellable curse which increases a player's damage taken. This can be interrupted.",
 									constant = "CURSE_OF_BLOOD_DISPELLABLE_CURSE_WHICH",
 									export = true,
@@ -1682,7 +1682,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								}),
 							}),
 							n(221638, {	-- Loro
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Demoralizing Shout - Interruptable AoE debuff which reduces player's attack power by 40.",
 									constant = "DEMORALIZING_SHOUT_INTERRUPTABLE_AOE_DEBUFF",
 									export = true,
@@ -1702,7 +1702,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								}),
 							}),
 							n(218868, {	-- Mijan
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "|cffff0000Mijan's Atal'ai Serpent Totems|r should be interrupted and killed asap in order to minimize damage taken. These can deal a fair bit of damage if they happen to focus the same player.\n\nRenew - Interruptable self heal ability, make sure to have someone focused on kicking this to increase kill time.\n\nThorns - Dispellable self thorns buff, should be removed to minimize melee players' damage taken.",
 									constant = "CFFFF0000MIJAN_S_ATAL_AI_SERPENT_TOTEMS_R",
 									export = true,
@@ -1722,7 +1722,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								}),
 							}),
 							n(221639, {	-- Zolo
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Chain lightning increases damage which each subsequent hit, this can be interrupted.",
 									constant = "CHAIN_LIGHTNING_INCREASES_DAMAGE_WHICH_EACH",
 									export = true,
@@ -1742,7 +1742,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								}),
 							}),
 							n(221640, {	-- Zul'Lor
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Frailty - Reduces all attributes of nearby enemies by 10 for 1 min. Can be dispelled.",
 									constant = "FRAILTY_REDUCES_ALL_ATTRIBUTES_OF_NEARBY",
 									export = true,
@@ -1765,7 +1765,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(220833, {	-- Dreamscythe
 						["provider"] = { "n", 220864 },	-- Weaver
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The bosses cast Acid Breath, so you should two tank this fight. DPS Dreamscythe to 80% and Weaver to 60%. Avoid facing either boss into the raid.\n\nFor positioning, you really want to avoid getting knocked back into both the outside poison pool which surrounds the boss arena, as well as the middle pit which will cause you to die from fall damage by either of the wing buffet abilities. To avoid the pit you should either stand next to it so that you get knocked back parallel to it; or stand right against it to get knocked over to the opposite side of it. Doing either, depending on what's easier for you at that moment, will gain you uptime on casting.\n\nIdeally, have all of the damage dealers focusing a single boss as the bosses share health pools. This way you'll be focusing a fully debuffed target.",
 							constant = "THE_BOSSES_CAST_ACID_BREATH_SO_YOU_SHOULD_TWO",
 							export = true,
@@ -1801,7 +1801,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(218721, {	-- Jammal'an the Prophet
 						["provider"] = { "n", 218718 },	-- Ogom the Wretched
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This fight has two different versions which rotate every week.\n\nOne where Ogom the Wretched dies first, making Jammal'an the Prophet the main boss.\n Mass Penance is a spoopy mechanic.\n\nThe other where Jammal'an the Prophet dies first, making Ogom the Wretched the main boss.\n Avoid Consecration.",
 							constant = "THIS_FIGHT_HAS_TWO_DIFFERENT_VERSIONS_WHICH",
 							export = true,
@@ -1838,7 +1838,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(221943, {	-- Hazzas
 						["provider"] = { "n", 221942 },	-- Morphaz
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Keep the boss stationary to avoid the frontal Corrupted Breath and Backfire from the tail. Tanks swap every 2-3 stacks. Big heals for Dreamer's Lament ability!\n\nAt 80%, Hazzas will cast Animate Flame which will summon elementals. Stack & nuke them. They also drop fire on the floor. You can use the fire to avoid being sent downstairs to Morphaz during Lucid Dreaming.\n\nAt 30%, Hazzas will cast Lucid Dreaming again and then begin casting Eternal Slumber. You must bear the damage check and the cast will be canceled.\n\nDodge Falling Rocks.",
 							constant = "KEEP_THE_BOSS_STATIONARY_TO_AVOID_THE_FRONTAL",
 							export = true,
@@ -1875,7 +1875,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(218571, {	-- Shade of Eranikus
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The boss casts Corrosive Breath and has a tail sweep. Tanks should swap after each breath.\n\nDispell Lethargic Poison. Interupt Bellowing Roar!\n\nWhen the boss casts Deep Slumber, you'll want everyone to stack close to the boss so that when the boss casts Waking Nightmare, everyone can jump into the pool and to get afflicted and then move out asap to avoid getting CC'd again.\n\nAt 70%, the boss will summon two Lumbering Dreamwalkers. Kill them and interupt their Deep Slumber casts. Kill any whelplings that spawn.\n\nAt 40%, he'll repeat this and then summon two Nightmare Scalebanes. These cast Acid Rain that can be interupted, so the raid should spread out to avoid this.",
 							constant = "THE_BOSS_CASTS_CORROSIVE_BREATH_AND_HAS_A_TAIL",
 							export = true,
@@ -1911,7 +1911,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(221394, {	-- Avatar of Hakkar
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Have all the ranged stacked and then kill the four Atal'ai Ritualists.\n\nOnce Hakkari Bloodkeeper casts Bubbling Blood, move out of it. He'll ocasionally cast Spirit Chains, move out of the group before getting dispelled. (it will spread otherwise) Frightsome Howl should be dispelled immediately.\n\nAfter 33 seconds the Bloodkeeper will resurrect Hakkar and pass on some of the damage dealt to him during that time.\n\nDecurse Curse of Tongues, and dispel the Insanity mind control that'll happen once in a while.\n\nThe boss will occasionally cast Corrupted Blood, afflicted players should move out of the raid as fast as they can, and move to the front of the boss (away from the tank) to then get hit by Drain Blood. This will dispel the debuff. Move back afterwards and then kill the boss.",
 							constant = "HAVE_ALL_THE_RANGED_STACKED_AND_THEN_KILL_THE",
 							export = true,

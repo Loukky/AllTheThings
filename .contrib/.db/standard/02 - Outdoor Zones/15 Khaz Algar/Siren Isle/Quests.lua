@@ -396,7 +396,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			-- Marmaduke (move to special?)
 			q(86261, {	-- Homeward Bound to Safer Shores
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to give Marmaduke the well loved squeky toy before to trigger this quest",
 					constant = "YOU_NEED_TO_GIVE_MARMADUKE_THE_WELL_LOVED",
 					export = true,

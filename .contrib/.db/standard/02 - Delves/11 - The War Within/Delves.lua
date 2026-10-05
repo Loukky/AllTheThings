@@ -187,7 +187,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41709),	-- Journey's End (Season 2)
 			ach(41531, {	-- The Hataclysm
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After you've defeated the Underpin once (specifically on '?' difficulty; '??' won't unlock this achievement), Ask Brann to change his hat 10 times at his spot in Dornogal.",
 					constant = "AFTER_YOU_VE_DEFEATED_THE_UNDERPIN_ONCE",
 					export = true,
@@ -1333,7 +1333,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 						i(235489),	-- Bullet Biter
 						i(235490),	-- Clawbacker Halberd
 						i(236003, {	-- Fate Weaver
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Fly to Fate Weaver's Spool in Azj-Kahet to perform the ritual, coords 64.2, 74.8",
 								constant = "FLY_TO_FATE_WEAVER_S_SPOOL_IN_AZJ_KAHET_TO",
 								export = true,
@@ -1995,7 +1995,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			},
 		}),
 		q(90779, {	-- Cracked Keystone
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be completed once per TWW Season.\n\nNOTE: This will allow over-capping crests if you are already capped, otherwise the rewarded crests will be considered part of the current cap.",
 				constant = "CAN_BE_COMPLETED_ONCE_PER_TWW_SEASON_NOTE_THIS",
 				export = true,
@@ -2258,7 +2258,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Left behind by Zekvir when he is defeated in a delve.",
 				constant = "LEFT_BEHIND_BY_ZEKVIR_WHEN_HE_IS_DEFEATED_IN_A",
 				export = true,
@@ -2290,7 +2290,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			},
 		}),
 		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Left behind by Underpin when he is defeated in a delve.",
 				constant = "LEFT_BEHIND_BY_UNDERPIN_WHEN_HE_IS_DEFEATED_IN",
 				export = true,
@@ -2316,7 +2316,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			},
 		}),
 		o(547532, {	-- Ky'veza's Etheric Cache
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Left behind by Ky'veza when she is defeated in a delve.",
 				constant = "LEFT_BEHIND_BY_KY_VEZA_WHEN_SHE_IS_DEFEATED_IN",
 				export = true,
@@ -2354,7 +2354,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 		}),
 		o(455914, {	-- Mislaid Curiosity
 			-- #if BEFORE 12.0.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Contains Chunk of Companion Experience tokens.",
 				constant = "CONTAINS_CHUNK_OF_COMPANION_EXPERIENCE_TOKENS",
 				export = true,
@@ -2387,7 +2387,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 		}),
 		o(478443, {	-- Mislaid Curiosity
 			-- #if BEFORE 12.0.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Contains a 'Chunk of Companion Experience' token.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
 				constant = "CONTAINS_A_CHUNK_OF_COMPANION_EXPERIENCE_TOKEN",
 				export = true,
@@ -3170,7 +3170,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 						["cost"] = { { "c", UNDERCOIN, 2000 } },
 						-- Blizzard added the same note on the item.
 						-- #if BEFORE 11.1.0
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains 250 Resonance Crystals.",
 							constant = "CONTAINS_250_RESONANCE_CRYSTALS",
 							export = true,
@@ -3561,7 +3561,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(455498, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Waygate on the 1st Level.",
 						constant = "USE_WAYGATE_ON_THE_1ST_LEVEL",
 						export = true,
@@ -3590,7 +3590,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["questID"] = 83673,
 				}),
 				o(455535, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use |cFFFFFFFFPhase Cutter|r ability to penetrate the barrier.",
 						constant = "USE_CFFFFFFFFPHASE_CUTTER_R_ABILITY_TO",
 						export = true,
@@ -3841,7 +3841,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					},
 				}),
 				o(455496, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Jumping Mushroom close by",
 						constant = "JUMPING_MUSHROOM_CLOSE_BY",
 						export = true,
@@ -4087,7 +4087,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["questID"] = 83701,
 				}),
 				o(455515, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On mushroom",
 						constant = "ON_MUSHROOM",
 						export = true,
@@ -4145,7 +4145,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["questID"] = 86787,
 				}),
 				o(507226, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Walk along the metal beam to access.",
 						constant = "WALK_ALONG_THE_METAL_BEAM_TO_ACCESS",
 						export = true,
@@ -4419,7 +4419,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 				}),
 			}),
 			n(219713, {	-- Arathi Captive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Attempting to save this captive will spawn an assassin and not count towards any progress",
 					constant = "ATTEMPTING_TO_SAVE_THIS_CAPTIVE_WILL_SPAWN_AN",
 					export = true,
@@ -4439,7 +4439,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 				}),
 			}),
 			n(219718, {	-- Arathi Captive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Save this captive",
 					constant = "SAVE_THIS_CAPTIVE",
 					export = true,
@@ -4515,7 +4515,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(455487, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located ontop of pillar, accessible after killing last boss.",
 						constant = "LOCATED_ONTOP_OF_PILLAR_ACCESSIBLE_AFTER",
 						export = true,
@@ -4541,7 +4541,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["questID"] = 83649,
 				}),
 				o(455506, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located on beam over your head. Accessible during the From the Weaver with Love story.",
 						constant = "LOCATED_ON_BEAM_OVER_YOUR_HEAD_ACCESSIBLE",
 						export = true,
@@ -4563,7 +4563,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["questID"] = 83661,
 				}),
 				o(455507, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located on beam over your head, accessible after killing last boss",
 						constant = "LOCATED_ON_BEAM_OVER_YOUR_HEAD_ACCESSIBLE_AFTER",
 						export = true,
@@ -4638,7 +4638,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(455508, {	-- Sturdy Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Not available during Torture Victims story.",
 						constant = "NOT_AVAILABLE_DURING_TORTURE_VICTIMS_STORY",
 						export = true,

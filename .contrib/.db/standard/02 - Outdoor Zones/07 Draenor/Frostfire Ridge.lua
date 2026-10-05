@@ -65,7 +65,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(1427, {	-- Frostfur Rat (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found all over Frostwall and in small groups around the zone. ",
 								constant = "FOUND_ALL_OVER_FROSTWALL_AND_IN_SMALL_GROUPS",
 								export = true,
@@ -86,7 +86,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1578, {	-- Frostshell Pincher (PET!)
 							["coord"] = { 23.6, 64.4, FROSTFIRE_RIDGE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in a small area around this coord.",
 								constant = "FOUND_IN_A_SMALL_AREA_AROUND_THIS_COORD",
 								export = true,
@@ -107,7 +107,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1457, {	-- Icespine Hatchling (PET!)
 							["coord"] = { 49.2,  58.0, FROSTFIRE_RIDGE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found large area around this coord, north of the Horde Garrison.",
 								constant = "FOUND_LARGE_AREA_AROUND_THIS_COORD_NORTH_OF_THE",
 								export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1579, {	-- Ironclaw Scuttler (PET!)
 							["coord"] = { 33.8, 41.6, FROSTFIRE_RIDGE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in a line along the right side of Bladespire Citadel.",
 								constant = "FOUND_IN_A_LINE_ALONG_THE_RIGHT_SIDE_OF",
 								export = true,
@@ -148,7 +148,7 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						pet(1464, {	-- Twilight Wasp (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in Frostwall and the north coast of Frostfire.",
 								constant = "FOUND_IN_FROSTWALL_AND_THE_NORTH_COAST_OF",
 								export = true,
@@ -535,7 +535,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.5, 15.5, FROSTFIRE_RIDGE },
 					}),
 					q(33807, {	-- Free Our Brothers and Sisters
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Save Wolf Home|r to pick up this quest.",
 							constant = "MUST_BE_ON_CFFFFD700SAVE_WOLF_HOME_R_TO_PICK_UP",
 							export = true,
@@ -1039,7 +1039,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(36205, {	-- The Fractured Hammer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Item that starts the Quest can be looted from almost any creature in Frostfire Ridge; however, Dorogg has a guaranteed drop chance.",
 							constant = "ITEM_THAT_STARTS_THE_QUEST_CAN_BE_LOOTED_FROM",
 							export = true,
@@ -1063,7 +1063,7 @@ root(ROOTS.Zones, {
 						["cr"] = 74254,	-- Dorogg the Ruthless
 					}),
 					q(37563, {	-- The Frostwolves Stand Ready
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can only pick one of the three available followers. The other two can be purchased from Nalya Battlehorn in the Level 3 Garrison.",
 							constant = "YOU_CAN_ONLY_PICK_ONE_OF_THE_THREE_AVAILABLE",
 							export = true,
@@ -1238,7 +1238,7 @@ root(ROOTS.Zones, {
 						-- ["races"] = HORDE_ONLY,	-- via #errors 20201104-19:22
 					}),
 					q(37291, {	-- Thunderlord Invasion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This cannot be acquired with a Level 3 Garrison.",
 							constant = "THIS_CANNOT_BE_ACQUIRED_WITH_A_LEVEL_3_GARRISON",
 							export = true,
@@ -1312,7 +1312,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33918, {	-- WANTED: Grondo's Bounty
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted automatically when you are near Grondo in The Cracking Plains.",
 							constant = "GRANTED_AUTOMATICALLY_WHEN_YOU_ARE_NEAR_GRONDO",
 							export = true,
@@ -1350,7 +1350,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					warchiefscommand(q(49545, {	-- Warchief's Command: Frostfire Ridge!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Currently no verified way to actually obtain this quest on a character which has established their Garrison.\n\nOther characters will be able to obtain this Quest from the Warboard after completion of 'The Home of the Frostwolves' (33868) if completing the Tanaan intro quests, or possibly from the Warboard during WoD Chromie Time.",
 							constant = "CURRENTLY_NO_VERIFIED_WAY_TO_ACTUALLY_OBTAIN",
 							export = true,
@@ -1538,7 +1538,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119365) },	-- Bloodied Tourniquet Belt
 					}),
 					n(72156, {	-- Borrok the Devourer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Feed 10 ogres to him — defeat an ogre, it will kneel, click on it to throw it over your back (Druids must be in human form), and then walk into the feeding area. Repeat. Loot the Devourer's Gutstone afterwards.",
 							constant = "FEED_10_OGRES_TO_HIM_DEFEAT_AN_OGRE_IT_WILL",
 							export = true,
@@ -1644,7 +1644,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(111545) },	-- Smoldering Fist of Gorg'ak
 					}),
 					n(82536, {	-- Gorivax <Spawn of the Soulgrinder>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to be on the quest \"Assault on Stonefury Cliffs\".",
 							constant = "YOU_NEED_TO_BE_ON_THE_QUEST_ASSAULT_ON",
 							export = true,
@@ -1668,7 +1668,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119358) },	-- Voidmesh Cloth Wristwraps
 					}),
 					n(50992, {	-- Gorok
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gorok has a respawn timer between 5-16 hours. Mount drop rate is 100% for all participants.",
 							constant = "GOROK_HAS_A_RESPAWN_TIMER_BETWEEN_5_16_HOURS",
 							export = true,
@@ -1862,7 +1862,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(119409, {	-- Icebound Bloodmaul Spire
 								-- #if BEFORE 10.1.5
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "There are reports that this drops from this rare. This rare is only lootable once, but it appears this may either not drop anymore, or you may only have the one chance per toon to loot it. Please let us know if you get this item to drop.",
 									constant = "THERE_ARE_REPORTS_THAT_THIS_DROPS_FROM_THIS",
 									export = true,
@@ -1923,7 +1923,7 @@ root(ROOTS.Zones, {
 					n(74575, {	-- Bladespire Brute
 						["questID"] = 33439,
 						["coord"] = { 30.3, 50.6, FROSTFIRE_RIDGE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Loot the brute at the base of Mor'dul Tower.",
 							constant = "LOOT_THE_BRUTE_AT_THE_BASE_OF_MOR_DUL_TOWER",
 							export = true,
@@ -1945,7 +1945,7 @@ root(ROOTS.Zones, {
 					n(74924, {	-- Bladespire Brute
 						["questID"] = 33440,
 						["coord"] = { 30.6, 50.8, FROSTFIRE_RIDGE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Loot the falling brute halfway up Mor'dul Tower.",
 							constant = "LOOT_THE_FALLING_BRUTE_HALFWAY_UP_MOR_DUL_TOWER",
 							export = true,
@@ -1967,7 +1967,7 @@ root(ROOTS.Zones, {
 					n(74918, {	-- Bladespire Brute
 						["questID"] = 33497,
 						["coord"] = { 30.5, 50.9, FROSTFIRE_RIDGE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Loot the falling brute at the top of Mor'dul Tower.",
 							constant = "LOOT_THE_FALLING_BRUTE_AT_THE_TOP_OF_MOR_DUL",
 							export = true,
@@ -1987,7 +1987,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					n(74574, {	-- Bladespire Primalist
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Loot the cowering ogre at the top of Mor'dul Tower.",
 							constant = "LOOT_THE_COWERING_OGRE_AT_THE_TOP_OF_MOR_DUL",
 							export = true,
@@ -2145,7 +2145,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.7, 64.8, 526 },	-- Bladespire Citadel
 					}),
 					o(230611, {	-- Pale Loot Sack
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the bottom of a nearby cave.",
 							constant = "AT_THE_BOTTOM_OF_A_NEARBY_CAVE",
 							export = true,
@@ -2241,7 +2241,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(75072, {	-- Young Orc Traveler
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the Bound Traveler's Scroll to obtain Snow Hare's Foot. Must collect the Frostwolf First-Fang from the Young Orc Woman to complete.",
 							constant = "USE_THE_BOUND_TRAVELER_S_SCROLL_TO_OBTAIN_SNOW",
 							export = true,
@@ -2264,7 +2264,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(112206) },	-- Talisman of Yearning Unfulfilled
 					}),
 					n(75081, {	-- Young Orc Woman
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the Frozen Envelope to obtain Frostwolf First-Fang. Must collect the Snow Hare's Foot from the Young Orc Traveler to complete.",
 							constant = "USE_THE_FROZEN_ENVELOPE_TO_OBTAIN_FROSTWOLF",
 							export = true,

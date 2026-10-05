@@ -91,7 +91,7 @@ root(ROOTS.Zones, {
 					}),
 					ach(8942),	-- Explore Nagrand
 					ach(9610, {	-- History of Violence (Broken Precipice)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to get the relics, except the Bust, use Jewel of Transformation in the area and then break boulder piles.",
 							constant = "IN_ORDER_TO_GET_THE_RELICS_EXCEPT_THE_BUST_USE",
 							export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					ach(9617, {	-- Making the Cut (Gorian Proving Grounds)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns in the building behind The Ring of Blood. Kill 15 mobs that spawn around him in order to attack him.",
 							constant = "SPAWNS_IN_THE_BUILDING_BEHIND_THE_RING_OF_BLOOD",
 							export = true,
@@ -140,7 +140,7 @@ root(ROOTS.Zones, {
 						["cr"] = 88210,	-- Krud the Eviscerator
 					}),
 					ach(8927, {	-- Nagrandeur (Alliance)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Nagrand Treasure Map' from Grakis in Stormshield.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_3",
 							export = true,
@@ -162,7 +162,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(8928, {	-- Nagrandeur (Horde)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Nagrand Treasure Map' from Srikka in Warspear.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_4",
 							export = true,
@@ -363,7 +363,7 @@ root(ROOTS.Zones, {
 									["groups"] = { i(118659) },	-- Mu'gra's Head
 								}),
 								n(86750, {	-- Thek'talon
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Flies in a large path starting north of |cFFFFD700Lok-Rath|r and west of the |cFFFFD700Throne of the Elements|r.",
 										constant = "FLIES_IN_A_LARGE_PATH_STARTING_NORTH_OF",
 										export = true,
@@ -567,7 +567,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33928, {	-- A Wrong of Earth and Fire
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Starts dropping during |cFFFFD700Elemental Attunement|r.",
 							constant = "STARTS_DROPPING_DURING_CFFFFD700ELEMENTAL",
 							export = true,
@@ -621,7 +621,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(36193, {	-- An Act of Kindness
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available during |cFFFFD700The Trial of Heart|r.",
 							constant = "AVAILABLE_DURING_CFFFFD700THE_TRIAL_OF_HEART_R",
 							export = true,
@@ -690,7 +690,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 53.8, 15.0, DRAENOR_NAGRAND },
 					}),
 					q(34953, {	-- Blood of the Burning Blade
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you do not accept |cFFFFD700The Friend o' My Enemy|r from Hansel Heavyhands.",
 							constant = "ONLY_AVAILABLE_IF_YOU_DO_NOT_ACCEPT",
 							export = true,
@@ -715,7 +715,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(35143, {	-- Blood of the Burning Blade
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you do not accept |cFFFFD700The Friend of My Enemy|r from Thrall.",
 							constant = "ONLY_AVAILABLE_IF_YOU_DO_NOT_ACCEPT_2",
 							export = true,
@@ -901,7 +901,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(35596, {	-- Feline Friends Forever
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill |cFFFFD700Bolkar the Cruel|r to loot |cFFFFD700Goldmane's Cage Key|r, then use the key on the cage.",
 							constant = "KILL_CFFFFD700BOLKAR_THE_CRUEL_R_TO_LOOT",
 							export = true,
@@ -1196,7 +1196,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34717, {	-- Operation: Just Arrowhead
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is offered if you do not leave Rangari Ogir's area after turning in Operation: Surprise Party.",
 							constant = "THIS_VERSION_IS_OFFERED_IF_YOU_DO_NOT_LEAVE",
 							export = true,
@@ -1220,7 +1220,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34720, {	-- Operation: Just Arrowhead
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is offered if you left Rangari Ogir's area after turning in Operation: Surprise Party.",
 							constant = "THIS_VERSION_IS_OFFERED_IF_YOU_LEFT_RANGARI",
 							export = true,
@@ -1561,7 +1561,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(37286, {	-- The Bloodshed Never Ends
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have the |cFFFFD700Gladiator's Sanctum|r in your garrison.",
 							constant = "MUST_HAVE_THE_CFFFFD700GLADIATOR_S_SANCTUM_R_IN",
 							export = true,
@@ -1706,7 +1706,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34952, {	-- The Friend o' My Enemy
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is only available if you do not accept |cFFFFD700Blood of the Burning Blade|r from Lantresor of the Blade.",
 							constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_DO_NOT",
 							export = true,
@@ -1938,7 +1938,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(37981, {	-- The World Famous Ring of Blood!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The item that starts this quest has a chance to drop from any of the daily bounties offered in your garrison (Renzik 'The Shiv' for Alliance and Shadow Hunter Ty'jin for Horde).\n\nThe item isn't looted, but will pop directly into your inventory when the quest mob dies. If it doesn't drop the first time, you can camp the mob for more chances. You'll get a total of three invitations, which you can sell or trade.\n",
 							constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_HAS_A_CHANCE_TO_2",
 							export = true,
@@ -2092,7 +2092,7 @@ root(ROOTS.Zones, {
 					n(82826, {	-- Berserk T-300 Series Mark II
 						["questID"] = 35735,
 						["coord"] = { 76.9, 64.3, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the plunger next to the cave.",
 							constant = "USE_THE_PLUNGER_NEXT_TO_THE_CAVE",
 							export = true,
@@ -2153,7 +2153,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 89.0, 41.0, DRAENOR_NAGRAND },
 					}),
 					n(82975, {	-- Fangler
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the |cFFFFD700Abandoned Fishing Rod|r.",
 							constant = "USE_THE_CFFFFD700ABANDONED_FISHING_ROD_R",
 							export = true,
@@ -2204,7 +2204,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116916) },	-- Gorepetal's Gentle Grasp
 					}),
 					n(87344, {	-- Gortag Steelgrip
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Mok'gol Pack Leaders to get the Secret Meeting Details, and then blow the Signal Horn at 42.1, 36.84 to summon Gortag and Krahl.",
 							constant = "KILL_MOK_GOL_PACK_LEADERS_TO_GET_THE_SECRET",
 							export = true,
@@ -2234,7 +2234,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(84263, {	-- Graveltooth
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill about 15 goren in the area to draw out Graveltooth. He will yell 3 times before appearing.",
 							constant = "KILL_ABOUT_15_GOREN_IN_THE_AREA_TO_DRAW_OUT",
 							export = true,
@@ -2281,7 +2281,7 @@ root(ROOTS.Zones, {
 					n(78161, {	-- Hyperious
 						["questID"] = 34862,
 						["coord"] = { 87.0, 55.0, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the 3 braziers around the pit to summon him.",
 							constant = "USE_THE_3_BRAZIERS_AROUND_THE_PIT_TO_SUMMON_HIM",
 							export = true,
@@ -2309,7 +2309,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119355) },	-- Leggings of Howling Winds
 					}),
 					n(87239, {	-- Krahl Deadeye
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Mok'gol Pack Leaders to get the Secret Meeting Details, and then blow the Signal Horn at 42.1, 36.8 to summon Gortag and Krahl.",
 							constant = "KILL_MOK_GOL_PACK_LEADERS_TO_GET_THE_SECRET_2",
 							export = true,
@@ -2333,7 +2333,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 					}),
 					n(88210, {	-- Krud the Eviscerator
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill 15 mobs near him to make him attackable.",
 							constant = "KILL_15_MOBS_NEAR_HIM_TO_MAKE_HIM_ATTACKABLE",
 							export = true,
@@ -2362,7 +2362,7 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					n(50981, {	-- Luk'hok
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Luk'hok has a respawn timer between 12-28 hours. Mount drop rate is 100% for all participants.",
 							constant = "LUK_HOK_HAS_A_RESPAWN_TIMER_BETWEEN_12_28_HOURS",
 							export = true,
@@ -2400,7 +2400,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118690) },	-- Empty Crawdad Trap
 					}),
 					n(50990, {	-- Nakk the Thunderer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Nakk the Thunderer has a respawn timer between 12-28 hours. Mount drop rate is 100% for all participants.",
 							constant = "NAKK_THE_THUNDERER_HAS_A_RESPAWN_TIMER_BETWEEN",
 							export = true,
@@ -2453,7 +2453,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(120317) },	-- Pristine Hide of the Pit Beast
 					}),
 					n(87846, {	-- Pit Slayer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on Assault on the Broken Precipice. Click on blue crystals to transform into an ogre, and then click on the trophy in the middle of the pit.",
 							constant = "MUST_BE_ON_ASSAULT_ON_THE_BROKEN_PRECIPICE",
 							export = true,
@@ -2510,7 +2510,7 @@ root(ROOTS.Zones, {
 						["questID"] = 35912,
 						["cr"] = 83559,	-- Highwayman
 						["coord"] = { 60.9, 47.78, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns after abandoned chest is looted.",
 							constant = "SPAWNS_AFTER_ABANDONED_CHEST_IS_LOOTED",
 							export = true,
@@ -2541,7 +2541,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116814) },	-- Tura'aka's Clipped Wing
 					}),
 					n(81330, {	-- Warleader Tome
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns at Anguish Point and wanders the zone, moving clockwise. Your best bet is to camp his spawnpoint.",
 							constant = "SPAWNS_AT_ANGUISH_POINT_AND_WANDERS_THE_ZONE",
 							export = true,
@@ -2589,7 +2589,7 @@ root(ROOTS.Zones, {
 					o(233642, {	-- Abu'Gar's Favorite Lure
 						--["questID"] = 36072,
 						["coord"] = { 38.4, 49.3, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Hidden behind some reeds by the bridge.",
 							constant = "HIDDEN_BEHIND_SOME_REEDS_BY_THE_BRIDGE",
 							export = true,
@@ -2639,7 +2639,7 @@ root(ROOTS.Zones, {
 					o(232406, {	-- Adventurer's Pack
 						["questID"] = 35597,
 						["coord"] = { 69.9, 52.5, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Hanging in a tree.",
 							constant = "HANGING_IN_A_TREE",
 							export = true,
@@ -2660,7 +2660,7 @@ root(ROOTS.Zones, {
 						["sym"] = COMMON_TREASURE_SYM,
 					}),
 					o(233658, {	-- Adventurer's Pouch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Follow coordinates in order, start at cave and follow the ramp to reach the treasure.",
 							constant = "FOLLOW_COORDINATES_IN_ORDER_START_AT_CAVE_AND",
 							export = true,
@@ -2715,7 +2715,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116760) },	-- Saberon-Fang Shanker
 					}),
 					o(233973, {	-- Bounty of the Elements
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Activate the totems in order: Air, Earth, Water, Fire",
 							constant = "ACTIVATE_THE_TOTEMS_IN_ORDER_AIR_EARTH_WATER",
 							export = true,
@@ -2796,7 +2796,7 @@ root(ROOTS.Zones, {
 					}),
 					n(87528, {	-- Gnarled Bone
 						["questID"] = 37136,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Mok'gol Wolfsong for a Wolf Totem, dig in dirt piles as a spectral wolf at a chance to find this item.",
 							constant = "KILL_MOK_GOL_WOLFSONG_FOR_A_WOLF_TOTEM_DIG_IN",
 							export = true,
@@ -2830,7 +2830,7 @@ root(ROOTS.Zones, {
 					o(232571, {	-- Goblin Pack
 						["questID"] = 35576,
 						["coord"] = { 47.2, 74.3, DRAENOR_NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Hidden in the tree.",
 							constant = "HIDDEN_IN_THE_TREE",
 							export = true,
@@ -3053,7 +3053,7 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(113109, {	-- Frostwolf Axe
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops while on a Quest |cFFFFD700Shooting the Breeze|r.",
 							constant = "DROPS_WHILE_ON_A_QUEST_CFFFFD700SHOOTING_THE",
 							export = true,

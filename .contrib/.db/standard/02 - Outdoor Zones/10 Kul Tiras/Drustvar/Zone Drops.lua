@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["cr"] = 135541,	-- Bilgewater Incinerator
 			}),
 			n(137468, {	-- Gorging Raven
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coords represent relative bounds of the area.",
 					constant = "COORDS_REPRESENT_RELATIVE_BOUNDS_OF_THE_AREA",
 					export = true,

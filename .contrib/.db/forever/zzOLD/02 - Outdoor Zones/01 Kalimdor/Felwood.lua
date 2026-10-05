@@ -41,7 +41,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 			}),
 			prof(HERBALISM, {
 				i(11514, {	-- Fel Creep
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order for this to drop while Herbing, you must have the Cenarion Beacon in your bags.",
 						constant = "IN_ORDER_FOR_THIS_TO_DROP_WHILE_HERBING_YOU",
 						export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 			}),
 			prof(MINING, {
 				i(11513, {	-- Tainted Vitriol
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order for this to drop while Mining, you must have the Cenarion Beacon in your bags.",
 						constant = "IN_ORDER_FOR_THIS_TO_DROP_WHILE_MINING_YOU_MUST",
 						export = true,
@@ -218,7 +218,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 							},
 						}),
 						i(11511, {	-- Cenarion Beacon
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must keep this in your bags for the Fel Creep, Patch of Tainted Skin, Tainted Vitriol, and Corrupted Soul Shards to drop from the various means of gathering.",
 								constant = "YOU_MUST_KEEP_THIS_IN_YOUR_BAGS_FOR_THE_FEL",
 								export = true,
@@ -299,7 +299,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 								{ "i", 12565 },	-- Winna's Kitten Carrier
 							},
 							["coord"] = { 32.0, 66.0, MAP.FELWOOD },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "When you get back to Winna, the cat stops, and you have to TALK TO THE CAT.",
 								constant = "WHEN_YOU_GET_BACK_TO_WINNA_THE_CAT_STOPS_AND",
 								export = true,
@@ -719,7 +719,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["groups"] = {
 						{
 							["itemID"] = 11445,	-- Flute of the Ancients
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to save this flute for the 'Ancient Spirit' escort quest, then you can safely discard it.",
 								constant = "YOU_NEED_TO_SAVE_THIS_FLUTE_FOR_THE_ANCIENT",
 								export = true,
@@ -1282,7 +1282,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 			}),
 			prof(SKINNING, {
 				i(11512, {	-- Patch of Tainted Skin
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order for this to drop while Skinning, you must have the Cenarion Beacon in your bags.",
 						constant = "IN_ORDER_FOR_THIS_TO_DROP_WHILE_SKINNING_YOU",
 						export = true,
@@ -1351,7 +1351,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				i(11515, {	-- Corrupted Soul Shard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order for this to drop by killing mobs, you must have the Cenarion Beacon in your bags.",
 						constant = "IN_ORDER_FOR_THIS_TO_DROP_BY_KILLING_MOBS_YOU",
 						export = true,
@@ -1372,7 +1372,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["provider"] = { "i", 11511 },	-- Cenarion Beacon
 				}),
 				i(21377, {	-- Deadwood Headdress Feather
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops commmonly from all Deadwood furbolgs, and can be turned in to the NPCs named Grazle and Nafien for Timbermaw Hold reputation. Each turn in requires 5 Deadwood Headdress Feathers. Grazle can be found in the southmost part of the zone, in the Emerald Sanctuary. Nafien can be found in the northernmost part of the zone, by the entrance to Timbermaw Hold.",
 						constant = "DROPS_COMMMONLY_FROM_ALL_DEADWOOD_FURBOLGS_AND",
 						export = true,

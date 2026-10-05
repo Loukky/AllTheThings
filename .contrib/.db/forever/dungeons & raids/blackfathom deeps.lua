@@ -27,7 +27,7 @@ root(ROOTS.Instances, {
 			}),
 			n(QUESTS, {
 				q(6564, {	-- Allegiance to the Old Gods (1/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "For this to drop, you need to be on the Essence of Aku'Mai quest.",
 						constant = "FOR_THIS_TO_DROP_YOU_NEED_TO_BE_ON_THE_ESSENCE",
 						export = true,
@@ -133,7 +133,7 @@ root(ROOTS.Instances, {
 					},
 				}),
 				q(1198, {	-- In Search of Thaelrid
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is also available to Horde, though the questgiver is a bit out of the way. (And, of course, it doesn't grant the Darnassus rep.)",
 						constant = "THIS_QUEST_IS_ALSO_AVAILABLE_TO_HORDE_THOUGH",
 						export = true,
@@ -168,7 +168,7 @@ root(ROOTS.Instances, {
 								{ "i", 5359 },	-- Lorgalis Manuscript
 								{ "o", 13949 },	-- Pitted Iron Chest
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Guarded by a few Naga in the underwater room directly to the right of Ghamoo-ra.",
 								constant = "GUARDED_BY_A_FEW_NAGA_IN_THE_UNDERWATER_ROOM",
 								export = true,
@@ -299,7 +299,7 @@ root(ROOTS.Instances, {
 				i(3078),	-- Naga Heartpiercer
 			}),
 			o(177964, {	-- Fathom Stone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In the water below the Twilight bridge.\n\nWARNING: Spawns Baron Aquanis.",
 					constant = "IN_THE_WATER_BELOW_THE_TWILIGHT_BRIDGE_WARNING",
 					export = true,
@@ -322,7 +322,7 @@ root(ROOTS.Instances, {
 				["groups"] = {
 					i(16762),	-- Fathom Core
 					n(12876, {	-- Baron Aquanis
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This boss can only be summoned by Horde players on the Amongst the Ruins quest.",
 							constant = "THIS_BOSS_CAN_ONLY_BE_SUMMONED_BY_HORDE_PLAYERS",
 							export = true,

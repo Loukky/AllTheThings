@@ -356,7 +356,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				})),
 				cr(90284, e(1425, {	-- Iron Reaver
 					ach(10057, {	-- Turning the Tide
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When the boss casts Barrage, simply stand at the North or South walls and try to get at least 2-3 Guardians within the frontal cone to kill them. There are 5 Guardians at each wall, 10 Guardians in all, very easy to solo at max level.",
 							constant = "WHEN_THE_BOSS_CASTS_BARRAGE_SIMPLY_STAND_AT_THE",
 							export = true,
@@ -408,7 +408,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				})),
 				cr(90316, e(1433, {	-- Shadow-Lord Iskar
 					ach(9988, {	-- Pro Toss
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Pull the boss and burn him before he transitions. As long as no one touched the Eye of Anzu, you will earn the achievement.",
 							constant = "PULL_THE_BOSS_AND_BURN_HIM_BEFORE_HE",
 							export = true,
@@ -465,7 +465,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			d(DIFFICULTY.RAID.NORMAL, {
 				n(QUESTS, {
 					q(39502, {	-- The Fel Spire (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Destructor's Rise on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE",
 							export = true,
@@ -493,7 +493,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["qi"] = 128419,	-- Fel Essence (QI!)
 					}),
 					q(39499, {	-- Well of Souls (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Upper Citadel on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_2",
 							export = true,
@@ -1016,7 +1016,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["maps"] = { MOONGLADE },
 					}),
 					q(39504, {	-- The Fel Spire (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Destructor's Rise on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_3",
 							export = true,
@@ -1041,7 +1041,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["qi"] = 128420,	-- Fel Essence (QI!)
 					}),
 					q(39500, {	-- Well of Souls (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Upper Citadel on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_4",
 							export = true,
@@ -1548,7 +1548,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			d(DIFFICULTY.RAID.MYTHIC, {
 				n(QUESTS, {
 					q(39505, {	-- The Fel Spire (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Destructor's Rise on Mythic difficulty each week.",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_5",
 							export = true,
@@ -1571,7 +1571,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["qi"] = 128421,	-- Fel Essence (QI!)
 					}),
 					q(39501, {	-- Well of Souls (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to the Upper Citadel on Mythic difficulty each week.",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_6",
 							export = true,

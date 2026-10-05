@@ -563,7 +563,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			}),
 			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Loot from this LFR is NOT tradeable to others in group.",
 					constant = "LOOT_FROM_THIS_LFR_IS_NOT_TRADEABLE_TO_OTHERS",
 					export = true,
@@ -596,7 +596,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(95619, {	-- Amber Encased Treasure Pouch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Heart of Fear.",
 							constant = "THIS_ITEM_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO_2",
 							export = true,
@@ -685,7 +685,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["groups"] = {
 								i(89271, {	-- Gauntlets of the Shadowy Conqueror
 									-- #if AFTER 7.2.0
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
 										constant = "PALADIN_COMPLETIONISTS_WILL_WANT_TO_TURN_THIS",
 										export = true,

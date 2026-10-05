@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(266101) },	-- Unused Initiate's Bulwark (COSMETIC!)
 				}),
 				o(618016, {	-- Stellar Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Enter through the Portcullis on the left side.",
 						constant = "ENTER_THROUGH_THE_PORTCULLIS_ON_THE_LEFT_SIDE",
 						export = true,
@@ -118,7 +118,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(262467) },	-- Void Elf Round Table (DECOR!)
 				}),
 				o(572819, {	-- Void-Shielded Tomb
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drink the Potion of Dissociation from the nearby table in order to be able to see the Key.",
 						constant = "DRINK_THE_POTION_OF_DISSOCIATION_FROM_THE",
 						export = true,

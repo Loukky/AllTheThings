@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 			}),
 			o(297069, {	-- Dresser
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After completing the quest \"One Last Request\" you can return back to the house, go upstairs and interact with this object.",
 					constant = "AFTER_COMPLETING_THE_QUEST_ONE_LAST_REQUEST_YOU",
 					export = true,
@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(297828, {	-- Merchant's Chest
 				["questID"] = 53357,
 				["coord"] = { 25.69, 20.03, DRUSTVAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Look for the Gorging Raven flying above with the 'Holding Keys' buff, and kill it to get the key to open this chest.",
 					constant = "LOOK_FOR_THE_GORGING_RAVEN_FLYING_ABOVE_WITH",
 					export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(297891, {	-- Runebound Cache
 				["questID"] = 53385,
 				["coord"] = { 63.3, 65.8, DRUSTVAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Left. Down. Up. Right.",
 					constant = "LEFT_DOWN_UP_RIGHT",
 					export = true,
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(297892, {	-- Runebound Chest
 				["questID"] = 53386,
 				["coord"] = { 44.2, 27.8, DRUSTVAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Left. Right. Down. Up.",
 					constant = "LEFT_RIGHT_DOWN_UP",
 					export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(297893, {	-- Runebound Coffer
 				["questID"] = 53387,
 				["coord"] = { 33.68, 71.74, DRUSTVAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Right. Up. Left. Down.",
 					constant = "RIGHT_UP_LEFT_DOWN",
 					export = true,
@@ -194,7 +194,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(298920, {	-- Stolen Thornspeaker Cache
 				["questID"] = 53475,
 				["coord"] = { 24.3, 48.5, DRUSTVAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Enter the cave at 24.70, 48.95.",
 					constant = "ENTER_THE_CAVE_AT_24_70_48_95",
 					export = true,

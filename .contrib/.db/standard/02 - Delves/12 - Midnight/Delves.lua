@@ -758,7 +758,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 				["groups"] = { i(254983) },	-- Assassin's Subtle Tea
 			}),
 			o(584503, {	-- Grand Sanctified Spoils
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Delver's Journey Rank 3 to spawn. When you zone in to a Delve, you may get a message that 'A Sanctified Banner has spawned'. You then need to find the banner (It looks like a Light-themed flagpole, a little taller than your character and slightly glowing), click it and then finish the Delve for an extra chest/goodies.\n\nWhen activating the banner, an elite mob can spawn. If it does, then you will get a Grand Sanctified Spoil instead of a regular one.",
 					constant = "REQUIRES_DELVER_S_JOURNEY_RANK_3_TO_SPAWN_WHEN",
 					export = true,
@@ -908,7 +908,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 	}),
 	n(MAILBOX, {
 		i(258738, {	-- A Cordial Invitation (QS!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Mailed to you after your first death in a delve.",
 				constant = "MAILED_TO_YOU_AFTER_YOUR_FIRST_DEATH_IN_A_DELVE",
 				export = true,
@@ -962,7 +962,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 			["timeline"] = { ADDED_12_1_0 },
 			["groups"] = {
 				ach(61456, {	-- Die in Lordaeron or Undercity (Hidden Achievement Trigger)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Acquisition of the Gravestone is locked behind a Hidden Achievement that will not show in your Achievement UI.\n\nYou need to go to the present phase of Lordearon and kill your character while within the confines of the City.\n\nDo a force refresh after killing your character. If this entry disappears, go back to Silvermoon City and apply the Gravestone.",
 						constant = "ACQUISITION_OF_THE_GRAVESTONE_IS_LOCKED_BEHIND",
 						export = true,

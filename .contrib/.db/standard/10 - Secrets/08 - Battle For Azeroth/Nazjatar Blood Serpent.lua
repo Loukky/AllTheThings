@@ -7,7 +7,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 		["timeline"] = { ADDED_8_0_1_LAUNCH },
 		["groups"] = {
 			i(161344, {	-- Abyssal Fragment
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These are a World Drop in any zone and can be bought from the Auction House. Once you collect 20, combine them.",
 					constant = "THESE_ARE_A_WORLD_DROP_IN_ANY_ZONE_AND_CAN_BE",
 					export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 				},
 			}),
 			i(161345, {	-- Abhorrent Essence of the Abyss
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use this on the \"Abyssal Icon\" located at 73.5, 23.6 in Stormsong Valley. The cave entrance is behind a waterfall.",
 					constant = "USE_THIS_ON_THE_ABYSSAL_ICON_LOCATED_AT_73_5_23",
 					export = true,

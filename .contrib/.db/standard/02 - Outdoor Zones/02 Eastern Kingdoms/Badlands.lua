@@ -507,7 +507,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27930, {	-- Devastation
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, leave the area then return to the cave.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_LEAVE_THE_AREA_THEN",
 						export = true,
@@ -595,7 +595,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						i(5421, {	-- Fiery Blaze Enchantment
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Save this for an heirloom weapon in Wrath!",
 								constant = "SAVE_THIS_FOR_AN_HEIRLOOM_WEAPON_IN_WRATH",
 								export = true,

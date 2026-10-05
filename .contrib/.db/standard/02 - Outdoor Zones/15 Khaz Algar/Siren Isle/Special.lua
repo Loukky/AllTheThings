@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			})),
 			n(233694, {	-- Zexel Fingersnap
 				["sourceQuest"] = 86485,	-- A Loyal Friend
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Vendor who sells Snapdragon Treats once they've been unlocked.",
 					constant = "VENDOR_WHO_SELLS_SNAPDRAGON_TREATS_ONCE_THEY_VE",
 					export = true,

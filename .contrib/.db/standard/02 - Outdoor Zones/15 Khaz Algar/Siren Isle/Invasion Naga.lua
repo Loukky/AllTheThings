@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(SIREN_ISLE, {
 		n(INVASION_NAGA, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Every week a faction invades the island.\n\nThe rotation is Vrykul>Naga>Pirates repeat.\n\nZone Drops listed here are only available when the invasion is active.",
 				constant = "EVERY_WEEK_A_FACTION_INVADES_THE_ISLAND_THE",
 				export = true,
@@ -26,7 +26,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["groups"] = {
 				petbattle(filter(BATTLE_PETS, {
 					pet(4711, {	-- Snapdragon Pup
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only spawns during Naga invasion week.",
 							constant = "ONLY_SPAWNS_DURING_NAGA_INVASION_WEEK",
 							export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						q(84850, {	-- Serpent's Wrath
 							["groups"] = {
 								i(228647, {	-- Seabed Leviathan's Citrine
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Only counts for the achievement when looted from the respective World Quest.",
 										constant = "ONLY_COUNTS_FOR_THE_ACHIEVEMENT_WHEN_LOOTED",
 										export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				n(ZONE_DROPS, {
 					i(233499, {	-- Royal Snapdragon Treat (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Naga.",
 							constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT",
 							export = true,

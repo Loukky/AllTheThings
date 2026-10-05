@@ -165,7 +165,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}, {	-- RENOWN 9 --
 					q(70959, {	-- Cute and Cuddly
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Runs around Iskaara.",
 							constant = "RUNS_AROUND_ISKAARA",
 							export = true,
@@ -299,7 +299,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					q(66443, {	-- Calling the Hunting Party
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically given after the previous quest.",
 							constant = "AUTOMATICALLY_GIVEN_AFTER_THE_PREVIOUS_QUEST",
 							export = true,

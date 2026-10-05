@@ -176,7 +176,7 @@ root(ROOTS.Zones, {
 						pet(1468),	-- Bloodbeak (PET!)
 						pet(1586),	-- Cerulean Moth (PET!)
 						pet(1581, {	-- Fen Crab (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found along the southern coast below Fang'rila.",
 								constant = "FOUND_ALONG_THE_SOUTHERN_COAST_BELOW_FANG_RILA",
 								export = true,
@@ -277,7 +277,7 @@ root(ROOTS.Zones, {
 				}),
 				n(PROFESSIONS, {
 					n(94605, {	-- Apexis Gemcutter
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to learn these recipes, you have to take the appropriate gemcutter module to this NPC and then right-click to learn how to craft it.",
 							constant = "IN_ORDER_TO_LEARN_THESE_RECIPES_YOU_HAVE_TO",
 							export = true,
@@ -870,7 +870,7 @@ root(ROOTS.Zones, {
 				n(RARES, {
 					-- Coords have been confirmed on rares except for some noted rares on longer spawn timers.
 					n(92766, {	-- Akrrilo <Shadowhunter of the Blackfang>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\nPurchase a Minor Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Akrrilo.\n\n",
 							constant = "PURCHASE_A_MINOR_BLACKFANG_CHALLENGE_TOTEM_FROM",
 							export = true,
@@ -966,7 +966,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(90434, {	-- Ceraxas
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Killing Ceraxas will summon the Abandoned Fel Pup, which offers the quest that rewards the pet.",
 							constant = "KILLING_CERAXAS_WILL_SUMMON_THE_ABANDONED_FEL",
 							export = true,
@@ -1082,7 +1082,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(127323) },	-- Bracers of Endless Suffering
 					}),
 					n(92819, {	-- Eyepiercer <Crazed Blackfang Warmonger>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\nPurchase a Prime Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Eyepiercer.\n\n",
 							constant = "PURCHASE_A_PRIME_BLACKFANG_CHALLENGE_TOTEM_FROM",
 							export = true,
@@ -1113,7 +1113,7 @@ root(ROOTS.Zones, {
 					n(93168, {	-- Felbore
 						["questID"] = 38775,
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the back of an underground cave.",
 							constant = "AT_THE_BACK_OF_AN_UNDERGROUND_CAVE",
 							export = true,
@@ -1314,7 +1314,7 @@ root(ROOTS.Zones, {
 					n(91227, {	-- Remnant of the Blood Moon
 						["questID"] = 39159,
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drain the Blood Moon to 0% health with Drained Blood Crystals to spawn Remnant of the Blood Moon.",
 							constant = "DRAIN_THE_BLOOD_MOON_TO_0_HEALTH_WITH_DRAINED",
 							export = true,
@@ -1336,7 +1336,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(127666) },	-- Vial of Red Goo (TOY!)
 					}),
 					n(92817, {	-- Rendarr <Warshaman of the Blackfang>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\nPurchase a Major Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r. Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Rendarr.\n\n",
 							constant = "PURCHASE_A_MAJOR_BLACKFANG_CHALLENGE_TOTEM_FROM",
 							export = true,
@@ -1359,7 +1359,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 54.2, 80.8, TANAAN_JUNGLE },
 					}),
 					n(92627, {	-- Rendrak
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Collect 10x Smelly Musk Gland from the Direwing Predators (Bats) in Zorammarsh. Once you have all 10, combine them to lure Rendrak. If you leave Zorammarsh, the Smelly Musk Glands will vanish from your bags.",
 							constant = "COLLECT_10X_SMELLY_MUSK_GLAND_FROM_THE_DIREWING",
 							export = true,
@@ -1441,7 +1441,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(127311) },	-- Serpentine Gloves
 					}),
 					n(93001, {	-- Szirek the Twisted
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Capture Strongpoint (East) to make him spawn.",
 							constant = "CAPTURE_STRONGPOINT_EAST_TO_MAKE_HIM_SPAWN",
 							export = true,
@@ -1493,7 +1493,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(127305) },	-- Frayed Hunting Cowl
 					}),
 					n(92977, {	-- The Iron Houndmaster
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Capture Strongpoint (West) to make him spawn.",
 							constant = "CAPTURE_STRONGPOINT_WEST_TO_MAKE_HIM_SPAWN",
 							export = true,
@@ -1518,7 +1518,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(127321) },	-- Iron Houndmaster's Pauldrons
 					}),
 					n(92636, {	-- The Night Haunter
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gain 10 stacks of Marked by the Night Haunter by either finding The Night Haunter or clicking Mutilated Corpses.",
 							constant = "GAIN_10_STACKS_OF_MARKED_BY_THE_NIGHT_HAUNTER",
 							export = true,
@@ -1596,7 +1596,7 @@ root(ROOTS.Zones, {
 					}),
 					n(96235, {	-- Xemirkol
 						["achievementID"] = 10334,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Attempt to teleport to him by using Master Hunter's Seeking Crystal. Do not get knocked off of his platform.",
 							constant = "ATTEMPT_TO_TELEPORT_TO_HIM_BY_USING_MASTER",
 							export = true,
@@ -1726,7 +1726,7 @@ root(ROOTS.Zones, {
 						i(124623),	-- Spineshard Crest
 					}),
 					petbattle(container(127751, {	-- Fel-Touched Pet Supplies
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Fel-Touched Pet Supplies is the reward for defeating any of the Tiny Terrors in Tanaan. You can defeat each Tiny Terror once per character per day.",
 							constant = "FEL_TOUCHED_PET_SUPPLIES_IS_THE_REWARD_FOR",
 							export = true,
@@ -1786,7 +1786,7 @@ root(ROOTS.Zones, {
 					o(241664, {	-- "Borrowed" Enchanted Spyglass
 						["questID"] = 38735,
 						["coord"] = { 25.3, 50.3, TANAAN_JUNGLE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the top of the watchtower.",
 							constant = "AT_THE_TOP_OF_THE_WATCHTOWER",
 							export = true,
@@ -2009,7 +2009,7 @@ root(ROOTS.Zones, {
 					}),
 					o(241599, {	-- Strange Fruit
 						["questID"] = 38701,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click on Loose Soil and throw it into the tree to grab the strange fruit.",
 							constant = "CLICK_ON_LOOSE_SOIL_AND_THROW_IT_INTO_THE_TREE",
 							export = true,
@@ -2030,7 +2030,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 64.7, 42.8, TANAAN_JUNGLE },
 						["groups"] = {
 							i(127396,{	-- Strange Green Fruit
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After 14 days, the fruit will ripen into the toy.",
 									constant = "AFTER_14_DAYS_THE_FRUIT_WILL_RIPEN_INTO_THE_TOY",
 									export = true,
@@ -2077,7 +2077,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(128220) },	-- Grannok's Lidless Eye
 					}),
 					o(241522, {	-- The Perfect Blossom
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Eat |cFFFFD700Mysterious Fruit|r until you get the |cFFFFD700Pollen Protection|r buff.",
 							constant = "EAT_CFFFFD700MYSTERIOUS_FRUIT_R_UNTIL_YOU_GET",
 							export = true,
@@ -2261,7 +2261,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					n(95650, {	-- Skoller
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Talk to him and you will receive the toy.",
 							constant = "TALK_TO_HIM_AND_YOU_WILL_RECEIVE_THE_TOY",
 							export = true,
@@ -2334,7 +2334,7 @@ root(ROOTS.Zones, {
 						["groups"] = bubbleDownClassicRep(FACTION_THE_SABERSTALKERS, {
 							{		-- Neutral
 								i(124094, {	-- Major Blackfang Challenge Totem
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "\nUsed to summon Rendarr.\n\n",
 										constant = "USED_TO_SUMMON_RENDARR",
 										export = true,
@@ -2354,7 +2354,7 @@ root(ROOTS.Zones, {
 									}),
 								}),
 								i(124093, {	-- Minor Blackfang Challenge Totem
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "\nUsed to summon Akrrilo.\n\n",
 										constant = "USED_TO_SUMMON_AKRRILO",
 										export = true,
@@ -2374,7 +2374,7 @@ root(ROOTS.Zones, {
 									}),
 								}),
 								i(124095, {	-- Prime Blackfang Challenge Totem
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "\nUsed to summon Eyepiercer.\n\n",
 										constant = "USED_TO_SUMMON_EYEPIERCER",
 										export = true,
@@ -2436,7 +2436,7 @@ root(ROOTS.Zones, {
 						i(124559),	-- Baleful Choker
 						i(124556),	-- Baleful Spaulders (normal kill)
 						i(128348, {	-- Baleful Spaulders (CI!) (first kill)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|cfffd1818This token drops from your first Tanaan rare killed on any character. If you played during WoD and discarded the item before the introduction of the wardrobe, or if you recently sold the token itself without opening it, you will need to collect the appearance on a different character.\n\nYou CANNOT get these items from opening Baleful tokens purchased from the vendor.|r\n",
 								constant = "CFFFD1818THIS_TOKEN_DROPS_FROM_YOUR_FIRST",
 								export = true,

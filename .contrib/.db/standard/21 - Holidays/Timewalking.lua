@@ -91,7 +91,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
 	["groups"] = {
 		n(ACHIEVEMENTS, {
 			ach(19079, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7, REMOVED_10_2_0 } },{	-- Master of the Turbulent Timeways (automated!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Each week finish 4 dungeons with Distilled Knowledge of Timeways buff active, upon reaching 4 stacks the buff changes into Mastery of Timeways, completing that week's criteria.",
 					constant = "EACH_WEEK_FINISH_4_DUNGEONS_WITH_DISTILLED",
 					export = true,
@@ -294,7 +294,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
 		n(REWARDS, {
 			TimelyGoodieBag({	-- Timely Goodie Bag
 				-- TODO: probably nice to organize by armor/type & weapon since the drops are likely loot-spec-based
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available from the weekly Timewalking quest for characters below max level.",
 					constant = "AVAILABLE_FROM_THE_WEEKLY_TIMEWALKING_QUEST_FOR",
 					export = true,
@@ -386,7 +386,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 		}),
 		n(GROUP_FINDER, {
 			i(225348, {	-- Ancient Timewarped Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Classic Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_CLASSIC",
 					export = true,
@@ -1060,7 +1060,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 		n(GROUP_FINDER, {
 			i(187902, {	-- Sporebat Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'The Burning Crusade Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_THE_BURNING",
 					export = true,
@@ -1080,7 +1080,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 				}),
 			}),
 			i(129747, {	-- Swirling Timewarped Vial
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'The Burning Crusade Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_THE_BURNING",
 					export = true,
@@ -1117,7 +1117,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 				["isWeekly"] = true,
 				["groups"] = {
 					i(208091, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (BC)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This bag contains an item from Black Temple or an item from the WoW's 15th Birthday Event Bosses Archimonde, Kael'Thas or Lady Vashj.\nThe droprate for the mounts seems rather high (5-10%).",
 							constant = "THIS_BAG_CONTAINS_AN_ITEM_FROM_BLACK_TEMPLE_OR",
 							export = true,
@@ -2316,7 +2316,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 	expansion(EXPANSION.WRATH, {
 		n(GROUP_FINDER, {
 			i(129928, {	-- Frigid Timewarped Prism
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Wrath of the Lich King Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_WRATH_OF_THE",
 					export = true,
@@ -2337,7 +2337,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 			}),
 			i(187903, {	-- Jormungar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'Wrath of the Lich King Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_WRATH_OF_THE",
 					export = true,
@@ -2375,7 +2375,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 				["groups"] = {
 					i(157030),	-- Titan Prison Fragment (QI!)
 					i(208094, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (WOTLK)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This bag contains an item from Ulduar or an item from the WoW's 15th Birthday Event Bosses Anub, Lich King or Heigan.\nThe droprate for the mounts seems rather high (5-10%).",
 							constant = "THIS_BAG_CONTAINS_AN_ITEM_FROM_ULDUAR_OR_AN",
 							export = true,
@@ -3915,7 +3915,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 		n(GROUP_FINDER, {
 			i(185053, {	-- Kodo Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'Cataclysm Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_CATACLYSM",
 					export = true,
@@ -3935,7 +3935,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 				}),
 			}),
 			a(i(133378, {	-- Smoldering Timewarped Ember [A] (QS!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Cataclysm Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_CATACLYSM",
 					export = true,
@@ -3982,7 +3982,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 				["groups"] = {
 					i(172506),	-- Time-Locked Cinder (QI!)
 					i(208095, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (Cata)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This bag contains an item from Firelands or an item from the WoW's 15th Birthday Event Bosses Cho'gall or Nefarian.\nThe droprate for the mounts seems rather high (5-10%).",
 							constant = "THIS_BAG_CONTAINS_AN_ITEM_FROM_FIRELANDS_OR_AN",
 							export = true,
@@ -4462,7 +4462,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 						i(171654),	-- Alysrazor's Band
 						i(171645),	-- Eye of Blazing Power
 						i(199099, {	-- Glittering Phoenix Ember
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Guaranteed drop.",
 								constant = "GUARANTEED_DROP",
 								export = true,
@@ -5008,7 +5008,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		n(GROUP_FINDER, {
 			i(187904, {	-- Cloud Serpent Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'Mists of Pandaria Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_MISTS_OF",
 					export = true,
@@ -5028,7 +5028,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 				}),
 			}),
 			i(143776, {	-- Shrouded Timewarped Coin
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Mists of Pandaria Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_MISTS_OF",
 					export = true,
@@ -5457,7 +5457,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 				}},
 			}),
 			n(59369, {	-- Doctor Theolen Krastinov
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a Rare Creature and is not always present.",
 					constant = "THIS_IS_A_RARE_CREATURE_AND_IS_NOT_ALWAYS",
 					export = true,
@@ -5717,7 +5717,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 	expansion(EXPANSION.WOD, {
 		n(GROUP_FINDER, {
 			i(210062, {	-- Ironbound Satchel of Helpful Goods // Draenor TW Daily Reward
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded for completing any 'Warlords of Draenor Timewalking' dungeon.\nAvailable once per day.",
 					constant = "REWARDED_FOR_COMPLETING_ANY_WARLORDS_OF_DRAENOR",
 					export = true,
@@ -5740,7 +5740,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 			}),
 			i(187905, {	-- Boar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'Warlords of Draenor Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_WARLORDS_OF",
 					export = true,
@@ -5760,7 +5760,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 				}),
 			}),
 			i(167921, {	-- Shimmering Timewarped Crystal (A)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Warlords of Draenor Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_WARLORDS_OF",
 					export = true,
@@ -6408,7 +6408,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 	expansion(EXPANSION.LEGION, {
 		n(GROUP_FINDER, {
 			i(210063, {	-- Invader's Satchel of Helpful Goods // Legion TW Daily Reward
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded for completing any 'Legion Timewalking' dungeon.\nAvailable once per day.",
 					constant = "REWARDED_FOR_COMPLETING_ANY_LEGION_TIMEWALKING",
 					export = true,
@@ -6468,7 +6468,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 				},
 			}),
 			i(187906, {	-- Owl Serpent Soul (SS!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from the last boss of any 'Legion Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 					constant = "CAN_DROP_FROM_THE_LAST_BOSS_OF_ANY_LEGION",
 					export = true,
@@ -6488,7 +6488,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 				}),
 			}),
 			i(187611, {	-- Whispering Felflame Crystal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Legion Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_LEGION",
 					export = true,
@@ -7209,7 +7209,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 	expansion(EXPANSION.BFA, {
 		n(GROUP_FINDER, {
 			i(238790, {	-- Remnant of Azeroth (A)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Battle for Azeroth Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_BATTLE_FOR",
 					export = true,
@@ -7910,7 +7910,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_SHADOWL
 	expansion(EXPANSION.SL, {
 		n(GROUP_FINDER, {
 			i(253517, {	-- The Flickering Anima (QS!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Shadowlands Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_SHADOWLANDS",
 					export = true,
@@ -8477,7 +8477,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_DRAGONF
 	expansion(EXPANSION.DF, {
 		n(GROUP_FINDER, {
 			i(262918, {	-- Lost Iridescent Flightstone (QS!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from the last boss of any 'Dragonflight Timewalking' dungeon.",
 					constant = "DROPS_FROM_THE_LAST_BOSS_OF_ANY_DRAGONFLIGHT",
 					export = true,

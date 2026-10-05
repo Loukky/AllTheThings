@@ -4,7 +4,7 @@
 root(ROOTS.WorldDrops, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	filter(MISC, {
 		i(158932, {	-- Secretest Fish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found in any Shadowlands zone when wearing the googles.",
 				constant = "CAN_BE_FOUND_IN_ANY_SHADOWLANDS_ZONE_WHEN",
 				export = true,

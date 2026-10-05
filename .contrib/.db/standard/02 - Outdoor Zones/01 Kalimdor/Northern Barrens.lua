@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(474, {	-- Cheetah Cub (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found under large trees alongside Plainsland Cheetahs.",
 							constant = "CAN_BE_FOUND_UNDER_LARGE_TREES_ALONGSIDE",
 							export = true,
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(1157, {	-- Harpy Youngling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found at The Dry Hills, alongside Witchwing Harpies.",
 							constant = "CAN_BE_FOUND_AT_THE_DRY_HILLS_ALONGSIDE",
 							export = true,
@@ -189,7 +189,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				n(66135, {	-- Dagra the Fierce <Master Pet Tamer>
 					["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nDagra's pets are level 3 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_DAGRA_S_PETS_ARE",
 						export = true,
@@ -1351,7 +1351,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(26701, {	-- Flight to Brackenwall
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only available for characters who haven't started questing in Dustwallow Marsh, and requires the completion of the breadcrumb quest 'The Call of Kalimdor'. Said quest can be obtained from an ogre swimming in a circle near the pier at Booty Bay in The Cape of Stranglethorn.",
 						constant = "THIS_QUEST_IS_ONLY_AVAILABLE_FOR_CHARACTERS_WHO",
 						export = true,
@@ -1378,7 +1378,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 35,
 				}),
 				q(26702, {	-- Flight to Theramore
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only available for characters who haven't started questing in Dustwallow Marsh, and requires the completion of the breadcrumb quest 'The Call of Kalimdor'. Said quest can be obtained from Corporal Jeyne on the pier at Booty Bay in The Cape of Stranglethorn.",
 						constant = "THIS_QUEST_IS_ONLY_AVAILABLE_FOR_CHARACTERS_WHO_2",
 						export = true,
@@ -4148,7 +4148,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14068, {	-- Waptor Twapping
 					-- #if AFTER 9.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is a stand-alone quest involving level 30 raptors and have nothing to do with the level 35 Kor'kron soldiers around the zone. The level 35 soldiers got added with patch 5.3.0 as part of the late MoP storyline.",
 						constant = "THIS_QUEST_IS_A_STAND_ALONE_QUEST_INVOLVING",
 						export = true,
@@ -4949,7 +4949,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				i(5020, {	-- Kolkar Booty Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Used to open Kolkar's Booty.",
 						constant = "USED_TO_OPEN_KOLKAR_S_BOOTY",
 						export = true,
@@ -4992,7 +4992,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				i(6663, {	-- Recipe: Elixir of Giant Growth (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any creature in the Barrens.",
 						constant = "CAN_DROP_FROM_ANY_CREATURE_IN_THE_BARRENS",
 						export = true,

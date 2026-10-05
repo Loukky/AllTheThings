@@ -30,7 +30,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			i(240691),	-- Nar'thalas Graduate's Sabatons
 		}),
 		n(REWARDS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items are equipped on your character or in the box you get when you make a new character during Legion Remix.",
 				constant = "THESE_ITEMS_ARE_EQUIPPED_ON_YOUR_CHARACTER_OR",
 				export = true,

@@ -183,7 +183,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 85.1, 22.5, OHNAHRAN_PLAINS },
 				}),
 				crit(55321, {	-- Ellam
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available while the Daily Quest Counting Argali(66698) is up.",
 						constant = "ONLY_AVAILABLE_WHILE_THE_DAILY_QUEST_COUNTING",
 						export = true,
@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 83.9, 25.9, OHNAHRAN_PLAINS },
 				}),
 				crit(55327, {	-- Hugo
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available where camp is at.",
 						constant = "ONLY_AVAILABLE_WHERE_CAMP_IS_AT",
 						export = true,
@@ -257,7 +257,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				crit(55347, {	-- Soyoo
 					["crs"] = { 197514 },	-- Soyoo
 					["coord"] = { 71.6, 49.7, OHNAHRAN_PLAINS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This good bakar won't show up until you start |cffffff00The Trouble with Taivan|r.",
 						constant = "THIS_GOOD_BAKAR_WON_T_SHOW_UP_UNTIL_YOU_START",
 						export = true,
@@ -279,7 +279,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				crit(55325, {	-- Taivan
 					["crs"] = { 197518 },	-- Taivan
 					["coord"] = { 61.8, 38.7, OHNAHRAN_PLAINS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This good (large) bakar will be unavailable to pet until completing |cffffff00Taivan's Purpose|r.",
 						constant = "THIS_GOOD_LARGE_BAKAR_WILL_BE_UNAVAILABLE_TO",
 						export = true,

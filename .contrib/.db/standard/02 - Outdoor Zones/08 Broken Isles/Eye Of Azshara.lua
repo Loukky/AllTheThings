@@ -5,7 +5,7 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(EYE_OF_AZSHARA, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Eye of Azshara is zone south of Dalaran in the Broken Isles. It is an elite zone that is a replica of the dungeon of the same name. A flight master can be found here, you need to unlock it by visiting the flight point.",
 				constant = "THE_EYE_OF_AZSHARA_IS_ZONE_SOUTH_OF_DALARAN_IN",
 				export = true,

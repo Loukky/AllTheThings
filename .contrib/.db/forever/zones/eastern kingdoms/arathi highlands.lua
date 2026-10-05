@@ -181,7 +181,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ARATHI_HIGHLANDS, {
 				},
 			}),
 			q(635, {	-- Crystal in the Mountains
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you miss out on picking up the necklace first, you can still complete this quest even after finishing the rest of the chain.",
 					constant = "IF_YOU_MISS_OUT_ON_PICKING_UP_THE_NECKLACE",
 					export = true,
@@ -761,7 +761,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ARATHI_HIGHLANDS, {
 				},
 			}),
 			q(6622, {	-- Triage (H)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Needs a minimum of 225 skill in First Aid.",
 					constant = "NEEDS_A_MINIMUM_OF_225_SKILL_IN_FIRST_AID",
 					export = true,
@@ -992,7 +992,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ARATHI_HIGHLANDS, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(13288, {	-- Pattern: Raptor Hide Belt (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Horde Players Beware: even if you buy this item off the Auction House, it is currently unlearnable. Only Alliance players are able to properly learn this pattern. Fire up your bug reports.",
 							constant = "HORDE_PLAYERS_BEWARE_EVEN_IF_YOU_BUY_THIS_ITEM",
 							export = true,
@@ -1125,7 +1125,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ARATHI_HIGHLANDS, {
 			}),
 			i(5624, {	-- Circlet of the Order
 				["cr"] = 2584,	-- Stromgarde Defender
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item.",
 					constant = "THIS_ITEM_IS_ONLY_NATURALLY_ACCESSIBLE_TO_HORDE",
 					export = true,

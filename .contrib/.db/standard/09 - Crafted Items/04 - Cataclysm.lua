@@ -92,7 +92,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(58145),	-- Potion of the Tol'vir
 			i(58488, {	-- Potion of Treasure Finding
 				-- #if AFTER 6.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Treasures from Cataclysm dungeons have been nerfed. Still viable farming mobs in raids and the open world.",
 					constant = "TREASURES_FROM_CATACLYSM_DUNGEONS_HAVE_BEEN",
 					export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(51950),	-- Pyrium Bar
 			i(52303),	-- Shadowspirit Diamond
 			i(58480, {	-- Truegold
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Crafted through Transmutation.",
 					constant = "CRAFTED_THROUGH_TRANSMUTATION",
 					export = true,
@@ -340,7 +340,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ 79.37, 78.53, TWILIGHT_HIGHLANDS },	-- Highbank
 				{ 50.21, 38.36, ULDUM },	-- Mar'at
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Coordinates are for select vendors.",
 				constant = "COORDINATES_ARE_FOR_SELECT_VENDORS",
 				export = true,
@@ -372,7 +372,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		i(62670),	-- Beer-Basted Crocolisk
 		i(62668),	-- Blackbelly Sushi
 		i(62676),	-- Blackened Surprise
-		i(62289, {createLocalizationString({
+		i(62289, {["description"] = createLocalizationString({
 			readable = "This recipe is rewarded from the Guild Cooking achievement 'Set the Oven to Cataclysmic'.",
 			constant = "THIS_RECIPE_IS_REWARDED_FROM_THE_GUILD_COOKING",
 			export = true,
@@ -409,7 +409,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		i(62660),	-- Pickled Guppy
 		i(62653),	-- Salted Eye
 		i(68687, {["timeline"] = {ADDED_4_0_6}}),	-- Scalding Murglesnout
-		i(62290, {createLocalizationString({
+		i(62290, {["description"] = createLocalizationString({
 			readable = "This recipe is rewarded from the Guild Fishing achievement 'That's a Lot of Bait'.",
 			constant = "THIS_RECIPE_IS_REWARDED_FROM_THE_GUILD_FISHING",
 			export = true,
@@ -441,7 +441,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			-- Dust:
 			i(52555, {	-- Hypnotic Dust
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality Cataclysm gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_24",
 					export = true,
@@ -460,7 +460,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality Cataclysm garments, amulets, rings, shields and off-hand frills within the ilvl bracket 272-312.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_25",
 					export = true,
@@ -485,7 +485,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				-- #if AFTER 9.0.1
 				["description"] = "~L.OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_24",
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality Cataclysm weapons within the ilvl bracket 306-318, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_26",
 					export = true,
@@ -509,7 +509,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				-- #if AFTER 9.0.1
 				["description"] = "~L.OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_24",
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality Cataclysm weapons within the ilvl bracket 272-305, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_27",
 					export = true,
@@ -532,7 +532,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			-- Shards and crystals:
 			i(52721, {	-- Heavenly Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting rare (blue) quality Cataclysm gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_RARE_BLUE_QUALITY",
 					export = true,
@@ -551,7 +551,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality Cataclysm gear within the ilvl bracket 318-346.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_13",
 					export = true,
@@ -573,7 +573,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			}),
 			i(52722, {	-- Maelstrom Crystal
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality Cataclysm gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_6",
 					export = true,
@@ -592,7 +592,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality Cataclysm gear within the ilvl bracket 353-410.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_7",
 					export = true,
@@ -616,7 +616,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				-- #if AFTER 9.0.1
 				["description"] = "~L.OBTAINED_FROM_DISENCHANTING_RARE_BLUE_QUALITY",
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality Cataclysm gear within the ilvl bracket 288-316.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_14",
 					export = true,
@@ -827,7 +827,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ 76.8, 41.9, DEEPHOLM },	-- Crimson Expanse
 				{ 27.2, 34.8, DEEPHOLM },	-- Needlerock Chasm
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Schools can also spawn in the cavern beneath Upper Silvermarsh, with entrance from Lower Silvermarsh.",
 				constant = "SCHOOLS_CAN_ALSO_SPAWN_IN_THE_CAVERN_BENEATH",
 				export = true,
@@ -850,7 +850,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		i(53071, {	-- Algaefin Rockfish
 			-- Danny Donkey: Wowhead comments indicates that these possibly had dedicated schools before 4.3.0.
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught on the seaside, though might be more uncommon than other saltwater fish.",
 				constant = "CAN_BE_CAUGHT_ON_THE_SEASIDE_THOUGH_MIGHT_BE",
 				export = true,
@@ -879,7 +879,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			-- #endif
 		}),
 		i(53066, {	-- Blackbelly Mudfish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Schools can be found in inland waterways.",
 				constant = "SCHOOLS_CAN_BE_FOUND_IN_INLAND_WATERWAYS",
 				export = true,
@@ -940,7 +940,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			["provider"] = { "o", 202777 },	-- Highland Guppy School
 		}),
 		i(53068, {	-- Lavascale Catfish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in inland waterways.",
 				constant = "CAN_BE_CAUGHT_IN_INLAND_WATERWAYS",
 				export = true,
@@ -1084,7 +1084,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ 76.8, 41.9, DEEPHOLM },	-- Crimson Expanse
 				{ 27.2, 34.8, DEEPHOLM },	-- Needlerock Chasm
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can also spawn in the cavern beneath Upper Silvermarsh, with entrance from Lower Silvermarsh.",
 				constant = "CAN_ALSO_SPAWN_IN_THE_CAVERN_BENEATH_UPPER",
 				export = true,
@@ -1104,7 +1104,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			}),
 		}),
 		o(202781, {	-- Algaefin Rockfish School
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Please let us in the ATT-discord know if this school appears in any iterations of the game.",
 				constant = "PLEASE_LET_US_IN_THE_ATT_DISCORD_KNOW_IF_THIS",
 				export = true,
@@ -1126,7 +1126,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			["timeline"] = { REMOVED_4_3_0 },
 		}),
 		o(202779, {	-- Blackbelly Mudfish School
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found in inland waterways.",
 				constant = "CAN_BE_FOUND_IN_INLAND_WATERWAYS",
 				export = true,
@@ -1194,7 +1194,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		header(HEADERS.Spell, 2366, appendAllGroups(sharedData({ ["requireSkill"] = HERBALISM, }, {	-- Herb Gathering
 			-- Nodes:
 			o(202749, {	-- Azshara's Veil
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found near and in waters.",
 					constant = "CAN_BE_FOUND_NEAR_AND_IN_WATERS",
 					export = true,
@@ -1224,7 +1224,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				},
 			}),
 			o(202747, {	-- Cinderbloom
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mount Hyjal is the better place to look for these.",
 					constant = "MOUNT_HYJAL_IS_THE_BETTER_PLACE_TO_LOOK_FOR",
 					export = true,
@@ -1267,7 +1267,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					{ 50.4, 35.4, VASHJIR_SHIMMERING_EXPANSE },	-- Silver Tide Trench, beneath
 					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found near the base of vegetation and structures.",
 					constant = "CAN_BE_FOUND_NEAR_THE_BASE_OF_VEGETATION_AND",
 					export = true,
@@ -1470,7 +1470,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		-- Non-reagent crafts:
 		i(62237, {	-- Adventurer's Journal
 			-- #if CATA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Using this item will provide you with a temporary 1-hour buff. This buff is random, and only applies if you are below level 85.\n\nLearning by Example - Quest experience increased by 10%.\nThe Great Hunt - Damage against beasts increased by 15%\nTerrain Expert - Movement speed increased by %15. This does not stack with other movement speed increasing effects.\nLiving Forever - Chance to heal yourself when dealing damage to an enemy.\nDeadly Drive - Damage against humanoids increased by 15%.\nDragonsbane - Damage against Dragonkin increased by 15%.\nMechanical Aptitude - Damage against Mechanicals increased by 15%.\nKneecapper - Damage against Giants increased by 15%.\nFire and Water - Damage against Elementals increased by 15%.\n28 Chapters Later - Damage against Undead increased by 15%.",
 				constant = "USING_THIS_ITEM_WILL_PROVIDE_YOU_WITH_A",
 				export = true,
@@ -1730,7 +1730,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				["timeline"] = { ADDED_4_3_0 },
 				-- #if BEFORE SL
 				["collectible"] = false,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Keep this somewhere until the appearance can be learned in Shadowlands.",
 					constant = "KEEP_THIS_SOMEWHERE_UNTIL_THE_APPEARANCE_CAN_BE",
 					export = true,

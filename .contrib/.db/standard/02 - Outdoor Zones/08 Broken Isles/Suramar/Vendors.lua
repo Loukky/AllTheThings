@@ -472,7 +472,7 @@ root(ROOTS.Zones, {
 				}),
 				n(109562, {	-- Sundries Merchant
 					["coord"] = { 50.0, 77.3, SURAMAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must complete the Suramar quest chain starting with |cffffff00Magic Message|r up to completing |cffffff00Masquerade|r in order to interact with this merchant.",
 						constant = "YOU_MUST_COMPLETE_THE_SURAMAR_QUEST_CHAIN",
 						export = true,

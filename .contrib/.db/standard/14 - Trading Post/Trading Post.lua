@@ -1183,7 +1183,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(75, i(230044)),	-- Prowler's Pink Shoulder Cape
 				i(190855, {	-- Rosy Corsage
 					-- #if BEFORE 11.1.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is also sold at the discount vendor, no reason to buy it from the main trading post offering.",
 						constant = "THIS_IS_ALSO_SOLD_AT_THE_DISCOUNT_VENDOR_NO",
 						export = true,
@@ -1538,7 +1538,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 			n(FILLED_TRAVELERS_LOG, {
 				i(242522, {	-- Forsaken's Grotesque Cauldron
 					-- #if BEFORE 11.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded when reaching 600 points in the Travelers Log.",
 						constant = "REWARDED_WHEN_REACHING_600_POINTS_IN_THE",
 						export = true,
@@ -1560,7 +1560,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				}),
 				iensemble(244225, {	-- Ensemble: Forsaken's Grotesque Collection
 					-- #if BEFORE 11.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded when reaching 1000 points in the Travelers Log.",
 						constant = "REWARDED_WHEN_REACHING_1000_POINTS_IN_THE",
 						export = true,
@@ -1582,7 +1582,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				}),
 				i(243594, {	-- Forsaken's Grotesque Charger (MOUNT!)
 					-- #if BEFORE 11.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded when reaching 1400 points in the Travelers Log.",
 						constant = "REWARDED_WHEN_REACHING_1400_POINTS_IN_THE",
 						export = true,
@@ -2139,7 +2139,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 							traderstender(275, i(213106)),	-- Gladiator's Battered Greatsword
 							traderstender(275, i(213107, {	-- Gladiator's Ragged Greatsword // Previously NYI
 								-- #if BEFORE 12.0.1
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item is not a returning item, it has never actually been available before.",
 									constant = "THIS_ITEM_IS_NOT_A_RETURNING_ITEM_IT_HAS_NEVER",
 									export = true,

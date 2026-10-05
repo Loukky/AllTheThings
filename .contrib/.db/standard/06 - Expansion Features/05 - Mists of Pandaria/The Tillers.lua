@@ -26,7 +26,7 @@ local HARVESTING = createHeader({
 
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_THE_TILLERS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Tillers are a group of pandaren farmers who harvest and produce crops to feed their people. They were seemingly founded by a man only referred to as \"the Tiller\".",
 			constant = "THE_TILLERS_ARE_A_GROUP_OF_PANDAREN_FARMERS_WHO",
 			export = true,
@@ -197,7 +197,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						ach(7293),	-- Till the Break of Dawn (Halfhill)
 					}),
 					n(66175, {	-- Autumn Blossom Tree
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Each tree is a one-time use vanity item that lasts three minutes.",
 							constant = "EACH_TREE_IS_A_ONE_TIME_USE_VANITY_ITEM_THAT",
 							export = true,
@@ -219,7 +219,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						["cr"] = 66172,	-- Autumn Blossom Sapling
 					}),
 					n(65916, {	-- Growing Enigma Seed
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Enigma Seeds will result in a Fool's Cap, Green Tea Leaf, Rain Poppy, Silkweed, Snow Lily or a Golden Lotus being grown in the plot. As with herbing, Golden Lotus will result in only 1 received, while the rest 2-4 will be received. Unlike gathering them in the wild, however, Golden Lotuses harvested from an Enigma Seed will not give the [Luck of the Lotus] buff.",
 							constant = "ENIGMA_SEEDS_WILL_RESULT_IN_A_FOOL_S_CAP_GREEN",
 							export = true,
@@ -268,7 +268,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						},
 					}),
 					i(85219, {	-- Ominous Seed
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This seed is acquired by harvesting crops at Sunsong Ranch, albeit very rarely.",
 							constant = "THIS_SEED_IS_ACQUIRED_BY_HARVESTING_CROPS_AT",
 							export = true,
@@ -300,7 +300,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						-- #if BEFORE 5.5.3
 						["description"] = "~L.THIS_IS_NOT_SUPPOSED_TO_BE_IN_THE_GAME_UNTIL",
 						-- #elseif BEFORE LEGION
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can only be harvested along with normal crops or Portal Shard crops.",
 							constant = "CAN_ONLY_BE_HARVESTED_ALONG_WITH_NORMAL_CROPS",
 							export = true,
@@ -368,7 +368,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						},
 					}),
 					n(66043, {	-- Songbell
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is the without a doubt the most efficient way to farm motes as a solo player every day. The rest of the seeds are trash in comparison.",
 							constant = "THIS_IS_THE_WITHOUT_A_DOUBT_THE_MOST_EFFICIENT",
 							export = true,
@@ -523,7 +523,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			}),
 			n(MAILBOX, {
 				i(85497, {	-- Chirping Package
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once you hit Best Friend with Sho you receive this in the mail.",
 						constant = "ONCE_YOU_HIT_BEST_FRIEND_WITH_SHO_YOU_RECEIVE",
 						export = true,
@@ -547,7 +547,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				i(90042, {	-- Straw Hat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once you hit Best Friend with Old Hillpaw you receive this in the mail.",
 						constant = "ONCE_YOU_HIT_BEST_FRIEND_WITH_OLD_HILLPAW_YOU",
 						export = true,
@@ -570,7 +570,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			}),
 			n(QUESTS, {
 				q(31937, {	-- "Thunder King" Pest Repellers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You never have to loot a Vintage Bug Sprayer ever again!",
 						constant = "YOU_NEVER_HAVE_TO_LOOT_A_VINTAGE_BUG_SPRAYER",
 						export = true,
@@ -629,7 +629,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(30534, {	-- A Second Hand
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Also requires reputation level of \"Best Friends\" with whomever you want assisting you on the farm.",
 						constant = "ALSO_REQUIRES_REPUTATION_LEVEL_OF_BEST_FRIENDS",
 						export = true,
@@ -669,7 +669,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				applyclassicphase(MOP_PHASE_LANDFALL, q(32189, {	-- A Shabby New Face
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available on days that Barnaby Fletcher is visiting the Market.",
 						constant = "ONLY_AVAILABLE_ON_DAYS_THAT_BARNABY_FLETCHER_IS",
 						export = true,
@@ -935,7 +935,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["minReputation"] = { FACTION_THE_TILLERS, REVERED },
 				}),
 				q(30529, {	-- Growing the Farm III: The Mossy Boulder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must have all Tillers votes collected to start this quest.",
 						constant = "MUST_HAVE_ALL_TILLERS_VOTES_COLLECTED_TO_START",
 						export = true,
@@ -1046,7 +1046,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(32682, {	-- Inherit the Earth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must also have a fully unlocked farm.",
 						constant = "MUST_ALSO_HAVE_A_FULLY_UNLOCKED_FARM",
 						export = true,
@@ -1384,7 +1384,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					["groups"] = {
 						i(86428, {	-- Old Man Thistle's Treasure
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains a number of Pandarian rare quality Gems.",
 								constant = "CONTAINS_A_NUMBER_OF_PANDARIAN_RARE_QUALITY",
 								export = true,
@@ -1406,7 +1406,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				applyclassicphase(MOP_PHASE_LANDFALL, q(32198, {	-- One Magical, Flying Kingdom's Trash...
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available only on days where Barnaby Fletcher is in Halfhill.",
 						constant = "AVAILABLE_ONLY_ON_DAYS_WHERE_BARNABY_FLETCHER",
 						export = true,
@@ -1438,7 +1438,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 53.2, 51.8, VALLEY_OF_THE_FOUR_WINDS },
 				}),
 				q(31936, {	-- The "Jinyu Princess" Irrigation System
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You never have to loot a Rusty Watering Can ever again!",
 						constant = "YOU_NEVER_HAVE_TO_LOOT_A_RUSTY_WATERING_CAN",
 						export = true,
@@ -1511,7 +1511,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(31312, {	-- The Old Map
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires a reputation level of Exalted with The Tillers and Best Friend with all Halfhill farmers to drop.",
 						constant = "REQUIRES_A_REPUTATION_LEVEL_OF_EXALTED_WITH_THE",
 						export = true,
@@ -1756,7 +1756,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				["isDaily"] = true,
 			}, {
 				q(30402, {	-- A Dish for Chee Chee
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest becomes available when you have the food in your inventory.",
 						constant = "THIS_QUEST_BECOMES_AVAILABLE_WHEN_YOU_HAVE_THE",
 						export = true,
@@ -2785,7 +2785,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			})),
 			n(TREASURES, {
 				o(210565, {	-- Dark Soil
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found all around Pandaria.",
 						constant = "CAN_BE_FOUND_ALL_AROUND_PANDARIA",
 						export = true,
@@ -2829,7 +2829,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				o(215719, {	-- Dented Shovel
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can use this to uproot planted crops that you don't want, such as for the daily that Yoon gives you to plant more Songbells instead!",
 						constant = "YOU_CAN_USE_THIS_TO_UPROOT_PLANTED_CROPS_THAT",
 						export = true,
@@ -2850,7 +2850,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["coord"] = { 52.0, 48.3, VALLEY_OF_THE_FOUR_WINDS },
 					["groups"] = {
 						i(89880, {	-- Dented Shovel
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You don't need to keep this in your bags.",
 								constant = "YOU_DON_T_NEED_TO_KEEP_THIS_IN_YOUR_BAGS",
 								export = true,

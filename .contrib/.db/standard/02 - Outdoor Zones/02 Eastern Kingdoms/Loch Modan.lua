@@ -762,7 +762,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(297, {	-- Gathering Idols
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Gathering Idols' (26961).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_11",
 						export = true,
@@ -1520,7 +1520,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(271, {	-- Vyrin's Revenge (1/2)
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Vyrin's Revenge (1/2)' (27036).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_12",
 						export = true,
@@ -1968,7 +1968,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(205932, {	-- Prophecy of a King's Demise
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "/kneel at the statue for the rune.",
 						constant = "KNEEL_AT_THE_STATUE_FOR_THE_RUNE",
 						export = true,
@@ -2007,7 +2007,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208687, {	-- Rune of Lacerate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Rainbow Fin Albacore Chum on a young threshadon to receive this rune.",
 						constant = "USE_RAINBOW_FIN_ALBACORE_CHUM_ON_A_YOUNG",
 						export = true,
@@ -2512,7 +2512,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208741, {	-- Rune of Endless Rage
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can challenge him to a duel (as to not fight his adds) with a Battle Totem.",
 						constant = "YOU_CAN_CHALLENGE_HIM_TO_A_DUEL_AS_TO_NOT_FIGHT",
 						export = true,
@@ -2564,7 +2564,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["groups"] = {
 						i(208778, {	-- Rune of Quick Strike
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the Skull-Shaped Geode on a Skullthumper to crack it and find this rune within.",
 								constant = "USE_THE_SKULL_SHAPED_GEODE_ON_A_SKULLTHUMPER_TO",
 								export = true,

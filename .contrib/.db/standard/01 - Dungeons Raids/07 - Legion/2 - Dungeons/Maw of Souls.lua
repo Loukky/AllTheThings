@@ -155,7 +155,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				}),
 				Boss(HARBARON, {
 					ach(10411, {	-- Helheim Hath No Fury
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a speed-run style achievement. You must get to and kill Harbaron in under 3 minutes and 30 seconds.",
 							constant = "THIS_IS_A_SPEED_RUN_STYLE_ACHIEVEMENT_YOU_MUST",
 							export = true,

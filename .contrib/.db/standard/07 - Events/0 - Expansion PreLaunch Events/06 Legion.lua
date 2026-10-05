@@ -19,7 +19,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				}),
 			}),
 			n(MAILBOX, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These items came automatically in the mail box (sometimes even pre-equipped), once the pre-expansion patch launched due to class & ability changes.",
 					constant = "THESE_ITEMS_CAME_AUTOMATICALLY_IN_THE_MAIL_BOX",
 					export = true,
@@ -39,7 +39,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				}),
 				["groups"] = {
 					i(140694, {	-- Brewmasher's Staff
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Given to Monks.",
 							constant = "GIVEN_TO_MONKS",
 							export = true,
@@ -59,7 +59,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 						}),
 					}),
 					i(140715, {	-- Frost-Etched Runeblade
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Given to Death Knights.",
 							constant = "GIVEN_TO_DEATH_KNIGHTS",
 							export = true,
@@ -80,7 +80,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					}),
 					i(140716, {	-- Guardian's Oaken Spear
 						["modID"] = 1,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Given to Druids.",
 							constant = "GIVEN_TO_DRUIDS",
 							export = true,
@@ -112,7 +112,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 						["description"] = "~L.GIVEN_TO_DRUIDS",
 					}),
 					i(140712, {	-- Greataxe of Fury
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Given to Warriors.",
 							constant = "GIVEN_TO_WARRIORS",
 							export = true,
@@ -149,7 +149,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					}),
 					i(140718, {	-- Survivalist's Hunting Spear
 						["modID"] = 1,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Given to Hunters.",
 							constant = "GIVEN_TO_HUNTERS",
 							export = true,
@@ -267,7 +267,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				q(43242, { ["isRepeatable"] = true, }),	-- Demon Commander (Westfall)
 				q(44184, {	-- In the Blink of an Eye
 					-- #if AFTER SL
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is available to players choosing the Legion Timeline during Chromie Time.",
 						constant = "THIS_IS_AVAILABLE_TO_PLAYERS_CHOOSING_THE",
 						export = true,
@@ -331,7 +331,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			}),
 			n(RARES, {
 				n(112527, {	-- Doomsayer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Toy, Pocket Fel Spreader is available EXCLUSIVELY during the Legion pre-expansion event. It is obtained by using any ability or item that allows you to detect demons, and then speaking to a Doomsayer. \nWhen using any such ability or item, the Doomsayer will sometimes have the dialogue option \"There's something not quite right about you...\". Selecting this option, when visible, will change the Doomsayer into a Dread Infiltrator, which can be killed and looted to obtain this Toy. Note that the Toy is NOT a guaranteed drop, but has a roughly 25% drop rate.",
 						constant = "THIS_TOY_POCKET_FEL_SPREADER_IS_AVAILABLE",
 						export = true,
@@ -354,7 +354,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					},
 				}),
 				n(112198, {	-- Doomsayer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Toy, Pocket Fel Spreader is available EXCLUSIVELY during the Legion pre-expansion event. It is obtained by using any ability or item that allows you to detect demons, and then speaking to a Doomsayer. \nWhen using any such ability or item, the Doomsayer will sometimes have the dialogue option \"There's something not quite right about you...\". Selecting this option, when visible, will change the Doomsayer into a Dread Infiltrator, which can be killed and looted to obtain this Toy. Note that the Toy is NOT a guaranteed drop, but has a roughly 25% drop rate.\n",
 						constant = "THIS_TOY_POCKET_FEL_SPREADER_IS_AVAILABLE_2",
 						export = true,
@@ -405,7 +405,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			}),
 			n(ZONE_DROPS, {
 				n(112315, {	-- Dread Infiltrator
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Players with some sort of Sense Demons ability could get this mob to spawn from Doomsayers.",
 						constant = "PLAYERS_WITH_SOME_SORT_OF_SENSE_DEMONS_ABILITY",
 						export = true,

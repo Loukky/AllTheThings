@@ -454,7 +454,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				}),
 			}),
 			o(456208, {	-- The Catalyst
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This allows converting certain pieces of gear into Tier items for your Class.\n\nMake sure to equip your item first before converting it.",
 					constant = "THIS_ALLOWS_CONVERTING_CERTAIN_PIECES_OF_GEAR",
 					export = true,

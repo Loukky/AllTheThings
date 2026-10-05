@@ -115,7 +115,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				i(201921, {	-- Dragonscale Expedition Insignia [Epic 500]
 					["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 25 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is only awarded if your character is currently max Renown with this reputation.",
 						constant = "THIS_IS_ONLY_AWARDED_IF_YOUR_CHARACTER_IS",
 						export = true,

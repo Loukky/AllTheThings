@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 52807,	-- Buried Treasure Chest
 				["sourceQuest"] = 52853,	-- Soggy Treasure Map
 				["coord"] = { 55.01, 46.01, TIRAGARDE_SOUND },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the bottom of the ocean.",
 					constant = "AT_THE_BOTTOM_OF_THE_OCEAN",
 					export = true,

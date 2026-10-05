@@ -20,7 +20,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			-- i(209868),	-- Thornspeaker Ritual Knife need to be used on Astera (crs: 210988, 210989, 210990) @ 36.0, 61.0, EMERALD_DREAM to summon tammable beast
 			--
 			header(HEADERS.Item, 210961, bubbleDownSelf({ ["classes"] = { DEMONHUNTER }}, {	-- Alara'shinu
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Follow coords attached to steps to obtain warglaive.",
 					constant = "FOLLOW_COORDS_ATTACHED_TO_STEPS_TO_OBTAIN",
 					export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			})),
 			header(HEADERS.Item, 210535, {	-- Mark of the Slumbering Somnowl
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is crafted using Somnowl Feather Strand and a Quality 3 Runed Writhebark.\n\nTo create the Somnowl Feather Strand, you will need to collect 5 x Soft Somnowl Feathers and bind them together using a Silken Thread (Auction House Vendor Item).\n\nTo collect the Soft Somnowl Feathers you will need to find Somnowls in the Emerald Dream sub-zone and cast Hibernate on them.\nOnce they are sleeping you can click on them to channel a short cast of Carefully Pilfering Feathers to pluck a feather.\nAfter you gather a feather, the Somnowl will get the debuff Recently Plucked, which prevents you from plucking the same Somnowl again within the next 5 minutes.",
 					constant = "THIS_IS_CRAFTED_USING_SOMNOWL_FEATHER_STRAND",
 					export = true,
@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					},
 				}),
 				i(210880, {	-- Filled Vial "B"
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Go to following coordinate to fill the vial.",
 						constant = "GO_TO_FOLLOWING_COORDINATE_TO_FILL_THE_VIAL",
 						export = true,

@@ -176,7 +176,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			i(141914, {	-- Formula: Enchant Neck - Mark of the Heavy Hide [Rank 2] (RECIPE!)
 				["crs"] = 93095,	-- Voracious Bear
 				["coord"] = { 71.0, 51.9, STORMHEIM },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from bears in any Broken Isles zone. Best farmed in Stormheim from Voracious Bears.",
 					constant = "DROPS_FROM_BEARS_IN_ANY_BROKEN_ISLES_ZONE_BEST",
 					export = true,
@@ -196,7 +196,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 				}),
 			}),
 			i(141915, {	-- Formula: Enchant Neck - Mark of the Trained Soldier [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from PVP world quest mobs in any Broken Isles zone.",
 					constant = "DROPS_FROM_PVP_WORLD_QUEST_MOBS_IN_ANY_BROKEN",
 					export = true,
@@ -219,7 +219,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 		}),
 		prof(FISHING, {
 			i(137695, {	-- Schematic: Reaves Module: Wormhole Generator Mode (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Fished from Coastal Pools.",
 					constant = "FISHED_FROM_COASTAL_POOLS",
 					export = true,
@@ -255,7 +255,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			i(141054),	-- Technique: Glyph of Smolder (RECIPE!)
 			i(141032),	-- Technique: Glyph of the Chilled Shell (RECIPE!)
 			i(141039, {	-- Technique: Glyph of the Doe (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from doe's and stags in any Broken Isles zone. Recommended to farm around the Grove of Cenarius in Val'Sharah.",
 					constant = "DROPS_FROM_DOE_S_AND_STAGS_IN_ANY_BROKEN_ISLES",
 					export = true,
@@ -277,7 +277,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			}),
 			i(141049),	-- Technique: Glyph of the Hook (RECIPE!)
 			i(141051, {	-- Technique: Glyph of the Trident (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops Naga's in any Broken Isles zone. Recommened to farm the Naga's before the first Boss in the Eye of Azshara Dungeon.",
 					constant = "DROPS_NAGA_S_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,
@@ -300,7 +300,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 		}),
 		prof(TAILORING, {
 			i(142077, {	-- Pattern: Imbued Silkweave Bag [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from ghosts in any Broken Isles zone.",
 					constant = "DROPS_FROM_GHOSTS_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,
@@ -321,7 +321,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 				["timeline"] = { ADDED_7_1_0 },
 			}),
 			i(138006, {	-- Pattern: Imbued Silkweave Cover [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from furbolgs in any Broken Isles zone.",
 					constant = "DROPS_FROM_FURBOLGS_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,
@@ -342,7 +342,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			}),
 			i(138007),	-- Pattern: Imbued Silkweave Cover [Rank 3] (RECIPE!)
 			i(138009, {	-- Pattern: Imbued Silkweave Drape [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from harpies in any Broken Isles zone.",
 					constant = "DROPS_FROM_HARPIES_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,
@@ -363,7 +363,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			}),
 			i(138010),	-- Pattern: Imbued Silkweave Drape [Rank 3] (RECIPE!)
 			i(138003, {	-- Pattern: Imbued Silkweave Flourish [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from murlocs in any Broken Isles zone.",
 					constant = "DROPS_FROM_MURLOCS_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,
@@ -384,7 +384,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = {
 			}),
 			i(138004),	-- Pattern: Imbued Silkweave Flourish [Rank 3] (RECIPE!)
 			i(138000, {	-- Pattern: Imbued Silkweave Shade [Rank 2] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from vrykul in any Broken Isles zone.",
 					constant = "DROPS_FROM_VRYKUL_IN_ANY_BROKEN_ISLES_ZONE",
 					export = true,

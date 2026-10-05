@@ -463,7 +463,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				}))),
 				n(TREASURES, {
 					o(505248, {	-- Rune Dispenser
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Interact with for a 10% chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",
 							constant = "INTERACT_WITH_FOR_A_10_CHANCE_FOR_A_FREE",
 							export = true,
@@ -689,7 +689,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					i(232526,{ ["provider"] = { "i", 232805 } }),	-- Best-in-Slots
 					i(232805,{ ["provider"] = { "i", 232526 } }),	-- Best-in-Slots
 					i(237578, {	-- Counterfeit Dealer's Chip
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a small chance dropping as Personal Loot from One-Armed Bandit once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",
 							constant = "HAS_A_SMALL_CHANCE_DROPPING_AS_PERSONAL_LOOT",
 							export = true,

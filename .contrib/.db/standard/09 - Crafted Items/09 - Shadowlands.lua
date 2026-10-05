@@ -350,7 +350,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = {
 	}),
 	prof(FISHING, {
 		i(187877, {	-- Frog Soul
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Fish anywhere in the Shadowlands to receive this soul.",
 				constant = "FISH_ANYWHERE_IN_THE_SHADOWLANDS_TO_RECEIVE",
 				export = true,

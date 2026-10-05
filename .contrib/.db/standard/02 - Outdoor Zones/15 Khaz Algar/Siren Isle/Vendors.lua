@@ -41,7 +41,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 71.2, 44.0, SIREN_ISLE },
 				["groups"] = {
 					fbiron(50, i(228638, {	-- Stormbringer's Runed Citrine
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
 							constant = "YOU_MAY_HAVE_TO_ACQUIRE_THE_GEM_AS_BONUS",
 							export = true,
@@ -180,7 +180,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(228099, {	-- Blinky Greasefingers
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must have the Prismatic Snapdragon Mount before this dialog option can appear.",
 					constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT_6",
 					export = true,
@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					fbiron(350, i(233805)),	-- Vrykul Pyromancer's Wand
 					-- Gems
 					fbiron(50, i(228646, {	-- Legendary Skipper's Citrine
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You may have to acquire the gem from the World Quest once before it appears on the vendor.",
 							constant = "YOU_MAY_HAVE_TO_ACQUIRE_THE_GEM_FROM_THE_WORLD",
 							export = true,

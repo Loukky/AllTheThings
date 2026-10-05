@@ -46,7 +46,7 @@ applyclassicphase(PHASE_SIX,
 		["lore"] = "An ancient Nerubian ziggurat, Naxxramas was torn free from the ground by agents of the Lich King to serve as Kel'Thuzad's base of operations as he spreads the plague throughout Lordaeron.\n\nDue to Kel'Thuzad fighting a war against the Scarlet Crusade, the Argent Dawn, the Forsaken and the humans of the Alliance, as well as constant incursions of adventurers from every race and nation into the Scourge-controlled Plaguelands on a daily basis, his forces have been severely taxed to maintain the security of his necropolis. But now that the gates of Naxxramas are open, Kel'Thuzad's new forces are rapidly sweeping away all opposition to the Scourge.",
 		-- #endif
 		-- #if SEASON_OF_DISCOVERY
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "[TBC] \nNAXX is the raid that opened in SoD Phase 7. \nThe Loot and Quest information is still unclear. It will be added after the wowhead guide is updated.",
 			constant = "TBC_NAXX_IS_THE_RAID_THAT_OPENED_IN_SOD_PHASE_7",
 			export = true,

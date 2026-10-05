@@ -63,7 +63,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					424201,	-- Shadow Rune Buff
 					424205	-- Titan Rune Buff
 				),
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Defeating any boss on Defense Protocol Gamma will reward 1 Defiler's Scourgestone.",
 					constant = "DEFEATING_ANY_BOSS_ON_DEFENSE_PROTOCOL_GAMMA",
 					export = true,

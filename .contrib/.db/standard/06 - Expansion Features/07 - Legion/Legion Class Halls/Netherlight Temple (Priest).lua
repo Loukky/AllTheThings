@@ -23,7 +23,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				})),
 				n(ARTIFACTS, {
 					header(HEADERS.Item, 141332, {	-- The Annals of Light and Shadow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtain 12 of these books to complete the set and receive the Discipline Priest Hidden Artifact Appearance.\n\n|cFFE50D12IMPORTANT:|r Start with Volume IV and Archivist Inkforge in your Order Hall.",
 							constant = "OBTAIN_12_OF_THESE_BOOKS_TO_COMPLETE_THE_SET",
 							export = true,
@@ -46,7 +46,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},{
 							q(44339, {	-- Volume I
 								["name"] = "|cFFFFFFFFVolume I|r | The Violet Citadel in new Dalaran.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After entering The Violet Citadel in new Dalaran, on the left side, there is an NPC named Archivist Elysiana. Volume 1 is on the right-hand bookshelf behind her.\n\n|cFFE50D12NOTE:|r This is a World Spawn. If someone else has looted it, it might take a while for it to respawn!",
 									constant = "AFTER_ENTERING_THE_VIOLET_CITADEL_IN_NEW",
 									export = true,
@@ -69,7 +69,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44340, {	-- Volume II
 								["name"] = "|cFFFFFFFFVolume II|r | Behind Juvess the Duskwhisperer in the Class Order Hall.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In the top right point of the Temple alcove, Volume II is on a table in front of a Draenei Anchorite.\n\n|cFFE50D12NOTE:|r This is a World Spawn. If someone else has looted it, it might take a while for it to respawn!",
 									constant = "IN_THE_TOP_RIGHT_POINT_OF_THE_TEMPLE_ALCOVE",
 									export = true,
@@ -92,7 +92,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44341, {	-- Volume III
 								["name"] = "|cFFFFFFFFVolume III|r | New Hearthglen in Northrend.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Volume III is on top of a bookshelf on the left side of the cloister, on the ground floor.\n\n|cFFE50D12NOTE:|r This is a World Spawn. If someone else has looted it, it might take a while for it to respawn!",
 									constant = "VOLUME_III_IS_ON_TOP_OF_A_BOOKSHELF_ON_THE_LEFT",
 									export = true,
@@ -118,7 +118,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44342, {	-- Volume IV
 								["name"] = "|cFFFFFFFFVolume IV|r | Archivist Inkforge in the class order hall.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must get Volume IV first in order to collect the others. Talk to Archivist Inkforge. Always choose the middle answer (passive curious, not judging) and he will give you Volume IV.",
 									constant = "YOU_MUST_GET_VOLUME_IV_FIRST_IN_ORDER_TO",
 									export = true,
@@ -141,7 +141,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44343, {	-- Volume V
 								["name"] = "|cFFFFFFFFVolume V|r | Chillheart's room in Scholomance.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Enter Chillheart's room - you don't need to kill the boss. Kill the first trash-pack on the right side. Volume V is on top of the 6th bookshelf from the right.",
 									constant = "ENTER_CHILLHEART_S_ROOM_YOU_DON_T_NEED_TO_KILL",
 									export = true,
@@ -179,7 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44344, {	-- Volume VI
 								["name"] = "|cFFFFFFFFVolume VI|r | Bookshelf to the left of Meridelle Lightspark in the Class Order Hall. ",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In the top left point of the Temple alcove, Volume VI is on a shelf to the left of Meridelle Lightspark.\n\n|cFFE50D12NOTE:|r This is a World Spawn. If someone else has looted it, it might take a while for it to respawn!",
 									constant = "IN_THE_TOP_LEFT_POINT_OF_THE_TEMPLE_ALCOVE",
 									export = true,
@@ -202,7 +202,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44345, {	-- Volume VII
 								["name"] = "|cFFFFFFFFVolume VII|r | The Flameweaver's library in Scarlet Halls.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Run through the instance to Flameweaver Koegler's room. On the left-hand side of the room there's a table with a candelabra. Volume VII is on the bench between the table and the bookshelf.",
 									constant = "RUN_THROUGH_THE_INSTANCE_TO_FLAMEWEAVER_KOEGLER",
 									export = true,
@@ -240,7 +240,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44350, {	-- Volume VIII
 								["name"] = "|cFFFFFFFFVolume VIII|r | Inquisitor Ernstenbok, a Rare in the cave southwest of Halls of Valor, Stormheim.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In order to be able to loot Volume VIII, you must kill the Rare AFTER getting Volume IV from Archivist Inkforge in your Order Hall.\n\n|cFFE50D12WARNING:|r If several Priests kill the Rare, only one will be able to loot it!",
 									constant = "IN_ORDER_TO_BE_ABLE_TO_LOOT_VOLUME_VIII_YOU",
 									export = true,
@@ -263,7 +263,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44347, {	-- Volume IX
 								["name"] = "|cFFFFFFFFVolume IX|r | Artificer Lothaire in Moon Guard Stronghold, Suramar.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In order to be able to loot Volume IX, you must kill the Rare AFTER getting Volume IV from Archivist Inkforge in your Order Hall.\n\n|cFFE50D12WARNING:|r If several Priests kill the Rare, only one will be able to loot it!",
 									constant = "IN_ORDER_TO_BE_ABLE_TO_LOOT_VOLUME_IX_YOU_MUST",
 									export = true,
@@ -286,7 +286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44348, {	-- Volume X
 								["name"] = "|cFFFFFFFFVolume X|r | Black Rook Hold Library.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After defeating The Amalgam of Souls, you will enter the Library with a large setup in the middle.\nHead along the left side, Volume X is on one of the tables.",
 									constant = "AFTER_DEFEATING_THE_AMALGAM_OF_SOULS_YOU_WILL",
 									export = true,
@@ -312,7 +312,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44349, {	-- Volume XI
 								["name"] = "|cFFFFFFFFVolume XI|r | Guardian's Library in old Karazhan.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After defeating The Curator, jump down to the right and head straight into the first nook. There is a tapestry on the wall and three bookshelves below. Volume XI is on the bottom of the left-hand bookshelf.",
 									constant = "AFTER_DEFEATING_THE_CURATOR_JUMP_DOWN_TO_THE",
 									export = true,
@@ -350,7 +350,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44346, {	-- Volume XII
 								["name"] = "|cFFFFFFFFVolume XII|r | Chief Bitterbrine in The Queen's Reprisal, Azsuna.",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In order to be able to loot Volume XII, you must kill the Rare AFTER getting Volume IV from Archivist Inkforge in your Order Hall.\n\n|cFFE50D12WARNING:|r If several Priests kill the Rare, only one will be able to loot it!",
 									constant = "IN_ORDER_TO_BE_ABLE_TO_LOOT_VOLUME_XII_YOU_MUST",
 									export = true,
@@ -372,7 +372,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["coord"] = { 65.6, 56.8, AZSUNA },
 							}),
 							i(139567, {	-- Writings of the End
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Once you have obtained all 12 volumes, return to Archivist Inkforge in the class order hall and give them to him and he will give you this item.",
 									constant = "ONCE_YOU_HAVE_OBTAINED_ALL_12_VOLUMES_RETURN_TO",
 									export = true,
@@ -1087,7 +1087,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				}),
 				n(SPECIAL, {
 					q(44306, {	-- Blessings of the Order
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you have the |cFFFFD700Tithe|r order hall upgrade.",
 							constant = "ONLY_AVAILABLE_IF_YOU_HAVE_THE_CFFFFD700TITHE_R",
 							export = true,
@@ -1109,7 +1109,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 61.6, 45.6, NETHERLIGHT_TEMPLE },
 					}),
 					q(44229, {	-- Champion Armaments
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you have the |cFFFFD700Armaments of Light|r order hall upgrade.",
 							constant = "ONLY_AVAILABLE_IF_YOU_HAVE_THE",
 							export = true,
@@ -1131,7 +1131,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 45.8, 27.2, NETHERLIGHT_TEMPLE },
 					}),
 					q(44230, {	-- The Fates Bless Us
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you have the |cFFFFD700Blessed Seals|r order hall upgrade.",
 							constant = "ONLY_AVAILABLE_IF_YOU_HAVE_THE_CFFFFD700BLESSED",
 							export = true,

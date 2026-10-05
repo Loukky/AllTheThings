@@ -5,7 +5,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(TORGHAST, {
 		SL_Legendaries({
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These memories only drop from Layer 3 or above, except for Phantasma Lure.",
 				constant = "THESE_MEMORIES_ONLY_DROP_FROM_LAYER_3_OR_ABOVE",
 				export = true,
@@ -25,7 +25,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			}),
 			["groups"] = {
 				i(183247, {	-- Memory of a Stable Phantasma Lure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This memory is the only exception and will only drop from Layer 6 or above.",
 						constant = "THIS_MEMORY_IS_THE_ONLY_EXCEPTION_AND_WILL_ONLY",
 						export = true,

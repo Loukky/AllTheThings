@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 26.5, 45.5, VOLDUN },
 			}),
 			o(280951, {	-- Ashvane Spoils
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Hop into the mine cart to pick up the chest at the end of the tracks.",
 					constant = "HOP_INTO_THE_MINE_CART_TO_PICK_UP_THE_CHEST_AT",
 					export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 45.2, 91.1, VOLDUN },
 			}),
 			o(296586, {	-- Rachel's Flute
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Enter the cave at 64.9, 36.3.",
 					constant = "ENTER_THE_CAVE_AT_64_9_36_3",
 					export = true,
@@ -126,7 +126,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 47.2, 58.5, VOLDUN },
 			}),
 			o(294319, {	-- Sandsunken Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the Abandoned Bobber to spawn the chest.",
 					constant = "CLICK_THE_ABANDONED_BOBBER_TO_SPAWN_THE_CHEST",
 					export = true,
@@ -161,7 +161,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 47.0, 75.8, VOLDUN },
 			}),
 			o(287326, {	-- Zem'lan's Buried Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on the Disturbed Sand to spawn the chest.",
 					constant = "CLICK_ON_THE_DISTURBED_SAND_TO_SPAWN_THE_CHEST",
 					export = true,

@@ -261,7 +261,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { AD
 		}),
 		prof(TAILORING, {
 			i(163027, {	-- Pattern: Embroidered Deep Sea Bag [Rank 1] (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Dropped by naga.",
 					constant = "DROPPED_BY_NAGA",
 					export = true,

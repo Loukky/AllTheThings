@@ -6,7 +6,7 @@ root(ROOTS.Zones, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(ZANDALAR, {
 		n(ZONE_REWARDS, {
 			i(163856, {	-- Ancient Pilgrimage Scrollcasing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from any of the repeatable Treasures in the various BFA zones.",
 					constant = "CAN_DROP_FROM_ANY_OF_THE_REPEATABLE_TREASURES",
 					export = true,

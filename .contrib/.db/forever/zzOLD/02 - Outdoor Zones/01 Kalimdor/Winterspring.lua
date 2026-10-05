@@ -507,7 +507,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 50,
 				}),
 				q(5306, {	-- Snakestone of the Shadow Huntress
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Upon finishing this quest, you will become a Master Axesmith and be locked out of becoming a Master Hammersmith and Master Swordsmith.",
 						constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A",
 						export = true,
@@ -560,7 +560,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(5305, {	-- Sweet Serenity
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Upon finishing this quest, you will become a Master Hammersmith and be locked out of becoming a Master Axesmith and Master Swordsmith.",
 						constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_2",
 						export = true,
@@ -950,7 +950,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(14742, {	-- Zap Farflinger <Unbalanced Engineer>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Goblin Engineers can speak to Zap to learn the recipe.",
 						constant = "GOBLIN_ENGINEERS_CAN_SPEAK_TO_ZAP_TO_LEARN_THE",
 						export = true,
@@ -1147,7 +1147,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				i(21383, {	-- Winterfall Spirit Beads
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops commmonly from all Winterfall furbolgs, and can be turned in to the NPC named Salfa for Timbermaw Hold reputation. Each turn in requires 5 Winterfall Spirit Beads. Salfa can be found in the westernmost part of the zone, by the entrance to Timbermaw Hold.",
 						constant = "DROPS_COMMMONLY_FROM_ALL_WINTERFALL_FURBOLGS",
 						export = true,

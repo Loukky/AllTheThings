@@ -22,7 +22,7 @@ KALUAK_FISHING_DERBY_HEADER = createHeader({
 });
 
 root(ROOTS.Holidays, applyclassicphase(WRATH_PHASE_ONE, applyevent(EVENTS.KALUAK_FISHING_DERBY, n(KALUAK_FISHING_DERBY_HEADER, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "The Kalu'ak Fishing Derby was a fishing event held every Saturday between 14:00 and 15:00 server time by the Kalu'ak. The objective was to be the first player to catch a Blacktip Shark and bring it to Elder Clearwater in Dalaran. It was introduced with Patch 3.3.0.\n\nDue to problems that occurred with the introduction of cross-realm zones, all fishing tournaments were disabled. When they were reenabled in Patch 5.1.0 however, the Stranglethorn Fishing Extravaganza had been redesigned to allow three winners, and included the rewards from winning the fishing derby. Thus, the Kalu'ak Fishing Derby became redundant, and was removed altogether.",
 		constant = "THE_KALU_AK_FISHING_DERBY_WAS_A_FISHING_EVENT",
 		export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Holidays, applyclassicphase(WRATH_PHASE_ONE, applyevent(EVENTS.KALUAK
 		}),
 		prof(FISHING, {
 			i(50289, {	-- Blacktip Shark
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be fished from any school of fish in Northrend.",
 					constant = "CAN_BE_FISHED_FROM_ANY_SCHOOL_OF_FISH_IN",
 					export = true,

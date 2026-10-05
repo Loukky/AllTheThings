@@ -26,7 +26,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["questID"] = 92623,
 			}),
 			o(577799, {	-- Artisan's Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The only way to loot this treasure is if you jump from the balcony above and loot it before Squallfins kill you.\nYou WILL die in the process.",
 					constant = "THE_ONLY_WAY_TO_LOOT_THIS_TREASURE_IS_IF_YOU",
 					export = true,

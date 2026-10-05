@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(48522, {	-- A Revealing Missive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest appears to drop from whichever Sister you kill last.",
 					constant = "THIS_QUEST_APPEARS_TO_DROP_FROM_WHICHEVER",
 					export = true,
@@ -1734,7 +1734,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["sourceQuest"] = 48519,	-- Hope They Can't Swim
 				}),
 				q(48474, {	-- Crypt Keepers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must accept the quest |cffffff00Seeing Spirits|r in order for this Bonus Objective to activate.",
 						constant = "YOU_MUST_ACCEPT_THE_QUEST_CFFFFFF00SEEING",
 						export = true,
@@ -1755,7 +1755,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["sourceQuest"] = 48475,	-- Seeing Spirits
 				}),
 				q(47969, {	-- Fallhaven's Curse
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must accept the quest |cffffff00Signs and Portents|r in order for this Bonus Objective to activate.",
 						constant = "YOU_MUST_ACCEPT_THE_QUEST_CFFFFFF00SIGNS_AND",
 						export = true,

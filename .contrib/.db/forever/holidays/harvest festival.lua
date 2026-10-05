@@ -64,7 +64,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HARVEST_FESTIVAL, n(createHeader({
 		}),
 	}),
 	n(REWARDS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This is some of the best food and water you can get for leveling! It does disappear 15 minutes after log out though, so pick this up at the start of your session and game until you run out.",
 			constant = "THIS_IS_SOME_OF_THE_BEST_FOOD_AND_WATER_YOU_CAN",
 			export = true,

@@ -274,7 +274,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 78.4, 71.4, STORMHEIM },
 				}),
 				o(255963, {	-- Vrykul Ancestral Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These repeatable chests spawn all over the map in Stormheim.",
 						constant = "THESE_REPEATABLE_CHESTS_SPAWN_ALL_OVER_THE_MAP_3",
 						export = true,

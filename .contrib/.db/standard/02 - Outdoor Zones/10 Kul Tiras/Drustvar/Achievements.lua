@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sym"] = {{ "achievement_criteria" }},
 			}),
 			ach(13083, {	-- Better, Faster, Stronger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect and have active Witch's Boons: Excellence, Extra Pep, Rage, and Fortitude which are on a 5 minute timer and the debuff Witch's Curse: Newt. Debuffs can remove one of your buffs. Coords are possible brew spawn points.",
 					constant = "COLLECT_AND_HAVE_ACTIVE_WITCH_S_BOONS",
 					export = true,
@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			ach(12557),	-- Explore Drustvar
 			ach(13082, {	-- Everything Old Is New Again
 				["races"] = ALLIANCE_ONLY,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Turn in all items at 44.90, 27.41.",
 					constant = "TURN_IN_ALL_ITEMS_AT_44_90_27_41",
 					export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			ach(13087, {	-- Sausage Sampler
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be completed as Horde by purchasing items on the AH.",
 					constant = "CAN_BE_COMPLETED_AS_HORDE_BY_PURCHASING_ITEMS",
 					export = true,

@@ -40,7 +40,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(41995, {	-- Boot Hill
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Die 30 times within one match solo or collectively as a group THEN complete the fight and loot the prize chest. The arena will will with 15 gravestones to the left and right of the entrance to count your progress.",
 						constant = "DIE_30_TIMES_WITHIN_ONE_MATCH_SOLO_OR",
 						export = true,

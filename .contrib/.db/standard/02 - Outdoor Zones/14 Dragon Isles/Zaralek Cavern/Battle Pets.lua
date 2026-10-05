@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 59.8, 58.3, ZARALEK_CAVERN },
 			}),
 			pet(3488, {	-- Deepridger (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rarespawn of Slabwing. Cannot be Backline.",
 					constant = "RARESPAWN_OF_SLABWING_CANNOT_BE_BACKLINE",
 					export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 42.2, 67.4, ZARALEK_CAVERN },
 			}),
 			pet(3490, {	-- Ebonwing Moth (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rarespawn of Hollow Moth. Cannot be Backline.",
 					constant = "RARESPAWN_OF_HOLLOW_MOTH_CANNOT_BE_BACKLINE",
 					export = true,
@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 44.6, 66.4, ZARALEK_CAVERN },
 			}),
 			pet(3486, {	-- Lithengale (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rarespawn of Rock Martin. Cannot be Backline.",
 					constant = "RARESPAWN_OF_ROCK_MARTIN_CANNOT_BE_BACKLINE",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 50.6, 40.1, ZARALEK_CAVERN },
 			}),
 			pet(3487, {	-- Scarlapod (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rarespawn of Cobbleshell. Cannot be Backline.",
 					constant = "RARESPAWN_OF_COBBLESHELL_CANNOT_BE_BACKLINE",
 					export = true,

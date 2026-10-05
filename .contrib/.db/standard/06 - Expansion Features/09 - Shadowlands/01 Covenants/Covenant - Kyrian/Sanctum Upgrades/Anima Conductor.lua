@@ -6,7 +6,7 @@ local GRATEFUL_CURRENCY = currency(GRATEFUL);
 local REGURGITATED_KYRIAN_WINGS = i(182749);	-- Regurgitated Kyrian Wings
 local AEGIS_OF_SALVATION = i(184365);	-- Aegis of Salvation
 local WINGFLAYTER_THE_CRUEL = n(167078, {	-- Wingflayer the Cruel
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = " Only a member of the |cFF516bfeKyrian Covenant|r who has channeled anima to Temple of Courage can click the bell.",
 		constant = "ONLY_A_MEMBER_OF_THE_CFF516BFEKYRIAN_COVENANT_R",
 		export = true,
@@ -32,7 +32,7 @@ local WINGFLAYTER_THE_CRUEL = n(167078, {	-- Wingflayer the Cruel
 	},
 });
 local ORSTUS_AND_SOTIROS = n(156340, {	-- Larionrider Orstus
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Take the anima gateway and click the Black Bell. Only a member of the |cFF516bfeKyrian Covenant|r who has channeled anima to Citadel of Loyalty can click the bell.",
 		constant = "TAKE_THE_ANIMA_GATEWAY_AND_CLICK_THE_BLACK_BELL",
 		export = true,
@@ -56,7 +56,7 @@ local ORSTUS_AND_SOTIROS = n(156340, {	-- Larionrider Orstus
 	["isDaily"] = true,
 	["groups"] = {
 		i(184401, {	-- Larion Pouncer (PET!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To be eligible to receive the pet, your Anima Conductor must be upgraded to Rank 3.",
 				constant = "TO_BE_ELIGIBLE_TO_RECEIVE_THE_PET_YOUR_ANIMA",
 				export = true,
@@ -91,7 +91,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["groups"] = {
 								currency(GRATEFUL, {
 									["customCollect"] = IGNORED_VALUE,
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Grateful Offerings can be collected once you have unlocked the Anima Conductor in for your covenant.\n Once unlocked, you can loot them from Covenant Callings (higher Conductor => more Offerings), Patterns Within Patterns Weekly Quest in Zereth Morthis and from special rares & treasures, based on the channeling of your Anima Conductor.",
 										constant = "GRATEFUL_OFFERINGS_CAN_BE_COLLECTED_ONCE_YOU",
 										export = true,
@@ -129,7 +129,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							}),
 							n(TREASURES, {
 								o(356818, {	-- Penitence of Purity
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires channeling anima to the Temple of Purity.",
 										constant = "REQUIRES_CHANNELING_ANIMA_TO_THE_TEMPLE_OF",
 										export = true,

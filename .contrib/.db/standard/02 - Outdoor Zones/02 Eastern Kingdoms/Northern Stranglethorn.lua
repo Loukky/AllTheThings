@@ -122,7 +122,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(63194, {	-- Steven Lisbane <Master Pet Tamer>
 					["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only.\n\nSteven's pets are level 9 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_STEVEN_S_PETS",
 						export = true,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(QUESTS, {
 				q(26317, {	-- A Lashtail Hatchling
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted after killing 12 eggs during the quest |cFFFFD700The Defense of Grom'gol: Raptor Risk|r.",
 						constant = "AUTOMATICALLY_GRANTED_AFTER_KILLING_12_EGGS",
 						export = true,
@@ -860,7 +860,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26745, {	-- Favored Skull (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available on arrival to the |cFFFFD700Bal'lal Ruins|r.",
 						constant = "AVAILABLE_ON_ARRIVAL_TO_THE_CFFFFD700BAL_LAL",
 						export = true,
@@ -1098,7 +1098,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 30,
 				}),
 				q(26738, {	-- Just Hatched
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted after obtaining 7 'Jungle Remedies' during the quest |cFFFFD700Bad Medicine|r.",
 						constant = "AUTOMATICALLY_GRANTED_AFTER_OBTAINING_7_JUNGLE",
 						export = true,
@@ -1326,7 +1326,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26407, {	-- Mosh'Ogg Handiwork
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Typically drops during |cFFFFD700The Defense of Grom'gol: Ogre Oppression|r.",
 						constant = "TYPICALLY_DROPS_DURING_CFFFFD700THE_DEFENSE_OF",
 						export = true,
@@ -2613,7 +2613,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26782, {	-- The Mosh'Ogg Bounty (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered to players that HAVE completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.",
 						constant = "THIS_QUEST_IS_OFFERED_TO_PLAYERS_THAT_HAVE",
 						export = true,
@@ -2646,7 +2646,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26783, {	-- The Mosh'Ogg Bounty (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered to players that HAVE NOT completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.",
 						constant = "THIS_QUEST_IS_OFFERED_TO_PLAYERS_THAT_HAVE_NOT",
 						export = true,
@@ -3369,7 +3369,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1677, {	-- Drake-scale Vest
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Mosh'Ogg Lords, which have three known spawns. Mosh'Ogg Butcher can spawn in its place.",
 						constant = "DROPS_FROM_MOSH_OGG_LORDS_WHICH_HAVE_THREE",
 						export = true,
@@ -3397,7 +3397,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1659, {	-- Engineering Gloves
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Venture Co. Tinkerer. Venture Co. Foremans, Venture Co. Surveyors, and Venture Co. Strip Miners very often spawns in its place.",
 						constant = "DROPS_FROM_VENTURE_CO_TINKERER_VENTURE_CO",
 						export = true,
@@ -3435,7 +3435,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1564,	-- Bloodsail Warlock
 					},
 					-- #else
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item has a chance to drop from any killed creature in the zone.",
 						constant = "THIS_ITEM_HAS_A_CHANCE_TO_DROP_FROM_ANY_KILLED",
 						export = true,
@@ -3480,7 +3480,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1522, {	-- Headhunting Spear
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Bloodscalp Headhunters, which shares its spawn with other Bloodscalp trolls in the Zuuldaia Ruins.",
 						constant = "DROPS_FROM_BLOODSCALP_HEADHUNTERS_WHICH_SHARES",
 						export = true,
@@ -3508,7 +3508,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1523, {	-- Huge Stone Club
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Bloodscalp Berserkers, which shares its spawn with other Bloodscalp trolls in the Zuuldaia Ruins.",
 						constant = "DROPS_FROM_BLOODSCALP_BERSERKERS_WHICH_SHARES",
 						export = true,
@@ -3585,7 +3585,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				i(1997, {	-- Pressed Felt Robe
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Bloodscalp Mystics, which shares its spawn with other Bloodscalp trolls in the Ruins of Zul'Kunda.",
 						constant = "DROPS_FROM_BLOODSCALP_MYSTICS_WHICH_SHARES_ITS",
 						export = true,
@@ -3616,7 +3616,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1624, {	-- Skullsplitter Helm
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Skullsplitter Berserkers and Skullsplitter Headhunters. Skullsplitter Spiritchasers very often spawns in its place.",
 						constant = "DROPS_FROM_SKULLSPLITTER_BERSERKERS_AND",
 						export = true,
@@ -3647,7 +3647,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1664, {	-- Spellforce Rod
 					-- #if AFTER 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Venture Co. Surveyors. Venture Co. Foremans, Venture Co. Tinkerers, and Venture Co. Strip Miners very often spawns in its place.",
 						constant = "DROPS_FROM_VENTURE_CO_SURVEYORS_VENTURE_CO",
 						export = true,

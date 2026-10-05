@@ -7,7 +7,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 	["timeline"] = { ADDED_11_0_5 },
 	["groups"] = {
 		o(182030, {	-- Inert Peculiar Key
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Inside a rotten tree trunk in the far north of Un'Goro Crater. Use your Torch of Pyrreth to reveal it.",
 				constant = "INSIDE_A_ROTTEN_TREE_TRUNK_IN_THE_FAR_NORTH_OF",
 				export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			["coord"] = { 54.9, 28.9, DORNOGAL },
 		}),
 		q(84684, {	-- Ratts' Race
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Find 3 notes scattered around Azj-Kahet then confront Ratts in Pillar-nest Vosh.",
 				constant = "FIND_3_NOTES_SCATTERED_AROUND_AZJ_KAHET_THEN",
 				export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			["groups"] = {
 				i(228934),	-- Carefully Penned Note (QI!)
 				o(466118, {	-- Unfinished Note
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "#1. In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",
 						constant = "1_IN_A_CAVE_IN_AZJ_KAHET_IN_THE_CENTER_OF_5",
 						export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["groups"] = { i(228935) },	-- Unfinished Note (QI!)
 				}),
 				o(466119, {	-- Hastily Scrawled Note
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "#2. High up on a ridge overlooking the City of Threads.",
 						constant = "2_HIGH_UP_ON_A_RIDGE_OVERLOOKING_THE_CITY_OF",
 						export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["groups"] = { i(228936) },	-- Hastily Scrawled Note (QI!)
 				}),
 				o(466120, {	-- Water-Resistant Note
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "#3. Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",
 						constant = "3_UNDERWATER_IN_THE_CENTER_OF_A_LAKE_ON_THE",
 						export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["groups"] = { i(228937) },	-- Water-Resistant Note (QI!)
 				}),
 				o(466128, {	-- Peculiar Gem
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "#4. To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.",
 						constant = "4_TO_TURN_IN_THE_QUEST_ENTER_PILLAR_NEST_VOSH",
 						export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			},
 		}),
 		i(44124, {	-- Peculiar Key
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Once reformed, go to the entrance of the Karazhan Catacombs in Deadwind Pass and use your Torch of Pyrreth by the gate to teleport into a secret scenario.",
 				constant = "ONCE_REFORMED_GO_TO_THE_ENTRANCE_OF_THE",
 				export = true,
@@ -176,7 +176,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			},
 		}),
 		m(46, {	-- Karazhan Catacombs (this makes sense to have as a root map when it's the minilist)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",
 				constant = "DEEP_INTO_THE_CATACOMBS_THE_BIKE_IS_JUST",
 				export = true,
@@ -203,7 +203,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 1 O'clock Basin
 				hqt(84676, {	-- The Light of Their Love
 					["name"] = "Acquire The Light of Their Love buff stacked 3 times",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Olgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Northern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\n\nFully lights up the 1 O'clock basin.",
 						constant = "ACQUIRE_THE_LIGHT_OF_THEIR_LOVE_BUFF_SPELLID",
 						export = true,
@@ -237,7 +237,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 2 O'clock Basin
 				hqt(84677, {	-- Acquire the Key of Shadows
 					["name"] = "Acquire the Key of Shadows from the Ny'Alotha Obelisk",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires the 1 O'clock basin to have been completed to see the obelisk personally.\n1. Acquire the Twitching Eyaball or All-Seeing Eyes toys\n2. Acquire a Perky Pug with either the Dogg-Saron costume from Vashti the Wandering Merchant in Azsuna or the Yipp-Saron costume from Hallow's End (or the AH.)\n3. Bring these items OR find a friend who has them and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\n4. Have someone summon a perky pug and use the toys, then /pray in front of the obelisk to be granted the Key of Shadows.\n\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\n\nFully lights up the 2 O'clock basin",
 						constant = "REQUIRES_THE_1_O_CLOCK_BASIN_TO_HAVE_BEEN",
 						export = true,
@@ -272,7 +272,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							},
 							["groups"] = {
 								i(53156, {	-- Key of Shadows
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Opens both doors in the room with the Red Button.",
 										constant = "OPENS_BOTH_DOORS_IN_THE_ROOM_WITH_THE_RED",
 										export = true,
@@ -297,7 +297,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				-- 3 O'clock Basin
 				header(HEADERS.Item, 228967, bubbleDownSelf( {["sourceQuest"] = 84677 }, {	-- Acquire the Key of Shadows
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin, fully lighting with 9 orbs.",
 						constant = "1_USE_THE_KEY_OF_SHADOWS_TO_ENTER_THE_ROOM_TO",
 						export = true,
@@ -324,7 +324,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228966) },	-- Starry-Eyed Goggles (TOY!)
 						}),
 						o(466400, {	-- Property of Elder Ko'nani
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 88224646",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE",
 								export = true,
@@ -347,7 +347,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466413, {	-- Encrypted Puzzle Box
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 17112317",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_2",
 								export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466479, {	-- Encrypted Chest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 1533, 3457, 8265, or 10638",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_3",
 								export = true,
@@ -394,7 +394,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466495, {	-- Encrypted Chest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 19019",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_4",
 								export = true,
@@ -418,7 +418,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466484, {	-- Encrypted Chest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 5661",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_5",
 								export = true,
@@ -442,7 +442,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466420, {	-- Rubenstein's Safe
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 52233",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_6",
 								export = true,
@@ -466,7 +466,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466497, {	-- Encrypted Chest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 51567",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_7",
 								export = true,
@@ -490,7 +490,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						o(466489, {	-- Encrypted Chest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Code to open at the adjacent decryption console: 115",
 								constant = "CODE_TO_OPEN_AT_THE_ADJACENT_DECRYPTION_CONSOLE_8",
 								export = true,
@@ -514,7 +514,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = { i(228967) },	-- Piece of Hate
 						}),
 						header(HEADERS.Quest, 84786, {	-- Acquire the Piece of Hate from the Lucky slot machine consoles
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 888 and 168 are correct answers but the machines only pay out a coin if you are deemed lucky.\nYour luck can be increased by obtaining at least 5 unique lucky things. It's not clear what counts but Blizzard states there are 13 possible lucky sources, some have been listed as a provider for this step. If you see the 'You feel lucky' emote in chat, you should be good, but try at least once anyway, the machine will pay out on first attempt if you're lucky enough, it is not random.\nNo chest will spawn, you will be given the Piece of Hate directly.",
 								constant = "IN_THE_FELCYCLE_ROOM_IS_OVER_A_DOZEN_SLOT",
 								export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 4 O'clock Basin
 				hqt(84780, {	-- Use the Scroll of Fel Binding at Uther's Tomb
 					["name"] = "Use the Scroll of Fel Binding at Uther's Tomb",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Use the Scroll of Fel Binding sold by Vashti the Wandering Merchant in Azsuna (Broken Isles) right outside Uther's Tomb in the Western Plaugelands.\n2. You will die, return to your corpse and fight the Doomguard while inspecting the four writings on the floor of the tomb. Anyone can summon the demon and writings will stay visible as long as it lives.\n\nFully lights up the 4 O'clock basin.",
 						constant = "1_USE_THE_SCROLL_OF_FEL_BINDING_SOLD_BY_VASHTI",
 						export = true,
@@ -576,7 +576,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				-- 5 O'clock Basin
 				q(84781, {	-- Master of Secrets
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Visit the Timeless isle and find Zarhym in the Cavern of Lost Spirits. Talk to Zarhym, a rare ghostly skull inside the entrance to enter the spirit realm.\n2. Within 5 minutes, Navigate to the back of the cave while avoiding ghosts to find Jeremy Feasel. Stay nearby to him, and you will not exit the spirit realm even if your 5 minutes buff expires.\n3. Defeat Jeremy in a pet battle using only 'secret' pets from the list. If someone in your group beats him in a battle, that also counts and he will grant you the quest too on talking to him. The pets MUST be level 25.\n\nFully lights up the 5 O'clock basin.\n\nValid pets:\nBaa'l, Bumbles, Filthy Slime, Francois, Gizmo the Pure, Glimr, Hungering Claw, Jenafur, Lil' Abom, Nelthara, Phoenix Wishwing, Renny, Snowclaw Cub, Spyragos, Sun Darter Hatchling, Taptaf, Terky, Tobias, Wicker Pup",
 						constant = "1_VISIT_THE_TIMELESS_ISLE_AND_FIND_ZARHYM_IN",
 						export = true,
@@ -628,7 +628,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 6 O'clock Basin
 				hqt(84811, {	-- Acquire the Ancient Shaman Blood
 					["name"] = "Acquire the Ancient Shaman Blood",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your Torch of Pyrreth at various alters to summon a Spirit of Collections. Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
 						constant = "USE_YOUR_TORCH_OF_PYRRETH_AT_VARIOUS_ALTERS_TO",
 						export = true,
@@ -649,7 +649,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 					["groups"] = {
 						hqt(84809, {	-- Appease the Spirit of Collections (Blood)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Confirmed actions to appease:\nMounts: Any with 'blood' in their name\n\nPets: Any with 'blood' in their name\n\nToys: Throbbing Blood Orb",
 								constant = "CONFIRMED_ACTIONS_TO_APPEASE_MOUNTS_ANY_WITH",
 								export = true,
@@ -672,7 +672,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["crs"] = 230430,
 						}),
 						hqt(84807, {	-- Appease the Spirit of Collections (Corruption)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearance)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises, Accursed Tome of the Sargerei",
 								constant = "CONFIRMED_ACTIONS_TO_APPEASE_OUTFIT_CLOAK_OF",
 								export = true,
@@ -695,7 +695,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["crs"] = 230424,
 						}),
 						hqt(84810, {	-- Appease the Spirit of Collections (Shadow)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearance)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller, Sir Shady Mrrgglton Junior, Voidwiggler\n\nToys: Shadowy Disguise, Void Totem",
 								constant = "CONFIRMED_ACTIONS_TO_APPEASE_OUTFIT_CLOAK_OF_2",
 								export = true,
@@ -718,7 +718,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["crs"] = 230440,
 						}),
 						hqt(84806, {	-- Appease the Spirit of Collections (Sin)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Confirmed actions to appease:\nOutfit: Any sinstone back cosmetic\n\nPets: Sinheart\n\nToys: Bondable Sinstone",
 								constant = "CONFIRMED_ACTIONS_TO_APPEASE_OUTFIT_ANY",
 								export = true,
@@ -741,7 +741,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["crs"] = 230423,
 						}),
 						hqt(84808, {	-- Appease the Spirit of Collections (Temptation)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Confirmed actions to appease:\nOutfit: Be naked\n\nEmotes: /flirt with the spirit targeted\n\nPets: Sister of Temptation\n\nToys: Moroes' Famous Polish, Steamy Romance Novel Kit",
 								constant = "CONFIRMED_ACTIONS_TO_APPEASE_OUTFIT_BE_NAKED",
 								export = true,
@@ -764,7 +764,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["crs"] = 230425,
 						}),
 						o(466808, {	-- Chest of Acquisitions
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Appears by the wall nearby the Shadow alter once each spirit has been appeased. Use your goggles to see it.",
 								constant = "APPEARS_BY_THE_WALL_NEARBY_THE_SHADOW_ALTER",
 								export = true,
@@ -799,7 +799,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 7 O'clock Basin
 				hqt(84823, {	-- Acquire the Warden's Mirror
 					["name"] = "Acquire the Warden's Mirror",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Empower your owl pet with the Owl statues in Azsuna then enter the Vault of the Wardens to find a Sentry Statue. Use it to solve a puzzle to receive the mirror.\n\nEmpowering your owl will add 4 orbs to the 7 O'clock basin, and solving the sentry puzzle will light it fully.",
 						constant = "EMPOWER_YOUR_OWL_PET_WITH_THE_OWL_STATUES_IN",
 						export = true,
@@ -820,7 +820,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["maps"] = { AZSUNA, 710, 711, 712 },	-- Vault of the Wardens
 					["groups"] = {
 						header(HEADERS.Object, 254262, {	-- Owl of the Watchers
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "On the Isle of the Watchers in Azsuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",
 								constant = "ON_THE_ISLE_OF_THE_WATCHERS_IN_AZSUNA_ARE_9_OWL",
 								export = true,
@@ -853,7 +853,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["groups"] = {
 								hqt(39353, {	-- Empower your owl with the red statue aura
 									["name"] = "Empower your owl with the red statue aura",
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Unlocks an orb at the 7 O'clock basin.",
 										constant = "UNLOCKS_AN_ORB_AT_THE_7_O_CLOCK_BASIN",
 										export = true,
@@ -888,7 +888,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							},
 						}),
 						o(466943, {	-- Sentry Statue
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",
 								constant = "YOU_MUST_FIRST_HAVE_COMPLETED_THE_PREVIOUS",
 								export = true,
@@ -910,7 +910,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
 							["groups"] = {
 								i(229046, {	-- Sentry Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",
 										constant = "PLACE_IN_THE_CENTER_PLATFORM_BEFORE_THE_LAST",
 										export = true,
@@ -937,7 +937,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
 						}),
 						o(466960, {	-- Treasure of the Wardens
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Once you place the Sentry Statue in the Vault of Mirrors, a 5x5 grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You may solve this secret in a group.\n\nFully lights up the 7 O'clock basin.",
 								constant = "ONCE_YOU_PLACE_THE_SENTRY_STATUE_IN_THE_VAULT",
 								export = true,
@@ -967,7 +967,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				-- 8 O'clock Basin
 				o(466975, {	-- Enigma Machine
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On the left side of the hallway after the second stairwell.",
 						constant = "ON_THE_LEFT_SIDE_OF_THE_HALLWAY_AFTER_THE",
 						export = true,
@@ -999,7 +999,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 						}),
 						hqt(84837, {	-- Decipher the Enigma Machine
 							["name"] = "Decipher the Enigma Machine",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "1. Hit begin on the console, then hit submit. A randomized number of rats will spawn in the catacombs.\n2. Count the number of Rats in the whole catacombs, use a targeting macro to make sure you don't miss one. There will also be Catacombs Rats, those DO NOT COUNT. Kill both types of rats once you are sure of your count so they cannot interfere with pressure plates.\n3. Depending on the number of rats, you need to drag a certain number of statues to a specific pressure plate and stack them, the beacon color will shift from Blue->Green->Yellow->Orange->Purple as a plate has 1->2->3->4->5 entities stack on it.\n4. Head back to the Enigma Machine and submit, you will be electrocuted if you get it wrong, leave and reset the instance if you do, restarting at lock 1. Otherwise, continue counting the next set of rats and submitting results using info from the next column until you've completed all 7 locks.\n\nPlate 1 is at 71.6, 20.1 at the top of the map in the felcycle room\nPlate 2 is at 68.5, 34.2 right at the entrance to the felcycle room\nPlate 3 is at 73.6, 43.0 behind the locked gate on the right of the map, use your Relic of Crystal Connections to teleport to the humming crystal in the room by targeting it\nPlate 4 is at 68.8, 50.9 in the center of the hallway opposite the felcycle room\nPlate 5 is at 73.6, 65.3 in the flooded dead end hallway right as you enter the catacombs\nPlate 6 is at 60.2, 71.6 on the left side of the hallway before the cat room\nPlate 7 is at 47.8, 78.9 in the corner of the room with the Astral chest\n\n[# Rats | Lock 1| Lock 2| Lock 3|\n[1 Rats | 1 > P1 | 1 > P2 | 1 > P3 |\n[2 Rats | 1 > P2 | 1 > P4 | 1 > P6 |\n[3 Rats | 1 > P3 | 1 > P6 | 2 > P2 |\n[4 Rats | 1 > P4 | 2 > P1 | 2 > P5 |\n[5 Rats | 1 > P5 | 2 > P3 | 3 > P1 |\n[6 Rats | 1 > P6 | 2 > P3 | 3 > P4 |\n[7 Rats | 1 > P7 | 2 > P7 | 1 > P1 |\n[8 Rats | 2 > P1 | 3 > P2 | 1 > P4 |\n[9 Rats | 2 > P2 | 3 > P4 | 1 > P7 |\n[10Rats| 2 > P3 | 3 > P6 | 2 > P3 |\nExample: Counting 2 rats during Lock 2, stack 1 statue on pressure plate 4.\n\nFully lights up the 8 O'clock basin.",
 								constant = "1_HIT_BEGIN_ON_THE_CONSOLE_THEN_HIT_SUBMIT_A",
 								export = true,
@@ -1024,7 +1024,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 							["provider"] = { "i", 228996 },	-- Relic of Crystal Connections
 							["groups"] = {
 								n(230653, {	-- Greed Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Right of the entrance of the felcycle room.",
 										constant = "RIGHT_OF_THE_ENTRANCE_OF_THE_FELCYCLE_ROOM",
 										export = true,
@@ -1045,7 +1045,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									["coord"] = { 70.6, 34.5, 46 },	-- Karazhan Catacombs
 								}),
 								n(230654, {	-- Guardian Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Opposite the Enigma Machine.",
 										constant = "OPPOSITE_THE_ENIGMA_MACHINE",
 										export = true,
@@ -1066,7 +1066,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									["coord"] = { 61.2, 47.9, 46 },	-- Karazhan Catacombs
 								}),
 								n(230655, {	-- Watcher  Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On the right inside the room ahead of the Red Button.",
 										constant = "ON_THE_RIGHT_INSIDE_THE_ROOM_AHEAD_OF_THE_RED",
 										export = true,
@@ -1087,7 +1087,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									["coord"] = { 43.4, 64.9, 46 },	-- Karazhan Catacombs
 								}),
 								n(230652, {	-- Nature Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In the room with the Astral Chest, left of the Red Button.",
 										constant = "IN_THE_ROOM_WITH_THE_ASTRAL_CHEST_LEFT_OF_THE",
 										export = true,
@@ -1108,7 +1108,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									["coord"] = { 49.3, 75.9, 46 },	-- Karazhan Catacombs
 								}),
 								n(230657, {	-- Rage Statue
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "At the bottom of the entrance stairwell.",
 										constant = "AT_THE_BOTTOM_OF_THE_ENTRANCE_STAIRWELL",
 										export = true,
@@ -1129,7 +1129,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									["coord"] = { 70.3, 79.1, 46 },	-- Karazhan Catacombs
 								}),
 								n(230596, {	-- Rat
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This is a |cff4caf50VALID|r rat, it counts!",
 										constant = "THIS_IS_A_CFF4CAF50VALID_R_RAT_IT_COUNTS",
 										export = true,
@@ -1149,7 +1149,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 									}),
 								}),
 								n(230599, {	-- Catacombs Rat
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This is an |cffff0000INVALID|r rat, it DOESN'T count!",
 										constant = "THIS_IS_AN_CFFFF0000INVALID_R_RAT_IT_DOESN_T",
 										export = true,
@@ -1174,7 +1174,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				-- 9 O'clock Basin
 				o(467191, {	-- Encrypted Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Return to Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.\n\nUse your Starry-Eyed goggles to reveal a translucent platform, use your Relic of Crystal Connections on the humming crystal to get up to it.\n\nCode to open at the adjacent decryption console: 84847078.\n\nFully lights the 9 O'clock Basin.",
 						constant = "RETURN_TO_PILLAR_NEST_VOSH_TO_THE_LEFT_OF",
 						export = true,
@@ -1210,7 +1210,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				-- 10 O'clock Basin
 				n(230070, {	-- Red Button
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",
 						constant = "INTERACTING_WITH_THE_BUTTON_STARTS_A_20_SECOND",
 						export = true,
@@ -1232,7 +1232,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["groups"] = {
 						hqt(84702, {	-- Red Button x100
 							["name"] = "Press the Red Button 100 times",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Unlocks an orb at the 10 O'clock basin.",
 								constant = "UNLOCKS_AN_ORB_AT_THE_10_O_CLOCK_BASIN",
 								export = true,
@@ -1258,7 +1258,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					},
 				}),
 				n(182086, {	-- Hek the Hungry Hornswog
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Feed Hek a Bubblefilled Flounder to be vomited a Duck Egg.",
 						constant = "FEED_HEK_A_BUBBLEFILLED_FLOUNDER_TO_BE_VOMITED",
 						export = true,
@@ -1287,7 +1287,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					},
 				}),
 				n(197973, {	-- Papa
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If Papa and the shiny gift are missing, click the nearby Papa's Feather to call him home.",
 						constant = "IF_PAPA_AND_THE_SHINY_GIFT_ARE_MISSING_CLICK",
 						export = true,
@@ -1317,7 +1317,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					},
 				}),
 				n(184166, {	-- To'no <"The Greatest Explorer Ever">
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Hiding on the Forbidden Reach in one of several locations, To'No and Ko will be stealthed until you're right on top of them. May not be up in any locations, you might have to loop around until a spawn. Disappears a few minutes after being found. \nThe second dialogue interaction awards the Oddsight Focus while the first gives you some random loot.",
 						constant = "HIDING_ON_THE_FORBIDDEN_REACH_IN_ONE_OF_SEVERAL",
 						export = true,
@@ -1355,7 +1355,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				hqt(93688, {	-- Acquire the Oddsight Focus
 					["name"] = "Acquire the Oddsight Focus",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Obtaining the focus fully lights up the 10 O'Clock Basin and removes the void from 11 and 12 O'Clock.",
 						constant = "OBTAINING_THE_FOCUS_FULLY_LIGHTS_UP_THE_10_O",
 						export = true,
@@ -1384,7 +1384,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				}),
 				hqt(93764, {	-- Radiant Singer
 					["name"] = "Become a Radiant Singer",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This step is pretty complicated and requires a 40 man raid, you're also gonna probably need an addon like BeledarOrchestra.\n\nFully lights up the 11 O'Clock Basin.",
 						constant = "THIS_STEP_IS_PRETTY_COMPLICATED_AND_REQUIRES_A",
 						export = true,
@@ -1409,7 +1409,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 				-- 12 O'clock Basin
 				hqt(93765, {	-- Deliver the Orb of Shadows
 					["name"] = "Deliver the Orb of Shadows",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Head to the southeast of Suramar near the coordinates. Use your Torch of Pyrreth to find a wandering invisible ghost, once found, an extra action button will spawn an Orb of Shadows.\n\nYou must take this orb to Golk the Rumble in the center of Azsuna at the second coordinates and talk to them. The player carrying the orb cannot take damage, jump, or swim, and enemies will spark periodically to attack them, a group of players and water walking of some kind will make this easier. Don't be over water for too long though or your buff will drop. The Starry-Eyed Goggles will stop the Darkness debuff.\n\nFully lights up the 12 O'Clock Basin.",
 						constant = "HEAD_TO_THE_SOUTHEAST_OF_SURAMAR_NEAR_THE",
 						export = true,
@@ -1440,7 +1440,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					},
 				}),
 				o(616681, {	-- Hidden Footlocker
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In the center of the Karazhan Catacombs clock room, can only be seen with buffs from the Oddsight Focus, Starry-Eyed Goggles, and having posession of the Spare Key.",
 						constant = "IN_THE_CENTER_OF_THE_KARAZHAN_CATACOMBS_CLOCK",
 						export = true,
@@ -1468,7 +1468,7 @@ root(ROOTS.Secrets, header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 					["groups"] = { i(262561) },	-- Ratts' Journal, Page 317
 				}),
 				o(475116, {	-- Ordinary Pebble
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.\n6. On a shelf in the back in the Nature statue room.",
 						constant = "THESE_PEBBLES_CAN_BE_FOUND_THROUGHOUT_THE",
 						export = true,

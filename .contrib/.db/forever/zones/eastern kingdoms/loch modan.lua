@@ -166,7 +166,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.LOCH_MODAN, {
 							{ "i", 4610 },	-- Carved Stone Urn
 							{ "o", 2743 },	-- Carved Stone Urn
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the outdoor section of Uldaman.",
 							constant = "CAN_BE_FOUND_IN_THE_OUTDOOR_SECTION_OF_ULDAMAN",
 							export = true,
@@ -1035,7 +1035,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.LOCH_MODAN, {
 				},
 			}),
 			i(2700, {	-- Recipe: Succulent Pork Ribs (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has a chance to drop from any creature in the zone.",
 					constant = "HAS_A_CHANCE_TO_DROP_FROM_ANY_CREATURE_IN_THE",
 					export = true,

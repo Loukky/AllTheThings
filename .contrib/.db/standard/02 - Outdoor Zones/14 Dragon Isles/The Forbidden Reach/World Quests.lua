@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 					["groups"] = {
 						i(202412, {	-- Wildfire (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Weaken the boss by defeating battle pets in the area around. Only Rare version of the boss gives this pet.",
 								constant = "WEAKEN_THE_BOSS_BY_DEFEATING_BATTLE_PETS_IN_THE",
 								export = true,

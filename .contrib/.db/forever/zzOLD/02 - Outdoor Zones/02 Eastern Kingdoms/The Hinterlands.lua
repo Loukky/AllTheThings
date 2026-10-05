@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(FACTIONS, {
 				faction(471, {	-- Wildhammer Clan
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This faction gets removed completely with the TBC prepatch, so grinding this to Exalted makes no sense.\n\nYou can grind to 11999/12000 by just killing trolls and then you can *technically* grind to Exalted by turning in Troll Necklaces at a rate of 2 Reputation per 5 necklaces, but rather than encourage you to totally waste your life on a Reputation that gets ultimately removed from the game after the season is over, I'll artificially cap the goal in ATT to Revered.\n\nGodspeed.",
 						constant = "THIS_FACTION_GETS_REMOVED_COMPLETELY_WITH_THE",
 						export = true,
@@ -189,7 +189,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 								{ "i",  19071 },	-- Vessel of Tainted Blood
 								{ "o", 179922 },	-- Vessel of Tainted Blood
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found all over Jintha'alor.",
 								constant = "CAN_BE_FOUND_ALL_OVER_JINTHA_ALOR",
 								export = true,
@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["lvl"] = 42,
 				}),
 				q(485, {	-- Find OOX-09/HL!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The item that starts this quest has a chance to drop from any killed creature in The Hinterlands.",
 						constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_HAS_A_CHANCE_TO",
 						export = true,
@@ -336,7 +336,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 							["cr"] = 14748,	-- Vilebranch Kidnapper
 						}),
 						i(19035, {	-- Lard's Special Picnic Basket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains a random world drop and some consumables.",
 								constant = "CONTAINS_A_RANDOM_WORLD_DROP_AND_SOME",
 								export = true,
@@ -940,7 +940,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 				}),
 				i(4589),	-- Long Elegant Feather
 				i(8704, {	-- OOX-09/HL Distress Beacon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item can drop off of any hostile creature in the zone. Rare and Elite creatures have higher drop chance.",
 						constant = "THIS_ITEM_CAN_DROP_OFF_OF_ANY_HOSTILE_CREATURE",
 						export = true,
@@ -971,7 +971,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["description"] = "~L.CAN_DROP_FROM_ANY_TROLL_IN_THE_HINTERLANDS_OR",
 				}),
 				i(9259, {	-- Troll Tribal Necklace
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any troll in The Hinterlands.",
 						constant = "CAN_DROP_FROM_ANY_TROLL_IN_THE_HINTERLANDS",
 						export = true,

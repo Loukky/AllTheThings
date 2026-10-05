@@ -1013,7 +1013,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				q(9672, {	-- The Bloodcurse Legacy [Mailbox]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The letter is mailed to you when you complete the |cFFFFD700Urgent Delivery|r quest. If you abandon it, you can get it at |cFFFFD700Odesyus' Landing|r in |cFFFFD700Azuremyst Isle|r.",
 						constant = "THE_LETTER_IS_MAILED_TO_YOU_WHEN_YOU_COMPLETE",
 						export = true,
@@ -1039,7 +1039,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(15, 15, 1),
 				}),
 				q(9751, {	-- The Bloodcurse Legacy [Abandoned Other Quest]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered to you if you don't receive the 'A Letter from the Admiral' in the mail or you destroy it and abandon the quest.",
 						constant = "THIS_QUEST_IS_OFFERED_TO_YOU_IF_YOU_DON_T",
 						export = true,
@@ -1399,7 +1399,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["cr"] = 17496,	-- Cruelfin
 				}),
 				i(23900, {	-- Tzerak's Armor Plate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Tzerak spawns at 38.5, 82.3, on the demon seal, then walks through Nazzivian to get to the monument at 36.6, 72.5.",
 						constant = "TZERAK_SPAWNS_AT_38_5_82_3_ON_THE_DEMON_SEAL",
 						export = true,

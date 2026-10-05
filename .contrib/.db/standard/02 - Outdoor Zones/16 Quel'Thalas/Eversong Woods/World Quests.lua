@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["coord"] = { 40.7, 61.2, MAP.MIDNIGHT.EVERSONG_WOODS },
 					["groups"] = {
 						ach(62187, {	-- Grand Magister's Sommelier
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Set to 'Raid' group to complete all dialogs without completing the quest.",
 								constant = "SET_TO_RAID_GROUP_TO_COMPLETE_ALL_DIALOGS",
 								export = true,

@@ -440,7 +440,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				},
 				-- #if BEFORE 9.0.1
 				q(36881, {	-- The Dark Portal / Warlords of Draenor: The Dark Portal [9.0.1]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you want to do the Blasted Lands questline before going to Draenor, abandon this quest after taking the portal to Blasted Lands.",
 						constant = "IF_YOU_WANT_TO_DO_THE_BLASTED_LANDS_QUESTLINE",
 						export = true,
@@ -600,7 +600,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			}),
 			n(ZONE_DROPS, {
 				i(118675, {	-- Bronze Whelpling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must be in the Iron Horde Invasion version of Blasted Lands. Drops from any Iron Horde enemy.",
 						constant = "MUST_BE_IN_THE_IRON_HORDE_INVASION_VERSION_OF",
 						export = true,

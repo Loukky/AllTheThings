@@ -236,7 +236,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66552, {	-- Narrok <Master Pet Tamer>
 						["coord"] = { 61.0, 49.4, NAGRAND },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Narrok's pets are level 22 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anubisath Idol (Demolish/Sandstorm/Deflection) and Turkey (Peck/Squawk/Food Coma).",
 							constant = "NARROK_S_PETS_ARE_LEVEL_22_OF_THE_FOLLOWING",
 							export = true,
@@ -440,7 +440,7 @@ root(ROOTS.Zones, {
 								-- #IF BEFORE 4.2.0
 								["provider"] = { "i", 27808 },	-- Jump-a-tron 4000 Key
 								-- #ENDIF
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can also just fly up there if you have flying.",
 									constant = "YOU_CAN_ALSO_JUST_FLY_UP_THERE_IF_YOU_HAVE",
 									export = true,
@@ -802,7 +802,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(9897, {	-- I'm Saved!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You have to rescue Kristen Dipswitch from Gankly Rottenfist to get offered the quest. When she is not getting attacked by Gankly you have to get her killed by a mob and wait ~90 minutes until she respanws.",
 							constant = "YOU_HAVE_TO_RESCUE_KRISTEN_DIPSWITCH_FROM",
 							export = true,
@@ -1149,7 +1149,7 @@ root(ROOTS.Zones, {
 						-- #endif
 					},
 					q(9867, {	-- Murkblood Leaders..
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing [9888] 'The Impotent Leader' will grant Neutral with The Mag'har.",
 							constant = "COMPLETING_9888_THE_IMPOTENT_LEADER_WILL_GRANT",
 							export = true,
@@ -1216,7 +1216,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10076, {	-- Oshu'gun Crystal Powder (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is only accessible when the Alliance controls Halaa.",
 							constant = "THIS_QUEST_IS_ONLY_ACCESSIBLE_WHEN_THE_ALLIANCE",
 							export = true,
@@ -1267,7 +1267,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10074, {	-- Oshu'gun Crystal Powder (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is only accessible when the Horde controls Halaa.",
 							constant = "THIS_QUEST_IS_ONLY_ACCESSIBLE_WHEN_THE_HORDE",
 							export = true,
@@ -1498,7 +1498,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(9888, {	-- The Impotent Leader
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing this quest will grant Neutral with The Mag'har.",
 							constant = "COMPLETING_THIS_QUEST_WILL_GRANT_NEUTRAL_WITH",
 							export = true,
@@ -2084,7 +2084,7 @@ root(ROOTS.Zones, {
 				-- #endif
 				n(VENDORS, {
 					n(21485, {	-- Aldraan <Blade Merchant>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor is only accessible when the Alliance controls Halaa.",
 							constant = "THIS_VENDOR_IS_ONLY_ACCESSIBLE_WHEN_THE",
 							export = true,
@@ -2166,7 +2166,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(21474, {	-- Coreiel <Blade Merchant>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor is only accessible when the Horde controls Halaa.",
 							constant = "THIS_VENDOR_IS_ONLY_ACCESSIBLE_WHEN_THE_HORDE",
 							export = true,
@@ -2247,7 +2247,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(19015, {	-- Mathar G'ochar <Trade Supplies>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor pats around Garadar.",
 							constant = "THIS_VENDOR_PATS_AROUND_GARADAR",
 							export = true,
@@ -2350,7 +2350,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					n(18822, {	-- Quartermaster Davian Vaclav
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This NPC is only accessible when the Alliance controls Halaa.",
 							constant = "THIS_NPC_IS_ONLY_ACCESSIBLE_WHEN_THE_ALLIANCE",
 							export = true,
@@ -2469,7 +2469,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(18821, {	-- Quartermaster Jaffrey Noreliqe
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This NPC is only accessible when the Horde controls Halaa.",
 							constant = "THIS_NPC_IS_ONLY_ACCESSIBLE_WHEN_THE_HORDE",
 							export = true,

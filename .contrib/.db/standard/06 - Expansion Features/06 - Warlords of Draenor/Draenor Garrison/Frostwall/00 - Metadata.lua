@@ -14,7 +14,7 @@ root(ROOTS.ExpansionFeatures,
 				},
 				["isRaid"] = true,
 				["icon"] = 1046795,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Frostwall is the Horde Garrison, located in Frostfire Ridge. A fully-upgraded Frostwall garrison is considered to be a fortress.",
 					constant = "FROSTWALL_IS_THE_HORDE_GARRISON_LOCATED_IN",
 					export = true,

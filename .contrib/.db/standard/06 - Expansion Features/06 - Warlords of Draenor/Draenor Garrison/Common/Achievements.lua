@@ -40,7 +40,7 @@ root(ROOTS.ExpansionFeatures,
 				ach(9110),	-- Following Up
 				ach(9111),	-- Raising the Bar
 				ach(9129, {	-- Filling the Ranks
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 						constant = "UNLOCKS_THE_ABILITY_TO_PURCHASE_THE_BLUEPRINT",
 						export = true,

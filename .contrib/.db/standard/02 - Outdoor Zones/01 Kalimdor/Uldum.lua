@@ -54,7 +54,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(851, {	-- Horned Lizard (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in most places around Uldum, the listed coordinates indicates the wider areas where the pet is most common.",
 							constant = "CAN_BE_FOUND_IN_MOST_PLACES_AROUND_ULDUM_THE",
 							export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(543, {	-- Locust (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around Vir'naal river.",
 							constant = "FOUND_AROUND_VIR_NAAL_RIVER",
 							export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(542, {	-- Mac Frog (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around Vir'nal river.",
 							constant = "FOUND_AROUND_VIR_NAL_RIVER",
 							export = true,
@@ -153,7 +153,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(511, {	-- Sidewinder (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in most places around Uldum and Silithus, the listed coordinates indicates the wider areas where the pet is most common.",
 							constant = "CAN_BE_FOUND_IN_MOST_PLACES_AROUND_ULDUM_AND",
 							export = true,
@@ -317,7 +317,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 				}),
 				prof(MINING, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
 						constant = "ELEMENTIUM_VEINS_0_05_DROP_RATE_AND_RICH",
 						export = true,
@@ -473,7 +473,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(27517, {	-- Be Prepared
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest can be accepted from a Decrepit Skeleton or from a Piece of Rope, looted from a Tormented Tomb-Robber. This version of the quest can be picked up as soon as you enter the Chamber of the Stars.",
 						constant = "THIS_QUEST_CAN_BE_ACCEPTED_FROM_A_DECREPIT",
 						export = true,
@@ -501,7 +501,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(28602, {	-- Be Prepared
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest will be offered if you have completed Lessons From the Past.",
 						constant = "THIS_VERSION_OF_THE_QUEST_WILL_BE_OFFERED_IF",
 						export = true,
@@ -644,7 +644,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(27940, {	-- Dirty Birds
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is auto-accepted when you kill a Diseased Vulture after accepting The Desert Fox or A Favor for the Furrier.",
 						constant = "THIS_QUEST_IS_AUTO_ACCEPTED_WHEN_YOU_KILL_A",
 						export = true,
@@ -686,7 +686,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(27187, {	-- Do the World a Favor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is auto-accepted when you kill a Mangy Hyena after accepting A Strange Disc or Field Work.",
 						constant = "THIS_QUEST_IS_AUTO_ACCEPTED_WHEN_YOU_KILL_A_2",
 						export = true,
@@ -812,7 +812,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(28267, {	-- Firing Squad
 					-- #if AFTER 9.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If Harrison Jones does not spawn after the cutscene, you have to zone out and back in again. Either log out and in again, or fly northwest to Ahn'Qiraj and back.",
 						constant = "IF_HARRISON_JONES_DOES_NOT_SPAWN_AFTER_THE",
 						export = true,
@@ -977,7 +977,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 				}),
 				q(27627, {	-- Just a Fancy Cockroach
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is auto-accepted when you kill any color Scarab after completing Tipping the Balance.",
 						constant = "THIS_QUEST_IS_AUTO_ACCEPTED_WHEN_YOU_KILL_ANY",
 						export = true,
@@ -1157,7 +1157,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 46136,	-- Vizier Tanotep
 				}),
 				q(27196, {	-- On to Something
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Warning: Jumping after Harrison Jones DOES NOT give you any slow fall effects. Mount up and fly down after him.",
 						constant = "WARNING_JUMPING_AFTER_HARRISON_JONES_DOES_NOT",
 						export = true,
@@ -1290,7 +1290,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(28402, {	-- Schnottz So Fast
 					-- #if AFTER 9.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If Harrison Jones does not spawn after the cutscene, you have to zone out and back in again. Either log out and in again, or fly out of Chamber of the Moon and back.",
 						constant = "IF_HARRISON_JONES_DOES_NOT_SPAWN_AFTER_THE_2",
 						export = true,
@@ -1710,7 +1710,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 64.5, 28.0, ULDUM },
 				}),
 				q(27922, {	-- Traitors!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You are meant to get up on the roof by using your own flyng mount.",
 						constant = "YOU_ARE_MEANT_TO_GET_UP_ON_THE_ROOF_BY_USING",
 						export = true,
@@ -1845,7 +1845,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(50409, {	-- Mysterious Camel Figurine
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you're lucky enough to find this Mysterious Camel Figurine, clicking on it will teleport you to the Feralas Steam Pools, where you can defeat Dormus to get the rare Grey Riding Camel.",
 						constant = "IF_YOU_RE_LUCKY_ENOUGH_TO_FIND_THIS_MYSTERIOUS",
 						export = true,
@@ -1892,7 +1892,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(50410, {	-- Mysterious Camel Figurine
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fake Camel!",
 						constant = "FAKE_CAMEL",
 						export = true,

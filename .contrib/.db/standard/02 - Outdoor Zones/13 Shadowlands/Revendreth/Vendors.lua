@@ -241,7 +241,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					i(180973, {	-- Necklace of Dredbat Fangs
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take this to Ta'lan the Antiquary in Oribos (downstairs in The Broker's Den) |cffffffff(51.4, 42.9)|r.",
 							constant = "TAKE_THIS_TO_TA_LAN_THE_ANTIQUARY_IN_ORIBOS",
 							export = true,
@@ -265,7 +265,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(182702),	-- Phial of Black Muck Dye
 					i(182163),	-- Strength of Blood
 					i(187886, {	-- Technique: Mark of the Gloomstalker Dredbat (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Sold for 20-30 of a trade good which changes every day. And sometimes it's not even on the vendor!",
 							constant = "SOLD_FOR_20_30_OF_A_TRADE_GOOD_WHICH_CHANGES",
 							export = true,

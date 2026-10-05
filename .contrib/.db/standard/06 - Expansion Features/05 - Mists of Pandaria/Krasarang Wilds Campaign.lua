@@ -624,7 +624,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["isDaily"] = true,
 					}),
 					q(32460, {	-- Tracking the Thieves
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you leave before completing this quest, you may need to abandon it and pick it near the east gate of Darnassus rather than returning to where you originally picked it up.",
 							constant = "IF_YOU_LEAVE_BEFORE_COMPLETING_THIS_QUEST_YOU",
 							export = true,
@@ -699,7 +699,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 						["coord"] = { 68.3, 44.9, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 					}),
 					q(32413, {	-- A Return to Krasarang
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To be able to pick up this quest, head to Domination Point in Krasarang Wilds and take the flightpath back to Dalaran.",
 							constant = "TO_BE_ABLE_TO_PICK_UP_THIS_QUEST_HEAD_TO",
 							export = true,
@@ -1328,7 +1328,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 							["timeline"] = { ADDED_6_1_0 },
 						}),
 						i(92527, {	-- Rodent Crate
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Using the Rodent Crate will spawn 5-7 Sumprush Rodents in the surrounding area. Any players may engage in battle with these wild pets, not just the user of the item.|r",
 								constant = "USING_THE_RODENT_CRATE_WILL_SPAWN_5_7_SUMPRUSH",
 								export = true,

@@ -15,7 +15,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 		n(CARTOGRAPHERS_FLAG, bubbleDownSelf({ ["minReputation"] = { FACTION_DRAGONSCALE_EXPEDITION, 7 } }, {
 			n(ACHIEVEMENTS, {
 				ach(15890, {	-- Dragonscale Expedition: The Highest Peaks
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Research Cartographer's Flag at Expedition Supply Kit.",
 						constant = "REQUIRES_RESEARCH_CARTOGRAPHER_S_FLAG_AT",
 						export = true,

@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			},
 		}),
 		i(141592, {	-- Technique: Codex of the Tranquil Mind (Rank 3) (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Supposedly able to drop from any Legion Dungeon final boss while on Heroic/Mythic, but only certain ones have been confirmed recently as indicated by the Creatures tagged on this Item.",
 				constant = "SUPPOSEDLY_ABLE_TO_DROP_FROM_ANY_LEGION_DUNGEON",
 				export = true,

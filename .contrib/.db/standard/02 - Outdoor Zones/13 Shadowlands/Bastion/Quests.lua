@@ -802,7 +802,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				-- Nemea
 				q(58184, {	-- Antiquated Methodology
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available if you complete all of Pelodis's quests before any of Nemea's quests.",
 						constant = "ONLY_AVAILABLE_IF_YOU_COMPLETE_ALL_OF_PELODIS_S",
 						export = true,
@@ -886,7 +886,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				-- Pelodis
 				q(58185, {	-- Success Without Soul
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available if you complete all of Nemea's quests before any of Pelodis's quests.",
 						constant = "ONLY_AVAILABLE_IF_YOU_COMPLETE_ALL_OF_NEMEA_S",
 						export = true,

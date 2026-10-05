@@ -20,7 +20,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 		["groups"] = {
 			n(VENDORS, {
 				n(255473, {	-- Maren Silverwing <Quartermaster>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|cffFF0000Items purchased from this Vendor will block you|r from completing the neighboring Cosmetic Vendor in ATT Completionist Mode.\nThis is a |cff00CCFFBlizzard|r restriction.",
 						constant = "CFFFF0000ITEMS_PURCHASED_FROM_THIS_VENDOR_WILL",
 						export = true,

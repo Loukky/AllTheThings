@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(632, {	-- Ash Lizard (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around Fire Plum Ridge in Un'goro Crater and around fiery and dry areas in lower Mount Hyjal.",
 							constant = "FOUND_AROUND_FIRE_PLUM_RIDGE_IN_UN_GORO_CRATER",
 							export = true,
@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(504, {	-- Diemetradon Hatchling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found around Golakka Hot Springs, near Elder Diemetradons.",
 							constant = "CAN_BE_FOUND_AROUND_GOLAKKA_HOT_SPRINGS_NEAR",
 							export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(631),	-- Emerald Boa (PET!)
 					pet(403),	-- Parrot (PET!)
 					pet(502, {	-- Spotted Bell Frog (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only found around water in Un'goro.",
 							constant = "ONLY_FOUND_AROUND_WATER_IN_UN_GORO",
 							export = true,
@@ -874,7 +874,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #endif
 				q(24699, {	-- Gormashh the Glutinous
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you have a Herbalism as a profession, you will have to use the 'Tar Scrapper' manually from the Objective Tracker or from your bag.",
 						constant = "IF_YOU_HAVE_A_HERBALISM_AS_A_PROFESSION_YOU",
 						export = true,
@@ -1221,7 +1221,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 47,
 				}),
 				q(24693, {	-- Mossy Pile
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After completing this quest you won't be able to pick up |cFFFFD700Speak With Spraggle|r breadcrumb.",
 						constant = "AFTER_COMPLETING_THIS_QUEST_YOU_WON_T_BE_ABLE",
 						export = true,
@@ -1473,7 +1473,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(24736, {	-- Shizzle's Flyer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Picking up or completing this quest will make |cFFFFD700Speak with Spraggle|r unavailable, making its quest chain and rewards unobtainable.",
 						constant = "PICKING_UP_OR_COMPLETING_THIS_QUEST_WILL_MAKE",
 						export = true,
@@ -1548,7 +1548,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(24794, {	-- Speak With Spraggle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest won't be available if you complete |cFFFFD700Shizzle's Flyer|r first.",
 						constant = "THIS_QUEST_WON_T_BE_AVAILABLE_IF_YOU_COMPLETE",
 						export = true,
@@ -1828,7 +1828,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(24718, {	-- The Mighty U'cha
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest pops-up when you enter the Fungal Rock cave during the quest |cFFFFD700The Apes of Un'Goro|r.",
 						constant = "THIS_QUEST_POPS_UP_WHEN_YOU_ENTER_THE_FUNGAL",
 						export = true,
@@ -1950,7 +1950,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(24706, {	-- The Spirits of Golakka Hot Springs
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Engage, but do not kill Steaming Fury until Maximillian finished his prayer.",
 						constant = "ENGAGE_BUT_DO_NOT_KILL_STEAMING_FURY_UNTIL",
 						export = true,
@@ -2344,7 +2344,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(115923, {	-- Ko'Zan <Courier>
 					["sourceQuest"] = 45057,	-- Saving My Head
 					["coord"] = { 43.6, 41.4, UNGORO_CRATER },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vendor only sells plans to those who have completed the quest 'Saving My Head'.",
 						constant = "VENDOR_ONLY_SELLS_PLANS_TO_THOSE_WHO_HAVE",
 						export = true,

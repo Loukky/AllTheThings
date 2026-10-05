@@ -223,7 +223,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						24800,	-- A Victory For The Sunreavers [Blood Elves]
 						24798,	-- A Victory For The Sunreavers [Blood Elves - Maces]
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You will be able to choose one of these weapons when you turn in your class/race specific Victory quest. You will learn all of their transmogs regardless of your choice.",
 						constant = "YOU_WILL_BE_ABLE_TO_CHOOSE_ONE_OF_THESE_WEAPONS",
 						export = true,
@@ -1971,7 +1971,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				}),
 
 				applyclassicphase(WRATH_PHASE_THREE, q(14095, {	-- Identifying the Remains
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Defeating the Kraken during |cFFFFD700Get Kraken|r rewards this item.",
 						constant = "DEFEATING_THE_KRAKEN_DURING_CFFFFD700GET_KRAKEN",
 						export = true,
@@ -3713,7 +3713,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 			bubbleDownSelf({ ["races"] = ALLIANCE_ONLY }, {
 				["groups"] = {
 					a(q(14443, {	-- The Battered Hilt (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Battered Hilt is a somewhat rare drop from the Icecrown dungeons 'Forge of Souls', 'Pit of Saron', and 'The Halls of Reflection'. Alternatively it can also be bought from the Auction House.",
 							constant = "THE_BATTERED_HILT_IS_A_SOMEWHAT_RARE_DROP_FROM",
 							export = true,
@@ -3783,7 +3783,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						},
 					}),
 					q(24454, {	-- Return To Caladis Brightspear
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Turning in this quest triggers a lore exposition.",
 							constant = "TURNING_IN_THIS_QUEST_TRIGGERS_A_LORE",
 							export = true,
@@ -3839,7 +3839,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						},
 					}),
 					q(24480, {	-- The Halls Of Reflection (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Just enter the instance and a special event will unfold. There is no need to talk to Jaina.",
 							constant = "JUST_ENTER_THE_INSTANCE_AND_A_SPECIAL_EVENT",
 							export = true,
@@ -3872,7 +3872,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						},
 					}),
 					q(24522, {	-- Journey To The Sunwell (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you accidentally enter the raid before turning in the quest, you will have to use your hearthstone to get out or walk through the whole empty instance to a portal at the end.",
 							constant = "IF_YOU_ACCIDENTALLY_ENTER_THE_RAID_BEFORE",
 							export = true,
@@ -3966,7 +3966,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 			bubbleDownSelf({ ["races"] = HORDE_ONLY }, {
 				["groups"] = {
 					q(24554, {	-- The Battered Hilt (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Battered Hilt is a somewhat rare drop from the Icecrown dungeons 'The Forge of Souls', 'The Pit of Saron', and 'The Halls of Reflection'. Alternatively it can also be bought from the Auction House.",
 							constant = "THE_BATTERED_HILT_IS_A_SOMEWHAT_RARE_DROP_FROM_2",
 							export = true,
@@ -4076,7 +4076,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						},
 					}),
 					q(24561, {	-- The Halls Of Reflection (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Just enter the instance and a special event will unfold. There is no need to talk to Sylvanas.",
 							constant = "JUST_ENTER_THE_INSTANCE_AND_A_SPECIAL_EVENT_2",
 							export = true,
@@ -4318,7 +4318,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 								["timeline"] = { ADDED_8_1_0 },
 								["groups"] = {
 									i(164933, {	-- Sen'jin Beakblade Longrifle
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "This Horde item will be automatically learned after buying the Alliance version.",
 											constant = "THIS_HORDE_ITEM_WILL_BE_AUTOMATICALLY_LEARNED",
 											export = true,

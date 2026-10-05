@@ -187,7 +187,7 @@ root(ROOTS.Zones, {
 					["questID"] = 43795,
 					["coord"] = { 54.7, 46.1, SURAMAR },
 					["isDaily"] = IGNORED_VALUE,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found inside |cFFFFD700Teloth'aran|r trapped in a web. Free him and he'll join you in Shal'Aran!",
 						constant = "FOUND_INSIDE_CFFFFD700TELOTH_ARAN_R_TRAPPED_IN",
 						export = true,

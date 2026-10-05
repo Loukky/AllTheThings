@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(500, {	-- Minfernal (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found around Shatter Scar Vale near Infernal Sentries.",
 							constant = "CAN_BE_FOUND_AROUND_SHATTER_SCAR_VALE_NEAR",
 							export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66442, {	-- Zoltan <Master Pet Tamer>
 					["coord"] = { 40.0, 56.6, FELWOOD },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nZoltan's pets are level 16 of the following consecutive pet classes:\n1. Mechanical - use Elemental (powerful and tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_THOUGH_ALLIANCE_2",
 						export = true,
@@ -1461,7 +1461,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 220167 },	-- Shimmering Grave Dust
 								{ "o", 441222 },	-- Grave Mound
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can find this after killing Princess in Maraudon, right in front of Zaetar's Spirit next to his feet.",
 								constant = "YOU_CAN_FIND_THIS_AFTER_KILLING_PRINCESS_IN",
 								export = true,
@@ -1482,7 +1482,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						objective(3, {	-- 0/1 Triple-Brewed Molten Lager
 							["provider"] = { "i", 220168 },	-- Triple-Brewed Molten Lager
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Sold by Plugger Spazzring in Blackrock Depths.",
 								constant = "SOLD_BY_PLUGGER_SPAZZRING_IN_BLACKROCK_DEPTHS",
 								export = true,
@@ -2463,7 +2463,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/3 Wild Offering
 							["provider"] = { "i", 221262 },	-- Wild Offering
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Zul'Farrak - Clear any 3 bosses to spawn Delirious Ancient\nMaraudon - Kill Princess Theradras to spawn Delirious Ancient\nBlackrock Depths - Kill all three boss encounters - High Interrogator Gerstahn, Houndmaster Grebmar & High Justice Grimstone - to spawn Delirious Ancient\n\nUse Agamaggan's Roar Agamaggan's Roar on any of the ghostly spawns to summon dungeon-respective Delirious Ancient.",
 								constant = "ZUL_FARRAK_CLEAR_ANY_3_BOSSES_TO_SPAWN",
 								export = true,
@@ -2884,7 +2884,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 				n(107595, {	-- Grimrot
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is the daytime light grey bear model.",
 						constant = "THIS_IS_THE_DAYTIME_LIGHT_GREY_BEAR_MODEL",
 						export = true,
@@ -2906,7 +2906,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_7_0_3 },
 				}),
 				n(107596, {	-- Grimrot
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is the nightime black diseased bear model.",
 						constant = "THIS_IS_THE_NIGHTIME_BLACK_DISEASED_BEAR_MODEL",
 						export = true,
@@ -3097,7 +3097,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 40,
 					["groups"] = {
 						i(221491, {	-- Shadowtooth Bag
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Random non-Ace card from the new DMF decks.",
 								constant = "RANDOM_NON_ACE_CARD_FROM_THE_NEW_DMF_DECKS",
 								export = true,

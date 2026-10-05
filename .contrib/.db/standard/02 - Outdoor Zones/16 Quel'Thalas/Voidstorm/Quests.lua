@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(89060, {	-- Stay awhile and listen: Alleria Windrunner
 						["name"] = "Stay awhile and listen: Alleria Windrunner",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'No Prayer for the Wicked' (86565).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_NO_PRAYER_FOR",
 							export = true,
@@ -714,7 +714,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["qi"] = 253518,	-- Pathogen Antidote (QI!)
 					}),
 					q(93801, {	-- Calculated Culling
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available after you cured Ren'dorei Scout during 'Expunging Explorers' (91560)",
 							constant = "AVAILABLE_AFTER_YOU_CURED_REN_DOREI_SCOUT",
 							export = true,
@@ -1146,7 +1146,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 				header(HEADERS.AchCriteria, 61864.12, {	-- Oaths to Family
 					q(90838, {	-- Oaths and Heirlooms
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Vignette is shown on the map after completing 'Friend or Fiend' but, Quest Giver is not available until you complete 'The Lay of the Beast'.",
 							constant = "VIGNETTE_IS_SHOWN_ON_THE_MAP_AFTER_COMPLETING",
 							export = true,
@@ -1507,7 +1507,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["qi"] = 254671,	-- Talon of the Towering Ultradon (QI!)
 					}),
 					q(92510, {	-- Dark Infusion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you get stuck on this quest where Magister Umbric is missing and you can't turn it in, you need to progress further into campaign up to the quest 'Domus Penumbra' (86510).",
 							constant = "IF_YOU_GET_STUCK_ON_THIS_QUEST_WHERE_MAGISTER",
 							export = true,
@@ -1547,7 +1547,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(92641, {	-- Bloodying the Plain
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Become available during 'Cut Her Strings' (91147).",
 						constant = "BECOME_AVAILABLE_DURING_CUT_HER_STRINGS_91147",
 						export = true,

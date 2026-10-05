@@ -139,7 +139,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 				n(35579, {	-- Aspirant Forudir <Triumphant Armor Vendor>
 					["coord"] = { 75.4, 21.6, ICECROWN },
 					-- #if AFTER LEGION
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|CFFFF0000Purchasing this exact piece (shared appearances don't work) and letting the 2 hour timer disappear unlocks the Horde equivalent.|r",
 						constant = "CFFFF0000PURCHASING_THIS_EXACT_PIECE_SHARED",
 						export = true,
@@ -323,7 +323,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 				n(35580, {	-- Aspirant Naradiel <Triumphant Armor Vendor>
 					["coord"] = { 75.4, 22.0, ICECROWN },
 					-- #if AFTER LEGION
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|CFFFF0000Purchasing this exact piece (shared appearances don't work) and letting the 2 hour timer disappear unlocks the Alliance equivalent.|r",
 						constant = "CFFFF0000PURCHASING_THIS_EXACT_PIECE_SHARED_2",
 						export = true,
@@ -1269,7 +1269,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					34496,	-- Eydis Darkbane
 					34564,	-- Anub'arak
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These drop on all difficulties other than 10 Man Normal.",
 					constant = "THESE_DROP_ON_ALL_DIFFICULTIES_OTHER_THAN_10",
 					export = true,
@@ -1845,7 +1845,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					},
 				}),
 				o(195665, bubbleDown({ ["timeline"] = { ADDED_3_2_0, REMOVED_4_0_3 } }, {	-- Argent Crusade Tribute Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This chest appears after the defeat of Anub'arak in successful Tribute runs in the Trial of the Crusader.",
 						constant = "THIS_CHEST_APPEARS_AFTER_THE_DEFEAT_OF_ANUB",
 						export = true,

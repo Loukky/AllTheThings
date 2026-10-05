@@ -4,7 +4,7 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDED_4_3_0 }, {
 	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, inst(184, {	-- End Time
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Consists of three bosses. The first boss can either be Echo of Baine in the Obsidian Dragonshrine, or Echo of Sylvanas in the Ruby Dragonshrine. The second boss is either Echo of Jaina in the Azure Dragonshrine, or Echo of Tyrande in the Emerald Dragonshrine. Murozond is always the last boss.",
 			constant = "CONSISTS_OF_THREE_BOSSES_THE_FIRST_BOSS_CAN",
 			export = true,

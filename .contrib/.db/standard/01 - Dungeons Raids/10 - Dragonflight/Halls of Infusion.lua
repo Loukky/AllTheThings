@@ -4,7 +4,7 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	inst(1204, {	-- Halls of Infusion
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Entrance is located at the last layer inside the cyndrical building.",
 			constant = "THE_ENTRANCE_IS_LOCATED_AT_THE_LAST_LAYER",
 			export = true,

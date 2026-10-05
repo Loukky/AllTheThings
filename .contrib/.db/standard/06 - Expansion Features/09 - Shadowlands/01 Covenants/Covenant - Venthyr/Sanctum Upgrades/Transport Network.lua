@@ -92,7 +92,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 						}),
 						n(TIER_THREE, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Each day, a set of 3 Broken Mirrors is active in Revendreth. They are not on a predictable cycle, so the same set may be up two days in a row. Toggle on Debug Mode, 'Show All Trackable Things,' or 'Track Repeatable Quests' to see the list of mirror sets available to restore.\n\nIf your mirror transports you to Sanctuary of the Mad, go back to the repaired mirror and re-enter it to be teleported to the correct room.",
 								constant = "EACH_DAY_A_SET_OF_3_BROKEN_MIRRORS_IS_ACTIVE_IN",
 								export = true,
@@ -119,7 +119,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										}),
 									}),
 									n(SET_A, {
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Wowhead: |cffffffffGroup 1|r",
 											constant = "WOWHEAD_CFFFFFFFFGROUP_1_R",
 											export = true,
@@ -180,7 +180,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									n(SET_B, {
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Wowhead: |cffffffffGroup 2|r",
 											constant = "WOWHEAD_CFFFFFFFFGROUP_2_R",
 											export = true,
@@ -241,7 +241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									n(SET_C, {
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Wowhead: |cffffffffGroup 3|r",
 											constant = "WOWHEAD_CFFFFFFFFGROUP_3_R",
 											export = true,
@@ -302,7 +302,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									n(SET_D, {
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Wowhead: |cffffffffGroup 4|r",
 											constant = "WOWHEAD_CFFFFFFFFGROUP_4_R",
 											export = true,
@@ -375,7 +375,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["coord"] = { 47.3, 57.5, SINFALL_REACHES },
 									}),
 									q(59740, {	-- Repair and Restore
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Requires completing 2 of the pre-requisite quests.",
 											constant = "REQUIRES_COMPLETING_2_OF_THE_PRE_REQUISITE",
 											export = true,
@@ -419,7 +419,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										i(183972),	-- Forgotten Venthyr Winged Kris
 										i(183973),	-- Lost Winged Ritual Kris
 										i(183976, {	-- Rogue Researcher's Dagger
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Drops for any class.",
 												constant = "DROPS_FOR_ANY_CLASS",
 												export = true,
@@ -487,7 +487,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(181023),	-- Dread Sentinel's Burnished Chestplate
 											i(181030, {	-- Dread Sentinel's Burnished Cloak
 												["classes"] = PLATE_CLASSES,
-												createLocalizationString({
+												["description"] = createLocalizationString({
 													readable = "This cloak is only awarded to Plate characters.",
 													constant = "THIS_CLOAK_IS_ONLY_AWARDED_TO_PLATE_CHARACTERS_2",
 													export = true,

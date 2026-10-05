@@ -320,7 +320,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_2_0_3, REMOVED_9_0_1 }	-- TODO: I am not sure when this got removed.
 			}),
 			i(20980, {	-- Warder's Shortbow
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Blood Elf Hunters start with this weapon.",
 					constant = "NEW_BLOOD_ELF_HUNTERS_START_WITH_THIS_WEAPON",
 					export = true,
@@ -344,7 +344,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 }
 			}),
 			i(23347, {	-- Weathered Crossbow
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Human, Draenei, and Undead Hunters start with this weapon.",
 					constant = "NEW_HUMAN_DRAENEI_AND_UNDEAD_HUNTERS_START_WITH",
 					export = true,
@@ -383,7 +383,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157678),	-- Heartbonded Legguards
 			i(157675),	-- Heartbonded Greaves
 			i(157649, {	-- Goldstring Recurve
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Highmountain Tauren Hunters start with this weapon.",
 					constant = "NEW_HIGHMOUNTAIN_TAUREN_HUNTERS_START_WITH_THIS",
 					export = true,
@@ -403,7 +403,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				}),
 			}),
 			i(157622, {	-- Silverscope Longrifle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Mechagnome Hunters start with this weapon. The 4 remaining Mechagnome players gatekept this from us for far too long.",
 					constant = "NEW_MECHAGNOME_HUNTERS_START_WITH_THIS_WEAPON",
 					export = true,
@@ -424,7 +424,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 			i(232631, {	-- Wrapped Spear
 				i(157650, {	-- Tracker's Spear
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "New Highmountain Tauren Hunters start with this weapon in your inventory via the Wrapped Spear.",
 						constant = "NEW_HIGHMOUNTAIN_TAUREN_HUNTERS_START_WITH_THIS_2",
 						export = true,
@@ -762,7 +762,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	cl(PALADIN, {
 		filter(MOUNTS, {
 			mount(453785, {	-- Earthen Ordinant's Ramolith (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as an Earthen Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_AN_EARTHEN",
 					export = true,
@@ -785,7 +785,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_11_0_2 }
 			}),
 			mount(270564, {	-- Dawnforge Ram (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Dwarf Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_DWARF",
 					export = true,
@@ -808,7 +808,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_8_0_1 }
 			}),
 			mount(73629, {	-- Exarch's Elekk (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Draenei Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_DRAENEI",
 					export = true,
@@ -831,7 +831,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_4_0_3 }
 			}),
 			mount(73630, {	-- Great Exarch's Elekk (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 17 as a Draenei Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_17_AS_A_DRAENEI",
 					export = true,
@@ -854,7 +854,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_4_0_3 }
 			}),
 			mount(69826, {	-- Great Sunwalker Kodo (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 17 as a Tauren Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_17_AS_A_TAUREN",
 					export = true,
@@ -877,7 +877,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_4_0_3 }
 			}),
 			mount(69820, {	-- Sunwalker Kodo (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Tauren Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_TAUREN",
 					export = true,
@@ -901,7 +901,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 			mount(34767, {	-- Thalassian Charger (MOUNT!)
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 17 as a Blood Elf Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_17_AS_A_BLOOD_ELF",
 					export = true,
@@ -931,7 +931,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 			mount(34769, {	-- Thalassian Warhorse (MOUNT!)
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Blood Elf Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_BLOOD_ELF",
 					export = true,
@@ -962,7 +962,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			mount(13819, {	-- Warhorse (MOUNT!)
                 ["timeline"] = { ADDED_1_1_0 },
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Human or Dwarf Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_HUMAN_OR",
 					export = true,
@@ -990,7 +990,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["classes"] = { PALADIN },
 			}),
 			mount(290608, {	-- Crusader's Direhorn (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Zandalari Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_ZANDALARI",
 					export = true,
@@ -1012,7 +1012,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["races"] = { ZANDALARI },
 			}),
 			mount(270562, {	-- Darkforge Ram (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Dark Iron Dwarf Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_DARK_IRON",
 					export = true,
@@ -1034,7 +1034,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["races"] = { DARKIRON },
 			}),
 			mount(363613, {	-- Lightforged Ruinstrider (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Lightforged Draenei Paladin.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_LIGHTFORGED",
 					export = true,
@@ -1148,7 +1148,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157702),	-- Lightsoul Legplates
 			i(157699),	-- Lightsoul Sabatons
 			i(157631, {	-- Maul of Smiting
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Lightforged Draenei Paladins start with this weapon.",
 					constant = "NEW_LIGHTFORGED_DRAENEI_PALADINS_START_WITH",
 					export = true,
@@ -1386,7 +1386,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157709),	-- Curate's Pants
 			i(157706),	-- Curate's Boots
 			i(157632, {	-- Staff of Interwoven Power
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Nightborne or Void Elf Priests start with this weapon.",
 					constant = "NEW_NIGHTBORNE_OR_VOID_ELF_PRIESTS_START_WITH",
 					export = true,
@@ -1592,7 +1592,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_2_0_3, REMOVED_9_0_1 }	-- TODO: I am not sure when this got removed.
 			}),
 			i(50057, {	-- Sharp Dirk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Blood Elves start with this weapon.",
 					constant = "NEW_BLOOD_ELVES_START_WITH_THIS_WEAPON",
 					export = true,
@@ -1757,7 +1757,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157726),	-- Totem-Caller Legwraps
 			i(157723),	-- Totem-Caller Boots
 			i(157638, {	-- Lightning-Binder's Claws
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Allied Race Shamans start with this weapon.",
 					constant = "NEW_ALLIED_RACE_SHAMANS_START_WITH_THIS_WEAPON",
 					export = true,
@@ -1786,7 +1786,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			mount(5784, {	-- Felsteed (MOUNT!)
                 ["timeline"] = { ADDED_1_1_0 },
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received on reaching Level 10 as a Warlock.",
 					constant = "RECEIVED_ON_REACHING_LEVEL_10_AS_A_WARLOCK",
 					export = true,
@@ -1826,7 +1826,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_9_2_0 },
 			["groups"] = {
 				q(65425, {	-- Whatever You Sayaad (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Start this quest via your own Sayaad(Succubus/Incubus Pet).",
 						constant = "START_THIS_QUEST_VIA_YOUR_OWN_SAYAAD_SUCCUBUS",
 						export = true,
@@ -1956,7 +1956,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 					},
 				}),
 				q(76163, {	-- A Lighter Shade of Fel
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You get this quest in your mailbox next weekly reset after finishing 'When Revenge Burns Green'",
 						constant = "YOU_GET_THIS_QUEST_IN_YOUR_MAILBOX_NEXT_WEEKLY",
 						export = true,
@@ -2134,7 +2134,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(157733),	-- Felburner's Leggings
 			i(157730),	-- Felburner's Sandals
 			i(157652, {	-- Shadow-Binder's Spire
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "New Allied Race Warlocks start with this weapon.",
 					constant = "NEW_ALLIED_RACE_WARLOCKS_START_WITH_THIS_WEAPON",
 					export = true,
@@ -2358,7 +2358,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	filter(BACK_F, {
 		i(52940, {	-- Candy's Cloak
 			["races"] = { GOBLIN },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Cloak for Male Goblins",
 				constant = "FORMER_STARTER_CLOAK_FOR_MALE_GOBLINS",
 				export = true,
@@ -2380,7 +2380,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		i(52937, {	-- Chip's Cloak
 			["races"] = { GOBLIN },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Cloak for Female Goblins",
 				constant = "FORMER_STARTER_CLOAK_FOR_FEMALE_GOBLINS",
 				export = true,
@@ -2457,7 +2457,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		-- #endif
 		i(6125, {	-- Brawler's Harness
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Orc, Troll, Tauren & Undead Warriors",
 				constant = "FORMER_STARTER_SHIRT_FOR_ORC_TROLL_TAUREN",
 				export = true,
@@ -2478,7 +2478,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(49, {	-- Footpad's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Human, Night Elf, Dwarf & Gnome Rogues",
 				constant = "FORMER_STARTER_SHIRT_FOR_HUMAN_NIGHT_ELF_DWARF",
 				export = true,
@@ -2499,7 +2499,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(49567, {	-- Gilnean Adventurer's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "New Worgen Hunters, Rogues, and Warriors start out with this shirt.",
 				constant = "NEW_WORGEN_HUNTERS_ROGUES_AND_WARRIORS_START",
 				export = true,
@@ -2520,7 +2520,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_4_0_3 },
 		}),
 		i(24143, {	-- Initiate's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Blood Elf Paladins",
 				constant = "FORMER_STARTER_SHIRT_FOR_BLOOD_ELF_PALADINS",
 				export = true,
@@ -2541,7 +2541,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 		}),
 		i(20897, {	-- Lookout's Tunic
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Blood Elf Rogues.",
 				constant = "FORMER_STARTER_SHIRT_FOR_BLOOD_ELF_ROGUES",
 				export = true,
@@ -2564,7 +2564,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		i(53, {	-- Neophyte's Shirt
 			-- #if BEFORE 4.0.3
 			-- #if AFTER 2.0.1
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Priests. (Also available from Old Hillsbrad)",
 				constant = "FORMER_STARTER_SHIRT_FOR_PRIESTS_ALSO_AVAILABLE",
 				export = true,
@@ -2583,7 +2583,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				},
 			}),
 			-- #else
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Priests.",
 				constant = "FORMER_STARTER_SHIRT_FOR_PRIESTS",
 				export = true,
@@ -2608,7 +2608,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			-- #endif
 		}),
 		i(154, {	-- Primitive Mantle
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Orc & Tauren Shamans",
 				constant = "FORMER_STARTER_SHIRT_FOR_ORC_TAUREN_SHAMANS",
 				export = true,
@@ -2629,7 +2629,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(6134, {	-- Primitive Mantle
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Troll Shamans",
 				constant = "FORMER_STARTER_SHIRT_FOR_TROLL_SHAMANS",
 				export = true,
@@ -2650,7 +2650,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(23473, {	-- Recruit's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Draenei Warriors and Mages",
 				constant = "FORMER_STARTER_SHIRT_FOR_DRAENEI_WARRIORS_AND",
 				export = true,
@@ -2671,7 +2671,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 		}),
 		i(6120, {	-- Recruit's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Night Elf Warriors",
 				constant = "FORMER_STARTER_SHIRT_FOR_NIGHT_ELF_WARRIORS",
 				export = true,
@@ -2693,7 +2693,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		-- #if BEFORE 2.0.1
 		i(38, {	-- Recruit's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Human Warriors",
 				constant = "FORMER_STARTER_SHIRT_FOR_HUMAN_WARRIORS",
 				export = true,
@@ -2714,7 +2714,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		-- #endif
 		i(148, {	-- Rugged Trapper's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Dwarf & Night Elf Hunters",
 				constant = "FORMER_STARTER_SHIRT_FOR_DWARF_NIGHT_ELF",
 				export = true,
@@ -2735,7 +2735,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(23345, {	-- Scout's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Draenei Hunters and Shamans",
 				constant = "FORMER_STARTER_SHIRT_FOR_DRAENEI_HUNTERS_AND",
 				export = true,
@@ -2756,7 +2756,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 		}),
 		i(6117, {	-- Squire's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Dwarf Paladins",
 				constant = "FORMER_STARTER_SHIRT_FOR_DWARF_PALADINS",
 				export = true,
@@ -2777,7 +2777,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(23476, {	-- Squire's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Draenei Paladins",
 				constant = "FORMER_STARTER_SHIRT_FOR_DRAENEI_PALADINS",
 				export = true,
@@ -2798,7 +2798,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_2_0_3, REMOVED_4_0_3 },
 		}),
 		i(2105, {	-- Thug Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Undead & Orc Rogues",
 				constant = "FORMER_STARTER_SHIRT_FOR_UNDEAD_ORC_ROGUES",
 				export = true,
@@ -2819,7 +2819,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(127, {	-- Trapper's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Orc, Tauren & Troll Hunters",
 				constant = "FORMER_STARTER_SHIRT_FOR_ORC_TAUREN_TROLL",
 				export = true,
@@ -2840,7 +2840,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(6136, {	-- Trapper's Shirt [CATA+] / Thug Shirt [Classic]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Troll Rogues",
 				constant = "FORMER_STARTER_SHIRT_FOR_TROLL_ROGUES",
 				export = true,
@@ -2861,7 +2861,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { REMOVED_4_0_3 },
 		}),
 		i(20901, {	-- Warder's Shirt
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Shirt for Blood Elf Hunters",
 				constant = "FORMER_STARTER_SHIRT_FOR_BLOOD_ELF_HUNTERS",
 				export = true,
@@ -2904,7 +2904,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		i(37, {	-- Worn Axe
 			-- #if BEFORE 10.1.7
 			-- #if AFTER 7.3.5
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Weapon for Orc, Troll & Worgen Rogues as well as Dwarf, Orc, Tauren & Troll Hunters.",
 				constant = "FORMER_STARTER_WEAPON_FOR_ORC_TROLL_WORGEN",
 				export = true,
@@ -2931,7 +2931,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		--	["races"] = { GOBLIN, HUMAN, UNDEAD, WORGEN },
 			-- #if BEFORE 10.1.7
 			-- #if AFTER 5.0.4
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Former Starter Weapon for Goblin, Human, Undead & Worgen Hunters.",
 				constant = "FORMER_STARTER_WEAPON_FOR_GOBLIN_HUMAN_UNDEAD",
 				export = true,

@@ -96,7 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				}),
 				filter(MISC, {
 					currency(3250, {	-- Faceted Crystaline Fel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found scattered throughout the Murder Row Dungeon.\nUsed for buying buffs from highlighted vendors.\nOnly 1 per player, per run can be obtained.",
 							constant = "CAN_BE_FOUND_SCATTERED_THROUGHOUT_THE_MURDER",
 							export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				n(VENDORS, {
 					n(236861, {	-- Cravitz Lorent <Shady Art Dealer>
 						i(246857, {	-- "Shu'halo Perspective" Painting (DECOR!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|cFFE50D12WARNING! DO NOT BUY RIGHT AWAY!|r\nGet 13 different Sargle's Fortunes to drastically cut down the price.",
 								constant = "CFFE50D12WARNING_DO_NOT_BUY_RIGHT_AWAY_R_GET_13",
 								export = true,

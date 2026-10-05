@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(ZULDAZAR, {
 		n(TREASURES, {
 			o(288596, {	-- Cache of Secrets
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located in a cave behind a waterfall.",
 					constant = "LOCATED_IN_A_CAVE_BEHIND_A_WATERFALL",
 					export = true,

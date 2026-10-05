@@ -58,7 +58,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					ach(9425),	-- So Grossly Incandescent
 					i(116771),	-- Solar Spirehawk (MOUNT!)
 					TempForceMisc(i(127775, {	-- Gemcutter Module: Stamina
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
 							constant = "TAKE_THIS_RECIPE_TO_THE_APEXIS_GEMCUTTER_IN",
 							export = true,

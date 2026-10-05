@@ -371,7 +371,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				n(7846, {	-- Teremus the Devourer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Patrols all over the zone. You may even find him in Stormwind thanks to clever kiting by a Hunter.",
 						constant = "PATROLS_ALL_OVER_THE_ZONE_YOU_MAY_EVEN_FIND_HIM",
 						export = true,
@@ -393,7 +393,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(REWARDS, {
 				i(10752, {	-- Emerald Encrusted Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Reward for turning in Flawless Draenethyst Sphere to Kum'isha the Collector.\n\nContains a random green, blue, or epic world drop item.",
 						constant = "REWARD_FOR_TURNING_IN_FLAWLESS_DRAENETHYST",
 						export = true,
@@ -413,7 +413,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					}),
 				}),
 				i(12122, {	-- Kum'isha's Junk
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Reward for turning in an Imperfect Draenethyst Fragment to Kum'isha the Collector.\n\nContains a random green world drop item.",
 						constant = "REWARD_FOR_TURNING_IN_AN_IMPERFECT_DRAENETHYST",
 						export = true,
@@ -469,7 +469,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				i(8244, {	-- Flawless Draenethyst Sphere
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "A very rare zone drop. It has a higher chance to drop from Rare Creatures.",
 						constant = "A_VERY_RARE_ZONE_DROP_IT_HAS_A_HIGHER_CHANCE_TO",
 						export = true,
@@ -502,7 +502,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["recipeID"] = 18540,	-- Ritual of Doom
 				}),
 				i(10593, {	-- Imperfect Draenethyst Fragment (drops from pretty much the whole zone)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "A rare zone drop from any creature in the zone.",
 						constant = "A_RARE_ZONE_DROP_FROM_ANY_CREATURE_IN_THE_ZONE",
 						export = true,

@@ -5,7 +5,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	n(COMMON_DUNGEON_DROPS, {
 		i(162460, {	-- Hydrocore
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from any final bosses at Mythic or Heroic",
 				constant = "DROPS_FROM_ANY_FINAL_BOSSES_AT_MYTHIC_OR_HEROIC",
 				export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			},
 		}),
 		i(162520, {	-- Recipe: Mystical Cauldron [Rank 2] (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from any final bosses at Mythic",
 				constant = "DROPS_FROM_ANY_FINAL_BOSSES_AT_MYTHIC",
 				export = true,

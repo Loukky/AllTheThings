@@ -76,7 +76,7 @@ root(ROOTS.Zones, {
 				}),
 				battlepets({
 					pet(751, {	-- Dancing Water Skimmer (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "also common as a secondary pet.",
 							constant = "ALSO_COMMON_AS_A_SECONDARY_PET",
 							export = true,
@@ -101,7 +101,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(747, {	-- Effervescent Glowfly (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Commonly found as a secondary pet in Vale of Eternal Blossoms. Can also be found as primary pets outside the Gate of the August Celestials as well as occational spawns through the Vale of Eternal Blossoms.",
 							constant = "COMMONLY_FOUND_AS_A_SECONDARY_PET_IN_VALE_OF",
 							export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(383, {	-- Eternal Strider (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In commonly found by the riverbed.",
 							constant = "IN_COMMONLY_FOUND_BY_THE_RIVERBED",
 							export = true,
@@ -150,7 +150,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(748, {	-- Gilded Moth (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in groups of three across the zone. However, only 1-2 groups are spawned at any time, and the Gilded Moths can only be found as primary pets. Use a target macro and consider using a Battle-Stone to get a rare quality pet.",
 							constant = "CAN_BE_FOUND_IN_GROUPS_OF_THREE_ACROSS_THE_ZONE",
 							export = true,
@@ -183,7 +183,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(752, {	-- Yellow-Bellied Bullfrog (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can sometimes be found by the riverbed, also common as a secondary pet.",
 							constant = "CAN_SOMETIMES_BE_FOUND_BY_THE_RIVERBED_ALSO",
 							export = true,
@@ -373,7 +373,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, SHRINE_OF_TWO_MOONS },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 							constant = "ACCOUNT_WIDE_DAILY_QUEST_MUST_HAVE_COMPLETED",
 							export = true,
@@ -487,7 +487,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, SHRINE_OF_TWO_MOONS },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These pets can be found in the Pandaren Spirit Pet Supplies received from the four Pandaren Spirit Tamers in their individual Daily Quests once you complete this quest.",
 							constant = "THESE_PETS_CAN_BE_FOUND_IN_THE_PANDAREN_SPIRIT",
 							export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, {
 							},
 							["maps"] = { SHRINE_OF_TWO_MOONS },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Account-Wide Weekly Quest.",
 							constant = "ACCOUNT_WIDE_WEEKLY_QUEST",
 							export = true,
@@ -633,7 +633,7 @@ root(ROOTS.Zones, {
 							["qg"] = 66998,	-- Jinho the Wind Breaker
 							["coord"] = { 46.6, 56.5, SHRINE_OF_TWO_MOONS_THE_IMPERIAL_MERCANTILE },
 						}),
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Quest may only be completed ONCE per character. Items you receive from the Cache of Treasures are class and spec specific. Not all items are available to all classes able to equip them.",
 							constant = "QUEST_MAY_ONLY_BE_COMPLETED_ONCE_PER_CHARACTER",
 							export = true,
@@ -848,7 +848,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(50843, {	-- Portent
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a rare Tameable Hunter Pet of 4 varying colors.",
 							constant = "THIS_IS_A_RARE_TAMEABLE_HUNTER_PET_OF_4_VARYING",
 							export = true,
@@ -914,7 +914,7 @@ root(ROOTS.Zones, {
 				}),
 				n(SPECIAL, {
 					n(64403, {	-- Alani
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only the person who uses the Sky Crystal on Alani will get the mount, and they can sell or trade it.",
 							constant = "ONLY_THE_PERSON_WHO_USES_THE_SKY_CRYSTAL_ON",
 							export = true,
@@ -983,7 +983,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213456, {	-- The Emperor's Burden - Part 8
 						-- #if AFTER BFA
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This can only be found in the non-N'zoth phase. Speak to Zidormi atop the Seat of Knowledge to travel to the past.",
 							constant = "THIS_CAN_ONLY_BE_FOUND_IN_THE_NON_N_ZOTH_PHASE",
 							export = true,
@@ -1490,7 +1490,7 @@ root(ROOTS.Zones, {
 					}),
 					-- #endif
 					n(64028, {	-- Challenger Soong <Challenge Dungeons>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can only buy items from this vendor if you have the Challenge Conquerer: Gold Feat of Strength on your toon. You can only buy the set for your class.",
 							constant = "YOU_CAN_ONLY_BUY_ITEMS_FROM_THIS_VENDOR_IF_YOU",
 							export = true,
@@ -1855,7 +1855,7 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(87779, {	-- Ancient Guo-Lai Cache Key
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can randomly drop from any Mogu related mob in the zone.",
 							constant = "CAN_RANDOMLY_DROP_FROM_ANY_MOGU_RELATED_MOB_IN",
 							export = true,

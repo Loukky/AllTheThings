@@ -19,7 +19,7 @@ root(ROOTS.Instances, {
 		["lvl"] = 10,
 		["groups"] = {
 			n(QUESTS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To get to the quest giver hub outside the instance:\n\nWhen facing the mouth of the cave, you should see that the entrance looks like a skull. The questgivers are in the left eye. To get there, climb up the mountain, drop onto the head, drop onto the brow, drop onto the nose, face the instance, and go into the eye on the left",
 					constant = "TO_GET_TO_THE_QUEST_GIVER_HUB_OUTSIDE_THE",
 					export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Instances, {
 						["lvl"] = 10,
 					}),
 					q(3370, {	-- In Nightmares [A]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "She lives in a house on top of the mountain.",
 							constant = "SHE_LIVES_IN_A_HOUSE_ON_TOP_OF_THE_MOUNTAIN",
 							export = true,
@@ -226,7 +226,7 @@ root(ROOTS.Instances, {
 			}),
 			n(ZONE_DROPS, {
 				i(6443, {	-- Deviate Hide
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Deviate creatures in the Wailing Caverns.",
 						constant = "DROPS_FROM_DEVIATE_CREATURES_IN_THE_WAILING",
 						export = true,
@@ -251,7 +251,7 @@ root(ROOTS.Instances, {
 			}),
 			prof(SKINNING, {
 				i(6470, {	-- Deviate Scale
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop-, as well as be skinned from all deviates within the Wailing Caverns.",
 						constant = "CAN_DROP_AS_WELL_AS_BE_SKINNED_FROM_ALL",
 						export = true,
@@ -271,7 +271,7 @@ root(ROOTS.Instances, {
 					}),
 				}),
 				i(6471, {	-- Perfect Deviate Scale
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop-, as well as be skinned from all deviates within the Wailing Caverns, although the droprate is low.",
 						constant = "CAN_DROP_AS_WELL_AS_BE_SKINNED_FROM_ALL_2",
 						export = true,

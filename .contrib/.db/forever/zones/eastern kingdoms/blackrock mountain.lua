@@ -43,7 +43,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.BLACKROCK_MOUNTAIN, {
 				["provider"] = { "i", 22115 },	-- Extra-Dimensional Ghost Revealer
 				["groups"] = {
 					n(SPECIAL, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available if a specific Quest (8996) has been completed.",
 							constant = "AVAILABLE_IF_A_SPECIFIC_QUEST_8996_HAS_BEEN",
 							export = true,

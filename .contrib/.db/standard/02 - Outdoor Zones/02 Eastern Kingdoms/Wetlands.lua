@@ -874,7 +874,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, q(79945, {	-- Orders from the Grand Crusader
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Getting to this location is a real pain. From the Wetlands, swim along the coast around Dun Morogh until you reach the dock.",
 						constant = "GETTING_TO_THIS_LOCATION_IS_A_REAL_PAIN_FROM",
 						export = true,
@@ -1002,7 +1002,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(286, {	-- Return the Statuette
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Return the Statuette' (25805).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_15",
 						export = true,
@@ -2650,7 +2650,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(8499, {	-- Tiny Crimson Whelpling (item) / Crimson Whelpling (PET!)
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Teaches you how to summon the pet Crimson Whelpling.\n\nThe best spot to farm this pet is near the border with The Twilight Highlands. There is a \"battle\" going on between Ebon Slavehunters and Dragonmaw Whelpstealers. Around four of them meet at this point to wage war with each other. They spawn roughly every 15 seconds and engage again, so you don't even have to move. Having skinning helps so you can clear the big Ebon Slavehunter corpses, but it isn't needed.",
 						constant = "TEACHES_YOU_HOW_TO_SUMMON_THE_PET_CRIMSON",
 						export = true,

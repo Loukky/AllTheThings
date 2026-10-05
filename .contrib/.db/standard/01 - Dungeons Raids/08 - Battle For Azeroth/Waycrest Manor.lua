@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			}),
 			n(QUESTS, {
 				q(50990, {	-- Cutting Edge Poultry Science
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest pops up when killing mobs in the kitchen. It is unknown for certain if the World Quest \"Witchy Kitchen\" is required.",
 						constant = "THIS_QUEST_POPS_UP_WHEN_KILLING_MOBS_IN_THE",
 						export = true,

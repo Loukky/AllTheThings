@@ -566,7 +566,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					}),
 				})),
 				q(8240, {	-- A Bijou for Zanza
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Costs 1 bijou of any color per turn in. There are 9 colors and 8 (+1 for Shaman/Paladin) classes in the game, as such, some guilds assign specific classes specific color bijous and treat one as a wild card.",
 						constant = "COSTS_1_BIJOU_OF_ANY_COLOR_PER_TURN_IN_THERE",
 						export = true,
@@ -621,7 +621,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					},
 				}),
 				q(8196, {	-- Essence Mangoes
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "No. Stop. WHAT ARE YOU DOING! Do not waste your token on this FOR THE LOVE OF GOD!\n - Crieve",
 						constant = "NO_STOP_WHAT_ARE_YOU_DOING_DO_NOT_WASTE_YOUR",
 						export = true,
@@ -692,7 +692,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 					},
 				}),
 				q(8183, {	-- The Heart of Hakkar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Turning this quest in will cause a world buff to drop for those on the island or in Booty Bay. Announce when you're going to do this for folks looking to get WBs for raid!",
 						constant = "TURNING_THIS_QUEST_IN_WILL_CAUSE_A_WORLD_BUFF",
 						export = true,
@@ -1117,7 +1117,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 			d(DIFFICULTY.LEGACY_RAID.PLAYER20, bubbleDownTimelineEventSelf(REMOVED_1_15_4, {
 			-- #endif
 			o(180229, {	-- Jinxed Hoodoo Pile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These can randomly mind control a nearby player. Be careful.\n\nAlso don't kill them! (Looking at you, Diz!)",
 					constant = "THESE_CAN_RANDOMLY_MIND_CONTROL_A_NEARBY_PLAYER",
 					export = true,
@@ -1201,7 +1201,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 				i(22637),	-- Primal Hakkari Idol
 			}),
 			o(180368, {	-- Tablet of Madness
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Alchemists with 300 skill can interact with the Tablet of Madness to learn the recipe.",
 					constant = "ALCHEMISTS_WITH_300_SKILL_CAN_INTERACT_WITH_THE",
 					export = true,
@@ -1223,7 +1223,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 				["groups"] = { recipe(24266) },	-- Gurubashi Mojo Madness
 			}),
 			o(180327, {	-- Brazier of Madness
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There are tablets on the walls describing each boss; one of these tablets will indicate which boss will spawn by commenting that he is \"close to the edge of madness.\" The boss that spawns is chosen according to a spawn calendar, going by the day the instance ID was created.",
 					constant = "THERE_ARE_TABLETS_ON_THE_WALLS_DESCRIBING_EACH",
 					export = true,
@@ -1244,7 +1244,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 				["cost"] = { { "i", 19931, 1 } },	-- Gurubashi Mojo Madness
 				["groups"] = {
 					filter(TRINKET_F, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The following trinkets can be crafted by using a class-specific Punctured Voodoo Doll and one of each of the named reagents that drop from the madness bosses.",
 							constant = "THE_FOLLOWING_TRINKETS_CAN_BE_CRAFTED_BY_USING",
 							export = true,
@@ -1387,7 +1387,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 			}),
 			n(15114, {	-- Gahz'ranka
 				["sourceQuest"] = 8227,	-- Nat's Measuring Tape
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can fish up Zulian Mudskunk from the Muddy Churning Waters in the instance and the lures can be purchased from Nat Pagle once you have turned in Nat's Measuring Tape.",
 					constant = "YOU_CAN_FISH_UP_ZULIAN_MUDSKUNK_FROM_THE_MUDDY",
 					export = true,

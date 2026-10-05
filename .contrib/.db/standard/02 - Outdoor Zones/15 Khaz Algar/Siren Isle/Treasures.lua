@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				-- ["description"] = "Requires a character to have completed the Dipping a Toe quest at least once in order for chests to spawn on the map.",
 				["groups"] = {
 					i(233501, {	-- Sandy Snapdragon Treat (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must have the Prismatic Snapdragon Mount before this can drop.",
 							constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT_5",
 							export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(505505, {	-- Iron Mining Pick
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In cave.",
 					constant = "IN_CAVE",
 					export = true,
@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(505506, {	-- Minnow's Favorite Blade
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the 2nd floor, at the base of the ceiling. It has a large interact range, you can reach it from the railing.",
 					constant = "ON_THE_2ND_FLOOR_AT_THE_BASE_OF_THE_CEILING_IT",
 					export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(505476, {	-- Stone Carver's Scramseax
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a buff from the Radiant Citrine laying on the ground in the middle room in the back of the Forgotten Vault. With the granted buff you can obtain this treasure in the left room.",
 					constant = "REQUIRES_A_BUFF_FROM_THE_RADIANT_CITRINE_LAYING",
 					export = true,
@@ -180,7 +180,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(500697, {	-- Well Loved Squeaky Toy
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the 2nd floor, in the back corner by the wall.",
 					constant = "ON_THE_2ND_FLOOR_IN_THE_BACK_CORNER_BY_THE_WALL",
 					export = true,

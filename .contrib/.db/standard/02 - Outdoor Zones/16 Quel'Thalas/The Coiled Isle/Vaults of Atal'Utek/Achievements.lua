@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		m(MAP.MIDNIGHT.VAULTS_OF_ATALUTEK, {
 			n(ACHIEVEMENTS, {
 				ach(62649, {	-- A Lone Wanderer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "During the Earth and Sky event, go to the Sky Altar and fly around the raid entrance, looking for the moving large blue orb.",
 						constant = "DURING_THE_EARTH_AND_SKY_EVENT_GO_TO_THE_SKY",
 						export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(276553),	-- Emerald Skyfang (MOUNT!)
 				}),
 				ach(62600, {	-- Ritual Behavior
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Petrified Egg spawns on the west wing, Spirit Urn spawns on the east wing, Venomous Ooze drops from the Venomous Giants in the middle.",
 						constant = "PETRIFIED_EGG_SPAWNS_ON_THE_WEST_WING_SPIRIT",
 						export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}
 				}),
 				ach(63598, {	-- Roll the Patrol (automated)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Temple Patrols rotate every 10 minutes. Not all of them are available on any given week.",
 						constant = "THE_TEMPLE_PATROLS_ROTATE_EVERY_10_MINUTES_NOT",
 						export = true,

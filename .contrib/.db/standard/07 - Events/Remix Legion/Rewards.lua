@@ -51,7 +51,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 
 		------ Reputation Insignias ------
 		i(253621, {	-- Champion's Insignia
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Turns into a Reputation Insignia for a Faction of the zone you are in.",
 				constant = "TURNS_INTO_A_REPUTATION_INSIGNIA_FOR_A_FACTION",
 				export = true,

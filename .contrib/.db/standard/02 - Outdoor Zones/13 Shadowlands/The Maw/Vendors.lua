@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}, {	-- Appreciative
 						i(185350, {	-- Partial Rune Codex
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Used for the |cFFb19cd9Bound Shadehound|r secret mount. Only available to characters with maxed Ven'ari reputation.",
 								constant = "USED_FOR_THE_CFFB19CD9BOUND_SHADEHOUND_R_SECRET",
 								export = true,

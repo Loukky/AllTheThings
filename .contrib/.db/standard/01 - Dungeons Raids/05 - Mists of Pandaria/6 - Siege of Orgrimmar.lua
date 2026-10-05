@@ -165,7 +165,7 @@ end
 -- CRIEVE NOTE: TODO: These are reportedly tied to a weekly HQT. It might be worthwhile to refactor these to include that information.
 local TWISTED_TREASURES_OF_THE_VALE = i(104275, {	-- Twisted Treasures of the Vale
 	-- #if AFTER 8.0.1
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Siege of Orgrimmar.",
 		constant = "THIS_ITEM_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO_4",
 		export = true,
@@ -205,7 +205,7 @@ local TWISTED_TREASURES_OF_THE_VALE = i(104275, {	-- Twisted Treasures of the Va
 });
 local COALESCED_TURMOIL = i(105714, {	-- Coalesced Turmoil
 	-- #if AFTER 8.0.1
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Since the introduction of Legacy Loot this bag is only obtainable if you queue up as a Level 91-100 for the intended raid. If you are 101+ then you will need to seek out each item based on their original sources. This change occurred in Patch 8.0.1",
 		constant = "SINCE_THE_INTRODUCTION_OF_LEGACY_LOOT_THIS_BAG",
 		export = true,
@@ -399,7 +399,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = {
 						["provider"] = { "n", 73715 },	-- Rivett Clutchpop <Horde Supplies> [H]
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vendor spawns in after opening gate after the Malkorok Boss fight in Kor'kron Barracks.",
 						constant = "VENDOR_SPAWNS_IN_AFTER_OPENING_GATE_AFTER_THE",
 						export = true,
@@ -1315,7 +1315,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {			-- Raid Finder (Removed with Patch 6.0.2) >> Items marked "Raid Finder" after 6.0 <<
 				-- #if AFTER 6.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This was the original Raid Finder difficulty. Previously, loot had unique item IDs for each difficulty tier as well as their Warforged variants similar to how ToT was done. Blizzard changed their design philosophy for the better with Patch 6.0 and chose to reuse an item's ID and apply a bonus ID rather than creating a brand new item ID with the same base stats.",
 					constant = "THIS_WAS_THE_ORIGINAL_RAID_FINDER_DIFFICULTY",
 					export = true,
@@ -2904,7 +2904,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 			}),
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL, {	-- Normal (Removed with Patch 6.0.2) >> Items marked "Heroic" after 6.0 <<
 				-- #if AFTER 6.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This was the original Normal difficulty. Previously, loot had unique item IDs for each difficulty tier as well as their Warforged variants similar to how ToT was done. Blizzard changed their design philosophy for the better with Patch 6.0 and chose to reuse an item's ID and apply a bonus ID rather than creating a brand new item ID with the same base stats.",
 					constant = "THIS_WAS_THE_ORIGINAL_NORMAL_DIFFICULTY",
 					export = true,
@@ -3918,7 +3918,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 			}),
 			d(DIFFICULTY.LEGACY_RAID.MULTI.HEROIC, {	-- Heroic (Removed with Patch 6.0.2) >> Items marked "Mythic" after 6.0 <<
 				-- #if AFTER 6.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This was the original Heroic difficulty. Previously, loot had unique item IDs for each difficulty tier as well as their Warforged variants similar to how ToT was done. Blizzard changed their design philosophy for the better with Patch 6.0 and chose to reuse an item's ID and apply a bonus ID rather than creating a brand new item ID with the same base stats.",
 					constant = "THIS_WAS_THE_ORIGINAL_HEROIC_DIFFICULTY",
 					export = true,

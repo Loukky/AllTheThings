@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				o(617237, {	-- Sealed Twilight's Blade Bounty Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlock 4 Sealing Orbs in nearby towers.",
 						constant = "UNLOCK_4_SEALING_ORBS_IN_NEARBY_TOWERS",
 						export = true,
@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			-- Repeatable Treasures, contain currencies, grays, potions, etc.
 			o(555462, {	-- Forgotten Amani Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the coastal areas of the zone.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_COASTAL_AREAS_OF_THE",
 					export = true,
@@ -263,7 +263,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 			}),
 			o(587913, {	-- Shabby Stockpile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the area of Atal'Abasi.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_AREA_OF_ATAL_ABASI",
 					export = true,
@@ -283,7 +283,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			}),
 			o(582157, {	-- Spiritpaw Satchel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the area of Spiritpaw Backwoods.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_AREA_OF_SPIRITPAW",
 					export = true,
@@ -306,7 +306,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["description"] = "~L.SPAWNS_RANDOMLY_AROUND_THE_COASTAL_AREAS_OF_THE",
 			}),
 			o(582179, {	-- Twilight Ordnance
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly (mostly) around the area of Broken Throne.",
 					constant = "SPAWNS_RANDOMLY_MOSTLY_AROUND_THE_AREA_OF",
 					export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(DAZARALOR, {
 		n(TREASURES, {
 			o(293110, {	-- Pepe'jin
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located inside the |cFFFFD700Hot House|r.",
 					constant = "LOCATED_INSIDE_THE_CFFFFD700HOT_HOUSE_R",
 					export = true,

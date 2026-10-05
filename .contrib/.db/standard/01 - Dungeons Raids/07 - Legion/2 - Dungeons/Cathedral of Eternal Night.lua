@@ -47,7 +47,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					i(147517),	-- Inquisitor's Battle Cowl
 					i(147516),	-- Legion Stalker's Hood
 					i(147117, {	-- Orb of the Fel Temptress (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a rare drop from the Hellblaze Temptress mobs in the Cathedral of Eternal Night, on Heroic or Mythic difficulty.\n\nThere are 7 Temptress' available before the first boss. Kill all 7 and then reset the dungeon.",
 							constant = "THIS_IS_A_RARE_DROP_FROM_THE_HELLBLAZE",
 							export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					})),
 					cr(117194, e(1906, {	-- Thrashbite the Scornful
 						ach(11769, {	-- A Steamy Romance Saga
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Need to be in a full 5 man party for this achievement.",
 								constant = "NEED_TO_BE_IN_A_FULL_5_MAN_PARTY_FOR_THIS",
 								export = true,

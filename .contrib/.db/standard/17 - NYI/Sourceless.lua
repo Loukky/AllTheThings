@@ -413,7 +413,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 				q(33957, {	-- A Gift for Raa'la
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Area: |cFFf09f26Frostfire Ridge|r",
 						constant = "AREA_CFFF09F26FROSTFIRE_RIDGE_R",
 						export = true,
@@ -488,7 +488,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 8.0.1
 			expansion(EXPANSION.BFA, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				q(50668, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Area: |cFFf09f26Orgrimmar|r",
 						constant = "AREA_CFFF09F26ORGRIMMAR_R",
 						export = true,

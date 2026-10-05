@@ -3268,7 +3268,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(51708),	-- Warfang Hold Quest Template
 			-- Unsorted
 			q(47246, {	-- Remnants of the Damned
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Nazmir|r",
 					constant = "AREA_CFFF09F26NAZMIR_R",
 					export = true,
@@ -3299,7 +3299,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 20,
 			}),
 			q(47588, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Zuldazar|r",
 					constant = "AREA_CFFF09F26ZULDAZAR_R",
 					export = true,
@@ -3320,7 +3320,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 10,
 			}),
 			q(47695, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Tiragarde Sound|r",
 					constant = "AREA_CFFF09F26TIRAGARDE_SOUND_R",
 					export = true,
@@ -3370,7 +3370,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 10,
 			}),
 			q(48237, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26Account|r",
 					constant = "TYPE_CFFF09F26ACCOUNT_R",
 					export = true,
@@ -3390,7 +3390,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				}),
 			}),
 			q(48515, {	-- Silver Blades
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Drustvar|r",
 					constant = "AREA_CFFF09F26DRUSTVAR_R",
 					export = true,
@@ -3430,7 +3430,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 20,
 			}),
 			q(48759, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Herbalism|r",
 					constant = "CATEGORY_CFFF09F26HERBALISM_R",
 					export = true,
@@ -3486,7 +3486,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(48913, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Mining|r",
 					constant = "CATEGORY_CFFF09F26MINING_R",
 					export = true,
@@ -3659,7 +3659,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(49578, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Jewelcrafting|r",
 					constant = "CATEGORY_CFFF09F26JEWELCRAFTING_R",
 					export = true,
@@ -3691,7 +3691,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 10,
 			}),
 			q(49590, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26Dungeon|r\nCategory: |cFFf09f26Jewelcrafting|r",
 					constant = "TYPE_CFFF09F26DUNGEON_R_CATEGORY",
 					export = true,
@@ -3764,7 +3764,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(49875, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Inscription|r",
 					constant = "CATEGORY_CFFF09F26INSCRIPTION_R",
 					export = true,
@@ -3821,7 +3821,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 20,
 			}),
 			q(50273, {	-- Atal'Dazar: Locking Horns
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26Dungeon|r\nCategory: |cFFf09f26Blacksmithing|r",
 					constant = "TYPE_CFFF09F26DUNGEON_R_CATEGORY_2",
 					export = true,
@@ -3850,7 +3850,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 20,
 			}),
 			q(50326, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Warfronts|r",
 					constant = "CATEGORY_CFFF09F26WARFRONTS_R",
 					export = true,
@@ -3896,7 +3896,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 30,
 			}),
 			q(50632, {	-- Battlefield Scavenging
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26Group|r\nCategory: |cFFf09f26Warfronts|r",
 					constant = "TYPE_CFFF09F26GROUP_R_CATEGORY",
 					export = true,
@@ -4035,7 +4035,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				-- },
 			}),
 			q(51344, {	-- To Matters at Hand
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Hall of Communion|r",
 					constant = "AREA_CFFF09F26HALL_OF_COMMUNION_R",
 					export = true,
@@ -4072,7 +4072,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(51535, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Mag'har Orc|r",
 					constant = "CATEGORY_CFFF09F26MAG_HAR_ORC_R",
 					export = true,
@@ -4094,7 +4094,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(51567, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Island Expeditions|r",
 					constant = "CATEGORY_CFFF09F26ISLAND_EXPEDITIONS_R",
 					export = true,
@@ -4121,7 +4121,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 10,
 			}),
 			q(52012, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Horde War Campaign|r",
 					constant = "CATEGORY_CFFF09F26HORDE_WAR_CAMPAIGN_R",
 					export = true,
@@ -4212,7 +4212,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(52991, {	-- [REMOVED]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Hallow's End|r",
 					constant = "CATEGORY_CFFF09F26HALLOW_S_END_R",
 					export = true,
@@ -4249,7 +4249,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(53146, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Arathi Highlands|r",
 					constant = "AREA_CFFF09F26ARATHI_HIGHLANDS_R",
 					export = true,
@@ -5019,7 +5019,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(54210, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Alliance War Campaign|r",
 					constant = "CATEGORY_CFFF09F26ALLIANCE_WAR_CAMPAIGN_R",
 					export = true,
@@ -5140,7 +5140,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 		expansion(EXPANSION.BFA, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_8_1_5 } }, {
 			-- Unsorted
 			q(53787, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Engineering|r",
 					constant = "CATEGORY_CFFF09F26ENGINEERING_R",
 					export = true,
@@ -5166,7 +5166,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(53953, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Brawler's Guild|r",
 					constant = "CATEGORY_CFFF09F26BRAWLER_S_GUILD_R",
 					export = true,
@@ -5188,7 +5188,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 60,
 			}),
 			q(54957, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Trueshot Lodge|r",
 					constant = "AREA_CFFF09F26TRUESHOT_LODGE_R",
 					export = true,
@@ -5309,7 +5309,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(54941, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Nazjatar|r",
 					constant = "AREA_CFFF09F26NAZJATAR_R",
 					export = true,
@@ -5493,7 +5493,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(56138, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26Group|r\nArea: |cFFf09f26Mechagon|r",
 					constant = "TYPE_CFFF09F26GROUP_R_AREA_CFFF09F26MECHAGON_R",
 					export = true,
@@ -5783,7 +5783,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(58089),	-- Test Quest
 			-- Unsorted
 			q(54052, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Questfall|r",
 					constant = "CATEGORY_CFFF09F26QUESTFALL_R",
 					export = true,
@@ -5803,7 +5803,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				}),
 			}),
 			q(56622, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Ashran|r",
 					constant = "AREA_CFFF09F26ASHRAN_R",
 					export = true,
@@ -5842,7 +5842,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				},
 			}),
 			q(57308, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Type: |cFFf09f26PvP|r\nCategory: |cFFf09f26Korrak's Revenge|r",
 					constant = "TYPE_CFFF09F26PVP_R_CATEGORY_CFFF09F26KORRAK_S",
 					export = true,
@@ -5929,7 +5929,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(57874),	-- Visions of a Dark Destiny
 			-- Unsorted
 			q(55036, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Prototype|r",
 					constant = "AREA_CFFF09F26PROTOTYPE_R",
 					export = true,
@@ -5954,7 +5954,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(57022, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Uldum|r",
 					constant = "AREA_CFFF09F26ULDUM_R",
 					export = true,
@@ -5975,7 +5975,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 50,
 			}),
 			q(57155, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Crucible of Storms|r",
 					constant = "AREA_CFFF09F26CRUCIBLE_OF_STORMS_R",
 					export = true,
@@ -6199,7 +6199,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 		-- 8.x.x
 		n(P8xx, {
 			q(54168, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26Free T-Shirt Day|r",
 					constant = "CATEGORY_CFFF09F26FREE_T_SHIRT_DAY_R",
 					export = true,
@@ -7430,7 +7430,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(63432),
 			q(63729),
 			q(63862, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Korthia|r",
 					constant = "AREA_CFFF09F26KORTHIA_R",
 					export = true,
@@ -7451,7 +7451,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 60,
 			}),
 			q(63946, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Category: |cFFf09f26The Archivists' Codex|r",
 					constant = "CATEGORY_CFFF09F26THE_ARCHIVISTS_CODEX_R",
 					export = true,
@@ -7472,7 +7472,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["lvl"] = 60,
 			}),
 			q(64569, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Area: |cFFf09f26Bastion|r",
 					constant = "AREA_CFFF09F26BASTION_R",
 					export = true,

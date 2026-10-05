@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	n(SPECIAL, {
 		i(169201, {	-- Fabious (MOUNT!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "|c00CC2222!!DO NOT KILL!!|r\n|cFFFFD700Fabious|r spawns every couple hours, walks around for a couple minutes, then disappears. Use the |cFFFFD700S.E.L.F.I.E. Camera MkII|r to take a picture with him for the mount.",
 				constant = "C00CC2222_DO_NOT_KILL_R_CFFFFD700FABIOUS_R",
 				export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		header(HEADERS.Achievement, 13715, {	-- From the Belly of the Jelly
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Feed the same |cFFFFD700Ravenous Slime|r a critter by using a |cFFFFD700Prismatic Crystal|r to charm them. Do this for 5 days to get a random pet from the cocoon. You can do this for each |cFFFFD700Ravenous Slime|r once per week.",
 				constant = "FEED_THE_SAME_CFFFFD700RAVENOUS_SLIME_R_A",
 				export = true,
@@ -122,7 +122,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			i(167893),	-- Prismatic Crystal
 		}),
 		pvp(o(327652, {	-- War Supply Chest (A)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Spawns randomly somewhere in the sky and parachutes downwards to the ground.",
 				constant = "SPAWNS_RANDOMLY_SOMEWHERE_IN_THE_SKY_AND",
 				export = true,

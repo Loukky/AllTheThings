@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14761, {	-- Deciphering Death's Intentions
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Most of the Maw Lore items can be found by killing Assassins, rares, or normal mobs. The remaining ones drop from specific mobs, rares, or treasures that can be found throughout the Maw.",
 					constant = "MOST_OF_THE_MAW_LORE_ITEMS_CAN_BE_FOUND_BY",
 					export = true,
@@ -442,7 +442,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			ach(14742, {	-- Who Sent You?
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you have completed |cFFFFD700Focusing the Eye|r, you can still obtain this achievement by killing |cFF883325Mawsworn Blackguard|r in The Maw.",
 					constant = "IF_YOU_HAVE_COMPLETED_CFFFFD700FOCUSING_THE_EYE",
 					export = true,

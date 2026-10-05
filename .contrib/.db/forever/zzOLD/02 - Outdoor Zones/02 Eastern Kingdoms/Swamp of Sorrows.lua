@@ -584,7 +584,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				n(1063, {	-- Jade <Victim of the Nightmare>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns outside of the entrance to the Sunken Temple.",
 						constant = "SPAWNS_OUTSIDE_OF_THE_ENTRANCE_TO_THE_SUNKEN",
 						export = true,

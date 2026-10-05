@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = {
 				-- Drops
 				i(170198, {	-- Eternal Palace Dining Set (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Obtained from the 12th |cFFFFD700Arcane Chest|r you open.",
 						constant = "OBTAINED_FROM_THE_12TH_CFFFFD700ARCANE_CHEST_R",
 						export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					}),
 				}),
 				i(168824, {	-- Ocean Simulator (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Obtained from looting all 20 |cFFFFD700Arcane Chests|r.",
 						constant = "OBTAINED_FROM_LOOTING_ALL_20_CFFFFD700ARCANE",
 						export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 						{ 37.4, 42.8, NAZJATAR },	-- cave
 						{ 34.6, 43.6, NAZJATAR },	-- treasure
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the back of a cave.",
 						constant = "AT_THE_BACK_OF_A_CAVE",
 						export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				o(326401, {	-- Arcane Chest
 					["questID"] = 55950,
 					["coord"] = { 38.7, 74.4, NAZJATAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use a |cFFFFD700Goblin Glider|r, |cFFFFD700Deepcoral Pod|r, or fly ontop of the rocks.",
 						constant = "USE_A_CFFFFD700GOBLIN_GLIDER_R",
 						export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				o(326419, {	-- Arcane Chest
 					["questID"] = 55944,
 					["coord"] = { 56.3, 33.8, NAZJATAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the very top of the mountain. Flying is recommended, but it's possible with a |cFFFFD700Deepcoral Pod|r, but very tricky.",
 						constant = "AT_THE_VERY_TOP_OF_THE_MOUNTAIN_FLYING_IS",
 						export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				o(326398, {	-- Glowing Arcane Trunk
 					["questID"] = 55961,
 					["coord"] = { 55.7, 14.5, NAZJATAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Match 3 Red runes.",
 						constant = "MATCH_3_RED_RUNES",
 						export = true,
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				o(329783, {	-- Glowing Arcane Trunk
 					["questID"] = 55960,
 					["coord"] = { 37.2, 19.2, NAZJATAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Match 4 Cyan runes.",
 						constant = "MATCH_4_CYAN_RUNES",
 						export = true,
@@ -277,7 +277,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				o(332220, {	-- Glowing Arcane Trunk
 					["questID"] = 56547,
 					["coord"] = { 80.5, 31.9, NAZJATAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use a |cFFFFD700Deepcoral Pod|r or fly to get on the roof.",
 						constant = "USE_A_CFFFFD700DEEPCORAL_POD_R_OR_FLY_TO_GET_ON",
 						export = true,

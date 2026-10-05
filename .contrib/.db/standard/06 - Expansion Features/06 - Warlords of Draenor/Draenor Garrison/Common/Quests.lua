@@ -810,7 +810,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 
 				-- The Ring of Blood
 				q(36219, {	-- Garrison Campaign: The Ring of Blood
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Offered if you have NOT completed |cFFFFD700The Ring of Trials|r in Nagrand or the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
 						constant = "OFFERED_IF_YOU_HAVE_NOT_COMPLETED_CFFFFD700THE",
 						export = true,
@@ -835,7 +835,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					},
 				}),
 				q(36280, {	-- Garrison Campaign: The Ring of Blood
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Offered if you complete |cFFFFD700The Ring of Trials|r in Nagrand.",
 						constant = "OFFERED_IF_YOU_COMPLETE_CFFFFD700THE_RING_OF",
 						export = true,
@@ -860,7 +860,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					},
 				}),
 				q(36281, {	-- Garrison Campaign: The Ring of Blood
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Offered if you complete the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
 						constant = "OFFERED_IF_YOU_COMPLETE_THE_CFFFFD700STONEMAUL",
 						export = true,
@@ -885,7 +885,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					},
 				}),
 				q(36282, {	-- Garrison Campaign: The Ring of Blood
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Offered if you complete |cFFFFD700The Ring of Trials|r in Nagrand and the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
 						constant = "OFFERED_IF_YOU_COMPLETE_CFFFFD700THE_RING_OF_2",
 						export = true,
@@ -1053,7 +1053,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 
 				-- War Council
 				q(38253, {	-- Garrison Campaign: War Council
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted upon entering your garrison.",
 						constant = "AUTOMATICALLY_GRANTED_UPON_ENTERING_YOUR",
 						export = true,
@@ -1076,7 +1076,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(38567, {	-- Garrison Campaign: War Council
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted upon upgrading your garrison to Rank 3.",
 						constant = "AUTOMATICALLY_GRANTED_UPON_UPGRADING_YOUR",
 						export = true,
@@ -1190,7 +1190,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			}),
 			n(SPECIAL, {
 				container(123975, {	-- Greater Bounty Spoils
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This satchel is an award from some of the weekly garrison raid quests that can be picked up from High Overlord Saurfang and Muradin Bronzebeard.",
 						constant = "THIS_SATCHEL_IS_AN_AWARD_FROM_SOME_OF_THE",
 						export = true,
@@ -1363,7 +1363,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					},
 				}),
 				i(122191, {	-- Bloody Stack of Invitations
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to be rewarded when killing the target NPC of certain Daily Quests from the special visitor in the Garrison. May also drop on repeat kills while on the respective quest.",
 						constant = "HAS_A_CHANCE_TO_BE_REWARDED_WHEN_KILLING_THE",
 						export = true,
@@ -1384,7 +1384,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					["groups"] = { i(122190) },	-- Ring of Blood Invitation
 				}),
 				header(HEADERS.NPC,	89763, {	-- Muradin Bronzebeard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Muradin Bronzebeard has a chance to spawn in your garrison daily, or you can find someone with him spawned and join their garrison. He starts a weekly raid quest which will either have Greater Bounty Spoils or Apexis Crystals as a reward.",
 						constant = "MURADIN_BRONZEBEARD_HAS_A_CHANCE_TO_SPAWN_IN",
 						export = true,
@@ -1508,7 +1508,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					}),
 				}),
 				header(HEADERS.NPC, 89753, {	-- High Overlord Saurfang
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "High Overlord Saurfang has a chance to spawn in your garrison daily, or you can find someone with him spawned and join their garrison. He starts a weekly raid quest which will either have Greater Bounty Spoils or Apexis Crystals as a reward.",
 						constant = "HIGH_OVERLORD_SAURFANG_HAS_A_CHANCE_TO_SPAWN_IN",
 						export = true,
@@ -2163,7 +2163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(36100, {	-- Building For Professions
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Becomes available after completing any seconday profession intro quest.",
 					constant = "BECOMES_AVAILABLE_AFTER_COMPLETING_ANY_SECONDAY",
 					export = true,
@@ -3213,7 +3213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["groups"] = { garrisonBuilding(61) },	-- Frostwall Mines lvl 1
 			}),
 			q(40418, {	-- To Tanaan!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is only available to characters who used a character boost during Warlords of Draenor leading into Legion. If you receive this quest on a character that did NOT use a boost during that time, please report in the errors channel of the discord!",
 					constant = "THIS_QUEST_IS_ONLY_AVAILABLE_TO_CHARACTERS_WHO",
 					export = true,
@@ -3312,7 +3312,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["isDaily"] = true,
 			}),
 			q(37290, {	-- Upgrades in Ashran
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to have Comprehensive Construction Outpost Guide (item 116395) in your inventory.",
 					constant = "YOU_NEED_TO_HAVE_COMPREHENSIVE_CONSTRUCTION",
 					export = true,

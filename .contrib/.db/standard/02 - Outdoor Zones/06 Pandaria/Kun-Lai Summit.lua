@@ -58,7 +58,7 @@ root(ROOTS.Zones, {
 				}),
 				battlepets({
 					pet(724, {	-- Alpine Foxling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found spread through the zone around the snowline, and as secondary pets.",
 							constant = "CAN_BE_FOUND_SPREAD_THROUGH_THE_ZONE_AROUND_THE",
 							export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(725, {	-- Alpine Foxling Kit (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Respawns after some minutes as long as their Alpine Foxling parent is still alive. Can be found spread through the zone around the snowline, and common as secondary pets.",
 							constant = "RESPAWNS_AFTER_SOME_MINUTES_AS_LONG_AS_THEIR",
 							export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(1166, {	-- Kun-Lai Runt (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found through the snowy valleys of Kun-Lai Summit.\n\nThis is a very good pet in PvE, but is breed-dependent. You may want to capture multiple breeds.",
 							constant = "CAN_BE_FOUND_THROUGH_THE_SNOWY_VALLEYS_OF_KUN",
 							export = true,
@@ -124,7 +124,7 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_5_1_0 },
 					}),
 					pet(726, {	-- Plains Monitor (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Commonly found in groups of three through the grassy plains of Kun-Lai Summit.",
 							constant = "COMMONLY_FOUND_IN_GROUPS_OF_THREE_THROUGH_THE",
 							export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, {
 						["description"] = "~L.COMMONLY_FOUND_IN_GROUPS_OF_THREE_THROUGH_THE",
 					}),
 					pet(679, {	-- Summit Kid (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found through the snowy valleys of Kun-Lai Summit.",
 							constant = "CAN_BE_FOUND_THROUGH_THE_SNOWY_VALLEYS_OF_KUN_2",
 							export = true,
@@ -168,7 +168,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 35.5, 56.6, KUN_LAI_SUMMIT },	-- Winter's Blossom, north of
 					}),
 					pet(728, {	-- Szechuan Chicken (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can sometimes be found as a primary pet at the given coords. Otherwise common as a secondary pet through the zone.",
 							constant = "CAN_SOMETIMES_BE_FOUND_AS_A_PRIMARY_PET_AT_THE",
 							export = true,
@@ -189,7 +189,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 60.0, 86.6, KUN_LAI_SUMMIT },
 					}),
 					pet(729, {	-- Tolai Hare (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found spread through the grassy plains of Kun-Lai Summit, and common as secondary pets.",
 							constant = "CAN_BE_FOUND_SPREAD_THROUGH_THE_GRASSY_PLAINS",
 							export = true,
@@ -209,7 +209,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(730, {	-- Tolai Hare Pup (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Respawns after some minutes as long as their Tolai Hare parent is still alive. Can be found spread through the grassy plains of Kun-Lai Summit, and common as secondary pets.",
 							constant = "RESPAWNS_AFTER_SOME_MINUTES_AS_LONG_AS_THEIR_2",
 							export = true,
@@ -554,7 +554,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30796, {	-- An End to Everything
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use |cFFFFD700The Tongue of Ba-Shon|r.",
 							constant = "USE_CFFFFD700THE_TONGUE_OF_BA_SHON_R",
 							export = true,
@@ -662,7 +662,7 @@ root(ROOTS.Zones, {
 					}),
 					q(31695, {	-- Beyond the Wall
 						-- #if AFTER 7.3.5
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Might not be obtainable until you complete Hero's Call-/Warchief's Commands: Townlong Steppes.",
 							constant = "MIGHT_NOT_BE_OBTAINABLE_UNTIL_YOU_COMPLETE_HERO",
 							export = true,
@@ -1453,7 +1453,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.1, 49.0, KUN_LAI_SUMMIT },
 					}),
 					q(31306, {	-- Seeker's Folly
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version becomes available if you abandon the first version.",
 							constant = "THIS_VERSION_BECOMES_AVAILABLE_IF_YOU_ABANDON",
 							export = true,
@@ -1691,7 +1691,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 71.6, 70.2, KUN_LAI_SUMMIT },
 					}),
 					q(30660, {	-- The Ordo Warbringer (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically granted after completing the criteria for |cFFFFD700In Tents Channeling|r.",
 							constant = "AUTOMATICALLY_GRANTED_AFTER_COMPLETING_THE",
 							export = true,
@@ -1725,7 +1725,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30662, {	-- The Ordo Warbringer (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available if you abandon the original version of the quest.",
 							constant = "ONLY_AVAILABLE_IF_YOU_ABANDON_THE_ORIGINAL",
 							export = true,
@@ -1839,7 +1839,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38936, {	-- The Road to Kun-Lai (Adventure guide)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest needs to be accepted from the 'Adventure Guide'.",
 							constant = "THIS_QUEST_NEEDS_TO_BE_ACCEPTED_FROM_THE",
 							export = true,
@@ -2211,7 +2211,7 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(214438, {	-- Ancient Mogu Tablet
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Entrance is at |cFFFFD70063.94 49.84|r.",
 							constant = "ENTRANCE_IS_AT_CFFFFD70063_94_49_84_R",
 							export = true,
@@ -2240,7 +2240,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 49.5, 59.4, KUN_LAI_SUMMIT },
 					}),
 					o(213768, {	-- Hozen Warrior Spear
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Cave entrance is at |cFFFFD70052.8 71.3|r, go down and to the section with water, it is in a rock. Might take some time to spawn.",
 							constant = "CAVE_ENTRANCE_IS_AT_CFFFFD70052_8_71_3_R_GO",
 							export = true,
@@ -2283,7 +2283,7 @@ root(ROOTS.Zones, {
 					}),
 					o(214407, {	-- Mo-Mo's Treasure Chest
 						["coord"] = { 47.8, 73.5, KUN_LAI_SUMMIT },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Mo-Mo's Cave",
 							constant = "INSIDE_MO_MO_S_CAVE",
 							export = true,
@@ -2317,7 +2317,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 74.5, 83.5, KUN_LAI_SUMMIT },
 					}),
 					o(213751, {	-- Sprite's Cloth Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Cave entrance is at 73.2, 73.6. This chest might be personal loot and obey rules based on your current Spec, NOT your Loot Spec.",
 							constant = "CAVE_ENTRANCE_IS_AT_73_2_73_6_THIS_CHEST_MIGHT",
 							export = true,
@@ -2340,7 +2340,7 @@ root(ROOTS.Zones, {
 						["questID"] = 31412,
 						["groups"] = {
 							i(86223, {	-- Agile Sprite Cloak
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be an Agility DPS Spec (Hunter/Rogue) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_AN_AGILITY_DPS_SPEC_HUNTER",
 									export = true,
@@ -2360,7 +2360,7 @@ root(ROOTS.Zones, {
 								}),	-- verified 2021-10-21 Hunter(Surv)
 							}),
 							i(86222, {	-- Precise Sprite Cloak
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in an Intellect DPS Spec (Mage/Warlock) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_AN_INTELLECT_DPS_SPEC_MAGE",
 									export = true,
@@ -2383,7 +2383,7 @@ root(ROOTS.Zones, {
 								["description"] = "~L.RECOMMENDED_TO_BE_IN_A_STRENGTH_DPS_SPEC_TO",	-- verified 2021-10-22 DK(Unholy)
 							}),
 							i(86221, {	-- Wise Sprite Cloak
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Healer Spec to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_HEALER_SPEC_TO_GUARANTEE",
 									export = true,
@@ -2426,7 +2426,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(213770, {	-- Stolen Sprite Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Entrance is at |cFFFFD70059.5 52.9|r.",
 							constant = "ENTRANCE_IS_AT_CFFFFD70059_5_52_9_R",
 							export = true,
@@ -2462,7 +2462,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(213328, {	-- The Defiant
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the north end of the circular room at the back of the cave.",
 							constant = "AT_THE_NORTH_END_OF_THE_CIRCULAR_ROOM_AT_THE",
 							export = true,
@@ -2499,7 +2499,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213331, {	-- Valley of the Emperors (Kun-Lai Summit)
 						["coord"] = { 53.0, 46.58, KUN_LAI_SUMMIT },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The scroll is in the first big room.",
 							constant = "THE_SCROLL_IS_IN_THE_FIRST_BIG_ROOM",
 							export = true,
@@ -4079,7 +4079,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, i(97978, {	-- Knockoff Grumplefloot (QI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dance with Grandpa Grumplefloot to receive the Knockoff Grumplefloot.",
 							constant = "DANCE_WITH_GRANDPA_GRUMPLEFLOOT_TO_RECEIVE_THE",
 							export = true,

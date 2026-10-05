@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["sym"] = {{"select","itemID",279345},{"pop"}},
 				}),
 				i(280004, {	-- Corroded Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Received as a reward for doing a Temple Strike.",
 						constant = "RECEIVED_AS_A_REWARD_FOR_DOING_A_TEMPLE_STRIKE",
 						export = true,
@@ -105,7 +105,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					})
 				}),
 				i(280003, {	-- Excising Knife
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Received as a reward for doing a Temple Incursion.",
 						constant = "RECEIVED_AS_A_REWARD_FOR_DOING_A_TEMPLE",
 						export = true,

@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				n(RARES, {
 					n(228970, {	-- Galenges
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a rare that may not always be present. Seems to have a high drop rate for world drop epics and recipes. Kill it on sight during the invasion!",
 							constant = "THIS_IS_A_RARE_THAT_MAY_NOT_ALWAYS_BE_PRESENT",
 							export = true,
@@ -327,7 +327,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66515, {	-- Kortas Darkhammer <Master Pet Tamer>
 					["coord"] = { 35.4, 27.8, SEARING_GORGE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nKortas' pets are level 15 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Dragonkin - see above.\n3. Dragonkin - see above.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_THOUGH_HORDE_3",
 						export = true,
@@ -851,7 +851,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(28058, {	-- Look at the Size of It!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After looting the first pillow during |cFFFFD700Kill 'em With Sleep Deprivation|r, a timer begins. After ~10 minutes, |cFFFFD700Chambermaid Pillaclencher|r spawns and drops her pillow. If the Pillamaster is already spawned on your shard, you do not need the prior quests to spawn them.",
 						constant = "AFTER_LOOTING_THE_FIRST_PILLOW_DURING",
 						export = true,
@@ -905,7 +905,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(27983, {	-- Lunk's Adventure: Cranky Little Dwarfs
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must be on |cFFFFD700Recon Essentials|r to get this quest. Lunk will appear when you kill a Dark Iron Dwarf.\n\nHigh-level players must unequip their weapons, hit the Dwarf once with auto-attack and stop after 1 hit.",
 						constant = "MUST_BE_ON_CFFFFD700RECON_ESSENTIALS_R_TO_GET",
 						export = true,
@@ -1995,7 +1995,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 7.1.5.23360
 			n(TREASURES, {
 				o(266289, {	-- Time Lost Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill Searing Flamewraiths until you get Lava Oil. Do not use it yet. Go to the metal bridge before the Quarry Gate. The Time Lost Chest is in the lava below in the alcove. Use the Fire Oil, jump down, open the chest, and hearth.",
 						constant = "KILL_SEARING_FLAMEWRAITHS_UNTIL_YOU_GET_LAVA",
 						export = true,
@@ -2056,7 +2056,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(62916, {	-- Dark Iron Bullet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In addition to being looted, this item can also be passively obtained by being attacked by said creatures. Required for the quest 'They Build a Better Bullet', is otherwise safe to discard.",
 						constant = "IN_ADDITION_TO_BEING_LOOTED_THIS_ITEM_CAN_ALSO",
 						export = true,
@@ -2118,7 +2118,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- Started dropping again in 8.2. The new version (167886) is also available from Time-Lost Trader
 				}),
 				i(10463, {	-- Pattern: Shadoweave Mask (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Required for the |cff3399ffLucid Nightmare|r mount.",
 						constant = "REQUIRED_FOR_THE_CFF3399FFLUCID_NIGHTMARE_R",
 						export = true,

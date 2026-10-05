@@ -420,7 +420,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["coord"] = { 49.7, 50.6, SEAT_OF_THE_PRIMUS },
 			}),
 			q(62169, {	-- Eyes to the Sky
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 8.",
 					constant = "REQUIRES_RENOWN_8",
 					export = true,

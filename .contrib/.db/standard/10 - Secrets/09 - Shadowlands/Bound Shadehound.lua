@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 	header(HEADERS.Spell, 344577, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_5 } }, {	-- Bound Shadehound
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Requires |cFF006812Appreciative|r reputation with Ve'nari and a total of 3,500 Stygia.\n\nEnable quest tracking to see all the steps.\n\nPurchase a |cFF0070ddStygia Dowser|r from Ve'nari for 1,500 Stygia.Throughout the secret, harvest every Stygia Nexus you find, as you will eventually need 200 |cFF1eff00Stygia Dust|r and |cFF1eff00Stygia Slivers|r.",
 			constant = "REQUIRES_CFF006812APPRECIATIVE_R_REPUTATION",
 			export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 			i(185618),	-- Stygia Dust
 			i(185617),	-- Stygia Sliver
 			n(177073, {	-- Runed Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the first grapple point at |cFFFFFFFF23.1, 68.3|r and the next grapple point at |cFFFFFFFF23.7, 75.3|r.\n\nUse your |cFF0070ddStygia Dowser|r when you are on the platform covered with green fog, and you will be transformed into a spirit.\n\nEach of the spikes on the platform is topped with a glowing rune. To open the chest, match the runes in the puzzle to the positioning of the runes atop the spikes. With your back to the grapple point, start with the rune to your left and continue, moving clockwise.\n\n|cffde1c1cIf you match the runes incorrectly, you will die and get a debuff that prevents you from trying the puzzle again for 2 hours.|r",
 					constant = "CLICK_THE_FIRST_GRAPPLE_POINT_AT_CFFFFFFFF23_1",
 					export = true,
@@ -62,7 +62,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				},
 			}),
 			i(185353, {	-- Rune Codex Page: Binding (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a |cFF0070ddPartial Rune Codex|r, which you can purchase from Ve'nari for 2,000 Stygia after completing the first step of the secret.\n\nThe coordinates are to the teleport pad that takes you to Dartanos's platform, and the page is all the way at the back on a table, behind where the rare spawns.",
 					constant = "REQUIRES_A_CFF0070DDPARTIAL_RUNE_CODEX_R_WHICH",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				["cost"] = { { "i", 185350, 1 } },	-- Partial Rune Codex
 			}),
 			i(185351, {	-- Rune Codex Page: Forging (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a |cFF0070ddPartial Rune Codex|r, which you can purchase from Ve'nari for 2,000 Stygia after completing the first step of the secret.\n\nThe coordinates are to a cave entrance, and the page is at the back of the cave on the left side.",
 					constant = "REQUIRES_A_CFF0070DDPARTIAL_RUNE_CODEX_R_WHICH_2",
 					export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				["cost"] = { { "i", 185350, 1 } },	-- Partial Rune Codex
 			}),
 			i(185352, {	-- Rune Codex Page: Souls (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a |cFF0070ddPartial Rune Codex|r, which you can purchase from Ve'nari for 2,000 Stygia after completing the first step of the secret.\n\nThe page is on the right side of Thanassos' platform.",
 					constant = "REQUIRES_A_CFF0070DDPARTIAL_RUNE_CODEX_R_WHICH_3",
 					export = true,
@@ -134,7 +134,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				["cost"] = { { "i", 185350, 1 } },	-- Partial Rune Codex
 			}),
 			i(185632, {	-- Intact Rune Codex (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Received after collecting and using all the Rune Codex Pages.",
 					constant = "RECEIVED_AFTER_COLLECTING_AND_USING_ALL_THE",
 					export = true,
@@ -159,7 +159,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				},
 			}),
 			i(185473, {	-- Soulforger's Tools (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Used for the |cFFb19cd9Bound Shadehound|r secret mount. Only available to characters who have collected the |cFFa335eeIntact Rune Codex|r.",
 					constant = "USED_FOR_THE_CFFB19CD9BOUND_SHADEHOUND_R_SECRET_2",
 					export = true,
@@ -181,7 +181,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				["crs"] = { 166398 },	-- Soulforger Rhovus
 			}),
 			n(177392, {	-- Soulsteel Anvil
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Once you have the |cFFa335eeIntact Rune Codex|r, you can collect |cFFa335eeSoulforger's Tools|r from the rare mob Soulforger Rhovus and finish collecting all your |cFF1eff00Stygia Dust|r and |cFF1eff00Stygia Slivers|r (200 of each).\n\nGrapple all the way up to the Soulsteel Anvil — the first grapple point is at |cFFFFFFFF23.0, 68.4|r, and the anvil is at |cFFFFFFFF20.2, 67.0|r.\n\nCraft 20 |cFF0070ddStygia Bar|r and 1 |cFFa335eeArmored Husk|r.",
 					constant = "ONCE_YOU_HAVE_THE_CFFA335EEINTACT_RUNE_CODEX_R",
 					export = true,
@@ -222,7 +222,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				},
 			}),
 			n(177195, {	-- Stray Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find a Stray Soul patting along Gorgoa, the River of Souls. Interact with it, and you will receive a |cFFa335eeWilling Wolf Soul|r.\n\nThe coordinates are near the beginning of the soul's path, where it respawns, but if no one interacts with the soul it can pat all the way to |cFFFFFFFF49.8, 16.4|r.",
 					constant = "FIND_A_STRAY_SOUL_PATTING_ALONG_GORGOA_THE",
 					export = true,
@@ -255,7 +255,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 				},
 			}),
 			q(63684, {	-- Feral Shadehound
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Once you have the |cFFa335eeArmored Husk|r and the |cFFa335eeWilling Wolf Soul|r, click on the Binding Altar at |cFFFFFFFF45.2, 48.3|r.\n\n|cffde1c1cAs soon as you summon the mount, it will start running, so make sure you're facing towards the interior of the zone and that you won't run off the edge and into the void!|r\n\nOnce you're mounted, your hotkeys will be replaced with runes. Use them in the order provided by your |cFFa335eeCrumbling Stele|r, and you will receive the mount!",
 					constant = "ONCE_YOU_HAVE_THE_CFFA335EEARMORED_HUSK_R_AND",
 					export = true,

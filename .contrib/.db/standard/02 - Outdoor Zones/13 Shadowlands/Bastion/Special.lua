@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(BASTION, {
 		n(SPECIAL, {
 			n(175563, {	-- Courage
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a group of 5 people to simultaneously pet Larion Cubs near Nemea (|cFFFFFFFF57.3, 39.2|r).",
 					constant = "REQUIRES_A_GROUP_OF_5_PEOPLE_TO_SIMULTANEOUSLY",
 					export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171524, {	-- Honor Steward
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Purchase |cFFFFFFFFMemorial Wine|r from Kobri, a steward at Hero's Rest. Place the wine in the Drink Tray at |cFFFFFFFF56.8, 19.0|r to get the key from Honor Steward to the Memorial Offerings chest.",
 					constant = "PURCHASE_CFFFFFFFFMEMORIAL_WINE_R_FROM_KOBRI_A",
 					export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(181682, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Lost Soul (Otter)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use /hug on the Lost Soul. It has roughly a 60 minute respawn.",
 					constant = "USE_HUG_ON_THE_LOST_SOUL_IT_HAS_ROUGHLY_A_60",
 					export = true,

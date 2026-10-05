@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 	m(THALDRASZUS, {
 		n(ZONE_DROPS, {
 			i(201458, {	-- Aegis of Tyrhold
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from mobs around the Tyrhold Area, Titan Chests or the Valdrakken Accord Weekly.",
 					constant = "DROPS_FROM_MOBS_AROUND_THE_TYRHOLD_AREA_TITAN",
 					export = true,

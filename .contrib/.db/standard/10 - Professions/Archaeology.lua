@@ -1706,7 +1706,7 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 							i(131717, {	-- Starlight Beacon
 								-- #if AFTER 11.2.0
 								-- #if BEFORE 11.2.5
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In patch 11.2.5, Starlight Beacon is becoming a toy.\n\nIf you don't have it, the next time the quest will be up is from 2nd September through 15th September. Then it won't be up again until March 2026.",
 									constant = "IN_PATCH_11_2_5_STARLIGHT_BEACON_IS_BECOMING_A",
 									export = true,

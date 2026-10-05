@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					r(291524),	-- Scrap Trap
 					r(300122, {["u"]=TRAINING}),	-- Scrapmaster's Blowtorch
 					r(298141, {	-- Subroutine: Optimization (Might not be collectible)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available when wearing Pocket-Sized Computation Device with Remote Circuit Bypasser socketed.",
 							constant = "ONLY_AVAILABLE_WHEN_WEARING_POCKET_SIZED",
 							export = true,

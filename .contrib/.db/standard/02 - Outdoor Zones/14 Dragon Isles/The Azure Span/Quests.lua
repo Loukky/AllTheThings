@@ -2038,7 +2038,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							}),
 							iensemble(205958),	-- Ensemble: Azure Renewal Finery
 							i(205908, {	-- Inherited Wisdom of Senegos (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You will find this in your mailbox upon completing this quest",
 									constant = "YOU_WILL_FIND_THIS_IN_YOUR_MAILBOX_UPON",
 									export = true,
@@ -2062,7 +2062,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						},
 					}),
 					q(91467, {	-- Incarnates on the Move
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This can be completed in party-sync with a character who has not completed 'A Peaceful Farewell' (ID 72951).",
 							constant = "THIS_CAN_BE_COMPLETED_IN_PARTY_SYNC_WITH_A",
 							export = true,
@@ -2252,7 +2252,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.Item, 200205, {	-- Tome of Polymorph: Duck
 				q(71002, {	-- Best Spell Ever
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Blink ability to enter the cave.",
 						constant = "USE_BLINK_ABILITY_TO_ENTER_THE_CAVE",
 						export = true,
@@ -2297,7 +2297,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			------ Hemet Nesingwary ------
 			-- TODO: perhaps verify these further...? either has no quest pre-req, or requires DF_ACCOUNT_CAMPAIGN_QUEST | 65686
 			q(66972, {	-- Old Stonetusk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Hemet Nesingwary does a circle around the whole zone and stops at the quest places one by one.",
 					constant = "HEMET_NESINGWARY_DOES_A_CIRCLE_AROUND_THE_WHOLE",
 					export = true,
@@ -2390,7 +2390,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			q(71139, {	-- Glowing Arcane Jewel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 2 players (or solo if you time it perfectly). Kill the Lost Elemental, then each player needs to click on a different Lava Orb to open a nearby cave. Kill the Stranded Soul inside the cave and loot the quest item.",
 					constant = "REQUIRES_2_PLAYERS_OR_SOLO_IF_YOU_TIME_IT",
 					export = true,

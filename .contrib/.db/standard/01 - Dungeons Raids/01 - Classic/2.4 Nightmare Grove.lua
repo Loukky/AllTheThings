@@ -44,7 +44,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["lvl"] = 60,
 		["groups"] = {
 			n(DRAGONS_OF_NIGHTMARE, bubbleDown({ ["timeline"] = { ADDED_1_11_0, REMOVED_1_15_5 } }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The original version of the nightmare dragon loot in Classic Era.",
 					constant = "THE_ORIGINAL_VERSION_OF_THE_NIGHTMARE_DRAGON",
 					export = true,
@@ -234,7 +234,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(234880, {	-- Emeriss
 				-- Unconfirmed Drop:
 				i(234159, {	-- Polished Ironwood Crossbow
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you get this to drop, @crieve on Discord!",
 						constant = "IF_YOU_GET_THIS_TO_DROP_CRIEVE_ON_DISCORD",
 						export = true,

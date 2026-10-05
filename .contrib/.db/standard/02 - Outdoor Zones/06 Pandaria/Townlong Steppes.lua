@@ -805,7 +805,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30933, {	-- Seeking Father
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is not always available due to zone phasing issues.",
 							constant = "THIS_QUEST_IS_NOT_ALWAYS_AVAILABLE_DUE_TO_ZONE",
 							export = true,
@@ -932,7 +932,7 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(31127, {	-- The Challenger's Ring: Chao the Voice
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available when |cFFFFD700Yaungol|r themed dailies are available.",
 							constant = "ONLY_AVAILABLE_WHEN_CFFFFD700YAUNGOL_R_THEMED",
 							export = true,
@@ -955,7 +955,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_SHADO_PAN, HONORED },
 					}),
 					q(31220, {	-- The Challenger's Ring: Hawkmaster Nurong
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available when |cFFFFD700Mantid|r themed dailies are available.",
 							constant = "ONLY_AVAILABLE_WHEN_CFFFFD700MANTID_R_THEMED",
 							export = true,
@@ -984,7 +984,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_SHADO_PAN, REVERED },
 					}),
 					q(31038, {	-- The Challenger's Ring: Snow Blossom
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available when |cFFFFD700Mogu|r themed dailies are available.",
 							constant = "ONLY_AVAILABLE_WHEN_CFFFFD700MOGU_R_THEMED",
 							export = true,
@@ -1457,7 +1457,7 @@ root(ROOTS.Zones, {
 					})),
 					n(66900, {	-- Huggalon the Heart Watcher
 						["coord"] = { 65.6, 23.8, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located in the catacombs.",
 							constant = "LOCATED_IN_THE_CATACOMBS",
 							export = true,
@@ -1587,7 +1587,7 @@ root(ROOTS.Zones, {
 							{ 56.5, 64.7, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
 							{ 64.9, 21.5, TOWNLONG_STEPPES_NIUZAO_CATACOMBS },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Entrance is at |cFFFFD70032.6 61.8|r. There are 4 possible spawn points.",
 							constant = "ENTRANCE_IS_AT_CFFFFD70032_6_61_8_R_THERE_ARE_4",
 							export = true,
@@ -1609,7 +1609,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213959, {	-- Hardened Sap of Kri'vess
 						["questID"] = 31424,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located all around Kri'vess.",
 							constant = "LOCATED_ALL_AROUND_KRI_VESS",
 							export = true,

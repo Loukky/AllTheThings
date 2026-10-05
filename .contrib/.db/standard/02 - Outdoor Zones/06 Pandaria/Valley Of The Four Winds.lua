@@ -25,7 +25,7 @@ root(ROOTS.Zones, {
 				}),
 				battlepets({
 					pet(706, {	-- Bandicoon (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found all over the zone.",
 							constant = "CAN_BE_FOUND_ALL_OVER_THE_ZONE",
 							export = true,
@@ -45,7 +45,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(707, {	-- Bandicoon Kit (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Respawns after some minutes as long as their Bandicoon parent is still alive. Can be found all over the zone, and common as secondary pets.",
 							constant = "RESPAWNS_AFTER_SOME_MINUTES_AS_LONG_AS_THEIR_3",
 							export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(708, {	-- Malayan Quillrat (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found almost everywhere in Valley of the Four Winds.",
 							constant = "CAN_BE_FOUND_ALMOST_EVERYWHERE_IN_VALLEY_OF_THE",
 							export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(709, {	-- Malayan Quillrat Pup (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Respawns after some minutes as long as their Malayan Quillrat parent is still alive. Can be found all over the zone, and common as secondary pets.",
 							constant = "RESPAWNS_AFTER_SOME_MINUTES_AS_LONG_AS_THEIR_4",
 							export = true,
@@ -105,7 +105,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(710, {	-- Marsh Fiddler (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found all over The Heartland.",
 							constant = "CAN_BE_FOUND_ALL_OVER_THE_HEARTLAND",
 							export = true,
@@ -126,7 +126,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 41.6, 45.2, VALLEY_OF_THE_FOUR_WINDS },	-- The Heartland
 					}),
 					pet(677, {	-- Shy Bandicoon (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found through Paoquan Hollow and the foothills south of Singing Marshes, but will never appear as secondary pets!",
 							constant = "CAN_BE_FOUND_THROUGH_PAOQUAN_HOLLOW_AND_THE",
 							export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Zones, {
 					}),
 					prof(FISHING, {
 						n(70398, {	-- Ben of the Booming Voice <Fishing Trainer>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Ben of the Booming Voice is a pandaren fishing trainer located on the bank of the Gilding Stream in the Valley of the Four Winds. When asked, he tells where fish are swarming in Pandaria that day. Wherever fish are swarming, there are a large number of fishing pools containing the type of fish Ben specifies.",
 								constant = "BEN_OF_THE_BOOMING_VOICE_IS_A_PANDAREN_FISHING",
 								export = true,
@@ -402,7 +402,7 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(31521, {	-- To Be a Master
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Becomes available on reaching max Pandaria cooking, but you must master all 6 Pandaren cooking ways for this quest to be completed.",
 									constant = "BECOMES_AVAILABLE_ON_REACHING_MAX_PANDARIA",
 									export = true,
@@ -427,7 +427,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30275, {	-- A Crocolisk Tale
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Manglemaw at the Pools of Purity to spawn Manglemaw's Mother.",
 							constant = "KILL_MANGLEMAW_AT_THE_POOLS_OF_PURITY_TO_SPAWN",
 							export = true,
@@ -640,7 +640,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 55.9, 49.4, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					q(30054, {	-- Enough is Ookin' Enough
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available as part of the \"Hop Hunting\" quest.",
 							constant = "ONLY_AVAILABLE_AS_PART_OF_THE_HOP_HUNTING_QUEST",
 							export = true,
@@ -759,7 +759,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(38935, {	-- His Name Was... Stormstout - appears to be an unused version of this quest added in Warlords of Draenor?
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This breadcrumb can only be picked up from the Adventure Guide (shift+J).",
 							constant = "THIS_BREADCRUMB_CAN_ONLY_BE_PICKED_UP_FROM_THE",
 							export = true,
@@ -811,7 +811,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(29873, {	-- Ken-Ken
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is not obtainable while having Hero's Call:-/Warchief's Command: Karasang Wilds! in the quest log. However, it can be picked up after completing said quest.",
 							constant = "THIS_QUEST_IS_NOT_OBTAINABLE_WHILE_HAVING_HERO",
 							export = true,
@@ -1290,7 +1290,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 68.9, 43.2, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					q(32019, {	-- They Call Him... Stormstout
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available before completion of |cFFFFD700The Jade Serpent|r.",
 							constant = "ONLY_AVAILABLE_BEFORE_COMPLETION_OF",
 							export = true,
@@ -1343,7 +1343,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(29990, {	-- Training and Discipline
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest ends your adventure in this zone for now, and you are required to complete the Karasang Wilds storyline in order to unlock the last part of the story.",
 							constant = "THIS_QUEST_ENDS_YOUR_ADVENTURE_IN_THIS_ZONE_FOR",
 							export = true,
@@ -1572,7 +1572,7 @@ root(ROOTS.Zones, {
 						["questID"] = 31869,
 						["coord"] = { 92.2, 39.2, VALLEY_OF_THE_FOUR_WINDS },
 						-- #if ANYCLASSIC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "While it exists in the game, it currently cannot be looted as of the Landfall patch (5.5.1). Please fix! :(",
 							constant = "WHILE_IT_EXISTS_IN_THE_GAME_IT_CURRENTLY_CANNOT",
 							export = true,
@@ -1620,7 +1620,7 @@ root(ROOTS.Zones, {
 					}),
 					n(64004, {	-- Ghostly Pandaren Fisherman
 						["coord"] = { 46.8, 24.6, VALLEY_OF_THE_FOUR_WINDS },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Speak with the Ghostly Pandaren Fisherman to get the toy.",
 							constant = "SPEAK_WITH_THE_GHOSTLY_PANDAREN_FISHERMAN_TO",
 							export = true,
@@ -1676,7 +1676,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 34.6, 64.0, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 					o(213650, {	-- Virmen Treasure Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a respawn timer of approx 7 minutes.",
 							constant = "HAS_A_RESPAWN_TIMER_OF_APPROX_7_MINUTES",
 							export = true,
@@ -3157,7 +3157,7 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(74842, {	-- Mogu Pumpkin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops from Virmen.",
 							constant = "DROPS_FROM_VIRMEN",
 							export = true,

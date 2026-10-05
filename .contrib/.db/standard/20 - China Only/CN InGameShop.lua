@@ -44,7 +44,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	}),
 	-- #endif
 	cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Can be bought for ¥200 RMB (~$27 USD) in the Ingame Shop.\n\nYou can only purchase 12 boxes per year.",
 			constant = "CAN_BE_BOUGHT_FOR_200_RMB_27_USD_IN_THE_INGAME",
 			export = true,

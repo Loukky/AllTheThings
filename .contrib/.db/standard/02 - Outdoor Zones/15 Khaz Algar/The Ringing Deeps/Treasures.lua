@@ -115,7 +115,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(433733, {	-- Forgotten Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Key to this chest can be found in nearest Buried Treasure.",
 					constant = "KEY_TO_THIS_CHEST_CAN_BE_FOUND_IN_NEAREST",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444261, {	-- Purchase Bluesberry Blast 5 Silver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Purchase First, then Orange!.",
 					constant = "PURCHASE_FIRST_THEN_ORANGE",
 					export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444275, {	-- Purchase Mangoro Madness 5 Silver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Purchase Fourth.",
 					constant = "PURCHASE_FOURTH",
 					export = true,
@@ -189,7 +189,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444276, {	-- Purchase Orange O Pocalypse 5 Silver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Purchase Second, next is Oyster.",
 					constant = "PURCHASE_SECOND_NEXT_IS_OYSTER",
 					export = true,
@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444277, {	-- Purchase Oyster Outbreak 5 Silver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Purchase Third, now lets get some Mangoro Madness.",
 					constant = "PURCHASE_THIRD_NOW_LETS_GET_SOME_MANGORO",
 					export = true,
@@ -237,7 +237,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
 			}),
 			o(444256, {	-- Kaja'Cola Machine
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bluesberry Blast > Orange O-pocalypse > Oyster Outburst > Mangoro Mania",
 					constant = "BLUESBERRY_BLAST_ORANGE_O_POCALYPSE_OYSTER",
 					export = true,
@@ -315,7 +315,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82235,
 			}),
 			o(445403, {	-- Scary Dark Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Lit up all candles.",
 					constant = "LIT_UP_ALL_CANDLES",
 					export = true,

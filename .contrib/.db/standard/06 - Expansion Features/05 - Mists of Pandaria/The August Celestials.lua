@@ -4,7 +4,7 @@
 
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_THE_AUGUST_CELESTIALS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Each day, the August Celestials require your aid at one of their temples. Speak to the representative in your faction's Vale of Eternal Blossoms shrine to find out where your help is needed (|cff3f48ccSage Whiteheart for Alliance|r and |cff880015Sage Lotusbloom for Horde|r).\n\nThe dailies will be in one of these locations:\nJade Forest - Temple of the Jade Serpent\nKrasarang Wilds - Cradle of Chi-Ji\nKun-Lai Summit - Temple of the White Tiger\nTownlong Steppes - Niuzao Temple\n\n",
 			constant = "EACH_DAY_THE_AUGUST_CELESTIALS_REQUIRE_YOUR_AID",
 			export = true,
@@ -107,7 +107,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						30717,	-- Gifts of the Great Crane
 						30718,	-- Students of Chi-Ji
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires completing August Celestials dailies at the Cradle of Chi-Ji for a total of 15 days. After you complete the first set of dailies, you'll be given an additional quest to defeat a challenger. You can only work on the achievement on days when the August Celestials request your aid at the Temple of the Red Crane.",
 						constant = "REQUIRES_COMPLETING_AUGUST_CELESTIALS_DAILIES",
 						export = true,

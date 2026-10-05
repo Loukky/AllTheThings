@@ -274,7 +274,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(SPECIAL, {
 				-- #if BEFORE 3.0.8
 				i(9240, {	-- Mallet of Zul'Farrak
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Sacred Mallet drops from Qiaga the Keeper on top of the Altar of Zul in Hinterlands. You then bring it to the top of Jintha'alor and use it near the altar to turn into the Mallet of Zul'Farrak so you can summon Gahz'rilla in Zul'Farrak.",
 						constant = "THE_SACRED_MALLET_DROPS_FROM_QIAGA_THE_KEEPER",
 						export = true,
@@ -298,7 +298,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["cr"] = 7995,	-- Vile Priestess Hexx
 				}),
 				i(9241, {	-- Sacred Mallet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Bring this to the top of Jintha'alor and use it near the altar to turn into the Mallet of Zul'Farrak so you can summon Gahz'rilla in Zul'Farrak.",
 						constant = "BRING_THIS_TO_THE_TOP_OF_JINTHA_ALOR_AND_USE_IT",
 						export = true,
@@ -323,7 +323,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, i(223526, {	-- Sul'thraze the Lasher
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must take both of the swords and combine them to form this weapon.",
 						constant = "YOU_MUST_TAKE_BOTH_OF_THE_SWORDS_AND_COMBINE",
 						export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_THREE, n(222573, {	-- Delirious Ancient
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns after clearing any 3 bosses (other than Ghaz'rilla) and will wander around the Ghaz'rilla area.",
 					constant = "SPAWNS_AFTER_CLEARING_ANY_3_BOSSES_OTHER_THAN",
 					export = true,
@@ -403,7 +403,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 			n(10080, {	-- Sandarr Dunereaver
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a Rare Creature and, as such, is not always present.\n\nItems listed for this NPC 'technically' can drop from other creatures in the dungeon, but are extremely rare in comparison.",
 					constant = "THIS_IS_A_RARE_CREATURE_AND_AS_SUCH_IS_NOT_5",
 					export = true,
@@ -501,7 +501,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #else
 					i(12471, {	-- Desertwalker Cane
 						-- #if AFTER LEGION
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is available only in personal loot, and requires a class with an Intellect-using loot spec.",
 							constant = "THIS_ITEM_IS_AVAILABLE_ONLY_IN_PERSONAL_LOOT",
 							export = true,
@@ -526,7 +526,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if BEFORE MOP
 			n(7796, {	-- Nekrum Gutchewer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "He's linked to Shadowpriest Sezz'ziz. Both will aggro once the 100 troll assault on the pyramid is complete.",
 					constant = "HE_S_LINKED_TO_SHADOWPRIEST_SEZZ_ZIZ_BOTH_WILL",
 					export = true,
@@ -598,7 +598,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 			}),
 			n(7604, {	-- Sergeant Bly
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These adventurers initially help you clear the gauntlet leading up to the previous boss, but then they turn on you. You don't have to fight them if no one in your party needs the quest item.",
 					constant = "THESE_ADVENTURERS_INITIALLY_HELP_YOU_CLEAR_THE",
 					export = true,
@@ -626,7 +626,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(7797, {	-- Ruuzlu
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "He's linked to Chief Ukorz Sandscalp, and both are immune to CC. It's generally preferred to kill Ruuzlu first, however.",
 					constant = "HE_S_LINKED_TO_CHIEF_UKORZ_SANDSCALP_AND_BOTH",
 					export = true,
@@ -686,7 +686,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			e(483, {	-- Gahz'rilla
 				["creatureID"] = 7273,
 				-- #if BEFORE 3.0.8
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Someone in your party must have the Mallet of Zul'Farrak to summon this boss!\n\nIf you have it, simply bang the Gong of Zul'Farrak. (after first confirming with your party...)",
 					constant = "SOMEONE_IN_YOUR_PARTY_MUST_HAVE_THE_MALLET_OF",
 					export = true,

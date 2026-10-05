@@ -24,7 +24,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Protip: Begin with the Wild Hatchlings found under the header for 'Order of the Cloud Serpent' as they only appears as primary pets. Battling them requires being Exalted with said faction.",
 						constant = "PROTIP_BEGIN_WITH_THE_WILD_HATCHLINGS_FOUND",
 						export = true,
@@ -44,7 +44,7 @@ root(ROOTS.Zones, {
 					}),
 					["groups"] = {
 						pet(380, {	-- Bucktooth Flapper (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found on the riverside.",
 								constant = "CAN_BE_FOUND_ON_THE_RIVERSIDE",
 								export = true,
@@ -68,7 +68,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(562, {	-- Coral Adder (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only be found as primary pets at the given location. Otherwise found as secondary pet on Timeless Isle.",
 								constant = "CAN_ONLY_BE_FOUND_AS_PRIMARY_PETS_AT_THE_GIVEN",
 								export = true,
@@ -99,7 +99,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 53.6, 45.2, THE_JADE_FOREST },
 						}),
 						pet(571, {	-- Grove Viper (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Commonly found throughout the zone.",
 								constant = "COMMONLY_FOUND_THROUGHOUT_THE_ZONE",
 								export = true,
@@ -122,7 +122,7 @@ root(ROOTS.Zones, {
 							["description"] = "~L.COMMONLY_FOUND_THROUGHOUT_THE_ZONE",
 						}),
 						pet(565, {	-- Jungle Darter (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found on multiple locations in southern half of Jade Forest, but only a few spawns at each. Use a macro to find them. Otherwise found as secondary pet.",
 								constant = "CAN_BE_FOUND_ON_MULTIPLE_LOCATIONS_IN_SOUTHERN",
 								export = true,
@@ -154,7 +154,7 @@ root(ROOTS.Zones, {
 							["description"] = "~L.COMMONLY_FOUND_THROUGHOUT_THE_ZONE",
 						}),
 						pet(570, {	-- Masked Tanuki (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found throughout the zone, but they are few and far between. Otherwise found as secondary pet.",
 								constant = "CAN_BE_FOUND_THROUGHOUT_THE_ZONE_BUT_THEY_ARE",
 								export = true,
@@ -185,7 +185,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(573, {	-- Sandy Petrel (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only be found as primary pet at the given location. Otherwise found as secondary pet.",
 								constant = "CAN_ONLY_BE_FOUND_AS_PRIMARY_PET_AT_THE_GIVEN",
 								export = true,
@@ -206,7 +206,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 66.8, 28.0, THE_JADE_FOREST },	-- Windward Isle
 						}),
 						pet(754, {	-- Shrine Fly (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only be found as primary pet at the given locations. Otherwise found as secondary pet.",
 								constant = "CAN_ONLY_BE_FOUND_AS_PRIMARY_PET_AT_THE_GIVEN_2",
 								export = true,
@@ -230,7 +230,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(711, {	-- Sifang Otter (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found around the body of water between Paw'don Village and Krasarang Wilds.",
 								constant = "CAN_BE_FOUND_AROUND_THE_BODY_OF_WATER_BETWEEN",
 								export = true,
@@ -251,7 +251,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 38.8, 90.0, THE_JADE_FOREST },
 						}),
 						pet(712, {	-- Sifang Otter Pup (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found around the body of water between Paw'don Village and Krasarang Wilds. Respawns after some minutes as long as their Silfang Otter parent is still alive. Only a few spawns as primary pets, but common as secondary pets.",
 								constant = "CAN_BE_FOUND_AROUND_THE_BODY_OF_WATER_BETWEEN_2",
 								export = true,
@@ -278,7 +278,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 69.2, 30.0, THE_JADE_FOREST },	-- Windward Isle
 						}),
 						pet(567, {	-- Temple Snake (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found around the Temple of the Jade Serpent.",
 								constant = "CAN_BE_FOUND_AROUND_THE_TEMPLE_OF_THE_JADE",
 								export = true,
@@ -474,7 +474,7 @@ root(ROOTS.Zones, {
 				n(PROFESSIONS, {
 					prof(ALCHEMY, {
 						o(211424, {	-- Alchemy Scroll
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "It will only appear to alchemists who don't yet know the recipe. May require Pandaria Alchemy 50.",
 								constant = "IT_WILL_ONLY_APPEAR_TO_ALCHEMISTS_WHO_DON_T_YET",
 								export = true,
@@ -737,7 +737,7 @@ root(ROOTS.Zones, {
 								["coord"] = { 59.2, 83.4, THE_JADE_FOREST },
 							}),
 							n(56591, {	-- Pearlfin Aqualyte (Staff)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "CASTER: Give this one a staff.",
 									constant = "CASTER_GIVE_THIS_ONE_A_STAFF",
 									export = true,
@@ -757,7 +757,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							n(54959, {	-- Pearlfin Aqualyte (Shield)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "TANK: Give this one a shield.",
 									constant = "TANK_GIVE_THIS_ONE_A_SHIELD",
 									export = true,
@@ -777,7 +777,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							n(56592, {	-- Pearlfin Aqualyte (Daggers)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "DPS: Give this one a dagger.",
 									constant = "DPS_GIVE_THIS_ONE_A_DAGGER",
 									export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							n(56585, {	-- Pearlfin Aqualyte (Book)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "HEALER: Give this one a book.",
 									constant = "HEALER_GIVE_THIS_ONE_A_BOOK",
 									export = true,
@@ -1089,7 +1089,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(29901, {	-- Anduin's Decision
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically given when prerequisites have been fulfilled.",
 							constant = "AUTOMATICALLY_GIVEN_WHEN_PREREQUISITES_HAVE",
 							export = true,
@@ -1481,7 +1481,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(29717, {	-- Down Kitty!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700The Double Hozen Dare|r to see this quest. If you completed it without picking up this quest, you can find An Windfur running around Dawn's Blossom, rather than in the forest near the Lair of the Jade Witch.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700THE_2",
 							export = true,
@@ -2506,7 +2506,7 @@ root(ROOTS.Zones, {
 					}),
 					q(29755, {	-- Pei-Back
 						-- #if AFTER WOD
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you greatly overlevel MoP content, you might need to use the toy Soft Foam Sword or Whole-Body Shrinka.",
 							constant = "IF_YOU_GREATLY_OVERLEVEL_MOP_CONTENT_YOU_MIGHT",
 							export = true,
@@ -2550,7 +2550,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 41.6, 28.3, THE_JADE_FOREST },
 						["groups"] = {
 							objective(1, {	-- 0/12 Practice Strikes completed
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Do NOT react immediately to the visual cue. Wait for the pupils to react and then do the move. If you go too quickly, you won't get credit.",
 									constant = "DO_NOT_REACT_IMMEDIATELY_TO_THE_VISUAL_CUE_WAIT",
 									export = true,
@@ -2634,7 +2634,7 @@ root(ROOTS.Zones, {
 						-- #if BEFORE 10.2.7
 						["races"] = HORDE_ONLY,
 						-- #else
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This Horde quest is now completable as Alliance, be ware it requires visiting the hostile Honeydew Village.",
 							constant = "THIS_HORDE_QUEST_IS_NOW_COMPLETABLE_AS_ALLIANCE",
 							export = true,
@@ -3181,7 +3181,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					warchiefscommand(q(29611, {	-- The Art of War (Nobody)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Players who have not completed Vashj'ir will receive this version of The Art of War.",
 							constant = "PLAYERS_WHO_HAVE_NOT_COMPLETED_VASHJ_IR_WILL",
 							export = true,
@@ -3203,7 +3203,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					})),
 					warchiefscommand(q(29612, {	-- The Art of War (Veteran)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Players who have completed Vashj'ir will receive this version of The Art of War.",
 							constant = "PLAYERS_WHO_HAVE_COMPLETED_VASHJ_IR_WILL",
 							export = true,
@@ -3881,7 +3881,7 @@ root(ROOTS.Zones, {
 							i(90376),	-- Barricade-Breaker Cidgel
 							i(90382),	-- Captain Roger's Polite Knocking Stick
 							i(90331, {	-- Face Smaher Warhammer
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Unlocks for Horde after completing this alliance quest.",
 									constant = "UNLOCKS_FOR_HORDE_AFTER_COMPLETING_THIS",
 									export = true,
@@ -4215,7 +4215,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213364, {	-- Ancient Pandaren Mining Pick
 						["questID"] = 31399,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Greenstone Quarry at the lower level. Entrance at (46.1, 29.1).",
 							constant = "INSIDE_GREENSTONE_QUARRY_AT_THE_LOWER_LEVEL",
 							export = true,
@@ -4261,7 +4261,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 24.6, 53.2, THE_JADE_FOREST },
 					}),
 					o(587264, {	-- Golden Cloud Serpent Treasure Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found underwater in a ship, click the chest floating inside the slime.",
 							constant = "FOUND_UNDERWATER_IN_A_SHIP_CLICK_THE_CHEST",
 							export = true,
@@ -4294,7 +4294,7 @@ root(ROOTS.Zones, {
 							{ 42.01, 17.56, THE_JADE_FOREST },
 							{ 42.97, 11.63, THE_JADE_FOREST },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Leaning upright against the wall.",
 							constant = "LEANING_UPRIGHT_AGAINST_THE_WALL",
 							export = true,
@@ -4322,7 +4322,7 @@ root(ROOTS.Zones, {
 					n(64272, {	-- Jade Warrior Statue
 						["questID"] = 31307,
 						["coord"] = { 39.26, 46.65, THE_JADE_FOREST },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Up against the wooden fence post on the rocky terrain with its back to the wall.",
 							constant = "UP_AGAINST_THE_WOODEN_FENCE_POST_ON_THE_ROCKY",
 							export = true,
@@ -4346,7 +4346,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213368, {	-- Lucky Pandaren Coin
 						["questID"] = 31401,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located in the wishing fountain.",
 							constant = "LOCATED_IN_THE_WISHING_FOUNTAIN",
 							export = true,
@@ -4372,7 +4372,7 @@ root(ROOTS.Zones, {
 					o(213363, {	-- Wodin's Mantid Shanker
 						["questID"] = 31397,
 						["coord"] = { 39.41, 7.23, THE_JADE_FOREST },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Glimmering in the east side of the pond underwater between the lantern and the stone wall.",
 							constant = "GLIMMERING_IN_THE_EAST_SIDE_OF_THE_POND",
 							export = true,
@@ -4407,7 +4407,7 @@ root(ROOTS.Zones, {
 					}),
 					o(213362, {	-- Ship's Locker
 						["questID"] = 31396,	-- Ship's Locker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located underwater in a boat.",
 							constant = "LOCATED_UNDERWATER_IN_A_BOAT",
 							export = true,
@@ -4433,7 +4433,7 @@ root(ROOTS.Zones, {
 					o(214337, {	-- Stash of Gems
 						["questID"] = 31866,
 						["coord"] = { 62.4, 27.5, THE_JADE_FOREST },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located in a cave.",
 							constant = "LOCATED_IN_A_CAVE",
 							export = true,

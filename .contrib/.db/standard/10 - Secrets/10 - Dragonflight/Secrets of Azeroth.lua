@@ -42,7 +42,7 @@ end
 
 root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 	n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "***Using Debug Mode is recommended.***\n",
 			constant = "USING_DEBUG_MODE_IS_RECOMMENDED",
 			export = true,
@@ -197,7 +197,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						{ 43.9, 37.4, THOUSAND_NEEDLES },	-- Cave Entrance
 						{ 42.7, 30.6, THOUSAND_NEEDLES },	-- Loose Dirt Mound
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In underwater cave.",
 						constant = "IN_UNDERWATER_CAVE",
 						export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					["questID"] = 77290,
 					["coord"] = { 26.2, 68.6, NETHERSTORM },
 					["provider"] = { "i", 208092 },	-- Torch of Pyrreth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need three people to each channel their 'Torch of Pyrreth' on each small crystal.",
 						constant = "YOU_NEED_THREE_PEOPLE_TO_EACH_CHANNEL_THEIR",
 						export = true,
@@ -251,7 +251,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					["questID"] = 77296,
 					["coord"] = { 25.2, 71.5, THE_AZURE_SPAN },
 					["provider"] = { "i", 208092 },	-- Torch of Pyrreth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your 'Torch of Pyrreth' near the snowmen.",
 						constant = "USE_YOUR_TORCH_OF_PYRRETH_NEAR_THE_SNOWMEN",
 						export = true,
@@ -282,7 +282,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					["questID"] = 77298,
 					["coord"] = { 64.7, 55.4, BLASTED_LANDS },
 					["provider"] = { "i", 208092 },	-- Torch of Pyrreth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your 'Torch of Pyrreth' on the ritual crystal.",
 						constant = "USE_YOUR_TORCH_OF_PYRRETH_ON_THE_RITUAL_CRYSTAL",
 						export = true,
@@ -304,7 +304,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				o(405538, {	-- Loose Dirt Mound
 					["questID"] = 77299,
 					["coord"] = { 57.8, 26.3, NAGRAND },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On the island floating in the air.",
 						constant = "ON_THE_ISLAND_FLOATING_IN_THE_AIR",
 						export = true,
@@ -339,7 +339,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 							{ 36.8, 35.6, GRIZZLY_HILLS },	-- Start of Log Ride
 							{ 20.2, 81.3, GRIZZLY_HILLS },	-- Loose Dirt Mound
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Talk to the NPC at the northern waypoint to take a ride on the log. At the end, you will receive the WHEE! buff which is required to see the Loose Dirt Mound.",
 							constant = "TALK_TO_THE_NPC_AT_THE_NORTHERN_WAYPOINT_TO",
 							export = true,
@@ -364,7 +364,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 							{ 35.1, 34.7, GRIZZLY_HILLS },	-- Start of Log Ride
 							{ 10.9, 74.9, GRIZZLY_HILLS },	-- Loose Dirt Mound
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take the log ride, must have WHEE! buff for Loose Dirt Mound to be visible.",
 							constant = "TAKE_THE_LOG_RIDE_MUST_HAVE_WHEE_BUFF_FOR_LOOSE",
 							export = true,
@@ -413,7 +413,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					-- If someone figures this out, please adjust the quest
 				}),
 				q(77203, {	-- Preserving Rarities
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to Kathos again to get a Mystery box & open it to receive a Golden Chalice.\nDeliver the Chalice in the Bank in Valdrakken (58.88 54.09).\nYou can rightclick the quest to place all coordinates.",
 						constant = "TALK_TO_KATHOS_AGAIN_TO_GET_A_MYSTERY_BOX_OPEN",
 						export = true,
@@ -445,7 +445,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					},
 				}),
 				q(76735, {	-- Rise in Relic Theft
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Deliver the Tuskarr Spear to Eldor Poa in Azure Span (12.4 49.2).\nDeliver the newly received Shomko Spear to Elder Ko'nani in Dragonblight (48.0 74.8).\nFinally deliver the spear to the Statue in Borean Tundra (33.63 58.45).\nYou can rightclick the quest to place all coordinates.",
 						constant = "DELIVER_THE_TUSKARR_SPEAR_TO_ELDOR_POA_IN_AZURE",
 						export = true,
@@ -485,7 +485,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 							["cost"] = { { "i", 207580, 1 } },	-- Shomko's Unyielding Spear
 						}),
 						n(208182, {	-- Crazed Looter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns after using spear at statue",
 								constant = "SPAWNS_AFTER_USING_SPEAR_AT_STATUE",
 								export = true,
@@ -576,7 +576,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				})),
 				OneTimeAccountLocked(77513,	-- The Tricked-Out Thinking Cap (Account-Wide Lock)
 				q(76504, {	-- The Tricked-Out Thinking Cap
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Toy to accept quest. Follow arrows.",
 						constant = "USE_TOY_TO_ACCEPT_QUEST_FOLLOW_ARROWS",
 						export = true,
@@ -676,7 +676,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				})),
 				OneTimeAccountLocked(77522,	-- The Torch of Pyrreth (Account-Wide Lock)
 				q(77263, {	-- The Torch of Pyrreth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Torch of Pyrreth @ 58.5, 23.6 Valdrakken.",
 						constant = "USE_TORCH_OF_PYRRETH_58_5_23_6_VALDRAKKEN",
 						export = true,
@@ -774,7 +774,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				})),
 				OneTimeAccountLocked(77524,	-- Using the Idol (Account-Wide Lock)
 				q(76456, {	-- Using the Idol
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Idol. It points towards objectives.",
 						constant = "USE_THE_IDOL_IT_POINTS_TOWARDS_OBJECTIVES",
 						export = true,
@@ -807,7 +807,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						i(206948),	-- A Clue: The Shifting Sands (QI!)
 						-- These Time Lost Fragments spawn all over the Shifting Sands
 						o(404319, {	-- Time-Lost Fragment
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Many locations, each location respawns after ~60 seconds.",
 								constant = "MANY_LOCATIONS_EACH_LOCATION_RESPAWNS_AFTER_60",
 								export = true,
@@ -875,7 +875,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					["groups"] = {
 						i(208829),	-- Titan Key Materials List (QI!)
 						o(407691, {	-- Dusty Red Pellets
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Very tiny rocks. Many locations. Use Idol of Ohn'ahra to find them.",
 								constant = "VERY_TINY_ROCKS_MANY_LOCATIONS_USE_IDOL_OF_OHN",
 								export = true,
@@ -1010,7 +1010,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 							["coord"] = { 47.2, 64.4, KARAZHAN },
 						}))),
 						o(408980, {	-- Tyr's Legacy
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are three clues inside the Guardian's Library. Pull out your thinking cap to find all three and the final object.",
 								constant = "THERE_ARE_THREE_CLUES_INSIDE_THE_GUARDIAN_S",
 								export = true,
@@ -1035,7 +1035,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				}),
 				OneTimeAccountLocked(77579,	-- A Legacy of Secrets (Account-Wide Lock)
 				q(77908, {	-- A Legacy of Secrets
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Quest takes place in Old Karazhan Raid",
 						constant = "QUEST_TAKES_PLACE_IN_OLD_KARAZHAN_RAID",
 						export = true,
@@ -1098,7 +1098,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				}),
 				OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
 				q(77934, {	-- A Complete Inventory
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use your Idol of Ohn'ahra to help find the pages.\n\nQuest begins automatically once all have been found.",
 						constant = "USE_YOUR_IDOL_OF_OHN_AHRA_TO_HELP_FIND_THE",
 						export = true,
@@ -1195,7 +1195,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
 						hqt(77974, {
 							["name"] = "First Lock",	-- not sure how else to name this trigger
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Unlock the first lock by using your torch at all 8 Tyrhold staute.",
 								constant = "UNLOCK_THE_FIRST_LOCK_BY_USING_YOUR_TORCH_AT",
 								export = true,
@@ -1263,7 +1263,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
 						hqt(77973, {
 							["name"] = "Third Lock",	-- not sure how else to name this trigger
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use your idol at each Ring/Room location to find Broken Urn's",
 								constant = "USE_YOUR_IDOL_AT_EACH_RING_ROOM_LOCATION_TO",
 								export = true,
@@ -1285,7 +1285,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 								o(409212, {	-- Broken Urn #1
 									["provider"] = { "i", 207730 },	-- Idol of Ohn'ahra
 									["coord"] = { 59.8, 62.3, THALDRASZUS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Room on Ring #1",
 										constant = "ROOM_ON_RING_1",
 										export = true,
@@ -1314,7 +1314,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 								o(409200, {	-- Broken Urn #3
 									["provider"] = { "i", 207730 },	-- Idol of Ohn'ahra
 									["coord"] = { 59.7, 54.9, THALDRASZUS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Room on Ring #3",
 										constant = "ROOM_ON_RING_3",
 										export = true,
@@ -1343,7 +1343,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 								o(409209, {	-- Broken Urn #5
 									["provider"] = { "i", 207730 },	-- Idol of Ohn'ahra
 									["coord"] = { 62.0, 61.9, THALDRASZUS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Room on Ring #5",
 										constant = "ROOM_ON_RING_5",
 										export = true,
@@ -1470,7 +1470,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					}),
 					-- leading clues https://www.wowhead.com/item=209781/second-booster-part#comments:id=5680742:reply=1637897
 					n(210398, {	-- Enigma Ward
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requries 3 people with Torch of Pyrreth to summon.",
 							constant = "REQURIES_3_PEOPLE_WITH_TORCH_OF_PYRRETH_TO",
 							export = true,
@@ -1495,7 +1495,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					}),
 					o(409914, {	-- Mimiron's Booster Part
 						["questID"] = 78099,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Takes 4 people. Someone to control the Water Elemental, 3 people to Envelope",
 							constant = "TAKES_4_PEOPLE_SOMEONE_TO_CONTROL_THE_WATER",
 							export = true,
@@ -1518,7 +1518,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 					}),
 					o(408860, {	-- Mimiron's Booster Part
 						["questID"] = 78100,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take out the cannons so you can loot.",
 							constant = "TAKE_OUT_THE_CANNONS_SO_YOU_CAN_LOOT",
 							export = true,
@@ -1540,7 +1540,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						["groups"] = { i(209055) },	-- Third Booster Part
 					}),
 					i(210022, {	-- Mimiron's Jumpjets (MOUNT!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Combine the first, second, and third boosters near an Empowered\nArcane Forge to reforge and power Mimiron's Jumpjets.\n",
 							constant = "COMBINE_THE_FIRST_SECOND_AND_THIRD_BOOSTERS",
 							export = true,

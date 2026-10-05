@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					}, {	-- Tier 3
 						ChronicleOfLostMemories({	-- Chronicle of Lost Memories
 							["cost"] = { { "c", CATALOGED_RESEARCH, 1500 } },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|cFFfe040fYou will not receive a Covenant specific Legendary if you are not part of said Covenant.|r",
 								constant = "CFFFE040FYOU_WILL_NOT_RECEIVE_A_COVENANT",
 								export = true,
@@ -177,7 +177,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						i(187187, {	-- Korthian Armaments
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These items can also drop from War Chests awarded by Covenant Assaults, the Death's Advance War Chest, and occasionally from Korthian dailies.\n\nKorthian Armaments also have a chance to drop from Korthia rares and treasures.",
 								constant = "THESE_ITEMS_CAN_ALSO_DROP_FROM_WAR_CHESTS",
 								export = true,

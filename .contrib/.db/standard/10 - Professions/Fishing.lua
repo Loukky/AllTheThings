@@ -255,7 +255,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				-- #if BEFORE 5.5.3
 				["description"] = "~L.THIS_IS_NOT_SUPPOSED_TO_BE_IN_THE_GAME_UNTIL",
 				-- #elseif BEFORE LEGION
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from fishing pools in Pandaria.",
 					constant = "DROPS_FROM_FISHING_POOLS_IN_PANDARIA",
 					export = true,
@@ -377,7 +377,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			ach(11725, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Fisherfriend of the Isles
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Fishing Masters are on a daily rotation, so only one is up at a time. The order is:\n\n1. Sha'leth\n2. Impus\n3. Ilyssia of the Waters\n4. Keeper Raynae\n5. Akule Riverhorn\n6. Corbyn\n\nMake sure you're close enough to the Fishing Master to get the |cFFFFD700Something's Fishy|r buff, or you won't be able to fish up the items (the buff may not show up until you dismount).\n\nThe quickest way to reach Best Friend is to fish in a group.\n",
 					constant = "THE_FISHING_MASTERS_ARE_ON_A_DAILY_ROTATION_SO",
 					export = true,
@@ -422,7 +422,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 		filter(MISC, {
 			i(133715, {	-- Ancient Vrykul Ring
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will give you a buff that will allow you to see and fish from Oodelfjisk schools.",
 					constant = "THIS_ITEM_WILL_GIVE_YOU_A_BUFF_THAT_WILL_ALLOW",
 					export = true,
@@ -447,7 +447,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133724, {	-- Decayed Whale Blubber
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Using the item will place a whale blob in front of you, as the item describes. Cast your line, and shortly after a silithid wasp will fly down and hover over the whale blubber. Click on the fly to add Ravenous Fly to your inventory.",
 					constant = "USING_THE_ITEM_WILL_PLACE_A_WHALE_BLOB_IN_FRONT",
 					export = true,
@@ -468,7 +468,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
 				["groups"] = {
 					i(133795, {	-- Ravenous Fly
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must be in |cffffffffThe Great Sea|r when you use this item to catch the respective rare fish.",
 							constant = "YOU_MUST_BE_IN_CFFFFFFFFTHE_GREAT_SEA_R_WHEN",
 							export = true,
@@ -494,7 +494,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				}
 			}),
 			i(133720, {	-- Demonic Detritus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Tainted Runescale Koi in Suramar.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH",
 					export = true,
@@ -519,7 +519,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133708, {	-- Drowned Thistleleaf
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will summon a Drowned Thistleleaf, which grants the buff Blessing of the Thistleleaf, increasing your chance to fish up Thorned Flounder.",
 					constant = "THIS_ITEM_WILL_SUMMON_A_DROWNED_THISTLELEAF",
 					export = true,
@@ -544,7 +544,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133717, {	-- Enchanted Lure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Magic-Eater Frog in Suramar.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_2",
 					export = true,
@@ -569,7 +569,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133712, {	-- Frost Worm
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Coldriver Carp in Highmountain.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_3",
 					export = true,
@@ -594,7 +594,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133709, {	-- Funky Sea Snail
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When the short buff expires, this item will disappear from your inventory and a Bitestone Fishbrul will spawn. Kill it for the lure.",
 					constant = "WHEN_THE_SHORT_BUFF_EXPIRES_THIS_ITEM_WILL",
 					export = true,
@@ -616,7 +616,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["groups"] = {
 					n(102347, {	-- Bitestone Fishbrul
 						i(133710, {	-- Salmon Lure
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item will allow you to catch the rare fish Ancient Highmountain Salmon in Highmountain.",
 								constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_4",
 								export = true,
@@ -643,7 +643,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133721, {	-- Message in a Bottle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "I hope that someone gets my...\nI hope that someone gets my...\nMESSAGE IN A BOOOOTTTLE, yeah.",
 					constant = "I_HOPE_THAT_SOMEONE_GETS_MY_I_HOPE_THAT_SOMEONE",
 					export = true,
@@ -673,7 +673,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133713, {	-- Moosehorn Hook
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "An important note - if you use this item with another bait active (or vice versa) the new buff WILL REPLACE the previous one. As such, it's best to wait until your bait buff expires before using this item. This does not apply to Arcane Lure, which can be used concurrently with any other bait/lure.",
 					constant = "AN_IMPORTANT_NOTE_IF_YOU_USE_THIS_ITEM_WITH",
 					export = true,
@@ -694,7 +694,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["maps"] = { STORMHEIM },
 				["groups"] = {
 					i(133714, {	-- Silverscale Minnow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item will allow you to catch the rare fish Thundering Stormray in Stormheim.",
 							constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_5",
 							export = true,
@@ -720,7 +720,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133707, {	-- Nightmare Nightcrawler
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Terrorfin in Val'sharah.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_6",
 					export = true,
@@ -745,7 +745,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133703, {	-- Pearlescent Conch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Nar'thalas Hermit in Azsuna.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_7",
 					export = true,
@@ -770,7 +770,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133705, {	-- Rotten Fishbone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will attract a Lorlathil Druid that will cast The Cat's Meow buff on you, increasing your chance to fish up Ancient Mossgill.",
 					constant = "THIS_ITEM_WILL_ATTRACT_A_LORLATHIL_DRUID_THAT",
 					export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133704, {	-- Rusty Queenfish Brooch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will give you a buff that will allow you to see and fish from Ghostly Queenfish schools.",
 					constant = "THIS_ITEM_WILL_GIVE_YOU_A_BUFF_THAT_WILL_ALLOW_2",
 					export = true,
@@ -822,7 +822,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133701, {	-- Skrog Toenail
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon expiration of the Skrog Toenail buff, a Murloc mob will appear. Kill it for the lure.",
 					constant = "UPON_EXPIRATION_OF_THE_SKROG_TOENAIL_BUFF_A",
 					export = true,
@@ -844,7 +844,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["groups"] = {
 					n(102338, {	-- Salteye Skrog-Hunter
 						i(133702, {	-- Aromatic Murloc Slime
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item will allow you to catch the rare fish Leyshimmer Blenny in Azsuna.",
 								constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_8",
 								export = true,
@@ -871,7 +871,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133719, {	-- Sleeping Murloc
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Using this item will awaken a Confused Seerspine Murloc, which will run around briefly and drop some Seerspine Puffers (as well as other fish) nearby. Run over the fish to pick them up.\n\nIf you use this item on top of a pillar, the murloc won't have anywhere to run and it will be easier to pick up all the fish it drops.\n",
 					constant = "USING_THIS_ITEM_WILL_AWAKEN_A_CONFUSED",
 					export = true,
@@ -898,7 +898,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133716, {	-- Soggy Drakescale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will allow you to catch the rare fish Graybelly Lobster in Stormheim.",
 					constant = "THIS_ITEM_WILL_ALLOW_YOU_TO_CATCH_THE_RARE_FISH_9",
 					export = true,
@@ -923,7 +923,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133723, {	-- Stunned, Angry Shark
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will spawn a Landlocked Shark, which will drop 7-9 Seabottom Squid when killed. Note that this item only has a 1-minute duration in your bags, and it will disappear if you don't use it by then!\n\nYou must be in |cffffffffThe Great Sea|r to catch this.",
 					constant = "THIS_ITEM_WILL_SPAWN_A_LANDLOCKED_SHARK_WHICH",
 					export = true,
@@ -950,7 +950,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				},
 			}),
 			i(133711, {	-- Swollen Murloc Egg
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item will spawn a Swamprock Tadpole that grants the Blessing of the Murlocs buff, increasing your chance to fish up Mountain Puffer.",
 					constant = "THIS_ITEM_WILL_SPAWN_A_SWAMPROCK_TADPOLE_THAT",
 					export = true,
@@ -971,7 +971,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["maps"] = { HIGHMOUNTAIN },
 				["groups"] = {
 					n(102339, {	-- Swamprock Tadpole
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Casts the Blessing of the Murlocs buff on you, increasing your chance to fish up Mountain Puffer.",
 							constant = "CASTS_THE_BLESSING_OF_THE_MURLOCS_BUFF_ON_YOU",
 							export = true,
@@ -1007,7 +1007,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["coord"] = { 28.8, 48.6, LEGION_DALARAN },
 			}),
 			q(41010, {	-- Fish Frenzy
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you can't find Nat Pagle to give you this quest, going into the bank just south of the fountain seems to force him to spawn right on you.",
 					constant = "IF_YOU_CAN_T_FIND_NAT_PAGLE_TO_GIVE_YOU_THIS",
 					export = true,
@@ -1049,7 +1049,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["cost"] = {{"i", 160711, 100}},	-- 100x Aromatic Fish Oil
 			}),
 			ach(13502, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {	-- Secret Fish and Where to Find Them
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "First, acquire the Secret Fish Goggles from Danielle Anglers in Mechagon.\n\nWhen you use the goggles, you gain a 1-hour buff that allows you to see Secret Fish, which appear in bubbles around your character. When you see one, approach it and click on it, and you'll get a fish. That fish will be a BfA, or zone-relevant common fish, or one of the requirements for this achievement (assuming you fulfill the requirements for each fish).",
 					constant = "FIRST_ACQUIRE_THE_SECRET_FISH_GOGGLES_FROM",
 					export = true,
@@ -1072,7 +1072,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					i(168016),	-- Hyper-Compressed Ocean (TOY!)
 					crit(44803, {	-- Ancient Mana Fin
 						["itemID"] = 167708,	-- Ancient Mana Fin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Suramar City Harbor.",
 							constant = "FOUND_IN_SURAMAR_CITY_HARBOR",
 							export = true,
@@ -1093,7 +1093,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44804, {	-- Barbed Fjord Fin
 						["itemID"] = 167710,	-- Barbed Fjord Fin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Howling Fjord.",
 							constant = "FOUND_IN_HOWLING_FJORD",
 							export = true,
@@ -1114,7 +1114,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44805, {	-- Camouflaged Snark
 						["itemID"] = 167717,	-- Camouflaged Snark
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere at any time.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_AT_ANY_TIME",
 							export = true,
@@ -1139,7 +1139,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44807, {	-- Dead Fel Bone
 						["itemID"] = 167711,	-- Dead Fel Bone
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Krokuun and the Antoran Wastes on Argus.",
 							constant = "FOUND_IN_KROKUUN_AND_THE_ANTORAN_WASTES_ON",
 							export = true,
@@ -1160,7 +1160,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44821, {	-- Deadeye Wally
 						["itemID"] = 167727,	-- Deadeye Wally
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere, but only while you're dead.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_BUT_ONLY_WHILE_YOU_RE",
 							export = true,
@@ -1185,7 +1185,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44809, {	-- Drowned Goldfish
 						["itemID"] = 167709,	-- Drowned Goldfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found at around |cffffffff46, 50|r, at the Drowned Lands in Stormsong Valley.",
 							constant = "FOUND_AT_AROUND_CFFFFFFFF46_50_R_AT_THE_DROWNED",
 							export = true,
@@ -1207,7 +1207,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44810, {	-- Elusive Moonfish
 						["itemID"] = 167715,	-- Elusive Moonfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere at night, from 9:30pm to 8am.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_AT_NIGHT_FROM_9_30PM_TO",
 							export = true,
@@ -1228,7 +1228,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44811, {	-- Golden Sunsoaker
 						["itemID"] = 167719,	-- Golden Sunsoaker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere during the day, from 8am to 9:30pm.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_DURING_THE_DAY_FROM_8AM",
 							export = true,
@@ -1257,7 +1257,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44815, {	-- Jade Story Fish
 						["itemID"] = 167706,	-- Jade Story Fish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the Jade Forest.",
 							constant = "FOUND_IN_THE_JADE_FOREST",
 							export = true,
@@ -1278,7 +1278,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44816, {	-- Kirin Tor Clown
 						["itemID"] = 167707,	-- Kirin Tor Clown
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Dalaran (Broken Isles or Northrend).",
 							constant = "FOUND_IN_DALARAN_BROKEN_ISLES_OR_NORTHREND",
 							export = true,
@@ -1299,7 +1299,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44817, {	-- Mechanized Mackerel
 						["itemID"] = 167705,	-- Mechanized Mackerel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Mechagon.",
 							constant = "FOUND_IN_MECHAGON",
 							export = true,
@@ -1320,7 +1320,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44814, {	-- Prisoner Fish
 						["itemID"] = 167722,	-- Prisoner Fish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Tol Barad (PvP area).",
 							constant = "FOUND_IN_TOL_BARAD_PVP_AREA",
 							export = true,
@@ -1341,7 +1341,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44818, {	-- Queen's Delight
 						["itemID"] = 167728,	-- Queen's Delight
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Nazjatar.",
 							constant = "FOUND_IN_NAZJATAR",
 							export = true,
@@ -1366,7 +1366,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44820, {	-- Rotted Blood Cod
 						["itemID"] = 167712,	-- Rotted Blood Cod
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Zul'Nazman, Nazmir (the area surrounding Uldir).",
 							constant = "FOUND_IN_ZUL_NAZMAN_NAZMIR_THE_AREA_SURROUNDING",
 							export = true,
@@ -1387,7 +1387,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44822, {	-- Thunderous Flounder
 						["itemID"] = 167723,	-- Thunderous Flounder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found on the Isle of Thunder.",
 							constant = "FOUND_ON_THE_ISLE_OF_THUNDER",
 							export = true,
@@ -1408,7 +1408,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(44828, {	-- Tortollan Tank Dweller
 						["itemID"] = 167724,	-- Tortollan Tank Dweller
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Anyport, Drustvar, inside the Tortollan inn named 'The Drunk Tank.'",
 							constant = "FOUND_IN_ANYPORT_DRUSTVAR_INSIDE_THE_TORTOLLAN",
 							export = true,
@@ -1450,7 +1450,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(45754, {	-- Green Roughy
 						["itemID"] = 169884,	-- Green Roughy
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere, but requires the |cffffffff[Painted Green]|r buff from Mechagon. Head over to the painting station at |cffffffff63, 42|r and get the buff.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_BUT_REQUIRES_THE",
 							export = true,
@@ -1472,7 +1472,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(45755, {	-- Displaced Scrapfin
 						["itemID"] = 169870,	-- Displaced Scrapfin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught in Alternate Mechagon. Wait for Chromie to give you the quest 'The Other Place', or craft a Personal Time Displacer from Mechagon Tinkering.",
 							constant = "CAN_BE_CAUGHT_IN_ALTERNATE_MECHAGON_WAIT_FOR",
 							export = true,
@@ -1493,7 +1493,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(45952, {	-- Thin Air Flounder
 						["itemID"] = 169897,	-- Thin Air Flounder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found at Neverest Pinnacle atop Kun-Lai Summit.",
 							constant = "FOUND_AT_NEVEREST_PINNACLE_ATOP_KUN_LAI_SUMMIT",
 							export = true,
@@ -1514,7 +1514,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					}),
 					crit(45953, {	-- Well Lurker
 						["itemID"] = 169898,	-- Well Lurker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Mount Hyjal, in the lake under Nordrassil.",
 							constant = "FOUND_IN_MOUNT_HYJAL_IN_THE_LAKE_UNDER",
 							export = true,
@@ -1571,7 +1571,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 		n(QUESTS, {
 			q(72252, {	-- Dragon Isles Fishing [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Fishing. You must not have any items in your profession equipment slot.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_6",
 					export = true,
@@ -1706,7 +1706,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 		n(TREASURES, {
 			o(540505, {	-- Patient Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has a chance to spawn nearby while fishing.",
 					constant = "HAS_A_CHANCE_TO_SPAWN_NEARBY_WHILE_FISHING",
 					export = true,

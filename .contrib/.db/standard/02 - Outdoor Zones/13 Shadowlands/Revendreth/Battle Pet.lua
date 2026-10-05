@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		petbattle(filter(BATTLE_PETS, {
 			pet(2902),	-- Dusky Dredwing Pup (PET!)
 			pet(2895, {	-- Lost Soul (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Shares spawn timer with Rosetipped Spiderling in The Banewood, killing any you see will increase spawn chances.",
 					constant = "SHARES_SPAWN_TIMER_WITH_ROSETIPPED_SPIDERLING",
 					export = true,
@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			pet(3014, {	-- Mire Creeper (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is only one of these up at a time, and it runs around pools in The Endmire. Respawn time of ~5 minutes if it dies.",
 					constant = "THERE_IS_ONLY_ONE_OF_THESE_UP_AT_A_TIME_AND_IT",
 					export = true,

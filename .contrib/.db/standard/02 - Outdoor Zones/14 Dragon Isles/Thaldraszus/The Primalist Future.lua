@@ -206,7 +206,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				})),
 				n(199541, {	-- Tarndormu <Temporal Squadron Commander>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Vendor is only visible during the Storm's Fury event.",
 						constant = "THIS_VENDOR_IS_ONLY_VISIBLE_DURING_THE_STORM_S",
 						export = true,
@@ -234,7 +234,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				i(203469),	-- Coalesced Storm Remnants
 			}),
 			n(199502, {		-- Glakis, Winter's Wrath
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Possible Boss at the end of the Storm's Fury Event.",
 					constant = "POSSIBLE_BOSS_AT_THE_END_OF_THE_STORM_S_FURY",
 					export = true,

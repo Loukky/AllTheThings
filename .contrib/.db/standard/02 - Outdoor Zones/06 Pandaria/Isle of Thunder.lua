@@ -76,7 +76,7 @@ root(ROOTS.Zones, {
 					achpart(8109, 8110),	-- The Mogu Below-gu
 					ach(8110),	-- These Mogu Have Gotta Go-gu (automated)
 					ach(8111, {	-- This Isn't Even My Final Form
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Drakkari God-Hulk patrolling on foot path near coord, then drink a Zandalari Potion nearby.",
 							constant = "KILL_DRAKKARI_GOD_HULK_PATROLLING_ON_FOOT_PATH",
 							export = true,
@@ -654,7 +654,7 @@ root(ROOTS.Zones, {
 								["coord"] = { 53.6, 19.2, 518 },	-- Thunder King's Citadel
 								["groups"] = {
 									i(95497, {	-- Burial Trove Key
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "You are given one key for turning in the quest itself and then can find these contained within the chests scattered about within the citadel.",
 											constant = "YOU_ARE_GIVEN_ONE_KEY_FOR_TURNING_IN_THE_QUEST",
 											export = true,
@@ -677,7 +677,7 @@ root(ROOTS.Zones, {
 								},
 							}),
 							n(70321, {	-- Tenwu of the Red Smoke
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talking to Tenwu of the Red Smoke will end your timed run with the bonus of an extra Burial Trove Key.",
 									constant = "TALKING_TO_TENWU_OF_THE_RED_SMOKE_WILL_END_YOUR",
 									export = true,
@@ -813,7 +813,7 @@ root(ROOTS.Zones, {
 						i(94130),	-- Incantation of Haqin
 						i(95350),	-- Incantation of Vu
 						i(94221, {	-- Shan'ze Ritual Stone
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You will need 3 stones to summon special rares at their specific spawn points.",
 								constant = "YOU_WILL_NEED_3_STONES_TO_SUMMON_SPECIAL_RARES",
 								export = true,
@@ -837,7 +837,7 @@ root(ROOTS.Zones, {
 						}),
 						-- TODO: maybe make it more clear this is a 'looted' trigger via built-in handling?
 						header(HEADERS.Item, 94221, {	-- Shan'ze Ritual Stone [looted]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Whether this will be lootable from Rares.",
 								constant = "WHETHER_THIS_WILL_BE_LOOTABLE_FROM_RARES",
 								export = true,
@@ -1057,7 +1057,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(69471, {	-- Spirit of Warlord Teng
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located underneath the building.",
 							constant = "LOCATED_UNDERNEATH_THE_BUILDING",
 							export = true,

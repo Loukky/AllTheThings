@@ -79,7 +79,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 		["groups"] = {
 			applyclassicphase(WRATH_PHASE_FOUR_SHADOWMOURNE,
 			header(HEADERS.Item, 49623, {	-- Shadowmourne
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These quests can only be completed on 25-Man Normal or Heroic difficulty.",
 					constant = "THESE_QUESTS_CAN_ONLY_BE_COMPLETED_ON_25_MAN",
 					export = true,
@@ -177,7 +177,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						},
 					}),
 					q(24548, {	-- The Splintered Throne
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These can drop from any of the bosses on 25-Man Normal or Heroic. You need 50 of these, so this quest will take you several weeks to finish.",
 							constant = "THESE_CAN_DROP_FROM_ANY_OF_THE_BOSSES_ON_25_MAN",
 							export = true,
@@ -226,7 +226,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					}),
 					i(51315, {	-- Sealed Chest
 						["questID"] = 24914,	-- Personal Property
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dropped by the Lich King on 25-Man difficulty while on the quest |cFFefc400The Lich King's Last Stand|r. Only your first kill will trigger the item to drop. You do NOT need to have Shadowmourne equipped.\n\nThis item contains a lot of BoE cosmetic items that sell very well. During its time, this was used to reward other members of the raid for assisting the guild master (more than likely) with Shadowmourne for the many months it took to complete the quest chain.\n\nIn addition to being very rewarding, these quests were some of the most treasured throughout World of Warcraft's long history.",
 							constant = "DROPPED_BY_THE_LICH_KING_ON_25_MAN_DIFFICULTY",
 							export = true,
@@ -250,7 +250,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["groups"] = {
 							i(51317, {	-- Alexandros' Soul Shard
 								["questID"] = 24915,	-- Mograine's Reunion
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Alexandros: Darion, my son. At last I am able to lay my eyes upon you again. The Lich King tormented me without end, Darion. Endlessly he sought to break my will, to force me to serve him, to bind me to his blade. Finally, when events demanded his full attention, he left me. The one memory I clung to Darion, the one thought that kept me from giving in, it was your sacrifice, my son. That again saved me from eternal peril.\n\nDarion: Father, father, I… I feared for your sanity, father, for you, I would give my life a thousand times.",
 									constant = "ALEXANDROS_DARION_MY_SON_AT_LAST_I_AM_ABLE_TO",
 									export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 							}),
 							i(51319, {	-- Arthas' Training Sword
 								["questID"] = 24917,	-- Muradin's Lament
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Muradin: Oh lad, how I missed those endless days in Lordaeron, sharpening your skill with this dull blade. Forging you into a weapon meant to withstand the demands of a great destiny. Heh… You sure put them skills to use, didn't you lad?\n\nIf only I'd been able to stop you that day, how different things migha' been. If only I'da never discovered that accursed blade. Farewell, Arthas, my brother.",
 									constant = "MURADIN_OH_LAD_HOW_I_MISSED_THOSE_ENDLESS_DAYS",
 									export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 							}),
 							i(51320, {	-- Badge of the Silver Hand
 								["questID"] = 24919,	-- The Lightbringer's Redemption
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Uther: Arthas... Alas, hero of Azeroth. You give me a greater gift than you know. Long have I struggled to forgive the prince for his terrible transgressions. My soul has been wracked with unbearable anxiety, dark thoughts, distancing me from the light.\n\nI recall clearly... the gleam of pride in his eye as he stood before me, eager to defeat the enemies of the light... eager to defend his people, no matter the cost. It is this memory of Arthas that I choose to keep in my heart.\n\nI shall always be in your debt, friend. Thank you.",
 									constant = "UTHER_ARTHAS_ALAS_HERO_OF_AZEROTH_YOU_GIVE_ME_A",
 									export = true,
@@ -324,7 +324,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 							}),
 							i(51321, {	-- Blood of Sylvanas
 								["questID"] = 24918,	-- Sylvanas' Vengeance
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Sylvanas: So, it is done. I had not dared to trust my senses. Too many times has the Lich King made me to be a fool. Finally, he has been made to pay for the atrocities he imposed upon my people.\n\nMay Azeroth never fail to remember the horrible price we paid for our weakness, for our pride. But what now, Hero? What of those freed from his grasp but still shackled to their mortal coils?\n\nLeave me. I have much to ponder.",
 									constant = "SYLVANAS_SO_IT_IS_DONE_I_HAD_NOT_DARED_TO_TRUST",
 									export = true,
@@ -348,7 +348,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 							}),
 							i(51318, {	-- Jaina's Locket
 								["questID"] = 24916,	-- Jaina's Locket
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Jaina: What's this?\nHe... he kept it.. all this time he kept it!\n<Cries> I knew!\n<Cries> I sensed a part of him still alive... trapped... struggling. Oh Arthas!\nPerhaps he might someday remember from what he once was...\nBy the Light may he at last find rest, free from the icy grip of that terrible blade!",
 									constant = "JAINA_WHAT_S_THIS_HE_HE_KEPT_IT_ALL_THIS_TIME",
 									export = true,
@@ -480,7 +480,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 			}),
 			n(QUESTS, {
 				q(24815, {	-- Choose Your Path
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If the quest does not appear when you hit Friendly, you may have to relog.",
 						constant = "IF_THE_QUEST_DOES_NOT_APPEAR_WHEN_YOU_HIT",
 						export = true,
@@ -944,7 +944,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					24870,	-- Securing the Ramparts [10] (H)
 					24877,	-- Securing the Ramparts [25] (H)
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded for completing the Weekly Raid quests.",
 					constant = "REWARDED_FOR_COMPLETING_THE_WEEKLY_RAID_QUESTS",
 					export = true,
@@ -993,7 +993,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 			cnONLY(n(SPECIAL, {
 				["groups"] = {
 					title(675, {	-- Northbound Rush, %s
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Submitting a Speedrun to https://wow.blizzard.cn/iccspeedrun/#/ will grant you this title.",
 							constant = "SUBMITTING_A_SPEEDRUN_TO_HTTPS_WOW_BLIZZARD_CN",
 							export = true,
@@ -1013,7 +1013,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						})
 					}),
 					title(674, {	-- Dawn's Vanguard, %s
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Submitting a Speedrun to https://wow.blizzard.cn/iccspeedrun/#/ and finishing in the Top 16 will grant you this title.",
 							constant = "SUBMITTING_A_SPEEDRUN_TO_HTTPS_WOW_BLIZZARD_CN_2",
 							export = true,
@@ -1033,7 +1033,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						})
 					}),
 					title(673, {	-- The Overlord of Dawn, %s
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Submitting a Speedrun to https://wow.blizzard.cn/iccspeedrun/#/ and finishing in the Top 3 will grant you this title.",
 							constant = "SUBMITTING_A_SPEEDRUN_TO_HTTPS_WOW_BLIZZARD_CN_3",
 							export = true,
@@ -1352,7 +1352,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					currency(341),	-- Emblem of Frost
 					-- #endif
 					i(49908, {	-- Primordial Saronite
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can drop from all bosses in Icecrown Citadel except in 10 player raid size on Normal difficulty.",
 							constant = "CAN_DROP_FROM_ALL_BOSSES_IN_ICECROWN_CITADEL",
 							export = true,
@@ -1396,7 +1396,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						},
 					}),
 					n(37904, {	-- Brazie Getz
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you kill Deathbringer Saurfang, this vendor shows up in the camp.",
 							constant = "AFTER_YOU_KILL_DEATHBRINGER_SAURFANG_THIS",
 							export = true,
@@ -2222,7 +2222,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["creatureID"] = 36626,	-- Festergut
 						["groups"] = {
 							i(50226, {	-- Festergut's Acidic Blood
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This can drop from Festergut on 25-Man Normal or Heroic.",
 									constant = "THIS_CAN_DROP_FROM_FESTERGUT_ON_25_MAN_NORMAL",
 									export = true,
@@ -2265,7 +2265,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						["creatureID"] = 36627,	-- Rotface
 						["groups"] = {
 							i(50231, {	-- Rotface's Acidic Blood
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This can drop from Rotface on 25-Man Normal or Heroic.",
 									constant = "THIS_CAN_DROP_FROM_ROTFACE_ON_25_MAN_NORMAL_OR",
 									export = true,

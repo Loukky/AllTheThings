@@ -396,7 +396,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 			}),
 			q(994, {	-- Escape Through Force
 				["altQuests"] = { 995 },	-- Escape Through Stealth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest becomes unavailable if you complete Escape Through Stealth",
 					constant = "THIS_QUEST_BECOMES_UNAVAILABLE_IF_YOU_COMPLETE",
 					export = true,
@@ -425,7 +425,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 			}),
 			q(995, {	-- Escape Through Stealth
 				["altQuests"] = { 994 },	-- Escape Through Force
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest becomes unavailable if you complete Escape Through Force",
 					constant = "THIS_QUEST_BECOMES_UNAVAILABLE_IF_YOU_COMPLETE_2",
 					export = true,
@@ -617,7 +617,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 				["lvl"] = 12,
 			}),
 			q(960, {	-- Onu is meditating
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To complete this quest you must return to Onu after you complete The Master's Glaive, but before you turn in The Twilight Camp.",
 					constant = "TO_COMPLETE_THIS_QUEST_YOU_MUST_RETURN_TO_ONU",
 					export = true,
@@ -645,7 +645,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 				},
 			}),
 			q(961, {	-- Onu is meditating
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To complete this quest you must return to Onu after you complete The Twilight Camp, but before you turn in Return to Onu.",
 					constant = "TO_COMPLETE_THIS_QUEST_YOU_MUST_RETURN_TO_ONU_2",
 					export = true,
@@ -827,7 +827,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 				},
 			}),
 			q(1141, {	-- The Family and the Fishing Pole
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to Gubber Blump after accepting the quest to learn Fishing. Buy a Fishing Pole for 23c and a Shiny Bauble for 50c from Gubber Blump. Start fishing next to Gubber Blump to catch the fish required for the quest.",
 					constant = "TALK_TO_GUBBER_BLUMP_AFTER_ACCEPTING_THE_QUEST",
 					export = true,
@@ -1006,7 +1006,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 				},
 			}),
 			q(990, {	-- Trek to Ashenvale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The quest giver appears after turning in Escape Through Stealth. It takes some time until she offers this quest. Maybe 30 to 60 seconds. After a while she runs away again and you have to wait for somebody else to trigger this event, if you missed accepting this quest.",
 					constant = "THE_QUEST_GIVER_APPEARS_AFTER_TURNING_IN_ESCAPE",
 					export = true,
@@ -1042,7 +1042,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 				["groups"] = {
 					objective(1, {	-- 0/1 Murkdeep slain
 						["provider"] = { "n", 10323 },	-- Murkdeep
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill the murlocs at the camp and then a few waves of murlocs before Murkblood and a friend show up.",
 							constant = "KILL_THE_MURLOCS_AT_THE_CAMP_AND_THEN_A_FEW",
 							export = true,
@@ -1165,7 +1165,7 @@ maproot(MAP.KALIMDOR, MAP.DARKSHORE, {
 		}),
 		n(TREASURES, {
 			o(13359, {	-- Cat Figurine
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found scattered around the Ruins of Mathystra. Rarely spawns a Ghost Saber which can be tamed by a Hunter and can also drop a Glowing Cat Figurine.",
 					constant = "CAN_BE_FOUND_SCATTERED_AROUND_THE_RUINS_OF",
 					export = true,

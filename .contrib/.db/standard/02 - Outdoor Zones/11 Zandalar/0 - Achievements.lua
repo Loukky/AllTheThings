@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		ach(13048, {	-- Life Finds a Way... To Die!
 			crit(41676, {		-- Azuresail the Diemetrodon slain
 				["coord"] = { 67.10, 26.57, ZULDAZAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare shares respawn with Thuderfoot (67.73 29.03) and Kil'Tawan (69.2 30.4) so kill them if you need it. To make things worse they don't spawn every day.",
 					constant = "THIS_RARE_SHARES_RESPAWN_WITH_THUDERFOOT_67_73",
 					export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			crit(41675, {		-- Thuderfoot the Brutosaur slain
 				["coord"] = { 67.73, 29.03, ZULDAZAR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare shares respawn with Azuresail (67.10 26.57) and Kil'Tawan (69.2 30.4) so kill them if you need it. To make things worse they don't spawn every day.",
 					constant = "THIS_RARE_SHARES_RESPAWN_WITH_AZURESAIL_67_10",
 					export = true,

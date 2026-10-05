@@ -3,7 +3,7 @@
 -----------------------------------------------------
 
 local MATRIX_PUNCHOGRAPH_A = o(142345, {	-- Matrix Punchograph 3005-A
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This is located outside of the instance just to the north of both the elevator or the transporter.",
 		constant = "THIS_IS_LOCATED_OUTSIDE_OF_THE_INSTANCE_JUST_TO",
 		export = true,
@@ -28,7 +28,7 @@ local MATRIX_PUNCHOGRAPH_A = o(142345, {	-- Matrix Punchograph 3005-A
 	},
 });
 local MATRIX_PUNCHOGRAPH_B = o(142475, {	-- Matrix Punchograph 3005-B
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This is located in the bottom of the Dormitories.",
 		constant = "THIS_IS_LOCATED_IN_THE_BOTTOM_OF_THE",
 		export = true,
@@ -50,7 +50,7 @@ local MATRIX_PUNCHOGRAPH_B = o(142475, {	-- Matrix Punchograph 3005-B
 	["groups"] = {
 		i(9282),	-- Blue Punch Card
 		i(14639, {	-- Schematic: Minor Recombobulator (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you are an Engineer, you will also get these plans by turning in the Yellow Punch Card.",
 				constant = "IF_YOU_ARE_AN_ENGINEER_YOU_WILL_ALSO_GET_THESE",
 				export = true,
@@ -72,7 +72,7 @@ local MATRIX_PUNCHOGRAPH_B = o(142475, {	-- Matrix Punchograph 3005-B
 	},
 });
 local MATRIX_PUNCHOGRAPH_C = o(142476, {	-- Matrix Punchograph 3005-C
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This is located at the bottom of the platform in the Engineering Labs.",
 		constant = "THIS_IS_LOCATED_AT_THE_BOTTOM_OF_THE_PLATFORM",
 		export = true,
@@ -96,7 +96,7 @@ local MATRIX_PUNCHOGRAPH_C = o(142476, {	-- Matrix Punchograph 3005-C
 	},
 });
 local MATRIX_PUNCHOGRAPH_D = o(142696, {	-- Matrix Punchograph 3005-D
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This is located in the Workshop below Crowd Pummeler.",
 		constant = "THIS_IS_LOCATED_IN_THE_WORKSHOP_BELOW_CROWD",
 		export = true,
@@ -118,7 +118,7 @@ local MATRIX_PUNCHOGRAPH_D = o(142696, {	-- Matrix Punchograph 3005-D
 	["groups"] = {
 		i(9316),	-- Prismatic Punch Card
 		i(4413, {	-- Schematic: Discombobulator Ray (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you are an Engineer and have a 'Security DELTA Access Card', you will also get these plans when you turn in your Red Punch Card.",
 				constant = "IF_YOU_ARE_AN_ENGINEER_AND_HAVE_A_SECURITY",
 				export = true,
@@ -283,7 +283,7 @@ root(ROOTS.Instances, {
 					},
 				}),
 				i(9309, {	-- Robo-mechanical Guts
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These can drop from any mechanical unit in Gnomeregan.",
 						constant = "THESE_CAN_DROP_FROM_ANY_MECHANICAL_UNIT_IN",
 						export = true,
@@ -354,7 +354,7 @@ root(ROOTS.Instances, {
 					},
 				}),
 				i(9279, {	-- White Punch Card
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can be looted from creatures outside of the instance.",
 						constant = "THIS_CAN_BE_LOOTED_FROM_CREATURES_OUTSIDE_OF",
 						export = true,
@@ -476,7 +476,7 @@ root(ROOTS.Instances, {
 					["lvl"] = 25,
 				}),
 				q(2842, {	-- Chief Engineer Scooty
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Although this quest is available from level 20, if you take or complete it, it makes it impossible to obtain the 'Rig Wars' quest, which is available at level 25. However, if you take 'Rig Wars' first, you can have both quest without problems.",
 						constant = "ALTHOUGH_THIS_QUEST_IS_AVAILABLE_FROM_LEVEL_20",
 						export = true,
@@ -526,7 +526,7 @@ root(ROOTS.Instances, {
 								{ "i",   9278 },	-- Essential Artificial
 								{ "o", 142344 },	-- Artificial Extrapolator
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These are scattered throughout the instance. They are loud mechanical mailboxes.",
 								constant = "THESE_ARE_SCATTERED_THROUGHOUT_THE_INSTANCE",
 								export = true,
@@ -585,7 +585,7 @@ root(ROOTS.Instances, {
 					["lvl"] = 20,
 					["groups"] = {
 						i(9173, {	-- Goblin Transponder
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You do not need to keep this in your inventory. You can simply discard it after transporting. To get another one, simply speak to Scooty again and tell him that you lost the first one.",
 								constant = "YOU_DO_NOT_NEED_TO_KEEP_THIS_IN_YOUR_INVENTORY",
 								export = true,
@@ -607,7 +607,7 @@ root(ROOTS.Instances, {
 					},
 				}),
 				q(2945, {	-- Grime-Encrusted Ring
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Take this to The Sparklematic 5200.",
 						constant = "TAKE_THIS_TO_THE_SPARKLEMATIC_5200",
 						export = true,
@@ -770,7 +770,7 @@ root(ROOTS.Instances, {
 			}),
 			n(REWARDS, {
 				container(9363, {	-- Sparklematic-Wrapped Box
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill hostile creatures for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",
 						constant = "KILL_HOSTILE_CREATURES_FOR_GRIME_ENCRUSTED",
 						export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Instances, {
 			}),
 			MATRIX_PUNCHOGRAPH_A,
 			n(6231, {	-- Techbot
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located outside the instance near the teleporter.",
 					constant = "LOCATED_OUTSIDE_THE_INSTANCE_NEAR_THE",
 					export = true,
@@ -840,7 +840,7 @@ root(ROOTS.Instances, {
 				["creatureID"] = 6235,
 				["groups"] = {
 					i(6893, {	-- Workshop Key
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This key allows you to get into the back door of Gnomeregan.",
 							constant = "THIS_KEY_ALLOWS_YOU_TO_GET_INTO_THE_BACK_DOOR",
 							export = true,
@@ -873,7 +873,7 @@ root(ROOTS.Instances, {
 				},
 			}),
 			n(6228, {	-- Dark Iron Ambassador
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a Rare Creature and, as such, is not always present.",
 					constant = "THIS_IS_A_RARE_CREATURE_AND_AS_SUCH_IS_NOT",
 					export = true,

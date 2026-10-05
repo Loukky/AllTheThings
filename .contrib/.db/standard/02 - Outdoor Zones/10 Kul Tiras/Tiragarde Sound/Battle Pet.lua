@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}},
 			["groups"] = {
 				pet(2383, {	-- Giant Woodworm (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found around these coords. Spawns all around the N/NE area by Freehold.",
 						constant = "BEST_FOUND_AROUND_THESE_COORDS_SPAWNS_ALL",
 						export = true,
@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				pet(2382, {	-- Inland Croaker (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found along the inland waterways in Tiragarde by Hatherford and Norwington Estate.",
 						constant = "FOUND_ALONG_THE_INLAND_WATERWAYS_IN_TIRAGARDE",
 						export = true,
@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 				}),
 				pet(2380, {	-- Parasitic Boarfly (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in a small area around coord.",
 						constant = "FOUND_IN_A_SMALL_AREA_AROUND_COORD",
 						export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["coord"] = { 56.8, 17.0, TIRAGARDE_SOUND },
 				}),
 				pet(2381, {	-- Shack Crab (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found along the coastlines of every Kul Tiras zone.",
 						constant = "FOUND_ALONG_THE_COASTLINES_OF_EVERY_KUL_TIRAS",
 						export = true,

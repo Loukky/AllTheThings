@@ -45,7 +45,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				n(SPECIAL, {
 					n(251885, {	-- Gravid Potatoad
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Left of the path towards the last boss, target and use Hexed Potatoad Mucus to receive a toy.",
 							constant = "LEFT_OF_THE_PATH_TOWARDS_THE_LAST_BOSS_TARGET",
 							export = true,

@@ -209,7 +209,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				ach(16502),	-- Storming the Runway
 			}),
 			n(COMMON_BOSS_DROPS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These drops appear to be available from any Rare (Primal or not) which spawns within an area affected by a Primal Storm.",
 					constant = "THESE_DROPS_APPEAR_TO_BE_AVAILABLE_FROM_ANY",
 					export = true,

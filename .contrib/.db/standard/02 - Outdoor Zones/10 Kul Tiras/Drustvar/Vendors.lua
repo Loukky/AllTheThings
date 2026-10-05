@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(142197, {	-- Nigel Rifthold <Adventurer's Society>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to unlock this vendor you will need to buy 10 \"Tirasreli Gourmet Chocolate\", then find the tree house at his coords and click on the chest twice.",
 					constant = "IN_ORDER_TO_UNLOCK_THIS_VENDOR_YOU_WILL_NEED_TO",
 					export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 52.2, 31.6, DRUSTVAR },
 				["groups"] = {
 					i(163493, {	-- Frenzied Cottontail (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Defeat Cottontail Matron (located at 52.2, 46.8) for this item to appear on the vendor.",
 							constant = "DEFEAT_COTTONTAIL_MATRON_LOCATED_AT_52_2_46_8",
 							export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}, {	-- Friendly
 					}, {	-- Honored
 						i(163205, {	-- Ghostly Pet Biscuit
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This gives your hunter's pet a ghostly appearance for 30 minutes.",
 								constant = "THIS_GIVES_YOUR_HUNTER_S_PET_A_GHOSTLY",
 								export = true,

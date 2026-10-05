@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			n(134446, {	-- Francois
 				["coord"] = { 52.8, 31.1, TIRAGARDE_SOUND },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must have 1 million gold in your inventory before he will talk to you. You do NOT lose any gold in this transaction.",
 					constant = "MUST_HAVE_1_MILLION_GOLD_IN_YOUR_INVENTORY",
 					export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = { i(158077) },	-- Francois (PET!)
 			}),
 			n(142838, {	-- Grumpy Grimble
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When you have 150 BfA Inscription, speak to the NPC and he will teach you the technique.",
 					constant = "WHEN_YOU_HAVE_150_BFA_INSCRIPTION_SPEAK_TO_THE",
 					export = true,

@@ -98,7 +98,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40017, {	-- A Slip of the Hand
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Farm around 1000-4000 Aethrils to make this quest spawn.",
 						constant = "FARM_AROUND_1000_4000_AETHRILS_TO_MAKE_THIS",
 						export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["provider"] = { "i", 129141 },	-- Blight-Choked Herb
 				}),
 				q(40023, {	-- The Last Straw
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Farm around 1000-4000 Dreamleaves to make this quest spawn.",
 						constant = "FARM_AROUND_1000_4000_DREAMLEAVES_TO_MAKE_THIS",
 						export = true,
@@ -254,7 +254,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40041, {	-- Felwort Analysis
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available after obtaining All other herbs at Rank 1.",
 						constant = "AVAILABLE_AFTER_OBTAINING_ALL_OTHER_HERBS_AT",
 						export = true,
@@ -290,7 +290,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40042, {	-- The Emerald Nightmare: Felwort Mastery
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available after obtaining All other herbs at Rank 2.",
 						constant = "AVAILABLE_AFTER_OBTAINING_ALL_OTHER_HERBS_AT_2",
 						export = true,
@@ -353,7 +353,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40032, {	-- The Missing Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Farm around 1000-4000 Fjarnskaggls to make this quest spawn.",
 						constant = "FARM_AROUND_1000_4000_FJARNSKAGGLS_TO_MAKE_THIS",
 						export = true,
@@ -410,7 +410,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40028, {	-- The Pied Picker
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Farm around 1000-4000 Foxflowers to make this quest spawn.",
 						constant = "FARM_AROUND_1000_4000_FOXFLOWERS_TO_MAKE_THIS",
 						export = true,
@@ -465,7 +465,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(40038, {	-- Insane Ramblings
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Farm around 1000-4000 Starlight Roses to make this quest spawn.",
 						constant = "FARM_AROUND_1000_4000_STARLIGHT_ROSES_TO_MAKE",
 						export = true,
@@ -556,7 +556,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			["maps"] = { VOLDUN },
 			["groups"] = {
 				q(51398, {	-- An Unusual Mentor [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Kul Tiran Herbalism.",
 						constant = "REQUIRES_50_KUL_TIRAN_HERBALISM",
 						export = true,
@@ -580,7 +580,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["isBreadcrumb"] = true,
 				}),
 				q(51432, {	-- An Unusual Mentor [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 50 Zandalari Herbalism.",
 						constant = "REQUIRES_50_ZANDALARI_HERBALISM",
 						export = true,
@@ -625,7 +625,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(51404, {	-- What Happens Next
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Akunda's Bite|r at any herbalism level. You can only turn it in at Level 150 Kul Tiran / Zandalari Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700AKUNDA_S_BITE_R_AT",
 						export = true,
@@ -669,7 +669,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			},
 			["groups"] = {
 				q(51016, {	-- Seeking More Knowledge
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 100 Kul Tiran Herbalism.",
 						constant = "REQUIRES_100_KUL_TIRAN_HERBALISM",
 						export = true,
@@ -697,7 +697,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(51482, {	-- Seeking More Knowledge [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 100 Zandalari Herbalism.",
 						constant = "REQUIRES_100_ZANDALARI_HERBALISM",
 						export = true,
@@ -725,7 +725,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(51360, {	-- Enormous Anchor Pod [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Anchor Weed|r at any herbalism level. You can only turn it in at Level 150 Kul Tiran Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700ANCHOR_WEED_R_AT",
 						export = true,
@@ -748,7 +748,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(51480, {	-- Enormous Anchor Pod [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Anchor Weed|r at any herbalism level. You can only turn it in at Level 150 Zandalari Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700ANCHOR_WEED_R_AT_2",
 						export = true,
@@ -774,7 +774,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(51361, {	-- More Anchor Pods [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 150 Kul Tiran Herbalism.",
 						constant = "REQUIRES_150_KUL_TIRAN_HERBALISM",
 						export = true,
@@ -802,7 +802,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(51481, {	-- More Anchor Pods [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires 150 Zandalari Herbalism.",
 						constant = "REQUIRES_150_ZANDALARI_HERBALISM",
 						export = true,
@@ -965,7 +965,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 			},
 			["groups"] = {
 				q(51312, {	-- Aromatic Pollenator [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Siren's Pollen|r at any herbalism level. You can only turn it in at Level 50 Kul Tiran Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700SIREN_S_POLLEN_R_AT",
 						export = true,
@@ -987,7 +987,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(51447, {	-- Aromatic Pollenator [H]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Siren's Pollen|r at any herbalism level. You can only turn it in at Level 50 Zandalari Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700SIREN_S_POLLEN_R_AT_2",
 						export = true,
@@ -1031,7 +1031,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(48758, {	-- Disgustingly Damp Flower [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Siren's Pollen|r at any herbalism level. You can only turn it in at Level 150 Zandalari Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700SIREN_S_POLLEN_R_AT_3",
 						export = true,
@@ -1174,7 +1174,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					},
 				}),
 				q(48763, {	-- The Frigid Boon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from |cFFFFD700Winter's Kiss|r at any herbalism level. You can only turn it in at Level 150 Kul Tiran / Zandalari Herbalism.",
 						constant = "THIS_CAN_DROP_FROM_CFFFFD700WINTER_S_KISS_R_AT",
 						export = true,
@@ -1662,7 +1662,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		})),
 		n(QUESTS, {
 			q(70364, {	-- Dragon Isles Herbalism
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Herbalism.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_7",
 					export = true,
@@ -1836,7 +1836,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 		})),
 		n(QUESTS, {
 			q(91451, {	-- Stalk Market
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained the first time you harvest Phantom Bloom.",
 					constant = "OBTAINED_THE_FIRST_TIME_YOU_HARVEST_PHANTOM",
 					export = true,

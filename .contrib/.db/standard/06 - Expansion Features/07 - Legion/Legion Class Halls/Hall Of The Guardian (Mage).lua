@@ -47,7 +47,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					cl(MAGE, ARCANE, {
 						q(43787, {	-- Zone Targets Polymorphed: Azsuna
 							["name"] = "Polymorph: Cliffwing Hippogryph",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this quest has a checkmark next to it, then that means that you have polymorphed this npc already and can move on to the next one!\n\nTake the Azsuna Teleportation Nexus.",
 								constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN",
 								export = true,
@@ -71,7 +71,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43791, {	-- Zone Targets Polymorphed: Suramar
 							["name"] = "Polymorph: Heartwood Doe",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this quest has a checkmark next to it, then that means that you have polymorphed this npc already and can move on to the next one!\n\nTake the Suramar Teleportation Nexus.",
 								constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN_2",
 								export = true,
@@ -95,7 +95,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43788, {	-- Zone Targets Polymorphed: Highmountain
 							["name"] = "Polymorph: Highpeak Goat",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this quest has a checkmark next to it, then that means that you have polymorphed this npc already and can move on to the next one!\n\nTake the Highmountain Teleportation Nexus.",
 								constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN_3",
 								export = true,
@@ -119,7 +119,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43789, {	-- Zone Targets Polymorphed: Stormheim
 							["name"] = "Polymorph: Plains Runehorn Calf",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this quest has a checkmark next to it, then that means that you have polymorphed this npc already and can move on to the next one!\n\nTake the Stormheim Teleportation Nexus.",
 								constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN_4",
 								export = true,
@@ -143,7 +143,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43790, {	-- Zone Targets Polymorphed: Val'sharah
 							["name"] = "Polymorph: Wild Dreamrunner",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If this quest has a checkmark next to it, then that means that you have polymorphed this npc already and can move on to the next one!\n\nTake the Val'Sharah Teleportation Nexus.",
 								constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN_5",
 								export = true,
@@ -167,7 +167,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43828, {	-- Sheep Summon Daily Roll
 							["name"] = "Sheep Summon Daily Roll",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If the event roll was successful, you'll see an emote from Cote \"Shepherd\" Metcalf saying \"Success!\".\n\nYou should find a Volatile Sheep on the stairs at the entrance to the class hall. Spam click it.\n\nIf this quest has a checkmark next to it and you didn't see Cote's dialogue emote, then that means that you should come back tomorrow.",
 								constant = "IF_THE_EVENT_ROLL_WAS_SUCCESSFUL_YOU_LL_SEE_AN",
 								export = true,
@@ -198,7 +198,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["groups"] = {
 								q(43799, {	-- Summoned Sheep Exploded
 									["name"] = "Summoned Sheep Exploded",
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "The next step is pure RNG - when you teleport to your class order hall you have (once a day) chance to trigger a spawn of Volatile Sheep. If it does spawn for you, you will see Cote's dialogue box saying 'Success!' - the sheep will be standing just next to Dalaran portal, all you have to do is to right-click it couple times to make it explode. After you do you'll get another speech box, this time Extemely Volatile Stormheim Sheep bleating '...' - for some reason you can see someone else's sheep dialogue box, so if you see that one in Hall of the guardian without doing previous mob sheeping, means someone just made their sheep explode in the class hall :) As I said this step is pure luck, so it may take some time until you get your sheep to spawn (for me it was around 3 weeks).",
 										constant = "THE_NEXT_STEP_IS_PURE_RNG_WHEN_YOU_TELEPORT_TO",
 										export = true,
@@ -223,7 +223,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43800, {	-- Stormheim Sheep Exploded
 							["name"] = "Stormheim Sheep Exploded",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After that you just need to go to Stormheim in search of Extremely Volatile Stormheim Sheep. This is usually spawning somewhere around Runewood - the best way to find it would be to make /target macro, go to Valdisdall and just run around Runewood spamming macro - it didn't take me even 2 minutes until I got my sheep. Just as the previous one, click it couple times to make it explode, which should result in getting an angry bleat '...' from Enraged Volatile Elwynn Sheep.",
 								constant = "AFTER_THAT_YOU_JUST_NEED_TO_GO_TO_STORMHEIM_IN",
 								export = true,
@@ -256,7 +256,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43658, {	-- Hidden Appearance Unlocked
 							["name"] = "Hidden Appearance Unlocked",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Now you need to go to the Tower of Azora in Elwynn Forest. Once there you will see Cote talking to Theocritus. After a short RP bit, he will become hostile and when you kill him, he drops the item.",
 								constant = "NOW_YOU_NEED_TO_GO_TO_THE_TOWER_OF_AZORA_IN",
 								export = true,
@@ -292,7 +292,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					cl(MAGE, FROST, {
 						gt(386, {		-- Teleportation Nexus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "A set of 5 portals is generated in the Class Hall; there is a small daily chance instead you will be phased to Frostfire Ridge where you can loot Everburning Crystal. You will be alerted to this chance by an emote when walking around on the stairs of your class hall.",
 								constant = "A_SET_OF_5_PORTALS_IS_GENERATED_IN_THE_CLASS",
 								export = true,
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 									["isDaily"] = true,
 								}),
 								n(113513, {	-- Asher <Fury of Frostfire>
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "If this quest has a checkmark next to it, then that means the scenario portal is active. He only appears in a special phase in Frostfire Ridge upon taking the portal.",
 										constant = "IF_THIS_QUEST_HAS_A_CHECKMARK_NEXT_TO_IT_THEN_6",
 										export = true,
@@ -581,7 +581,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 						}),
 						q(42429, {	-- Memories of Ebonchill
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to have Ebonchill equipped.",
 								constant = "YOU_NEED_TO_HAVE_EBONCHILL_EQUIPPED",
 								export = true,
@@ -946,7 +946,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- 7.2.0
 					q(45437, {	-- An Urgent Situation
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted immediately upon return to the order hall.",
 							constant = "GRANTED_IMMEDIATELY_UPON_RETURN_TO_THE_ORDER",
 							export = true,
@@ -1204,7 +1204,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Side Quest: The Great Akazamzarak
 					q(45615, {	-- Finders Keepers
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must wait for a weekly reset after completing the class mount.",
 							constant = "MUST_WAIT_FOR_A_WEEKLY_RESET_AFTER_COMPLETING",
 							export = true,

@@ -60,7 +60,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 								i(119218),	-- Horde Flag of Victory (TOY!)
 							}),
 							i(119219, {	-- Warlord's Flag of Victory (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires being the last player alive in the coliseum.",
 									constant = "REQUIRES_BEING_THE_LAST_PLAYER_ALIVE_IN_THE",
 									export = true,

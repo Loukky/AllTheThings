@@ -230,7 +230,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 			["groups"] = {
 				o(253161, {	-- Grove Vine
 					["classes"] = { DRUID },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|c808080FAThese pets are obtained by picking them from the|r |cFFFFD700Evergreen|r |c808080FAclass hall ability that druids get on Tier 2.\nOnce the ability is learned you will gain access to two plots where you grow plants every three days and it will randomly pick amongst six plots. When Grove Vine spawns it has a chance for these two pets.|r",
 						constant = "C808080FATHESE_PETS_ARE_OBTAINED_BY_PICKING",
 						export = true,
@@ -705,7 +705,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Learn Mission Table & Research
 					q(42516, {	-- Growing Power
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To get this quest, you have to port to Dalaran.",
 							constant = "TO_GET_THIS_QUEST_YOU_HAVE_TO_PORT_TO_DALARAN",
 							export = true,
@@ -837,7 +837,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["lvl"] = 103,
 					}),
 					q(43991, {	-- The Protectors
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Feral stone: Shapeshift into cat form and use Prowl.\nRestoration stone: Heal the sampling infront of the stone.\nBalance stone: Target the candles and use Moonfire.\nGuardian stone: Just be a Bear.",
 							constant = "FERAL_STONE_SHAPESHIFT_INTO_CAT_FORM_AND_USE",
 							export = true,
@@ -1484,7 +1484,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 44328 },	-- Owlcat Stone Activate [Hinterlands]
 						}),
 						n(113663, {	-- Ela'lothen <The Moonspirit>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Turn on \"Show Incomplete Quests\" to see which stones you are still missing. Each quest has a description added to it on it's location.\n\nOnce all 3 of the Owlcat stones are activated, you will be able to see Ela'lothen. In cat form, type /sit at him for the Feather of the Moonspirit to appear in your inventory.",
 								constant = "TURN_ON_SHOW_INCOMPLETE_QUESTS_TO_SEE_WHICH",
 								export = true,

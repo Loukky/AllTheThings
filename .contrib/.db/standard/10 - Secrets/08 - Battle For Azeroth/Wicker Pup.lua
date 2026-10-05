@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 	header(HEADERS.Spell, 279213, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {	-- Wicker Pup
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.",
 			constant = "YOU_MUST_FIND_EACH_OF_THE_FOUR_PARTS_FROM",
 			export = true,
@@ -41,7 +41,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 				},
 			}),
 			o(297879, {	-- Bespelled Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the inactive torches.",
 					constant = "CLICK_THE_INACTIVE_TORCHES",
 					export = true,

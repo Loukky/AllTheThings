@@ -5,7 +5,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	n(REWARDS, {
 		currency(994, {		-- Seal of Tempered Fate
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Purchased for 300g from an NPC at your Ashran hub in Draenor.\n\n|cff3f48ccAlliance:|r Purchased from Fate-Twister Seress in Stormshield |cffffffff(51.6,  61.8)|r.\n\n|cff880015Horde:|r Purchased from Fate-Twister Tiklal in Warspear |cffffffff(64.6, 62.0)|r.\n",
 				constant = "PURCHASED_FOR_300G_FROM_AN_NPC_AT_YOUR_ASHRAN",
 				export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			["cost"] = { { "g", 3000000 } },	-- 300g
 		}),
 		currency(1129, {	-- Seal of Inevitable Fate
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Up to 3 per week obtained via quests in your faction's Ashran hub. Costs for the week increase each time you purchase a seal with the same currency.\n\n|cff3f48ccAlliance:|r Obtained from Fate-Twister Seress in Stormshield |cffffffff(51.6, 61.8)|r.\n\n|cff880015Horde:|r Obtained from Fate-Twister Tiklal in Warspear|cffffffff(64.6, 62.0)|r.\n\nApexis Crystals: 500 > 1,000 > 2,000\n\nGarrison Resources: 1,000 > 2,000 > 4,000\n\nGold: 500 > 1,000 > 2,000\n",
 				constant = "UP_TO_3_PER_WEEK_OBTAINED_VIA_QUESTS_IN_YOUR",
 				export = true,
@@ -54,7 +54,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			},
 		}),
 		i(122618, {	-- Misprinted Draenic Coin
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "From the first Heroic Dungeon completed per day while on certain quests",
 				constant = "FROM_THE_FIRST_HEROIC_DUNGEON_COMPLETED_PER_DAY",
 				export = true,

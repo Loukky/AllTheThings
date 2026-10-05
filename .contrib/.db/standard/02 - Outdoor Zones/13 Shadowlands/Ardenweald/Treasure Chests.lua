@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(ARDENWEALD, {
 		n(TREASURES, {
 			o(364345, {	-- A Faintly Glowing Seed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found anywhere in Ardenweald",
 					constant = "CAN_BE_FOUND_ANYWHERE_IN_ARDENWEALD",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(180630) },	-- Gorm Harrier (PET!)
 			}),
 			o(354646, {		-- Ancient Cloudfeather Egg
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The path to get up to the treasure starts at |cFFFFFFFF50.6, 38.8|r.",
 					constant = "THE_PATH_TO_GET_UP_TO_THE_TREASURE_STARTS_AT",
 					export = true,
@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(180642) },	-- Cloudfeather Fledgling (PET!)
 			}),
 			o(355041, {		-- Cache of the Moon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Combine the |cff1eff00Diary of the Night|r, |cff1eff00Gardener's Basket|r, |cff1eff00Gardener's Hammer|r, |cff1eff00Gardener's Flute|r, and |cff1eff00Gardener's Wand|r to create |cff0070ddTwinklestar's Gardening Toolkit|r. Take the toolkit to Twinklestar at |cFFFFFFFF63.8, 37.5|r. He will grant you the \"Moonsight\" buff, allowing you to see the treasure behind him.",
 					constant = "COMBINE_THE_CFF1EFF00DIARY_OF_THE_NIGHT_R",
 					export = true,
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355000, {		-- Cache of the Night
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to dispel the barrier with |cff0070ddFae Dreamcatcher|r, which you create by combining |cff1eff00Enchanted Bough|r, and |cff1eff00Fae Ornament|r, and |cff1eff00Raw Dream Fibers|r.",
 					constant = "YOU_NEED_TO_DISPEL_THE_BARRIER_WITH",
 					export = true,
@@ -134,7 +134,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354648, {		-- Darkreach Supplies
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Mushroom at |cFFFFFFFF37.6, 61.5|r and jump into the broken tree.\n\nThis treasure has a chance to contain any of the BoEs that can drop from Decayed Husks and Hunter Vivanna.",
 					constant = "USE_THE_MUSHROOM_AT_CFFFFFFFF37_6_61_5_R_AND",
 					export = true,
@@ -192,7 +192,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353327, {	-- Decayed Husk
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The cave entrance is at |cFFFFFFFF54.0, 76.3|r.",
 						constant = "THE_CAVE_ENTRANCE_IS_AT_CFFFFFFFF54_0_76_3_R",
 						export = true,
@@ -216,7 +216,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			n(171484, {		-- Desiccated Moth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect Aromatic Flowers from |cFFFFFFFF31.7, 32.5|r, jump onto the tree with the Bounding Shroom at |cFFFFFFFF41.4, 31.6|r, and burn the flowers.",
 					constant = "COLLECT_AROMATIC_FLOWERS_FROM_CFFFFFFFF31_7_32",
 					export = true,
@@ -246,7 +246,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354650, {		-- Dreamsong Heart
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Bounding Shroom at |cFFFFFFFF38.0, 36.2|r to get to the top of the tree.",
 					constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF38_0_36_2_R",
 					export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(179510) },	-- Dreamsong Warglaive
 			}),
 			o(354662, {		-- Elusive Faerie Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Lamp at |cFFFFFFFF46.4, 70.1|r and open the chest while you have the debuff.",
 					constant = "USE_THE_LAMP_AT_CFFFFFFFF46_4_70_1_R_AND_OPEN",
 					export = true,
@@ -301,7 +301,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355020, {	-- Enchanted Bough
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Under the platform with the big chair.",
 					constant = "UNDER_THE_PLATFORM_WITH_THE_BIG_CHAIR",
 					export = true,
@@ -345,7 +345,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(187943) },	-- Fae Net
 			})),
 			o(355021, {	-- Fae Ornament
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the tree platform.",
 					constant = "ON_THE_TREE_PLATFORM",
 					export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				-- Rewards
 				-- Objects
 				o(353329, {	-- Faerie Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Bounding Shroom at |cFFFFFFFF32.7, 29.8|r to reach the treasure.",
 						constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF32_7_29_8_R",
 						export = true,
@@ -393,7 +393,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353330, {	-- Faerie Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Bounding Shroom at |cFFFFFFFF64.7, 23.4|r to reach the treasure.",
 						constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF64_7_23_4_R",
 						export = true,
@@ -416,7 +416,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353331, {	-- Faerie Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Bounding Shroom at |cFFFFFFFF39.9, 43.7|r to reach the treasure.",
 						constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF39_9_43_7_R",
 						export = true,
@@ -439,7 +439,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353332, {	-- Faerie Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Bounding Shroom at |cFFFFFFFF43.6, 22.9|r to reach the treasure.",
 						constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF43_6_22_9_R",
 						export = true,
@@ -462,7 +462,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353333, {	-- Faerie Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Bounding Shroom at |cFFFFFFFF42.7, 66.1|r to reach the treasure.",
 						constant = "USE_THE_BOUNDING_SHROOM_AT_CFFFFFFFF42_7_66_1_R",
 						export = true,
@@ -486,7 +486,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(354652, {		-- Faerie Trove
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the platform.",
 					constant = "UNDERNEATH_THE_PLATFORM",
 					export = true,
@@ -511,7 +511,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355355, {		-- Harmonic Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need two people to open the chest. One person needs to play the harp and one needs to play the drums.",
 					constant = "YOU_NEED_TWO_PEOPLE_TO_OPEN_THE_CHEST_ONE",
 					export = true,
@@ -537,7 +537,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354647, {		-- Hearty Dragon Plume
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The path to get up to the treasure starts at |cFFFFFFFF48.1, 39.0|r.\n\nFollow it up and to the left until you reach the beginning of the bridge at |cFFFFFFFF46.1, 39.1|r, and cross it to get to the ledge above the treasure. Any class should be able to safely make it down to the treasure with two jumps (or by using a Goblin Glider), but you can also use the feather found at |cFFFFFFFF48.9, 41.0|r to slow fall.",
 					constant = "THE_PATH_TO_GET_UP_TO_THE_TREASURE_STARTS_AT_2",
 					export = true,
@@ -571,7 +571,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				-- Rewards
 				-- Objects
 				o(353683, {	-- Lunarlight Pod
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "When you first get to the treasure, it is called |cFFFFFFFFDim Lunarlight Pod|r. To light it up and make it lootable, run through 5 nearby |cFFFFFFFFLunarlight Buds|r.\n\nYou can /tar the buds, so just run around in a circle close to the treasure and spam a target macro to find each one.",
 						constant = "WHEN_YOU_FIRST_GET_TO_THE_TREASURE_IT_IS_CALLED",
 						export = true,
@@ -707,7 +707,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(355019, {	-- Raw Dream Silk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Hanging silk fibers at the back of the platform.",
 					constant = "HANGING_SILK_FIBERS_AT_THE_BACK_OF_THE_PLATFORM",
 					export = true,

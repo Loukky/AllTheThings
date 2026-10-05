@@ -13,7 +13,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				i(141011, {	-- Recipe: Surf
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from any marine mob in the zone.",
 						constant = "DROPS_FROM_ANY_MARINE_MOB_IN_THE_ZONE",
 						export = true,
@@ -48,7 +48,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				i(141012, {	-- Recipe: Turf
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fly to Crimson Thicket, Suramar. Kill the Heartwood stag. 3-4 and you should have it.",
 						constant = "FLY_TO_CRIMSON_THICKET_SURAMAR_KILL_THE",
 						export = true,

@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66522, {	-- Lydia Accoste <Grand Master Pet Tamer>
 					["coord"] = { 40.2, 76.6, DEADWIND_PASS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Lydia's pets are level 19 of the following consecutive pet classes:\n1. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Alpine Chipmunk and Alpine Hare.",
 						constant = "LYDIA_S_PETS_ARE_LEVEL_19_OF_THE_FOLLOWING",
 						export = true,
@@ -296,7 +296,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 10.2.5
 			n(TREASURES, {
 				o(421150, {	-- Carved Eye
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Behind the wooden door",
 						constant = "BEHIND_THE_WOODEN_DOOR",
 						export = true,

@@ -9,7 +9,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		ach(42503),	-- Artifact, Remixed III
 		ach(42565, {	-- Bringing Order to the Isles
 		-- Added with Phase3 Legion Remix Release	-- Gold 5th Nov 2025
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires completion of all 12 Class Order Hall campaigns, including the Broken Shore Chapter up until you receive your Class Mount.\n\nDruids can skip some of the dungeon quests.\n\nRogues have to do every single quest, including getting every follower.",
 				constant = "REQUIRES_COMPLETION_OF_ALL_12_CLASS_ORDER_HALL",
 				export = true,
@@ -110,7 +110,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			},
 		}),
 		ach(11065, {	-- It All Makes Sense Now (Originally under Legion PreLaunch Event)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Locate one of the many Doomsayers in Dalaran (Legion Remix).\nSpeak with them and take a pamphlet.\nNormally there is a 20-minute cooldown between acquiring pamphlets, but you circumvent that with the death mechanic:\n\nFind a Doomsayer near a graveyard.\nFly up into the sky and then fall to the ground to die.\nRelease spirit and talk to the Spirit Healer to take Resurrection sickness.\nFly back to the Doomsayer and talk to him again for a new pamphlet.\nRepeat until done.",
 				constant = "LOCATE_ONE_OF_THE_MANY_DOOMSAYERS_IN_DALARAN",
 				export = true,
@@ -132,7 +132,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		}),
 		ach(42593),	-- Pillars of Creation
 		ach(61339, {	-- Putting the Finite in Infinite
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Earned upon completing a +49 or higher Keystone in time.",
 				constant = "EARNED_UPON_COMPLETING_A_49_OR_HIGHER_KEYSTONE",
 				export = true,

@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(381362, {	-- Chunk of Sculpture
 				["coord"] = { 60.1, 60.1, THE_AZURE_SPAN },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Behind the dragon statue next to the mountain.",
 					constant = "BEHIND_THE_DRAGON_STATUE_NEXT_TO_THE_MOUNTAIN",
 					export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 				["groups"] = {
 					i(201368, {	-- Brackenhide Hollow Barbslinger
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops from Gnoll Creatures or Decay Covered Chests around Bracken Hollow.",
 							constant = "DROPS_FROM_GNOLL_CREATURES_OR_DECAY_COVERED",
 							export = true,
@@ -153,7 +153,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(381511, {	-- Harpoon Head
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the anvil in the Tuskaar area.",
 					constant = "ON_THE_ANVIL_IN_THE_TUSKAAR_AREA",
 					export = true,
@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(381513, {	-- Old Pickaxe
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Visible when reaching 50 Fishing Skill (including Equipment Bonuses).",
 					constant = "VISIBLE_WHEN_REACHING_50_FISHING_SKILL",
 					export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(195373, {	-- Pepper Hammer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use nearby Stick and Tree Sap to lure the bird.",
 					constant = "USE_NEARBY_STICK_AND_TREE_SAP_TO_LURE_THE_BIRD",
 					export = true,
@@ -243,7 +243,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(383660, {	-- Salt Crystal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a cave.",
 					constant = "IN_A_CAVE_2",
 					export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(381353, {	-- Stone Dragontooth
 				["coord"] = { 69.2, 47.6, THE_AZURE_SPAN },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Next to the dragon statue on the ground.",
 					constant = "NEXT_TO_THE_DRAGON_STATUE_ON_THE_GROUND",
 					export = true,
@@ -347,7 +347,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(381354, {	-- Wrapped Gold Band
 				["coord"] = { 47.3, 24.6, THE_AZURE_SPAN },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the back left foot of the dragon statue.",
 					constant = "UNDERNEATH_THE_BACK_LEFT_FOOT_OF_THE_DRAGON",
 					export = true,

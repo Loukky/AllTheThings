@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["coord"] = { 65.6, 67.2, STORMSONG_VALLEY },
 				}),
 				pet(2379, {	-- Honey Bee (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found mostly around these coords.",
 						constant = "FOUND_MOSTLY_AROUND_THESE_COORDS",
 						export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				pet(2373, {	-- River Frog (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found along the waterways above Sagehold. Coords are a route.",
 						constant = "BEST_FOUND_ALONG_THE_WATERWAYS_ABOVE_SAGEHOLD",
 						export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				pet(2378, {	-- River Otter (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found along the waterways above Sagehold. Coords are a route. Also found NW of Arom's Stand, Drustvar.",
 						constant = "BEST_FOUND_ALONG_THE_WATERWAYS_ABOVE_SAGEHOLD_2",
 						export = true,
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				pet(2375, {	-- Vale Marmot (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found all around Stormsong Valley.",
 						constant = "FOUND_ALL_AROUND_STORMSONG_VALLEY",
 						export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					})
 				}),
 				pet(2376, {	-- Valley Chicken (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found along a small route using given coords.",
 						constant = "BEST_FOUND_ALONG_A_SMALL_ROUTE_USING_GIVEN",
 						export = true,

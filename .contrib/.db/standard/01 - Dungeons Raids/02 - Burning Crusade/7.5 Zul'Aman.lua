@@ -59,7 +59,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 					}),
 					q(11195, {	-- Playin' With Dolls
 						-- #if BEFORE CATA
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located in the big hut just southeast of Halazzi's room.",
 							constant = "LOCATED_IN_THE_BIG_HUT_JUST_SOUTHEAST_OF",
 							export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 									{ "i",  33013 },	-- Budd's Map of Zul'Aman
 									{ "o", 186733 },	-- The Map of Zul'Aman
 								},
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Right side before bear boss.",
 									constant = "RIGHT_SIDE_BEFORE_BEAR_BOSS",
 									export = true,
@@ -183,7 +183,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 				n(ZONE_DROPS, {
 					i(33865, {	-- Amani Hex Stick
 						-- #if BEFORE CATA
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "WARNING: This will despawn if you leave the instance!",
 							constant = "WARNING_THIS_WILL_DESPAWN_IF_YOU_LEAVE_THE",
 							export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 					i(33307),	-- Formula: Enchant Weapon - Executioner (RECIPE!)
 				}),
 				n(24396, {	-- Forest Frog
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use an Amani Hex Stick on a Forest Frog for a chance to have Mojo spawn and hop into your bags.",
 						constant = "USE_AN_AMANI_HEX_STICK_ON_A_FOREST_FROG_FOR_A",
 						export = true,
@@ -236,7 +236,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 					},
 				}),
 				n(ZULAMAN_TIMED_EVENT, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The event starts as soon as you open the gate. You now have 20 minutes to defeat the first animal-boss of your choice. Any of the loa spirit bosses will do and there is no required order, however killing Nalorakk will add 15 minutes and killing Akil'zon will add an additional 10 minutes to your timer. This is generally why players kill these two bosses first.\n\nThe loot from the event is dependent on the number of hostages you rescue, not which chest you loot first.",
 						constant = "THE_EVENT_STARTS_AS_SOON_AS_YOU_OPEN_THE_GATE",
 						export = true,
@@ -281,7 +281,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 							i(33498),	-- Signet of the Quiet Forest
 						}),
 						n(ZULAMAN_CHEST_4, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item could only be found after the fourth animal boss had been defeated within the required time limit for the event.\n\nOnly one player can receive this within a given raid lockout.",
 								constant = "THIS_ITEM_COULD_ONLY_BE_FOUND_AFTER_THE_FOURTH",
 								export = true,
@@ -317,7 +317,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 						["coord"] = { 71.0, 67.2, GHOSTLANDS },
 						["groups"] = {
 							i(33105, {	-- Budd's Guise of Zul'aman
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "To obtain this, talk to Budd Nedreck after completing 'Promises, Promises...', click the dialog \"You gave the crew disguises?\", and look in your inventory.\n\n|Cffff0000WARNING: If you complete 'X Marks... Your Doom!' this option is NOT available to you!|r",
 									constant = "TO_OBTAIN_THIS_TALK_TO_BUDD_NEDRECK_AFTER",
 									export = true,

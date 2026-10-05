@@ -215,7 +215,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66551, {	-- Ras'an <Master Pet Tamer>
 						["coord"] = { 17.2, 50.6, ZANGARMARSH },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Ras'an's pets are level 21 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Humanonoid - use Undead (powerful) or Beast (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Ageless Bronze Drake and Blighted Squirrel.",
 							constant = "RAS_AN_S_PETS_ARE_LEVEL_21_OF_THE_FOLLOWING",
 							export = true,
@@ -251,7 +251,7 @@ root(ROOTS.Zones, {
 							["groups"] = TBC_FISHING,
 						}),
 						i(34469, {	-- Strange Engine Part
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "\"Don't pay anybody in advance. And don't ride in anything with a Capissen 38 engine, they fall right out of the sky.\" - Kaylee Fry",
 								constant = "DON_T_PAY_ANYBODY_IN_ADVANCE_AND_DON_T_RIDE_IN",
 								export = true,
@@ -544,7 +544,7 @@ root(ROOTS.Zones, {
 									{ "i",  32364 },	-- Southfury Moonstone
 									{ "o", 185566 },	-- Southfury Moonstone
 								},
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Jump into the water and catch Rizzle Sprysprocket by using aquatic form to race down the river avoiding the depth charges she leaves behind.",
 									constant = "JUMP_INTO_THE_WATER_AND_CATCH_RIZZLE",
 									export = true,
@@ -1047,7 +1047,7 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(61, 61, 10),
 					}),
 					q(10105, {	-- News for Rakoria
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only one of News from Zangarmarsh(9796) and News for Rakoria(10105) can be picked up",
 							constant = "ONLY_ONE_OF_NEWS_FROM_ZANGARMARSH_9796_AND_NEWS",
 							export = true,
@@ -1905,7 +1905,7 @@ root(ROOTS.Zones, {
 				n(SPECIAL, {
 					o(373437, {	-- Pungent Blobfish Cluster
 						["timeline"] = { ADDED_9_2_5 },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Coilfang Reservoir area.",
 							constant = "INSIDE_COILFANG_RESERVOIR_AREA",
 							export = true,
@@ -2191,7 +2191,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(23373, {	-- Mortog Steamhead
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Will only serve players who are Exalted with Cenarion Expedition.",
 							constant = "WILL_ONLY_SERVE_PLAYERS_WHO_ARE_EXALTED_WITH",
 							export = true,
@@ -2331,7 +2331,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(29960, {	-- Captured Firefly (item) / Firefly (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is an extremely rare drop.",
 							constant = "THIS_IS_AN_EXTREMELY_RARE_DROP",
 							export = true,
@@ -2354,7 +2354,7 @@ root(ROOTS.Zones, {
 					}),
 					i(24330, {	-- Drain Schematics (QS!)
 						["cr"] = 18340,	-- Steam Pump Overseer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have accepted or completed |cFFFFD700Balance Must Be Preserved (9720)|r to loot this item.",
 							constant = "MUST_HAVE_ACCEPTED_OR_COMPLETED",
 							export = true,
@@ -2384,7 +2384,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(24401, {	-- Unidentified Plant Parts
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Lauranna Thar'well in Cenarion Refugee will accept these and increase your reputation with Cenarion Expedition. The repeatable quest is only available until you become Honoured with the faction.",
 							constant = "LAURANNA_THAR_WELL_IN_CENARION_REFUGEE_WILL",
 							export = true,

@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["groups"] = { i(221550) },	-- Boskroot Cap
 			}),
 			n(212928, {	-- Dalaran Sewer Turtle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "5 min wait after turnin of the Dornish Pike until the Goldengill Trout is available. You will be able to loot the battle pet in Dornogal.",
 					constant = "5_MIN_WAIT_AFTER_TURNIN_OF_THE_DORNISH_PIKE",
 					export = true,
@@ -84,7 +84,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(222940, {	-- Freysworn Letitia
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find 6 Pearlescent Shellcrab around Isle of Dorn.",
 					constant = "FIND_6_PEARLESCENT_SHELLCRAB_AROUND_ISLE_OF",
 					export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					hqt(82756, {	-- Sixth Crab
 						["name"] = "Sixth Crab",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On tree branch.",
 							constant = "ON_TREE_BRANCH",
 							export = true,
@@ -210,7 +210,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(223104, {	-- Lionel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After you kick Lionel back into water, find 5 |cff888888Plump Snapcrabs|r on the shore and feed him.",
 					constant = "AFTER_YOU_KICK_LIONEL_BACK_INTO_WATER_FIND_5",
 					export = true,
@@ -243,7 +243,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			header(HEADERS.Object, 443638, {	-- Mosswool Flower
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with Lost Mosswool 3 times to spawn this treasure.",
 					constant = "INTERACT_WITH_LOST_MOSSWOOL_3_TIMES_TO_SPAWN",
 					export = true,
@@ -263,7 +263,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				["groups"] = {
 					hqt(82145, {	-- Lost Mosswool
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Hidden tracking quest which is active while finding the 3 sheep. They will show as Vignettes on the minimap.\n\nCheck Debug Mode to see the 3 sheep coordinates since they are unable to be 'tracked' by ATT.",
 							constant = "HIDDEN_TRACKING_QUEST_WHICH_IS_ACTIVE_WHILE",
 							export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 59.6, 24.6, ISLE_OF_DORN },
 						["groups"] = {
 							n(222956, {	-- Lost Mosswool
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "1st Mosswool spot",
 									constant = "1ST_MOSSWOOL_SPOT",
 									export = true,
@@ -305,7 +305,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["coord"] = { 59.6, 24.6, ISLE_OF_DORN },
 							}),
 							n(222963, {	-- Lost Mosswool
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "2nd Mosswool spot",
 									constant = "2ND_MOSSWOOL_SPOT",
 									export = true,
@@ -326,7 +326,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["coord"] = { 59.1, 27.1, ISLE_OF_DORN },
 							}),
 							n(222965, {	-- Lost Mosswool
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "3rd Mosswool spot",
 									constant = "3RD_MOSSWOOL_SPOT",
 									export = true,
@@ -359,7 +359,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444894, {	-- Shimmering Opal Lily
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the bottom of the cave.\nDespawns after being looted by someone. You may need to wait for it to respawn.",
 					constant = "AT_THE_BOTTOM_OF_THE_CAVE_DESPAWNS_AFTER_BEING",
 					export = true,
@@ -381,7 +381,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82326,
 			}),
 			o(423854, {	-- Soulwell
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be obtained only during the Introductory quest chain.",
 					constant = "CAN_BE_OBTAINED_ONLY_DURING_THE_INTRODUCTORY",
 					export = true,
@@ -440,7 +440,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222894, {	-- U'llort the Self-Exiled
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to U'llort then bring it |cff888888Boskroot Cap|r from the woods nearby.",
 					constant = "TALK_TO_U_LLORT_THEN_BRING_IT_CFF888888BOSKROOT",
 					export = true,

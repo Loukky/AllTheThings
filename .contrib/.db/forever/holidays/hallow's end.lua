@@ -214,7 +214,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(createHeader({
 		}),
 		n(REWARDS, {
 			i(20393, {	-- Treat Bag
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Get this by Trick or Treating at any Innkeeper.",
 					constant = "GET_THIS_BY_TRICK_OR_TREATING_AT_ANY_INNKEEPER",
 					export = true,

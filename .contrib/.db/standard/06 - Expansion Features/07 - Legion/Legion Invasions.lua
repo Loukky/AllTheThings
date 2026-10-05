@@ -5,7 +5,7 @@
 root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.LEGION, {
 		n(LEGION_INVASIONS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Complete 4 Legion Invasion World Quests, then complete the Scenario in the respective zone",
 				constant = "COMPLETE_4_LEGION_INVASION_WORLD_QUESTS_THEN",
 				export = true,

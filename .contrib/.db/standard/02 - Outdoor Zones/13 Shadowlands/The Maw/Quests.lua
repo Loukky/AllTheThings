@@ -303,7 +303,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60284, {	-- Rule 5: Be Audacious
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Tentative reputation with Ve'nari.",
 						constant = "REQUIRES_TENTATIVE_REPUTATION_WITH_VE_NARI",
 						export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60285, {	-- Rule 6: Concealment is Everything
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Ambivalent reputation with Ve'nari.",
 						constant = "REQUIRES_AMBIVALENT_REPUTATION_WITH_VE_NARI",
 						export = true,
@@ -385,7 +385,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(60158, {	-- Rule 7: Betrayal is Inevitable
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Appreciative reputation with Ve'nari.",
 						constant = "REQUIRES_APPRECIATIVE_REPUTATION_WITH_VE_NARI",
 						export = true,

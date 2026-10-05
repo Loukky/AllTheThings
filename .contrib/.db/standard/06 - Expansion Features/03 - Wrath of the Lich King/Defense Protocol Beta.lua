@@ -57,7 +57,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					412470, 424201,	-- Shadow Rune Buffs
 					413078, 424205	-- Titan Rune Buffs
 				),
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Defeating the final boss encounter on Defense Protocol Beta will reward 1 Sidereal Essence and can also drop T8 tokens.",
 					constant = "DEFEATING_THE_FINAL_BOSS_ENCOUNTER_ON_DEFENSE_2",
 					export = true,

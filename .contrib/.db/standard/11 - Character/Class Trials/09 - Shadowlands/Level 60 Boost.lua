@@ -6,7 +6,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 		header(HEADERS.Achievement, 14783, {
 			-- Note: [As of October 13th, 2020 Level 120 Boost became Level 50 Boost]
 			-- Note: [As of November 11th, 2021 SL Character boost increased from 50 to 60. Some of the old 50 items went to the new class trial level 50]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These are gained by using a Level 60 Boost of that particular class. Each class has one default spec. Shamans and Druids have two specs available and both are needed to 100% each category.",
 				constant = "THESE_ARE_GAINED_BY_USING_A_LEVEL_60_BOOST_OF",
 				export = true,

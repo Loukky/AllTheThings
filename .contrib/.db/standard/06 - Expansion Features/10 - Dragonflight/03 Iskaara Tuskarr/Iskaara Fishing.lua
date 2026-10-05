@@ -443,7 +443,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 				["groups"] = {
 					i(200082, {	-- Battered Imbu-made Net
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from fishing in Prismatic Leaper Schools, Overheated Magma Thresher Pools or Deep Ice Fishing Holes.",
 							constant = "OBTAINED_FROM_FISHING_IN_PRISMATIC_LEAPER",
 							export = true,
@@ -492,7 +492,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					i(200086, {	-- Khaz'gorite-Infused Resin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from Rares summoned by using Ominous Conch at Large Lunker Sightings.",
 							constant = "OBTAINED_FROM_RARES_SUMMONED_BY_USING_OMINOUS",
 							export = true,
@@ -521,7 +521,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					i(200085, {	-- Khaz'gorite Wire
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from Full Tuskarr Fishing Nets.",
 							constant = "OBTAINED_FROM_FULL_TUSKARR_FISHING_NETS",
 							export = true,
@@ -560,7 +560,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 					o(381514, {	-- Sea-Polished Basalt
 						-- i didn't save the coords, and wowhead doesn't know about it. probably need some fine-tuning and additional spawn locations, then remove description
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Near landing points for Alliance/Horde in The Waking Shores. Rough coordinates.",
 							constant = "NEAR_LANDING_POINTS_FOR_ALLIANCE_HORDE_IN_THE",
 							export = true,
@@ -586,7 +586,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 					o(381512, {	-- Wooden Pole
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Used to craft Iskaaran Harpoon.",
 							constant = "USED_TO_CRAFT_ISKAARAN_HARPOON",
 							export = true,

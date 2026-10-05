@@ -307,7 +307,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		battlepets({
 			pet(1068, {	-- Crow (PET!)
 				["timeline"] = { ADDED_5_1_0 },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only found as a secondary pet when battling Darkmoon Glowfly (/att npc:67329)\nDue to its rarity, you should capture any quality pet and use a Flawless Battle-Stone on it.",
 					constant = "ONLY_FOUND_AS_A_SECONDARY_PET_WHEN_BATTLING",
 					export = true,
@@ -348,7 +348,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		}),
 		-- #endif
 		n(DROPS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The following can drop from instanced content when a Darkmoon Adventurer's Guide is in your bags or purchased from the auction house.",
 				constant = "THE_FOLLOWING_CAN_DROP_FROM_INSTANCED_CONTENT",
 				export = true,
@@ -371,7 +371,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			["groups"] = {
 				-- PvE
 				i(71715, {	-- A Treatise on Strategy
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from instanced PvE content when a Darkmoon Adventurer's Guide is in your bags.",
 						constant = "CAN_DROP_FROM_INSTANCED_PVE_CONTENT_WHEN_A",
 						export = true,
@@ -408,7 +408,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 
 				-- PvP
 				i(71951, {	-- Banner of the Fallen
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from instanced PvP content when a Darkmoon Adventurer's Guide is in your bags.",
 						constant = "CAN_DROP_FROM_INSTANCED_PVP_CONTENT_WHEN_A",
 						export = true,
@@ -733,7 +733,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		petbattles({
 			n(67370, {	-- Jeremy Feasel <Master Pet Tamer>
 				["coord"] = { 47.0, 62.75, DARKMOON_ISLAND },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jeremy's pets are level 25 of epic quality and exceptionally powerful of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Mechanical - use Elemental (powerful and tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
 					constant = "JEREMY_S_PETS_ARE_LEVEL_25_OF_EPIC_QUALITY_AND",
 					export = true,
@@ -756,7 +756,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			n(85519, {	-- Cristoph VonFeasel <Grand Master Pet Tamer>
 				["coord"] = { 47.3, 62.0, DARKMOON_ISLAND },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Cristoph's pets are level 25 of legendary quality and exceptionally powerful of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Beast - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
 					constant = "CRISTOPH_S_PETS_ARE_LEVEL_25_OF_LEGENDARY",
 					export = true,
@@ -2541,7 +2541,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["timeline"] = { ADDED_6_2_0 },
 				["groups"] = {
 					i(127148, {	-- Sila's Secret Stash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item contains 100 Darkmoon Faire Tickets.",
 							constant = "THIS_ITEM_CONTAINS_100_DARKMOON_FAIRE_TICKETS",
 							export = true,
@@ -3177,7 +3177,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 44.6, 78.9, DARKMOON_ISLAND },	-- Chest
 				-- Danny Donkey: The earliest report of the trinket being shareable is from 9.1.5.
 				-- #if AFTER 9.1.5
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Protip: Disable autoloot before looting this chest, and do not empty it. Everyone can loot their trinket this way.",
 					constant = "PROTIP_DISABLE_AUTOLOOT_BEFORE_LOOTING_THIS",
 					export = true,
@@ -3201,7 +3201,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						["timeline"] = { ADDED_4_3_0 },
 					}),
 					i(126949, {	-- Returning Champion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to have completed the Master Pit Fighter quest to loot this from the chest.",
 							constant = "YOU_NEED_TO_HAVE_COMPLETED_THE_MASTER_PIT",
 							export = true,
@@ -3241,7 +3241,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			})),
 			n(122899, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 }, }, {	-- Death Metal Knight
 				["questID"] = 47767,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Death Metal Knight can be killed every hour on the half-hour, but he will only drop his rare loot once per month per character.",
 					constant = "DEATH_METAL_KNIGHT_CAN_BE_KILLED_EVERY_HOUR_ON",
 					export = true,
@@ -3268,7 +3268,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					ach(11918),	-- Hey, You're a Rockstar!
 					ach(11921),	-- Mosh Pit
 					ach(11920, {	-- Perfect Performance
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Four people fighting the Death Metal Knight will need to successfully perform the roles from Taking this Show on the Road. This achievement technically does not require a group, but it would be easier to coordinate roles with one!",
 							constant = "FOUR_PEOPLE_FIGHTING_THE_DEATH_METAL_KNIGHT",
 							export = true,
@@ -3289,7 +3289,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					ach(11919, {	-- Taking this Show on the Road
 						crit(37025, {	-- Guitarist
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Get hit by one banshee wave; miss one bolt of light.",
 								constant = "GET_HIT_BY_ONE_BANSHEE_WAVE_MISS_ONE_BOLT_OF",
 								export = true,
@@ -3309,7 +3309,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							}),
 						}),
 						crit(37026, {	-- Bassist
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Do not get hit by any banshee waves; miss one bolt of light.",
 								constant = "DO_NOT_GET_HIT_BY_ANY_BANSHEE_WAVES_MISS_ONE",
 								export = true,
@@ -3329,7 +3329,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							}),
 						}),
 						crit(37027, {	-- Drummer
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Do not get hit by any banshee waves; catch every bolt of light.",
 								constant = "DO_NOT_GET_HIT_BY_ANY_BANSHEE_WAVES_CATCH_EVERY",
 								export = true,
@@ -3349,7 +3349,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							}),
 						}),
 						crit(37028, {	-- Vocals
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Get hit by one banshee wave; catch every bolt of light.",
 								constant = "GET_HIT_BY_ONE_BANSHEE_WAVE_CATCH_EVERY_BOLT_OF",
 								export = true,
@@ -3392,7 +3392,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["questID"] = 77158,
 				["isDaily"] = true,	-- maybe weekly/monthly?
 				["sourceQuest"] = 76430,	-- Beginning Impositions
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Question Madam Shadow until you get punished.\n 1) Cast Corruption.\n 2) Cast Curse of Exhaustion\n 3) Cast Agony\n 4) Oh yeah, don't forget to RUN!\n\nNote: The QuestID on this NPC will become unobtainable after learning the Grimoire (if obtained elsewhere), though Party Sync can allow fighting the NPC again regardless.",
 					constant = "QUESTION_MADAM_SHADOW_UNTIL_YOU_GET_PUNISHED_1",
 					export = true,
@@ -3469,7 +3469,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			i(93724, {	-- Darkmoon Game Prize
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Awarded by completing a mini game quest.",
 					constant = "AWARDED_BY_COMPLETING_A_MINI_GAME_QUEST",
 					export = true,
@@ -3542,7 +3542,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					i(171364, {	-- Darkmoon Top Hat
 						["timeline"] = { ADDED_8_2_5 },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Does not stack with the 'WHEE'-buff from Darkmoon Faire, and will replace it!",
 							constant = "DOES_NOT_STACK_WITH_THE_WHEE_BUFF_FROM_DARKMOON",
 							export = true,
@@ -3583,7 +3583,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		n(TREASURES, {
 			o(405068, {	-- Forgotten Grimoire
 				["sourceQuest"] = 75539,	-- Some Wicked Things This Way Come
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Should you complete 'Fel Suspicions' (75639) without killing 'Twinkle', this will be available in the Darkmoon Faire Deathmatch.",
 					constant = "SHOULD_YOU_COMPLETE_FEL_SUSPICIONS_75639",
 					export = true,
@@ -3612,7 +3612,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		n(VENDORS, {
 			n(55072, bubbleDownSelf({ ["timeline"] = { ADDED_4_3_0 }, }, {	-- Barum <Replica Armor Prizes>
 				["coord"] = { 47.5, 66.3, DARKMOON_ISLAND },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This vendor sells additional ensembles which are only visible to those who completed the original T0.5 questline. If you do not see them, you don't meet the requirements, and they can no longer be unlocked as the questline was removed from the game.",
 					constant = "THIS_VENDOR_SELLS_ADDITIONAL_ENSEMBLES_WHICH",
 					export = true,
@@ -3722,7 +3722,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						darkmoonprizeticket(75, i(78242)),	-- Replica Wildheart Vest
 					}),
 					darkmoonprizeticket(75, iensemble(171984, {	-- Ensemble: Battlegear of Valor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
 							constant = "ONLY_APPEARS_FOR_THOSE_WHO_HAVE_DONE_THE",
 							export = true,
@@ -4331,7 +4331,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 51.9, 60.9, DARKMOON_ISLAND },
 				["groups"] = {
 					i(113135, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 }, }, {	-- Iron Joker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can trade in a joker for any one of the cards you are missing to Thaddeus Paleo at the Darkmoon Faire.",
 							constant = "YOU_CAN_TRADE_IN_A_JOKER_FOR_ANY_ONE_OF_THE",
 							export = true,
@@ -4415,7 +4415,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			n(56041, {	-- Rona Greenteeth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rona serves food that she caught and prepared herself, though it's questionable what the food is made of. Sadly the vast majority of it has been removed from the game since 7.2.0.",
 					constant = "RONA_SERVES_FOOD_THAT_SHE_CAUGHT_AND_PREPARED",
 					export = true,
@@ -4458,7 +4458,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						["timeline"] = { ADDED_4_3_0 },
 					}),
 					i(124640, {	-- Inky Black Potion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item enables Dark Mode and helps make the racing circles easier to see.",
 							constant = "THIS_ITEM_ENABLES_DARK_MODE_AND_HELPS_MAKE_THE",
 							export = true,
@@ -4507,7 +4507,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			n(108785, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 }, }, {	-- Scarlet Quartermaster
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must be wearing Tabard of the Scarlet Crusade in order to purchase items from the Scarlet Quartermaster. A tabard that has been transmogged will NOT work.",
 					constant = "YOU_MUST_BE_WEARING_TABARD_OF_THE_SCARLET",
 					export = true,

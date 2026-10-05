@@ -235,7 +235,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(558, {	-- Arctic Fox Kit (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only spawns while it is snowing. Weather in this area seems to be character specific.",
 								constant = "ONLY_SPAWNS_WHILE_IT_IS_SNOWING_WEATHER_IN_THIS",
 								export = true,
@@ -361,7 +361,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(115307, {	-- Algalon the Observer <Celestial Pet Tamer>
 						["coord"] = { 41.5, 24.4, THE_STORM_PEAKS },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Algalon's pets are level 25 of legendary quality and exceptionally powerful of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",
 							constant = "ALGALON_S_PETS_ARE_LEVEL_25_OF_LEGENDARY",
 							export = true,
@@ -477,7 +477,7 @@ root(ROOTS.Zones, {
 					}),
 
 					i(44751, {	-- Hyldnir Spoils
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Reward from the following daily quests: Back to the Pit, Defending Your Title, Maintaining Discipline, and The Aberrations Must Die. \n\nOne of the quests is offered at random each day.",
 							constant = "REWARD_FROM_THE_FOLLOWING_DAILY_QUESTS_BACK_TO",
 							export = true,
@@ -557,7 +557,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.4, 72.1, THE_STORM_PEAKS },
 					}),
 					q(12871, {	-- Aid from the Explorers' League
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use Brann's Communicator to pick this quest up.",
 							constant = "USE_BRANN_S_COMMUNICATOR_TO_PICK_THIS_QUEST_UP",
 							export = true,
@@ -712,7 +712,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							i(41179, {	-- The Inventor's Disk
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Despite what the item text says, this can only be used on Databanks on Terrace of the Makers, downstairs from The Inventor's Library.",
 									constant = "DESPITE_WHAT_THE_ITEM_TEXT_SAYS_THIS_CAN_ONLY",
 									export = true,
@@ -870,7 +870,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12924, {	-- Forging an Alliance
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To progress through this quest, pick up the quest 'You Can't Miss Him' from King Jokkum.",
 							constant = "TO_PROGRESS_THROUGH_THIS_QUEST_PICK_UP_THE",
 							export = true,
@@ -1164,7 +1164,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(12831, {	-- Only Partly Forgotten
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can pick up this quest from any of the Injured Goblin Miners inside the mine.",
 							constant = "YOU_CAN_PICK_UP_THIS_QUEST_FROM_ANY_OF_THE",
 							export = true,
@@ -1713,7 +1713,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(12966, {	-- You Can't Miss Him
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This questline is required to progress on the 'Forging the Alliance' quest.",
 							constant = "THIS_QUESTLINE_IS_REQUIRED_TO_PROGRESS_ON_THE",
 							export = true,
@@ -1760,7 +1760,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(35189, {	-- Skoll
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In Norse mythology, the aspects of the sun and moon are pursued through the sky by two wolves. Skoll is the wolf that pursues the sun and, at the onset of Ragnarok, will finally catch and devour it.\n\nSkoll's brother, Hati, will do the same to the moon.\n\nThis is a very much sought after Hunter Pet, so instead of killing this rare for the BoE, buy the BoE off the AH.",
 							constant = "IN_NORSE_MYTHOLOGY_THE_ASPECTS_OF_THE_SUN_AND",
 							export = true,
@@ -1788,7 +1788,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(32491, {	-- Time-Lost Proto-Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "They call it a time-lost proto drake because you've lost so much time looking for it. Shares respawn with |cFFFFD700Vyragosa|r.",
 							constant = "THEY_CALL_IT_A_TIME_LOST_PROTO_DRAKE_BECAUSE",
 							export = true,
@@ -1818,7 +1818,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(32630, {	-- Vyragosa
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Flies all around the zone in large circular patterns based on the spawn point. Shares respawn with |cFFFFD700Time-Lost Proto-Drake|r.",
 							constant = "FLIES_ALL_AROUND_THE_ZONE_IN_LARGE_CIRCULAR",
 							export = true,
@@ -1853,7 +1853,7 @@ root(ROOTS.Zones, {
 							{ 58.2, 62.0, THE_STORM_PEAKS },	-- Valley of Ancient Kings
 							{ 70.4, 59.8, THE_STORM_PEAKS },	-- Frostfield Lake
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Everfrost Chip spawns can be hard to find due to their scarcity. They can spawn anywhere between Brunnhildar Village and Thunderfall.\n\nAlthough you can open these while being hated with The Sons of Hodir, you will NOT get any Everfrost Chips!",
 							constant = "EVERFROST_CHIP_SPAWNS_CAN_BE_HARD_TO_FIND_DUE",
 							export = true,
@@ -2055,7 +2055,7 @@ root(ROOTS.Zones, {
 						["crs"] = { 29724 },	-- Library Guardian
 					}),
 					i(41556, {	-- Slag Covered Metal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The giants that drop this spawn on and around the ice patch east of Dun Niffelem.",
 							constant = "THE_GIANTS_THAT_DROP_THIS_SPAWN_ON_AND_AROUND",
 							export = true,

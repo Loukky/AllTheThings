@@ -163,7 +163,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(8923, {	-- Putting the Gore in Gorgrond (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Gorgrond Treasure Map' from Grakis in Stormshield.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO",
 							export = true,
@@ -185,7 +185,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(8924, {	-- Putting the Gore in Gorgrond (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Gorgrond Treasure Map' from Srikka in Warspear.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_2",
 							export = true,
@@ -222,7 +222,7 @@ root(ROOTS.Zones, {
 						pet(1469),	-- Junglebeak (PET!)
 						pet(702),	-- Leopard Tree Frog (PET!)
 						pet(1594, {	-- Mudback Calf (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Best general locations to find these are around the coords. Killing other nearby critters helps spawn them.",
 								constant = "BEST_GENERAL_LOCATIONS_TO_FIND_THESE_ARE_AROUND",
 								export = true,
@@ -246,7 +246,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(1615, {	-- Parched Lizard (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found mostly in and around Gronn Canyon.",
 								constant = "FOUND_MOSTLY_IN_AND_AROUND_GRONN_CANYON",
 								export = true,
@@ -272,7 +272,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(1463, {	-- Wood Wasp (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in a small area around this coordinate.",
 								constant = "FOUND_IN_A_SMALL_AREA_AROUND_THIS_COORDINATE",
 								export = true,
@@ -1077,7 +1077,7 @@ root(ROOTS.Zones, {
 					}),
 					header(HEADERS.Spell, 171866, {	-- Sparring Arena
 						q(35210, {	-- A Great Escape
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Available once you complete the objectives for |cFFFFD700Fair Warning|r and |cFFFFD700Leave Every Solder Behind|r.",
 								constant = "AVAILABLE_ONCE_YOU_COMPLETE_THE_OBJECTIVES_FOR",
 								export = true,
@@ -1816,7 +1816,7 @@ root(ROOTS.Zones, {
 						}),
 					})),
 					q(36037, {	-- A Centurion Without a Cause
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must defend Tormmok against a few waves of enemies before he will become your follower.",
 							constant = "YOU_MUST_DEFEND_TORMMOK_AGAINST_A_FEW_WAVES_OF",
 							export = true,
@@ -1989,7 +1989,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 92,
 					})),
 					q(34279, {	-- I Am Blook
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Talk to Blook to start a fight, then defeat him.",
 							constant = "TALK_TO_BLOOK_TO_START_A_FIGHT_THEN_DEFEAT_HIM",
 							export = true,
@@ -2077,7 +2077,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35642, {	-- Mysterious Pod (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have accepted or completed |cFF4A54E8Scout Forensics|r in order to obtain the item that starts the Quest.",
 							constant = "MUST_HAVE_ACCEPTED_OR_COMPLETED_CFF4A54E8SCOUT",
 							export = true,
@@ -2101,7 +2101,7 @@ root(ROOTS.Zones, {
 						["cr"] = 80714,	-- Fungal Lurcher
 					}),
 					q(35021, {	-- Mysterious Pod (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have accepted or completed |cFFE50D12Basic Skulltaking|r in order to obtain the item that starts the Quest.",
 							constant = "MUST_HAVE_ACCEPTED_OR_COMPLETED_CFFE50D12BASIC",
 							export = true,
@@ -2168,7 +2168,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33689, {	-- Plant Pruning (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available after building Beastwatch and selecting the Lumber Mill or the Sparring Arena.",
 							constant = "AVAILABLE_AFTER_BUILDING_BEASTWATCH_AND",
 							export = true,
@@ -2718,7 +2718,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118222) },	-- Spirit of Bashiok (TOY!)
 					}),
 					n(86257, {	-- Basten (Protectors of the Grove)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill Basten LAST or you will not be able to loot him.",
 							constant = "KILL_BASTEN_LAST_OR_YOU_WILL_NOT_BE_ABLE_TO",
 							export = true,
@@ -2789,7 +2789,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119225) },	-- Studded Gronn-Stitched Girdle
 					}),
 					n(88580, {	-- Firestarter Grash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Will spawn in the area that is on fire.",
 							constant = "WILL_SPAWN_IN_THE_AREA_THAT_IS_ON_FIRE",
 							export = true,
@@ -2821,7 +2821,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118221) },	-- Petrification Stone (TOY!)
 					}),
 					n(81038, {	-- Gelgor of the Blue Flame
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located in the cave.",
 							constant = "LOCATED_IN_THE_CAVE",
 							export = true,
@@ -2855,7 +2855,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118229) },	-- Resonant Hidecrystal of the Gorger
 					}),
 					n(78269, {	-- Gnarljaw
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the bottom of the cave.",
 							constant = "AT_THE_BOTTOM_OF_THE_CAVE",
 							export = true,
@@ -2973,7 +2973,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118208) },	-- Broodmother's Kiss
 					}),
 					n(50985, {	-- Poundfist
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Poundfist has a respawn timer between 48-142 hours. Mount drop rate is 100% for all participants.",
 							constant = "POUNDFIST_HAS_A_RESPAWN_TIMER_BETWEEN_48_142",
 							export = true,
@@ -3075,7 +3075,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 42.4, 54.8, GORGROND },
 						}),
 						o(236265, {	-- Aged Stone Container
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "When you're inside the Fissure of Fury cave, follow the spiral path to the bottom. The treasure is in little corner nubbin in the upper-right section of the map (across from the part of the map with water on it).",
 								constant = "WHEN_YOU_RE_INSIDE_THE_FISSURE_OF_FURY_CAVE",
 								export = true,
@@ -3300,7 +3300,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 47.2, 51.8, GORGROND },
 						}),
 						o(233505, {	-- Unknown Petrified Egg
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Inside The Forgotten Caves with Pale and Spiders.",
 								constant = "INSIDE_THE_FORGOTTEN_CAVES_WITH_PALE_AND",
 								export = true,
@@ -3355,7 +3355,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118715) },	-- Cracked Femur
 					}),
 					o(236169, {	-- Harvestable Precious Crystal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Glut's burrow.",
 							constant = "INSIDE_GLUT_S_BURROW",
 							export = true,
@@ -3388,7 +3388,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.7, 42.5, GORGROND },
 					}),
 					o(233149, {	-- Laughing Skull Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a tree branch above these coordinates.",
 							constant = "ON_A_TREE_BRANCH_ABOVE_THESE_COORDINATES",
 							export = true,
@@ -3438,7 +3438,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118703) },	-- Diary of Balldir Deeprock
 					}),
 					o(236149, {	-- Sasha's Secret Stash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Hanging at the ledge of a beam. Can be accessed from the top of the tower or by precise flying.",
 							constant = "HANGING_AT_THE_LEDGE_OF_A_BEAM_CAN_BE_ACCESSED",
 							export = true,
@@ -3466,7 +3466,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118713) },	-- Iron Lookout's Arbalest
 					}),
 					o(236092, {	-- Stashed Emergency Rucksack
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Tied to a rope. Jumping around required to access the platform.",
 							constant = "TIED_TO_A_ROPE_JUMPING_AROUND_REQUIRED_TO",
 							export = true,
@@ -3517,7 +3517,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.9, 47.3, GORGROND },
 						["groups"] = {
 							i(118705, {	-- Warm Goren Egg
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The egg hatches into a toy after 7 days.",
 									constant = "THE_EGG_HATCHES_INTO_A_TOY_AFTER_7_DAYS",
 									export = true,

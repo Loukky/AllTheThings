@@ -235,7 +235,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(80, 80, 30) }).AddGroups({
 				n(ACHIEVEMENTS, {
 					ach(1872, {	-- Zombiefest!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gather zombies leading up to Meathook, but do not kill them.\n\nKill Meathook and wait for zombies to respawn; then gather and kill more zombies.",
 							constant = "GATHER_ZOMBIES_LEADING_UP_TO_MEATHOOK_BUT_DO",
 							export = true,

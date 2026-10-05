@@ -47,7 +47,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 			}),
 			i(188700, {	-- Colossal Umbrahide Mawrat (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only from Layer 13 or higher",
 					constant = "ONLY_FROM_LAYER_13_OR_HIGHER",
 					export = true,

@@ -1048,7 +1048,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(47925, {	-- Shoak's on the Menu
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must complete this storyline for Shoak to appear in Gloom Hollow.",
 					constant = "YOU_MUST_COMPLETE_THIS_STORYLINE_FOR_SHOAK_TO",
 					export = true,
@@ -1074,7 +1074,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 51.7, 33.2, NAZMIR },
 				["groups"] = {
 					n(FACTION_HEADER_ALLIANCE, bubbleDownSelf({["races"] = ALLIANCE_ONLY},{
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Alliance rewards are only earned when completing this on a Horde character, not as Alliance.",
 							constant = "ALLIANCE_REWARDS_ARE_ONLY_EARNED_WHEN",
 							export = true,
@@ -1630,7 +1630,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				q(48093, {	-- Nagating the Threat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Bonus Objective pops up after accepting |cffffff00A Krag'wa's Chosen|r.",
 						constant = "THIS_BONUS_OBJECTIVE_POPS_UP_AFTER_ACCEPTING",
 						export = true,
@@ -1656,7 +1656,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 				q(50080, {	-- Raiding the Raiders
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Bonus Objective pops up after accepting |cffffff00A Message of Blood and Fire|r.",
 						constant = "THIS_BONUS_OBJECTIVE_POPS_UP_AFTER_ACCEPTING_2",
 						export = true,

@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(59904),	-- A Curious Cache
 			q(59905),	-- A Curious Cache
 			q(60655, {	-- A Stolen Stone Fiend
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After you initially defeat Edgar the Collector at the end of the quest, go behind the building and speak to a dredger named Penkle to get a |cFFFFFFFFCage Key|r.\n\nThe key is used to open the cage next to Penkle, which gives the pet.",
 					constant = "AFTER_YOU_INITIALLY_DEFEAT_EDGAR_THE_COLLECTOR",
 					export = true,
@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(59808, {	-- Muck it Up
 				n(166292, {	-- Bog Beast
 					["questID"] = 59823,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available when the |cFFFFD700Muck It Up|r world quest is active. Loot Primordial Muck from the quest mobs and throw it into the mire for a chance to summon the rare.",
 						constant = "ONLY_AVAILABLE_WHEN_THE_CFFFFD700MUCK_IT_UP_R",
 						export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60656, {	-- Summon Your Sins
 				n(170434, {	-- Amalgamation of Sin
 					["questID"] = 60836,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the end of the world quest, you will receive either an |cFFFFFFFFAmalgamation of Sin|r or an |cFF0070ddAmalgamation of Sin|r. The white version summons a guardian elemental, and the blue version will summon the rare.\n\nSo far, there doesn't seem to be a surefire way to get the rare-summoning item.",
 						constant = "AT_THE_END_OF_THE_WORLD_QUEST_YOU_WILL_RECEIVE",
 						export = true,
@@ -341,7 +341,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60654, {	-- Swarming Souls
 				n(170048, {	-- Manifestation of Wrath
 					["questID"] = 60729,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available when the |cFFFFD700Swarming Souls|r world quest is active. When turning Lost Souls in to the Avowed Ritualist, there is a chance to spawn the rare.",
 						constant = "ONLY_AVAILABLE_WHEN_THE_CFFFFD700SWARMING_SOULS",
 						export = true,

@@ -12,7 +12,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["groups"] = {
 					n(QUESTS, {
 						container(112623, {	-- Pack of Fishing Supplies
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Rewarded by the current Fishing Daily Quest from the Fishing Shack.",
 								constant = "REWARDED_BY_THE_CURRENT_FISHING_DAILY_QUEST",
 								export = true,
@@ -250,7 +250,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 							["races"] = HORDE_ONLY,
 						}),
 						q(36870, {	-- Luring Nat
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires upgrading your Fishing Shack to level 3 and having at least 100 Draenor Fishing skill (items/buffs included).",
 								constant = "REQUIRES_UPGRADING_YOUR_FISHING_SHACK_TO_LEVEL",
 								export = true,
@@ -338,7 +338,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					}),
 					n(REWARDS, {
 						i(NATS_LUCKY_COIN, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Received from turning in Lunkers at Nat Paggle in your Garrison.\nLunkers can be fished anywhere in WoD, except in your Garrison, if your Fishing Shack is at Rank3.\n\nFishing in pools is more efficient than fishing in open water.",
 								constant = "RECEIVED_FROM_TURNING_IN_LUNKERS_AT_NAT_PAGGLE",
 								export = true,

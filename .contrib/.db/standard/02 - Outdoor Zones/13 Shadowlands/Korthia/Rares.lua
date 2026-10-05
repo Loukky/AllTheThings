@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			["isDaily"] = true,
 		}, {
 			n(179769, {	-- Consumption
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only gives daily kill and achievement credit when it is in Rare or Rare Elite form.\n\nWhen it spawns, there is a zonewide announcement: |cFFf73f3fMawsworn Ruiner yells: Soon it shall feed off the Maw Walkers!|r",
 					constant = "ONLY_GIVES_DAILY_KILL_AND_ACHIEVEMENT_CREDIT",
 					export = true,
@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179913, {	-- Deadsoul Hatcher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone to enter the Rift and click the rare, at which point it will pull the player out into the normal phase of Korthia.\n\nWhen the rare has shifted into the normal Korthia phase, there is a zonewide announcement: |cFFff8040Deadsoul Hatcher breaks into Korthia from the Rift!|r",
 					constant = "REQUIRES_SOMEONE_TO_ENTER_THE_RIFT_AND_CLICK",
 					export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180014, {	-- Escaped Wilderling
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a |cFFA330C9Night Fae|r to start.\n\nWhen it spawns, there is a zonewide announcement: |cFFff8040Escaped Wilderling roars defiantly in the distance.|r",
 					constant = "REQUIRES_A_CFFA330C9NIGHT_FAE_R_TO_START_WHEN",
 					export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180042, {	-- Fleshwing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Help Cadaverous, Dregs, and Lurik burn necromancers' corpses until they summon the rare.\n\nRequires a |cFF40bf40Necrolord|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fCadaverous yells: Search every crevice for the necromancers' corpses!|r",
 					constant = "HELP_CADAVEROUS_DREGS_AND_LURIK_BURN",
 					export = true,
@@ -139,7 +139,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179472, {	-- Konthrogz the Obliterator
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can spawn next to other rares when they die. Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A massive devourer tears an opening into Korthia.|r",
 					constant = "CAN_SPAWN_NEXT_TO_OTHER_RARES_WHEN_THEY_DIE",
 					export = true,
@@ -168,7 +168,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179108, {	-- Kroke the Tormented
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill |cFF883325Tormented Demolishers|r for a chance to spawn Kroke.\n\nIf the two on the surface are not up, there is a third Demolisher inside the cave in the bottom-left room.\n\nWhen it spawns, there is a zonewide announcement: |cFFff8040Kroke the Tormented roars triumphantly.|r",
 					constant = "KILL_CFF883325TORMENTED_DEMOLISHERS_R_FOR_A",
 					export = true,
@@ -199,7 +199,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179684, {	-- Malbog
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak to Caretaker Kah-Kay at Keeper's Respite to enlist the help of Kah-Bear. Follow the footprints all the way to your prey, and summon it by clicking on the |cFFFFFFFFFleshy Remains|r.",
 					constant = "SPEAK_TO_CARETAKER_KAH_KAY_AT_KEEPER_S_RESPITE",
 					export = true,
@@ -230,7 +230,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179931, {	-- Relic Breaker Krelva
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the grapple points to access the rare and chase her as she evades you.\n\nWhen the rare has been pulled, there is a zonewide announcement: |cFFff4040Relic Breaker Krelva yells: Not now, fool!  I am searching for something...|r",
 					constant = "USE_THE_GRAPPLE_POINTS_TO_ACCESS_THE_RARE_AND",
 					export = true,
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180160, {	-- Reliwik the Defiant
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the |cFFFFFFFFUncorrupted Razorwing Egg|r to draw the attention of the rare.",
 					constant = "CLICK_THE_CFFFFFFFFUNCORRUPTED_RAZORWING_EGG_R",
 					export = true,
@@ -282,7 +282,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179608, {	-- Screaming Shade
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone to enter the Rift and click the rare, at which point it will pull the player out into the normal phase of Korthia.\n\nWhen the rare has shifted into the normal Korthia phase, there is a zonewide announcement: |cFFff8040Screaming Shade breaks into Korthia from the Rift!|r",
 					constant = "REQUIRES_SOMEONE_TO_ENTER_THE_RIFT_AND_CLICK_2",
 					export = true,
@@ -308,7 +308,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179911, {	-- Silent Soulstalker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone to enter the Rift and click the rare, at which point it will pull the player out into the normal phase of Korthia.\n\nWhen the rare has shifted into the normal Korthia phase, there is a zonewide announcement: |cFFff8040Silent Soulstalker breaks into Korthia from the Rift!|r",
 					constant = "REQUIRES_SOMEONE_TO_ENTER_THE_RIFT_AND_CLICK_3",
 					export = true,
@@ -334,7 +334,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179985, {	-- Stygian Stonecrusher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak to Drippy, and then defend the NPCs as they repair the Broken Gatecrasher.\n\nRequires a |cFFfe040fVenthyr|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fDrippy yells: For Sinfall!|r",
 					constant = "SPEAK_TO_DRIPPY_AND_THEN_DEFEND_THE_NPCS_AS",
 					export = true,
@@ -365,7 +365,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179760, {	-- Towering Exterminator
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can spawn next to other rares when they die. Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A powerful mawsworn opens a portal into Korthia.|r",
 					constant = "CAN_SPAWN_NEXT_TO_OTHER_RARES_WHEN_THEY_DIE_2",
 					export = true,
@@ -398,7 +398,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180162, {	-- Ve'rayn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on the |cFFFFFFFFPlanted Veilstaff|r and answer Ve'rayn's questions. Eventually, she will attack.",
 					constant = "CLICK_ON_THE_CFFFFFFFFPLANTED_VEILSTAFF_R_AND",
 					export = true,
@@ -431,7 +431,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(180032, {	-- Wild Worldcracker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Escort Popo as she helps all her friends, and eventually she will summon the rare. She patrols from east to west.\n\nRequires a |cFF516bfeKyrian|r to start. When the event begins, there is a zonewide announcement: |cFFf73f3fPopo yells: Help is on the way, friends!|r",
 					constant = "ESCORT_POPO_AS_SHE_HELPS_ALL_HER_FRIENDS_AND",
 					export = true,
@@ -463,7 +463,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179859, {	-- Xyraxz the Unknowable
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone with Tier 3 Archivist's Codex reputation to repair the teleportation pad.\n\nOnce repaired, there is a zonewide announcement: |cFFff8040[Name] has repaired the ancient teleporter to the Chamber of Wisdom!|r",
 					constant = "REQUIRES_SOMEONE_WITH_TIER_3_ARCHIVIST_S_CODEX",
 					export = true,
@@ -491,7 +491,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179802, {	-- Yarxhov the Pillager
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires someone with Tier 3 Archivist's Codex reputation to repair the teleportation pad.\n\nOnce repaired, there is a zonewide announcement: |cFFff8040[Name] has repaired the ancient teleporter to the Chamber of Knowledge!|r",
 					constant = "REQUIRES_SOMEONE_WITH_TIER_3_ARCHIVIST_S_CODEX_2",
 					export = true,

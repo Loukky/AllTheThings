@@ -50,7 +50,7 @@ root("Zones", m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
 				},
 			}),
 			n(186355, {	-- Tripletath the Lost
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Cave entrance is at 59.9, 59.0.",
 					constant = "CAVE_ENTRANCE_IS_AT_59_9_59_0",
 					export = true,

@@ -194,7 +194,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.TBC, {
 				applyclassicphase(TBC_PHASE_FOUR, i(185922, {	-- Pattern: Greater Drums of War
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Not actually sure if this is in the game at all since the spell trained by this recipe can be learned at the trainer.",
 						constant = "NOT_ACTUALLY_SURE_IF_THIS_IS_IN_THE_GAME_AT_ALL",
 						export = true,

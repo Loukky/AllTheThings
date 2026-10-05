@@ -16,7 +16,7 @@ MISCELLANEOUS_PROMOTIONS = createHeader({
 
 root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 	i(19160, {	-- Contest Winner's Tabard [TODO: Move to PVP?]
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This tabard was given to the people on each servers with the most honorable kills before the introduction of the original honor system.",
 			constant = "THIS_TABARD_WAS_GIVEN_TO_THE_PEOPLE_ON_EACH",
 			export = true,
@@ -37,7 +37,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_1_11_1 },
 	}),
 	un(REAL_MONEY, i(49646, {	-- Core Hound Pup (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Granted to players that attach an authenticator to their account.",
 			constant = "GRANTED_TO_PLAYERS_THAT_ATTACH_AN_AUTHENTICATOR",
 			export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		},
 	})),
 	i(48527, {	-- Onyx Panther (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from a Korean-exclusive World Event that mailed you this pet.",
 			constant = "REWARD_FROM_A_KOREAN_EXCLUSIVE_WORLD_EVENT_THAT",
 			export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		},
 	}),
 	i(32498, {	-- Lucky (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from the 2007 Korean Worldwide Invitational (Korea Only)",
 			constant = "REWARD_FROM_THE_2007_KOREAN_WORLDWIDE",
 			export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_2_1_0 },
 	}),
 	i(103632, {	-- Lucky Box of Greatness
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from the Azeroth Academy Mentor Recruitment Promotion (China Only)",
 			constant = "REWARD_FROM_THE_AZEROTH_ACADEMY_MENTOR",
 			export = true,
@@ -140,7 +140,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_3_1_2 },
 	}),
 	i(45180, {	-- Murkimus the Gladiator [Murkimus' Little Spear] (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This was obtained by participating in at least 200 arena matches in the 2009 Arena Tournament, or at least 50 matches on the same team in the years after that.",
 			constant = "THIS_WAS_OBTAINED_BY_PARTICIPATING_IN_AT_LEAST",
 			export = true,
@@ -161,7 +161,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_3_1_2 },
 	}),
 	i(46892, {	-- Murkimus the Gladiator [Murkimus' Tiny Spear] (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This was a reward for the 2011 arena tournament, requirements were to participate in 50 games in your current 3v3 team when the tournament closed",
 			constant = "THIS_WAS_A_REWARD_FOR_THE_2011_ARENA_TOURNAMENT",
 			export = true,
@@ -182,7 +182,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_4_2_0 },
 	}),
 	i(100870, {	-- Murkimus the Gladiator [Murkimus' Tyrannical Spear] (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This was a reward for the 2013 arena tournament, requirements were to participate in 50 games in your current 3v3 team when the tournament closed",
 			constant = "THIS_WAS_A_REWARD_FOR_THE_2013_ARENA_TOURNAMENT",
 			export = true,
@@ -203,7 +203,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_5_2_0 },
 	}),
 	i(20651, {	-- Murki (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from a Korean Promotional Event (Korea Only)",
 			constant = "REWARD_FROM_A_KOREAN_PROMOTIONAL_EVENT_KOREA",
 			export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { "created 1.13.0", ADDED_2_1_0 },
 	}),
 	i(22114, {	-- Gurky (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Offered as a fan website gift around Christmas 2006, in Europe. (EU Only)",
 			constant = "OFFERED_AS_A_FAN_WEBSITE_GIFT_AROUND_CHRISTMAS",
 			export = true,
@@ -248,7 +248,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_7_3_5 },
 	}),
 	i(90953, {	-- Spectral Cub (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from the Battle.net World Championship in Shanghai 2012 (China Only)",
 			constant = "REWARD_FROM_THE_BATTLE_NET_WORLD_CHAMPIONSHIP",
 			export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 	}),
 	i(76755, {	-- Tyrael's Charger (MOUNT!)
 		-- #if BEFORE DF
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from the Diablo III Annual Pass promotion. Additionally, it was available on the Taiwan store.",
 			constant = "REWARD_FROM_THE_DIABLO_III_ANNUAL_PASS",
 			export = true,
@@ -295,7 +295,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_3_0_2 },
 	}),
 	i(39656, {	-- Mini Tyrael (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Reward from the 2008 Worldwide Invitational in Paris.",
 			constant = "REWARD_FROM_THE_2008_WORLDWIDE_INVITATIONAL_IN",
 			export = true,
@@ -316,7 +316,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		["timeline"] = { ADDED_2_4_2 },
 	}),
 	i(41133, {	-- Mr. Chilly (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This was awarded to players when they linked their original WoW account to a Battle.Net Tag. No longer available as all accounts now require Battle.Net Tag initially, unless you have access to an unattached account.",
 			constant = "THIS_WAS_AWARDED_TO_PLAYERS_WHEN_THEY_LINKED",
 			export = true,
@@ -350,7 +350,7 @@ root(ROOTS.Promotions, n(MISCELLANEOUS_PROMOTIONS, bubbleDown({ ["u"] = REMOVED_
 		},
 	}),
 	i(116788, {	-- Warlord's Deathwheel (MOUNT!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Azeroth Choppers promotional mount. You had to have logged in on a Horde character between the 24th of July and the 30th of September 2014 in order for your account to receive this mount.",
 			constant = "AZEROTH_CHOPPERS_PROMOTIONAL_MOUNT_YOU_HAD_TO",
 			export = true,

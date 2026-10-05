@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["groups"] = {
 				petbattle(filter(BATTLE_PETS, {
 					pet(4710, {	-- Pillaged Parrot
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only spawns during Pirate invasion week.",
 							constant = "ONLY_SPAWNS_DURING_PIRATE_INVASION_WEEK",
 							export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				pickpocketing({
 					i(234232, {	-- Technique: Glyph of the Ashvane Pistol Shot (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be pickpocketed from Pirates.",
 							constant = "CAN_BE_PICKPOCKETED_FROM_PIRATES",
 							export = true,
@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				n(TREASURES, {
 					o(464233, {	-- Bilge Rat Supply Chest
 						-- Pirates
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Key drops from First Mate Shellshock\n/att n:228582",
 							constant = "KEY_DROPS_FROM_FIRST_MATE_SHELLSHOCK_ATT_N",
 							export = true,
@@ -205,7 +205,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				n(ZONE_DROPS, {
 					i(233500, {	-- Crimson Snapdragon Treat (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Pirates.",
 							constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT_2",
 							export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 					}),
 					i(166358, {	-- Proper Parrot (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be looted from Pirates.",
 							constant = "CAN_BE_LOOTED_FROM_PIRATES",
 							export = true,

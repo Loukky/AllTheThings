@@ -42,7 +42,7 @@ root(ROOTS.Zones, {
 				}),
 				battlepets({
 					pet(521, {	-- Fledgling Nether Ray (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found only around Manaforges.",
 							constant = "FOUND_ONLY_AROUND_MANAFORGES",
 							export = true,
@@ -430,7 +430,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_CONSORTIUM, REVERED },
 					}),
 					q(10308, {	-- Another Heap of Ethereals
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gives reputation through Exalted.",
 							constant = "GIVES_REPUTATION_THROUGH_EXALTED",
 							export = true,
@@ -1121,7 +1121,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10425, {	-- Escape from the Staging Grounds
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "An Ethereum Gladiator and a Captured Protectorate Vanguard spawns in the middle of the staging grounds every 7 minutes. Kill the Gladiator to obtain the escort quest.",
 							constant = "AN_ETHEREUM_GLADIATOR_AND_A_CAPTURED",
 							export = true,
@@ -2050,7 +2050,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 33.2, 64.0, NETHERSTORM },
 						["timeline"] = { ADDED_4_3_0 },
 						-- #if NOT ANYCLASSIC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 							constant = "ITEMS_ON_THIS_VENDOR_REQUIRE_LEGIONNAIRE_KNIGHT",
 							export = true,
@@ -2365,7 +2365,7 @@ root(ROOTS.Zones, {
 					}),
 					n(21493, {	-- Kablamm Farflinger <Transportation Engineer>
 						["requireSkill"] = GOBLIN_ENGINEERING,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Goblin Engineers can speak to Kablamm to learn the recipe.",
 							constant = "GOBLIN_ENGINEERS_CAN_SPEAK_TO_KABLAMM_TO_LEARN",
 							export = true,
@@ -2570,7 +2570,7 @@ root(ROOTS.Zones, {
 							i(77621),	-- Replica Lieutenant Commander's Lamellar Shoulders
 							i(77612),	-- Replica Sergeant Major's Chain Armguards
 							i(77613, {	-- Replica Sergeant Major's Chain Armguards
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Horde appearance is learned when buying the Alliance version.",
 									constant = "HORDE_APPEARANCE_IS_LEARNED_WHEN_BUYING_THE",
 									export = true,
@@ -2869,7 +2869,7 @@ root(ROOTS.Zones, {
 					n(20520, {	-- Ethereum Prisoner (multiple named mobs with the same ID once spawned)
 						["provider"] = { "o", 184418 },	-- Ethereum Prison
 						["sourceQuest"] = 10970,	-- A Mission of Mercy (required to be able to find the prison keys)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Ethereum Prison Key, a fairly common drop in Heroic Mana-Tombs, can be used to open prisons west of Manaforge Ultris in Netherstorm. There is a chance that one of these mobs will be released when you open a prison. To loot Ethereum Prison Keys, you must first complete the quest 'A Mission of Mercy' in Netherstorm.",
 							constant = "ETHEREUM_PRISON_KEY_A_FAIRLY_COMMON_DROP_IN",
 							export = true,

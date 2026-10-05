@@ -271,7 +271,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 			}),
 		}),
 		n(103675, {	-- Felhide Gargantuan
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These mobs are only available during a World Quest. They can only be skinned one time, similarly to the Slice of Bacon cooking quests.",
 				constant = "THESE_MOBS_ARE_ONLY_AVAILABLE_DURING_A_WORLD",
 				export = true,
@@ -360,7 +360,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 		})),
 		header(HEADERS.Spell, 257153, {	-- Bone Gathering [Rank 2]
 			q(52227, {	-- Bone Needle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 50 Kul Tiran Skinning.",
 					constant = "REQUIRES_50_KUL_TIRAN_SKINNING",
 					export = true,
@@ -388,7 +388,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				},
 			}),
 			q(52216, {	-- Hexoskeleton
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 50 Zandalari Skinning",
 					constant = "REQUIRES_50_ZANDALARI_SKINNING",
 					export = true,
@@ -418,7 +418,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 		}),
 		header(HEADERS.Spell, 257154, {	-- Bone Gathering [Rank 3]
 			q(52228, {	-- Atal'Dazar: An Unbreakable Bone Needle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Kul Tiran Skinning.",
 					constant = "REQUIRES_150_KUL_TIRAN_SKINNING",
 					export = true,
@@ -446,7 +446,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				},
 			}),
 			q(52217, {	-- Loa Fit For A King
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Zandalari Skinning",
 					constant = "REQUIRES_150_ZANDALARI_SKINNING",
 					export = true,
@@ -532,7 +532,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 		}),
 		header(HEADERS.Spell, 257148, {	-- Leather Gathering [Rank 3]
 			q(52213, {	-- Ancient Skinning Knife
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Zandalari Skinning to get the item.",
 					constant = "REQUIRES_150_ZANDALARI_SKINNING_TO_GET_THE_ITEM",
 					export = true,
@@ -558,7 +558,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 				},
 			}),
 			q(52224, {	-- Ivory Handled Dagger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Kul Tiran Skinning to get the item.",
 					constant = "REQUIRES_150_KUL_TIRAN_SKINNING_TO_GET_THE_ITEM",
 					export = true,
@@ -818,7 +818,7 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 		})),
 		n(QUESTS, {
 			q(70363, {	-- Dragon Isles Skinning
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",
 					constant = "DO_NOT_SKIN_ANY_DRAGON_ISLES_CREATURES_THIS",
 					export = true,

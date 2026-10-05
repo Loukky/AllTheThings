@@ -41,7 +41,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(9046, {	-- Scarshield Quartermaster <Scarshield Legion>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This used to be a simple Rare Creature with a limited loot table. He was later repurposed for use with the BWL Attunement Quest Chain. The two items listed below were never available in WoW Classic.",
 						constant = "THIS_USED_TO_BE_A_SIMPLE_RARE_CREATURE_WITH_A",
 						export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226694, {	-- Rune of Defense Specialization
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Head to the South end of Searing Gorge and enter Blackrock Mountain.\n2. As you enter the main chamber, head left down the circular pathway.\n3. When you come to the meeting stone for Lower Blackrock Spire, turn left and head up the hallway.\n4. Watch out for level 54-ish creatures and take the first right in to a small room.\n5. You will see two copies of the book laying on the floor.\n*One is next to a pair of creatures. Another is in a small nook where you may safely loot the book without pulling aggro.",
 						constant = "1_HEAD_TO_THE_SOUTH_END_OF_SEARING_GORGE_AND",
 						export = true,

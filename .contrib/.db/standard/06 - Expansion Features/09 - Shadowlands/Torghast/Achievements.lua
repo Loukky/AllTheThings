@@ -19,7 +19,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				["cost"] = { { "i", 170540, 1 } },	-- Ravenous Anima Cell
 			}, {
 				crit(49974, {	-- Dark Armaments
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be spawned from creatures within the 'Coldheart Interstitia' tower.",
 						constant = "CAN_BE_SPAWNED_FROM_CREATURES_WITHIN_THE",
 						export = true,
@@ -126,7 +126,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 					["crs"] = { 155793 },	-- Skeletal Remains
 				}),
 				crit(49989, {	-- Prisoner's Concord
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be spawned from creatures within the 'The Upper Reaches' tower.",
 						constant = "CAN_BE_SPAWNED_FROM_CREATURES_WITHIN_THE_THE",
 						export = true,
@@ -178,7 +178,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 			ach(14498, {	-- Gatekeepers of Torghast
 				crit(49158, {		-- Dark Aspirant Corrus
 					["crs"] = { 156239 },	-- Dark Aspirant Corrus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Coldheart Interstitia.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_COLDHEART_INTERSTITIA",
 						export = true,
@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49159, {		-- Arch-Suppressor Laguas
 					["crs"] = { 171422 },	-- Arch-Suppressor Laguas
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in The Soulforges and The Upper Reaches.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_THE_SOULFORGES_AND",
 						export = true,
@@ -220,7 +220,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49160, {		-- Goxul the Devourer
 					["crs"] = { 170418 },	-- Goxul the Devourer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in The Upper Reaches.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_THE_UPPER_REACHES",
 						export = true,
@@ -241,7 +241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49161, {		-- Observer Zelgar
 					["crs"] = { 169859 },	-- Observer Zelgar <The Third Eye>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in The Soulforges.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_THE_SOULFORGES",
 						export = true,
@@ -262,7 +262,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49162, {		-- Custodian Thonar
 					["crs"] = { 153165 },	-- Custodian Thonar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Skoldus Hall.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_SKOLDUS_HALL",
 						export = true,
@@ -291,7 +291,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49165, {		-- Kosarus the Fallen
 					["crs"] = { 153451 },	-- Kosarus the Fallen
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Fracture Chambers.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_FRACTURE_CHAMBERS",
 						export = true,
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49167, {		-- Gherus the Chained
 					["crs"] = { 155945 },	-- Gherus the Chained
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Skoldus Hall, The Upper Reaches, and Fracture Chambers.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_SKOLDUS_HALL_THE",
 						export = true,
@@ -337,7 +337,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49168, {		-- Cellblock Sentinel
 					["crs"] = { 151331 },	-- Cellblock Sentinel
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Skoldus Hall and The Soulforges.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_SKOLDUS_HALL_AND_THE",
 						export = true,
@@ -358,7 +358,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				}),
 				crit(49169, {		-- Warden of Souls
 					["crs"] = { 152995 },	-- Warden of Souls
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be found in Mort'regar.",
 						constant = "THIS_BOSS_CAN_BE_FOUND_IN_MORT_REGAR",
 						export = true,

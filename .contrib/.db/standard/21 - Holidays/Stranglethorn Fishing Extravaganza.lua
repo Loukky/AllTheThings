@@ -224,7 +224,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 		prof(FISHING, {
 			-- #if AFTER 5.1.0
 			n(SPECIAL, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Tastyfish and the other special event fish can be fished up from any pool within Stranglethorn for two hours once the event has started, even if winners have been found.",
 					constant = "TASTYFISH_AND_THE_OTHER_SPECIAL_EVENT_FISH_CAN",
 					export = true,

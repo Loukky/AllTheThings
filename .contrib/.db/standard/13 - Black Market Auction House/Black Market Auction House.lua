@@ -111,7 +111,7 @@ root(ROOTS.BlackMarket, bubbleDown({["u"] = BLACK_MARKET }, timelineSelf({["time
 	}),
 	n(ARMOR, bubbleDown({
 		-- #if BEFORE 6.0.2
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Only available on the BMAH for a limited time!",
 			constant = "ONLY_AVAILABLE_ON_THE_BMAH_FOR_A_LIMITED_TIME",
 			export = true,
@@ -250,7 +250,7 @@ root(ROOTS.BlackMarket, bubbleDown({["u"] = BLACK_MARKET }, timelineSelf({["time
 		i(34492),	-- Rocket Chicken (PET!)
 		i(45606),	-- Sen'jin Fetish (PET!)
 		i(69992, {	-- Shimmering Wyrmling (PET!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can also be bought from the Wrath of the Lich King Argent Tournament Vendor.\n\nBlizzard made 3 different Items which all learn the same pet.",
 				constant = "CAN_ALSO_BE_BOUGHT_FROM_THE_WRATH_OF_THE_LICH",
 				export = true,
@@ -460,7 +460,7 @@ root(ROOTS.BlackMarket, bubbleDown({["u"] = BLACK_MARKET }, timelineSelf({["time
 		i(50379),	-- Battered Hilt (Alliance)
 		i(50380),	-- Battered Hilt (Horde)
 		i(110678, {	-- Darkmoon Ticket Fanny Pack
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Contains 250-500 Darkmoon Faire Tickets",
 				constant = "CONTAINS_250_500_DARKMOON_FAIRE_TICKETS",
 				export = true,

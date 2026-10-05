@@ -892,7 +892,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(25681, {	-- Some People Just Need Killing
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|cffFF0000DO NOT GET IN THE BOX.|r\nThe box will change which phase your character is in, and waste a lot of time.",
 						constant = "CFFFF0000DO_NOT_GET_IN_THE_BOX_R_THE_BOX_WILL",
 						export = true,
@@ -1798,7 +1798,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						-- #if AFTER 7.0.3
 						i(17050, {	-- Chan's Imperial Robes
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Added to Emerald Encrusted Chest in 7.0. & Mith'rethis Rare in Hinterlands in 9.0.",
 								constant = "ADDED_TO_EMERALD_ENCRUSTED_CHEST_IN_7_0_MITH",
 								export = true,
@@ -1864,7 +1864,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(23848, {	-- Nethergarde Bitter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Buy at least one of these before you enter the Dark Portal!",
 								constant = "BUY_AT_LEAST_ONE_OF_THESE_BEFORE_YOU_ENTER_THE",
 								export = true,

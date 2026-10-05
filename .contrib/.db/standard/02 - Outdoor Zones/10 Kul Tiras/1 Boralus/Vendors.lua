@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						["cost"] = { { "c", 1710, 100 } },	-- 100x Seaferer's Dubloon
 					}),
 					i(163616, {	-- Dented Coin (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Cyrus Crestfall in Boralus for Proudmoore Admiralty rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_CYRUS_CRESTFALL_IN_BORALUS",
 							export = true,
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						}),
 					}),
 					i(163614, {	-- Exotic Spices (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Xun Xun Sweetflower in Drustvar for Order of Embers rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_XUN_XUN_SWEETFLOWER_IN",
 							export = true,
@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						["cost"] = { { "c", 1710, 35 } },	-- 35x Seaferer's Dubloon
 					}),
 					i(163615, {	-- Lost Sea Scroll (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Brother Pike in Stormsong Valley for Storm's Wake rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_BROTHER_PIKE_IN_STORMSONG",
 							export = true,
@@ -181,7 +181,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						["cost"] = { { "c", 1710, 1000 } },	-- 1,000x Seaferer's Dubloon
 					}),
 					i(166501, {	-- Soggy Page
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|CFFFF0000Turn in to Collector Kojo in Stormsong Valley (Alliance) or Zuldazar (Horde) for Tortollan Seekers rep.|r",
 							constant = "CFFFF0000TURN_IN_TO_COLLECTOR_KOJO_IN_STORMSONG",
 							export = true,
@@ -301,7 +301,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 				["groups"] = {
 					i(159959),	-- Nylon Thread
 					i(168029, {	-- Pattern: Synchronous Thread
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This recipe is for relearning the Synchronous Thread after you have completed the Tools of the Trade questline.",
 							constant = "THIS_RECIPE_IS_FOR_RELEARNING_THE_SYNCHRONOUS",
 							export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 				},
 			}),
 			n(148024, {	-- Dodger <Pet Smuggler>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock this vendor, win PvP pet battles until the mission \"A Shady Message\" spawns. Complete the mission, and you'll be able to purchase items from the vendor. It could take 1, 10, 100 or 1,000 PvP pet battles before it spawns.",
 					constant = "TO_UNLOCK_THIS_VENDOR_WIN_PVP_PET_BATTLES_UNTIL",
 					export = true,
@@ -486,7 +486,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						["sourceQuests"] = { 56499 },	-- Storming the Battlefields
 					})),
 					moh(10, i(168921, {	-- Azerite-Infused Timequartz [Rank 2]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Battlefield Brawler|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_2",
 							export = true,
@@ -506,7 +506,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						}),
 					})),
 					moh(10, i(168922, {	-- Azerite-Fueled Timequartz [Rank 3]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Battlefield Tactician|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_3",
 							export = true,
@@ -526,7 +526,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 						}),
 					})),
 					moh(25, i(168923, {	-- Unburdened Azerite Timequartz (Rank 4)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Battlefield Master|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_4",
 							export = true,
@@ -825,7 +825,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, 
 				["coord"] = { 71.7, 13.7, BORALUS },
 				["groups"] = {
 					i(168623, {	-- Biconcavic Lens of the Focusing Iris (Rank 4)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Battle for Azeroth Keystone Master|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_5",
 							export = true,

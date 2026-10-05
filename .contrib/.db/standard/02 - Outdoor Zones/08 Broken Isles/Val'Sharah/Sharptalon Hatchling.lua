@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(VALSHARAH, {
 		header(HEADERS.NPC, 115786, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {	-- Sharptalon Hatchling
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "1. Buy Dried Bilberries from Nalysse Dawnsorrow in Azsuna.\n2. Kill Sharptalon Matriarch.\n3. /target Orphaned Sharptalon\n4. Feed Orphaned Sharptalon Dried Bilberries.\n5. Enjoy new Sharptalon Hatchling! Do one quest each day for a mount!|r",
 				constant = "1_BUY_DRIED_BILBERRIES_FROM_NALYSSE_DAWNSORROW",
 				export = true,

@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			n(QUESTS, {
 				-- Unlock Pet Forge Available with Dealic Understanding
 				q(65419, {	-- Protoform Synthesis
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Require Dealic Understanding.",
 						constant = "REQUIRE_DEALIC_UNDERSTANDING",
 						export = true,
@@ -457,7 +457,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			}),
 			n(TREASURES, {
 				o(375391, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Hidden atop the ramp.",
 						constant = "HIDDEN_ATOP_THE_RAMP",
 						export = true,
@@ -481,7 +481,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375388, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside the top cage.",
 						constant = "INSIDE_THE_TOP_CAGE",
 						export = true,
@@ -505,7 +505,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375393, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On top a pillar. Need door of shadows/flying.",
 						constant = "ON_TOP_A_PILLAR_NEED_DOOR_OF_SHADOWS_FLYING",
 						export = true,
@@ -529,7 +529,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375748, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Under the platform.",
 						constant = "UNDER_THE_PLATFORM",
 						export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375389, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside the vespoid nest.",
 						constant = "INSIDE_THE_VESPOID_NEST",
 						export = true,
@@ -577,7 +577,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375694, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On top of the build and behind a pillar.",
 						constant = "ON_TOP_OF_THE_BUILD_AND_BEHIND_A_PILLAR",
 						export = true,
@@ -601,7 +601,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375900, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside a Cave.",
 						constant = "INSIDE_A_CAVE",
 						export = true,
@@ -625,7 +625,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375383, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On top of the tree circle.",
 						constant = "ON_TOP_OF_THE_TREE_CIRCLE",
 						export = true,
@@ -649,7 +649,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375498, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Mount or stand at precisely 52.3, 75.3. Behind the chain. Hard to spot.",
 						constant = "MOUNT_OR_STAND_AT_PRECISELY_52_3_75_3_BEHIND",
 						export = true,
@@ -679,7 +679,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375371, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside the building.",
 						constant = "INSIDE_THE_BUILDING",
 						export = true,
@@ -703,7 +703,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375486, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can only be reached with help of Warlock/Door of Shadows/Dimensional Translators/Firey Brimstone (Toy).",
 						constant = "THIS_CAN_ONLY_BE_REACHED_WITH_HELP_OF_WARLOCK",
 						export = true,
@@ -740,7 +740,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375387, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On top of the pillar.",
 						constant = "ON_TOP_OF_THE_PILLAR",
 						export = true,
@@ -764,7 +764,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375693, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside Locarian Esper, next to the rumble.",
 						constant = "INSIDE_LOCARIAN_ESPER_NEXT_TO_THE_RUMBLE",
 						export = true,
@@ -788,7 +788,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375390, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On one of the first locus platforms in the sand.",
 						constant = "ON_ONE_OF_THE_FIRST_LOCUS_PLATFORMS_IN_THE_SAND",
 						export = true,
@@ -812,7 +812,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375479, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Underwater left to Ancient Bufonid",
 						constant = "UNDERWATER_LEFT_TO_ANCIENT_BUFONID",
 						export = true,
@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375981, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Atop the arch.",
 						constant = "ATOP_THE_ARCH",
 						export = true,
@@ -860,7 +860,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375502, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Hidden in tree leaves, on branch with small orb above water.",
 						constant = "HIDDEN_IN_TREE_LEAVES_ON_BRANCH_WITH_SMALL_ORB",
 						export = true,
@@ -884,7 +884,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375270, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Aealic Understanding and Chapter 6.\nUnlock Rondure Locus Arrangement at 50.5, 27.6 (close to Tertius Locus).\nGather 60 Cosmic energy and go to Interior Locus then use Arcae Locus to Rondure Alcove.\n\nHidden behind the top of the door frame near a large orb.\nDisappears when looted by another player recently.",
 						constant = "REQUIRES_AEALIC_UNDERSTANDING_AND_CHAPTER_6",
 						export = true,
@@ -908,7 +908,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				o(375746, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Sopranian Understanding and Chapter 6.\nUnlock Camber Locus Arrangement at 47.7 34.5, on the back side of the Vessel's room (accessible from flying or via the Ultimus Locus).\nGather 60 Cosmic energy and go to Interior Locus then use Arcae Locus to Camber Alcove.\n\nSuccefully completing this minigame will reward a schematic.",
 						constant = "REQUIRES_SOPRANIAN_UNDERSTANDING_AND_CHAPTER_6",
 						export = true,

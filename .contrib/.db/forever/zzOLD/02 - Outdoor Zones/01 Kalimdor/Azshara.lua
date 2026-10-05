@@ -624,7 +624,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(6651, {	-- Gatekeeper Rageroar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Killing him will reduce your Timbermaw reputation. (DON'T DO IT!)",
 						constant = "KILLING_HIM_WILL_REDUCE_YOUR_TIMBERMAW",
 						export = true,

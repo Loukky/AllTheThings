@@ -27,7 +27,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				}),
 				ach(14159, {	-- Combating the Corruption
 					crit(47211, {		-- Corrupted Acolyte slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Acolyte of N'Zoth.",
 							constant = "SHARES_A_SPAWN_WITH_ACOLYTE_OF_N_ZOTH",
 							export = true,
@@ -65,7 +65,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47212, {		-- Corrupted Assassin slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Black Empire Assassin.",
 							constant = "SHARES_A_SPAWN_WITH_BLACK_EMPIRE_ASSASSIN",
 							export = true,
@@ -101,7 +101,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47213, {		-- Corrupted Beheader slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Black Empire Beheader.",
 							constant = "SHARES_A_SPAWN_WITH_BLACK_EMPIRE_BEHEADER",
 							export = true,
@@ -135,7 +135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47214,	{		-- Corrupted Bloodseeker slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This doesn't appear to share a spawn with any other mob, but it's an elite shark that spawns off the southern coast of Uldum. It can swim very far out, close to fatigue waters, so if you're searching for Corrupted Bloodseeker it may be helpful to follow the outside edge rather than sticking to the coast.",
 							constant = "THIS_DOESN_T_APPEAR_TO_SHARE_A_SPAWN_WITH_ANY",
 							export = true,
@@ -161,7 +161,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47215,	{		-- Corrupted Bonestripper slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with N'Zoth Bonestripper. Found in most water locations.",
 							constant = "SHARES_A_SPAWN_WITH_N_ZOTH_BONESTRIPPER_FOUND",
 							export = true,
@@ -195,7 +195,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47216,	{		-- Corrupted Despoiler slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Faceless Despoiler and Mind Eater. Can also result in Corrupted Mind Eater spawning.",
 							constant = "SHARES_A_SPAWN_WITH_FACELESS_DESPOILER_AND_MIND",
 							export = true,
@@ -243,7 +243,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47217,	{		-- Corrupted Dominator slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Faceless Dominator.",
 							constant = "SHARES_A_SPAWN_WITH_FACELESS_DOMINATOR",
 							export = true,
@@ -272,7 +272,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47218, {		-- Corrupted Doomsayer slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with K'thir Doomsayer.",
 							constant = "SHARES_A_SPAWN_WITH_K_THIR_DOOMSAYER",
 							export = true,
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47219, {		-- Corrupted Fleshbeast slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Burbling Fleshbeast.",
 							constant = "SHARES_A_SPAWN_WITH_BURBLING_FLESHBEAST",
 							export = true,
@@ -357,7 +357,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47220, {		-- Corrupted Jailer slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Faceless Jailer.",
 							constant = "SHARES_A_SPAWN_WITH_FACELESS_JAILER",
 							export = true,
@@ -384,7 +384,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47221, {		-- Corrupted Mind Eater slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Mind Eater and Faceless Despoiler. Can also result in Corrupted Despoiler spawning.",
 							constant = "SHARES_A_SPAWN_WITH_MIND_EATER_AND_FACELESS",
 							export = true,
@@ -432,7 +432,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47222, {		-- Corrupted Neferset Guard slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Voidwarped Neferset and Voidwarped Neferset High Guard.",
 							constant = "SHARES_A_SPAWN_WITH_VOIDWARPED_NEFERSET_AND",
 							export = true,
@@ -467,7 +467,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47223, {		-- Corrupted Observer slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Foul Observer.",
 							constant = "SHARES_A_SPAWN_WITH_FOUL_OBSERVER",
 							export = true,
@@ -511,7 +511,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47224, {		-- Corrupted Putrefaction slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Oozing Putrefaction.",
 							constant = "SHARES_A_SPAWN_WITH_OOZING_PUTREFACTION",
 							export = true,
@@ -539,7 +539,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47225, {		-- Corrupted Summoner slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Black Empire Conjurers.",
 							constant = "SHARES_A_SPAWN_WITH_BLACK_EMPIRE_CONJURERS",
 							export = true,
@@ -576,7 +576,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47226, {		-- Corrupted Thaumaturge slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Black Empire Thaumaturge and Black Empire Conjurer.",
 							constant = "SHARES_A_SPAWN_WITH_BLACK_EMPIRE_THAUMATURGE",
 							export = true,
@@ -612,7 +612,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					crit(47227, {		-- Corrupted Thoughtstealer slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with K'thir Thoughtstealer.",
 							constant = "SHARES_A_SPAWN_WITH_K_THIR_THOUGHTSTEALER",
 							export = true,
@@ -641,7 +641,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["cr"] = 162241,	-- Corrupted Thoughtstealer
 					}),
 					crit(47228, {		-- Corrupted Tormentor slain	-- TODO:  Add coords
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Tentacle Tormentors, found off the southern coast of Uldum.",
 							constant = "SHARES_A_SPAWN_WITH_TENTACLE_TORMENTORS_FOUND",
 							export = true,
@@ -669,7 +669,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["cr"] = 162245,	-- Corrupted Tormentor
 					}),
 					crit(47229, {		-- Corrupted Watcher slain
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Voidwarped Watcher.",
 							constant = "SHARES_A_SPAWN_WITH_VOIDWARPED_WATCHER",
 							export = true,
@@ -732,7 +732,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["groups"] = {
 							i(173810),	-- Darksight Potion (QI!)
 							i(174288, {	-- Breath of Everlasting Spirit (once a week)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Awarded once a week upon completion of your first Visions of Darkness quest.",
 									constant = "AWARDED_ONCE_A_WEEK_UPON_COMPLETION_OF_YOUR",
 									export = true,
@@ -829,7 +829,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(174456, {	-- Gloop (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught from schools of fish in a zone currently affected by a N'Zoth Assault.",
 							constant = "CAN_BE_CAUGHT_FROM_SCHOOLS_OF_FISH_IN_A_ZONE",
 							export = true,

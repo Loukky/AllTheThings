@@ -208,7 +208,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 			}),
 			n(COMMON_BOSS_DROPS, {
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following can drop from the final boss of any Celestial dungeon.",
 					constant = "THE_FOLLOWING_CAN_DROP_FROM_THE_FINAL_BOSS_OF_2",
 					export = true,
@@ -345,7 +345,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				-- #if AFTER 5.5.5
 				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR_CELESTIAL_DUNGEONS, currency(AUGUST_STONE_CLUSTER, {
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Two tokens drop per boss in Celestial and the final boss of each dungeon will drop an extra three tokens if players have defeated all of the other bosses in the dungeon.",
 						constant = "TWO_TOKENS_DROP_PER_BOSS_IN_CELESTIAL_AND_THE",
 						export = true,
@@ -384,7 +384,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				i(87208, {	-- Sigil of Power
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 					-- #if BEFORE 5.5.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from any \"physical\" last boss of a Celestial dungeon.",
 						constant = "THIS_CAN_DROP_FROM_ANY_PHYSICAL_LAST_BOSS_OF_A",
 						export = true,
@@ -405,7 +405,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 					["maps"] = CELESTIAL_DUNGEON_MAPS_SIGIL_OF_POWER,
 					["crs"] = CELESTIAL_DUNGEON_LAST_BOSSES_SIGIL_OF_POWER,
 					-- #else
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from any last boss of a Celestial dungeon.",
 						constant = "THIS_CAN_DROP_FROM_ANY_LAST_BOSS_OF_A_CELESTIAL",
 						export = true,
@@ -430,7 +430,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHA
 				i(87209, {	-- Sigil of Wisdom
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.CELESTIAL_DUNGEON_DIFFICULTY_BUFFS,
 					-- #if BEFORE 5.5.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from any \"magical\" last boss of a Celestial dungeon.",
 						constant = "THIS_CAN_DROP_FROM_ANY_MAGICAL_LAST_BOSS_OF_A",
 						export = true,

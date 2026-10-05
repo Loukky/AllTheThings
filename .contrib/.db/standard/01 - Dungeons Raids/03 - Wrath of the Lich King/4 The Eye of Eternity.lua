@@ -58,7 +58,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 						-- #if AFTER 4.0.3
 						i(43953, {	-- Blue Drake (MOUNT!)
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This mount was originally a drop from 10-man Malygos, but was moved to the cache of the ley guardian in the Oculus to encourage people to not skip the instance when it came up in the Dungeon Finder. In Wrath Classic, they decided to not implement the RDF feature, effectively making this mount unobtainable until Cataclysm.",
 								constant = "THIS_MOUNT_WAS_ORIGINALLY_A_DROP_FROM_10_MAN",
 								export = true,

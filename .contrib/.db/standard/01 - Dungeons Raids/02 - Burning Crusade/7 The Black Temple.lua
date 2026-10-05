@@ -418,7 +418,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 									{ "i", 32837 },	-- Warglaive of Azzinoth (LEGENDARY! MH)
 									{ "i", 32838 },	-- Warglaive of Azzinoth (LEGENDARY! OH)
 								},
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Once you have both, simply equip them for this achievement.",
 									constant = "ONCE_YOU_HAVE_BOTH_SIMPLY_EQUIP_THEM_FOR_THIS",
 									export = true,
@@ -443,7 +443,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							}),
 							applyclassicphase(TBC_PHASE_THREE_GLAIVEPRIO, i(32837, {	-- Warglaive of Azzinoth (LEGENDARY! MH)
 								-- #if AFTER 11.1.7
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Following patch 11.1.7, Blizzard seems to have changed something such that this can no longer be collected, though it continues to function properly for the related Achievement",
 									constant = "FOLLOWING_PATCH_11_1_7_BLIZZARD_SEEMS_TO_HAVE",
 									export = true,

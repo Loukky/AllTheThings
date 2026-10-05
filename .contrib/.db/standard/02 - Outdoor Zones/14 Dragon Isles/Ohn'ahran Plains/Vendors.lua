@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 	m(OHNAHRAN_PLAINS, {
 		n(VENDORS, {
 			n(192818, {	-- Elder Yusa
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Target this NPC and /hungry emote. May have to do it twice- the first time she might emote back and not give you anything.",
 					constant = "TARGET_THIS_NPC_AND_HUNGRY_EMOTE_MAY_HAVE_TO_DO",
 					export = true,
@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(192997, {	-- Ludo
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pet!",
 					constant = "PET_2",
 					export = true,

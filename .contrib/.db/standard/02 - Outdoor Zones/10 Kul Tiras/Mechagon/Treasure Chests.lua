@@ -20,7 +20,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 				["groups"] = {
 					i(169872, {	-- Irontide Lockbox Key / 10.0.7: Key of Bound Earth
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Key drops from Seaspit and Seaspray mobs in the area, chest has a chance to spawn around the nearby islands.",
 							constant = "KEY_DROPS_FROM_SEASPIT_AND_SEASPRAY_MOBS_IN_THE",
 							export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				o(325663, {	-- Mechanized Chest
 					["questID"] = 55551,
 					["isDaily"] = true,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns in the future version of Mechagon.",
 						constant = "SPAWNS_IN_THE_FUTURE_VERSION_OF_MECHAGON",
 						export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				}),
 			}),
 			o(330634, {	-- P3-P3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located in the alternate Timeline.",
 					constant = "LOCATED_IN_THE_ALTERNATE_TIMELINE",
 					export = true,

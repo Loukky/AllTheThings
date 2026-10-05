@@ -74,7 +74,7 @@ root(ROOTS.Instances, {
 					["groups"] = {
 						objective(1, {	-- 0/10 Red Silk Bandana
 							["provider"] = { "i", 915 },	-- Red Silk Bandana
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can also drop from any Defias mob in the Deadmines.",
 								constant = "CAN_ALSO_DROP_FROM_ANY_DEFIAS_MOB_IN_THE",
 								export = true,
@@ -122,7 +122,7 @@ root(ROOTS.Instances, {
 					},
 				}),
 				q(373, {	-- The Unsent Letter
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from VanCleef. Deliver it to Baros Alexston in Stormwind City.",
 						constant = "DROPS_FROM_VANCLEEF_DELIVER_IT_TO_BAROS",
 						export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Instances, {
 			}),
 			n(RARES, {
 				n(596, {	-- Brainwashed Noble
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",
 						constant = "THIS_IS_A_RARE_CREATURE_AND_AS_SUCH_IS_NOT_3",
 						export = true,
@@ -272,7 +272,7 @@ root(ROOTS.Instances, {
 					["cr"] = 625,	-- Undead Dynamiter
 				}),
 				i(7997, {	-- Red Defias Mask
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop in Westfall and The Deadmines.",
 						constant = "CAN_DROP_IN_WESTFALL_AND_THE_DEADMINES",
 						export = true,

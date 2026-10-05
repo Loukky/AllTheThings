@@ -1234,7 +1234,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				i(17502),	-- Frostwolf Soldier's Medal
 				i(18229, {	-- Nat Pagle's Guide to Extreme Anglin'
 					-- #if AFTER LEGION
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Required for the Retribution Paladin Hidden Artifact Appearance.\n\nLooted from Player Corpses in Alterac Valley.",
 						constant = "REQUIRED_FOR_THE_RETRIBUTION_PALADIN_HIDDEN",
 						export = true,

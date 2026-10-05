@@ -250,7 +250,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["questID"] = 73923,
 					}),
 					n(195283, {	-- Yamakh
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Behind Rock Wall.",
 							constant = "BEHIND_ROCK_WALL",
 							export = true,

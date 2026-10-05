@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				["groups"] = {
 					pet(461),	-- Larva (PET!)
 					pet(463, {	-- Spirit Crab (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found along the western coastline and on the little island.",
 							constant = "FOUND_ALONG_THE_WESTERN_COASTLINE_AND_ON_THE",
 							export = true,
@@ -724,7 +724,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 								{ "i", 23717 },	-- Pitted Gold Band
 								{ "o", 181665 }	-- Burial Chest
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use your lockpicking skill to open the Burial Chests.",
 								constant = "USE_YOUR_LOCKPICKING_SKILL_TO_OPEN_THE_BURIAL",
 								export = true,
@@ -1545,7 +1545,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 			}),
 			n(ZONE_DROPS, {
 				i(27669, {	-- Bat Flesh
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only drops from given bats in Ghostlands.",
 						constant = "ONLY_DROPS_FROM_GIVEN_BATS_IN_GHOSTLANDS",
 						export = true,

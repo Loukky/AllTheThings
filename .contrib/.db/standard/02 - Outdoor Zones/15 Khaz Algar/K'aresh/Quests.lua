@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(90600, {	-- Stay awhile and listen: Xal'atath
 						["name"] = "Stay awhile and listen: Xal'atath",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'What Is Left of Home' (85032).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT",
 							export = true,
@@ -362,7 +362,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(90572, {	-- Stay awhile and listen: Locus-Walker
 						["name"] = "Stay awhile and listen: Locus-Walker",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'My Part of the Deal' (90517).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_MY",
 							export = true,
@@ -438,7 +438,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(85774, {	-- Stay awhile and listen: Xal'atath
 						["name"] = "Stay awhile and listen: Xal'atath",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'The Tempest Fields' (86327).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_THE",
 							export = true,
@@ -515,7 +515,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(86815, {	-- Stay awhile and listen: Xal'atath
 						["name"] = "Stay awhile and listen: Xal'atath",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'Stalking Stalkers' (84867).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_2",
 							export = true,
@@ -540,7 +540,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					--
 					q(86332, {	-- Distribution of Power
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Quest becomes available after you talk to Narathe during 'Stalking Stalkers' (84867).",
 							constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_TALK_TO",
 							export = true,
@@ -716,7 +716,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(90614, {	-- Stay awhile and listen: Locus-Walker
 						["name"] = "Stay awhile and listen: Locus-Walker",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'That's a Wrap' (85037).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_3",
 							export = true,
@@ -759,7 +759,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(90753, {	-- Stay awhile and listen: Alleria Windrunner
 						["name"] = "Stay awhile and listen: Alleria Windrunner",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'An Elegy for a Silent World' (86456).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_AN",
 							export = true,
@@ -1003,7 +1003,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(89305, {	-- Stay awhile and listen: Botanist Alaenra
 						["name"] = "Stay awhile and listen: Botanist Alaenra",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'Oh Honey Honey' (85258).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_OH",
 							export = true,
@@ -1132,7 +1132,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(89330, {	-- Stay awhile and listen: Hemet Nesingwary
 						["name"] = "Stay awhile and listen: Hemet Nesingwary",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'Ghost Buster' (86182).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_4",
 							export = true,
@@ -1254,7 +1254,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					------ Stay awhile and listen ------
 					hqt(89292, {	-- Stay awhile and listen: Rhubarn
 						["name"] = "Stay awhile and listen: Rhubarn",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after you accept 'Slateback Soccer' (86195).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_ACCEPT_5",
 							export = true,
@@ -1708,7 +1708,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			header(HEADERS.Achievement, 41809, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {	-- Ecological Variety (Weekly Quests)
 				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
 					q(90545, {	-- A Reel Problem
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires Fishing profession.",
 							constant = "REQUIRES_FISHING_PROFESSION",
 							export = true,
@@ -1930,7 +1930,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			})),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
 				q(90938, {	-- A Skip Through the Void
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "It may be possible to acquire this quest (if it is already locked) by doing the following steps (guessed from personal experience)\n1. Log out/in without the Reshii Wraps equipped.\n2. Zone to K'aresh\n3. Equip Reshii Wraps\n4. Enter Untethered Space\nAt this point the quest was active in my log when previously it was not. However it never showed in chat that it was 'accepted' at a certain point, so I'm unsure of when specifically it became available. -- Runaway",
 						constant = "IT_MAY_BE_POSSIBLE_TO_ACQUIRE_THIS_QUEST_IF_IT",
 						export = true,
@@ -2492,7 +2492,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(239314) },	-- Arcane Lure (QS!)
 					}),
 					q(90081, {	-- Arcane Runed Sigil
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Arcana-Monger So'zer'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_ARCANA",
 							export = true,
@@ -2563,7 +2563,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(236967) },	-- Grubber Lure (QS!)
 					}),
 					q(87548, {	-- A Dozen Veilshards
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Grubber'.\nFind and prod a Thieving Scurrier so it will lead you to the stash of Stolen Veilshards.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_GRUBBER",
 							export = true,
@@ -2594,7 +2594,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						},
 					}),
 					q(87420, {	-- Basket of Zo'kita Fruit
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Grubber'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_GRUBBER_2",
 							export = true,
@@ -2653,7 +2653,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(236957) },	-- Hollowbane Portal Key (QS!)
 					}),
 					q(87597, {	-- A Bag of Veilshards
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Hollowbane'.\nFind and prod a Thieving Scurrier so it will lead you to the stash of Stolen Veilshards.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT",
 							export = true,
@@ -2684,7 +2684,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						},
 					}),
 					q(87324, {	-- Pile of Voidbane Gems
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Hollowbane'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_2",
 							export = true,
@@ -2707,7 +2707,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["repeatable"] = true,
 						["groups"] = {
 							i(236632, {	-- Pouch of Voidbane Gems
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "|cFFE50D12WARNING:|r Do not buy unless you are on a Warrant Quest.\nContains nothing but a fraction of spent gold otherwise.",
 									constant = "CFFE50D12WARNING_R_DO_NOT_BUY_UNLESS_YOU_ARE_ON",
 									export = true,
@@ -2759,7 +2759,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(239276) },	-- Purple Peat Cell Key (QS!)
 					}),
 					q(87404, {	-- Energy Encapsulation
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Purple Peat'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_PURPLE",
 							export = true,
@@ -2819,7 +2819,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(236353) },	-- Shatterpulse Cell Key (QS!)
 					}),
 					q(87010, {	-- Calculation Container
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Shatterpulse'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_3",
 							export = true,
@@ -2879,7 +2879,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["groups"] = { i(236753) },	-- Xy'vox Refuge Dampener (QS!)
 					}),
 					q(87376, {	-- Ethereal Seal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is available during 'Warrant: Xy'vox the Twisted'.",
 							constant = "THIS_QUEST_IS_AVAILABLE_DURING_WARRANT_XY_VOX",
 							export = true,
@@ -3022,7 +3022,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			-- These source quests aren't 'really' required since the item can be looted and quest started at a later time
 			-- Maybe somehow they should link to the respective rares? probably not important enough
 			q(85722, {	-- Making a Deposit
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFE50D12SUGGESTION:|r Do not turn in this quest unless you have 'Ecological Succession' world quest active. Contributes 20% towards World Quest completion.",
 					constant = "CFFE50D12SUGGESTION_R_DO_NOT_TURN_IN_THIS_QUEST",
 					export = true,

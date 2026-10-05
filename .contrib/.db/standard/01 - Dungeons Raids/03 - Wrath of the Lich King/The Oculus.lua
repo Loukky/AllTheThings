@@ -401,7 +401,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							i(43668),	-- Ley Line Tuner
 							-- #endif
 							applyclassicphase(WRATH_PHASE_FOUR, i(52676, {	-- Cache of the Ley-Guardian
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This bag is only available if you queue for the instance using the Random Dungeon Finder. It will not drop in an explicitly formed group or by using the Select Instance interface.",
 									constant = "THIS_BAG_IS_ONLY_AVAILABLE_IF_YOU_QUEUE_FOR_THE",
 									export = true,

@@ -35,7 +35,7 @@ root(ROOTS.Holidays, {
 		},
 		["groups"] = {
 			i(13756, {	-- Raw Summer Bass
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be caught in open sea water in Azshara, Tanaris, The Hinterlands, Feralas, and STV from 20th March to 22nd September.",
 					constant = "CAN_BE_CAUGHT_IN_OPEN_SEA_WATER_IN_AZSHARA",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Holidays, {
 		},
 		["groups"] = {
 			i(13755, {	-- Winter Squid
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be caught in open sea water in Azshara, Tanaris, The Hinterlands, Feralas, and STV from 23nd September to 20th March.",
 					constant = "CAN_BE_CAUGHT_IN_OPEN_SEA_WATER_IN_AZSHARA_2",
 					export = true,

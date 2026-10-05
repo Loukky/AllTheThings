@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["groups"] = {
 			-- #if AFTER 10.1.5
 			header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "With 10.1.5, Blizzard readded the original version of Scholomance!\n\nThank you, Blizzard!\n  -Crieve\n\nHere is how to get started:\n\n1. Obtain 'Krastinov's Bag of Horrors' from the rare spawn Doctor Theolen Krastinov in Scholomance, Heroic difficulty. This step can be skipped if you are accompanied by someone who already have the toy.\n\n2. Defeat Darkmaster Gandling in Headmaster's Retreat and enter the upper level centre room.\n\n3. Find a pile of bones on the ground in the southeastern part of the room, and use the toy 'Krastinov's Bag of Horrors'.\n\n4. Eva Sarkhoff should now have spawned, but you cannot interact with her before you remove the toy visage/buff named 'Surgical Alterations'.\n\n5. Accept Eva Sarkhoof's quest and her Inert Spectral Essence. Loot Eva's Femur from the pile of bones.\n\n6. Walk back upstairs to The Viewing Room. There is two bookcases in the southwestern corner of the room. Eva's Journal can be found on a middle shelf on the backside of the left bookcase.\n\n7. Obtain the reagents 3x Dark Runes and 5x Essence of Undeath and use the Inert Spetral Essence. Equip the crafted trinket 'Spectral Essence'.\n\n8. Obtain candles from doing objectives around Caer Darrow (outside Scholomance):\n8.1 Loot 'The Deed to Andorhal' from inside Andorhal Townhall at 43.35, 69.3., and give it to Magistrate Marduke at 70.5, 74.0.\n8.2 Loot 'Bucket of Fountain Water' from the candylit fountain at 68.9, 78.8., and give it to Joseph Dirte at 68.0, 74.8.\n8.3 Loot 'Trampled Doll' from the meatwagon in Darrowshire at 35.7, 83.5. (Eastern Plaguelands!), return to Caer Darrow and give it to Sammy at 69.15, 78.7.\n8.4 Loot 'The Road Ahead' from a wall inside old Corin's Crossing tavern  at 55.0, 64.0. (Eastern Plaguelands!), return to Caer Darrow and give it to Artist Renfray at 65.8, 75.4.\n8.5 Loot 'Undelivered Shipment of Smokes' from a wagon behind the fountain at King's Square in Stratholme, return to Caer Darrow and give it to Rory at 63.4, 75.5.\n\n9. Use Eva's Journal to begin the ritual at 69.7, 71.7., inside Caer Darrow keep/open world Scholomance.",
 					constant = "WITH_10_1_5_BLIZZARD_READDED_THE_ORIGINAL_2",
 					export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				["groups"] = {
 					n(TREASURES, {
 						o(403532, {	-- Bucket of Fountain Water
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Located by the water fountain in Caer Darrow.",
 								constant = "LOCATED_BY_THE_WATER_FOUNTAIN_IN_CAER_DARROW",
 								export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["groups"] = { i(206359) },	-- Caer Darrow Fountain Water
 						}),
 						o(403535, {	-- The Deed to Andorhal
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Located by the town hall in Andorhal, on a wall to the right of where Rattlegore spawns.",
 								constant = "LOCATED_BY_THE_TOWN_HALL_IN_ANDORHAL_ON_A_WALL",
 								export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 7.0.3.21570
 			n(ARTIFACTS, {
 				n(111122, {	-- Large Vile Slime
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Supposedly has a random spawn up to 30 hours, unpredictable due to phasing and server sharding, be prepared to wait.",
 						constant = "SUPPOSEDLY_HAS_A_RANDOM_SPAWN_UP_TO_30_HOURS",
 						export = true,
@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(139624, {	-- Shard of Darkness
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "It first took 350 casts in the river (RNG, could be 10 casts, could be 10,000 casts)\n\nYou may fish anywhere along the river, as long as your location says \"Thondroril River\"\nYour fishing skill does not matter",
 						constant = "IT_FIRST_TOOK_350_CASTS_IN_THE_RIVER_RNG_COULD",
 						export = true,
@@ -1203,7 +1203,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, q(83936, {	-- Dalton's Quest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Upon completing this quest, you will have a personal Squire.",
 						constant = "UPON_COMPLETING_THIS_QUEST_YOU_WILL_HAVE_A",
 						export = true,

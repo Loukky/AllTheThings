@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 		}),
 		n(RARES, {
 			header(HEADERS.Achievement, 15392, {	-- Dune Dominance
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon defeat of any other Rare creature in ZM, there is a small chance that one of these 'special' rares will begin to activate.\nIt is not currently known whether there is a minimum cooldown between spawns, though it's been reported as quick as 50 min.",
 					constant = "UPON_DEFEAT_OF_ANY_OTHER_RARE_CREATURE_IN_ZM",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(178229, {	-- Feasting
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You might need to kill some vespoids in close by area.",
 					constant = "YOU_MIGHT_NEED_TO_KILL_SOME_VESPOIDS_IN_CLOSE",
 					export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(183646, {	-- Furidian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To open the vault there is corresponding symbols in the area. Click those to open the vault.",
 					constant = "TO_OPEN_THE_VAULT_THERE_IS_CORRESPONDING",
 					export = true,
@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(180924, {	-- Garudeon <Raptora Prime>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Feed its kids with three Energizing Leporid(183562, Bunnies in the area)",
 					constant = "FEED_ITS_KIDS_WITH_THREE_ENERGIZING_LEPORID",
 					export = true,
@@ -238,7 +238,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(178778, {	-- Gluttonous Overgrowth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Need to pull 5 Bulging Roots (184048) that are in the close by area. Use target macro to find them easily.",
 					constant = "NEED_TO_PULL_5_BULGING_ROOTS_184048_THAT_ARE_IN",
 					export = true,
@@ -266,7 +266,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(178963, {	-- Gorkek <Bufonid Prime>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Multiple Spawn locations.",
 					constant = "MULTIPLE_SPAWN_LOCATIONS",
 					export = true,
@@ -307,7 +307,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(183748, {	-- Helmix
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Will call out an emote\"The ground vibrates... something burrows beneath the surface!\" in the zone when spawned",
 					constant = "WILL_CALL_OUT_AN_EMOTE_THE_GROUND_VIBRATES",
 					export = true,
@@ -344,7 +344,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65548,
 				["groups"] = {
 					i(187676, {	-- Deepstar Polyp (MOUNT!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This mount has 100% drop chance if you do the summon.",
 							constant = "THIS_MOUNT_HAS_100_DROP_CHANCE_IF_YOU_DO_THE",
 							export = true,
@@ -408,7 +408,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(180746, {	-- Protector of the First Ones
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pylons show what rune you need to bring here. Needs at least two persons.\nPosition of runes:\nRune (V-like symbol) @ 43.0 21.5\nRune (Diamonds-like symbol) @ 44.9 22.4\nRune (M-like symbol) @ 46.8 23.3\nRune (H-llke symbol) @ 48.4 24.1",
 					constant = "PYLONS_SHOW_WHAT_RUNE_YOU_NEED_TO_BRING_HERE",
 					export = true,
@@ -472,7 +472,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(183925, {	-- Tahkwitz
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the cosmic energy system behind the mountain. Work your way to the top level and then jump down to be able to pull him.",
 					constant = "USE_THE_COSMIC_ENERGY_SYSTEM_BEHIND_THE",
 					export = true,
@@ -512,7 +512,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(183516, {	-- The Engulfer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Need to complete The Matriarch Event. See emote call in the zone",
 					constant = "NEED_TO_COMPLETE_THE_MATRIARCH_EVENT_SEE_EMOTE",
 					export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(183764, {	-- Zatojin <Vespoid Prime>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pull the bugs but do not kill them. Wait until reaching 20 stacks of the debuff.",
 					constant = "PULL_THE_BUGS_BUT_DO_NOT_KILL_THEM_WAIT_UNTIL",
 					export = true,

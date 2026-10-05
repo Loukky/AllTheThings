@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 		["groups"] = {
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS).AddGroups({
 				ach(61585, {	-- You Conduit!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In Kasreth's wing of the dungeon are 5 Corespark Conduits. As a group, stand on all 5 at the same time for a few seconds to spawn a cage holding Gortham. The conduits hurt.",
 						constant = "IN_KASRETH_S_WING_OF_THE_DUNGEON_ARE_5",
 						export = true,

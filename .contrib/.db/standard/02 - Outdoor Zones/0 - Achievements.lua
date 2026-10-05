@@ -1320,7 +1320,7 @@ root(ROOTS.Zones, {
 		}))),
 		ach(5518, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- Stood in the Fire
 			-- #IF AFTER MOP
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Achievement can be completed in Dragon Soul.",
 				constant = "ACHIEVEMENT_CAN_BE_COMPLETED_IN_DRAGON_SOUL",
 				export = true,
@@ -1549,7 +1549,7 @@ root(ROOTS.Zones, {
 			},
 		}),
 		ach(1206, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- To All The Squirrels I've Loved Before
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "|cFFE50D12The Pets in this Achievement cannot be tracked correctly by ATT due to Blizzard. Once all the Pets received /love, the Achievement will be tracked correctly once again.|r",
 				constant = "CFFE50D12THE_PETS_IN_THIS_ACHIEVEMENT_CANNOT_BE",
 				export = true,
@@ -2217,7 +2217,7 @@ root(ROOTS.Zones, {
 		}),
 		o(175741, {	-- Kil'jaeden and the Shadow Pact
 			-- #if AFTER CATA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Stratholme: Found in the room with Commander Malor.",
 				constant = "STRATHOLME_FOUND_IN_THE_ROOM_WITH_COMMANDER",
 				export = true,
@@ -2439,7 +2439,7 @@ root(ROOTS.Zones, {
 		}),
 		o(175747, {	-- The Invasion of Draenor
 			-- #if AFTER CATA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Scholomance: East side wall, near north-east corner of Lilian Voss encounter room.",
 				constant = "SCHOLOMANCE_EAST_SIDE_WALL_NEAR_NORTH_EAST",
 				export = true,

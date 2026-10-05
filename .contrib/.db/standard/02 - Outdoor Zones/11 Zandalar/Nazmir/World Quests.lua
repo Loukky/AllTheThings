@@ -296,7 +296,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(50468, {	-- Shul-Nagruth
 				n(128610, {	-- Maw of Shul-Nagruth
 					["questID"] = 50467,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This rare is only up when its associated world quest is active.",
 						constant = "THIS_RARE_IS_ONLY_UP_WHEN_ITS_ASSOCIATED_WORLD",
 						export = true,

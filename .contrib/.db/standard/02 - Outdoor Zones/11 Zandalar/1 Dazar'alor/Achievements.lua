@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			-- NEEDS CONFIRMATION: for boon of gonk and boon of pa'ku"loa expectations," do you need to do any other quests in the zuldazar storyline, or can you get both buffs right after you choose gonk or pa'ku?  i didn't do the achievement until after i had completely finished zuldazar/nazmir, so i'm not sure.
 			ach(12614, {	-- Loa Expectations
 			-- NEEDS CONFIRMATION: for gonk/pa'ku, do you need to do any other quests in the zuldazar storyline, or can you get both buffs right after you choose?  i didn't do the achievement until after i had completely finished zuldazar/nazmir, so i'm not sure.
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The best place to get this is in the \"Council Chambers\", where all six shrines are in one room. Head to the coordinates provided and enter the building. Turn left and go upstairs. There are shrines around the perimeter of the room for each loa.",
 					constant = "THE_BEST_PLACE_TO_GET_THIS_IS_IN_THE_COUNCIL",
 					export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			ach(13039, {	-- Paku'ai
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Travel to the coordinates provided and click the totems for the easiest method to get the achievement.\n\nRequires alignment with Pa'ku. You can switch loa by speaking to Chronicler Ash'tari in Dazar'alor (50.7, 35.2).\n",
 					constant = "TRAVEL_TO_THE_COORDINATES_PROVIDED_AND_CLICK",
 					export = true,
@@ -110,7 +110,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			ach(13038, {	-- Raptari Rider
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can get this achievement easily by running between the two totems at the coordinates provided.\n\nRequires alignment with Gonk. You can switch loa by speaking to Chronicler Ash'tari in Dazar'alor (50.7, 35.2).\n",
 					constant = "YOU_CAN_GET_THIS_ACHIEVEMENT_EASILY_BY_RUNNING",
 					export = true,

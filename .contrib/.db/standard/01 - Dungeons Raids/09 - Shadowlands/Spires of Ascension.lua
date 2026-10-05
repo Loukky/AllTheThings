@@ -14,7 +14,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				header(HEADERS.Achievement, 14339, {	-- Shard Labor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide. There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nBeing part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
 						constant = "QUEST_TRACKING_MUST_BE_ENABLED_TO_SEE_THE",
 						export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					}),
 					["groups"] = sharedData({ ["name"] = "Anima Crystal Shard", ["icon"] = 3528288 }, {
 						q(61298, {	-- Anima Crystal Shard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After Kin-Tara, behind a lounge chair on the left side of the fountain.",
 								constant = "AFTER_KIN_TARA_BEHIND_A_LOUNGE_CHAIR_ON_THE",
 								export = true,
@@ -54,7 +54,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							}),
 						}),
 						q(61299, {	-- Anima Crystal Shard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After Ventunax, behind the left-hand torch next to the Winged Guardian that will take you to the Font of Fealty.",
 								constant = "AFTER_VENTUNAX_BEHIND_THE_LEFT_HAND_TORCH_NEXT",
 								export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							}),
 						}),
 						q(61300, {	-- Anima Crystal Shard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be collected before or after Oryphrion. There is a heart-shaped whirlpool in the middle of the room. The shard is at the top of the heart in the middle. After the boss, there will be two Winged Guardians on either side of it.",
 								constant = "CAN_BE_COLLECTED_BEFORE_OR_AFTER_ORYPHRION",
 								export = true,

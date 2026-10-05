@@ -150,7 +150,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			n(TREASURES, {
 				applyclassicphase(PHASE_FIVE, o(180667, {	-- Draconic for Dummies
 					["timeline"] = { ADDED_1_9_0, REMOVED_4_0_3 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located in Blackwing Lair on one of the tables on the ramp after the first wyrmguard overseer pull.",
 						constant = "LOCATED_IN_BLACKWING_LAIR_ON_ONE_OF_THE_TABLES",
 						export = true,
@@ -333,7 +333,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			}),
 			n(14401, {	-- Master Elemental Shaper Krixix
 				-- #if BEFORE WRATH
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When Krixix is mind controlled, one of the abilities available to the priest will be to teach a friendly target to Smelt Elementium.",
 					constant = "WHEN_KRIXIX_IS_MIND_CONTROLLED_ONE_OF_THE",
 					export = true,
@@ -439,7 +439,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					-- #if AFTER WOD
 					prof(SKINNING, {
 						i(12607, {	-- Brilliant Chromatic Scale
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only be obtained from Chromaggus.",
 								constant = "CAN_ONLY_BE_OBTAINED_FROM_CHROMAGGUS",
 								export = true,
@@ -562,7 +562,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 									["cr"] = 232903,	-- Shadowmage <Cult of the Damned>
 								}),
 								i(231796, {	-- Depleted Scythe of Chaos (Devouring)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Drail Soul on the Ravenous Felhound once you've summoned it using the Shadow Carving.",
 										constant = "USE_DRAIL_SOUL_ON_THE_RAVENOUS_FELHOUND_ONCE",
 										export = true,
@@ -600,7 +600,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 									["cr"] = 232900,	-- Cursed Mage
 								}),
 								i(231795, {	-- Depleted Scythe of Chaos (Enthralling)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Drail Soul on the Fel Interloper once you've summoned it using the scroll of spatial mending.",
 										constant = "USE_DRAIL_SOUL_ON_THE_FEL_INTERLOPER_ONCE_YOU",
 										export = true,
@@ -637,7 +637,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 									["provider"] = { "i", 231732 },	-- Suspicious Supplies
 								}),
 								i(231793, {	-- Depleted Scythe of Chaos (Mischief)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Drail Soul on Xirath once you've completed his task to receive this.",
 										constant = "USE_DRAIL_SOUL_ON_XIRATH_ONCE_YOU_VE_COMPLETED",
 										export = true,
@@ -670,7 +670,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							["coord"] = { 81.2, 59.0, MAP.EASTERN_PLAGUELANDS },
 							["groups"] = {
 								i(231794, {	-- Depleted Scythe of Chaos (Void)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Drail Soul on the Voidwalker once you've used a Major Spellstone, Shadow Ward, and then Sacrifice to summon it.",
 										constant = "USE_DRAIL_SOUL_ON_THE_VOIDWALKER_ONCE_YOU_VE",
 										export = true,
@@ -715,7 +715,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 									["coord"] = { 84.8, 70.6, MAP.ASHENVALE },
 								}),
 								n(232886, {	-- Des'Altek
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Summon and defeat Des'Altek within Demon Fall Canyon to receive the soul.",
 										constant = "SUMMON_AND_DEFEAT_DES_ALTEK_WITHIN_DEMON_FALL",
 										export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19183),	-- Hourglass Sand
 				}),
 				n(231711, {	-- Victor Nefriendius
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located inside BWL. You can speak to him at the start of the raid to activate a number of trials. Each trial up to 3 will award additional loot. You'll want to activate the weekly trial in addition to 2 others for the best loot opportunity after your raid defeats Nefarian.",
 						constant = "LOCATED_INSIDE_BWL_YOU_CAN_SPEAK_TO_HIM_AT_THE",
 						export = true,
@@ -1246,7 +1246,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					},
 				}),
 				o(495577, {	-- Chromatic Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears after defeating Nefarian with one trial active.\n\nContains one of the class trinkets plus two additional pieces of loot from bosses in Blackwing Lair.",
 						constant = "APPEARS_AFTER_DEFEATING_NEFARIAN_WITH_ONE_TRIAL",
 						export = true,
@@ -1266,7 +1266,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					}),
 				}),
 				o(495578, {	-- Chromatic Supplies
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears after defeating Nefarian with two trials active. It replaces the Chromatic Stash.\n\nContains one of the class trinkets plus four additional pieces of loot from bosses in Blackwing Lair.",
 						constant = "APPEARS_AFTER_DEFEATING_NEFARIAN_WITH_TWO",
 						export = true,
@@ -1286,7 +1286,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					}),
 				}),
 				o(495503, {	-- Chromatic Hoard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears after defeating Nefarian with three trials active. It replaces the Chromatic Supplies.\n\nContains one of the class trinkets plus five additional pieces of loot from bosses in Blackwing Lair.\n\nWeapons found in this chest will have a unique \"Shadowflame\" visual effect.",
 						constant = "APPEARS_AFTER_DEFEATING_NEFARIAN_WITH_THREE",
 						export = true,
@@ -1307,7 +1307,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					["sym"] = {{ "select", "objectID", 495500 }, {"pop"}},
 				}),
 				o(495505, {	-- Favored Riches
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears in Blackwing Lair after defeating Nefarian with the weekly trial active.\n\nContains two pieces of loot from bosses in Blackwing Lair.",
 						constant = "APPEARS_IN_BLACKWING_LAIR_AFTER_DEFEATING",
 						export = true,
@@ -1327,7 +1327,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					}),
 				}),
 				o(495500, {	-- Shadowflame Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Appears after defeating Nefarian with three trials active, including the weekly trial alongside the two chests.\n\nContains 3-5 Elementium Ore and four other items. Weapons found in this chest will have a unique \"Shadowflame\" visual effect.",
 						constant = "APPEARS_AFTER_DEFEATING_NEFARIAN_WITH_THREE_2",
 						export = true,

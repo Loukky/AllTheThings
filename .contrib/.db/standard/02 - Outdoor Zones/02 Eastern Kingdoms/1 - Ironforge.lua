@@ -1496,7 +1496,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(RARES, {
 				n(51596, {	-- Wildhammer Fact Checker
 					["coord"] = { 38.6, 54.8, IRONFORGE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "AKA Red Shirt Guy\n\nYou must be a member of the Horde in order to attack this NPC.",
 						constant = "AKA_RED_SHIRT_GUY_YOU_MUST_BE_A_MEMBER_OF_THE",
 						export = true,
@@ -1531,7 +1531,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 75.7, 10.5, IRONFORGE },
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(204174, {	-- Rune of Precision
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Looting the chest will spawn 2 muggers. Beware!",
 						constant = "LOOTING_THE_CHEST_WILL_SPAWN_2_MUGGERS_BEWARE",
 						export = true,

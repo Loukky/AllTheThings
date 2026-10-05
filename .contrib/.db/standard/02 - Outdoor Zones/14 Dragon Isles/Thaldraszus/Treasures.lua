@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["coord"] = { 60.1, 85.0, THALDRASZUS },
 			}),
 			n(196172, {	-- Acorn Harvester
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bring nearby Acorn to Tree.",
 					constant = "BRING_NEARBY_ACORN_TO_TREE",
 					export = true,
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["coord"] = { 62.4, 15.9, THALDRASZUS },
 			}),
 			o(381223, {	-- Cracked Hourglass
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a Cave.",
 					constant = "IN_A_CAVE",
 					export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(380429, {	-- Golden Claw
 				["coord"] = { 38.8, 45.01, THALDRASZUS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the dragon statue.",
 					constant = "UNDERNEATH_THE_DRAGON_STATUE",
 					export = true,
@@ -110,7 +110,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(381361, {	-- Precious Stone Fragment
 				["coord"] = { 57.1, 64.6, THALDRASZUS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underneath the right foot of the titan statue.",
 					constant = "UNDERNEATH_THE_RIGHT_FOOT_OF_THE_TITAN_STATUE",
 					export = true,

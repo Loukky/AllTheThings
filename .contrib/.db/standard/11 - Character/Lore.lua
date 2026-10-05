@@ -3,7 +3,7 @@
 -------------------------------------------
 root(ROOTS.Character, n(LORE, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_5 } }, {
 	race(BLOODELF, bubbleDown({ ["timeline"] = { ADDED_9_2_5 }, ["races"] = { BLOODELF } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 60 Blood Elf|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_24",
 			export = true,
@@ -142,7 +142,7 @@ root(ROOTS.Character, n(LORE, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_5 } },
 		}),
 	})),
 	race(DARKIRON, bubbleDown({ ["timeline"] = { ADDED_9_2_5 }, ["races"] = { DARKIRON } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Dark Iron Dwarf|r and completed |cFFFFD700 Heritage o' the Dark Iron|r, The Dark Iron Dwarf Heritage Quest.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_25",
 			export = true,

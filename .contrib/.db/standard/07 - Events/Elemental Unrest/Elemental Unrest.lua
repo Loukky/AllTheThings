@@ -400,7 +400,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.CATA, { app
 				}),
 				q(25181, {	-- Tablets of Fire
 					-- #if BEFORE 5.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Activated with phase 2 of the Elemental Unrest.",
 						constant = "ACTIVATED_WITH_PHASE_2_OF_THE_ELEMENTAL_UNREST",
 						export = true,
@@ -465,7 +465,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.CATA, { app
 				-- Phase Three Quests
 				q(27566, {	-- A Gathering in Outland (A)
 					-- #if BEFORE 5.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Activated with phase 3 of the Elemental Unrest.",
 						constant = "ACTIVATED_WITH_PHASE_3_OF_THE_ELEMENTAL_UNREST",
 						export = true,
@@ -672,7 +672,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.CATA, { app
 			}),
 			-- #else
 			n(COMMON_BOSS_DROPS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following items drop from the elemental bosses during the Elemental Unrest World Event. Since they aren't in the game yet and the items are, we are using this header as a placeholder to show you what will be available when they are available.",
 					constant = "THE_FOLLOWING_ITEMS_DROP_FROM_THE_ELEMENTAL",
 					export = true,

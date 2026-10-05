@@ -72,7 +72,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(78595, {	-- Dream Infused
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 18",
 					constant = "REQUIRES_RENOWN_18",
 					export = true,

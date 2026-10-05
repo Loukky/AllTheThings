@@ -852,7 +852,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6623, {	-- Horde Trauma
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest inadvertently becomes unavailable due to phasing which occurs once an Account has unlocked the allied race: Highmountain Tauren. If you manage to complete this quest while in that situation, please let us know on Discord!",
 						constant = "THIS_QUEST_INADVERTENTLY_BECOMES_UNAVAILABLE",
 						export = true,
@@ -2374,7 +2374,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_TWO, i(213447, {	-- Rosary of the Light
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Combine the 3 divine prayer beads and then bring it to Brother Atticus.",
 						constant = "COMBINE_THE_3_DIVINE_PRAYER_BEADS_AND_THEN",
 						export = true,
@@ -2749,7 +2749,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(213444, {	-- Tarnished Prayer Bead I
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "With this in your inventory and while in combat, cast Blessing of Might and then kill an enemy that grants XP.",
 						constant = "WITH_THIS_IN_YOUR_INVENTORY_AND_WHILE_IN_COMBAT",
 						export = true,
@@ -2775,7 +2775,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(213445, {	-- Tarnished Prayer Bead II
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "With this in your inventory and while in combat with less than 10% health, cast Divine Shield.",
 						constant = "WITH_THIS_IN_YOUR_INVENTORY_AND_WHILE_IN_COMBAT_2",
 						export = true,
@@ -2801,7 +2801,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(213446, {	-- Tarnished Prayer Bead III
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "With this in your inventory and while in combat, cast Seal of Justice and then cast Judgement AS THE CREATURE IS RUNNING AWAY. Judging the enemy before they run will not work.",
 						constant = "WITH_THIS_IN_YOUR_INVENTORY_AND_WHILE_IN_COMBAT_3",
 						export = true,

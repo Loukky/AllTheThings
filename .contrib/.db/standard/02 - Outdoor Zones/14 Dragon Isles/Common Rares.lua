@@ -233,7 +233,7 @@ local RARE_GROUP_TEMPEST = {
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(RARES, {
 		n(COMMON_BOSS_DROPS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can drop from any Lv70 Elite Rare or named Elite from any The Hunt Stage.",
 				constant = "THESE_ITEMS_CAN_DROP_FROM_ANY_LV70_ELITE_RARE",
 				export = true,

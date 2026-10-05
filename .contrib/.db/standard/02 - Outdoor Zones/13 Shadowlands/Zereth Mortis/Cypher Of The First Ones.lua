@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 				-- Puzzle Quests
 				q(65460, {	-- Your First Cantaric Protolock
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Cachial.",
 						constant = "REQUIRES_CACHIAL",
 						export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					["coord"] = { 33.8, 49.4, ZERETH_MORTIS },
 				}),
 				q(65700, {	-- Core Control
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Dealic Understanding.",
 						constant = "REQUIRES_DEALIC_UNDERSTANDING",
 						export = true,
@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 				-- Hanoa Questline (Terrace of Formation)
 				q(64772, {	-- Broken Circle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Altonian Understanding.",
 						constant = "REQUIRES_ALTONIAN_UNDERSTANDING",
 						export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 				-- Glimmercane Questline
 				q(64641, {	-- Mysterious Greenery
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Sorpranian Understanding.",
 						constant = "REQUIRES_SORPRANIAN_UNDERSTANDING",
 						export = true,
@@ -315,7 +315,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			n(TREASURES, {
 				-- Concordances
 				o(373583, {	-- Tranquil Concordance
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Aealic Understanding.",
 						constant = "REQUIRES_AEALIC_UNDERSTANDING",
 						export = true,
@@ -372,7 +372,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					["questID"] = 65210,
 				}),
 				o(373585, {	-- Mercurial Concordance
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Trebalim Understanding.",
 						constant = "REQUIRES_TREBALIM_UNDERSTANDING",
 						export = true,
@@ -586,7 +586,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			n(VENDORS, {
 				n(177958, {	-- Firim
 					i(187908, {	-- Firim's Spare Forge-tap
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only available after completing the Daily Quest: Materials of Creation (64717) or Hallow Efforts (64579).",
 							constant = "THIS_ITEM_IS_ONLY_AVAILABLE_AFTER_COMPLETING",
 							export = true,
@@ -657,7 +657,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 								},
 							}),
 							i(190128, {	-- Wayward Essence
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Very specific positioning. Face towards the center of the orb.",
 									constant = "VERY_SPECIFIC_POSITIONING_FACE_TOWARDS_THE",
 									export = true,
@@ -711,7 +711,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						},
 					}),
 					i(187909, {	-- Unstable Containment Trap
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only available after completing the Daily Quest: Overgrown Story (64785) or Trappings of Success(64854).",
 							constant = "THIS_ITEM_IS_ONLY_AVAILABLE_AFTER_COMPLETING_2",
 							export = true,
@@ -738,7 +738,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				n(183962, {	-- Olea Manu
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only Available after Hanoas Questline",
 						constant = "ONLY_AVAILABLE_AFTER_HANOAS_QUESTLINE",
 						export = true,

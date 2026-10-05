@@ -295,7 +295,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(351, {	-- Find OOX-17/TN!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The item that starts this quest can be found as a zone drop in Tanaris or in Zul'Farrak.",
 						constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_CAN_BE_FOUND_AS",
 						export = true,
@@ -1176,7 +1176,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 			}),
 			n(TREASURES, {
 				o(142184, {	-- Captain's Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Captain's Chest is found in the captains quarters in one of the two ships harboured at Lost Rigger's Cove, and is one of three sources for Southsea Lamp. It only be opened by a Captain's Key, an uncommon item contained in Pirate's Footlockers, which are commonly found on Southsea mobs around Lost Rigger's Cove.",
 						constant = "THE_CAPTAIN_S_CHEST_IS_FOUND_IN_THE_CAPTAINS",
 						export = true,
@@ -1198,7 +1198,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["cost"] = { { "i", 9249, 1 } },	-- 1x Captain's Key
 					["groups"] = {
 						i(9359, {	-- Southsea Lamp (Patch 9.1.5: Renamed from 'Wirt's Third Leg')
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item have three sources: Pirate's Footlocker, Captain's Chest, and Cuergo's Hidden Treasure.\nPirate's Footlocker is a common drop from mobs on Lost Rigger's Cove.\nCaptain's Chest is found in the captain's quarters in one of the two ships harboured at Lost Rigger's Cove. It only be opened by a Captain's Key, an uncommon item contained in Pirate's Footlockers.\nCuergo's Hidden Treasure is rewarded from the quest Cuergo's Gold.",
 								constant = "THIS_ITEM_HAVE_THREE_SOURCES_PIRATE_S",
 								export = true,
@@ -1274,7 +1274,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 				}),
 				n(14743, {	-- Jhordy Lapforge <Engineer>
 					["requireSkill"] = GNOMISH_ENGINEERING,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Gnomish Engineers can speak to Jhordy to learn the recipe.",
 						constant = "GNOMISH_ENGINEERS_CAN_SPEAK_TO_JHORDY_TO_LEARN",
 						export = true,
@@ -1315,7 +1315,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["coord"] = { 52.4, 28.3, MAP.TANARIS },
 					["groups"] = {
 						n(SPECIAL, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Available if a specific Quest (8977/8978) has been completed.",
 								constant = "AVAILABLE_IF_A_SPECIFIC_QUEST_8977_8978_HAS",
 								export = true,
@@ -1364,7 +1364,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				i(8623, {	-- OOX-17/TN Distress Beacon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item has a chance to drop from any creature in Tanaris and Zul'Farrak.",
 						constant = "THIS_ITEM_HAS_A_CHANCE_TO_DROP_FROM_ANY_2",
 						export = true,
@@ -1426,7 +1426,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 						i(9253),	-- Middle Map Fragment
 						i(9252),	-- Lower Map Fragment
 						i(9249, {	-- Captain's Key
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Unlocks the Captain's Chest located in one of the ships harboured at Lost Rigger's Cove.",
 								constant = "UNLOCKS_THE_CAPTAIN_S_CHEST_LOCATED_IN_ONE_OF",
 								export = true,

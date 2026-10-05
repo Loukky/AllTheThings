@@ -80,7 +80,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				}),
 			}),
 			n(116041, {		-- Treasure Goblin (Outdoor)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found randomly in Legion zones, especially often in the Dalaran Underbelly.",
 					constant = "CAN_BE_FOUND_RANDOMLY_IN_LEGION_ZONES",
 					export = true,
@@ -101,7 +101,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				["groups"] = { i(142544) },	-- Horadric Satchel
 			}),
 			n(116652, {		-- Treasure Goblin (Dungeons)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found after killing the last boss in a dungeon. Kill it and enter the portal to fight The Cow King.",
 					constant = "CAN_BE_FOUND_AFTER_KILLING_THE_LAST_BOSS_IN_A",
 					export = true,
@@ -122,7 +122,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				["groups"] = { i(142544) },	-- Horadric Satchel
 			}),
 			n(116034, {	-- The Cow King
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Access is granted by taking a portal that spawns after a Treasure Goblin is killed. Can only be looted once per character. Right click the 'The Secret Cow Level' buff to leave the zone.",
 					constant = "ACCESS_IS_GRANTED_BY_TAKING_A_PORTAL_THAT",
 					export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				{ 54.3, 78.6, VALDRAKKEN },
 				{ 57.5, 20.1, VALDRAKKEN },
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Every 30 Minutes a Portal spawns in either a Dragonflight Zone and/or in a Capital, causing a Treasure Goblin to appear after 5 minutes.",
 				constant = "EVERY_30_MINUTES_A_PORTAL_SPAWNS_IN_EITHER_A",
 				export = true,
@@ -232,7 +232,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				{ 54.6, 54.8, ISLE_OF_DORN },
 			},
 			["maps"] = { UNDERMINE },	-- Depends on the coordinate of a killed rare
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Every 60 Minutes a Portal spawns in Dornogal, Stormwind and Orgrimmar, causing a Treasure Goblin to appear after 5 minutes.\n\nCan also spawn in Undermine after defeating a rare.",
 				constant = "EVERY_60_MINUTES_A_PORTAL_SPAWNS_IN_DORNOGAL",
 				export = true,
@@ -372,7 +372,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	}))),
 	i(206007, {	-- Treasure Nabbin' Bag
 		-- #if BEFORE 11.1.7
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Can be earned by logging into Diablo Immortal on a level 10+ character during the 'Eternal War' crossover event between 13 November 2024, 3:00 a.m. & 11 December 2024, 2:59 a.m. local server time.",
 			constant = "CAN_BE_EARNED_BY_LOGGING_INTO_DIABLO_IMMORTAL",
 			export = true,
@@ -397,7 +397,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	-- 	["description"] = "+5% Drop Rate for all Pre-Dragonflight Mounts.",
 	-- }),
 	n(DIABLO_IV, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Granted to players who owned WoW: The War Within and Diablo IV: Vessel of Hatred before January 7th, 2025.",
 			constant = "GRANTED_TO_PLAYERS_WHO_OWNED_WOW_THE_WAR_WITHIN",
 			export = true,

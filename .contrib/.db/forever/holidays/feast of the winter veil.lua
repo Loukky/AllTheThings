@@ -61,7 +61,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 			}),
 		}),
 		n(MAILBOX, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These recipes are mailed to characters with the corresponding profession(s) at the start of the event.",
 				constant = "THESE_RECIPES_ARE_MAILED_TO_CHARACTERS_WITH_THE",
 				export = true,
@@ -82,7 +82,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 			["groups"] = {
 				i(17724),	-- Pattern: Green Holiday Shirt (RECIPE!)
 				i(17712, {	-- Winter Veil Disguise Kit (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Greatfather Winter will mail this to you 24 hours after you complete the 'A Smokywood Pastures Thank You!' quest.",
 						constant = "GREATFATHER_WINTER_WILL_MAIL_THIS_TO_YOU_24",
 						export = true,
@@ -157,7 +157,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 				},
 			}),
 			q(8767, {	-- A Gently Shaken Gift [Non-Spell Casters Only] (Before 2015)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Given prior to 2015 exclusively to non-spell casters.",
 					constant = "GIVEN_PRIOR_TO_2015_EXCLUSIVELY_TO_NON_SPELL",
 					export = true,
@@ -188,7 +188,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 				},
 			}),
 			q(8788, {	-- A Gently Shaken Gift [Spell Casters Only] (Before 2015)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Given prior to 2015 exclusively to spell casters.",
 					constant = "GIVEN_PRIOR_TO_2015_EXCLUSIVELY_TO_SPELL",
 					export = true,
@@ -354,7 +354,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 				},
 			}),
 			q(8860, {	-- New Year Celebrations! (Alliance)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is only available on December 31. Quest can be obtained from Wonderform Operator in any major city.",
 					constant = "THIS_QUEST_IS_ONLY_AVAILABLE_ON_DECEMBER_31",
 					export = true,
@@ -530,7 +530,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 				},
 			},
 			q(8827,{	-- Winter's Presents [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest becomes available after the 25th.",
 					constant = "THIS_QUEST_BECOMES_AVAILABLE_AFTER_THE_25TH",
 					export = true,
@@ -601,7 +601,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 		}),
 		n(VENDORS, {
 			n(COMMON_VENDOR_ITEMS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These items can be found on any of the holiday vendors.",
 					constant = "THESE_ITEMS_CAN_BE_FOUND_ON_ANY_OF_THE_HOLIDAY",
 					export = true,
@@ -664,7 +664,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(createHeader({
 			}),
 		}),
 		n(15760, {	-- Winter Reveler
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Type /kiss while targeting any Winter Reveler to receive one of the following items.\n\nNOTE: While the debuff persists, you will be unable to kiss another one.",
 				constant = "TYPE_KISS_WHILE_TARGETING_ANY_WINTER_REVELER_TO",
 				export = true,

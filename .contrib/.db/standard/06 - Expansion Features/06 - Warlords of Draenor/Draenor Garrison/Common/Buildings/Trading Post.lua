@@ -30,7 +30,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}),
 				n(QUESTS, {
 					q(36948, {	-- Auctioning for Parts
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing this quest grants you the ability to access the Auction House from your Garrison.",
 							constant = "COMPLETING_THIS_QUEST_GRANTS_YOU_THE_ABILITY_TO",
 							export = true,

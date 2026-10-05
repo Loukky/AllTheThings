@@ -11,7 +11,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(VENTHYR, {
 		n(REWARDS, {
 			i(183699, {	-- Exquisite Ingredients
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only Obtainable from Theotar Soulbind.",
 					constant = "ONLY_OBTAINABLE_FROM_THEOTAR_SOULBIND",
 					export = true,
@@ -997,7 +997,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 					}),
 					i(245501, {	-- Venthyr Tome of Unforgiven Sins
 						-- ["minReputation"] = { },	-- renown 65
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires Renown 65",
 							constant = "REQUIRES_RENOWN_65",
 							export = true,

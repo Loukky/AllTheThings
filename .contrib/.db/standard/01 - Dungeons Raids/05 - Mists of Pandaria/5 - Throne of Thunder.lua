@@ -728,7 +728,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					})),
 					n(ZONE_DROPS, {
 						i(98136, {	-- Gastropod Shell (TOY!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Go up and give this mob a BIG HUG...just kidding; stay out of its melee range.",
 								constant = "GO_UP_AND_GIVE_THIS_MOB_A_BIG_HUG_JUST_KIDDING",
 								export = true,
@@ -773,7 +773,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 67977 },	-- Tortos
 						["groups"] = {
 							i(98132, {	-- Shado-Pan Geyser Gun (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Must obtain 250 stacks of Spray Water from the geysers before Tortos.",
 									constant = "MUST_OBTAIN_250_STACKS_OF_SPRAY_WATER_FROM_THE",
 									export = true,
@@ -814,7 +814,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 68036 },	-- Durumu the Forgotten
 						["groups"] = {
 							header(HEADERS.Item, 212750, {	-- Grimoire of the Ancient Observer
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "1. Queue for Halls of Flesh-Shaping LFR at Mogu'Shan Palace in the Vale of Eternal Blossoms. If you can't see the LFR queue NPC, speak to Zidormi outside to change phase.\n2. Kill Durumu and loot Durumu's Glass Pupil, then use the item, it doesn't matter where you target the throw.\n3. Wait for the candles around the edge of the platform to spawn in, then head for the purple circle with the cauldrons and the book.\n4. Click the book to get started. :)\n\nYou'll be shown a puzzle that connects some of the candles with coloured beams. You have to count how many beams there are of each colour and click the corresponding cauldron colour that many times.\ne.g 2 candles are connected with 1 beam of green light. Click the green cauldron once.\nYou can keep track of your clicks in your buffs. Once you have the numbers right, click the book to proceed. If you're wrong, the book will knock you over and reset your buffs but will not reset the whole chain of puzzles. You can also right-click off the buff if you overshoot to avoid resetting all of them.\nAs the puzzles progress and get more complicated, the purple cauldron will start giving you more than 1 stack of the purple buff when you click it. This is to help you get to the higher numbers faster. Be careful when you start spam clicking!\n\nTo calculate the higher purple numbers:\nThere are a couple different methods to count them, however the easiest way is using the automatic calculator linked in the WoWhead comments for this item.\n\nThanks to Fiamma from WoWhead for the comment.",
 									constant = "1_QUEUE_FOR_HALLS_OF_FLESH_SHAPING_LFR_AT_MOGU",
 									export = true,
@@ -898,7 +898,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				-- #endif
 				["groups"] = {
 					i(95343, {	-- Treasures of the Thunder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is awarded as a consolation prize to players who did not win loot after defeating a boss encounter in the Raid Finder mode of Throne of Thunder.",
 							constant = "THIS_ITEM_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO_3",
 							export = true,
@@ -945,7 +945,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						},
 					}),
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These can drop from any of the bosses.",
 							constant = "THESE_CAN_DROP_FROM_ANY_OF_THE_BOSSES",
 							export = true,
@@ -1196,7 +1196,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 69017 },	-- Primordius
 							["groups"] = {
 								i(97959, {	-- Living Fluid (PET!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This only drops in LFR.",
 										constant = "THIS_ONLY_DROPS_IN_LFR",
 										export = true,
@@ -1340,7 +1340,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				i(97153, {	-- Spoils of the Thunder King
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded from completing the Weekly Raid Quest.\n\nThis bag contains gold, flasks, reagents, epic necklaces, and has chance to drop a Primal Egg.",
 						constant = "AWARDED_FROM_COMPLETING_THE_WEEKLY_RAID_QUEST",
 						export = true,
@@ -2254,7 +2254,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["ignoreBonus"] = true,
 				["groups"] = {
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These can drop from any of the bosses other than Ra-den.",
 							constant = "THESE_CAN_DROP_FROM_ANY_OF_THE_BOSSES_OTHER",
 							export = true,

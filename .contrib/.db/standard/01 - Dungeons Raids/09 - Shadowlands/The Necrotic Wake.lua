@@ -13,7 +13,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				header(HEADERS.Achievement, 14339, {	-- Shard Labor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Quest tracking must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide. There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.\n\nGoblin Gliders are required for some of the shards in Bastion. Being part of the |cFFfe040fVenthyr Covenant|r is not required, but the |cFFfe040fDoor of Shadows|r ability does trivialize a few of the more annoying shards!",
 						constant = "QUEST_TRACKING_MUST_BE_ENABLED_TO_SEE_THE_2",
 						export = true,
@@ -33,7 +33,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					}),
 					["groups"] = sharedData({ ["name"] = "Anima Crystal Shard", ["icon"] = 3528288 }, {
 						q(61296, {	-- Anima Crystal Shard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After Blightbone, go up the stairs to the middle platform. Straight ahead is a large fallen bell. The shard is behind it on the right-hand side.",
 								constant = "AFTER_BLIGHTBONE_GO_UP_THE_STAIRS_TO_THE_MIDDLE",
 								export = true,
@@ -53,7 +53,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 							}),
 						}),
 						q(61297, {	-- Anima Crystal Shard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Before Amarth, at the middle of the top of the final platform is a little outcropping that juts north. Climb behind the large broken pillar. Behind it is a small broken pillar, and the shard is behind that.",
 								constant = "BEFORE_AMARTH_AT_THE_MIDDLE_OF_THE_TOP_OF_THE",
 								export = true,

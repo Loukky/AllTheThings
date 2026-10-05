@@ -82,7 +82,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						["filterID"] = MOUNTS,
 					}),
 					i(46708, {	-- Deadly Gladiator's Frost Wyrm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during Wrath Season 1 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_5",
 							export = true,
@@ -1041,7 +1041,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						["filterID"] = MOUNTS,
 					}),
 					i(46171, {	-- Furious Gladiator's Frost Wyrm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during Wrath Season 2 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_6",
 							export = true,
@@ -1430,7 +1430,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						["filterID"] = MOUNTS,
 					}),
 					i(47840, {	-- Relentless Gladiator's Frost Wyrm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during Wrath Season 3 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_7",
 							export = true,
@@ -1825,7 +1825,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 						["filterID"] = MOUNTS,
 					}),
 					i(50435, {	-- Wrathful Gladiator's Frost Wyrm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during Wrath Season 4 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_8",
 							export = true,
@@ -2159,7 +2159,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.WRATH, run(MarkOfWHOOOWHATNow, {
 					i(51534, {	-- Wrathful Gladiator's Tabard
 						-- #if ANYCLASSIC
 						-- #if AFTER CATA
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This was never removed from the vendor in Classic.",
 							constant = "THIS_WAS_NEVER_REMOVED_FROM_THE_VENDOR_IN",
 							export = true,

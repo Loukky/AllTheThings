@@ -7,7 +7,7 @@ local REMOVED_WITH_RETURN_TO_KARAZHAN = { REMOVED_7_1_0 };
 root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, {
 	inst(745, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_3 } }, {	-- Karazhan (Raid)
 		["lore"] = "Karazhan is an abandoned citadel located on a nexus of ley lines in southern Deadwind Pass. The tower is best known for its last known occupant - Medivh, the last Guardian of Tirisfal. After Medivh was killed by Khadgar, Anduin Lothar, and Garona, the tower sealed itself off from the rest of the world. But recently, Karazhan has reawakened - an evil presence has taken the tower as its own, its halls crawling with spirits and demons, and Medivh's presence is still alive and well, even decades after his death.",
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The best route for a full clear:\n1. Turn right immediately after going through the Gatehouse Door and enter the Servant's Quarters.\n2. From the western bat room goes a passage up to the Guest Chambers. Ignore the passage to the right until this section is cleared.\n3. Ignore the Opera Hall, go downstairs through the ballroom to Moroes and further through the kitchen and stables for Attumen the Huntsman. Here you will also find the practical vendor Koren (requires Honored with The Violet Eye).\n4. Back to the Gatehouse and upstairs to the Opera Hall, from here is the raid linear to last boss.",
 			constant = "THE_BEST_ROUTE_FOR_A_FULL_CLEAR_1_TURN_RIGHT",
 			export = true,
@@ -137,7 +137,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 										{ "i",  24492 },	-- Keanna's Log
 										{ "o", 182199 },	-- Keanna's Log
 									},
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In the second room on a table in the hall leading to Maiden.",
 										constant = "IN_THE_SECOND_ROOM_ON_A_TABLE_IN_THE_HALL",
 										export = true,
@@ -649,7 +649,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			})),
 			filter(REAGENTS, {
 				i(21882, {	-- Soul Essence
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Undead creatures in Karazhan.",
 						constant = "DROPS_FROM_UNDEAD_CREATURES_IN_KARAZHAN",
 						export = true,
@@ -671,7 +671,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			n(VENDORS, {
 				n(16388, {	-- Koren
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This vendor is located in the Livery Stables, but will only serve characters that are at least Honoured with The Violet Eye.",
 						constant = "THIS_VENDOR_IS_LOCATED_IN_THE_LIVERY_STABLES",
 						export = true,
@@ -697,7 +697,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				n(17518, {	-- Ythyar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This vendor is located in the Guardian's Library.",
 						constant = "THIS_VENDOR_IS_LOCATED_IN_THE_GUARDIAN_S",
 						export = true,
@@ -720,7 +720,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(25902),	-- Design: Powerful Earthstorm Diamond (RECIPE!)
 						i(22535, {	-- Formula: Enchant Ring - Striking (RECIPE!)
 							-- #if AFTER 6.0.2
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This grey item is now needed for the second half of the secret involving the battle pet Baa'l.",
 								constant = "THIS_GREY_ITEM_IS_NOW_NEEDED_FOR_THE_SECOND",
 								export = true,
@@ -769,7 +769,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				i(30667),	-- Ring of Unrelenting Storms
 			}),
 			e(1552, {	-- Servant's Quarters
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "One of the following rares will spawn after clearing 90% of the mobs in the Servant's Quarters. An emote will appear in the General Chat when one of the spawns. This is not a boss encounter, thus you can leave the raid, reset the instance and repeat the process as many times as you want as long as no bosses are killed.",
 					constant = "ONE_OF_THE_FOLLOWING_RARES_WILL_SPAWN_AFTER",
 					export = true,
@@ -795,7 +795,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(25707),	-- Fel Hide
 					}),
 					n(16181, {	-- Rokad the Ravager
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns innermost in the big hounds room.",
 							constant = "SPAWNS_INNERMOST_IN_THE_BIG_HOUNDS_ROOM",
 							export = true,
@@ -821,7 +821,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						},
 					}),
 					n(16179, {	-- Hyakiss the Lurker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns in the northwestern corner of the big spider room. This rare is in stealth thus can be hard to find.",
 							constant = "SPAWNS_IN_THE_NORTHWESTERN_CORNER_OF_THE_BIG",
 							export = true,
@@ -847,7 +847,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						},
 					}),
 					n(16180, {	-- Shadikith the Glider
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns in the eastern bat room.",
 							constant = "SPAWNS_IN_THE_EASTERN_BAT_ROOM",
 							export = true,
@@ -948,7 +948,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1556, {	-- Opera Hall
 				["creatureID"] = 16812,	-- Barnes <The Stage Manager>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|CFFFF0000Moroes MUST be killed before you are allowed to participate in the Opera event.|r",
 					constant = "CFFFF0000MOROES_MUST_BE_KILLED_BEFORE_YOU_ARE",
 					export = true,
@@ -968,7 +968,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 				["groups"] = {
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These items can drop from any of the Opera Hall bosses.",
 							constant = "THESE_ITEMS_CAN_DROP_FROM_ANY_OF_THE_OPERA_HALL",
 							export = true,
@@ -1123,7 +1123,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1560, {	-- Terestian Illhoof
 				["creatureID"] = 15688,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|CFFFF0000This boss is easy to miss!|r Working your way upwards through Guardian's Library, you will find the passage sloping slightly down to a room with a Disconcerting Bookshelf. This bookshelf reveals the hidden corridor to the boss.",
 					constant = "CFFFF0000THIS_BOSS_IS_EASY_TO_MISS_R_WORKING",
 					export = true,
@@ -1196,7 +1196,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1561, {	-- Netherspite
 				["creatureID"] = 15689,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the top of Guardian's Library does the passage split in two, a left upwards and a right downwards. The left passage takes you to Netherspite, and the right takes you to the two last bosses.",
 					constant = "AT_THE_TOP_OF_GUARDIAN_S_LIBRARY_DOES_THE",
 					export = true,
@@ -1236,7 +1236,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				["creatureID"] = 16816,	-- Echo of Medivh
 				["provider"] = { "o", 185119 },	-- Dust Covered Chest
 				-- #if AFTER 9.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You have two options with this chess event: Either actively play it through with a higher success rate, or immediately leave the king vehicle after starting the event and take a 5 minute break from the game, this has a 50% success rate.",
 					constant = "YOU_HAVE_TWO_OPTIONS_WITH_THIS_CHESS_EVENT",
 					export = true,

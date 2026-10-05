@@ -5,7 +5,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 		i(234425, {	-- Forgotten Folio
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from the last boss of Mythic Dungeons. It contains various dungeon dropped profession recipes.",
 				constant = "DROPS_FROM_THE_LAST_BOSS_OF_MYTHIC_DUNGEONS_IT",
 				export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		})),
 		n(QUESTS, {
 			q(87327, {	-- A Challenger's Resilience
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Granted automatically once you have completed each seasonal dungeon in time on at least +12 difficulty.\n\nCan be completed each season.",
 					constant = "GRANTED_AUTOMATICALLY_ONCE_YOU_HAVE_COMPLETED",
 					export = true,

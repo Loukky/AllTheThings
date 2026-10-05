@@ -44,7 +44,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 				ach(62341),	-- Abundance: Ain't Dun Till It's Dun
 				ach(62266),	-- Abundance: An Acolyte no Longer
 				ach(62338, {	-- Abundance: Artisan
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires you to click 4 profession items during an Abundance.\nRequires 25 or more Skill to click.\nEach zone has specific professions:\n\nEversong Woods: Enchanting, Jewelcrafting, Tailoring\n\nZul’Aman: Cooking, Leatherworking, Skinning\n\nHarandar: Alchemy, Herbalism, Inscription\n\nVoidstorm: Blacksmithing, Engineering, Mining",
 						constant = "REQUIRES_YOU_TO_CLICK_4_PROFESSION_ITEMS_DURING",
 						export = true,
@@ -86,7 +86,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 			}),
 			n(MAILBOX, {
 				i(274578, {	-- Offering of Unalloyed Abundance
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted at the start of 12.0.5 to players who did not receive appropriate amounts of Unalloyed Abundance for their efforts prior to that point.",
 						constant = "GRANTED_AT_THE_START_OF_12_0_5_TO_PLAYERS_WHO",
 						export = true,

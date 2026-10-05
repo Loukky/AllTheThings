@@ -21,7 +21,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(115732, {	-- Jorvild the Trusted
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The coordinates provided will take you to a small, door-sized cave entrance. It's hidden in some mist and, depending on your camera angle, can be difficult to see.",
 							constant = "THE_COORDINATES_PROVIDED_WILL_TAKE_YOU_TO_A",
 							export = true,

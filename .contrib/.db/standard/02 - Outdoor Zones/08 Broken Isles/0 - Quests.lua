@@ -15,7 +15,7 @@ root(ROOTS.Zones, {
 					ach(11189),	-- Variety is the Spice of Life
 				}),
 				header(HEADERS.Spell, 41341, {	-- Balance of Power
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The only known requirement to start this questline is the completion of your class campaign.",
 						constant = "THE_ONLY_KNOWN_REQUIREMENT_TO_START_THIS",
 						export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Zones, {
 					}),
 					["groups"] = {
 						q(43496, {	-- The Power Within
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is available if you *have* completed the quests at Azurewing Repose in Azsuna.",
 								constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_HAVE_COMPLETED",
 								export = true,
@@ -58,7 +58,7 @@ root(ROOTS.Zones, {
 							["classes"] = exclude(MAGE, ALL_CLASSES),
 						}),
 						q(43501, {	-- The Power Within
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is available if you *have not* completed the quests at Azurewing Repose in Azsuna.",
 								constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_HAVE_NOT",
 								export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Zones, {
 							["classes"] = { MAGE },
 						}),
 						q(43505, {	-- The Power Within
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is available if you have *not* completed the quests at Azurewing Repose in Azsuna.",
 								constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_HAVE_NOT_2",
 								export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, {
 							["maps"] = { SURAMAR },
 						}),
 						q(43523, {	-- Repaid Debt
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is available if you *have* completed the Moonguard Stronghold quests in Suramar.",
 								constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_HAVE_COMPLETED_2",
 								export = true,
@@ -218,7 +218,7 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 110773 },	-- Archmage Kalec
 						}),
 						q(43527, {	-- Saving the Guard
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is available if you have *not* completed the Moonguard Stronghold quests in Suramar.",
 								constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_HAVE_NOT_3",
 								export = true,
@@ -498,7 +498,7 @@ root(ROOTS.Zones, {
 					["maps"] = CLASS_HALL_MAPS,
 					["groups"] = {
 						q(44009, {	-- A Falling Star (non-Paladin)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The prerequisite for this quest is recruiting your class's first two champions, doing your first short mission, and recruiting your first troops.",
 								constant = "THE_PREREQUISITE_FOR_THIS_QUEST_IS_RECRUITING",
 								export = true,
@@ -529,7 +529,7 @@ root(ROOTS.Zones, {
 							["groups"] = { i(140574) },	-- Mysterious Lightbound Object (QI!)
 						}),
 						q(44004, {	-- Bringer of the Light
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest sends you to a scenario involving The Exodar and Prophet Velen. Before you kill the final boss, make sure to do everything contained within!",
 								constant = "THIS_QUEST_SENDS_YOU_TO_A_SCENARIO_INVOLVING",
 								export = true,
@@ -576,7 +576,7 @@ root(ROOTS.Zones, {
 									},
 								}),
 								q(43705, {	-- Nobundo's Last Stand
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This quest can only be completed during the \"In Defense of the Exodar\" scenario. If you want to complete this optional quest, you MUST pick it up before completing the Step 2 objectives (Portals and Terrified Citizens) or else it will not be available!",
 										constant = "THIS_QUEST_CAN_ONLY_BE_COMPLETED_DURING_THE_IN",
 										export = true,
@@ -618,7 +618,7 @@ root(ROOTS.Zones, {
 							["groups"] = { i(140763) },	-- Light's Heart (QI!)
 						}),
 						q(44337, {	-- Goddess Watch Over You
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are two versions of this quest: One for players that have already finished the quest chain to recover the Tears of Elune and one for those that haven't yet.\n\nThis one is for players that have.",
 								constant = "THERE_ARE_TWO_VERSIONS_OF_THIS_QUEST_ONE_FOR",
 								export = true,
@@ -640,7 +640,7 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 113686 },	-- Archmage Khadgar
 						}),
 						q(44338, {	-- Goddess Watch Over You
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are two versions of this quest: One for players that have already finished the quest chain to recover the Tears of Elune and one for those that haven't yet.\n\nThis one is for players that haven't.",
 								constant = "THERE_ARE_TWO_VERSIONS_OF_THIS_QUEST_ONE_FOR_2",
 								export = true,
@@ -680,7 +680,7 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 113857 },	-- Light's Heart
 						}),
 						q(44479, {	-- Ravencrest's Legacy
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest sends you to a scenario involving Kur'talos Ravencrest, Illidan Stormrage, and the ill-fated Moonguard. Before you kill the final boss, make sure to do everything contained within!",
 								constant = "THIS_QUEST_SENDS_YOU_TO_A_SCENARIO_INVOLVING_2",
 								export = true,
@@ -703,7 +703,7 @@ root(ROOTS.Zones, {
 							["maps"] = { 793 },	-- Scenario: Black Rook Hold
 							["groups"] = {
 								q(44414, {	-- Felspawns of Lothros
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This quest can only be completed while in the Ravencrest's Legacy scenario.",
 										constant = "THIS_QUEST_CAN_ONLY_BE_COMPLETED_WHILE_IN_THE",
 										export = true,
@@ -769,7 +769,7 @@ root(ROOTS.Zones, {
 							["groups"] = { i(249230, { ["timeline"] = { ADDED_LEGION_REMIX, REMOVED_LEGION_REMIX_END }}) },	-- Temple of Zin-Malor Scroll (QI!)
 						}),
 						q(44496, {	-- Destiny Unfulfilled
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are three versions of this quest: One for Demon Hunters, one for players that have defeated Illidan in the Black Temple, and one for players that haven't.\n\nThis one is for players that haven't killed him.",
 								constant = "THERE_ARE_THREE_VERSIONS_OF_THIS_QUEST_ONE_FOR",
 								export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(44497, {	-- Destiny Unfulfilled
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are three versions of this quest: One for Demon Hunters, one for players that have defeated Illidan in the Black Temple, and one for players that haven't.\n\nThis one is for Hunters and Demon Hunters only.",
 								constant = "THERE_ARE_THREE_VERSIONS_OF_THIS_QUEST_ONE_FOR_2",
 								export = true,
@@ -827,7 +827,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(44481, {	-- Destiny Unfulfilled
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are three versions of this quest: One for Demon Hunters, one for players that have defeated Illidan in the Black Temple, and one for players that haven't.\n\nThis one is for players that have defeated him.",
 								constant = "THERE_ARE_THREE_VERSIONS_OF_THIS_QUEST_ONE_FOR_3",
 								export = true,
@@ -908,7 +908,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(41368, {	-- Lost Mail
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To get this quest, you must find a small envelope near a mailbox in Broken Isles Dalaran. It can spawn in multiple places and has a long respawn timer. If you don't want to wait, you can try to find Lost Mail for sale on the Auction House.",
 							constant = "TO_GET_THIS_QUEST_YOU_MUST_FIND_A_SMALL",
 							export = true,
@@ -929,7 +929,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "i", 134859 },	-- Lost Mail
 					}),
 					q(41411, {	-- Lost Mail
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you don't want to camp out to start the questline, you can try to find Lost Mail for sale on the Auction House. (Players who complete the questline will get a piece of mail that can be traded or sold.)",
 							constant = "IF_YOU_DON_T_WANT_TO_CAMP_OUT_TO_START_THE",
 							export = true,
@@ -950,7 +950,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "i", 135479 },	-- Lost Mail
 					}),
 					q(46278, {	-- Return to Sender
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After turning in the Lost Mail to Madam Goya in the Underbelly, you'll receive a letter from the Postmaster instructing you to report for duty!  Use the Mail Tube at the coordinates provided to head down to the mail room.",
 							constant = "AFTER_TURNING_IN_THE_LOST_MAIL_TO_MADAM_GOYA_IN",
 							export = true,
@@ -1001,7 +1001,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 68.6, 73.1, FERALAS },
 					}),
 					q(50247, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 } }, {	-- The Mail Must Flow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you finish performing menial tasks for Johnny Awesome, you'll receive another letter from the Postmaster requesting your presence in the mail room.",
 							constant = "AFTER_YOU_FINISH_PERFORMING_MENIAL_TASKS_FOR",
 							export = true,
@@ -1027,7 +1027,7 @@ root(ROOTS.Zones, {
 					})),
 					ach(12431, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 } }, {	-- Post Haste
 						["sourceQuests"] = { 50247 },	-- The Mail Must Flow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Once you've done the last quest, you can speak to the Postmaster again to offer more assistance sorting letters.",
 							constant = "ONCE_YOU_VE_DONE_THE_LAST_QUEST_YOU_CAN_SPEAK",
 							export = true,

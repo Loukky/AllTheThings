@@ -46,7 +46,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 		}),
 		pickpocketing({
 			i(7923,	{	-- Defias Tower Key (QI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can also be killed for the key, though hits hard for lower level rogues.",
 					constant = "CAN_ALSO_BE_KILLED_FOR_THE_KEY_THOUGH_HITS_HARD",
 					export = true,
@@ -162,7 +162,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 				},
 			}),
 			q(3861, {	-- CLUCK!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Simply target any Chicken and spam |cFFFFD700/chicken|r at it until it emotes at you. This will take about 100 emotes. (make a macro!)\n\nOnce it does, type /cheer with it targetted.\n\nThe Chicken will never turn friendly for a Horde player, even if they get the emote.",
 					constant = "SIMPLY_TARGET_ANY_CHICKEN_AND_SPAM_CFFFFD700",
 					export = true,
@@ -196,7 +196,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 				["repeatable"] = true,
 				["groups"] = {
 					i(11110, {	-- Westfall Chicken (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "A Horde player can get this pet if they have an Alliance character complete the quest itself and allow the Horde player to loot the egg.",
 							constant = "A_HORDE_PLAYER_CAN_GET_THIS_PET_IF_THEY_HAVE_AN",
 							export = true,
@@ -826,7 +826,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 		}),
 		n(RARES, {
 			n(520, {	-- Brack
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Brack is running up and down the beach.",
 					constant = "BRACK_IS_RUNNING_UP_AND_DOWN_THE_BEACH",
 					export = true,
@@ -879,7 +879,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 				},
 			}),
 			n(572, {	-- Leprithus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns at BOTH the northern and west-most southern spawn points at approximately 20:00/8 PM server time. If you are quick, you could probably snag both.",
 					constant = "SPAWNS_AT_BOTH_THE_NORTHERN_AND_WEST_MOST",
 					export = true,
@@ -908,7 +908,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 				},
 			}),
 			n(1424, {	-- Master Digger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns inside Jangolode Mine.",
 					constant = "SPAWNS_INSIDE_JANGOLODE_MINE",
 					export = true,
@@ -942,7 +942,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 				},
 			}),
 			n(519, {	-- Slark
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Slark is running around the beach.",
 					constant = "SLARK_IS_RUNNING_AROUND_THE_BEACH",
 					export = true,
@@ -1112,7 +1112,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WESTFALL, {
 			}),
 			i(769),	-- Chunk of Boar Meat
 			i(2673, {	-- Coyote Meat
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only drops from coyotes in Westfall.",
 					constant = "ONLY_DROPS_FROM_COYOTES_IN_WESTFALL",
 					export = true,

@@ -334,7 +334,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				n(SNUFFLING, {
 					n(QUESTS, {
 						q(80378, {	-- A Light of the Dark
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Quest Item drops from Nerubian enemies in the area.\nYou may need to get a few stacks of Unseeming Shift by standing in Blood Pools.",
 								constant = "QUEST_ITEM_DROPS_FROM_NERUBIAN_ENEMIES_IN_THE",
 								export = true,
@@ -360,7 +360,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							},
 						}),
 						q(79555, {	-- Deep Wax Galactic
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Quest Item drops from Nerubian enemies in the area.",
 								constant = "QUEST_ITEM_DROPS_FROM_NERUBIAN_ENEMIES_IN_THE_2",
 								export = true,

@@ -250,7 +250,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				n(189289, {	-- Penumbrus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns underground.",
 						constant = "SPAWNS_UNDERGROUND",
 						export = true,

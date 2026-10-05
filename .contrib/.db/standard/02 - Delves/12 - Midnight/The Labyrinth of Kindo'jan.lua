@@ -245,7 +245,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					}),
 				}),
 				o(676583, {	-- Ancient Keyper's Bag
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns next to the corpse of 'Keeper of the Key' after you defeat him.\n He has a chance to spawn anywhere in the Labyrinth.",
 						constant = "SPAWNS_NEXT_TO_THE_CORPSE_OF_KEEPER_OF_THE_KEY",
 						export = true,
@@ -267,7 +267,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["groups"] = { i(282402) },	-- Archaic Amani Key
 				}),
 				o(696116, {	-- Impressive Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns after finishing 'Dundun' event.",
 						constant = "SPAWNS_AFTER_FINISHING_DUNDUN_EVENT",
 						export = true,
@@ -288,7 +288,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["coord"] = { 44.3, 73.3, LABYRINTH_KINDOJAN },	-- TODO: Does this happen only at the start in the Chamber of Rites?
 				}),
 				o(676747, {	-- Mislaid Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns randomly throughout the Labyrinth.",
 						constant = "SPAWNS_RANDOMLY_THROUGHOUT_THE_LABYRINTH",
 						export = true,
@@ -308,7 +308,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					}),
 				}),
 				o(677411, {	-- Mislaid Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found behind the 'Locked Doors' inside the Labyrinth.",
 						constant = "CAN_BE_FOUND_BEHIND_THE_LOCKED_DOORS_INSIDE_THE",
 						export = true,

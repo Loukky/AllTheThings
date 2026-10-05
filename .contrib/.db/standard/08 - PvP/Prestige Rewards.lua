@@ -3,7 +3,7 @@
 -----------------------------------------------
 
 root(ROOTS.PVP, pvp(n(PRESTIGE, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "System that was used during Legion Expansion.",
 		constant = "SYSTEM_THAT_WAS_USED_DURING_LEGION_EXPANSION",
 		export = true,
@@ -37,7 +37,7 @@ root(ROOTS.PVP, pvp(n(PRESTIGE, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(42978, {	-- A Royal Audience [Alliance]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You get this quest when you reach Prestige Rank 2.",
 						constant = "YOU_GET_THIS_QUEST_WHEN_YOU_REACH_PRESTIGE_RANK",
 						export = true,

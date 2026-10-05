@@ -206,7 +206,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		-- #endif
 		i(262982, {	-- Roofus (PET!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Part of the charity Roofus Pack.",
 				constant = "PART_OF_THE_CHARITY_ROOFUS_PACK",
 				export = true,
@@ -307,7 +307,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_4_2_0, REMOVED_5_4_7 },
 		}),
 		i(49662, {	-- Gryphon Hatchling (PET!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This item is available only if you purchase the Plush Toy and redeem the code.",
 				constant = "THIS_ITEM_IS_AVAILABLE_ONLY_IF_YOU_PURCHASE_THE",
 				export = true,
@@ -376,7 +376,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	-- #if AFTER 5.4.0.17153
 	filter(CONSUMABLES, {
 		-- #if BEFORE 6.0.2
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Only available in the Asian In-Game Shop.",
 			constant = "ONLY_AVAILABLE_IN_THE_ASIAN_IN_GAME_SHOP",
 			export = true,
@@ -998,7 +998,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_12_1_0 },
 		}),
 		i(239076, {	-- Herald of Sa'bak (MOUNT!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Also obtained if you set up a 6-Month WoW Subscription.",
 				constant = "ALSO_OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW",
 				export = true,

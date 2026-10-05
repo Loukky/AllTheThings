@@ -236,7 +236,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 		}),
 		-- #endif
 		n(QUESTS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The daily quests requires the following reagents:\nAutumnal Herbs - 60 (12 stacks) \nHoney - 100 (20 stacks)\nWild Turkey - 20\nPumpkin - 20 (4 stacks)\nPotato - 20 (4 stacks)\nCranberry - 20 (4 stacks)\nMild Spices - 20 (4 stacks)\nSimple Flour - 20 (4 stacks)\n\nThe most effective route is to start at Stormwind/Undercity and farm the Wild Turkeys from Elwynn/Tirisfal, then get every reagent from vendor. Then move on to the two other cities for their dailies. Order does not matter, but remember to buy Cranberries and Potatoes from the respective vendors! Then return to Stormwind/Undercity for the rest.",
 				constant = "THE_DAILY_QUESTS_REQUIRES_THE_FOLLOWING",
 				export = true,
@@ -796,7 +796,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PILGRIMS_BOUNTY, n(PILGRIMS_BOUNTY_HEADER
 		}),
 		n(ZONE_DROPS, {
 			i(189705, {	-- Turkey Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Gain the buff 'The Spirit of Sharing' by eating 5 stacks of each type of Pilgrim's Bounty food at the tables, then continue eating various foods.\nThe item will be auto-looted randomly when leaving a chair.",
 					constant = "GAIN_THE_BUFF_THE_SPIRIT_OF_SHARING_BY_EATING_5",
 					export = true,

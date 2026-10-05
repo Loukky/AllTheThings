@@ -55,7 +55,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(127703, {	-- Doomcaster Suprax
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Run through all three runes to summon the rare. He will give you a debuff that will instantly kill you, ignoring immunities, unless you kill him before it expires or you walk into Doom Stars.",
 							constant = "RUN_THROUGH_ALL_THREE_RUNES_TO_SUMMON_THE_RARE",
 							export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(127705, {	-- Mother Rosula
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Collect 100 |cFFFFD700Imp Meat|r from Felspawn Imps and combine them to create a |cFFFFD700Disgusting Feast|r. Place the feast at the cave's northern fel pool to summon the rare.",
 							constant = "COLLECT_100_CFFFFD700IMP_MEAT_R_FROM_FELSPAWN",
 							export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Zones, {
 						["coord"]  = { 72.5, 67.5, ANTORAN_WASTES },
 						["groups"] = {
 							i(212778, {	-- Grimoire of the Vile Tyrant (CI!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The grimoire only drops when Radix is in stasis and you have to rightclick to activate him.\nIf Radix is already active and has no loot, not even greys, then you cant loot the grimoire for this day.",
 									constant = "THE_GRIMOIRE_ONLY_DROPS_WHEN_RADIX_IS_IN_STASIS",
 									export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(127706, {	-- Rezira the Seer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to reach this rare you must use the Observer's Locus Resonator, purchaseable from Orix the All-Seer, use someone else's portal, or use an item like Falling Flame with a Goblin Glider to help you land in the correct place.",
 							constant = "IN_ORDER_TO_REACH_THIS_RARE_YOU_MUST_USE_THE",
 							export = true,
@@ -254,7 +254,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(126115, {	-- Ven'orn
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside the cave.",
 							constant = "INSIDE_THE_CAVE",
 							export = true,

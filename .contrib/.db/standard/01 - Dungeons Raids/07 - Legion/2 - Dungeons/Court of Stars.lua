@@ -111,7 +111,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(10611, {	-- Dropping Some Eaves
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Don't let any of the 5 Sentries complete their Sound Alarm cast, disable the 5 beacons before engaging the first boss, kill all 3 demons separately before pulling Talixae and then guess spy on the first try.",
 								constant = "DON_T_LET_ANY_OF_THE_5_SENTRIES_COMPLETE_THEIR",
 								export = true,

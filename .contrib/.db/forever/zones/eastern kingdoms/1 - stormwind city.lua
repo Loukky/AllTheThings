@@ -1432,7 +1432,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STORMWIND_CITY, {
 				["lvl"] = 28,
 			}),
 			q(1447, {	-- The Missing Diplomat (8/17)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Dashel Stonefist will spawn 2 level 26 adds to fight alongside him.",
 					constant = "DASHEL_STONEFIST_WILL_SPAWN_2_LEVEL_26_ADDS_TO",
 					export = true,
@@ -1724,7 +1724,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STORMWIND_CITY, {
 				["lvl"] = 20,
 				["groups"] = {
 					objective(1, {	-- Diagnosis Complete
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Type /lay to lie down to be examined.",
 							constant = "TYPE_LAY_TO_LIE_DOWN_TO_BE_EXAMINED",
 							export = true,
@@ -1853,7 +1853,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STORMWIND_CITY, {
 						["cost"] = {{ "i", 190308, 1 }},	-- Burning Torch
 					}),
 					i(190308, {	-- 0/1 Burning Torch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can light the torch using a campfire. If you don't have the cooking skill (or mats), you can go to the campfire near Talen at 15,31. Once lit, toss the torch on to the Archaeologist's Cart.",
 							constant = "YOU_CAN_LIGHT_THE_TORCH_USING_A_CAMPFIRE_IF_YOU",
 							export = true,
@@ -2084,7 +2084,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STORMWIND_CITY, {
 				},
 			}),
 			n(12777, {	-- Captain Dirgehammer <Armor Quartermaster>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found within the Champion's Hall.",
 					constant = "FOUND_WITHIN_THE_CHAMPION_S_HALL",
 					export = true,

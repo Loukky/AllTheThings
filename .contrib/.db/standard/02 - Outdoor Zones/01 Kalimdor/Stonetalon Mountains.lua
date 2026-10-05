@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				["groups"] = {
 					pet(488),	-- Coral Snake (PET!)
 					pet(412, {	-- Spider (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The best place to catch these seems to be south of Windshear Hold, but it can definitely be found in other listed places.",
 							constant = "THE_BEST_PLACE_TO_CATCH_THESE_SEEMS_TO_BE_SOUTH",
 							export = true,
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(506, {	-- Venomspitter Hatchling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found south of Windshear Hold in Webwinder Hollow with larger spiders.",
 							constant = "CAN_BE_FOUND_SOUTH_OF_WINDSHEAR_HOLD_IN",
 							export = true,
@@ -218,7 +218,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66137, {	-- Zonya the Sadist <Master Pet Tamer>
 					["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nZonya's pets are level 7 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_ZONYA_S_PETS_ARE",
 						export = true,
@@ -737,7 +737,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25931, {	-- Brood of Seldarria
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Hierophant Malyk at Farwatcher's Glen.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_3",
 						export = true,
@@ -1309,7 +1309,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["provider"] = { "i", 210187 },	-- Venture Co. Work Order
 						}),
 						i(210186, {	-- Breaching Charge
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use this on the door that's normally opened by the NPC after defeating the first boss.",
 								constant = "USE_THIS_ON_THE_DOOR_THAT_S_NORMALLY_OPENED_BY",
 								export = true,
@@ -1388,7 +1388,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				})),
 				q(25935, {	-- Hungry Pups
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Houndmaster Jonathan walks his restless, hungry pups, around the tree.",
 						constant = "HOUNDMASTER_JONATHAN_WALKS_HIS_RESTLESS_HUNGRY",
 						export = true,
@@ -1492,7 +1492,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25808, {	-- Is This Thing On?
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Lieutenant Paulson at the barricade near the entrance of The Deep Reaches.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_4",
 						export = true,
@@ -1778,7 +1778,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(26028, {	-- Mr. D's Wild Ride
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Warning: If you complete |cFFFFD700To Be Horde...|r, this quest cannot be completed.",
 						constant = "WARNING_IF_YOU_COMPLETE_CFFFFD700TO_BE_HORDE_R",
 						export = true,
@@ -2220,7 +2220,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				q(26009, {	-- Seek and Destroy
 					-- #if BEFORE 9.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest cannot be completed after level 30, after reaching Exalted with Orgrimmar, or after finishing the Stonetalon Mountains questline.",
 						constant = "THIS_QUEST_CANNOT_BE_COMPLETED_AFTER_LEVEL_30",
 						export = true,
@@ -2647,7 +2647,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25671, {	-- Thinning the Horde
 					-- #if BEFORE 9.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest cannot be completed after level 30, after reaching Exalted with Darnassus, or after finishing the Stonetalon Mountains questline.",
 						constant = "THIS_QUEST_CANNOT_BE_COMPLETED_AFTER_LEVEL_30_2",
 						export = true,

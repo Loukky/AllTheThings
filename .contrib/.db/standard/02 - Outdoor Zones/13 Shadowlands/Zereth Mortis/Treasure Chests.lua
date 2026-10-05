@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65477,
 			}),
 			o(375408, {	-- Architect's Reserve
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available after unlocking Protoform Synthesis: Mount.",
 					constant = "ONLY_AVAILABLE_AFTER_UNLOCKING_PROTOFORM",
 					export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375496, {	-- Bushel of Progenitor Produce
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill Nascent Servitor(182368) until you have 5 buffs then you can open the door.",
 					constant = "KILL_NASCENT_SERVITOR_182368_UNTIL_YOU_HAVE_5",
 					export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375188, {	-- Camber Alcove Arrangement
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Sopranian Understanding and Chapter 6.",
 					constant = "REQUIRES_SOPRANIAN_UNDERSTANDING_AND_CHAPTER_6_2",
 					export = true,
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["sym"] = {{"select","objectID",375746}},	-- Protoform Schematic
 			}),
 			o(375382, {	-- Crushed Supply Crate
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To open it you need to pick up a Jiro Hammer(189768). Ontop of the rock there is a repair tool that you can use to trade with the nearby Jiros(Hiu Fi 185151) for a Jiro Hammer.",
 					constant = "TO_OPEN_IT_YOU_NEED_TO_PICK_UP_A_JIRO_HAMMER",
 					export = true,
@@ -116,7 +116,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65489,
 			}),
 			o(370140, {	-- Damaged Jiro Stash
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping puzzle.",
 					constant = "JUMPING_PUZZLE",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375354, {	-- Domination Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The mob Mawsworn Inquisitor has a 1-2% drop chance for the key.",
 					constant = "THE_MOB_MAWSWORN_INQUISITOR_HAS_A_1_2_DROP",
 					export = true,
@@ -168,7 +168,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375191, {	-- Dormant Alcove Arrangement
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Altonian Understanding and Chapter 6. Accessible with flying or via the Quintus Locus and dropping down.",
 					constant = "REQUIRES_ALTONIAN_UNDERSTANDING_AND_CHAPTER_6",
 					export = true,
@@ -232,7 +232,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 			}),
 			o(375413, {	-- Drowned Broker Supplies
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Need to have completed Dealic Understanding. At 34.5, 70.5 there is a Coreless Aurelid(185282), use Popopoc to on it to get the chest.",
 					constant = "NEED_TO_HAVE_COMPLETED_DEALIC_UNDERSTANDING_AT",
 					export = true,
@@ -259,7 +259,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375376, {	-- Fallen Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Fogotten Translocator nearby to teleport up.",
 					constant = "USE_THE_FOGOTTEN_TRANSLOCATOR_NEARBY_TO",
 					export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375405, {	-- Filched Artifact
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping Puzzle, ontop of the tree ring.",
 					constant = "JUMPING_PUZZLE_ONTOP_OF_THE_TREE_RING",
 					export = true,
@@ -309,7 +309,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(373561, {	-- Forgotten Proto-Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This chest only spawn during WQ Frog'it (65089).",
 					constant = "THIS_CHEST_ONLY_SPAWN_DURING_WQ_FROG_IT_65089",
 					export = true,
@@ -334,7 +334,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375192, {	-- Fulgore Alcove Arrangement
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Aealic Understanding and Chapter 6.",
 					constant = "REQUIRES_AEALIC_UNDERSTANDING_AND_CHAPTER_6_2",
 					export = true,
@@ -356,7 +356,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65347,
 				["groups"] = {
 					o(375902, {	-- Torn Ethereal Drape
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gather 60 Cosmic energy and go to Interior Locus then use Arcae Locus. Take out Pocopoc, activate & ride an orb until it reaches the treasure.",
 							constant = "GATHER_60_COSMIC_ENERGY_AND_GO_TO_INTERIOR",
 							export = true,
@@ -388,7 +388,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375369, {	-- Gnawed Valise
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping Puzzle, Start on the top of the nearby vault. On the big rock.",
 					constant = "JUMPING_PUZZLE_START_ON_THE_TOP_OF_THE_NEARBY",
 					export = true,
@@ -410,7 +410,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65480,
 			}),
 			o(375484, {	-- Grateful Boon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pet all the creatures in the area. The creature will sit down after being petted. The Jiro will yell when you are done.",
 					constant = "PET_ALL_THE_CREATURES_IN_THE_AREA_THE_CREATURE",
 					export = true,
@@ -435,7 +435,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(373543, {	-- Library Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There are tablets around the Cave. The correct one is located in the back at 57.9 78.9.",
 					constant = "THERE_ARE_TABLETS_AROUND_THE_CAVE_THE_CORRECT",
 					export = true,
@@ -464,7 +464,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65441,
 			}),
 			o(375411, {	-- Mistaken Ovoid
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the cave. Need to collect 5xLost Ovoids around Zereth Mortis.",
 					constant = "INSIDE_THE_CAVE_NEED_TO_COLLECT_5XLOST_OVOIDS",
 					export = true,
@@ -490,7 +490,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375422, {	-- Overgrown Protofruit
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jump from the ledge above the flight path to the rock.",
 					constant = "JUMP_FROM_THE_LEDGE_ABOVE_THE_FLIGHT_PATH_TO",
 					export = true,
@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375481, {	-- Pilfered Curio
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need flying/teleport to get here, ontop of the pillar.",
 					constant = "YOU_NEED_FLYING_TELEPORT_TO_GET_HERE_ONTOP_OF",
 					export = true,
@@ -549,7 +549,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375485, {	-- Protoflora Harvester
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping Puzzle. Go around to get ontop of the rock behind the treasure and jump down.",
 					constant = "JUMPING_PUZZLE_GO_AROUND_TO_GET_ONTOP_OF_THE",
 					export = true,
@@ -574,7 +574,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375478, {	-- Protomineral Extractor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the cosmic system to get to the top and use some form of glide/teleport/flying.",
 					constant = "USE_THE_COSMIC_SYSTEM_TO_GET_TO_THE_TOP_AND_USE",
 					export = true,
@@ -599,7 +599,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375189, {	-- Repertory Alcove Arrangement
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Aealic Understanding and Chapter 6. Inside the Terrestrial Cache cave, on the side of the left wall after you enter.",
 					constant = "REQUIRES_AEALIC_UNDERSTANDING_AND_CHAPTER_6_3",
 					export = true,
@@ -621,7 +621,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65344,
 				["groups"] = {
 					n(185261, {	-- Requisites Originator
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gather 60 Cosmic energy and go to Interior Locus then use Repertory Locus.",
 							constant = "GATHER_60_COSMIC_ENERGY_AND_GO_TO_INTERIOR_2",
 							export = true,
@@ -649,7 +649,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["isWeekly"] = true,
 						["groups"] = {
 							i(189179, {	-- Unalloyed Bronze Ingot
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Select 4th option, 'Restore Genesis Potencies'.",
 									constant = "SELECT_4TH_OPTION_RESTORE_GENESIS_POTENCIES",
 									export = true,
@@ -673,7 +673,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375493, {	-- Ripened Protopear
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available inside the Blooming Foundary (63.2, 73.1) during Glimmercanes Questline (Need Sopranian Understanding). You need to collect 5 Pollen Cloud buffs (Green Clouds).",
 					constant = "AVAILABLE_INSIDE_THE_BLOOMING_FOUNDARY_63_2_73",
 					export = true,
@@ -700,7 +700,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375190, {	-- Rondure Alcove Arrangement
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Aealic Understanding and Chapter 6.\nLeft of an upwards stone ramp, in a small alcove.",
 					constant = "REQUIRES_AEALIC_UNDERSTANDING_AND_CHAPTER_6_4",
 					export = true,
@@ -732,7 +732,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375281, {	-- Stolen Relic
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping Puzzle.",
 					constant = "JUMPING_PUZZLE_2",
 					export = true,
@@ -754,7 +754,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["questID"] = 65447,
 			}),
 			o(375483, {	-- Stolen Scroll
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Jumping Puzzle, climb ontop of the slumbering vault in Haven.",
 					constant = "JUMPING_PUZZLE_CLIMB_ONTOP_OF_THE_SLUMBERING",
 					export = true,
@@ -780,7 +780,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(369757, {	-- Submerged Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bring Orb at 59,4, 76,8 to the pump.",
 					constant = "BRING_ORB_AT_59_4_76_8_TO_THE_PUMP",
 					export = true,
@@ -808,7 +808,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(374976, {	-- Symphonic Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Broken Automa next to chest will give you sound queues, press the remaning 4 Broken Consonoles in the correct order. With your back against the entrance:\nTOP RIGHT\nDOWN LEFT\nDOWN RIGHT\nTOP LEFT.",
 					constant = "THE_BROKEN_AUTOMA_NEXT_TO_CHEST_WILL_GIVE_YOU",
 					export = true,
@@ -833,7 +833,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375492, {	-- Syntactic Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside a cave. Now you need to touch 6 glowing things on columns with symbols all over the island. Each action give buff. Need to stack 6 (touch same amount of pylons) times and then touch glowing thing. Coords:\n77.0, 58.9\n77.0, 60.3\n78.1, 53.3\n76.8, 46.6\n81.2, 50.4\n80.9, 56.2",
 					constant = "INSIDE_A_CAVE_NOW_YOU_NEED_TO_TOUCH_6_GLOWING",
 					export = true,
@@ -866,7 +866,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(373548, {	-- Template Archive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found inside of Nexus of Actualization. Push Orb in the room before",
 					constant = "FOUND_INSIDE_OF_NEXUS_OF_ACTUALIZATION_PUSH_ORB",
 					export = true,
@@ -893,7 +893,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375495, {	-- Undulating Foliage
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is four runes that needs to be activated to activate the teleporter.",
 					constant = "THERE_IS_FOUR_RUNES_THAT_NEEDS_TO_BE_ACTIVATED",
 					export = true,
@@ -927,7 +927,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["questID"] = 65591,
 					}),
 					n(185393, {	-- Teleporter Lock
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This lock is outside of the Wards, next to the console that opens the door.",
 							constant = "THIS_LOCK_IS_OUTSIDE_OF_THE_WARDS_NEXT_TO_THE",
 							export = true,
@@ -983,7 +983,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375974, {	-- Crystallized Echo of the First Song
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns in multple places.",
 					constant = "SPAWNS_IN_MULTPLE_PLACES",
 					export = true,
@@ -1109,7 +1109,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375915, {	-- Glimmer of Serenity
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Multiple spawn places. Usually on top of an orb.",
 					constant = "MULTIPLE_SPAWN_PLACES_USUALLY_ON_TOP_OF_AN_ORB",
 					export = true,
@@ -1211,7 +1211,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375403, {	-- Pulp-Covered Relic
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to this chest multiple times and kill add waves.",
 					constant = "TALK_TO_THIS_CHEST_MULTIPLE_TIMES_AND_KILL_ADD",
 					export = true,
@@ -1247,7 +1247,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375404, {	-- Sandworn Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Key fragements drops in the area from mobs Sandworn Chest Key Fragment(190198)",
 					constant = "KEY_FRAGEMENTS_DROPS_IN_THE_AREA_FROM_MOBS",
 					export = true,
@@ -1287,7 +1287,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(376041, {	-- Shrouded Cypher Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Needs a piece with the ability to discover hidden caches equipped to see.",
 					constant = "NEEDS_A_PIECE_WITH_THE_ABILITY_TO_DISCOVER",
 					export = true,
@@ -1342,7 +1342,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 		})),
 		n(TREASURES, sharedData({ ["isWeekly"] = true }, {
 			o(373568, {	-- Provis Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use Firim's Spare Forge-tap to gain 15xEphemera Strands(187728) to get Ephemera Orb(187787), not guaranteed.",
 					constant = "USE_FIRIM_S_SPARE_FORGE_TAP_TO_GAIN_15XEPHEMERA",
 					export = true,

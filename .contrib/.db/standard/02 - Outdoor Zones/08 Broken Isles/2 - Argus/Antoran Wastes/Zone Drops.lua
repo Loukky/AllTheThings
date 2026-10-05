@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				n(ZONE_DROPS, {
 					header(HEADERS.NPC, 127943, {	-- Vishax's Portal
 						i(152940, {	-- Arc Circuit
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only drops after |cFFFFFFFFSmashed Portal Generator|r has been collected.",
 								constant = "ONLY_DROPS_AFTER_CFFFFFFFFSMASHED_PORTAL",
 								export = true,

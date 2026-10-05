@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 47.9, 62.6, KARESH },
 				}),
 				crit(106225, {	-- Empurror
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must fly up to reach him.",
 						constant = "MUST_FLY_UP_TO_REACH_HIM",
 						export = true,
@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 73.2, 23.7, KARESH },
 				}),
 				crit(106226, {	-- K'aresh'ire
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Phases between Visible and Untethered space every 10 seconds.",
 						constant = "PHASES_BETWEEN_VISIBLE_AND_UNTETHERED_SPACE",
 						export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 70.2, 54.2, KARESH },
 				}),
 				crit(106221, {	-- Little Ms. Phaser
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Phases between Visible and Untethered space every 15-20 seconds.",
 						constant = "PHASES_BETWEEN_VISIBLE_AND_UNTETHERED_SPACE_2",
 						export = true,
@@ -89,7 +89,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 61.0, 55.5, KARESH_TAZAVESH },
 				}),
 				crit(106223, {	-- The King in Silver
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to Phasedive in order to see the Purrkin.",
 						constant = "YOU_NEED_TO_PHASEDIVE_IN_ORDER_TO_SEE_THE",
 						export = true,

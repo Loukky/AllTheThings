@@ -72,7 +72,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 		}),
 		prof(FISHING, {
 			i(6651, {	-- Broken Wine Bottle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from fishing in the Sludge Fen.",
 					constant = "DROPS_FROM_FISHING_IN_THE_SLUDGE_FEN",
 					export = true,
@@ -119,7 +119,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				["learnedAt"] = 25,
 				["groups"] = {
 					i(7968, {	-- Southsea Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When you open the chest, Polly will spawn and attack you. Use the E.C.A.C. to kill him and loot the treasure.",
 							constant = "WHEN_YOU_OPEN_THE_CHEST_POLLY_WILL_SPAWN_AND",
 							export = true,
@@ -1563,7 +1563,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				["lvl"] = 25,
 			}),
 			q(1498, {	-- Path of Defense
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Completing this quest prevents you from accepting \"Speak with Dillinger\" and \"Ulag the Cleaver\" in Silverpine Forest.",
 					constant = "COMPLETING_THIS_QUEST_PREVENTS_YOU_FROM",
 					export = true,
@@ -1791,7 +1791,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				["lvl"] = 14,
 			}),
 			q(866,	{	-- Root Samples
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To access this quest, you must have at least 40 skill in Herbalism.",
 					constant = "TO_ACCESS_THIS_QUEST_YOU_MUST_HAVE_AT_LEAST_40",
 					export = true,
@@ -2758,7 +2758,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 			}),
 			n(3672, {	-- Boahn <Druid of the Fang>
 				["coord"] = { 49.1, 33.9, MAP.THE_BARRENS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Roams around the waterfall just outside the Wailing Caverns dungeon portal.",
 					constant = "ROAMS_AROUND_THE_WATERFALL_JUST_OUTSIDE_THE",
 					export = true,
@@ -2816,7 +2816,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(4785, {	-- Brimstone Belt
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item.",
 							constant = "THIS_ITEM_IS_ONLY_NATURALLY_ACCESSIBLE_TO_HORDE_2",
 							export = true,
@@ -2994,7 +2994,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				},
 			}),
 			n(3652, {	-- Trigore the Lasher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the pool of water outside the Wailing Caverns dungeon portal.",
 					constant = "INSIDE_THE_POOL_OF_WATER_OUTSIDE_THE_WAILING",
 					export = true,
@@ -3021,7 +3021,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 		}),
 		n(TREASURES, {
 			o(3642, {	-- Kolkars' Booty
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Contains random low level greens.",
 					constant = "CONTAINS_RANDOM_LOW_LEVEL_GREENS",
 					export = true,
@@ -3174,7 +3174,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 					{ 52.4, 30.6, MAP.THE_BARRENS },
 					{ 61.8, 38.2, MAP.THE_BARRENS },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Travels on the road between Ratchet and The Crossroads.",
 					constant = "TRAVELS_ON_THE_ROAD_BETWEEN_RATCHET_AND_THE",
 					export = true,
@@ -3379,7 +3379,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				},
 			}),
 			i(5051, {	-- Dig Rat
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only drops from Dig Rats in The Barrens.",
 					constant = "ONLY_DROPS_FROM_DIG_RATS_IN_THE_BARRENS",
 					export = true,
@@ -3430,7 +3430,7 @@ maproot(MAP.KALIMDOR, MAP.THE_BARRENS, {
 				},
 			}),
 			i(6663, {	-- Recipe: Elixir of Giant Growth (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from any mob in the Barrens.",
 					constant = "CAN_DROP_FROM_ANY_MOB_IN_THE_BARRENS",
 					export = true,

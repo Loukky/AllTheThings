@@ -199,7 +199,7 @@ applyclassicphase(PHASE_SIX,
 							}),
 							-- #endif
 							q(9250, {	-- Frame of Atiesh
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Collect 40 of the Splinters to craft the Frame of Atiesh. This starts the quest chain for Atiesh. You will need to coordinate with your guild to get priority on Splinters.",
 									constant = "COLLECT_40_OF_THE_SPLINTERS_TO_CRAFT_THE_FRAME",
 									export = true,
@@ -235,7 +235,7 @@ applyclassicphase(PHASE_SIX,
 							["timeline"] = { ADDED_1_14_3, REMOVED_1_15_0 },	-- Was only available in Season of Mastery
 						})),
 						applyclassicphase(SOM_PHASE_ONE, i(191481, {	-- Tabard of Mastery
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This was obtained from killing Kel'Thuzad in Naxxramas40 on 'Season of Mastery' realms, while entire raid having the buff Undying Vanquisher that meant no one died before killing Kel'Thuzad in that raid lockout, (you could obtain Rune of Teleportation: Frostwyrm's Lair to bypass most of the raid making it so you only had to kill Sapphiron and Kel'Thuzad to obtain this as well)\n\nSince 'Season of Mastery' servers are no longer available, this tabard is now unobtainable in classic, maybe it comes back in 'Season of Discovery?' who knows.",
 								constant = "THIS_WAS_OBTAINED_FROM_KILLING_KEL_THUZAD_IN",
 								export = true,
@@ -1658,7 +1658,7 @@ applyclassicphase(PHASE_SIX,
 							},
 						}),
 						q(9233, {	-- Omarion's Handbook
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must not have a profession above 270 skill for you to get this item from Omarion.",
 								constant = "YOU_MUST_NOT_HAVE_A_PROFESSION_ABOVE_270_SKILL",
 								export = true,
@@ -1850,7 +1850,7 @@ applyclassicphase(PHASE_SIX,
 						i(22375),	-- Wartorn Plate Scrap
 						-- #endif
 						i(23055, {	-- Word of Thawing
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These can be used to loot the Frozen Runes scattered around the inside of Naxxramas.",
 								constant = "THESE_CAN_BE_USED_TO_LOOT_THE_FROZEN_RUNES",
 								export = true,
@@ -1887,7 +1887,7 @@ applyclassicphase(PHASE_SIX,
 						i(22682),	-- Frozen Rune
 						-- #else
 						o(181287, {	-- Frozen Rune
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use a Word of Thawing on this to collect 3-6 Frozen Runes.",
 								constant = "USE_A_WORD_OF_THAWING_ON_THIS_TO_COLLECT_3_6",
 								export = true,
@@ -2104,7 +2104,7 @@ applyclassicphase(PHASE_SIX,
 								["timeline"] = { ADDED_1_11_1 },
 								["groups"] = {
 									i(22719, {	-- Omarion's Handbook
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Non-crafters can take his handbook to Craftsman Wilhelm at Light's Hope Chapel who can make all the items as well, as long as the players provide the materials and pay a hefty fee.",
 											constant = "NON_CRAFTERS_CAN_TAKE_HIS_HANDBOOK_TO_CRAFTSMAN",
 											export = true,
@@ -2279,7 +2279,7 @@ applyclassicphase(PHASE_SIX,
 									i(23045),	-- Shroud of Dominion
 									i(23072, {	-- Fists of the Unrelenting
 										-- #if BEFORE TBC
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "These were made available after the TBC Prepatch.",
 											constant = "THESE_WERE_MADE_AVAILABLE_AFTER_THE_TBC",
 											export = true,

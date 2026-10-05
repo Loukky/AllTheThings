@@ -138,7 +138,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.DUN_MOROGH, {
 						["lvl"] = 4,
 						["groups"] = {
 							i(5175, {	-- Earth Totem
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must keep this in your bags forever.",
 									constant = "YOU_MUST_KEEP_THIS_IN_YOUR_BAGS_FOREVER",
 									export = true,
@@ -964,7 +964,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.DUN_MOROGH, {
 				},
 			}),
 			q(415, {	-- Rejold's New Brew
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you want to finish this, complete 'The Perfect Stout' and then do not accept Shimmer Stout after. Once you grab this quest and return to him, then you can grab Shimmer Stout!",
 					constant = "IF_YOU_WANT_TO_FINISH_THIS_COMPLETE_THE_PERFECT",
 					export = true,
@@ -1323,7 +1323,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.DUN_MOROGH, {
 				},
 			}),
 			q(433, {	-- The Public Servant
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The quest 'The Public Servant' gets flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
 					constant = "THE_QUEST_THE_PUBLIC_SERVANT_GETS_FLAGGED_AS",
 					export = true,
@@ -1555,7 +1555,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.DUN_MOROGH, {
 				},
 			}),
 			n(1137, {	-- Edan the Howler
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located in The Grizzled Den.",
 					constant = "LOCATED_IN_THE_GRIZZLED_DEN",
 					export = true,
@@ -1814,7 +1814,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.DUN_MOROGH, {
 		n(ZONE_DROPS, {
 			i(769),	-- Chunk of Boar Meat
 			i(2886, {	-- Crag Boar Rib
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only drops from Crag Boars in Dun Morogh.",
 					constant = "ONLY_DROPS_FROM_CRAG_BOARS_IN_DUN_MOROGH",
 					export = true,

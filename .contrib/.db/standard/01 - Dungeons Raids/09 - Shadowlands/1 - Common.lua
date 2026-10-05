@@ -6,7 +6,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 	n(COMMON_BOSS_DROPS, {
 		d(DIFFICULTY.RAID.HEROIC, {
 			i(191910, {	-- Confounding Antique Cypher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Fated Heroic Shadowlands Raid bosses.",
 					constant = "DROPS_FROM_FATED_HEROIC_SHADOWLANDS_RAID_BOSSES",
 					export = true,
@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		}),
 		d(DIFFICULTY.RAID.MYTHIC, {
 			i(191926, {	-- Confounding Ancient Cypher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Fated Mythic Shadowlands Raid bosses.",
 					constant = "DROPS_FROM_FATED_MYTHIC_SHADOWLANDS_RAID_BOSSES",
 					export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 	}),
 	n(QUESTS, {
 		q(66648, {	-- Crossing Fate
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Auto-accepted by entering any 'Fated' Shadowlands Raid.",
 				constant = "AUTO_ACCEPTED_BY_ENTERING_ANY_FATED_SHADOWLANDS",
 				export = true,

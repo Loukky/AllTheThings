@@ -11,7 +11,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		n(ACHIEVEMENTS, {
 			ach(11298, {	-- A Classy Outfit
 				crit(5212, {	-- Class Hall Helm Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded by a quest in your class's Order Hall campaign.",
 						constant = "REWARDED_BY_A_QUEST_IN_YOUR_CLASS_S_ORDER_HALL",
 						export = true,
@@ -46,7 +46,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				}),
 				-- #IF ANYCLASSIC
 				crit(2, {	-- Class Hall Bracers Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Recruit 6 Champions for your class's Order Hall.",
 						constant = "RECRUIT_6_CHAMPIONS_FOR_YOUR_CLASS_S_ORDER_HALL",
 						export = true,
@@ -80,7 +80,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					},
 				}),
 				crit(30499, {	-- Class Hall Gloves Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Reach Honored reputation with the Nightfallen.",
 						constant = "REACH_HONORED_REPUTATION_WITH_THE_NIGHTFALLEN",
 						export = true,
@@ -101,7 +101,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					["minReputation"] = { FACTION_THE_NIGHTFALLEN, HONORED },
 				}),
 				crit(4, {	-- Class Hall Leggings Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete 8 Legion dungeons on any difficulty.",
 						constant = "COMPLETE_8_LEGION_DUNGEONS_ON_ANY_DIFFICULTY",
 						export = true,
@@ -121,7 +121,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 				}),
 				crit(5, {	-- Class Hall Chestpiece Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete your class's Order Hall campaign.",
 						constant = "COMPLETE_YOUR_CLASS_S_ORDER_HALL_CAMPAIGN",
 						export = true,
@@ -155,7 +155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					},
 				}),
 				crit(6, {	-- Class Hall Boots Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Reach Revered reputation with any 2 Broken Isles factions.",
 						constant = "REACH_REVERED_REPUTATION_WITH_ANY_2_BROKEN",
 						export = true,
@@ -175,7 +175,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 				}),
 				crit(44848, {	-- Class Hall Belt Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete the Arsenal of Power achievement.",
 						constant = "COMPLETE_THE_ARSENAL_OF_POWER_ACHIEVEMENT",
 						export = true,
@@ -195,7 +195,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 				}),
 				crit(8, {	-- Class Hall Shoulders Earned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Reach Exalted reputation with the Nightfallen.",
 						constant = "REACH_EXALTED_REPUTATION_WITH_THE_NIGHTFALLEN",
 						export = true,
@@ -238,7 +238,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				["_noautomation"] = true,	-- nests criteria under the below HATs
 				["groups"] = {
 					ach(11152, {	-- Hidden Tracking - Appearance Unlock - Hidden - Color 2
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Progress indicates number of Legion Dungeons completed",
 							constant = "PROGRESS_INDICATES_NUMBER_OF_LEGION_DUNGEONS",
 							export = true,
@@ -258,7 +258,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						}),
 					}),
 					ach(11153, {	-- Hidden Tracking - Appearance Unlock - Hidden - Color 3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Progress indicates number of Legion World Quests completed",
 							constant = "PROGRESS_INDICATES_NUMBER_OF_LEGION_WORLD",
 							export = true,
@@ -278,7 +278,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						}),
 					}),
 					pvp(ach(11154, {	-- Hidden Tracking - Appearance Unlock - Hidden - Color 4
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Progress indicates number of players defeated in PvP",
 							constant = "PROGRESS_INDICATES_NUMBER_OF_PLAYERS_DEFEATED",
 							export = true,
@@ -447,7 +447,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
 							i(153502, {	-- Cache of Antoran Treasures [Looking For Raid]
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This cache appears every 2 weeks as a class hall mission reward. The reward of the cache scales with how many bosses you've killed in a difficulty. Killing 13 Normal Bosses upgrades the cache quality to Normal the next time the mission appears, same with Heroic & Mythic.",
 									constant = "THIS_CACHE_APPEARS_EVERY_2_WEEKS_AS_A_CLASS",
 									export = true,
@@ -1158,7 +1158,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
 							i(147519, {	-- Cache of Fel Treasures (Normal)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This cache appears every 2 weeks as a class hall mission reward. The reward of the cache scales with how many bosses you've killed in a difficulty. Killing 13 Raid Finder Bosses upgrades the cache quality to Normal the next time the mission appears, same with Heroic & Mythic.",
 									constant = "THIS_CACHE_APPEARS_EVERY_2_WEEKS_AS_A_CLASS_2",
 									export = true,

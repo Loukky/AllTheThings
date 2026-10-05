@@ -12,7 +12,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 					["crs"] = { 175123 },	-- Warden Arkoban
 				}),
 				q(62967, {	-- Prison of the Forgotten
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available if you delete the quest item",
 						constant = "ONLY_AVAILABLE_IF_YOU_DELETE_THE_QUEST_ITEM",
 						export = true,
@@ -98,7 +98,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				["coord"] = { 50.4, 53.8, 1912 },	-- The Runecarver's Oubliette
 			}),
 			q(62800, {	-- The Vessels of Jewels
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks the capability of learning the base item crafts for Shadowlands Legendary items made by Jewelcrafting",
 					constant = "UNLOCKS_THE_CAPABILITY_OF_LEARNING_THE_BASE",
 					export = true,
@@ -122,7 +122,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				["requireSkill"] = JEWELCRAFTING,
 			}),
 			q(62798, {	-- The Vessels of Leather and Bone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks the capability of learning the base item crafts for Shadowlands Legendary items made by Leatherworking",
 					constant = "UNLOCKS_THE_CAPABILITY_OF_LEARNING_THE_BASE_2",
 					export = true,
@@ -146,7 +146,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				["requireSkill"] = LEATHERWORKING,
 			}),
 			q(62797, {	-- The Vessels of Metal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks the capability of learning the base item crafts for Shadowlands Legendary items made by Blacksmithing",
 					constant = "UNLOCKS_THE_CAPABILITY_OF_LEARNING_THE_BASE_3",
 					export = true,
@@ -170,7 +170,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, timelineSelf({ ["timeline"
 				["requireSkill"] = BLACKSMITHING,
 			}),
 			q(62799, {	-- The Vessels of the Thread
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks the capability of learning the base item crafts for Shadowlands Legendary items made by Tailoring",
 					constant = "UNLOCKS_THE_CAPABILITY_OF_LEARNING_THE_BASE_4",
 					export = true,

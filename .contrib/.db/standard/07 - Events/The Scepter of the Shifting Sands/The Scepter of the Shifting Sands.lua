@@ -141,7 +141,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 					["qg"] = 15526,	-- Meridith the Mermaiden
 					["qi"] = 21032,	-- Meridith's Love Letter
 					-- #if BEFORE CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must be on the quest 'Draconic for Dummies' for this quest to be available.",
 						constant = "YOU_MUST_BE_ON_THE_QUEST_DRACONIC_FOR_DUMMIES",
 						export = true,
@@ -174,7 +174,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 							["cr"] = 11583,	-- Nefarian
 						}),
 						i(21142, {	-- From the Desk of Lord Victor Nefarius
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You get this if you don't manage to kill Nefarian in time after starting the quest from Vaelastrasz.",
 								constant = "YOU_GET_THIS_IF_YOU_DON_T_MANAGE_TO_KILL",
 								export = true,
@@ -218,7 +218,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 					},
 				}),
 				q(8598, {	-- rAnS0m
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The dirt is on an island waaaaaay south of Tanaris. You'll need to speak to Meridith to get a buff to swim fast enough to reach the island without dying to Fatigue.",
 						constant = "THE_DIRT_IS_ON_AN_ISLAND_WAAAAAAY_SOUTH_OF",
 						export = true,
@@ -343,7 +343,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 					},
 				}),
 				q(8736, {	-- The Nightmare Manifests
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You do NOT want to kill Eranikus or allow Remulos to die.",
 						constant = "YOU_DO_NOT_WANT_TO_KILL_ERANIKUS_OR_ALLOW",
 						export = true,
@@ -390,7 +390,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 						}),
 						objective(2, {	-- 0/1 Fragment of the Nightmare's Corruption (Duskwood)
 							["provider"] = { "i", 21149 },	-- Fragment of the Nightmare's Corruption
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "It is recommended that you bring at least 30 players and they should be experienced raiders.",
 								constant = "IT_IS_RECOMMENDED_THAT_YOU_BRING_AT_LEAST_30",
 								export = true,
@@ -491,7 +491,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 								{ "i",  21137 },	-- Blue Scepter Shard
 								{ "o", 180669 },	-- Swirling Maelstrom
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This summons a 40 man raid boss.",
 								constant = "THIS_SUMMONS_A_40_MAN_RAID_BOSS",
 								export = true,
@@ -547,7 +547,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 					["lvl"] = 60,
 				}),
 				q(8286, {	-- What Tomorrow Brings
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest line is a prerequisite for the Ahn'Qiraj scepter line used to open the doors to Ahn'Qiraj.",
 						constant = "THIS_QUEST_LINE_IS_A_PREREQUISITE_FOR_THE_AHN",
 						export = true,
@@ -572,7 +572,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 			}),
 			n(REWARDS, {
 				i(20402, {	-- Agent of Nozdormu
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "A friendly player can use their Proxy of Nozdormu to grant an undeputized player Agency to collect fragments. Oh joy. Enjoy the suffering.",
 						constant = "A_FRIENDLY_PLAYER_CAN_USE_THEIR_PROXY_OF",
 						export = true,

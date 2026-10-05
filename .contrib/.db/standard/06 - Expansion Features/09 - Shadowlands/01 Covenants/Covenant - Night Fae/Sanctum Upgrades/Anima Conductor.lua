@@ -11,7 +11,7 @@ local MIKAI_DEATHSCYTHE = i(179534);
 local DREAMERS_MENDING = i(182455);
 local MURMURS_IN_THE_DARK = i(182454);
 local SILKY_SHIMMERMOTH = i(180748, {	-- Silky Shimmermoth (MOUNT!)
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Available to purchase after defeating every rare at Star Lake Amphitheater",
 		constant = "AVAILABLE_TO_PURCHASE_AFTER_DEFEATING_EVERY",
 		export = true,
@@ -33,7 +33,7 @@ local SILKY_SHIMMERMOTH = i(180748, {	-- Silky Shimmermoth (MOUNT!)
 });
 local GREATAXE_OF_UNRELENTING_PURSUIT = i(180154);
 local STAR_LAKE_AMPHITHEATER = n(STAR_LAKE_AMPHITHEATER,   {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "You have to be in the |cFFA330C9Night Fae|r covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else. Only one mob is summonable per day.",
 		constant = "YOU_HAVE_TO_BE_IN_THE_CFFA330C9NIGHT_FAE_R",
 		export = true,
@@ -99,7 +99,7 @@ local STAR_LAKE_AMPHITHEATER = n(STAR_LAKE_AMPHITHEATER,   {
 	},
 });
 local VALFIR = n(168647, {	-- Valfir the Unrelenting
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Requires a member of the |cFFA330C9Night Fae Covenant|r to channel anima to Tirna Scithe. Afterwards, you can loot the Animaseed Light at the boss to remove its veil.",
 		constant = "REQUIRES_A_MEMBER_OF_THE_CFFA330C9NIGHT_FAE",
 		export = true,
@@ -160,7 +160,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 							n(TREASURES, {
 								o(356820, {	-- Large Lunarlight Pod
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires channeling the Anima Conductor to Glitterfall Basin. To unlock the chest, run over 5 nearby Lunarlight Buds.",
 										constant = "REQUIRES_CHANNELING_THE_ANIMA_CONDUCTOR_TO",
 										export = true,

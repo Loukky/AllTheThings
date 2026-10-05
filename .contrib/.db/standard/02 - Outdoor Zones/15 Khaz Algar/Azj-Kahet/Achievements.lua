@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			header(HEADERS.Achievement, 40632, {	-- No Harm Ever Came From Reading A Book
 				q(83741, {	-- Step 1: Interact with the Fleshy Grimoire
 					["name"] = "|cFFFFFFFFStep 1|r: Interact with the Fleshy Grimoire",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Enter the cave then walk around to the back where you will find a climbable wall marked by three tiny non-targetable spiders on the ledges. Climb up and near the top will be a small hole, fall through then interact with the book on your left.",
 						constant = "ENTER_THE_CAVE_THEN_WALK_AROUND_TO_THE_BACK",
 						export = true,
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				q(83746, {	-- Step 2A: Find Another You in Mmarl
 					["name"] = "|cFFFFFFFFStep 2A|r: Find Another You in Mmarl",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "One of your shades escaped to Mmarl, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 						constant = "ONE_OF_YOUR_SHADES_ESCAPED_TO_MMARL_USE_TARGET",
 						export = true,
@@ -118,7 +118,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				q(83747, {	-- Step 2B: Find Another You in The Weaver's Lair
 					["name"] = "|cFFFFFFFFStep 2B|r: Find Another You in The Weaver's Lair",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "One of your shades escaped to The Weaver's Lair, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 						constant = "ONE_OF_YOUR_SHADES_ESCAPED_TO_THE_WEAVER_S_LAIR",
 						export = true,
@@ -142,7 +142,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				q(83745, {	-- Step 2C: Fin Another You in Faerin's Advance
 					["name"] = "|cFFFFFFFFStep 2C|r: Find Another You in Faerin's Advance",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "One of your shades escaped to The Faerin's Advance, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 						constant = "ONE_OF_YOUR_SHADES_ESCAPED_TO_THE_FAERIN_S",
 						export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				q(83744, {	-- Step 2D: Find Another You in Wildcamp Or'lay
 					["name"] = "|cFFFFFFFFStep 2D|r: Find Another You in Wildcamp Or'lay",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "One of your shades escaped to Wildcamp Or'lay, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 						constant = "ONE_OF_YOUR_SHADES_ESCAPED_TO_WILDCAMP_OR_LAY",
 						export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				q(83724, {	-- Step 3: Return to the Grimoire
 					["name"] = "|cFFFFFFFFStep 3|r: Return to the Grimoire",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Return to the grimoire in the void cave and speak to one of your shades to earn the achievement.",
 						constant = "RETURN_TO_THE_GRIMOIRE_IN_THE_VOID_CAVE_AND",
 						export = true,
@@ -280,7 +280,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			ach(40636),	-- Sojourner of Azj-Kahet (automated)
 			ach(40633, {	-- The Unseeming
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Stand in the pool and acquire 100 stacks of 'Unseeming Shift' debuff.",
 					constant = "STAND_IN_THE_POOL_AND_ACQUIRE_100_STACKS_OF",
 					export = true,

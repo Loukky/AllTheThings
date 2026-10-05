@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			pet(3217, {	-- Aurelid Floater (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns at these coords, & can be non-combat. Kill and wait for respawns if needed.",
 					constant = "ONLY_SPAWNS_AT_THESE_COORDS_CAN_BE_NON_COMBAT",
 					export = true,
@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			pet(3212),	-- Bloodsucker Vespoid (PET!)
 			pet(3173),	-- Bufonid Croaker (PET!)
 			pet(3206, {	-- Emerald Scarabid (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found in the sand-covered parts of the zone.",
 					constant = "FOUND_IN_THE_SAND_COVERED_PARTS_OF_THE_ZONE",
 					export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 			}),
 			n(183349, {	-- Agitated Poultrid
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This npc can spawn around Zereth Mortis where Wild Poultrids are. Do /chicken to start a pet battle.",
 					constant = "THIS_NPC_CAN_SPAWN_AROUND_ZERETH_MORTIS_WHERE",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			pet(3210),	-- Green Viperid (PET!)
 			pet(3209),	-- King Viperid (PET!)
 			pet(3215, {	-- Mawtouched Geomental (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires eating a Questionable Mawshroom from Korthia to see.",
 					constant = "REQUIRES_EATING_A_QUESTIONABLE_MAWSHROOM_FROM",
 					export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			pet(3196),	-- Proto Avian Fledgling (PET!)
 			pet(3208),	-- Red Viperid (PET!)
 			pet(3200,{	-- Scarlet Proto Avian (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rare spawn of Proto-Avian Fledgling. Best chances are killing critters around the Genesis Vestibule. Good luck!",
 					constant = "RARE_SPAWN_OF_PROTO_AVIAN_FLEDGLING_BEST",
 					export = true,

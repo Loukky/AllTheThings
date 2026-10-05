@@ -51,7 +51,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29658, {	-- The Calculator
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically provided upon stepping into the final hallway. If autocomplete doesn't work, you can turn in at A'dal in Shattrath City.",
 						constant = "AUTOMATICALLY_PROVIDED_UPON_STEPPING_INTO_THE",
 						export = true,
@@ -80,7 +80,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29657, {	-- With Great Power, Comes Great Responsibility
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically provided upon starting the instance. If autocomplete doesn't work, you can turn in at A'dal in Shattrath City.",
 						constant = "AUTOMATICALLY_PROVIDED_UPON_STARTING_THE_2",
 						export = true,

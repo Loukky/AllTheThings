@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			m(ANTORAN_WASTES, {
 				n(QUESTS, {
 					q(49007, {	-- Commander on Deck!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Collect |cFFFFFFFFSmashed Portal Generator|r, |cFFFFFFFFConductive Sheath|r, |cFFFFFFFFArc Circuit|r and |cFFFFFFFFPower Cell|r from the elite Demons on the Terminus docks and ship, and combine them to create |cFFFFFFFFVishax's Portal Generator|r.\n\nOnce you create the item you will get a follow-up Quest to power up the portal to the rare.",
 							constant = "COLLECT_CFFFFFFFFSMASHED_PORTAL_GENERATOR_R",
 							export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(48870, {	-- The Many-Faced Devourer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to collect three bones from various locations around the zone. After you have done the initial collection and summoning process, you can always summon the rare.\n\nYou must have |cFFFFFFFFCall of the Devourer|r in your inventory to be able to see the bones.",
 							constant = "YOU_NEED_TO_COLLECT_THREE_BONES_FROM_VARIOUS",
 							export = true,

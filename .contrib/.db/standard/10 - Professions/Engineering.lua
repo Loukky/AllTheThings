@@ -500,7 +500,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			------ Tools of Trade Questline ------
 			q(55028, {	-- It's Scrap Work... [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Kul Tiran Engineering.",
 					constant = "REQUIRES_150_KUL_TIRAN_ENGINEERING",
 					export = true,
@@ -528,7 +528,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 			}),
 			q(55031, {	-- It's Scrap Work... [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Zandalari Engineering.",
 					constant = "REQUIRES_150_ZANDALARI_ENGINEERING",
 					export = true,
@@ -698,7 +698,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 		})),
 		n(QUESTS, {
 			i(198156, {	-- Wyrmhole Generator: Dragon Isles (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can collect additional portal options.\nRANDOM LOCATION = Carelessly leap into the portal...\nTHE WAKING SHORES = Pray return to the Waking Shores.\nOHN’AHRAN PLAINS = Clomp your hooves, imaginary or otherwise...\nTHE AZURE SPAN = Ensure your arrival at the Azure Span...\nTHALDRASZUS = Audibly spell out 'Thaldraszus'...\nTHE FORBIDDEN REACH = Disregard the word 'Forbidden' and venture...\nZARALEK CAVERN = Flip the portal horizontally...\nEMERALD DREAM = Close your eyes and snore loudly.",
 					constant = "YOU_CAN_COLLECT_ADDITIONAL_PORTAL_OPTIONS",
 					export = true,
@@ -791,7 +791,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 			}),
 			q(72242, {	-- Dragon Isles Engineering
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Engineering.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_5",
 					export = true,
@@ -974,7 +974,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 			})),
 			o(380571, {	-- Boomthyr Rocket
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the Note next to the rocket, then gather the items in the surrounding area. You may need to leave and return to the area after gathering all objects for the treasure to be clickable after that.",
 					constant = "INTERACT_WITH_THE_NOTE_NEXT_TO_THE_ROCKET_THEN",
 					export = true,
@@ -1020,7 +1020,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				},
 			})),
 			o(380560, {	-- Disabled Tesla Coil
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on the three exposed items to make the treasure appear.",
 					constant = "CLICK_ON_THE_THREE_EXPOSED_ITEMS_TO_MAKE_THE",
 					export = true,
@@ -1134,7 +1134,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			q(70517, {	-- DF Weekly Engineering Knowledgepoint #3
 				["name"] = "DF Engineering Drop #1: Dragon-esque",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Dragon-kin/Proto Drakes/Dragonlike beasts.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_DRAGON_KIN_PROTO_DRAKES",
 					export = true,
@@ -1158,7 +1158,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			q(70516, {	-- DF Weekly Engineering Knowledgepoint #4
 				["name"] = "DF Engineering Drop #2: Tyrhold Ancient",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Tyrhold-esque mob.\nCoordinates link to Tyrhold where almost any mob can drop it.",
 					constant = "DROPS_FROM_ANY_TYRHOLD_ESQUE_MOB_COORDINATES",
 					export = true,

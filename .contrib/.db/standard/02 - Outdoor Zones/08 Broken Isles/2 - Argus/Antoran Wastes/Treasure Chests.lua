@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			m(ANTORAN_WASTES, {
 				n(TREASURES, {
 					o(277205, {	-- Ancient Legion War Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need |cFFFFD700Light's Judgment|r to get into the cave.",
 							constant = "YOU_WILL_NEED_CFFFFD700LIGHT_S_JUDGMENT_R_TO",
 							export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Zones, {
 						["questID"] = 49019,
 					}),
 					o(277204, {	-- Forgotten Legion Supplies
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need |cFFFFD700Lightforged Warframe|r to get into the cave.",
 							constant = "YOU_WILL_NEED_CFFFFD700LIGHTFORGED_WARFRAME_R",
 							export = true,
@@ -61,7 +61,7 @@ root(ROOTS.Zones, {
 						["questID"] = 49017,
 					}),
 					o(276425, {	-- Intact Fiend Bone
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Near Vrax'thul, on the east side of a black pillar.",
 							constant = "NEAR_VRAX_THUL_ON_THE_EAST_SIDE_OF_A_BLACK",
 							export = true,
@@ -84,7 +84,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(152991) },	-- Fiend Bone
 					}),
 					o(276424, {	-- Intact Imp Bones
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found inside the imp cave.",
 							constant = "CAN_BE_FOUND_INSIDE_THE_IMP_CAVE",
 							export = true,
@@ -110,7 +110,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(152992) },	-- Imp Bone
 					}),
 					o(276426, {	-- Intact Ur'zul Bone
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Next to the altar.",
 							constant = "NEXT_TO_THE_ALTAR",
 							export = true,
@@ -133,7 +133,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(152993) },	-- Ur'zul Bone
 					}),
 					o(277207, {	-- Legion Treasure Hoard
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located behind the fel waterfall.",
 							constant = "LOCATED_BEHIND_THE_FEL_WATERFALL",
 							export = true,
@@ -159,7 +159,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(277346, {	-- Missing Augari Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use |cFFFFD700Shroud of Arcane Echoes|r to open the chest.",
 							constant = "USE_CFFFFD700SHROUD_OF_ARCANE_ECHOES_R_TO_OPEN",
 							export = true,

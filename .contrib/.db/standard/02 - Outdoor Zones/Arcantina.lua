@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(ARCANTINA, {
 			}),
 			ach(61082),	-- Old Soldiers
 			ach(61081, {	-- Share a Drink
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "NOTE: You currently also get credit for YOUR character's Race when sharing a drink!",
 					constant = "NOTE_YOU_CURRENTLY_ALSO_GET_CREDIT_FOR_YOUR",
 					export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(ARCANTINA, {
 			}),
 			o(572030, {	-- Ebon Banner
 				["sourceQuest"] = 92321,	-- A Frostbitten Tally
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the left side of Lady Deathwhisper's room.",
 					constant = "ON_THE_LEFT_SIDE_OF_LADY_DEATHWHISPER_S_ROOM",
 					export = true,
@@ -241,7 +241,7 @@ root(ROOTS.Zones, m(ARCANTINA, {
 			}),
 			o(572034, {	-- Pylon Fragment
 				["sourceQuest"] = 92324,	-- Uncrowned's Cold Case
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the left side of Tendris Warpwood's room.",
 					constant = "ON_THE_LEFT_SIDE_OF_TENDRIS_WARPWOOD_S_ROOM",
 					export = true,
@@ -269,7 +269,7 @@ root(ROOTS.Zones, m(ARCANTINA, {
 			}),
 			o(572029, {	-- Scarred Spear
 				["sourceQuest"] = 92319,	-- A Favor to Axe
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located to the left of the path towards Omar the Unscarred.",
 					constant = "LOCATED_TO_THE_LEFT_OF_THE_PATH_TOWARDS_OMAR",
 					export = true,

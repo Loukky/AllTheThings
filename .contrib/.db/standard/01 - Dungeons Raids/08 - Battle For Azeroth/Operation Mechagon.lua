@@ -484,7 +484,7 @@ appendAllGroups(SeasonDifficultyGroups, {
 			BossOnly(KUJO, {
 				-- Not entirely sure how this version is obtainable if at all during Seasons... so we will assume it isn't and see if any report
 				i(168970, {	-- Trashmaster's Mantle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Equipping this cloak gives you a temporary Trashmaster title. To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
 						constant = "EQUIPPING_THIS_CLOAK_GIVES_YOU_A_TEMPORARY",
 						export = true,
@@ -668,7 +668,7 @@ local INSTANCE_GROUPS = {
 	}),
 	Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 		ach(13789, {	-- Hertz Locker
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After completing the achievement, speak to Prince Erazmin on Mechagon Island to get the essence. You must already have the Rank 3 version.",
 				constant = "AFTER_COMPLETING_THE_ACHIEVEMENT_SPEAK_TO",
 				export = true,

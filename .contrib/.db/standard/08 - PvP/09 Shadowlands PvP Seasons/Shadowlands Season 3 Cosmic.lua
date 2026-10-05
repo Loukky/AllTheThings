@@ -381,7 +381,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.SL, {
 				}),
 			}),
 			n(CLASSES, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_0, REMOVED_9_2_5 } }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can only be obtained from the Great Vault/Creation Catalyst. The Appearances are gained at 1800 rating.",
 					constant = "CAN_ONLY_BE_OBTAINED_FROM_THE_GREAT_VAULT",
 					export = true,

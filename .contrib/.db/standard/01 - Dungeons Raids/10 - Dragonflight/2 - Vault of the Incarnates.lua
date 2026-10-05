@@ -553,7 +553,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 				ach(16357),	-- Heroic: Vault of the Incarnates Guild Run
 			}),
 			o(382621, {	-- Revival Catalyst Console
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Revival Catalyst is a system that lets you convert non-set items from the Vault of the Incarnates Raid into your class' Tier Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
 					constant = "THE_REVIVAL_CATALYST_IS_A_SYSTEM_THAT_LETS_YOU",
 					export = true,

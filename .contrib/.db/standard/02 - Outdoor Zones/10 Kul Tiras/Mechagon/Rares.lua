@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 		n(RARES, {
 			n(COMMON_BOSS_DROPS, {
 				i(168908, {	-- Blueprint: Experimental Adventurer Augment
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This blueprint will drop from the first rare you kill once you've reached Neutral with the Rustbolt Resistance.",
 						constant = "THIS_BLUEPRINT_WILL_DROP_FROM_THE_FIRST_RARE",
 						export = true,
@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			]]--
 			-- TODO:  See Hidden Quest Triggers.lua for remaining first kill id's needed
 			n(150306, {	-- Drill Rig
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These rares are only available when the Drill Rig is an active construction project. Speak to |Cff00991aWaren Gearheart|r |Cffffffff(73.0, 33.5)|r to see which construction projects are available.\r\rEach rare spawn is accompanied by a specific zonewide announcement. Hover over each rare in the list to see its announcement.",
 					constant = "THESE_RARES_ARE_ONLY_AVAILABLE_WHEN_THE_DRILL",
 					export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55857,	-- no second questID
 						["coord"] = { 51.1, 50.4, MECHAGON },
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD41...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT",
 							export = true,
@@ -86,7 +86,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							-- { 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you this message in chat \"|cffe1780cDrill Rig DR-CC73...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_THIS_MESSAGE_IN_CHAT",
 							export = true,
@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55814,
 						["coord"] = { 63.9, 24.4, MECHAGON },
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR35...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT_2",
 							export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55855,
 						["coord"] = { 57.6, 69.2, MECHAGON },
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-JD99...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT_3",
 							export = true,
@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							-- { 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC61...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT_4",
 							export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["questID"] = 55853,
 						["coord"] = { 55.6, 39.5, MECHAGON },
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-TR28...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT_5",
 							export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							-- { 51.3, 47.8, MECHAGON },
 						},
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawning when you see this message in chat \"|cffe1780cDrill Rig DR-CC88...|r,\" or activate the |cFFFFD700Drill Rig|r. Only available when the |cFFFFD700Drill Rig|r is a construction project.",
 							constant = "SPAWNING_WHEN_YOU_SEE_THIS_MESSAGE_IN_CHAT_6",
 							export = true,
@@ -249,7 +249,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151934, {	-- Arachnoid Harvester
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Both versions of Arachnoid Harvester (the current timeline and alternate timeline) drop the same loot and share a daily lockout. You can use a Personal Time Displacer to travel to the alternate timeline if Chromie is not in Rustbolt.",
 					constant = "BOTH_VERSIONS_OF_ARACHNOID_HARVESTER_THE",
 					export = true,
@@ -279,7 +279,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["cr"] = 154968,	-- future ID
 				["questID"] = 55546,
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kite it to the large magnet at |cFFFFD700Bondo's Scrapyard|r to make it vulnerable to kill it, or use the |cFFFFD700Armored Vaultbot Key|r to unlock it BEFORE it is engaged in combat. If you've time-traveled to the future, you must use a key to unlock it.",
 					constant = "KITE_IT_TO_THE_LARGE_MAGNET_AT_CFFFFD700BONDO_S",
 					export = true,
@@ -332,7 +332,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["questID"] = 55812,
 				["coord"] = { 82.3, 21.0, MECHAGON },
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The trogg will yell a specific color. Go to Bondo's Yard |cFFFFFFFF(63.3, 42.5)|r to paint yourself that color, then return to his cave.",
 					constant = "THE_TROGG_WILL_YELL_A_SPECIFIC_COLOR_GO_TO",
 					export = true,
@@ -368,7 +368,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["questID"] = 55514,
 				["coord"] = { 35.3, 43.0, MECHAGON },
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must complete the |cFFFFD700Let's Fish!|r questline to spawn Deepwater Maw. Summoning requires a |cffa335eeHundred-Fathom Lure|r.",
 					constant = "MUST_COMPLETE_THE_CFFFFD700LET_S_FISH_R",
 					export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(155060, {	-- Doppel Ganger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare only spawns when the |cFFFFD700Cogfrenzy's Construction Frenzy|r quest is active and requires three |cFF0070ddPressure Relief Valves|r to summon.",
 					constant = "THIS_RARE_ONLY_SPAWNS_WHEN_THE",
 					export = true,
@@ -439,7 +439,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151884, {	-- Fungarian Furor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When the |cFFFFD700Aid From Nordrassil|r quest is active, fly around the quest area and look for a mushroom with the NPC ID 135497. Clicking on that mushroom will spawn the rare. If no mushroom with that ID is up, you'll need to click on some other ones to try to get the correct one to respawn.",
 					constant = "WHEN_THE_CFFFFD700AID_FROM_NORDRASSIL_R_QUEST",
 					export = true,
@@ -469,7 +469,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			n(153228, {	-- Gear Checker Cogstar	-- possibly 154184?
 				["questID"] = 55852,
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Random spawn when you kill |cFFFFD700Upgraded Sentries|r.",
 					constant = "RANDOM_SPAWN_WHEN_YOU_KILL_CFFFFD700UPGRADED",
 					export = true,
@@ -501,7 +501,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(152007, {	-- Killsaw
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare doesn't spawn on days when the Venture Co. invades the Fleeting Forest.",
 					constant = "THIS_RARE_DOESN_T_SPAWN_ON_DAYS_WHEN_THE",
 					export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["questID"] = 55544,
 				["coord"] = { 60.7, 42.2, MECHAGON },
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a |cFFFFD700Beastbot Powerpack|r.",
 					constant = "REQUIRES_A_CFFFFD700BEASTBOT_POWERPACK_R",
 					export = true,
@@ -589,7 +589,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(151296, {	-- OOX-Avenger/MG
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare only spawns when the |cFFFFD700My Chickens are Not for Eating!|r quest is active. Finding and killing OOX-Fleetfoot/MG will spawn the rare, but you'll probably need a group to do it.",
 					constant = "THIS_RARE_ONLY_SPAWNS_WHEN_THE_CFFFFD700MY",
 					export = true,
@@ -659,7 +659,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					}),
 					i(168395, {	-- Irradiated Box of Assorted Parts
 						["questID"] = 55794,	-- popped immediately upon death of final golems; shift+clicking to refresh afterwards also popped 55848. this item was the only thing i received from HM rig. it's possible that 55848 is the "item received" quest and that 55794 is the "rig done for the first time today" quest when hardmode is active (or vice versa!)... if we could isolate the non-hardmode "rig is done for the first time today" quest then we could maybe attach both with altQuests. WHY IS QUEST TRACKING SO COMPLICATED. @BLIZZARD ANSWER FOR YOUR CRIMES
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "During the Reclamation Rig event, use the Supercollider on each Irradiated Elemental to make them unstable. If you complete the hardmode event correctly, you'll face three Unstable Irradiated Golems at the end of the encounter.",
 							constant = "DURING_THE_RECLAMATION_RIG_EVENT_USE_THE",
 							export = true,
@@ -685,7 +685,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						},
 					}),
 					i(169878, {	-- Irradiated Undercoat
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This shirt can drop from mobs during the Reclamation Rig event. Equip it, collect 100 Unstable Isotopes from attacking more of the event mobs, and then use the shirt to absorb the isotopes. You can only absorb isotopes once every 24 hours, and you'll get the pet after you use all five of the shirt's charges.",
 							constant = "THIS_SHIRT_CAN_DROP_FROM_MOBS_DURING_THE",
 							export = true,
@@ -746,7 +746,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			n(153000, {	-- Sparkqueen P'Emp
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare only spawns when the |cFFFFD700Bugs, Lots of 'Em!|r quest is active. When it spawns, Razak Ironsides will yell, \"|cFFff4040Wait till that bug gets close, then blow it to pieces!  I want nothing left.|r  Kill it before it gets close to Razak, or he'll kill it and you won't get loot or credit.",
 					constant = "THIS_RARE_ONLY_SPAWNS_WHEN_THE_CFFFFD700BUGS",
 					export = true,
@@ -783,7 +783,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["questID"] = 56182,
 				["coord"] = { 57.2, 58.6, MECHAGON },
 				["isDaily"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Does not spawn when the daily quest |cFFFFD700The Other Place|r is active, must use the Personal Time Displacer to access Alt Time.",
 					constant = "DOES_NOT_SPAWN_WHEN_THE_DAILY_QUEST",
 					export = true,

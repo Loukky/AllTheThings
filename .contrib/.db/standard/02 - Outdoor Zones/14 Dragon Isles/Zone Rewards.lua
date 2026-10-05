@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),
 		i(215362, {	-- Cache of Storms
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded from any 'Awakened' Zone Activity",
 				constant = "REWARDED_FROM_ANY_AWAKENED_ZONE_ACTIVITY",
 				export = true,

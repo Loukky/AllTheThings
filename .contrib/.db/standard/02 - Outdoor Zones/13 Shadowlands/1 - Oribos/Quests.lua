@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["icon"] = 3847780,
 				["groups"] = {
 					q(62801, {	-- The Call of Fate
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to guarantee this quest is offered, the safest way is this: Level a character to approximately 59.7 (meaning Level 59, about 70% experience gained). From there, start the Shadowlands intro (SKIPPING THE MAW), and complete quests in Oribos until you create portals back to Orgrimmar and Stormwind. You should have hit level 60- from there, return to your Capital City, log out and back in, and the quest should pop up.",
 							constant = "IN_ORDER_TO_GUARANTEE_THIS_QUEST_IS_OFFERED_THE",
 							export = true,
@@ -176,7 +176,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(61557, {	-- An Echo in the Darkness
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Provided automatically when zoning or changing floors in Oribos.",
 						constant = "PROVIDED_AUTOMATICALLY_WHEN_ZONING_OR_CHANGING",
 						export = true,
@@ -247,7 +247,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["timeline"] = { ADDED_9_2_5 },
 			}),
 			q(66661, {	-- It's Just a Coin, What Could it Cost?
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Automatically accepted when zoning into Oribos after completion of 'Crossing Fate'.",
 					constant = "AUTOMATICALLY_ACCEPTED_WHEN_ZONING_INTO_ORIBOS",
 					export = true,
@@ -269,7 +269,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 			}),
 			q(51355, {	-- Secretest Fish
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found in Secret Fish Bubbles anywhere in Shadowlands zones. You must be wearing the Secret Fish Goggles to see/loot the bubbles.",
 					constant = "CAN_BE_FOUND_IN_SECRET_FISH_BUBBLES_ANYWHERE_IN",
 					export = true,
@@ -342,7 +342,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				-- character so it isn't actually a Threads quest
 			}),
 			q(63771, {	-- Fate's Reminder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To get this Quest, you have to choose 'Replay Storyline' and pick 'Skip Storyline' right after.",
 					constant = "TO_GET_THIS_QUEST_YOU_HAVE_TO_CHOOSE_REPLAY",
 					export = true,
@@ -387,7 +387,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Zone Choice Quests ------
 			q(62159, {	-- Aiding the Shadowlands
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered prior to completing any Zone Meta-quest.",
 					constant = "OFFERED_PRIOR_TO_COMPLETING_ANY_ZONE_META_QUEST",
 					export = true,
@@ -418,7 +418,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["DisablePartySync"] = true,
 			}),
 			q(63208, {	-- The Next Step
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered after completing 1 Zone Meta-quest.",
 					constant = "OFFERED_AFTER_COMPLETING_1_ZONE_META_QUEST",
 					export = true,
@@ -448,7 +448,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63209, {	-- Furthering the Purpose
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered after completing 2 Zone Meta-quests.",
 					constant = "OFFERED_AFTER_COMPLETING_2_ZONE_META_QUESTS",
 					export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63210, {	-- The Last Step
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered after completing 3 Zone Meta-quests.",
 					constant = "OFFERED_AFTER_COMPLETING_3_ZONE_META_QUESTS",
 					export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			------ Zone Travel Breadcrumbs ------
 			------ Ardenweald ------
 			q(62739, {	-- Restoring Balance [Non-Night Fae]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is not aligned with the Night Fae Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_NOT_ALIGNED",
 					export = true,
@@ -577,7 +577,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63036, {	-- Restoring Balance [Night Fae]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is aligned with the Night Fae Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_ALIGNED_WITH",
 					export = true,
@@ -603,7 +603,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Bastion ------
 			q(62707, {	-- The Elysian Fields [Non-Kyrian]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is not aligned with the Kyrian Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_NOT_ALIGNED_2",
 					export = true,
@@ -627,7 +627,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63034, {	-- The Elysian Fields [Kyrian]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is aligned with the Kyrian Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_ALIGNED_WITH_2",
 					export = true,
@@ -653,7 +653,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Maldraxxus ------
 			q(62738, {	-- A Fresh Blade [Non-Necrolord]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is not aligned with the Necrolord Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_NOT_ALIGNED_3",
 					export = true,
@@ -677,7 +677,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63035, {	-- A Fresh Blade [Necrolord]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is aligned with the Necrolord Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_ALIGNED_WITH_3",
 					export = true,
@@ -703,7 +703,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Revendreth ------
 			q(62740, {	-- Dark Aspirations [Non-Venthyr]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is not aligned with the Venthyr Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_NOT_ALIGNED_4",
 					export = true,
@@ -727,7 +727,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isBreadcrumb"] = true,
 			}),
 			q(63037, {	-- Dark Aspirations [Venthyr]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Provided to a character which is aligned with the Venthyr Covenant",
 					constant = "PROVIDED_TO_A_CHARACTER_WHICH_IS_ALIGNED_WITH_4",
 					export = true,
@@ -770,7 +770,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			------ Zone Meta Quests (keep in Oribos for visibility to players who may skip storyline I suppose) ------
 			------ Ardenweald ------
 			q(62763, {	-- Support the Court
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Auto-accepted if entering Ardenweald after choosing a different Zone",
 					constant = "AUTO_ACCEPTED_IF_ENTERING_ARDENWEALD_AFTER",
 					export = true,
@@ -812,7 +812,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Bastion ------
 			q(62723, {	-- Bolstering Bastion
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Auto-accepted if entering Bastion after choosing a different Zone",
 					constant = "AUTO_ACCEPTED_IF_ENTERING_BASTION_AFTER",
 					export = true,
@@ -858,7 +858,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Maldraxxus ------
 			q(62748, {	-- Rallying Maldraxxus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Auto-accepted if entering Maldraxxus after choosing a different Zone",
 					constant = "AUTO_ACCEPTED_IF_ENTERING_MALDRAXXUS_AFTER",
 					export = true,
@@ -904,7 +904,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Revendreth ------
 			q(62778, {	-- Reinforcing Revendreth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Auto-accepted if entering Revendreth after choosing a different Zone",
 					constant = "AUTO_ACCEPTED_IF_ENTERING_REVENDRETH_AFTER",
 					export = true,
@@ -1065,7 +1065,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		})),
 		n(QUESTS, sharedData({ ["isWeekly"] = true }, {
 			q(62043, {	-- Prove Your Worth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available while switching back to Kyrian Covenant",
 					constant = "AVAILABLE_WHILE_SWITCHING_BACK_TO_KYRIAN",
 					export = true,
@@ -1087,7 +1087,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 36.2, 64.2, ORIBOS },
 			}),
 			q(62061, {	-- Prove Your Worth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available while switching back to Venthyr Covenant",
 					constant = "AVAILABLE_WHILE_SWITCHING_BACK_TO_VENTHYR",
 					export = true,
@@ -1109,7 +1109,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 44.9, 68.9, ORIBOS },
 			}),
 			q(62060, {	-- Prove Your Worth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available while switching back to Night Fae Covenant",
 					constant = "AVAILABLE_WHILE_SWITCHING_BACK_TO_NIGHT_FAE",
 					export = true,
@@ -1131,7 +1131,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 39.8, 60.9, ORIBOS },
 			}),
 			q(62059, {	-- Prove Your Worth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available while switching back to Necrolords Covenant",
 					constant = "AVAILABLE_WHILE_SWITCHING_BACK_TO_NECROLORDS",
 					export = true,

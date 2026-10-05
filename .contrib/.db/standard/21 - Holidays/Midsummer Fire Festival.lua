@@ -487,7 +487,7 @@ local MERCHANT_GROUPS = {
 	}),
 	i(34599, {	-- Juggling Torch
 		-- #if AFTER WRATH
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "You will need 10 of these torches to complete the |cffffff00Torch Juggler|r achievement.",
 			constant = "YOU_WILL_NEED_10_OF_THESE_TORCHES_TO_COMPLETE",
 			export = true,
@@ -586,7 +586,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 						}),
 						hqt(83134, {	-- Has rolled for Ahune Special Loot (2025) (Daily Accountwide)
 							["name"] = "Has rolled for Ahune Special Loot (2025) (Daily Accountwide)",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These items are only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 								constant = "THESE_ITEMS_ARE_ONLY_ELIGIBLE_TO_DROP_FOR_THE",
 								export = true,
@@ -698,7 +698,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					},
 				}),
 				i(35723, {	-- Shards of Ahune
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item can be looted and completed once per character.",
 						constant = "THIS_ITEM_CAN_BE_LOOTED_AND_COMPLETED_ONCE_PER",
 						export = true,
@@ -1104,7 +1104,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			}),
 		})),
 		ach(271, {	-- Burning Hot Pole Dance
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You need the Mantle of the Fire Festival, Vestment of Summer, and the Sandals of Summer to complete the Midsummer set.",
 				constant = "YOU_NEED_THE_MANTLE_OF_THE_FIRE_FESTIVAL",
 				export = true,
@@ -1256,7 +1256,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["lvl"] = lvlsquish(65, 15, 15),
 		}),
 		q(11891, {	-- An Innocent Disguise
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Use your Totemic Beacon to summon the quest giver.",
 				constant = "USE_YOUR_TOTEMIC_BEACON_TO_SUMMON_THE_QUEST",
 				export = true,

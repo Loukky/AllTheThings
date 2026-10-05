@@ -22,7 +22,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(95958, {	-- Floating Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found floating down the river.",
 						constant = "CAN_BE_FOUND_FLOATING_DOWN_THE_RIVER",
 						export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 54.2, 41.6, HIGHMOUNTAIN },
 				}),
 				o(245530, {	-- Glimmering Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside Lifespring Cavern. Cave entrance is at |cFFFFFFFF38.3, 61.2|r.",
 						constant = "INSIDE_LIFESPRING_CAVERN_CAVE_ENTRANCE_IS_AT",
 						export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 52.9, 23.3, 655 },	-- Lifespring Lower Cavern
 				}),
 				o(251124, {	-- Glimmering Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On a ledge inside Neltharion's Vault. Use a teleporter or flying mount to reach it, then click the brazier. The chest will spawn after waves of enemies are defeated.",
 						constant = "ON_A_LEDGE_INSIDE_NELTHARION_S_VAULT_USE_A",
 						export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 59.6, 40.9, 657 },	-- Path of Huln
 				}),
 				o(257290, {	-- Highmountain Clan Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These repeatable chests spawn all over the map in Highmountain.",
 						constant = "THESE_REPEATABLE_CHESTS_SPAWN_ALL_OVER_THE_MAP_2",
 						export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Zones, {
 					["groups"] = { i(131926) },	-- Delicate Roc Feather
 				}),
 				o(245548, {	-- Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside Mucksnout Den. Cave entrance is at |cFFFFFFFF41.6, 46.9|r.",
 						constant = "INSIDE_MUCKSNOUT_DEN_CAVE_ENTRANCE_IS_AT",
 						export = true,
@@ -258,7 +258,7 @@ root(ROOTS.Zones, {
 				o(245527, {	-- Treasure Chest
 					["questID"] = 40473,
 					["coord"] = { 39.3, 76.3, HIGHMOUNTAIN },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "There is a phasing issue with this chest- you have to stand behind the totem on the right side of the chest and click from the rock. It's a bit tricky. If your zone is Riverbend, the chest will disappear- you want Highmountain.",
 						constant = "THERE_IS_A_PHASING_ISSUE_WITH_THIS_CHEST_YOU",
 						export = true,
@@ -314,7 +314,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 40.3, 50.0, 657 },	-- Path of Huln
 				}),
 				o(245543, {	-- Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On the upper level of Bitestone Enclave, all the way at the back. Cave entrance is at |cFFFFFFFF41, 73|r.",
 						constant = "ON_THE_UPPER_LEVEL_OF_BITESTONE_ENCLAVE_ALL_THE",
 						export = true,
@@ -338,7 +338,7 @@ root(ROOTS.Zones, {
 				o(257978, {	-- Treasure Chest
 					["questID"] = 44352,
 					["coord"] = { 32.2, 38.4, 750 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In an underwater cave. Entrance is below the boat with another treasure on it.",
 						constant = "IN_AN_UNDERWATER_CAVE_ENTRANCE_IS_BELOW_THE",
 						export = true,

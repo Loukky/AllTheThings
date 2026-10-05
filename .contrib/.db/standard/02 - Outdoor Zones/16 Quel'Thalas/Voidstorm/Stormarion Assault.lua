@@ -173,7 +173,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(TREASURES, {
 				o(566083, {	-- Stormarion Supplies
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns randomly around Stormarion Citadel.",
 						constant = "SPAWNS_RANDOMLY_AROUND_STORMARION_CITADEL",
 						export = true,

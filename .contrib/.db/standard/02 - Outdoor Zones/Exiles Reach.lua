@@ -1231,7 +1231,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 				["customCollect"] = IGNORED_VALUE,	-- Technically only possible by NPE quest completion, but technically no longer NPE when accepting this quest...
 			}),
 			q(58983, {	-- Battle for Azeroth: Tides of War (SL/new player version)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					constant = "THIS_QUEST_STARTS_THE_BATTLE_FOR_AZEROTH",
 					export = true,

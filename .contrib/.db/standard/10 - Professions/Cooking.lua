@@ -248,7 +248,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 		achpart(7326, 7327),	-- The Pandaren Gourmet (15)
 		ach(7327),	-- The Pandaren Gourmet (30)
 		header(HEADERS.Faction, 1357, {	-- Nomi
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Summon Nomi once per day using your Cooking School Bell, complete the daily he gives and you'll soon (42+ days later), earn your Apron.\n\nThen this little bastard will learn nothing and burn all of your food in Dalaran.",
 				constant = "SUMMON_NOMI_ONCE_PER_DAY_USING_YOUR_COOKING",
 				export = true,
@@ -576,7 +576,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				},
 			}),
 			q(40989, {	-- The Prodigal Sous Chef
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you cooked with Nomi while questing in Pandaria, you will receive this quest instead of 'Too Many Chefs'.",
 					constant = "IF_YOU_COOKED_WITH_NOMI_WHILE_QUESTING_IN",
 					export = true,
@@ -600,7 +600,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				},
 			}),
 			q(40988, {	-- Too Many Chefs
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you did not cook with Nomi while questing in Pandaria, you will receive this quest instead of 'The Prodigal Sous Chef'.",
 					constant = "IF_YOU_DID_NOT_COOK_WITH_NOMI_WHILE_QUESTING_IN",
 					export = true,
@@ -682,7 +682,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 				["cost"] = {{ "i", 204848, 50 }},	-- 50x Charitable Cheddar
 				["groups"] = {
 					i(204894, {	-- Roland (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Roland will also teach your alts the recipes for Deviously Deviled Eggs and Charitable Cheddar, if you learned the recipes via the original source.",
 							constant = "ROLAND_WILL_ALSO_TEACH_YOUR_ALTS_THE_RECIPES",
 							export = true,
@@ -710,7 +710,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 		}),
 		n(QUESTS, {
 			q(72251, {	-- Dragon Isles Cooking
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Cooking.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_3",
 					export = true,

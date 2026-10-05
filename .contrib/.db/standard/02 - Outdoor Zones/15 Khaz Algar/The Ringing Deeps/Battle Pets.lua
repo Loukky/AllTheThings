@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 56.8, 43.8, THE_RINGING_DEEPS },
 				}),
 				pet(4574, {	-- Snuffling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found around the area of Taelloch/Obsidian Hollow.",
 						constant = "FOUND_AROUND_THE_AREA_OF_TAELLOCH_OBSIDIAN",
 						export = true,

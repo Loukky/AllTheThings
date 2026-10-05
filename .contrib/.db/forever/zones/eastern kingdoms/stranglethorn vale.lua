@@ -247,7 +247,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STRANGLETHORN_VALE, {
 				["coord"] = { 30.5, 47.8, MAP.STRANGLETHORN_VALE },
 			})),
 			q(4621, {	-- Avast Ye, Admiral!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest also requires you to be hated or lower with Booty Bay.",
 					constant = "THIS_QUEST_ALSO_REQUIRES_YOU_TO_BE_HATED_OR",
 					export = true,
@@ -611,7 +611,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STRANGLETHORN_VALE, {
 				["lvl"] = 35,
 				["groups"] = {
 					q(619, {	-- Enticing Negolash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is repeatable, but can only be completed while you have the quest \"Facing Negolash\" in your quest log.",
 							constant = "THIS_QUEST_IS_REPEATABLE_BUT_CAN_ONLY_BE_2",
 							export = true,
@@ -761,7 +761,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STRANGLETHORN_VALE, {
 				["lvl"] = 28,
 			}),
 			q(215, {	-- Jungle Secrets
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Every so often, Thorsen will go on patrol. If you follow him, he will be ambushed by two of Kurzen's lackeys - if he survives, he will offer you this quest.",
 					constant = "EVERY_SO_OFTEN_THORSEN_WILL_GO_ON_PATROL_IF_YOU",
 					export = true,
@@ -1983,7 +1983,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STRANGLETHORN_VALE, {
 		}),
 		n(TREASURES, {
 			pvp(o(179697, {	-- Arena Treasure Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Chest is dropped in arena every 3 hours.\n\nWARNING: FREE-FOR-ALL PVP EVENT\n12AM, 3PM, 6PM, 9PM, 12PM, 3AM, 6AM, 9AM",
 					constant = "CHEST_IS_DROPPED_IN_ARENA_EVERY_3_HOURS_WARNING",
 					export = true,
@@ -2395,7 +2395,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.STRANGLETHORN_VALE, {
 				["cr"] = 701,	-- Bloodscalp Mystic
 			}),
 			i(9294, {	-- Recipe: Wildvine Potion (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from any troll in The Hinterlands or Stranglethorn Vale.",
 					constant = "CAN_DROP_FROM_ANY_TROLL_IN_THE_HINTERLANDS_OR",
 					export = true,

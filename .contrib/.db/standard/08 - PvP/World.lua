@@ -64,7 +64,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 				}),
 			}),
 			n(TREASURES, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Contains Dread Aspirant Gear if you are Level 10-49 and Sinister Aspirant Gear at Level 50.",
 					constant = "CONTAINS_DREAD_ASPIRANT_GEAR_IF_YOU_ARE_LEVEL",
 					export = true,
@@ -85,7 +85,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 			}),
 			n(QUESTS, {
 				q(58274, {	-- Servant of N'Zoth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted upon killing 10 Horde players without dying after you became an Assassin.",
 						constant = "GRANTED_UPON_KILLING_10_HORDE_PLAYERS_WITHOUT",
 						export = true,
@@ -112,7 +112,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 					},
 				}),
 				q(58273, {	-- Servant of N'Zoth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted upon killing 10 Alliance players without dying after you became an Assassin.",
 						constant = "GRANTED_UPON_KILLING_10_ALLIANCE_PLAYERS",
 						export = true,
@@ -302,7 +302,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 			}),
 			n(QUESTS, {
 				q(71143, {	-- The Horde Slayer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you die while on the quest, and are resurrected you will continue gaining credit.",
 						constant = "IF_YOU_DIE_WHILE_ON_THE_QUEST_AND_ARE",
 						export = true,
@@ -423,7 +423,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 					["groups"] = { currency(HONOR) },
 				}),
 				o(441108, {	-- Unbound Spoils
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns ONCE per rotation in the matching zone determined by the zone where the Shadowlands PvP World Quest is active. The spawn can occur at any moment while that quest is up.\nArdenweald -> Isle of Dorn\nMaldraxxus -> Hallowfall\nRevendreth -> Azj-Kahet\nBastion -> The Ringing Deeps.\nThe box can be looted by many players of both factions within a few minutes after being opened. There's really no reason to fight about it. :)",
 						constant = "SPAWNS_ONCE_PER_ROTATION_IN_THE_MATCHING_ZONE",
 						export = true,

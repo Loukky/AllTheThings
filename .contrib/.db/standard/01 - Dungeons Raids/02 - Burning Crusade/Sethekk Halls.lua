@@ -69,7 +69,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				})),
 				q(29607, {	-- Eyes of Desire
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dealer Vijaad appears upon defeating Darkweaver Syth.",
 						constant = "DEALER_VIJAAD_APPEARS_UPON_DEFEATING_DARKWEAVER",
 						export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["groups"] = {
 						objective(1, {	-- 0/1 The Saga of Terokk
 							["provider"] = { "i", 27634 },	-- The Saga of Terokk
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found on the floor in the center of the room before Talon King Ikiss.",
 								constant = "FOUND_ON_THE_FLOOR_IN_THE_CENTER_OF_THE_ROOM",
 								export = true,
@@ -257,7 +257,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(27936),	-- Greaves of Desolation (7.3.5 - Added to Anzu on Heroic Mode)
 						i(27632),	-- Terokk's Quill
 						i(27991, {	-- Shadow Labyrinth Key
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can loot this from the Talon King's Coffer after Patch 2.3.0, before that (and perhaps in TBC Classic), you would loot it from his corpse.",
 								constant = "YOU_CAN_LOOT_THIS_FROM_THE_TALON_KING_S_COFFER",
 								export = true,
@@ -331,7 +331,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					}),
 					applyclassicphase(TBC_PHASE_TWO_SWIFTFLIGHTFORM, e(542, {	-- Anzu
 						-- #if BEFORE 4.0.1
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This special encounter can be started by a Druid that has completed the 'Vanquish the Raven God' quest chain. It's the same quest chain that grants them Swift Flight Form, so if you see a speedy flappy boi out in the world and they join your dungeon group, you're pretty much guaranteed to have a shot at this... unless they forget the quest item (in the keyring) used to summon him. :)\n\nDruids: You can right click this boss to see the quest chain you need to finish.",
 							constant = "THIS_SPECIAL_ENCOUNTER_CAN_BE_STARTED_BY_A",
 							export = true,

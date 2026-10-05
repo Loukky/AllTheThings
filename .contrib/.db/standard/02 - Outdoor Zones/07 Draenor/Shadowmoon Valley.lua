@@ -78,7 +78,7 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(9437),	-- A Demidos of Reality
 					ach(8845, {	-- As I Walk Through the Valley of the Shadow of Moon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Shadowmoon Valley Treasure Map' from Grakis in Stormshield.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_5",
 							export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, {
 					}),
 					ach(8938),	-- Explore Shadowmoon Valley
 					ach(9436, {	-- It's the Stones! (Socrethar's Rise)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on the daily quest Assault on Socrethar's Rise.",
 							constant = "MUST_BE_ON_THE_DAILY_QUEST_ASSAULT_ON_SOCRETHAR",
 							export = true,
@@ -148,7 +148,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9435, {	-- Take From Them Everything (Socrethar's Rise)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Pickup the buff and then keep that same buff active for 10 minutes, make sure to only click Fruit Baskets.",
 							constant = "PICKUP_THE_BUFF_AND_THEN_KEEP_THAT_SAME_BUFF",
 							export = true,
@@ -195,7 +195,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(1447, {	-- Moonshell Crab (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found mostly on the northeast coast.",
 								constant = "FOUND_MOSTLY_ON_THE_NORTHEAST_COAST",
 								export = true,
@@ -220,7 +220,7 @@ root(ROOTS.Zones, {
 						pet(1587),	-- Royal Moth (PET!)
 						pet(1593),	-- Waterfly (PET!)
 						pet(1582, {	-- Zangar Crawler (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found on the Darktide Roost shoreline and NW Elodor in Shadowmoon, as well as around 73, 34 in Spires of Arak.",
 								constant = "CAN_BE_FOUND_ON_THE_DARKTIDE_ROOST_SHORELINE",
 								export = true,
@@ -698,7 +698,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 59.8, 94.4, DRAENOR_SHADOWMOON_VALLEY },
 					}),
 					q(34788, {	-- Friend of the Exarchs
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can only pick one of these followers per character.",
 							constant = "YOU_CAN_ONLY_PICK_ONE_OF_THESE_FOLLOWERS_PER",
 							export = true,
@@ -805,7 +805,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					heroscall(q(49562, {	-- Hero's Call: Shadowmoon Valley! (Draenor)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After the 'Assault on the Dark Portal' scenario, turn in quest 'Step Three: Prophet!' without accepting the following quest, then visit a Hero's Call Board to pick this quest up.",
 							constant = "AFTER_THE_ASSAULT_ON_THE_DARK_PORTAL_SCENARIO",
 							export = true,
@@ -960,7 +960,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34897, {	-- Rangari Roundup
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to be close to Rangari Navra before quest shows up on mini-map.",
 							constant = "YOU_NEED_TO_BE_CLOSE_TO_RANGARI_NAVRA_BEFORE",
 							export = true,
@@ -1099,7 +1099,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34575, {	-- Step Three: Prophet!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically granted after completing the Assault on the Dark Portal scenario.",
 							constant = "AUTOMATICALLY_GRANTED_AFTER_COMPLETING_THE_2",
 							export = true,
@@ -1166,7 +1166,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(34054, {	-- The Dark Side of the Moon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted automatically upon completing |cFFFFD700Into Anguish|r.",
 							constant = "GRANTED_AUTOMATICALLY_UPON_COMPLETING",
 							export = true,
@@ -1194,7 +1194,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(35093, {	-- The Dark Side of the Moon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is offered if you abandon the quest '|cFFFFD700The Dark Side of the Moon|r' (34054) and return to |cFFFFD700Prophet Velen|r.",
 							constant = "THIS_VERSION_IS_OFFERED_IF_YOU_ABANDON_THE",
 							export = true,
@@ -1297,7 +1297,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(37322, {	-- The Prophet's Final Message
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The item that starts this quest is mailed to you.",
 							constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_IS_MAILED_TO",
 							export = true,
@@ -1358,7 +1358,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(36309, {	-- The Strength of Iron
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Item that starts the Quest can be looted from almost any creature in Shadowmoon Valley; however, Karnoth has a guaranteed drop chance.",
 							constant = "ITEM_THAT_STARTS_THE_QUEST_CAN_BE_LOOTED_FROM_2",
 							export = true,
@@ -1532,7 +1532,7 @@ root(ROOTS.Zones, {
 				n(RARES, {
 					-- Coords have been confirmed on rares except for Edge of Reality, Pathrunner, and some noted rares on longer spawn timers.
 					n(77140, {	-- Amaukwa
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Flies in a roughly oval pattern between the two coords.",
 							constant = "FLIES_IN_A_ROUGHLY_OVAL_PATTERN_BETWEEN_THE_TWO",
 							export = true,
@@ -1631,7 +1631,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(113082) },	-- Precious Bloodthorn Loop
 					}),
 					n(79524, {	-- Hypnocroak
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In a cave behind the waterfall.",
 							constant = "IN_A_CAVE_BEHIND_THE_WATERFALL",
 							export = true,
@@ -1716,7 +1716,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119364) },	-- Hydraskin Shoulderguards
 					}),
 					n(50883, {	-- Pathrunner
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Pathrunner has a respawn timer between 5-16 hours. Mount drop rate is 100% for all participants.",
 							constant = "PATHRUNNER_HAS_A_RESPAWN_TIMER_BETWEEN_5_16",
 							export = true,
@@ -1767,7 +1767,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119396) },	-- Shadowspeaker's Shard
 					}),
 					n(82415, {	-- Shinri
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "He cannot be attacked if he is running, so it's best to sneak up behind him.",
 							constant = "HE_CANNOT_BE_ATTACKED_IF_HE_IS_RUNNING_SO_IT_S",
 							export = true,
@@ -1821,7 +1821,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(109074) },	-- Fine Void-Chain Cinch
 					}),
 					n(75434, {	-- Windfang Matriarch (Alliance)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Speak with Romuul to start the event that spawns Wildfang Matriarch.",
 							constant = "SPEAK_WITH_ROMUUL_TO_START_THE_EVENT_THAT",
 							export = true,
@@ -1884,7 +1884,7 @@ root(ROOTS.Zones, {
 					o(226831, {	-- Astrologer's Box
 						["questID"] = 33867,
 						["coord"] = { 49.4, 37.6, DRAENOR_SHADOWMOON_VALLEY },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If this is not showing up for you on Alliance, you will need to complete the quests in the area first, then move to a new map area and back in to see the treasure.",
 							constant = "IF_THIS_IS_NOT_SHOWING_UP_FOR_YOU_ON_ALLIANCE",
 							export = true,
@@ -1929,7 +1929,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(108904) },	-- Fingers of the Void
 					}),
 					o(236755, {	-- Dusty Lockbox
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Go up the path and jump on the standing stones. Follow them across to the second set of coords.",
 							constant = "GO_UP_THE_PATH_AND_JUMP_ON_THE_STANDING_STONES",
 							export = true,
@@ -2151,7 +2151,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(113554, {	-- Zomstrok (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found on the islands southwest of Socrethar's Rise.",
 							constant = "CAN_BE_FOUND_ON_THE_ISLANDS_SOUTHWEST_OF",
 							export = true,

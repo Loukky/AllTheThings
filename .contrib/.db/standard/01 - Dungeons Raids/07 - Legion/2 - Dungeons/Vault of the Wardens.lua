@@ -193,7 +193,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				["groups"] = {
 					n(ACHIEVEMENTS, {
 						ach(10707, {	-- A Specter, Illuminated
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After killing |cFFFFD700Cordana Felsong|r, take Elune's Light to the hallway connecting |cFFFFD700Glazer|r and |cFFFFD700Ash'golm|r and follow the spirit until it reaches the end of the hall. Kill the spectre that spawns, then repeat the process 2 more times.",
 								constant = "AFTER_KILLING_CFFFFD700CORDANA_FELSONG_R_TAKE",
 								export = true,

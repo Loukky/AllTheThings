@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 		n(ZONE_DROPS, {
 			i(199216),	-- A Box of Rocks
 			i(202062, {	-- Ash Feather
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be collected in <10 minutes inside the Neltharus dungeon, by staying near the entrance. They spawn very quickly here for some reason.",
 					constant = "CAN_BE_COLLECTED_IN_10_MINUTES_INSIDE_THE",
 					export = true,

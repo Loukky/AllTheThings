@@ -7,7 +7,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		i(201471),	-- Story of a Spectacular Victory
 		i(200686, {	-- Primal Focus
 			-- #if BEFORE 10.1
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops in M+ 11-15",
 				constant = "DROPS_IN_M_11_15",
 				export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		}),
 		i(190455, {	-- Concentrated Primal Focus
 			-- #if BEFORE 10.1
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops in M+ 16+",
 				constant = "DROPS_IN_M_16",
 				export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_1_0 },
 		}),
 		i(204075, {	-- Whelping's Shadowflame Crest Fragment
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops in M+ 0-5",
 				constant = "DROPS_IN_M_0_5",
 				export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 },
 		}),
 		i(204076, {	-- Drake's Shadowflame Crest Fragment
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops in M+ 6-10",
 				constant = "DROPS_IN_M_6_10",
 				export = true,

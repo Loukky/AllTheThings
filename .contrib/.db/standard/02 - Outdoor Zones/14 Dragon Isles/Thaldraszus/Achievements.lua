@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			ach(16518),	-- Explore Thaldraszus
 			ach(16634, {	-- Framing a New Perspective
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Exact point in the world will be within a light pink beam of light when using the 'Selfie Camera MkII' near the proper location.",
 					constant = "EXACT_POINT_IN_THE_WORLD_WILL_BE_WITHIN_A_LIGHT",
 					export = true,

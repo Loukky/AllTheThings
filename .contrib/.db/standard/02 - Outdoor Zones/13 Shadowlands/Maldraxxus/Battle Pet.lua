@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(MALDRAXXUS, {
 		petbattle(filter(BATTLE_PETS, {
 			pet(3051, {	-- Animated Cruor (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found commonly in the House of Constructs and northeast of Theatre of Pain.",
 					constant = "FOUND_COMMONLY_IN_THE_HOUSE_OF_CONSTRUCTS_AND",
 					export = true,
@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(3050, {	-- Bleak Skitterer (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found close to these few coords.",
 					constant = "FOUND_CLOSE_TO_THESE_FEW_COORDS",
 					export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(2950, {	-- Clutch (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Normally found only around this coord.",
 					constant = "NORMALLY_FOUND_ONLY_AROUND_THIS_COORD",
 					export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 31.8, 28.6, MALDRAXXUS },
 			}),
 			pet(3083, {	-- Crawbat (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found commonly around the outside of the ToP arena.",
 					constant = "FOUND_COMMONLY_AROUND_THE_OUTSIDE_OF_THE_TOP",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			pet(3052, {	-- Necroray Spawnling (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found around the green slime pools (1) above the House of Plagues and (2) SW of the House of Eyes.",
 					constant = "FOUND_AROUND_THE_GREEN_SLIME_POOLS_1_ABOVE_THE",
 					export = true,

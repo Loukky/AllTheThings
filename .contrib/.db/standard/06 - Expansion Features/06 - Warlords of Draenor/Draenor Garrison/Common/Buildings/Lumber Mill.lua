@@ -44,7 +44,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = HORDE_ONLY,
 						}),
 						q(36296, {	-- Phylarch the Evergreen
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Chance to spawn when you cut down trees with a rank 3 lumbermill in your garrison. After spawning 3 times, he will become your follower.",
 								constant = "CHANCE_TO_SPAWN_WHEN_YOU_CUT_DOWN_TREES_WITH_A",
 								export = true,
@@ -65,7 +65,7 @@ root(ROOTS.ExpansionFeatures,
 							["groups"] = { follower(194) },	-- Phylarch the Evergreen
 						}),
 						q(36448, {	-- Reduction in Force
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Weldon Barov must be an active follower (ideally assigned to a building) to be available to give this quest.",
 								constant = "WELDON_BAROV_MUST_BE_AN_ACTIVE_FOLLOWER_IDEALLY",
 								export = true,
@@ -96,7 +96,7 @@ root(ROOTS.ExpansionFeatures,
 							["groups"] = { i(116154) },	-- Barov Lumberjack Caller
 						}),
 						q(36194, {	-- Sharper Blades, Bigger Timber
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires Lumber Mill level 2",
 								constant = "REQUIRES_LUMBER_MILL_LEVEL_2",
 								export = true,
@@ -123,7 +123,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = HORDE_ONLY,
 						}),
 						q(36813, {	-- Subversive Infestation
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This Quest requires a Level 3 Lumber Mill as well as the Follower Phylarch the Green either active or attached to the Lumber Mill.",
 								constant = "THIS_QUEST_REQUIRES_A_LEVEL_3_LUMBER_MILL_AS",
 								export = true,
@@ -145,7 +145,7 @@ root(ROOTS.ExpansionFeatures,
 							["groups"] = { i(117398) },	-- Everbloom Seed Pouch
 						}),
 						q(36429, {	-- The Rise and Fall of Barov Industries: Weldon Barov
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Weldon Barov is found at various locations in Draenor. He is stuck under a log and you need the lumber mill to get him out of there.",
 								constant = "WELDON_BAROV_IS_FOUND_AT_VARIOUS_LOCATIONS_IN",
 								export = true,
@@ -178,7 +178,7 @@ root(ROOTS.ExpansionFeatures,
 							["groups"] = { follower(195) },	-- Weldon Barov / Alexi Barov
 						}),
 						q(36427, {	-- The Rise and Fall of Barov Industries: Alexi Barov
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Alexi Barov can be found in multiple zones under a Fallen Tree. A lumber mill is required to rescue him.",
 								constant = "ALEXI_BAROV_CAN_BE_FOUND_IN_MULTIPLE_ZONES",
 								export = true,
@@ -223,7 +223,7 @@ root(ROOTS.ExpansionFeatures,
 							["groups"] = { follower(195) },	-- Weldon Barov / Alexi Barov
 						}),
 						q(36195, {	-- Tree-i-cide
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This Quest requires a Level 3 Lumber Mill.",
 								constant = "THIS_QUEST_REQUIRES_A_LEVEL_3_LUMBER_MILL",
 								export = true,
@@ -260,7 +260,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = HORDE_ONLY,
 						}),
 						n(85199, {	-- Petrified Ancient
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These will appear as nodes on your mini-map as trees do after you have built your Level 2 Lumber Mill.",
 								constant = "THESE_WILL_APPEAR_AS_NODES_ON_YOUR_MINI_MAP_AS",
 								export = true,

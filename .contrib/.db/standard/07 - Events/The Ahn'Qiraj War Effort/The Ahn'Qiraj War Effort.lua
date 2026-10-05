@@ -41,7 +41,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 				["groups"] = {
 					q(8811, {	-- One Commendation Signet (1/2) [Stormwind]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Stormwind",
 							constant = "GRANTS_5_REPUTATION_WITH_STORMWIND",
 							export = true,
@@ -91,7 +91,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8812, {	-- One Commendation Signet (1/2) [Ironforge]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Ironforge",
 							constant = "GRANTS_5_REPUTATION_WITH_IRONFORGE",
 							export = true,
@@ -141,7 +141,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8813, {	-- One Commendation Signet (1/2) [Darnassus]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Darnassus",
 							constant = "GRANTS_5_REPUTATION_WITH_DARNASSUS",
 							export = true,
@@ -191,7 +191,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8814, {	-- One Commendation Signet (1/2) [Gnomeregan]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Gnomeregan",
 							constant = "GRANTS_5_REPUTATION_WITH_GNOMEREGAN",
 							export = true,
@@ -241,7 +241,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8819, {	-- Ten Commendation Signets (1/2) [Stormwind]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Stormwind",
 							constant = "GRANTS_150_REPUTATION_WITH_STORMWIND",
 							export = true,
@@ -291,7 +291,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8820, {	-- Ten Commendation Signets (1/2) [Ironforge]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Ironforge",
 							constant = "GRANTS_150_REPUTATION_WITH_IRONFORGE",
 							export = true,
@@ -341,7 +341,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8821, {	-- Ten Commendation Signets (1/2) [Darnassus]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Darnassus",
 							constant = "GRANTS_150_REPUTATION_WITH_DARNASSUS",
 							export = true,
@@ -391,7 +391,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8822, {	-- Ten Commendation Signets (1/2) [Gnomeregan]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Gnomeregan",
 							constant = "GRANTS_150_REPUTATION_WITH_GNOMEREGAN",
 							export = true,
@@ -859,7 +859,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 				["groups"] = {
 					q(8815, {	-- One Commendation Signet (1/2) [Orgrimmar]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Orgrimmar",
 							constant = "GRANTS_5_REPUTATION_WITH_ORGRIMMAR",
 							export = true,
@@ -909,7 +909,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8816, {	-- One Commendation Signet (1/2) [Undercity]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Undercity",
 							constant = "GRANTS_5_REPUTATION_WITH_UNDERCITY",
 							export = true,
@@ -959,7 +959,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8817, {	-- One Commendation Signet (1/2) [Thunder Bluff]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Thunder Bluff",
 							constant = "GRANTS_5_REPUTATION_WITH_THUNDER_BLUFF",
 							export = true,
@@ -1009,7 +1009,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8818, {	-- One Commendation Signet (1/2) [Darkspear]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 5 reputation with Darkspear",
 							constant = "GRANTS_5_REPUTATION_WITH_DARKSPEAR",
 							export = true,
@@ -1059,7 +1059,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8823, {	-- Ten Commendation Signets (1/2) [Orgrimmar]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Orgrimmar",
 							constant = "GRANTS_150_REPUTATION_WITH_ORGRIMMAR",
 							export = true,
@@ -1109,7 +1109,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8824, {	-- Ten Commendation Signets (1/2) [Undercity]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Undercity",
 							constant = "GRANTS_150_REPUTATION_WITH_UNDERCITY",
 							export = true,
@@ -1159,7 +1159,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8825, {	-- Ten Commendation Signets (1/2) [Thunder Bluff]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Thunder Bluff",
 							constant = "GRANTS_150_REPUTATION_WITH_THUNDER_BLUFF",
 							export = true,
@@ -1209,7 +1209,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 					q(8826, {	-- Ten Commendation Signets (1/2) [Darkspear]
 						-- #if BEFORE TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Grants 150 reputation with Darkspear",
 							constant = "GRANTS_150_REPUTATION_WITH_DARKSPEAR",
 							export = true,
@@ -1705,7 +1705,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					["races"] = HORDE_ONLY,
 				}),
 				i(21509, {	-- Ahn'Qiraj War Effort Supplies [Level 10]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a random assortment of common and uncommon quality items between levels 10-12.",
 						constant = "CONTAINS_A_RANDOM_ASSORTMENT_OF_COMMON_AND",
 						export = true,
@@ -1725,7 +1725,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 				}),
 				i(21510, {	-- Ahn'Qiraj War Effort Supplies [Level 20]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a random assortment of common, uncommon, and rare quality items between levels 20-22.",
 						constant = "CONTAINS_A_RANDOM_ASSORTMENT_OF_COMMON_UNCOMMON",
 						export = true,
@@ -1745,7 +1745,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 				}),
 				i(21511, {	-- Ahn'Qiraj War Effort Supplies [Level 30]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a random assortment of common, uncommon, and rare quality items between levels 30-32.",
 						constant = "CONTAINS_A_RANDOM_ASSORTMENT_OF_COMMON_UNCOMMON_2",
 						export = true,
@@ -1765,7 +1765,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 				}),
 				i(21512, {	-- Ahn'Qiraj War Effort Supplies [Level 40]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a random assortment of common, uncommon, and rare quality items between levels 40-42.",
 						constant = "CONTAINS_A_RANDOM_ASSORTMENT_OF_COMMON_UNCOMMON_3",
 						export = true,
@@ -1785,7 +1785,7 @@ root(ROOTS.WorldEvents, n(THE_AHNQIRAJ_WAR_EFFORT,
 					}),
 				}),
 				i(21513, {	-- Ahn'Qiraj War Effort Supplies [Level 50]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a random assortment of common, uncommon, and rare quality items between levels 50-52.",
 						constant = "CONTAINS_A_RANDOM_ASSORTMENT_OF_COMMON_UNCOMMON_4",
 						export = true,

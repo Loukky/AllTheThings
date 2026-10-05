@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 					n(PROFESSIONS, {
 						prof(ENCHANTING, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Before you can enter the Mage Tower to pick up the books, you will need to complete a small puzzle. First use the Scarlet Insignia, to disguise yourself then head to the Mage Tower within New Avalon.\nRun through the Stone Arches, and you will get a buff called Mystical Refraction this allows you to see colored crystals in the area.\nYou need to blend the color of the crystals to match the Mage Tower Portal door. You blend these by running under the floating tree.\nOnce you have solved the puzzle, simply walk through the portal to enter the Mage Tower. Once inside you will be greeted with Distracted Scarlet Wizards who you must avoid.\nOnce in, you will find the books on the bookcases throughout.\nEach book equals a different enchanting formula. Once you have looted the book, disenchant it then use 15 Illusion Dust, and 1 Righteous Orb to learn the enchant.",
 								constant = "BEFORE_YOU_CAN_ENTER_THE_MAGE_TOWER_TO_PICK_UP",
 								export = true,
@@ -343,7 +343,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["coord"] = { 55.2, 46.2, THE_SCARLET_ENCLAVE },
 								["groups"] = {
 									i(39317, {	-- News From The North
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "This explains the disappearance of Naxxramas from the Eastern Plaguelands.",
 											constant = "THIS_EXPLAINS_THE_DISAPPEARANCE_OF_NAXXRAMAS",
 											export = true,
@@ -1029,7 +1029,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			-- #if AFTER 10.1.5
 			header(HEADERS.Achievement, 18372, {	-- Wards of the Dread Citadel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "With 10.1.5, Blizzard readded vanilla Naxxramas and the tier 3 crafts. Unlocking this content requires completing following stages:\n\nStage 1: Memory of Scholomance, this unlocks Old Scholomance on an accound-wide basis, see the instructions in it's header in Western Plaguelands.\n\nStage 2: Obtain your first Argent Dawn Commission, see the instructions in the subheader below.\n\nHereafter any of your characters may need to have an Argent Dawn Commission equipped for any progression if the game does not automatically provide you with a substituting buff.\n\nStage 3: Experience Sleight of Hand, see the instructions in the subheader below.\n\nThe stages 4-6 takes place in Naxxramas. It is recommended to proceed with a Gnome or Goblin due to required parkouring in tight spaces.\nRequired items:\nAt least 1x Stratholme Holy Water\n3x Dark Rune\n20x Invader's Scourgestones\n1x Black Coffee, bought in Shattrath (70.6, 51.8) / Stormwind (69.4, 65.4)\n2x Speed potions if you do not have an ability like Burning Rush.",
 					constant = "WITH_10_1_5_BLIZZARD_READDED_VANILLA_NAXXRAMAS_2",
 					export = true,
@@ -1052,7 +1052,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["groups"] = {
 							n(TREASURES, {
 								o(403536, {	-- The Road Ahead
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Located by Corrin's Crossing in the Eastern Plaguelands, by the building that used to be the inn. The painting is on the first floor, by the wall beside the stairs leading to the second floor.",
 										constant = "LOCATED_BY_CORRIN_S_CROSSING_IN_THE_EASTERN",
 										export = true,
@@ -1078,7 +1078,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									},
 								}),
 								o(403534, {	-- Trampled Doll
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Located by a meat wagon in Darrowshire.",
 										constant = "LOCATED_BY_A_MEAT_WAGON_IN_DARROWSHIRE",
 										export = true,
@@ -1104,7 +1104,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									},
 								}),
 								o(403533, {	-- Undelivered Shipment of Smokes
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Located in live Stratholme, near Ezra Grimm's tobacco place (enter the instance, take a left and another left). By a cart next to where Ezra Grimm spawns.",
 										constant = "LOCATED_IN_LIVE_STRATHOLME_NEAR_EZRA_GRIMM_S",
 										export = true,
@@ -1133,7 +1133,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					header(HEADERS.Item, 12846, {	-- Argent Dawn Commission
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "1. Enter Old Scholomance and go to the room with Rattlegore (beneath The Great Ossuary). On the southwestern pile of bones can you find and loot the tiny object 'Cracked Argent Dawn Commission'.\n\n2. Obtain 1x Righteous Orb and 4x Truesilver Bars, and use the 'Cracked Argent Dawn Commission' to repair it. Equip your new 'Argent Dawn Commission'.\n\n3. Kill Darkmaster Gandling in Old Scholomance and loot the quest item 'Darkmaster's Scourgestone'.\n\n4. Accept the quest, and turn it in to the Argent Crusade representative in Light's Hope Chapel or Chillwind Camp/The Bulwark.\n\n5. You now have unlocked the ability to obtain Invader's Scourgestones on an account-wide basis, but it might require an Argent Dawm Commission to be equipped unless Scholomance/Stratholme/Nazzramas automatically gives you the eligibility as a buff. Your alts can get theirs by interacting with Duke Nicholas Zverenhoff in Light's Hope Chapel if eligibility is not automatically provided as buffs in the given instances.",
 							constant = "1_ENTER_OLD_SCHOLOMANCE_AND_GO_TO_THE_ROOM_WITH",
 							export = true,
@@ -1179,7 +1179,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					header(HEADERS.Spell, 413407, {	-- Sleight of Hand
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "1. Make sure you have equipped your Argent Dawn Commission, and enter Stratholme through the Main Gate.\n\n2. Kill mobs until Eye of Nazzramas spawns. Kill it and loot 'Ward of Naxxramas'.\n\n3. Interact with a Supply Crate to obtain 'Stratholme Holy Water'.\n\n4. Clear a path from Festival Lane through Market Row to Crusader's Square.\n\n5. Use your 'Ward of Naxxramas' in Crusader's square to obtain truesight and you should find a Dread Ward by the southern gate. (Prematurely killing any bosses in Undead Stratholme will prevent this spawn!)\n\n6. Use your 'Stratholme Holy Water' on the Dread Ward. This will trigger 'Sleight of Hand', and a five minute timer.\n\n7. You now have 5 minutes to do the following:\n7.1: Get back to Festival Lane and enter Elder's Square of the Undead seaction of Stratholme.\n7.2: Kill all bosses in Undead Stratholme. Remember to also take out the cultists inside the ziggurats.\n7.3: After killing Lord Aurius Rivendare in Slaughter Square, head into the southern gate where the Naxxramas portal is blocked off.\n7.4: An undead creature named 'Hand of Naxxramas' should be waiting for you, and an Extra Action Button should appear. Use it to burn the creature to dust before the timer tuns out.\n\n8. Travel to Light's Hope Chapel and find Archmage Angela Dosantos at 75.5, 52.8. Interact with her first, and she will offer a version of the quest named 'The Dread Citadel - Naxxramas' appropriate to your reputation with Argent Dawn. (Lower standing means she requires more gold and reagents from you, Exalted makes it free.)\n\n9. You have now unlocked the ability to obtain Corruptor's Scourgestones on an accound-wide basis, as well as a portal to Naxxramas at coordinates 35.7, 23.1.",
 							constant = "1_MAKE_SURE_YOU_HAVE_EQUIPPED_YOUR_ARGENT_DAWN",
 							export = true,
@@ -1204,7 +1204,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["timeline"] = { ADDED_10_1_5 },
 							}),
 							n(206148, {	-- Hand of Naxxramas
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "When you have both the ward and holy water, head to the entrance of the Crusader's Cathedral, but don't enter there - Instead, use your Ward of Naxxramas and turn to the left. If done correctly, you will see a Dread Ward of Naxxramas right next to the gates there, Once you find the Dread Ward, toss your  Stratholme Holy Water in it.\n\nIf done correctly, you will receive a zone-wide yell, and a debuff called  Sleight of Hand. Once you get this debuff, you have 5 minutes to run all the way to the Undead side of Stratholme, to the gate to the left of the Necropolis where Lord Aurius Rivendare is located. You MUST kill Lord Aurius Rivendare to open the gate. If you arrive in time, a Hand of Naxxramas NPC will be there, and you will be able to use your Argent Dawn Commission to burn it to a crisp.",
 									constant = "WHEN_YOU_HAVE_BOTH_THE_WARD_AND_HOLY_WATER_HEAD",
 									export = true,
@@ -1232,7 +1232,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							}),
 							n(16116, {	-- Archmage Angela Dosantos
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to Archmage after defeating Hand of Naxxramas",
 									constant = "TALK_TO_ARCHMAGE_AFTER_DEFEATING_HAND_OF",
 									export = true,
@@ -1309,7 +1309,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					header(HEADERS.Spell, 413594, {	-- Forgotten Knowledge
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "See Stage 6 'Forgotten Knowledge' in Naxxramas.",
 							constant = "SEE_STAGE_6_FORGOTTEN_KNOWLEDGE_IN_NAXXRAMAS",
 							export = true,
@@ -1329,7 +1329,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						["groups"] = {
 							n(16365, {	-- Master Craftsman Omarion <Brotherhood of the Light>
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "To unlock this vendor you are required to complete the 'Wards of the Dread Citadel' stage 6 named 'Forgotten Knowledge in Naxxramas.",
 									constant = "TO_UNLOCK_THIS_VENDOR_YOU_ARE_REQUIRED_TO",
 									export = true,
@@ -1390,7 +1390,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							}),
 							n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
 								ach(18557, {	-- Never Bothered, Anyway
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Equip the full crafted set of Glacial (cloth), Icebane (plate), Icy Scale (mail), or Polar (leather). Note that the tailor-crafted Glacial Cloak is required for any of the sets!",
 										constant = "EQUIP_THE_FULL_CRAFTED_SET_OF_GLACIAL_CLOTH",
 										export = true,
@@ -1464,7 +1464,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 					n(COMMON_BOSS_DROPS, {
 						i(206374, {	-- Invader's Scourgestone
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Although this is an explicit drop from bosses in Old Scholomance and Stratholme, it will not drop from indoor bosses in Stratholme living, AKA the Scarlet section of the dungeon.",
 								constant = "ALTHOUGH_THIS_IS_AN_EXPLICIT_DROP_FROM_BOSSES",
 								export = true,
@@ -1607,7 +1607,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 27457,	-- An Opportune Alliance
 						}),
 						crit(17428, {	-- Beezil Linkspanner
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Collect all other travelers, then speak to Beezil at Light Hope's Chapel.",
 								constant = "COLLECT_ALL_OTHER_TRAVELERS_THEN_SPEAK_TO",
 								export = true,
@@ -1811,7 +1811,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						66.5, 56.9, EASTERN_PLAGUELANDS,
 						-- #endif
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nDeiza's pets are level 14 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Undead - use Critter (powerful) or Aquatic (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_THOUGH_HORDE_2",
 						export = true,
@@ -1872,7 +1872,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27372, {	-- A Gift For Fiona
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again at Fiona's Caravan at the zone entrance on the border with Western Plaguelands.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_5",
 						export = true,
@@ -2423,7 +2423,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27453, {	-- Catalysm
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Betina Bigglezink at Light's Shield Tower.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_6",
 						export = true,
@@ -3424,7 +3424,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27482, {	-- Into the Flames
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Vex'tul at Eastwall Tower.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_7",
 						export = true,
@@ -4596,7 +4596,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6144, {	-- The Call to Command
 					-- #if AFTER 3.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is only available to those that have not yet completed the Wrath Gate.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_ONLY_AVAILABLE_TO",
 						export = true,
@@ -4853,7 +4853,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				q(27532, {	-- The Plaguewood Tower
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Position of Argus Highbeacon depends on the position of Fionas Caravan and the order of quests you completed.",
 						constant = "POSITION_OF_ARGUS_HIGHBEACON_DEPENDS_ON_THE",
 						export = true,
@@ -6266,7 +6266,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(61387, {	-- Hidden Stash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Before being able to farm for this companion, players must complete a quest chain from Fiona. When asked to choose a buff from the carriage, choose Fiona's Lucky Charm. This gives a buff with a blue rabbit's foot while in the zone.",
 						constant = "BEFORE_BEING_ABLE_TO_FARM_FOR_THIS_COMPANION",
 						export = true,

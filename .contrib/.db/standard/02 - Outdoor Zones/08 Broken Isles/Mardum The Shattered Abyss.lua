@@ -180,7 +180,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(38729, {	-- Return to the Black Temple
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Maiev upgrades your uncommon Illidari Glaives to Fel-Etched Glaives after this quest is completed.",
 							constant = "MAIEV_UPGRADES_YOUR_UNCOMMON_ILLIDARI_GLAIVES",
 							export = true,

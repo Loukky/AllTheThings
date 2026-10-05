@@ -500,7 +500,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		i(143748, {["timeline"] = {ADDED_7_1_0}}),	-- Leyscale Koi
 		i(133725),	-- Leyshimmer Blenny
 		i(133887, {	-- Luminous Pearl
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Pre-requisites:\n\n  Be level 45.\n  Have level 100 Legion Fishing.\n  Complete the achievement 'Bigger Fish to Fry'.\n\nOnce you have all of these things, you can fish from any Fishing Pool on the Broken Isles for this item.",
 				constant = "PRE_REQUISITES_BE_LEVEL_45_HAVE_LEVEL_100",
 				export = true,
@@ -564,7 +564,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(129118),	-- Dreamleaf Sample
 			i(129285),	-- Dreamleaf Seed
 			i(153045, {	-- Fel Lasher (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This can be looted from any herb on Argus.",
 					constant = "THIS_CAN_BE_LOOTED_FROM_ANY_HERB_ON_ARGUS",
 					export = true,
@@ -893,7 +893,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 	prof(SKINNING, {
 		filter(BATTLE_PETS, {
 			i(153057, {	-- Fossorial Bile Larva (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This can be obtained from any skinnable Argus mob.",
 					constant = "THIS_CAN_BE_OBTAINED_FROM_ANY_SKINNABLE_ARGUS",
 					export = true,

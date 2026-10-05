@@ -27,7 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				["lvl"] = 85,
 				["groups"] = {
 					q(29802, {	-- A Hidden Message
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Yes, you actually have to pay the 10 000 gold to progress on this questline.",
 							constant = "YES_YOU_ACTUALLY_HAVE_TO_PAY_THE_10_000_GOLD_TO",
 							export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["cost"] = { { "i", 74752, 1 } },	-- Solved Cipher
 						["groups"] = {
 							i(74749, {	-- Charging Decoder Ring
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Just log out for 12 hours. Read a book or something!",
 									constant = "JUST_LOG_OUT_FOR_12_HOURS_READ_A_BOOK_OR",
 									export = true,
@@ -144,7 +144,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["coord"] = { 50.2, 59.6, 409 },	-- Dragon Soul
 					}),
 					q(30116, {	-- Sharpening Your Fangs
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest requires you to turn in 60 unopened Elementium Gem Clusters.",
 							constant = "THIS_QUEST_REQUIRES_YOU_TO_TURN_IN_60_UNOPENED",
 							export = true,
@@ -260,7 +260,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				},
 				["groups"] = {
 					currency(614, {	-- Mote of Darkness
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Used to buy uncut gems contained in Crystalline Geode from vendor Dasnurimi in Wyrmrest Temple.",
 							constant = "USED_TO_BUY_UNCUT_GEMS_CONTAINED_IN_CRYSTALLINE",
 							export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 			n(VENDORS, {
 				n(58153, {	-- Dasnurimi <Geologist & Conservator>
 					i(78890, {	-- Crystalline Geode
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains random uncut Cataclysm gems.",
 							constant = "CONTAINS_RANDOM_UNCUT_CATACLYSM_GEMS",
 							export = true,
@@ -355,7 +355,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					-- }),
 					-- #if AFTER 9.1.5
 					currency(615, {	-- Essence of Corrupted Deathwing
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Used to buy random epic uncut gems contained in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
 							constant = "USED_TO_BUY_RANDOM_EPIC_UNCUT_GEMS_CONTAINED_IN",
 							export = true,
@@ -404,7 +404,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(78874),	-- Shoulders of the Corrupted Vanquisher
 							i(78863, {	-- Chest of the Corrupted Conqueror
 								-- #if AFTER LEGION
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Paladin Completionists will want to take this item to the vendor to get the specific item they want. Right-clicking can award the Holy piece regardless of your spec.",
 									constant = "PALADIN_COMPLETIONISTS_WILL_WANT_TO_TAKE_THIS",
 									export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						},
 						["groups"] = {
 							i(71998, {	-- Essence of Destruction
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Drops commonly from Dragon Soul bosses.",
 									constant = "DROPS_COMMONLY_FROM_DRAGON_SOUL_BOSSES",
 									export = true,
@@ -628,7 +628,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					cr(55308, e(324, {	-- Warlord Zon'ozz
 						ach(6128, {	-- Ping Pong Champion
 							-- #if AFTER 6.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be soloed without a pet to hold the boss, the ball occasionally has an immune phase where it can pass through the boss without losing the strike.",
 								constant = "CAN_BE_SOLOED_WITHOUT_A_PET_TO_HOLD_THE_BOSS",
 								export = true,
@@ -651,7 +651,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					})),
 					cr(55312, e(325, {	-- Yor'sahj the Unsleeping
 						ach(6129, {	-- Taste the Rainbow!
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The oozes you need for the achievement spawns through the boss fight. Four colours will spawn each time, and the remaining oozes becomes immune when the first is killed. This is fine, just make sure two of the remaining oozes matches a criteria.",
 								constant = "THE_OOZES_YOU_NEED_FOR_THE_ACHIEVEMENT_SPAWNS",
 								export = true,
@@ -703,7 +703,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					cr(55689, e(317, {	-- Hagara the Stormbinder
 						ach(6175, {	-- Holding Hands
 							-- #if AFTER 6.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be soloed with a pet or with help from another player. Requires 10 player mode. Get Hagara down to past 85% health, and kill the elemental spawn near a totem to charge it.\n\n|CFFFF0000Do not try to this in 25 player mode, you will get stuck unless you have a handful of other players with you!|r",
 								constant = "CAN_BE_SOLOED_WITH_A_PET_OR_WITH_HELP_FROM",
 								export = true,
@@ -724,7 +724,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							-- #endif
 						}),
 						i(74246, {	-- Cryptomancer's Decoder Ring
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to pickpocket this from the boss.",
 								constant = "YOU_NEED_TO_PICKPOCKET_THIS_FROM_THE_BOSS",
 								export = true,
@@ -752,7 +752,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					cr(56427, e(332, {	-- Warmaster Blackthorn
 						ach(6105, {	-- Deck Defender
 						-- #if AFTER 6.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill the Twilight Assault Drakes fast and soak any Twilight Barrage.\nUse a macro like:\n/tar Twilight Assault Drake\n/cast (whatever instant ranged ability you have)",
 							constant = "KILL_THE_TWILIGHT_ASSAULT_DRAKES_FAST_AND_SOAK",
 							export = true,
@@ -784,7 +784,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					})),
 					cr(56173, e(333, {	-- Madness of Deathwing
 						ach(6180, {	-- Chromatic Champion
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Facing inwards towards the Maelstrom, The aspects will be positioned on the following platforms when the event starts:\nYsera on the start platform.\nKalecgos on the right.\nNozdormu on the left.\nAlexstrasza on the far left.\nYou can get a movement buff prior to event start by moving between the platforms, which helps to reach Alexstrasza in time. Make sure the aspect is properly assaulted to get credit.",
 								constant = "FACING_INWARDS_TOWARDS_THE_MAELSTROM_THE",
 								export = true,

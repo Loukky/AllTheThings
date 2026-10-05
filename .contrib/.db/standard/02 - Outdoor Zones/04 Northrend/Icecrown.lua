@@ -147,7 +147,7 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_5_3_0, REMOVED_7_0_3_LAUNCH },
 								-- Wouter NOTE: in MoP Classic, this started dropping in Phase 2 (Landfall) already
 								-- #if BEFORE 5.5.3
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This is not supposed to be in the game until Phase 4 and doesn't work yet, keep it in your bank until then.",
 									constant = "THIS_IS_NOT_SUPPOSED_TO_BE_IN_THE_GAME_UNTIL",
 									export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Zones, {
 					}),
 					n(66675, {	-- Major Payne <Grand Master Pet Tamer>
 						["coord"] = { 77.4, 19.6, ICECROWN },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Major Payne's pets are level 25 of epic quality and exceptionally powerful of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Mechanical - use Elemental (powerful and tanky) pet.\n3. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Cogblade Raptor (Batter/Overtune/Exposed Wounds) and Flayer Youngling (Blitz/Focus/Kick).",
 							constant = "MAJOR_PAYNE_S_PETS_ARE_LEVEL_25_OF_EPIC_QUALITY",
 							export = true,
@@ -239,7 +239,7 @@ root(ROOTS.Zones, {
 				}),
 				n(QUESTS, {
 					q(13286, {	-- ...All the Help We Can Get.
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the Skybreaker.",
 							constant = "ON_THE_SKYBREAKER",
 							export = true,
@@ -285,7 +285,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(13068, {	-- A Tale of Valor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "For those that didn't know, this quest line was a dedication to a one Brad Bridenbecker, brother to Rob Bridenbecker VP of Online Technologies. Brad had suffered from cancer and was an avid WoW player. His brother requested some memorial be set up for his brother and Chris Metzen, along with others, thought up this quest line to immortalize his battle with cancer within our beloved fantasy realm.\n\nHats off to you, Blizzard, Chris Metzen, and the whole Bridenbecker family. As a childhood cancer survivor myself, you have my utmost respect and loyalty to your honor and vision. You've truly epitomized the struggle of one going through the sickness, the battle, in the most accurate way possible, and bring honor to all of us who have suffered, and have watched those who have suffered, the same battle.\n\nLok'tar, brother Brad. Lok'tar.\n\n—Fellwing on Wowhead",
 							constant = "FOR_THOSE_THAT_DIDN_T_KNOW_THIS_QUEST_LINE_WAS",
 							export = true,
@@ -336,7 +336,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(13277, {	-- Against the Giants (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On Orgrim's Hammer.",
 							constant = "ON_ORGRIM_S_HAMMER",
 							export = true,
@@ -1876,7 +1876,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12839, {	-- The Grand (Admiral's) Plan
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be in |cFFFFD700Intelligence Gathering|r to loot the quest item from a chest.",
 							constant = "MUST_BE_IN_CFFFFD700INTELLIGENCE_GATHERING_R_TO",
 							export = true,

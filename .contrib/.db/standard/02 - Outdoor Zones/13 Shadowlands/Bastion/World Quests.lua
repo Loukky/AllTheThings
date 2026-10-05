@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60844),	-- Flight School: Falling With Style
 			q(60911, {	-- Flight School: Flapping Frenzy
 				ach(14741, {	-- Aerial Ace
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to the NPC after completing the WQ and ask to complete the Paragon's Challenge.",
 						constant = "SPEAK_TO_THE_NPC_AFTER_COMPLETING_THE_WQ_AND",
 						export = true,

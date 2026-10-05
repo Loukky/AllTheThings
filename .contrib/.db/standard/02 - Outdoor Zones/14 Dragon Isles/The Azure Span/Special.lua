@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 	m(THE_AZURE_SPAN, {
 		n(SPECIAL, {
 			n(195353, {	-- Breezebiter
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns near a cave, then patrols the area. Not considered a rare.",
 					constant = "SPAWNS_NEAR_A_CAVE_THEN_PATROLS_THE_AREA_NOT",
 					export = true,
@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(196165, {	-- Gethdazr
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns as part of an event involving The Blubberwall that starts by blowing the Great Horn of Imbu at the northern waypoint. The horn will become clickable after killing the Enraged Air Elemental & you have to support the NPC's, spawning east of the horn, otherwise they will die & the event fails.",
 					constant = "SPAWNS_AS_PART_OF_AN_EVENT_INVOLVING_THE",
 					export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(196900, {	-- Lost Elemental
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols the area and is not considered a rare.",
 					constant = "PATROLS_THE_AREA_AND_IS_NOT_CONSIDERED_A_RARE",
 					export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(196768, {	-- Primal Bear Cub
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Give 3x Hornswog Hunk and a Honey Snack to Primal Bear Cub while wearing the title Honorary Dryad (from Thalendra [192522]) will give you this pet.",
 					constant = "GIVE_3X_HORNSWOG_HUNK_AND_A_HONEY_SNACK_TO",
 					export = true,
@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(190892, {	-- Zon'Wogi
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Give 20x Flash Frozen Meat, 20x Tuskarr Jerky and 20x Gnolan's House Special to Zon'Wogi to get the mount.",
 					constant = "GIVE_20X_FLASH_FROZEN_MEAT_20X_TUSKARR_JERKY",
 					export = true,

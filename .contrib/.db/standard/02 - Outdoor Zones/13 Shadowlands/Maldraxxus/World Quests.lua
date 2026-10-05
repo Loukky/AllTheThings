@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(WORLD_QUESTS, {
 			n(REWARDS, {
 				i(183111, {	-- Animated Ulna
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "A rare reward from pet battle WQs in Maldraxxus.",
 						constant = "A_RARE_REWARD_FROM_PET_BATTLE_WQS_IN_MALDRAXXUS",
 						export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(58490, {	-- Deadly Reminder
 				n(161857, {	-- Nirvaska the Summoner
 					["questID"] = 58629,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only spawns when the |cFFFFD700Deadly Reminder|r world quest is active.",
 						constant = "ONLY_SPAWNS_WHEN_THE_CFFFFD700DEADLY_REMINDER_R",
 						export = true,

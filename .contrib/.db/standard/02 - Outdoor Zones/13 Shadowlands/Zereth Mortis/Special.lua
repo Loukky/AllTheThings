@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 	m(ZERETH_MORTIS, {
 		n(SPECIAL, {
 			header(HEADERS.Item, 190196, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Enlightened Hearthstone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To obtain this toy, you will need six people with the Sphere of Enlightened Cogitation toy.\nEach person with the toy needs to stand on top of one of the hexagon pillars surrounding the pool of water under the Forge of Afterlives, right at the center of Zereth Mortis, and use the toy while sitting.\nOne person needs to be in each pillar.\nIf all 6 people use the toy successfully at the same time, a zone-wide chat emote will show up - The Ponderer's Portal has been opened. Once this happens, simply head to the southern hexagon pillar and loot the toy from the Ponderer's Portal - The Portal looks like a white glowy sphere.",
 					constant = "TO_OBTAIN_THIS_TOY_YOU_WILL_NEED_SIX_PEOPLE",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["description"] = "~L.EATING_A_EMPTY_KETTLE_OF_STONE_SOUP_ATT_I",
 			}),
 			o(375516, {	-- Lost Comb
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Almost at the top of the pillar in a little nest attached to the side of the pillar. Require flying but might be doable during Portal Play and with Venthyr Ability.",
 					constant = "ALMOST_AT_THE_TOP_OF_THE_PILLAR_IN_A_LITTLE",
 					export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(185452, {	-- Lost Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In multiple hidden areas.",
 					constant = "IN_MULTIPLE_HIDDEN_AREAS",
 					export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(185279, {	-- Lost Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On top of an Orb.",
 					constant = "ON_TOP_OF_AN_ORB",
 					export = true,
@@ -115,7 +115,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			i(187662, {	-- Strange Goop
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be fished from around Hirukon spawn point, or purchased from auction house.",
 					constant = "CAN_BE_FISHED_FROM_AROUND_HIRUKON_SPAWN_POINT",
 					export = true,

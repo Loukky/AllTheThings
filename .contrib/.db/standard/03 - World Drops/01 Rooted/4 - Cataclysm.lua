@@ -824,7 +824,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				51672,	-- Sweeping Winds
 			},
 			-- #if AFTER 6.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Vortex Pinnacle is the place to farm these on higher levels.\nProtip: Do not forget Potion of Treasure Finding.",
 				constant = "THE_VORTEX_PINNACLE_IS_THE_PLACE_TO_FARM_THESE",
 				export = true,
@@ -875,7 +875,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				46911,	-- Lava Surger
 				-- #endif
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Access to some of the listed mobs and locations in Mount Hyjal requires quest progression through the zone.",
 				constant = "ACCESS_TO_SOME_OF_THE_LISTED_MOBS_AND_LOCATIONS",
 				export = true,
@@ -934,7 +934,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				52300,	-- Seething Pyrelord
 				-- #endif
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Fishing is the most efficient way to get these. Access to some of the listed mobs and locations in Mount Hyjal requires quest progression through the zone.",
 				constant = "FISHING_IS_THE_MOST_EFFICIENT_WAY_TO_GET_THESE",
 				export = true,
@@ -982,7 +982,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				46329,	-- Enslaved Waterspout
 				44011,	-- Muddied Water Elemental
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Protip: Do not forget Potion of Treasure Finding when farming the mobs.",
 				constant = "PROTIP_DO_NOT_FORGET_POTION_OF_TREASURE_FINDING",
 				export = true,
@@ -1010,7 +1010,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		-- 
 		-- 	Clams:
 		i(52340, {	-- Abyssal Clam
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Is a rare drop from humanoid water creatures like gilblins, murlocs and naga.",
 				constant = "IS_A_RARE_DROP_FROM_HUMANOID_WATER_CREATURES",
 				export = true,
@@ -1156,7 +1156,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				46970,	-- Highland Elk
 				46153,	-- Highland Worg
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from all Cataclysm red meat animals.",
 				constant = "CAN_DROP_FROM_ALL_CATACLYSM_RED_MEAT_ANIMALS",
 				export = true,
@@ -1180,7 +1180,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		-- 
 		-- Other reagents:
 		i(52078, {	-- Chaos Orb
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Guaranteed drop from the last boss in any Heroic Cataclysm dungeon.",
 				constant = "GUARANTEED_DROP_FROM_THE_LAST_BOSS_IN_ANY_2",
 				export = true,

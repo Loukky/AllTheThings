@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		n(PROFESSIONS, {
 			prof(FISHING, {
 				i(232569, {	-- Cyclonic Runekey
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be fished with any skill and also drops from the rare Zek'ul.\n\nRecommened to fish while waiting for Zek'ul respawn.",
 						constant = "CAN_BE_FISHED_WITH_ANY_SKILL_AND_ALSO_DROPS",
 						export = true,

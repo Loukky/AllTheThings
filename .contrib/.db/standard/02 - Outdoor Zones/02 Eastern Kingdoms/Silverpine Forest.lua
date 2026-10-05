@@ -604,7 +604,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27575, {	-- From the Belly of the Beast
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available while Lord Godfrey is at your side. Once you complete |cFFFFD700On Her Majesty's Secret Service|r, this quest becomes unobtainable.",
 						constant = "AVAILABLE_WHILE_LORD_GODFREY_IS_AT_YOUR_SIDE",
 						export = true,
@@ -718,7 +718,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = { i(60862) },	-- Forsaken Insignia (QI!)
 				}),
 				q(27574, {	-- I Never Forget a Face
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available while Lord Godfrey is at your side. Once you complete |cFFFFD700On Her Majesty's Secret Service|r, this quest becomes unobtainable.|r",
 						constant = "AVAILABLE_WHILE_LORD_GODFREY_IS_AT_YOUR_SIDE_2",
 						export = true,
@@ -1605,7 +1605,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 					["groups"] = {
 						i(4597, {	-- Recipe: Discolored Healing Potion (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item can be sold on the Neutral Auction House to Alliance Alchemists for a... nominal fee.\n\nOnly naturally accessible to Horde Alchemists.",
 								constant = "THIS_ITEM_CAN_BE_SOLD_ON_THE_NEUTRAL_AUCTION_2",
 								export = true,
@@ -1645,7 +1645,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if AFTER CATA
 				n(1920, {	-- Ambermill Spellscribe [CATA+] / Dalaran Spellscribe
 					["coord"] = { 63.5, 58.3, SILVERPINE_FOREST },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found upstairs at the given coordinates.\n\nHorde players who have started questing in the zone should complete the main storyline to prevent phasing issues.",
 						constant = "FOUND_UPSTAIRS_AT_THE_GIVEN_COORDINATES_HORDE",
 						export = true,
@@ -1767,7 +1767,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(211736, {	-- Grizzled Protector
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill Ferocious Grizzled Bears until the protector appears.",
 						constant = "KILL_FEROCIOUS_GRIZZLED_BEARS_UNTIL_THE",
 						export = true,
@@ -1895,7 +1895,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(212763, {	-- Sadistic Fiend
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Curse of Recklessness on him.",
 						constant = "CAST_CURSE_OF_RECKLESSNESS_ON_HIM",
 						export = true,
@@ -1928,7 +1928,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 66.2, 25.0, SILVERPINE_FOREST },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the basement of Fenris Keep.",
 						constant = "FOUND_IN_THE_BASEMENT_OF_FENRIS_KEEP",
 						export = true,
@@ -2003,7 +2003,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208772, {	-- Rune of Saber Slash
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You will need to use Sprint to make the jump to the platform.",
 						constant = "YOU_WILL_NEED_TO_USE_SPRINT_TO_MAKE_THE_JUMP_TO",
 						export = true,
@@ -2282,7 +2282,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(210696, {	-- Rot Bane
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Supposedly this will not drop if you've completed the Quick Strike rune already.",
 						constant = "SUPPOSEDLY_THIS_WILL_NOT_DROP_IF_YOU_VE",
 						export = true,
@@ -2343,7 +2343,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210713, {	-- Tortured Soul
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Life Tap in a safe area to summon the Tortured Soul.",
 						constant = "USE_LIFE_TAP_IN_A_SAFE_AREA_TO_SUMMON_THE",
 						export = true,
@@ -2370,7 +2370,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210195, {	-- Unbalanced Idol
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Moon: Cast Moonfire a lot.\nEmerald Dream: Cast Healing Touch (Rank 1) a lot.\nWild: Shapeshift a lot.",
 						constant = "MOON_CAST_MOONFIRE_A_LOT_EMERALD_DREAM_CAST",
 						export = true,

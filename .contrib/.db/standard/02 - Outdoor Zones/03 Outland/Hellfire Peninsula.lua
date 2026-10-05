@@ -280,7 +280,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66550, {	-- Nicki Tinytech <Master Pet Tamer>
 						["coord"] = { 64.4, 49.2, HELLFIRE_PENINSULA },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Nicki's pets are level 20 of the following consecutive pet classes:\n1. Mechanical - use Elemental (powerful and tanky) pet.\n2. Mechanical - see above.\n3. Mechanical - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
 							constant = "NICKI_S_PETS_ARE_LEVEL_20_OF_THE_FOLLOWING",
 							export = true,
@@ -1032,7 +1032,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10916, {	-- Digging for Prayer Beads
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can forego interacting with Warrant Officer Tracy Proudwell and go directly to the given coordinates.",
 							constant = "YOU_CAN_FOREGO_INTERACTING_WITH_WARRANT_OFFICER",
 							export = true,
@@ -1821,7 +1821,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(9483, {	-- Life's Finer Pleasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available during |cFFFFD700Arelion's Mistress|r.",
 							constant = "ONLY_AVAILABLE_DURING_CFFFFD700ARELION_S",
 							export = true,
@@ -2834,7 +2834,7 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(58, 58, 10),
 					}),
 					q(49862, {	-- To Outland! [Alliance]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Breadcrumb quest when you first step in Outland. You will not be able to get it if you visited Outland before this quest was implemented.",
 							constant = "BREADCRUMB_QUEST_WHEN_YOU_FIRST_STEP_IN_OUTLAND",
 							export = true,
@@ -3100,7 +3100,7 @@ root(ROOTS.Zones, {
 				}),
 				n(RARES, {
 					n(18678, {	-- Fulgorge
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This rare cannot be manually targeted, and you may not be able to see it if you're flying too high. Search along its three possible paths and be on the lookout for red rumbling rocks.",
 							constant = "THIS_RARE_CANNOT_BE_MANUALLY_TARGETED_AND_YOU",
 							export = true,
@@ -3674,7 +3674,7 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(28552, {	-- A Mysterious Tome
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have started or completed |cFFFFD700Make Them Listen|r for this item to become available.",
 							constant = "MUST_HAVE_STARTED_OR_COMPLETED_CFFFFD700MAKE",
 							export = true,

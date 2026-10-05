@@ -479,7 +479,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			},
 		}),
 		q(38532, {	-- Maw of Souls: Hammered By The Storm
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Remember to loot Heyla to obtain Terrorspike.",
 				constant = "REMEMBER_TO_LOOT_HEYLA_TO_OBTAIN_TERRORSPIKE",
 				export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			},
 		}),
 		q(38534, {	-- Demonsteel Armguards
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Create one Rank 1 of this item.",
 				constant = "CREATE_ONE_RANK_1_OF_THIS_ITEM",
 				export = true,
@@ -760,7 +760,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			------ Tools of Trade Questline ------
 			q(50123, {	-- A Recipe For the Ages [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Kul Tiran Blacksmithing.",
 					constant = "REQUIRES_150_KUL_TIRAN_BLACKSMITHING",
 					export = true,
@@ -787,7 +787,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			}),
 			q(50276, {	-- A Recipe For the Ages [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Zandalari Blacksmithing.",
 					constant = "REQUIRES_150_ZANDALARI_BLACKSMITHING",
 					export = true,
@@ -940,7 +940,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		})),
 		n(QUESTS, {
 			q(70358, {	-- Dragon Isles Blacksmithing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Blacksmithing.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_2",
 					export = true,
@@ -1134,7 +1134,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			})),
 			o(376657, {	-- Ancient Monument
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill NPCs and loot the sword. If you receive no loot, check your mail!",
 					constant = "KILL_NPCS_AND_LOOT_THE_SWORD_IF_YOU_RECEIVE_NO",
 					export = true,
@@ -1212,7 +1212,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			})),
 			o(380516, {	-- Glimmer of Wisdom
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Craft a Primal Molten Alloy or a Frostfire Alloy next to the Dim Forge. A sparkle will appear in the deposit box, which you can click to grab the treasure.",
 					constant = "CRAFT_A_PRIMAL_MOLTEN_ALLOY_OR_A_FROSTFIRE",
 					export = true,
@@ -1252,7 +1252,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			}),
 			o(380623, {	-- Spelltouched Tongs
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you do not have Mining to clear the Rock Wall, try dying. Ghosts can walk through it.",
 					constant = "IF_YOU_DO_NOT_HAVE_MINING_TO_CLEAR_THE_ROCK",
 					export = true,
@@ -1315,7 +1315,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			q(70513, {	-- DF Weekly Blacksmithing Knowledgepoint #3
 				["name"] = "DF Blacksmithing Drop #1: Fire Elemental",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Fire Elemental.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_FIRE_ELEMENTAL_COORDINATES_LINK",
 					export = true,
@@ -1342,7 +1342,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			q(70512, {	-- DF Weekly Blacksmithing Knowledgepoint #4
 				["name"] = "DF Blacksmithing Drop #2: Earth Elemental",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Earth Elemental.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_EARTH_ELEMENTAL_COORDINATES_LINK",
 					export = true,

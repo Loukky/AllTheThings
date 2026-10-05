@@ -664,7 +664,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 					o(613392, {	-- Impenetrably Sealed Gourd
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtain mysterious fluids from other objects in same cave, then mix red and purple for Fizzing Fluid.",
 							constant = "OBTAIN_MYSTERIOUS_FLUIDS_FROM_OTHER_OBJECTS_IN",
 							export = true,
@@ -713,7 +713,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263289) },	-- Sporelord's Authority (COSMETIC!)
 				}),
 				o(615963, {	-- Sporespawned Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interact with Fungal Mallet in Fungara Village then hit the gong",
 						constant = "INTERACT_WITH_FUNGAL_MALLET_IN_FUNGARA_VILLAGE",
 						export = true,
@@ -739,7 +739,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			}),
 			o(616052, {	-- Flame-Hardened Sap of Teldrassil
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Scattered underwater across the river, up from the charred roots of Teldrassil, down to The Den.",
 					constant = "SCATTERED_UNDERWATER_ACROSS_THE_RIVER_UP_FROM",
 					export = true,

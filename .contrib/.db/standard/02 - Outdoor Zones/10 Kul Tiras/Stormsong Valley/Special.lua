@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(STORMSONG_VALLEY, {
 		n(SPECIAL, {
 			hqt(53111, name(HEADERS.NPC, 143128, {	-- Rosaline Mildenhall (give Annealed Honey Amulet)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtain an |cFFFfffffAnnealed Honey Amulet|r from mobs in the Mildenhall Meadery area in Stormsong Valley (|cFFFfffff69.2, 68.8|r). It has a low droprate, so be patient!\n\nTrack down Rosaline Mildenhall in Boralus, listen to her story, give her the amulet, and accept the letter she gives you.\n\nRosaline can be found in one of the following locations: (|cFFFfffff51.5, 48.0|r), (|cFFFfffff55.5, 62.5|r), (|cFFFfffff58.1, 66.3|r), or (|cFFFfffff72.4, 73.3|r). If you can't enter the building to speak to her, you can use /tar and set an 'interact with target' keybind.",
 					constant = "OBTAIN_AN_CFFFFFFFFANNEALED_HONEY_AMULET_R_FROM",
 					export = true,
@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			})),
 			hqt(53200, name(HEADERS.NPC, 131793, {	-- Ancel Mildenhall (give Rosaline's Letter)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Give the letter to Ancel Mildenhall in Stormsong Valley at (|cFFFfffff68.8, 65.2|r), and he will offer you |cFFFFD700Bumbles the Bee|r.",
 					constant = "GIVE_THE_LETTER_TO_ANCEL_MILDENHALL_IN",
 					export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(53371, {	-- Let's Bee Friends
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Complete this daily quest 7 times to receive the Bumbles pet in your mailbox.",
 					constant = "COMPLETE_THIS_DAILY_QUEST_7_TIMES_TO_RECEIVE",
 					export = true,

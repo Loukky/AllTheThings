@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				i(185962),	-- Rune Chit
 			}),
 			o(369194, {	-- Anima Laden Egg
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a tree.",
 					constant = "IN_A_TREE",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["questID"] = 64244,
 			}),
 			o(369183, {	-- Dislodged Nest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find and click one of the sparkling |cFFFFFFFFNoxious Moths|r in Mauler's Outlook. There is a |cFFFFFFFFPrecarious Silk Nest|r stuck in the branches of a tree. Use the Extra Action Button ability granted by the moth to ride a Shardhide into the tree to dislodge the nest.",
 					constant = "FIND_AND_CLICK_ONE_OF_THE_SPARKLING",
 					export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369204, {	-- Displaced Relic
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The coordinates provided are for the start of the path to the treasure. Walk and jump along the floating debris until you reach it.",
 					constant = "THE_COORDINATES_PROVIDED_ARE_FOR_THE_START_OF",
 					export = true,
@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369149, {	-- Forgotten Feather
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use a |cFFFFFFFFGoblin Glider|r at |cFFFFFFFF63.8, 28.9|r to access the island.",
 					constant = "USE_A_CFFFFFFFFGOBLIN_GLIDER_R_AT_CFFFFFFFF63_8",
 					export = true,
@@ -190,7 +190,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 			}),
 			o(369185, {	-- Korthian Relic Box
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In the cave.",
 					constant = "IN_THE_CAVE",
 					export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369245, {	-- Korthian Relic Box
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the edge of the lower cliff.",
 					constant = "ON_THE_EDGE_OF_THE_LOWER_CLIFF",
 					export = true,
@@ -340,7 +340,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["isDaily"] = true,
 				}),
 				o(369335, {	-- Nest of Unusual Materials
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Climb across the tree to reach the nest.",
 						constant = "CLIMB_ACROSS_THE_TREE_TO_REACH_THE_NEST",
 						export = true,
@@ -374,7 +374,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 			}),
 			o(369232, {	-- Offering Box
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To open the treasure, climb up the outside of the building and loot the |cFFFFFFFFSmall Offering Key|r at |cFFFFFFFF43.5 67.5|r.",
 					constant = "TO_OPEN_THE_TREASURE_CLIMB_UP_THE_OUTSIDE_OF",
 					export = true,
@@ -408,7 +408,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369297, {	-- Pile of Bones
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Piles of Bones, Relic Caches, and Shardhide Stashes all share a series of 5 daily quests.\n\nThe daily lockout is ONLY for receiving Relic Fragments - you can still loot the treasures after the final quest is collected for the day; you just won't receive any fragments.",
 					constant = "PILES_OF_BONES_RELIC_CACHES_AND_SHARDHIDE",
 					export = true,
@@ -516,7 +516,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			o(369200, {	-- Spectral Bound Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires collecting three |cFFFFFFFFSpectral Keys|r. Use your preferred method of daily quest tracking to see the locations of the keys.",
 					constant = "REQUIRES_COLLECTING_THREE_CFFFFFFFFSPECTRAL",
 					export = true,

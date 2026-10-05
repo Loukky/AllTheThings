@@ -13,7 +13,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 						n(TIER_ONE, {
 							n(FLIGHT_PATHS, {
 								fp(2626, {	-- Hero's Rest, Bastion
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Part of the Kyrian Rank 1 Transport Network.",
 										constant = "PART_OF_THE_KYRIAN_RANK_1_TRANSPORT_NETWORK",
 										export = true,
@@ -65,7 +65,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 						n(TIER_TWO, {
 							n(FLIGHT_PATHS, {
 								fp(2634, {	-- Seat of Eternal Hymns, Bastion
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Part of the Kyrian Rank 2 Transport Network.",
 										constant = "PART_OF_THE_KYRIAN_RANK_2_TRANSPORT_NETWORK",
 										export = true,
@@ -97,7 +97,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 44.2, 33.0, BASTION },
 								}),
 								fp(2682, {	-- Elysian Beacon, Bastion
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Part of the Kyrian Rank 2 Transport Network.\n\nThis is summoned by your steward",
 										constant = "PART_OF_THE_KYRIAN_RANK_2_TRANSPORT_NETWORK_2",
 										export = true,
@@ -126,7 +126,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 						n(TIER_THREE, {
 							n(FLIGHT_PATHS, {
 								fp(2636, {	-- Terrace of The Collectors, Bastion
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Part of the Kyrian Rank 3 Transport Network.",
 										constant = "PART_OF_THE_KYRIAN_RANK_3_TRANSPORT_NETWORK",
 										export = true,

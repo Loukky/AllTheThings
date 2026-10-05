@@ -23,7 +23,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 35.8, 52.2, STORMHEIM },
 					}),
 					pet(1712, {	-- Golden Eaglet (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in yellow areas on the map in Stormheim.",
 							constant = "FOUND_IN_YELLOW_AREAS_ON_THE_MAP_IN_STORMHEIM",
 							export = true,
@@ -53,7 +53,7 @@ root(ROOTS.Zones, {
 					}),
 					pet(1736),	-- Slithering Brownscale (PET!)
 					pet(1917, {	-- Stormstruck Beaver (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around coords and along the river starting from Weeping Bluffs.",
 							constant = "FOUND_AROUND_COORDS_AND_ALONG_THE_RIVER",
 							export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					pet(1750, {	-- Tiny Apparition (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Tideskorn Harbor.",
 							constant = "FOUND_IN_TIDESKORN_HARBOR",
 							export = true,
@@ -98,7 +98,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 55.8, 43.0, STORMHEIM },
 					}),
 					header(HEADERS.NPC, 115785, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {	-- Direbeak Hatchling
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "1. Buy Pungent Vrykul Gamalost from Riala the Hearthwatcher in Valdisdall.\n2. Kill Direbeak Matriarch\n3. /target Orphaned Direbeak\n4. Feed Orphaned Direbeak Pungent Vrykul Gamalost.\n5. Enjoy your new Direbeak Hatchling! Do one quest each day for a mount!|r\n",
 							constant = "1_BUY_PUNGENT_VRYKUL_GAMALOST_FROM_RIALA_THE",
 							export = true,

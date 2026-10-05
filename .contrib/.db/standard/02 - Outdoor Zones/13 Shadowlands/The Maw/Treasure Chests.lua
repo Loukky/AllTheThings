@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			o(369129, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Nilganihmaht's Gold Band
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Start climbing up at |cFFFFFFFF18.6, 39.0|r.",
 					constant = "START_CLIMBING_UP_AT_CFFFFFFFF18_6_39_0_R",
 					export = true,
@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			o(369145, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Helgarde Supply Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This chest does not glow or sparkle. After the first loot of these chests, which will drop the key, they are repeatable and appear to just drop Stygia.",
 					constant = "THIS_CHEST_DOES_NOT_GLOW_OR_SPARKLE_AFTER_THE",
 					export = true,
@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(369224, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Jeweled Heart of Ezekiel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a small cave.",
 					constant = "IN_A_SMALL_CAVE",
 					export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			n(173841, {	-- Paper Scrap
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "A tiny |cFFFFFFFFPaper Scrap|r on some rocks.",
 					constant = "A_TINY_CFFFFFFFFPAPER_SCRAP_R_ON_SOME_ROCKS",
 					export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(369144, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- The Harrower's Key Ring
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Entrance at 66.9, 55.9.\n\nKey Ring is hanging on the right side wall.",
 					constant = "ENTRANCE_AT_66_9_55_9_KEY_RING_IS_HANGING_ON",
 					export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			n(173837, {	-- Torture Implements
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Once you are inside the cave, you can find the box of |cFFFFFFFFTorture Implements|r at the back, around |cFFFFFFFF72.8, 16.9|r.",
 					constant = "ONCE_YOU_ARE_INSIDE_THE_CAVE_YOU_CAN_FIND_THE",
 					export = true,
@@ -260,7 +260,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			o(368663, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Lil'Abom's Right Hand
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the back of the cave, behind a rock on the left side.",
 					constant = "AT_THE_BACK_OF_THE_CAVE_BEHIND_A_ROCK_ON_THE",
 					export = true,

@@ -59,7 +59,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(519, {	-- Fel Flame (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around the Hand of Gul'dan in old Shadowmoon Valley and fel areas in Tanaan.",
 								constant = "FOUND_AROUND_THE_HAND_OF_GUL_DAN_IN_OLD",
 								export = true,
@@ -145,7 +145,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66557, {	-- Bloodknight Antari <Grand Master Pet Tamer>
 						["coord"] = { 30.6, 41.8, SHADOWMOON_VALLEY },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Antari's pets are level 24 of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n3. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Crystal Spider (Strike/Brittle Webbing/Leech Life) and Sporeling Sprout (Jab/Leech Seed/Crouch).",
 							constant = "ANTARI_S_PETS_ARE_LEVEL_24_OF_THE_FOLLOWING",
 							export = true,
@@ -559,7 +559,7 @@ root(ROOTS.Zones, {
 						},
 					},
 					q(10774, {	-- Blood Elf + Giant = ???
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
 							constant = "USE_YOUR_WILDHAMMER_FLARE_GUN_TO_SUMMON_THE",
 							export = true,
@@ -624,7 +624,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10751, {	-- Breaching the Path (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
 							constant = "USE_YOUR_KOR_KRON_FLARE_GUN_TO_SUMMON_THE",
 							export = true,
@@ -822,7 +822,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/1 Gorefiend's Truncheon
 								["provider"] = { "i", 30800 },	-- Gorefiend's Truncheon
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The riders travel along the road counter clockwise, so travel clockwise to encounter them more quickly.",
 									constant = "THE_RIDERS_TRAVEL_ALONG_THE_ROAD_COUNTER",
 									export = true,
@@ -897,7 +897,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10451, {	-- Escape from Coilskar Cistern
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Questgiver only becomes interactable after you kill Keeper of the Cistern at the back of the cave.",
 							constant = "QUESTGIVER_ONLY_BECOMES_INTERACTABLE_AFTER_YOU",
 							export = true,
@@ -2771,7 +2771,7 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(240622, bubbleDownSelf({ ["timeline"] = { ADDED_6_1_0 } }, {	-- Warden's Scroll Case
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Loot the Warden's Scroll Case inside the Warden's Cage (underground).",
 							constant = "LOOT_THE_WARDEN_S_SCROLL_CASE_INSIDE_THE_WARDEN",
 							export = true,

@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				pvp(applyclassicphase(SOD_PHASE_TWO, faction(2634, {	-- Blood Moon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This faction is probably not one that you can gain reputation with.",
 						constant = "THIS_FACTION_IS_PROBABLY_NOT_ONE_THAT_YOU_CAN",
 						export = true,
@@ -2645,7 +2645,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			}), {
 				i(213168, {	-- Copper Blood Coin
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Bring Blood for the Loa stacks to a blood altar on the map to exchange for this coin.\n\nThe ratio is 1 Copper Blood Coin per 1 blood stack.",
 						constant = "BRING_BLOOD_FOR_THE_LOA_STACKS_TO_A_BLOOD_ALTAR",
 						export = true,
@@ -2668,7 +2668,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				bloodcoin_c(100, i(213169)),	-- Silver Blood Coin
 				bloodcoin_s(100, i(213170)),	-- Gold Blood Coin
 				applyclassicphase(SOD_PHASE_THREE, i(221364, {	-- Copper Massacre Coin
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Bring Blood for the Loa stacks to a blood altar on the map to exchange for this coin.\n\nThe ratio is 1 Copper Massacre Coin per 1 blood stack.",
 						constant = "BRING_BLOOD_FOR_THE_LOA_STACKS_TO_A_BLOOD_ALTAR_2",
 						export = true,
@@ -2690,7 +2690,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_THREE, massacrecoin_c(100, i(221365))),	-- Silver Massacre Coin
 				applyclassicphase(SOD_PHASE_THREE, massacrecoin_s(100, i(221366))),	-- Gold Massacre Coin
 				i(216884, {	-- Bloodthirst Blade
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This drops from the troll boss during the Blood Moon event. It sadly cannot be equipped.",
 						constant = "THIS_DROPS_FROM_THE_TROLL_BOSS_DURING_THE_BLOOD",
 						export = true,
@@ -2734,7 +2734,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(18712),	-- Arena Vambraces
 						i(18709),	-- Arena Wristguards
 						i(126948, {	-- Defending Champion
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Once you have the Arena Grand Master achievement, the next time you open the chest on that character you can get the Defending Champion in addition to the other spoils.",
 								constant = "ONCE_YOU_HAVE_THE_ARENA_GRAND_MASTER",
 								export = true,
@@ -3348,7 +3348,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 
 						-- Reagents
 						real(5, i(226405, {	-- Damaged Undermine Supply Crate
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains random max level crafting materials.",
 								constant = "CONTAINS_RANDOM_MAX_LEVEL_CRAFTING_MATERIALS",
 								export = true,
@@ -3456,7 +3456,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["cost"] = 100000,	-- 10g
 						})),
 						applyclassicphase(SOD_PHASE_THREE, i(219147, {	-- Rune of Grace
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to complete the Frix Xizzix quest first. (Crieve TODO: Document the quest chain!)",
 								constant = "YOU_NEED_TO_COMPLETE_THE_FRIX_XIZZIX_QUEST",
 								export = true,

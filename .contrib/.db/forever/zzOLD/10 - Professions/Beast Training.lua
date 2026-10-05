@@ -1,7 +1,7 @@
 -- See Reference: https://www.wow-petopia.com/classic_bc/abilities.php
 -- #if BEFORE 3.0.2
 profession(261, {	-- Beast Training
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Lets the Hunter train their pet with various abilities that they have learned.\n\nGets replaced by the Pet Talent Trees in Wrath.",
 		constant = "LETS_THE_HUNTER_TRAIN_THEIR_PET_WITH_VARIOUS",
 		export = true,
@@ -1406,7 +1406,7 @@ profession(261, {	-- Beast Training
 		-- #if AFTER TBC
 		applyclassicphase(TBC_PHASE_ONE, {
 			["recipeID"] = 27063,	-- Thunderstomp [Rank 4]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "No known sources, contact Crieve if you find one!",
 				constant = "NO_KNOWN_SOURCES_CONTACT_CRIEVE_IF_YOU_FIND_ONE",
 				export = true,

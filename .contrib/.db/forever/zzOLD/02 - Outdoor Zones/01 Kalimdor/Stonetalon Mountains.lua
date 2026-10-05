@@ -593,7 +593,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					lvl = 14,
 					groups = {
 						i(216619, {	-- Student Fodder
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item gives you 4 bars of Rested Experience when consumed.",
 								constant = "THIS_ITEM_GIVES_YOU_4_BARS_OF_RESTED_EXPERIENCE",
 								export = true,
@@ -781,7 +781,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(4015, {	-- Pridewing Patriarch
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can spawn after killing any Pridewing Beasts.",
 						constant = "CAN_SPAWN_AFTER_KILLING_ANY_PRIDEWING_BEASTS",
 						export = true,

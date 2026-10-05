@@ -104,7 +104,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				["groups"] = {
 					ach(12722, {	-- It Belongs in a Mausoleum!
 						crit(41269, {	-- First trinket found
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The first trinket is in the first room, on the pedestal in the center of the room.",
 								constant = "THE_FIRST_TRINKET_IS_IN_THE_FIRST_ROOM_ON_THE",
 								export = true,
@@ -124,7 +124,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							}),
 						}),
 						crit(41270, {	-- Second trinket found
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The trinket is located on the inside of the stairwell that leads up to the closed door in the room that is next to the pedestal for the rejected serpent followers.",
 								constant = "THE_TRINKET_IS_LOCATED_ON_THE_INSIDE_OF_THE",
 								export = true,
@@ -144,7 +144,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							}),
 						}),
 						crit(41271, {	-- Third trinket found
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "At 44.2 / 32.6, the brute slams the ground and knocks you up. The trinket is on the ledge.",
 								constant = "AT_44_2_32_6_THE_BRUTE_SLAMS_THE_GROUND_AND",
 								export = true,
@@ -164,7 +164,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							}),
 						}),
 						crit(41272, {	-- Fourth trinket found
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "It is on the right pillar after coming down the stairs to the final boss.",
 								constant = "IT_IS_ON_THE_RIGHT_PILLAR_AFTER_COMING_DOWN_THE",
 								export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							ach(12848),	-- Kings' Rest
 							ach(13008),	-- Kings' Rest Guild Run
 							ach(12723, {	-- How to Keep a Mummy
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "On the final boss, there are two sarcophagi with 2 greenish stones in front of them. Simply pull the boss and have 1 party member stand on each stone. Lights will start filling up around the bottom. When they are full, it locks in and the rightmost sarcophagus will begin to shake. Simply kill the boss at this point and Miimii is yours!",
 									constant = "ON_THE_FINAL_BOSS_THERE_ARE_TWO_SARCOPHAGI_WITH",
 									export = true,

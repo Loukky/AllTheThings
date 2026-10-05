@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 	header(HEADERS.Item, 206040, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Mote of Nasz'uro
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "You need to collect all 15 motes to receive this pet. Requires Quest Tracking to see the motes' Location.",
 			constant = "YOU_NEED_TO_COLLECT_ALL_15_MOTES_TO_RECEIVE",
 			export = true,

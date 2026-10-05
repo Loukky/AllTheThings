@@ -196,7 +196,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 
 	-- Blizzcon 2023 Collection
 	mount(358072, {	-- Bound Blizzard (MOUNT!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Received after buying the Blizzcon 2023 Collection: Legendary Pack.",
 			constant = "RECEIVED_AFTER_BUYING_THE_BLIZZCON_2023",
 			export = true,
@@ -218,7 +218,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["u"] = REAL_MONEY,
 	}),
 	i(210042, {	-- Chilling Celebration Banner (TOY!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Received after buying the Blizzcon 2023 Collection: Epic Pack.",
 			constant = "RECEIVED_AFTER_BUYING_THE_BLIZZCON_2023_2",
 			export = true,
@@ -251,7 +251,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 
 	-- Blizzcon 2026 Collection
 	iensemble(276872, {	-- Ensemble: Garb of the Dawnfire Phoenix (COSMETIC!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Received after buying the Blizzcon 2026 World of Warcraft Bundle.",
 			constant = "RECEIVED_AFTER_BUYING_THE_BLIZZCON_2026_WORLD",
 			export = true,
@@ -273,7 +273,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["u"] = REAL_MONEY,
 	}),
 	i(274150, {	-- Murk'atath (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Received after buying the Blizzcon 2026 Ultimate Bundle.",
 			constant = "RECEIVED_AFTER_BUYING_THE_BLIZZCON_2026",
 			export = true,
@@ -306,7 +306,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 	}),
 	-- 2 Hours: 200x Trader's Tender
 	i(263303, {	-- Cuddly Blue Grrgle (DECOR!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Watch any eligible World of Warcraft stream on Twitch.tv from September 12th at 9:30 am PDT to September 27th at 10:00 am PDT or on the official World of Warcraft YouTube channel from September 12th at 9:30 am PDT until September 13 at 7:00 pm PDT for 4 hours to receive this item.\n\nYour Twitch/Youtube account has to be connected with your Battle.net Account & you have to redeem the drop on Youtube/Twitch before receiving it in your in-game collection as gift.",
 			constant = "WATCH_ANY_ELIGIBLE_WORLD_OF_WARCRAFT_STREAM_ON",
 			export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["u"] = IGNORED_VALUE,
 	}),
 	i(263449, {	-- Fluffy Comfy Flying Quilt (MOUNT!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Watch any eligible World of Warcraft stream on Twitch.tv from September 12th at 9:30 am PDT to September 27th at 10:00 am PDT or on the official World of Warcraft YouTube channel from September 12th at 9:30 am PDT until September 13 at 7:00 pm PDT for 8 hours to receive this item.\n\nYour Twitch/Youtube account has to be connected with your Battle.net Account & you have to redeem the drop on Youtube/Twitch before receiving it in your in-game collection as gift.",
 			constant = "WATCH_ANY_ELIGIBLE_WORLD_OF_WARCRAFT_STREAM_ON_2",
 			export = true,
@@ -350,7 +350,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["u"] = IGNORED_VALUE,
 	}),
 	i(279590, {	-- Venomous Champion's Illustrious Banner (TOY!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Watch any eligible World of Warcraft stream on Twitch.tv from September 12th at 9:30 am PDT to September 27th at 10:00 am PDT or on the official World of Warcraft YouTube channel from September 12th at 9:30 am PDT until September 13 at 7:00 pm PDT for 12 hours to receive this item.\n\nYour Twitch/Youtube account has to be connected with your Battle.net Account & you have to redeem the drop on Youtube/Twitch before receiving it in your in-game collection as gift.",
 			constant = "WATCH_ANY_ELIGIBLE_WORLD_OF_WARCRAFT_STREAM_ON_3",
 			export = true,
@@ -377,7 +377,7 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["groups"] = { i(281107, { ["u"] = IGNORED_VALUE }) },	-- BlizzCon Doormat (DECOR!)
 	}),
 	i(278231, {	-- Aquatic Clockwork Quacker (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Available from capsule gachapon machines on the Blizzcon floor.",
 			constant = "AVAILABLE_FROM_CAPSULE_GACHAPON_MACHINES_ON_THE",
 			export = true,

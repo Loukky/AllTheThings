@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = {
 					crit(41773, {	-- Nature Versus Nurture
 						["sourceQuests"] = { 52305 },	-- Nature Versus Nurture
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must complete ~7 daily quests to fill Kua'fon's experience bar.",
 							constant = "MUST_COMPLETE_7_DAILY_QUESTS_TO_FILL_KUA_FON_S",
 							export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 					crit(41771, {	-- Room to Grow
 						["sourceQuests"] = { 52447 },	-- Room to Grow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must complete ~14 daily quests to fill Kua'fon's experience bar.",
 							constant = "MUST_COMPLETE_14_DAILY_QUESTS_TO_FILL_KUA_FON_S",
 							export = true,
@@ -80,7 +80,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 					crit(41770, {	-- Eyes on the Skies
 						["sourceQuests"] = { 52748 },	-- Eyes on the Skies
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must complete 4 to 7 daily quests to fill Kua'fon's experience bar.",
 							constant = "MUST_COMPLETE_4_TO_7_DAILY_QUESTS_TO_FILL_KUA",
 							export = true,

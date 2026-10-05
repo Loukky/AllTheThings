@@ -58,7 +58,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						--
 						i(245611, {	-- Wriggling Pinnacle Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|cFFE50D12Only the first Bag of the Week on your entire B.Net Account can contain a Pet or a Mount!|r",
 								constant = "CFFE50D12ONLY_THE_FIRST_BAG_OF_THE_WEEK_ON_YOUR",
 								export = true,

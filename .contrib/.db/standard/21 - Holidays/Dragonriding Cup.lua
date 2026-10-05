@@ -3599,7 +3599,7 @@ root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDIN
 		}))),
 		n(ACHIEVEMENTS, {
 			currency(RIDERS_OF_AZEROTH_BADGE, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "For each achievement in the Dragonriding Cup players earn one badge, with up to 9 badges available per race track by obtaining gold in all three courses.",
 					constant = "FOR_EACH_ACHIEVEMENT_IN_THE_DRAGONRIDING_CUP",
 					export = true,

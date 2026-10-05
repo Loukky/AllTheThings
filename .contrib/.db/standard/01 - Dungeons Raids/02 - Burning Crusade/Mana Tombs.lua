@@ -123,7 +123,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 								{ "i",  32069 },	-- Mana-Tombs Stasis Chamber Key
 								{ "o", 185519 },	-- Mana-Tombs Stasis Chamber
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Stasis Chamber is in the room to the left after the first boss.\n\nThis can only be completed on Heroic difficulty.",
 								constant = "STASIS_CHAMBER_IS_IN_THE_ROOM_TO_THE_LEFT_AFTER",
 								export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							{ "o", 185522 },	-- Shaffar's Stasis Chamber
 							{ "i", 32092 },	-- The Eye of Haramad
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires one of two keys unlocked via a quest chain in Blades Edge to open.\n\nOnly one member of your group needs the key.",
 							constant = "REQUIRES_ONE_OF_TWO_KEYS_UNLOCKED_VIA_A_QUEST",
 							export = true,

@@ -99,7 +99,7 @@ root(ROOTS.Zones, {
 						crit(20956, {	-- Iron Mantid
 							["provider"] = { "n",  62774 },	-- Malik the Unscathed
 							["coord"] = { 55.1, 35.4, DREAD_WASTES },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If for some reason you can't find Malik, you can interact with the Halberd of the Unscathed instead to get the buff.",
 								constant = "IF_FOR_SOME_REASON_YOU_CAN_T_FIND_MALIK_YOU_CAN",
 								export = true,
@@ -416,7 +416,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_KLAXXI, REVERED },
 					}),
 					q(31090, {	-- Better With Age
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is available if Kor'ik has not been killed yet.",
 							constant = "THIS_VERSION_IS_AVAILABLE_IF_KOR_IK_HAS_NOT",
 							export = true,
@@ -447,7 +447,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(31681, {	-- Better With Age
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is available if Kor'ik has been killed.",
 							constant = "THIS_VERSION_IS_AVAILABLE_IF_KOR_IK_HAS_BEEN",
 							export = true,
@@ -536,7 +536,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(31682, {	-- By the Sea, Nevermore
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is only available if Kor'ik has been killed & you did not complete the other version yet. If you did the alt version of this quest, there is no chance you will ever complete this quest on your current character.",
 							constant = "THIS_VERSION_IS_ONLY_AVAILABLE_IF_KOR_IK_HAS",
 							export = true,
@@ -622,7 +622,7 @@ root(ROOTS.Zones, {
 						["qg"] = 65365,	-- Kor'ik
 					}),
 					q(56577, {	-- Crippling the Hive
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700Once More Into Kor'vess|r to get this quest.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700ONCE_MORE",
 							export = true,
@@ -913,7 +913,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(31727, {	-- Gambling Problem
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gambling Problem showed up at Ambersmith Zikk after completed all Paragons except for |cFF006211Iyyokuk the Lucid and Ka'roz the Locust|r. \nDo not touch any quests at Soggy's Gamble, otherwise you are not eligible for the quest.\n\n By Niixten.",
 							constant = "GAMBLING_PROBLEM_SHOWED_UP_AT_AMBERSMITH_ZIKK",
 							export = true,
@@ -1313,7 +1313,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 120,
 					}),
 					q(31068, {	-- Sacred Recipe
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700The Heavens Hum With War|r.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700THE",
 							export = true,
@@ -1487,7 +1487,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 55.0, 35.4, DREAD_WASTES },
 					}),
 					q(31959, {	-- The Empress' Gambit
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must also have completed the |cFFFFD700Amber is the Color of My Energy|r achievement.",
 							constant = "MUST_ALSO_HAVE_COMPLETED_THE_CFFFFD700AMBER_IS",
 							export = true,
@@ -1655,7 +1655,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(31677, {	-- The Warlord's Ashes
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires 2 players. One must |cFFFFD700/sit|r on the red rune while the other must |cFFFFD700/lay|r on the green rune.",
 							constant = "REQUIRES_2_PLAYERS_ONE_MUST_CFFFFD700_SIT_R_ON",
 							export = true,

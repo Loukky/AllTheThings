@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 	n(RARES, {
 		n(COMMON_BOSS_DROPS, {
 			pvp(i(168802, {	-- Nazjatar Battle Commendation
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Rares while in Warmode and from the zone Battle.",
 					constant = "DROPS_FROM_RARES_WHILE_IN_WARMODE_AND_FROM_THE",
 					export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 52.4, 41.9, NAZJATAR },
 			["groups"] = {
 				i(170189, {	-- Blind Eye
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Turn it in to |cFFFFD700Gloomseeker Yarga|r (cave entrance at 38.6, 58.3) for a hefty sum of gold.",
 						constant = "TURN_IT_IN_TO_CFFFFD700GLOOMSEEKER_YARGA_R_CAVE",
 						export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152794, {	-- Amethyst Spireshell
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This rare can spawn pretty much anywhere throughout the zone.",
 				constant = "THIS_RARE_CAN_SPAWN_PRETTY_MUCH_ANYWHERE",
 				export = true,
@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152566, {	-- Anemonar
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Kill a |cFFFFD700Colossal Sky Ray|r on top of Anemonar to activate him. |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
 				constant = "KILL_A_CFFFFD700COLOSSAL_SKY_RAY_R_ON_TOP_OF",
 				export = true,
@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 			["coord"] = { 36.9, 11.2, NAZJATAR },
 			["crs"] = { 150248 },	-- Brinestone Deposit
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "First complete the white item version of Brinestone Pickaxe (/att quest:55531), which can drop from any rare or treasure in Nazjatar.\n\nAfter you completed 'What Will It Mine?', you are now eligible to loot the green quality Brinestone Pickaxe from Chitterspine Encroachers around Avarius' location.\n\nOnce you obtained the green quality Brinestone Pickaxe, you can interact with the stone at the Rare's Location to start the summoning ritual.\n\nYou have to collect 5 different colored shards, which are mined from nearby untrackable Brinestone Deposits & put the correct shard into each pillar.\n\nThere are 7 Deposits, within max. 50-60 yards of the event, that can be mined without the mining profession & have 1 minute respawn timer.\n\nThe mining recipes are not bound to a daily lockout & can be farmed.\n\nRespawn timer of the Event is roughly 20 minutes.",
 				constant = "FIRST_COMPLETE_THE_WHITE_ITEM_VERSION_OF",
 				export = true,
@@ -157,7 +157,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152361, {	-- Banescale the Packfather
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "There is a chance for Banescale to spawn after |cFFCC4D38Siltstalker the Packmother|r is killed.",
 				constant = "THERE_IS_A_CHANCE_FOR_BANESCALE_TO_SPAWN_AFTER",
 				export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = {
 				i(169372),	-- Necrofin Tadpole (PET!)
 				i(170191, {	-- Skeletal Hand
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Turn it in to |cFFFFD700Gloomseeker Yarga|r for a hefty sum of gold.",
 						constant = "TURN_IT_IN_TO_CFFFFD700GLOOMSEEKER_YARGA_R_FOR",
 						export = true,
@@ -236,7 +236,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 56270,
 			["coord"] = { 49.2, 88.8, NAZJATAR },
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Inside a hidden underwater cave beneath the waterfall.",
 				constant = "INSIDE_A_HIDDEN_UNDERWATER_CAVE_BENEATH_THE",
 				export = true,
@@ -325,7 +325,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152448, {	-- Iridescent Glimmershell
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This rare shares spawns with |cFFe6b300Glimmershell Hulks|r.",
 				constant = "THIS_RARE_SHARES_SPAWNS_WITH",
 				export = true,
@@ -367,7 +367,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				154725,	-- Muck Slug
 			},
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Use a |cFFFFD700Prismatic Crystal|r to charm a |cFFFFD700Muck Slug|r and bring it to Kelpwillow to activate him.",
 				constant = "USE_A_CFFFFD700PRISMATIC_CRYSTAL_R_TO_CHARM_A",
 				export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}},
 		}),
 		n(152323, {	-- King Gakula
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Whenever a player shoos a |cFF00991aBloodfin Tadpole|r, it fills an invisible progress bar for Gakula's spawn. He will yell a total of four times, spawning with the last one.\n\nGakula's yells:\n1. |cFFff4040Mgrlgl? Gmrgurgl?|r\n2. |cFFff4040Murrrglurg? Murgglugrg!|r\n3. |cFFff4040Mrrglgl! Murgglagk!|r\n4. |cFFff4040Gak! Mugllglgll Gak!|r",
 				constant = "WHENEVER_A_PLAYER_SHOOS_A_CFF00991ABLOODFIN",
 				export = true,
@@ -427,7 +427,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			-- 55427 & 56916 = manapearls only
 			-- 57082 = benthic only
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Wanders around Nazjatar. This mob doesn't have a vignette star that appears on the map and isn't technically a rare, but has a chance to drop Prismatic Manapearls and Benthic gear.",
 				constant = "WANDERS_AROUND_NAZJATAR_THIS_MOB_DOESN_T_HAVE_A",
 				export = true,
@@ -486,7 +486,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 56288,	-- TODO: verify id
 			["coord"] = { 78.2, 25.0, NAZJATAR },
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Summon a |cFFFFD700Drowned Hatchling|r battle pet to activate. You can purchase the pet from |cFFFFD700Feylana the Handler|r for 40 Prismatic Manapearls.",
 				constant = "SUMMON_A_CFFFFD700DROWNED_HATCHLING_R_BATTLE",
 				export = true,
@@ -541,7 +541,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(151870, {	-- Sandcastle
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "There is a chance for Sandcastle to spawn when you are using a Scrying Stone to find treasures in Nazjatar.",
 				constant = "THERE_IS_A_CHANCE_FOR_SANDCASTLE_TO_SPAWN_WHEN",
 				export = true,
@@ -566,7 +566,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152795, {	-- Sandclaw Stoneshell (Verified: Pr3vention)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Spawns in numerous places throughout the zone, mostly to the east of the Coral Forest.",
 				constant = "SPAWNS_IN_NUMEROUS_PLACES_THROUGHOUT_THE_ZONE",
 				export = true,
@@ -598,7 +598,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152548, {	-- Scale Matriarch Gratinax
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "All three Scale Matriarchs share a spawn timer.",
 				constant = "ALL_THREE_SCALE_MATRIARCHS_SHARE_A_SPAWN_TIMER",
 				export = true,
@@ -651,7 +651,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		n(152552, {	-- Shassera
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The rare flies back and forth above the water at the back of the cave.",
 				constant = "THE_RARE_FLIES_BACK_AND_FORTH_ABOVE_THE_WATER",
 				export = true,
@@ -708,7 +708,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				{ 64.8, 52.0, NAZJATAR },
 			},
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "On top of the coral reef. Requires Flying.",
 				constant = "ON_TOP_OF_THE_CORAL_REEF_REQUIRES_FLYING",
 				export = true,
@@ -744,7 +744,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 56123,
 			["coord"] = { 58.0, 26.5, NAZJATAR },
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Kill the |cFFFFD700Azsh'ari Invoker|r that is channeling an orb above the water pool.",
 				constant = "KILL_THE_CFFFFD700AZSH_ARI_INVOKER_R_THAT_IS",
 				export = true,
@@ -771,7 +771,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 56106,
 			["coord"] = { 65.9, 22.9, NAZJATAR },
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Clusters of purple, void-tinged sacs grow around the area where the rare spawns. Look for ones you can interact with called |cFFFFD700Undisturbed Specimens|r — 5 of these need to be popped to spawn the rare, but they don't all have to be destroyed by one person.",
 				constant = "CLUSTERS_OF_PURPLE_VOID_TINGED_SACS_GROW_AROUND",
 				export = true,
@@ -812,7 +812,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				{ 30.3, 35.9, NAZJATAR },
 			},
 			["isDaily"] = true,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Kill a |cFFFFD700Staghorn Reefwalker|r on top of Urduu to activate him. |cFFDD3333Before you start kiting make sure any followers are deactivated by right-clicking the buff to dismiss.",
 				constant = "KILL_A_CFFFFD700STAGHORN_REEFWALKER_R_ON_TOP_OF",
 				export = true,
@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}},
 		}),
 		n(151719, {	-- Voice in the Deeps
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "When the rare is available, you can see its nameplate while hovering over the rocks inside the small building at the coordinates listed.\n\nWhen you're sure it's up, find a |cFF1EFF00Molted Shell|r on the ground and ride it into the rocks to break them. The rare will immediately attack, so be ready to click off the buff!",
 				constant = "WHEN_THE_RARE_IS_AVAILABLE_YOU_CAN_SEE_ITS",
 				export = true,
@@ -865,7 +865,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["questID"] = 55603,
 			["isDaily"] = true,
 			["coord"] = { 48.1, 24.3, NAZJATAR },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Throw chum into Eel Infested Waters multiple times. He will spawn after ~8 throws.",
 				constant = "THROW_CHUM_INTO_EEL_INFESTED_WATERS_MULTIPLE",
 				export = true,

@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			exploration(13766),	-- Nelthazan Ruins
 			exploration(13782),	-- Nokhudon Hold
 			exploration(13645, {	-- Ohn'ahran Plains
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This node can only be uncovered by characters who have not yet unlocked the Emerald Dream.",
 					constant = "THIS_NODE_CAN_ONLY_BE_UNCOVERED_BY_CHARACTERS",
 					export = true,

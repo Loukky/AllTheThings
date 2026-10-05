@@ -62,7 +62,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 		["groups"] = {
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				header(HEADERS.Achievement, 17366, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }, {	-- Relics of a Fallen Empire
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To unlock the Zul'Gurub content of patch 10.0.7:\n\n1. Kill any two bosses to spawn Jin'do the Godbreaker. Cache of Madness does not count.\n\n2. Head to the Altar of the Light, and enter the ground floor using either side entrance.\n\n3. Look for a gong by the southern entrance. On the ground in front of it lies a Shattered Hakkari Bijou. Loot it.\n\n4. Go upstairs towards Jin'do the Godbreaker, and kill at least one Gurubashi Spirit Warrior on your way. (You will need it for the encounter!)\n\n5. Pull Jin'do the Godbreaker and burst him down until Phase 2 begins. (This phase begins even if you oneshot him.)\n\n6. Walk back downstairs and inside the ground floor where you found the Shattered Hakkari Bijou, and a Fragmented Hakkari Bijou lays in its place. Loot it.\n\n7. Finish the boss encounter above by pulling a Gurubashi Spirit up to Hakkari's Chains, and wait until they break the chain protection with their ability 'Body Slam'. Then you can 'kill' the chains, and kill Jin'do.\n\n8. Combine the Shattered Hakkari Bijou with the Fragmented Hakkari Bijou, and accept the quest 'Restored Hakkari Bijou'.\n\n9. Travel to Dazar'alor in Zandalar. |CFFFF0000Beware Alliance players, this is a Horde city!|r You can get here using the ship service from Echo Isles in Durotar. From the Port of Zuldazar, fly eastwards to the south-facing building entrances. Above the transmogrifier shop is the Yojamba Exchange, where you can turn in the quest at Rin'wosho the Trader.\n\n10. Zul'Gurub is now unlocked for your account, and the vendor Rin'Wosho with his wares can now be found at the beginning of the dungeon.\n\n11. Protip: Start the Gurubashi Tribute farm as early as possible as it is a decent source for coins. See the header for Brazier of Madness for more information.",
 						constant = "TO_UNLOCK_THE_ZUL_GURUB_CONTENT_OF_PATCH_10_0_7",
 						export = true,
@@ -96,7 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							}),
 						}),
 						header(HEADERS.Item, 203757, {	-- Brazier of Madness
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To get started farming Gurubashi Tributes for recipes:\n\n1. Go to the site of the boss Cache of Madness.\n\n2. By the eastern wall is an altar. Here hangs Tablet of Madness, which teaches Alchemists with 300 skill points in classic alchemy how to create Gurubashi Mojo Madness.\n\n3. On the left side of the altar is an interactable brazier, which gives you the toy Brazier of Madness.\n\n4. The four main bosses Venoxis, Mandokir, Kilnara and Zanzil have piles of skull near them. Use the toy Brazier of Madness near one of these piles, and consume a Gurubashi Mojo Madness. This will transform you to a troll for one hour, and make you able to interact with the different piles of skulls to offer bijous for Gurubashi Tributes. The transformation will make you friendly to the mobs in the dungeon, so this should be done after killing the bosses.\n\n5. The different piles requires different bijous, and rewards 1-2 recipes and/or 3-7 coins. For more information see the header for Gurubashi Tribute.",
 								constant = "TO_GET_STARTED_FARMING_GURUBASHI_TRIBUTES_FOR",
 								export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							},
 							["groups"] = {
 								i(203959, {	-- Gurubashi Tribute
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Venoxis' available offerings: 2x Silver Bijou / 3x Green Bijou / 3x Gold Bijou. Coords: 51.5, 55.8 Behind the Boss\n\nMandokir's available offerings: 2x Bronze Bijou / 3x Red Bijou / 3x Gold Bijou. Coords: 60.8, 80.9 Right side of Boss\n\nKilnara's available offerings: 2x Orange Bijou / 3x Yellow Bijou / 3x Gold Bijou. Coords: 47.5, 22.1 Behind Boss at the wall\n\nZanzil's available offerings: 2x Purple Bijou / 3x Blue Bijou / 3x Gold Bijou. Coords: 30.4, 19.9 North side of the Boss room, at the left wall.",
 										constant = "VENOXIS_AVAILABLE_OFFERINGS_2X_SILVER_BIJOU_3X",
 										export = true,
@@ -183,7 +183,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							},
 						}),
 						n(COMMON_BOSS_DROPS, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can drop from High Priest Venoxis, Bloodlord Mandokir, High Priestess Kilnara, Zanzil, and Jin'do the Godbreaker after completing the quest 'Restored Hakkari Bijou'.",
 								constant = "CAN_DROP_FROM_HIGH_PRIEST_VENOXIS_BLOODLORD",
 								export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								i(BLOODSCALP_COIN),
 								i(GURUBASHI_COIN),
 								i(203743, {	-- Jostled Gurubashi Cache
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "You can fish only 1 out of the 2 caches per day. Requires the Mudskunk Aroma Buff which you randomly receive near the water.",
 										constant = "YOU_CAN_FISH_ONLY_1_OUT_OF_THE_2_CACHES_PER_DAY",
 										export = true,
@@ -321,7 +321,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							})),
 							prof(SKINNING, {
 								i(19767, {	-- Primal Bat Leather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Ancient Bats can be found on the following locations in Zul'Gurub:\n* Pack of 2 by crossroads between the first two bridges.\n* Pack of 2 behind a tree just north down the path from the mentioned crossroad.\n* Pack of 3 between a wall and a hut on the eastern side of the second bridge.\n* Pack of 3 in the southwestern corner of Mandokir's Domain.\n* Pack of 2 in the northeastern corner of Mandokir's Domain.",
 										constant = "ANCIENT_BATS_CAN_BE_FOUND_ON_THE_FOLLOWING",
 										export = true,
@@ -342,7 +342,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 									["cr"] = 202341,	-- Ancient Bat
 								}),
 								i(19768, {	-- Primal Tiger Leather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Ancient Tigers can be found on the following locations in Zul'Gurub:\n* Pack of 2 west of the stairs by Mortaxx.\n* Pack of 2 east of the stairs by Mortaxx.\n* Pack of 3 east of the inn.\n* Pack of 3 northwest of the inn.\n* Pack of 3 outside of the eastern outer wall of Temple of Bethekk.",
 										constant = "ANCIENT_TIGERS_CAN_BE_FOUND_ON_THE_FOLLOWING",
 										export = true,
@@ -378,7 +378,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								},
 							}),
 							q(74576, {	-- Restored Hakkari Bijou
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = " Collect both, combine them & deliver them to Rin'wosho in Zandalar at 55.0 86.8",
 									constant = "COLLECT_BOTH_COMBINE_THEM_DELIVER_THEM_TO_RIN",
 									export = true,
@@ -426,7 +426,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						}),
 						n(TREASURES, {
 							o(387496, {	-- Brazier of Madness
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be looted near the Cache of Madness event, to the left of the altar at 61.2, 45.6.",
 									constant = "CAN_BE_LOOTED_NEAR_THE_CACHE_OF_MADNESS_EVENT",
 									export = true,
@@ -449,7 +449,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								},
 							}),
 							o(386669, {	-- Fragmented Hakkari Bijou
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The first Bijou named 'Fragmented Hakkari Bijou' is near the gong in the middle of the pyramid at roughly 48.6, 42.3.",
 									constant = "THE_FIRST_BIJOU_NAMED_FRAGMENTED_HAKKARI_BIJOU",
 									export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								},
 							}),
 							o(386668, {	-- Shattered Hakkari Bijou
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The second Bijou named 'Shattered Hakkari Bijou' is at the same spot, but during phase 2 of the Jin'do Boss Encounter. In the middle of the pyramid at roughly 48.6, 42.3 ",
 									constant = "THE_SECOND_BIJOU_NAMED_SHATTERED_HAKKARI_BIJOU",
 									export = true,
@@ -501,7 +501,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								},
 							}),
 							o(180368, {	-- Tablet of Madness
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be looted near the Cache of Madness event, above the altar at 61.2, 45.6.\nAlchemists with 300 classic skill can interact with the Tablet of Madness to learn the recipe.",
 									constant = "CAN_BE_LOOTED_NEAR_THE_CACHE_OF_MADNESS_EVENT_2",
 									export = true,
@@ -903,7 +903,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						["qg"] = 53023,	-- Bloodslayer T'ara
 					}),
 					q(29262, {	-- Zul'Gurub Voodoo
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need 425 Archaeology and a Troll Tablet to activate the \"Call of the Raptor\" buff which summons raptor hatchlings to attack your enemies.",
 							constant = "YOU_NEED_425_ARCHAEOLOGY_AND_A_TROLL_TABLET_TO",
 							export = true,
@@ -1038,7 +1038,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(69614),	-- Roaring Mask of Bethekk
 						i(69611),	-- Sash of Anguish
 						n(53088, {	-- Temple Rat
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Loot the rats and throw them to the awake Pride of Bethekk during the boss fight for the achievement 'Here, Kitty Kitty...'. Only one rat per cat counts.\n\nThe Temple Rat in the room adjacent to the boss room can be looted through the wall when it wanders close enough.",
 								constant = "LOOT_THE_RATS_AND_THROW_THEM_TO_THE_AWAKE_PRIDE",
 								export = true,
@@ -1089,7 +1089,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							["timeline"] = { ADDED_6_1_0 },
 						})),
 						n(52167, {	-- Gurubashi Spirit Warrior
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|CFFFF0000At least one MUST be killed prior to Jin'do the Godbreaker encounter Phase 2 start, otherwise fight will be impossible.|r\n\nIn Phase 2 their spirits will spawn and they must be pulled up to Hakkar's chains in order to break them with their ability 'Body Slam'.",
 								constant = "CFFFF0000AT_LEAST_ONE_MUST_BE_KILLED_PRIOR_TO",
 								export = true,

@@ -5,7 +5,7 @@
 root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 	n(REWARDS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 		filter(CONSUMABLES, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These are commonly sold by PVP Vendors and can also be acquired from reward crates.",
 				constant = "THESE_ARE_COMMONLY_SOLD_BY_PVP_VENDORS_AND_CAN",
 				export = true,
@@ -112,7 +112,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		}),
 		i(135540, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Crate of Battlefield Goods 40-59 before 9.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 40-59 range before 9.0.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN",
 				export = true,
@@ -162,7 +162,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		})),
 		i(135541, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Crusader's Crate of Battlefield Goods 60-69 before 9.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 60-69 range before 9.0.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_2",
 				export = true,
@@ -207,7 +207,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		})),
 		i(135542, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Icy Crate of Battlefield Goods 70-79 before 9.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 70-79 range before 9.0.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_3",
 				export = true,
@@ -258,7 +258,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		})),
 		i(135543, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Rival's Crate of Battlefield Goods 80-89 before 9.0; splitting this box into two categories, loot table varies with level
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 80-89 range before 9.0.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_4",
 				export = true,
@@ -278,7 +278,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			}),
 			["groups"] = {
 				n(LEVEL_RANGE_80_84, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded for winning a random battleground in the level 80-84 range before 9.0.",
 						constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_5",
 						export = true,
@@ -325,7 +325,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					},
 				}),
 				n(LEVEL_RANGE_85_89, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded for winning a random battleground in the level 85-89 range before 9.0.",
 						constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_6",
 						export = true,
@@ -377,7 +377,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		})),
 		i(135545, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Savage Crate of Battlefield Goods 90-99 before 9.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 90-99 range before 9.0.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_7",
 				export = true,
@@ -429,7 +429,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			},
 		})),
 		container(135546, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3, REMOVED_9_0_1 } }, {	-- Fel-Touched Crate of Battlefield Goods 100-109 before 9.0 / Ashran
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for winning a random battleground in the level 100-109 range before 9.0, or Ashran quests.",
 				constant = "REWARDED_FOR_WINNING_A_RANDOM_BATTLEGROUND_IN_8",
 				export = true,

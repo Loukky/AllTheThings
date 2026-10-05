@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			["isDaily"] = true,
 		}, {
 			n(93758, {	-- Antydas Nightcaller
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This part of the 'Adventurer of Val'sharah' achievement doesn't involve killing a rare, but stealing an NPC's treasure. The treasure chest is on the second floor of the building and can be found directly across the room from Antydas, hidden next to the sink. Enjoy your foray into larceny!",
 					constant = "THIS_PART_OF_THE_ADVENTURER_OF_VAL_SHARAH",
 					export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				},
 			}),
 			n(92334, {	-- Elindya Featherlight (Skul'vrax)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Revive Elindya Featherlight, follow her to Swiftflight and Skul'vrax will spawn.",
 					constant = "REVIVE_ELINDYA_FEATHERLIGHT_FOLLOW_HER_TO",
 					export = true,
@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				},
 			}),
 			n(92423, {	-- Theryssia
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on Theryssia's nameplate on the gravestone.",
 					constant = "CLICK_ON_THERYSSIA_S_NAMEPLATE_ON_THE",
 					export = true,

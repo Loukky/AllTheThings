@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				n(TREASURES, {
 					o(276490, {	-- Krokul Emergency Cache
 						["questID"] = 48884,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need |cFFFFD700Lightforged Warframe|r to unblock the rocks.",
 							constant = "YOU_WILL_NEED_CFFFFD700LIGHTFORGED_WARFRAME_R_2",
 							export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, {
 					}),
 					o(276489, {	-- Legion Tower Chest
 						["questID"] = 48885,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need |cFFFFD700Light's Judgement|r to unblock the rocks.",
 							constant = "YOU_WILL_NEED_CFFFFD700LIGHT_S_JUDGEMENT_R_TO",
 							export = true,

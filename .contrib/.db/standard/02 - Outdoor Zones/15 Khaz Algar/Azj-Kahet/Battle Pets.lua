@@ -21,7 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4480, {	-- Shadowy Oozeling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interact with Black Blood Extractor objects in area until you reach at least 10x Unseeming Shift debuff to see this pet.",
 						constant = "INTERACT_WITH_BLACK_BLOOD_EXTRACTOR_OBJECTS_IN",
 						export = true,
@@ -42,7 +42,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 63.6, 85.1, AZJ_KAHET },
 				}),
 				pet(3550, {	-- Undermoth (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Backline pet only.",
 						constant = "BACKLINE_PET_ONLY",
 						export = true,
@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4483, {	-- Vile Bloodtick (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "It can be found both as a frontline and a backline pet in battles throughout Azj-Kahet.",
 						constant = "IT_CAN_BE_FOUND_BOTH_AS_A_FRONTLINE_AND_A",
 						export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 57.3, 63.7, AZJ_KAHET },
 				}),
 				pet(4481, {	-- Voidling Ooze (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interact with Black Blood Extractor objects in area until you reach at least 10x Unseeming Shift debuff to see this pet. Can also be found as a backline pet around the zone.",
 						constant = "INTERACT_WITH_BLACK_BLOOD_EXTRACTOR_OBJECTS_IN_2",
 						export = true,

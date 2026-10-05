@@ -108,7 +108,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 				}),
 				n(QUESTS, {
 					q(53602, {	-- Adapting Our Tactics
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must unlock at least one foothold on Kul Tiras to get this quest.",
 							constant = "MUST_UNLOCK_AT_LEAST_ONE_FOOTHOLD_ON_KUL_TIRAS",
 							export = true,
@@ -182,7 +182,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = HORDE_ONLY,
 					}),
 					q(53050, {	-- Deeper Into Kul Tiras
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically starts when you finish your first Foothold in Kul Tiras.",
 							constant = "AUTOMATICALLY_STARTS_WHEN_YOU_FINISH_YOUR_FIRST",
 							export = true,
@@ -210,7 +210,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = HORDE_ONLY,
 					}),
 					q(53056, {	-- Pushing Our Influence
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically starts when you finish your second Foothold in Kul Tiras.",
 							constant = "AUTOMATICALLY_STARTS_WHEN_YOU_FINISH_YOUR_2",
 							export = true,
@@ -485,7 +485,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["lockCriteria"] = { 1, "questID", 52969 },
 					}),
 					q(51916, {	-- Uniting Zandalar		(Also grants credit for the two Alliance Quests "Uniting Kul Tiras" (ID 51918 & ID 52450))
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is offered to the first character on your account to reach Friendly with Zandalari Empire, Talanji's Expedition, and Voldunai. Your alts will get a different quest with the same name when they reach level 120, but all characters get credit for both quests.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_OFFERED_TO_THE",
 							export = true,
@@ -519,7 +519,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						},
 					}),
 					q(52451, {	-- Uniting Zandalar		(Also grants credit for the two Alliance Quests "Uniting Kul Tiras" (ID 51918 & ID 52450))
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is offered to alts that share an account with a character that already completed the original 'Uniting Zandalar.' All characters get credit for both quests.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_OFFERED_TO_ALTS",
 							export = true,
@@ -655,7 +655,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					}),
 					header(HEADERS.AchCriteria, 12509.05, {	-- The Marshal's Grave
 						q(53065, {	-- Operation: Grave Digger
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Relog (outside of Dazar'alor) if this doesn't appear upon hitting the reputation requirement",
 								constant = "RELOG_OUTSIDE_OF_DAZAR_ALOR_IF_THIS_DOESN_T",
 								export = true,
@@ -889,7 +889,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["races"] = HORDE_ONLY,
 						}),
 						q(53121, {	-- Siege of Boralus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest can only be completed by one character per account.",
 								constant = "THIS_QUEST_CAN_ONLY_BE_COMPLETED_BY_ONE",
 								export = true,
@@ -1094,7 +1094,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["groups"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54754, {	-- For the Queen
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang. |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
 							constant = "YOUR_OPTIONS_ARE_REMAINING_LOYAL_TO_SYLVANAS_OR",
 							export = true,
@@ -1822,7 +1822,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = HORDE_ONLY,
 					}),
 					q(56833, {	-- Leaders of the Horde
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Choosing to escape with Eitrigg continues with 'Not My Warchief' and sets you on the Saurfang supporter questline, otherwise you continue the Sylvanas Loyalist questline.",
 							constant = "CHOOSING_TO_ESCAPE_WITH_EITRIGG_CONTINUES_WITH",
 							export = true,
@@ -1899,7 +1899,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						},
 					}),
 					q(57147, {	-- Not My Warchief
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Have to be Sylvanas Loyalist that escapes with Eitrigg",
 							constant = "HAVE_TO_BE_SYLVANAS_LOYALIST_THAT_ESCAPES_WITH",
 							export = true,

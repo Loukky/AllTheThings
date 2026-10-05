@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			}},
 			["groups"] = {
 				pet(1738, {	-- Auburn Ringtail (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found around NW Moonclaw Vale.",
 						constant = "BEST_FOUND_AROUND_NW_MOONCLAW_VALE",
 						export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 53.2, 46.6, VALSHARAH },
 				}),
 				pet(1913, {	-- Gleamhoof Fawn (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found around the grassy area in southern Val'Sharah.",
 						constant = "FOUND_AROUND_THE_GRASSY_AREA_IN_SOUTHERN_VAL",
 						export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					}),
 				}),
 				pet(1734, {	-- Shimmering Aquafly (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the area around given coord, around the pond.",
 						constant = "FOUND_IN_THE_AREA_AROUND_GIVEN_COORD_AROUND_THE",
 						export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 46.8, 70.2, VALSHARAH },
 				}),
 				pet(1735, {	-- Terror Larva (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found around the large nightmare area.",
 						constant = "FOUND_AROUND_THE_LARGE_NIGHTMARE_AREA",
 						export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					}),
 				}),
 				pet(1737, {	-- Vale Flitter (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "May be difficult to find. Can be found in the grassy area in southern Val'Sharah.",
 						constant = "MAY_BE_DIFFICULT_TO_FIND_CAN_BE_FOUND_IN_THE",
 						export = true,

@@ -4,7 +4,7 @@
 
 root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 	m(1478, {	-- Ashran
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Ashran is a 40v40 epic battleground found in eastern Draenor.",
 			constant = "ASHRAN_IS_A_40V40_EPIC_BATTLEGROUND_FOUND_IN",
 			export = true,
@@ -1990,7 +1990,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			}),
 			n(ZONE_DROPS, {
 				i(112128, {	-- Blood Elf Ear
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Blood Elf players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_BLOOD_ELF_PLAYERS",
 						export = true,
@@ -2011,7 +2011,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112121, {	-- Draenei Tail
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Draenei players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_DRAENEI_PLAYERS",
 						export = true,
@@ -2032,7 +2032,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(112126, {	-- Dwarf Spine
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Dwarf players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_DWARF_PLAYERS",
 						export = true,
@@ -2053,7 +2053,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(112015, {	-- Forsaken Brains
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Forsaken players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_FORSAKEN_PLAYERS",
 						export = true,
@@ -2074,7 +2074,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112125, {	-- Goblin Nose
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Goblin players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_GOBLIN_PLAYERS",
 						export = true,
@@ -2095,7 +2095,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112131, {	-- Human Bone Chip
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Human players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_HUMAN_PLAYERS",
 						export = true,
@@ -2116,7 +2116,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(184042, {	-- Nightborne Liver
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Nightborne players... although interestingly enough Horde players can loot this from Void Elves. (Albeit they can't turn it in anywhere.)",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_NIGHTBORNE_PLAYERS",
 						export = true,
@@ -2138,7 +2138,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112122, {	-- Orc Tooth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Orc players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_ORC_PLAYERS",
 						export = true,
@@ -2159,7 +2159,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112113, {	-- Pandaren Hide
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Pandaren players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_PANDAREN_PLAYERS",
 						export = true,
@@ -2179,7 +2179,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					}),
 				}),
 				i(112124, {	-- Severed Night Elf Head
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Night Elf players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_NIGHT_ELF_PLAYERS",
 						export = true,
@@ -2200,7 +2200,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(112123, {	-- Tauren Hoof
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Tauren players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_TAUREN_PLAYERS",
 						export = true,
@@ -2221,7 +2221,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112120, {	-- Troll Feet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Troll players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_TROLL_PLAYERS",
 						export = true,
@@ -2242,7 +2242,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				i(112127, {	-- Tuft of Gnome Hair
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Gnome players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_GNOME_PLAYERS",
 						export = true,
@@ -2263,7 +2263,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(112119, {	-- Worgen Snout
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted from enemy Worgen players.",
 						constant = "CAN_BE_LOOTED_FROM_ENEMY_WORGEN_PLAYERS",
 						export = true,

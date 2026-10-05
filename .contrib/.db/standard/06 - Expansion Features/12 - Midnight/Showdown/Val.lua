@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 		["timeline"] = { ADDED_12_0_7 },
 		["groups"] = {
 			m(VAL, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Val is a planet of nothing but ice-covered valleys and billowing storms; even the Legion loathed it. The planet is protected by enormous hailstorms capable of tearing through the hulls of Legion ships, and even after the demons established outposts, the soldiers sent there were usually done so as punishment.",
 					constant = "VAL_IS_A_PLANET_OF_NOTHING_BUT_ICE_COVERED",
 					export = true,
@@ -100,7 +100,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(96048, {	-- The Time to Strike
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be accepted from the Adventure Journal.",
 								constant = "CAN_BE_ACCEPTED_FROM_THE_ADVENTURE_JOURNAL",
 								export = true,
@@ -431,7 +431,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["sym"] = {{"select","itemID",278027},{"pop"}},	-- TODO: use source tech eventually
 						}),
 						o(658799, {	-- Enchanted Hilt
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with the Enchanted Hilt at the back of the cave then slay two rares within 30 minutes to prove your worth. You will have 2 stacks of the 'Vanquishing' buff when completed. Return to the hilt again to claim your reward.",
 								constant = "INTERACT_WITH_THE_ENCHANTED_HILT_AT_THE_BACK_OF",
 								export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(MECHAGON, {
 		n(ZONE_DROPS, {
 			i(168491, {	-- Blueprint: Personal Time Displacer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from normal mobs during the |cFFFFD700The Other Place|r quest.",
 					constant = "DROPS_FROM_NORMAL_MOBS_DURING_THE_CFFFFD700THE",
 					export = true,

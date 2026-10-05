@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				-- Everything else related to 'The Coiled Isle' is 12.1.0. A personal decision has been made to separate the first chapter from everything else and place it in Zul'Aman.
 				header(HEADERS.AchCriteria, 62297.02, {	-- An Island of Fangs
 					q(98218, {	-- Return to Amani'Zar
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Pops-up on first log-in. Can be accepted from Adventure Guide.",
 							constant = "POPS_UP_ON_FIRST_LOG_IN_CAN_BE_ACCEPTED_FROM",
 							export = true,
@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 37.0, 23.2, MAP.MIDNIGHT.ZULAMAN },
 					}),
 					q(92919, {	-- All Bark, All Bite
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Quest becomes available after accepting 'Saving Those Bound' (92917).",
 							constant = "QUEST_BECOMES_AVAILABLE_AFTER_ACCEPTING_SAVING",
 							export = true,
@@ -441,7 +441,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(95960, {	-- Stay awhile and listen: Arator
 						["name"] = "Stay awhile and listen: Arator",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after accepting 'Under New Management' (94524).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_5",
 							export = true,
@@ -503,7 +503,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(95959, {	-- Stay awhile and listen: Arator
 						["name"] = "Stay awhile and listen: Arator",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after accepting 'A Dark Shadow Looms' (94529).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_A",
 							export = true,
@@ -546,7 +546,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(95958, {	-- Stay awhile and listen: Magister Umbric
 						["name"] = "Stay awhile and listen: Magister Umbric",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after completing 'Like Mother, Like Son' (94531).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_4",
 							export = true,
@@ -716,7 +716,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["isBreadcrumb"] = true,
 					}),
 					q(96469, {	-- The Crypt of the Disgraced
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To bypass the barrier, interact with the objects in the following order:\n\nCharm, Mortar and Pestle, Urn, Bones.",
 							constant = "TO_BYPASS_THE_BARRIER_INTERACT_WITH_THE_OBJECTS",
 							export = true,
@@ -1209,7 +1209,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["groups"] = {
 							i(280189, {	-- Cauldron Concoction (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "If you get this pet from any other offering, please let us know",
 									constant = "IF_YOU_GET_THIS_PET_FROM_ANY_OTHER_OFFERING",
 									export = true,

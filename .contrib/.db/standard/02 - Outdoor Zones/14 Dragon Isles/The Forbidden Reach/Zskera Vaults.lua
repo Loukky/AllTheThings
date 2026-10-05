@@ -295,7 +295,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					["cost"] = { { "i", 204340, 30 } },	-- 30x Torn Recipe Scrap
 				}),
 				i(202252, {	-- Recipe Rat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Interact with Recipe Rat. It will only continue negotiations with enough Fine Aged Cheddar. Beware the rat will keep eating even when not negotatiating.\nIt is also possible to continue picking up and using the rat every 5 minutes while within the Vault to obtain scraps without using cheese.",
 						constant = "INTERACT_WITH_RECIPE_RAT_IT_WILL_ONLY_CONTINUE",
 						export = true,
@@ -569,7 +569,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							["groups"] = {
 								i(204405, {	-- Stuffed Bear (TOY!)
 									-- #if BEFORE TWW
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This will be a Toy in The War Within.",
 										constant = "THIS_WILL_BE_A_TOY_IN_THE_WAR_WITHIN",
 										export = true,
@@ -757,7 +757,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							["coord"] = { 29.4, 58.3, THE_FORBIDDEN_REACH },
 							["groups"] = {
 								i(203690, {	-- Pearlescent Bubble Key
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This item is needed to unlock next floor",
 										constant = "THIS_ITEM_IS_NEEDED_TO_UNLOCK_NEXT_FLOOR",
 										export = true,
@@ -794,7 +794,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							["questID"] = 75129,
 						}),
 						o(386428, {	-- Primordial Earth Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The Key can be looted by nearby elemental, after interacting with the orb.",
 								constant = "THE_KEY_CAN_BE_LOOTED_BY_NEARBY_ELEMENTAL_AFTER",
 								export = true,
@@ -834,7 +834,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							},
 						}),
 						o(386442, {	-- Primordial Void Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires interacting with 'Mysterious Voidmark' to become visible.",
 								constant = "REQUIRES_INTERACTING_WITH_MYSTERIOUS_VOIDMARK",
 								export = true,
@@ -917,7 +917,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 						o(390136, {	-- Spore-bound Essence
 							["coord"] = { 30.7, 55.1, THE_FORBIDDEN_REACH },
 							["questID"] = 75136,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use Restorative Water on an Overgrown Skeleton.",
 								constant = "USE_RESTORATIVE_WATER_ON_AN_OVERGROWN_SKELETON",
 								export = true,
@@ -1009,7 +1009,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							},
 						}),
 						o(398778, {	-- Disgusting Vat
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must fish when interacting with this.",
 								constant = "YOU_MUST_FISH_WHEN_INTERACTING_WITH_THIS",
 								export = true,
@@ -1248,7 +1248,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 							["questID"] = 74425,
 						}),
 						o(389789, {	-- Primordial Earth Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use Stone Dissolver.",
 								constant = "USE_STONE_DISSOLVER",
 								export = true,
@@ -1339,7 +1339,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				})),
 				o(389471, {	-- Grand Obsidian Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be accessed through the Broken Waygate repaired with an Obsidian Toolkit.",
 						constant = "CAN_BE_ACCESSED_THROUGH_THE_BROKEN_WAYGATE",
 						export = true,

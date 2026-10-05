@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(ZONE_DROPS, {
 				currency(3448),	-- Corrosive Coin
 				i(275048, {	-- Decrepit Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be obtained from creatures with 'Corrosive' Aura after unlocking 'Slithering Secrets' trait at |cFFFFD700Altar of Corrosion|r.",
 						constant = "CAN_BE_OBTAINED_FROM_CREATURES_WITH_CORROSIVE",
 						export = true,

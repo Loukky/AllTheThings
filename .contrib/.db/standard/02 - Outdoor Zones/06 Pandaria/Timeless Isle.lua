@@ -106,7 +106,7 @@ root(ROOTS.Zones, {
 								},
 							}),
 							q(33136, {	-- The Rainy Day is Here
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can complete this quest once across your account. It is given to you after your first victory over the Celestial Tournament.",
 									constant = "YOU_CAN_COMPLETE_THIS_QUEST_ONCE_ACROSS_YOUR",
 									export = true,
@@ -233,7 +233,7 @@ root(ROOTS.Zones, {
 					pet(1324),	-- Ashwing Moth (PET!)
 					pet(1325),	-- Flamering Moth (PET!)
 					pet(1326, {	-- Skywisp Moth (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found on the tallest peaks of the isle, accessible easiest from an Albatross ride.",
 							constant = "FOUND_ON_THE_TALLEST_PEAKS_OF_THE_ISLE",
 							export = true,
@@ -257,7 +257,7 @@ root(ROOTS.Zones, {
 					-- Cloth
 					-- Amaranthine (Priest Only)
 					i(101891, {	-- Amaranthine Cowl
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Any Priest spec.",
 							constant = "ANY_PRIEST_SPEC",
 							export = true,
@@ -339,7 +339,7 @@ root(ROOTS.Zones, {
 					}),
 					-- Cloudscorcher (Mage & Warlock Only)
 					i(101901, {	-- Cloudscorcher Cowl
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Any Mage/Warlock spec.",
 							constant = "ANY_MAGE_WARLOCK_SPEC",
 							export = true,
@@ -423,7 +423,7 @@ root(ROOTS.Zones, {
 					-- Leather
 					-- Cranefeather (Rogue, Druid, Monk) [DPS]
 					i(101953, {	-- Cranefeather Hood
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to Agility.",
 							constant = "SET_LOOT_SPEC_TO_AGILITY",
 							export = true,
@@ -505,7 +505,7 @@ root(ROOTS.Zones, {
 					}),
 					-- Fire-Chanter (Druid, Monk)
 					i(101874, {	-- Fire-Chanter Hood
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to Intellect.",
 							constant = "SET_LOOT_SPEC_TO_INTELLECT",
 							export = true,
@@ -654,7 +654,7 @@ root(ROOTS.Zones, {
 					}),
 					-- Ordon Legend-Keeper (Shaman, Evoker) [HEALER]
 					i(101923, {	-- Ordon Legend-Keeper Helm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to Healer.",
 							constant = "SET_LOOT_SPEC_TO_HEALER",
 							export = true,
@@ -738,7 +738,7 @@ root(ROOTS.Zones, {
 					-- Plate
 					-- Cliffbreaker (Warrior, Paladin, Death Knight) [DPS]
 					i(101882, {	-- Cliffbreaker Helm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to DPS.",
 							constant = "SET_LOOT_SPEC_TO_DPS",
 							export = true,
@@ -820,7 +820,7 @@ root(ROOTS.Zones, {
 					}),
 					-- Elder Tortoiseshell (Warrior, Paladin, Death Knight) [TANK]
 					i(101942, {	-- Elder Tortoiseshell Helm
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to Tank.",
 							constant = "SET_LOOT_SPEC_TO_TANK",
 							export = true,
@@ -976,7 +976,7 @@ root(ROOTS.Zones, {
 						["classes_display"] = INTELLECT_CLASSES,
 					}),
 					i(101879, {	-- Cliffbreaker Drape
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Set loot spec to Strength.",
 							constant = "SET_LOOT_SPEC_TO_STRENGTH",
 							export = true,
@@ -1128,7 +1128,7 @@ root(ROOTS.Zones, {
 				n(PROFESSIONS, {
 					prof(FISHING, {
 						i(104034, {	-- Purse of Timeless Coins
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be fished up from Jewel Danio Schools.",
 								constant = "CAN_BE_FISHED_UP_FROM_JEWEL_DANIO_SCHOOLS",
 								export = true,
@@ -1274,7 +1274,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32974, {	-- Rolo's Riddle #1
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The riddle can be found in |cFFFFFFFFGlinting Sand|r along the coast of the island. Find the first clue at the stone columns near the weekly Gleaming Treasure Chest (|cFFFFFFFF49.4, 69.3|r).",
 							constant = "THE_RIDDLE_CAN_BE_FOUND_IN_CFFFFFFFFGLINTING",
 							export = true,
@@ -1298,7 +1298,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(32975, {	-- Rolo's Riddle #2
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Find the second clue at the back of Three-Breeze Terrace (|cFFFFFFFF34.5, 26.5|r).",
 							constant = "FIND_THE_SECOND_CLUE_AT_THE_BACK_OF_THREE",
 							export = true,
@@ -1321,7 +1321,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 49.4, 69.3, TIMELESS_ISLE },
 					}),
 					q(32976, {	-- Rolo's Riddle #3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The final treasure you're looking for is high up at the bloody lake where Garnia lives (|cFFFFFFFF66.0, 23.2|r).\n\nYou can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
 							constant = "THE_FINAL_TREASURE_YOU_RE_LOOKING_FOR_IS_HIGH",
 							export = true,
@@ -1448,7 +1448,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73666, {	-- Archiereus of Flame
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is the summonable version of this rare. It drops more things.",
 							constant = "THIS_IS_THE_SUMMONABLE_VERSION_OF_THIS_RARE_IT",
 							export = true,
@@ -1491,7 +1491,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73171, {	-- Champion of the Black Flame
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This rare patrols all the way down the pathway from the upper bridge to the lower one.",
 							constant = "THIS_RARE_PATROLS_ALL_THE_WAY_DOWN_THE_PATHWAY",
 							export = true,
@@ -1524,7 +1524,7 @@ root(ROOTS.Zones, {
 					n(72045, {	-- Chelon
 						["questID"] = 32966,
 						["provider"] = { "o", 221027 },	-- Conspicuously Empty Shell
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click on Conspicuously Empty Shell to spawn Chelon.",
 							constant = "CLICK_ON_CONSPICUOUSLY_EMPTY_SHELL_TO_SPAWN",
 							export = true,
@@ -1559,7 +1559,7 @@ root(ROOTS.Zones, {
 					}),
 					-- INFO: Old ID was possibly 72049, but since 7.3.5 (as far back as Wago.tools goes) it has always been 73854. Can't really timeline when we don't know when the change look place.
 					n(73854, {	-- Cranegnasher
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Locate the bloodied red crane corpse, Fishgorged Crane at ~44, 70. If it's not present, then the rare can't be spawned yet.\n\nIf the corpse is there, head south and aggro one of the Fishgorged Cranes by the ocean at ~45, 84. Kite it back to the corpse, and Cranegnasher should appear and attack!",
 							constant = "LOCATE_THE_BLOODIED_RED_CRANE_CORPSE_FISHGORGED",
 							export = true,
@@ -1594,7 +1594,7 @@ root(ROOTS.Zones, {
 							{ "i", 104115 },	-- Mist-Filled Spirit Lantern
 							{ "o", 223139 },	-- Cursed Gravestone
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to have a Mist-Filled Spirit Lantern from Evermaw to summon this boss when the Cursed Gravestone is active.",
 							constant = "YOU_NEED_TO_HAVE_A_MIST_FILLED_SPIRIT_LANTERN",
 							export = true,
@@ -1619,7 +1619,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73158, {	-- Emerald Gander
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travel around the area where the Celestial bosses spawn and kill Brilliant Windfeathers — whenever one respawns, there's a chance it will respawn as an Emerald Gander instead of the normal mob.",
 							constant = "TRAVEL_AROUND_THE_AREA_WHERE_THE_CELESTIAL",
 							export = true,
@@ -1655,7 +1655,7 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["groups"] = {
 							i(104115, {	-- Mist-Filled Spirit Lantern
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Use this item at the Cursed Gravestone to summon the Dread Ship Vazuvius.",
 									constant = "USE_THIS_ITEM_AT_THE_CURSED_GRAVESTONE_TO",
 									export = true,
@@ -1708,7 +1708,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73161, {	-- Great Turtle Furyshell
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travel along the beach and kill Great Turtles — whenever one respawns, there's a chance it will respawn as a Great Turtle Furyshell instead of the normal mob.",
 							constant = "TRAVEL_ALONG_THE_BEACH_AND_KILL_GREAT_TURTLES",
 							export = true,
@@ -1751,7 +1751,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73167, {	-- Huolon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Huolon spawns around the coordinate we have listed, but if he's not pulled immediately he will fly up the hill, over the first upper bridge, and loop back down.",
 							constant = "HUOLON_SPAWNS_AROUND_THE_COORDINATE_WE_HAVE",
 							export = true,
@@ -1778,7 +1778,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73163, {	-- Imperial Python
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travel around the zone and kill Death Adders — whenever one respawns, there's a chance it will respawn as an Imperial Python instead of the normal mob.",
 							constant = "TRAVEL_AROUND_THE_ZONE_AND_KILL_DEATH_ADDERS",
 							export = true,
@@ -1820,7 +1820,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73160, {	-- Ironfur Steelhorn
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travel around the area where the Celestial bosses spawn and kill Ironfur Great Bulls — whenever one respawns, there's a chance it will respawn as an Ironfur Steelhorn instead of the normal mob.",
 							constant = "TRAVEL_AROUND_THE_AREA_WHERE_THE_CELESTIAL_2",
 							export = true,
@@ -1885,7 +1885,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73166, {	-- Monstrous Spineclaw
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travel along the beach and kill Ancient Spineclaws — whenever one respawns, there's a chance it will respawn as a Monstrous Spineclaw instead of the normal mob.",
 							constant = "TRAVEL_ALONG_THE_BEACH_AND_KILL_ANCIENT",
 							export = true,
@@ -1944,7 +1944,7 @@ root(ROOTS.Zones, {
 					}),
 					o(220807, {	-- Neverending Spritewood
 						["questID"] = 32961,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click on this to receive a buff that will allow you to kill the sprites. Use your AOE attacks and run around the tree where they are clustered for maximum effect.",
 							constant = "CLICK_ON_THIS_TO_RECEIVE_A_BUFF_THAT_WILL_ALLOW",
 							export = true,
@@ -2008,7 +2008,7 @@ root(ROOTS.Zones, {
 							{ "o", 220815 },	-- Cave-in
 							{ "o", 222796 },	-- Cloudstrike Family Helm
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the Cloudstrike ability from the Cloudstrike Family Helm to break down the caved in rocks. If you AFK inside the cave or Mage Blink / Warrior Leap through the rocks, you can interact with the Rock-breaking Hammer to open the way.",
 							constant = "USE_THE_CLOUDSTRIKE_ABILITY_FROM_THE",
 							export = true,
@@ -2087,7 +2087,7 @@ root(ROOTS.Zones, {
 						["questID"] = 32962,
 						["isDaily"] = true,
 						["coord"] = { 53.5, 56.4, 555 },	-- Cavern of Lost Spirits
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Daily Lockout\nTraverse the cave to the skeleton at the end within 5 minutes without touching any ghosts.",
 							constant = "DAILY_LOCKOUT_TRAVERSE_THE_CAVE_TO_THE_SKELETON",
 							export = true,
@@ -2125,7 +2125,7 @@ root(ROOTS.Zones, {
 							{ "n", 71944 },	-- Skunked Keg of Beer
 							{ "n", 71908 },	-- Skunky Brew Alemental
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill 10 Skunky Brew Alementals to spawn Zhu-gon the Sour in the town when the event is active.",
 							constant = "KILL_10_SKUNKY_BREW_ALEMENTALS_TO_SPAWN_ZHU_GON",
 							export = true,
@@ -2153,7 +2153,7 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(220986, {	-- Blackguard's Jetsam
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Coordinates are for an underwater cave entrance off the coast of the island.",
 							constant = "COORDINATES_ARE_FOR_AN_UNDERWATER_CAVE_ENTRANCE",
 							export = true,
@@ -2233,7 +2233,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(220903, {	-- Gleaming Crane Statue
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click the statue, and you will be thrown up into the air and given a slow-fall buff. Land on any of the platforms and loot any of the |cFFFFFFFFMist-Covered Treasure Chests|r to get credit for the achievement criteria.",
 							constant = "CLICK_THE_STATUE_AND_YOU_WILL_BE_THROWN_UP_INTO",
 							export = true,
@@ -2254,7 +2254,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 58.4, 60.0, TIMELESS_ISLE },
 					}),
 					o(220901, {	-- Gleaming Treasure Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Coordinates are for the side of the hill, where you start to jump across the pillars toward the treasure.",
 							constant = "COORDINATES_ARE_FOR_THE_SIDE_OF_THE_HILL_WHERE",
 							export = true,
@@ -2280,7 +2280,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(221036, {	-- Gleaming Treasure Satchel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Starting at around |cFFFFFFFF71.5, 79.8|r, mount up and do a running jump off the corner of the back platform. Landing successfully on the beam may take a couple tries, depending on the angle and the point at which you jump. Once you're on the beam, dismount and walk carefully toward the treasure.",
 							constant = "STARTING_AT_AROUND_CFFFFFFFF71_5_79_8_R_MOUNT",
 							export = true,
@@ -2374,7 +2374,7 @@ root(ROOTS.Zones, {
 						["isWeekly"] = true,
 						["questID"] = 32971,
 						["coord"] = { 59.0, 60.0, TIMELESS_ISLE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Coordinates are for the Gleaming Crane Statue which allows you to fly up to the chests.",
 							constant = "COORDINATES_ARE_FOR_THE_GLEAMING_CRANE_STATUE",
 							export = true,
@@ -2450,7 +2450,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 39.7, 79.5, TIMELESS_ISLE },
 					}),
 					o(223097, {	-- Moss-Covered Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underwater, at the base of one of the pier legs.",
 							constant = "UNDERWATER_AT_THE_BASE_OF_ONE_OF_THE_PIER_LEGS",
 							export = true,
@@ -2564,7 +2564,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(220902, {	-- Rope-Bound Treasure Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Coordinates are for the beginning of the rope pathway. You need to carefully walk along the ropes, dropping down to the lower ropes, until you've crossed Red Stone Run and can drop down to the treasure.",
 							constant = "COORDINATES_ARE_FOR_THE_BEGINNING_OF_THE_ROPE",
 							export = true,
@@ -2588,7 +2588,7 @@ root(ROOTS.Zones, {
 					}),
 					o(221690),	-- Sand-Covered Egg
 					o(221617, {	-- Skull-Covered Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside the Cavern of Lost Spirits.",
 							constant = "INSIDE_THE_CAVERN_OF_LOST_SPIRITS",
 							export = true,
@@ -2620,7 +2620,7 @@ root(ROOTS.Zones, {
 					o(223539),	-- Snowdrift Tiger Talons
 					o(223228),	-- Southsea Firebrew
 					o(221671, {	-- Sturdy Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a plateau. You can pick up an albatross ride, or approach from outside the island with strategic flying/falling/gliding.",
 							constant = "ON_TOP_OF_A_PLATEAU_YOU_CAN_PICK_UP_AN",
 							export = true,
@@ -2651,7 +2651,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 64.6, 70.5, TIMELESS_ISLE },
 					}),
 					o(223118, {	-- Sturdy Chest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The chest is inside Spelurk's cave. Classes that can snap/jump forward abruptly (like Mage Blink) can force their way into the cave. Using a toy like the Mushroom Chair or the Leather Love Seat may also work.",
 							constant = "THE_CHEST_IS_INSIDE_SPELURK_S_CAVE_CLASSES_THAT",
 							export = true,
@@ -2673,7 +2673,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 59.2, 49.5, TIMELESS_ISLE },
 					}),
 					o(220832, {	-- Sunken Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In the belly of the sunken ship.",
 							constant = "IN_THE_BELLY_OF_THE_SUNKEN_SHIP",
 							export = true,
@@ -2715,7 +2715,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{"select","npcID",56705},{"pop"}},	-- Singegruff <Adventuring Supplies>
 					}),
 					n(73657, {	-- Great Chef Woo <Food & Drink>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can turn in various zone drops to this vendor for Timeless Coins.\n\nThe quests can be repeated indefinitely.",
 							constant = "YOU_CAN_TURN_IN_VARIOUS_ZONE_DROPS_TO_THIS",
 							export = true,
@@ -3122,7 +3122,7 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 789, 100 } },	-- 100x Bloody Coin
 							})),
 							pvp(currency(789, {	-- Bloody Coin
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Earn Bloody Coins by transforming into an Emissary of Ordos and getting killing blows on enemy players.",
 									constant = "EARN_BLOODY_COINS_BY_TRANSFORMING_INTO_AN",
 									export = true,
@@ -3148,7 +3148,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(73293, {	-- Whizzig
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor is rare and is not always available.",
 							constant = "THIS_VENDOR_IS_RARE_AND_IS_NOT_ALWAYS_AVAILABLE",
 							export = true,
@@ -3254,7 +3254,7 @@ root(ROOTS.Zones, {
 						i(104227),	-- Technique: Glyph of Pillar of Light
 					}),
 					i(104265, {	-- Great Turtle Meat
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be turned in for 50 Timeless Coins.",
 							constant = "CAN_BE_TURNED_IN_FOR_50_TIMELESS_COINS",
 							export = true,
@@ -3290,7 +3290,7 @@ root(ROOTS.Zones, {
 						i(104224),	-- Technique: Glyph of Evaporation
 					}),
 					i(104264, {	-- Meaty Crane Leg
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be turned in for 20 Timeless Coins.",
 							constant = "CAN_BE_TURNED_IN_FOR_20_TIMELESS_COINS",
 							export = true,
@@ -3341,7 +3341,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					i(104257, {	-- Pristine Firestorm Egg
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be turned in for 500 Timeless Coins.",
 							constant = "CAN_BE_TURNED_IN_FOR_500_TIMELESS_COINS",
 							export = true,
@@ -3376,7 +3376,7 @@ root(ROOTS.Zones, {
 						i(104290),	-- Sticky Silkworm Goo
 					}),
 					i(104267, {	-- Thick Tiger Haunch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be turned in for 100 Timeless Coins.",
 							constant = "CAN_BE_TURNED_IN_FOR_100_TIMELESS_COINS",
 							export = true,
@@ -3462,7 +3462,7 @@ root(ROOTS.Zones, {
 						i(101828),	-- Warmsun Cloak
 					}),
 					i(104013, {	-- Timeless Cloth Armor Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The item created will be class- and spec-specific.|r",
 							constant = "THE_ITEM_CREATED_WILL_BE_CLASS_AND_SPEC",
 							export = true,

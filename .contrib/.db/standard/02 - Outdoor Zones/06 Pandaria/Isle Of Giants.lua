@@ -30,7 +30,7 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = {
 							i(94158, {	-- Big Bag of Zandalari Supplies
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can contain all sorts of crafting reagents, gems, and BOE epics normally found on rares in Pandaria.",
 									constant = "CAN_CONTAIN_ALL_SORTS_OF_CRAFTING_REAGENTS_GEMS",
 									export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Zones, {
 								["sym"] = {{"select","itemID",87218},{"groupfill"}},	-- Big Bag of Arms
 							}),
 							i(94159, {	-- Small Bag of Zandalari Supplies
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can contain all sorts of herbs, ore, and cloth.",
 									constant = "CAN_CONTAIN_ALL_SORTS_OF_HERBS_ORE_AND_CLOTH",
 									export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Zones, {
 						["crs"] = { 69983 },	-- Primal Direhorn
 					}),
 					i(94288, {	-- Giant Dinosaur Bone
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These bones can be gathered and turned into Ku'ma on the Isle of Giants.",
 							constant = "THESE_BONES_CAN_BE_GATHERED_AND_TURNED_INTO_KU",
 							export = true,

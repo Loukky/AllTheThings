@@ -97,7 +97,7 @@ end
 
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
 	n(COMMON_DUNGEON_DROPS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can be obtained in the mentioned dungeons.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_BE_OBTAINED_IN_THE",
 			export = true,

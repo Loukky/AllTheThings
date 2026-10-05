@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 57.6, 92.0, MALDRAXXUS },
 				["groups"] = {
 					i(187923, {	-- Aurelid Lure (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Step 1: Fish up Strange Goop from the water around Hirukon.\nStep 2: Talk to Vashj in Maldraxxus.\nStep 3: Collect the Three items needed.\nStep 4: Collect the Aurelid Lure from Vashj.\n\nObtained each week for free after the first time.",
 							constant = "STEP_1_FISH_UP_STRANGE_GOOP_FROM_THE_WATER",
 							export = true,
@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			i(183114, {	-- Carpal (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Combine with the other bones to craft the pet:\n|cFF0070ddAnimated Radius|r: Purchased from |cFFFFFFFFNalcorn Talsen|r in Maldraxxus. \n|cFF0070ddAnimated Ulna|r: A rare reward from pet battle WQs in Maldraxxus. \n|cFF0070ddFlexing Phalanges|r: Skeletal Hand Fragments (47.4, 62.1 in Maldraxxus).",
 					constant = "COMBINE_WITH_THE_OTHER_BONES_TO_CRAFT_THE_PET",
 					export = true,
@@ -63,7 +63,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(182105, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Mysterious Trashpile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use /bow on the Mysterious Trashpile. (Cave Entrance is 44.59, 65.48).",
 					constant = "USE_BOW_ON_THE_MYSTERIOUS_TRASHPILE_CAVE",
 					export = true,

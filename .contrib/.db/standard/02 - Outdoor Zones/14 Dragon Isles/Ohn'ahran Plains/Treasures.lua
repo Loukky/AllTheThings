@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(376581, {	-- Clan Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Does not show on minimap.\nEach 'cluster' of nearby coords has an independent spawn.\nPersists 90 sec once opened.\nRespawn: 60m",
 					constant = "DOES_NOT_SHOW_ON_MINIMAP_EACH_CLUSTER_OF_NEARBY",
 					export = true,
@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			o(378088, {	-- Crystalline Flower
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need 5 flowers, but only 2 can be up at any given time. Realmhop recommended.\n\n",
 					constant = "YOU_NEED_5_FLOWERS_BUT_ONLY_2_CAN_BE_UP_AT_ANY",
 					export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(381575, {	-- Duck Trap Kit
 				["coord"] = { 70.0, 64.0, OHNAHRAN_PLAINS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found only when the Aylaag Camp is in this location. Used to summon Quackers the Terrible.",
 					constant = "FOUND_ONLY_WHEN_THE_AYLAAG_CAMP_IS_IN_THIS",
 					export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			o(376416, {	-- Ellam's Favorite Toys
 				["coord"] = { 78.3, 29.2, OHNAHRAN_PLAINS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found only when Aylaag Camp is up in this area, pet Ellam until progress bar is at 100%, provides Maruuk Centaur reputation.",
 					constant = "FOUND_ONLY_WHEN_AYLAAG_CAMP_IS_UP_IN_THIS_AREA",
 					export = true,
@@ -217,7 +217,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					{ 67.03, 43.72, OHNAHRAN_PLAINS },	-- Stone
 					{ 66.97, 50.36, OHNAHRAN_PLAINS },	-- Trasure
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Combine 5 Crystalline Petals into the Slumber Incense.\nTalk to the Ancient Stone (Northern Waypoint) to gain the Lucid Dreaming Buff for 20 seconds.\nWhen under the effect of this buff you can walk on water and see colorful flowers on the river near the Ancient Stone, walking over a flower will refresh the buff.\nYou need to reach the cave at the southern Waypoint before the buff expires to open the Emerald Chest, which contains the Everliving Wooden Key.\n|cFFFFFFFFYou should be mounted for this.|r",
 					constant = "COMBINE_5_CRYSTALLINE_PETALS_INTO_THE_SLUMBER",
 					export = true,

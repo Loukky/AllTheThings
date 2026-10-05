@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 							},
 						}),
 						i(6801, {	-- Baroque Apron
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This gets completely removed. To be safe, keep this in your bank on an alt forever.",
 								constant = "THIS_GETS_COMPLETELY_REMOVED_TO_BE_SAFE_KEEP",
 								export = true,
@@ -194,7 +194,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 30,
 				}),
 				q(1271, {	-- Feast at the Blue Recluse
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Don't forget to loot all the food and drinks off the tables.",
 						constant = "DON_T_FORGET_TO_LOOT_ALL_THE_FOOD_AND_DRINKS",
 						export = true,
@@ -1100,7 +1100,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 				n(12919, {	-- Nat Pagle
 					["sourceQuest"] = 8227,	-- Nat's Measuring Tape
 					["coord"] = { 58.6, 60.1, MAP.DUSTWALLOW_MARSH },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "He will only sell you the Mudskunk Lures once you have turned in Nat's Measuring Tape.",
 						constant = "HE_WILL_ONLY_SELL_YOU_THE_MUDSKUNK_LURES_ONCE",
 						export = true,

@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}},
 				["groups"] = {
 					pet(550, {	-- Highlands Mouse (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Most common as secondary pet in Twilight Highlands. The given coordinates only indicates the wider areas where they can be found as primary pets.",
 							constant = "MOST_COMMON_AS_SECONDARY_PET_IN_TWILIGHT",
 							export = true,
@@ -163,7 +163,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(823, {	-- Highlands Skunk (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Commonly found in the forests of Twilight Highlands.",
 							constant = "COMMONLY_FOUND_IN_THE_FORESTS_OF_TWILIGHT",
 							export = true,
@@ -191,7 +191,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(645, {	-- Highlands Turkey (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Commonly found around Vermillion Redoubt in Twilight Highlands.",
 							constant = "COMMONLY_FOUND_AROUND_VERMILLION_REDOUBT_IN",
 							export = true,
@@ -217,7 +217,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(431, {	-- Rattlesnake (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Most commonly found thorough the Verall River valley in Twilight Highlands. Can also be found scattered around north of the river valley, as well as around Badlands and Tanaris.",
 							constant = "MOST_COMMONLY_FOUND_THOROUGH_THE_VERALL_RIVER",
 							export = true,
@@ -243,7 +243,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(552, {	-- Twilight Fiendling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found within the breaches caused by Twilight cultists.",
 							constant = "FOUND_WITHIN_THE_BREACHES_CAUSED_BY_TWILIGHT",
 							export = true,
@@ -268,7 +268,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(470, {	-- Twilight Spider (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Commonly found in areas defiled by Twilight cultists or their allies in Twilight Highlands and Deepholm.",
 							constant = "COMMONLY_FOUND_IN_AREAS_DEFILED_BY_TWILIGHT",
 							export = true,
@@ -299,7 +299,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(2677, {	-- Twilight Whelpling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found outside Grim Batol, phasing might require questing through Twilight Highlands. Only spawns as Uncommon pets, if you want a Rare quality pet you have to upgrade with a battlestone.",
 							constant = "FOUND_OUTSIDE_GRIM_BATOL_PHASING_MIGHT_REQUIRE",
 							export = true,
@@ -321,7 +321,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["timeline"] = { ADDED_8_2_0 },
 					}),
 					pet(548, {	-- Wildhammer Gryphon Hatchling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the Alliance villages Kirthaven and Thundermar. Horde players CANNOT interact with the hatchlings to intitiate pet battle due to faction alignment, any attempts will only attack them. If you absolutely want to get this pet with a Horde character, they can appear as secondary pets near the villages.",
 							constant = "FOUND_IN_THE_ALLIANCE_VILLAGES_KIRTHAVEN_AND",
 							export = true,
@@ -345,7 +345,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 					pet(549, {	-- Yellow-Bellied Marmot (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Very common pet in the forests of Twilight Highlands.",
 							constant = "VERY_COMMON_PET_IN_THE_FORESTS_OF_TWILIGHT",
 							export = true,
@@ -1071,7 +1071,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27377, {	-- Devoured
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must die for this quest to continue.",
 						constant = "YOU_MUST_DIE_FOR_THIS_QUEST_TO_CONTINUE",
 						export = true,
@@ -1465,7 +1465,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 59.0, 69.8, TWILIGHT_HIGHLANDS },
 				}),
 				q(27500, {	-- Four Heads are Better Than None (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted.",
 						constant = "AUTOMATICALLY_GRANTED",
 						export = true,
@@ -2251,7 +2251,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(28107, {	-- Paving the Way (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must be on |cFFFFD700If the Key Fits|r to receieve this quest.",
 						constant = "MUST_BE_ON_CFFFFD700IF_THE_KEY_FITS_R_TO",
 						export = true,
@@ -2323,7 +2323,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(27659, {	-- Portal Overlord
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Aetharon can be found on a floating island above the ground.",
 						constant = "AETHARON_CAN_BE_FOUND_ON_A_FLOATING_ISLAND",
 						export = true,

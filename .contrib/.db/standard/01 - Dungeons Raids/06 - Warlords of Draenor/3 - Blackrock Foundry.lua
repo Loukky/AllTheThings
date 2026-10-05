@@ -719,7 +719,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
 				n(QUESTS, {
 					q(37029, {	-- Sigil of the Black Hand
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The questgiver is hidden behind a load of boxes and crates to the right of the Iron Maidens.\n\nFinishing this quest will grant you immediate access to Blackhand on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r",
 							constant = "THE_QUESTGIVER_IS_HIDDEN_BEHIND_A_LOAD_OF_BOXES",
 							export = true,
@@ -926,7 +926,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
 				n(QUESTS, {
 					q(37030, {	-- Sigil of the Black Hand (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The questgiver is hidden behind a load of boxes and crates to the right of the Iron Maidens.\n\nFinishing this quest will grant you immediate access to Blackhand on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "THE_QUESTGIVER_IS_HIDDEN_BEHIND_A_LOAD_OF_BOXES_2",
 							export = true,
@@ -1135,7 +1135,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				n(QUESTS, {
 					q(37031, {	-- Sigil of the Black Hand (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The questgiver is hidden behind a load of boxes and crates to the right of the Iron Maidens.\n\nFinishing this quest will grant you immediate access to Blackhand on Mythic difficulty each week.",
 							constant = "THE_QUESTGIVER_IS_HIDDEN_BEHIND_A_LOAD_OF_BOXES_3",
 							export = true,

@@ -1301,7 +1301,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				})),
 				i(21229, {	-- Qiraji Lord's Insignia
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from all bosses, can be turned in to the NPC named Kandrostrasz for reputation with the Brood of Nozdormu and Cenarion Circle. Kandrostrasz can be found with Andorgos and Vethsera inside the temple after killing The Prophet Skeram, in a chamber on the left side.",
 						constant = "DROPS_FROM_ALL_BOSSES_CAN_BE_TURNED_IN_TO_THE",
 						export = true,
@@ -1385,7 +1385,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 			}),
 			-- #if AFTER LEGION
 			e(1547, {	-- Silithid Royalty
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This can be a fairly -buggy- encounter if you don't do it right. Kill 1 boss at a time and allow it to get consumed. Then kill the next one and allow it to also get consumed. The last boss you leave alive determines the loot that can drop.",
 					constant = "THIS_CAN_BE_A_FAIRLY_BUGGY_ENCOUNTER_IF_YOU_DON",
 					export = true,
@@ -1435,7 +1435,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						},
 					}),
 					n(15511, {	-- Lord Kri
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Killing this boss last can drop the following items.",
 							constant = "KILLING_THIS_BOSS_LAST_CAN_DROP_THE_FOLLOWING",
 							export = true,
@@ -1719,7 +1719,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				}),
 				n(SPECIAL, {
 					n(234193, {		-- Gilded Scarab
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Randomly spawns in the Temple of Ahn'Qiraj and will despawn within 10seconds after being attacked",
 							constant = "RANDOMLY_SPAWNS_IN_THE_TEMPLE_OF_AHN_QIRAJ_AND",
 							export = true,
@@ -2243,7 +2243,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				n(SILITHID_ROYALTY_SHARED_DROPS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
 						constant = "THESE_ITEMS_CAN_DROP_FROM_KILLING_THE_SILITHID",
 						export = true,
@@ -2349,7 +2349,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				e(1548, {	-- Viscidus
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
 							constant = "THIS_BOSS_REQUIRES_200_FROST_HITS_TO_FREEZE",
 							export = true,
@@ -2473,7 +2473,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				n(AQ_TEMPLE_HARDMODE, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Descent into Madness!\n\nWhen players enter Ahn'Qiraj (both Ruins and Temple), and arrive at the first boss, they will see an obelisk. By interacting with the obelisk (deactivating it), they add additional mechanics to the raid, and the raid will have a finite number of attempts to defeat the next 3 bosses. Each boss has an individual obelisk that must be deactivated to continue. Doing so will give you bonus loot chests & and you also receive a Void-Touched Emblem which turns Temple of Ahn'Qiraj Weapons into a 'Voidtouched' varient of the weapon. They have a neat void appearance despite providing no difference in quality. (Cosmetic only!)",
 						constant = "DESCENT_INTO_MADNESS_WHEN_PLAYERS_ENTER_AHN",
 						export = true,

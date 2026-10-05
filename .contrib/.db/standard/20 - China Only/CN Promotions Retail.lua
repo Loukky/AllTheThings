@@ -24,7 +24,7 @@ root(ROOTS.Promotions, {
 	cnONLY(n(CN_PROMOTIONS_RETAIL, {
 		["groups"] = {
 			ach(40910, {	-- Successfully Stress Test CN Realms
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded for the Aid in the stress testing of the realms in China.",
 					constant = "REWARDED_FOR_THE_AID_IN_THE_STRESS_TESTING_OF",
 					export = true,
@@ -47,7 +47,7 @@ root(ROOTS.Promotions, {
 			i(190231, {	-- Ash'adar, Harbinger of Dawn (MOUNT!)
 				-- #if AFTER 11.0.2
 				-- #if BEFORE 12.0.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded for returning to World of Warcraft in 2024. China Only.",
 					constant = "REWARDED_FOR_RETURNING_TO_WORLD_OF_WARCRAFT_IN",
 					export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- Probably removed in 2025
 			}),
 			i(235344, {	-- Blazing Royal Fire Hawk (MOUNT!) (CN Only)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded from the Treasure Workshop.",
 					constant = "REWARDED_FROM_THE_TREASURE_WORKSHOP",
 					export = true,
@@ -108,7 +108,7 @@ root(ROOTS.Promotions, {
 			i(235378, {	-- Landro's Loot Box (CN Only)
 				-- #if AFTER 11.0.2
 				-- #if BEFORE 12.0.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop for a limited time.",
 					constant = "CAN_BOUGHT_FOR_200_RMB_27_USD_IN_THE_INGAME",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			i(246732, {	-- Void-Forged Overseer (MOUNT!) (CN Only)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded from the Season 3 Shop Bundle.",
 					constant = "REWARDED_FROM_THE_SEASON_3_SHOP_BUNDLE",
 					export = true,
@@ -172,7 +172,7 @@ root(ROOTS.Promotions, {
 					i(72134),	-- Gregarious Grell (PET!)
 					i(223471),	-- Kaldorei War Wolf (MOUNT!)
 					i(252656, {	-- K'areshi Scientific Expedition Supply
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a Quantum Token and rarely a Quantum Courser.",
 							constant = "CONTAINS_A_QUANTUM_TOKEN_AND_RARELY_A_QUANTUM",
 							export = true,
@@ -263,7 +263,7 @@ root(ROOTS.Promotions, {
 					i(269743, {	-- Landro's Golden Loot Box
 						-- #if AFTER 12.0.0
 						-- #if BEFORE 12.0.1
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The loot box from 2025 was brought back with new rewards. The 2026 variant works similarly where players can obtain up to 8 boxes for ¥1000 RMB (~$135 USD), while teaming up with other players and collectively spend at least ¥3000 RMB (~$405 USD), each member will receive an additional 4 boxes as a bonus.",
 							constant = "THE_LOOT_BOX_FROM_2025_WAS_BROUGHT_BACK_WITH",
 							export = true,
@@ -521,7 +521,7 @@ root(ROOTS.Promotions, {
 					i(246917, {	-- Thunder-Ridged Elekk (MOUNT!)
 						-- #if BEFORE 12.2.0
 						-- #if AFTER 12.1.0
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rewarded from completing the quiz.",
 							constant = "REWARDED_FROM_COMPLETING_THE_QUIZ",
 							export = true,

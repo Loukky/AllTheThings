@@ -160,7 +160,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					["maps"] = { 1711 },	-- Path of Ascension Coliseum
 					["groups"] = {
 						currency(MEDALLION_OF_SERVICE, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This is granted from all types of activities in the Shadowlands.",
 								constant = "THIS_IS_GRANTED_FROM_ALL_TYPES_OF_ACTIVITIES_IN",
 								export = true,
@@ -216,7 +216,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							ach(14502, {_noautomation=true}),	-- Pursuing Loyalty (specifically listed criteria under custom headers)
 							ach(14852, {_noautomation=true}),	-- The Hoot of the Issue (specifically listed criteria under custom headers)
 							ach(14887, {	-- To the Moon
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You need to |cffffffff/wave|r at Athanos after he 'waves goodbye to you' while you are falling off the edge.\n\nAllowing 'Massive Charge' to hit, pick up, and drop you over the edge is very consistent for getting him to wave since he doesn't use another ability immediately afterwards.",
 									constant = "YOU_NEED_TO_CFFFFFFFF_WAVE_R_AT_ATHANOS_AFTER",
 									export = true,
@@ -237,7 +237,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							}),
 						}),
 						prof(ASCENSION_CRAFTING, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Blueprints teach Dactylis recipes that allow you to craft gear for your Aspirants to use in the Path of Ascension battles.",
 								constant = "BLUEPRINTS_TEACH_DACTYLIS_RECIPES_THAT_ALLOW",
 								export = true,
@@ -676,7 +676,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										},
 									}),
 									q(61369, {	-- Craven Corinth
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Available after defeating Kalisthene, Echthra, and Aldryn & Myn'ir on 'Courage' difficulty.",
 											constant = "AVAILABLE_AFTER_DEFEATING_KALISTHENE_ECHTHRA",
 											export = true,
@@ -845,7 +845,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 												i(182162),	-- Blueprint: Charm of Quickness
 											}),
 											n(LOYALTY, {
-												createLocalizationString({
+												["description"] = createLocalizationString({
 													readable = "Requires defeating the first 6 memories on 'Courage' difficulty (Kalisthene, Echthra, Alderyn & Myn'ir, Nuuminuuru, Craven Corinth, and Splinterbark Nightmare).",
 													constant = "REQUIRES_DEFEATING_THE_FIRST_6_MEMORIES_ON",
 													export = true,
@@ -933,7 +933,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["groups"] = {
 								n(QUESTS, {
 									q(61371, {	-- Athanos
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Available after defeating Kalisthene on 'Loyalty' difficulty.",
 											constant = "AVAILABLE_AFTER_DEFEATING_KALISTHENE_ON_LOYALTY",
 											export = true,
@@ -959,7 +959,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										},
 									}),
 									q(61373, {	-- Azaruux, the Realm Ender
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Available after defeating Athanos, Mad Mortimer, and Thran'tiok on 'Courage' difficulty.",
 											constant = "AVAILABLE_AFTER_DEFEATING_ATHANOS_MAD_MORTIMER",
 											export = true,
@@ -1173,7 +1173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 									n(172412, {	-- Craven Corinth
 										n(LOYALTY, {
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Requires defeating Than'tiok, Mad Mortimer, and Athanos on 'Courage' difficulty; and unlocking Azaruux.",
 												constant = "REQUIRES_DEFEATING_THAN_TIOK_MAD_MORTIMER_AND",
 												export = true,
@@ -1231,7 +1231,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 											i(184349),	-- Blueprint: Vial of Lichfrost
 										}),
 										n(LOYALTY, {
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Requires unlocking and defeating Azaruux.",
 												constant = "REQUIRES_UNLOCKING_AND_DEFEATING_AZARUUX",
 												export = true,
@@ -1461,7 +1461,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["groups"] = {
 								n(REWARDS, {
 									title(439,	{	-- <Name> the Ascended
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Finish all fights on Humility Difficulty.",
 											constant = "FINISH_ALL_FIGHTS_ON_HUMILITY_DIFFICULTY",
 											export = true,
@@ -1685,7 +1685,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								["coord"] = { 26.4, 33.8, ARCHONS_RISE },
 								["groups"] = {
 									i(184444, {	-- Supplies for the Path
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Contains around 15-20 of each rare-quality crafting material for Path of Ascension crafting.",
 											constant = "CONTAINS_AROUND_15_20_OF_EACH_RARE_QUALITY",
 											export = true,

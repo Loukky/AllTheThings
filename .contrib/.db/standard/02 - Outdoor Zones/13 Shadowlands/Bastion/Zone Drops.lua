@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(ZONE_DROPS, {
 			currency(MEDALLION_OF_SERVICE, {
 				["customCollect"] = "SL_COV_KYR",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "One of the best spots to farm those is in the northwest of Bastion around the World Boss. In the area there are 4 repeatable treasure chests, all of which contain 1 Medallion & can be looted without any daily CD. \n\nCan also drop from any Forsworn enemy.",
 					constant = "ONE_OF_THE_BEST_SPOTS_TO_FARM_THOSE_IS_IN_THE",
 					export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(176987),	-- Ossein Scale Belt
 			i(176799),	-- Reverent Dagger
 			i(178915, {	-- Ripe Purian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be looted from objects scattered around the zone. Used to open Silver Strongboxes and the Steward's Golden Chest.",
 					constant = "CAN_BE_LOOTED_FROM_OBJECTS_SCATTERED_AROUND_THE",
 					export = true,

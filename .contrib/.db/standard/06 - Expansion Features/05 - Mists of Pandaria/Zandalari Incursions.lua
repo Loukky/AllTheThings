@@ -99,7 +99,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					{ 36.8, 85.2, TOWNLONG_STEPPES },
 					{ 48.4, 86.0, TOWNLONG_STEPPES },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found patroling the roads along the posted coordinates.",
 					constant = "CAN_BE_FOUND_PATROLING_THE_ROADS_ALONG_THE",
 					export = true,

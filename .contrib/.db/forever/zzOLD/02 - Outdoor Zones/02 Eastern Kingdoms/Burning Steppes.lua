@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				q(7623, {	-- Lord Banehollow
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Do not leave Burning Steppes without purchasing a Shadowy Potion or two.",
 						constant = "DO_NOT_LEAVE_BURNING_STEPPES_WITHOUT_PURCHASING",
 						export = true,
@@ -560,7 +560,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				i(15732, {	-- Pattern: Volcanic Leggings (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Firegut Brutes, which are found around Dreadmaul Rock and inside the Firegut Furnace cavern. The entrance to Firegut Furnace is at the southwestern side of Dreadmaulk Rock. Firegut Ogre Mages very often spawn in place of Firegut Brutes.",
 						constant = "DROPS_FROM_FIREGUT_BRUTES_WHICH_ARE_FOUND",
 						export = true,

@@ -463,7 +463,7 @@ WARCRAFT_FOREVER_COLLECTION = createHeader({
 
 root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY }, {
 	expansion(EXPANSION.CLASSIC, bubbleDownSelf({ ["timeline"] = { REMOVED_4_0_6 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased an original Collector's Edition of World of Warcraft.\n\nThere may still be copies online, but expect to lose a sizable chunk of real world currency for it.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO",
 			export = true,
@@ -544,7 +544,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				-- #else
 				q(91888, {	-- A Special Delivery
 					["timeline"] = { ADDED_1_15_5, REMOVED_3_0_2 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These rewards were made available to anyone who purchased a 2024 employee 30th anniversary collector's edition.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",
 						constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_2",
 						export = true,
@@ -614,7 +614,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			}),
 			-- #if NOT ANYCLASSIC
 			n(REWARDS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Every character you created was able to select between one of the three pets by completing the 'Welcome!' quest for your race.",
 					constant = "EVERY_CHARACTER_YOU_CREATED_WAS_ABLE_TO_SELECT",
 					export = true,
@@ -673,7 +673,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	-- #if NOT ANYCLASSIC
 	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_3, REMOVED_3_0_2 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of The Burning Crusade.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.\n\nNOTE: Non-EU accounts will not receive Lurky's Egg if redeemed.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_3",
 			export = true,
@@ -697,7 +697,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			}),
 			i(25535),	-- Netherwhelp (PET!)
 			euONLY(i(30360, {	-- Lurky (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This was only available in the EU.",
 					constant = "THIS_WAS_ONLY_AVAILABLE_IN_THE_EU",
 					export = true,
@@ -764,7 +764,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	-- #endif
 	-- #if ANYCLASSIC
 	n(TBC_CLASSIC_DELUXE_EDITION, bubbleDownSelf({ ["timeline"] = { ADDED_2_5_1, REMOVED_2_5_5_PHASE_2 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Deluxe Edition of The Burning Crusade Classic.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_4",
 			export = true,
@@ -830,7 +830,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	-- #endif
 	-- #if ANYCLASSIC
 	n(TBC_CLASSIC_ANNIVERSARY_OUTLAND_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_2_5_5, REMOVED_3_0_2, ADDED_5_5_2 } }, {	-- For historical context, MOP Classic originally used the same IDs as Retail, but these were removed from Classic with the release of SoO.
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased the Outland Heroic Pack of The Burning Crusade Classic Anniversary.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_5",
 			export = true,
@@ -910,7 +910,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	-- #endif
 	expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_3, REMOVED_3_3_5 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of Wrath of the Lich King.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_6",
 			export = true,
@@ -936,7 +936,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	-- #if ANYCLASSIC
 	n(WOTLK_CLASSIC_NORTHREND_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_3_4_0, REMOVED_4_0_1 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased a Heroic Upgrade Edition of Wrath of the Lich King Classic.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_7",
 				export = true,
@@ -984,7 +984,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 		n(EPIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased a Epic Upgrade Edition of Wrath of the Lich King Classic.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_8",
 				export = true,
@@ -1019,7 +1019,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	-- #endif
 	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_1, REMOVED_4_3_2 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of Cataclysm.\n\nThere may still be copies online, but expect to a sizable chunk of real world currency for it.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_9",
 			export = true,
@@ -1045,7 +1045,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	-- #if ANYCLASSIC
 	n(CATA_CLASSIC_BLAZING_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_3_4_0, REMOVED_4_4_2 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Blazing Heroic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_10",
 				export = true,
@@ -1133,7 +1133,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	-- #endif
 	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4, REMOVED_5_4_7 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of Mists of Pandaria.\n\nThe rewards can be purchased from the in-game shop.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_11",
 			export = true,
@@ -1161,7 +1161,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	-- #if ANYCLASSIC
 	n(MOP_CLASSIC_HEROIC_PACK, bubbleDownSelf({ ["timeline"] = { ADDED_4_4_2, REMOVED_6_0_2 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_12",
 				export = true,
@@ -1214,7 +1214,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			REMOVED_6_2_2,
 		},
 	}, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of Warlords of Draenor.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_13",
 			export = true,
@@ -1246,7 +1246,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2, REMOVED_7_3_5 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of Legion.\n\nThe rewards can be purchased from the in-game shop.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_14",
 			export = true,
@@ -1272,7 +1272,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5, REMOVED_8_3_7 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards were made available to anyone who purchased a Collector's Edition of BFA.\n\nThe rewards can be purchased from the in-game shop.",
 			constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_15",
 			export = true,
@@ -1301,7 +1301,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_7, REMOVED_9_2_5 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Shadowlands Heroic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_16",
 				export = true,
@@ -1326,7 +1326,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				mount(307932),	-- Ensorcelled Everwyrm (MOUNT!)
 				n(QUESTS, {
 					q(57686, {	-- The Eternal Traveler
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to purchase Shadowlands Heroic Edition to spawn the questgiver from the guiding orb on the back of Ensorcelled Everwyrm.",
 							constant = "YOU_NEED_TO_PURCHASE_SHADOWLANDS_HEROIC_EDITION",
 							export = true,
@@ -1364,7 +1364,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 		n(EPIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Shadowlands Epic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_17",
 				export = true,
@@ -1395,7 +1395,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_5, REMOVED_10_1_7 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Dragonflight Heroic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_18",
 				export = true,
@@ -1424,7 +1424,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				mount(359843),	-- Tangled Dreamweaver (MOUNT!)
 				-- #endif
 				pet(3177, {	-- Drakks (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a pre-order bonus only available before the launch of Dragonflight.",
 						constant = "THIS_IS_A_PRE_ORDER_BONUS_ONLY_AVAILABLE_BEFORE",
 						export = true,
@@ -1448,7 +1448,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 		n(EPIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased Dragonflight Epic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_19",
 				export = true,
@@ -1483,7 +1483,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 	})),
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7, REMOVED_11_2_0 } }, {
 		n(HEROIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased The War Within Heroic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_20",
 				export = true,
@@ -1689,7 +1689,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 		n(EPIC_EDITION, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These rewards were made available to anyone who purchased The War Within Epic Edition.",
 				constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_21",
 				export = true,
@@ -1727,7 +1727,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		["forcetimeline"] = { ADDED_11_2_0 },
 		["groups"] = {
 			n(HEROIC_EDITION, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These rewards were made available to anyone who purchased Midnight Heroic Edition.",
 					constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_22",
 					export = true,
@@ -1752,7 +1752,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				},
 			}),
 			n(EPIC_EDITION, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These rewards were made available to anyone who purchased Midnight Epic Edition.",
 					constant = "THESE_REWARDS_WERE_MADE_AVAILABLE_TO_ANYONE_WHO_23",
 					export = true,
@@ -1792,7 +1792,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 
 	-- Anniversary
 	n(WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases World of Warcraft 15th Anniversary Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO",
 			export = true,
@@ -1831,7 +1831,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			-- #endif
 		},
 	}, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Diablo 3 Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_2",
 			export = true,
@@ -1871,7 +1871,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			-- #endif
 		},
 	}, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Diablo 3: Reaper of Souls Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_3",
 			export = true,
@@ -1895,7 +1895,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(DIABLO_IV, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2, REMOVED_11_0_7 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Diablo 4 Standard Edition.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_4",
 			export = true,
@@ -1919,7 +1919,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(DIABLO_IV_LORD_OF_HATRED, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Diablo 4: Lord of Hatred Standard Edition.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_5",
 			export = true,
@@ -1959,7 +1959,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(DIABLO_II_RESURRECTED_REIGN_OF_WARLOCK, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Diablo 2: Resurrected - Reign of Warlock.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_6",
 			export = true,
@@ -1980,7 +1980,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		["groups"] = { i(256764) },	-- Sanctuary's Horadric Cube (DECOR!)
 	})),
 	n(OVERWATCH_ORIGINS, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_3, REMOVED_10_0_2 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Overwatch Origins Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_7",
 			export = true,
@@ -2012,7 +2012,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			-- #endif
 		},
 	}, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Starcraft 2: Wings of Liberty Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_8",
 			export = true,
@@ -2044,7 +2044,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			-- #endif
 		},
 	}, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Starcraft 2: Heart of the Swarm Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_9",
 			export = true,
@@ -2068,7 +2068,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(STARCRAFT_II_LEGACY_OF_THE_VOID, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Starcraft 2: Legacy of the Void Collection.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_10",
 			export = true,
@@ -2092,7 +2092,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(WARCRAFT_III_REFORGED_SPOILS_OF_WAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_0 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchases Warcraft 3: Refogred, Spoils of War Edition.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_11",
 			export = true,
@@ -2116,7 +2116,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	n(WORLD_OF_WARCRAFT_FOREVER_COLLECTORS, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are available to anyone who purchased World of Warcraft: Forever Collector's Edition or digital equivalents.",
 			constant = "THESE_REWARDS_ARE_AVAILABLE_TO_ANYONE_WHO_12",
 			export = true,

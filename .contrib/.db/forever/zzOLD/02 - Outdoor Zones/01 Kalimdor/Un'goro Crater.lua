@@ -368,7 +368,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 								{ "i", 11522 },	-- Silver Totem of Aquementas
 							},
 							["coord"] = { 49.6, 49.6, MAP.UNGORO_CRATER },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the Silter Totem of Aquementas on Blazerunner to remove his protective barrier.",
 								constant = "USE_THE_SILTER_TOTEM_OF_AQUEMENTAS_ON",
 								export = true,

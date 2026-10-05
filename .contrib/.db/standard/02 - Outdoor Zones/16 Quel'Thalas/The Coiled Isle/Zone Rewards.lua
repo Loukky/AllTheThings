@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(ZONE_REWARDS, {
 			filter(REAGENTS, {
 				o(656135, {	-- Slumbering Starfish
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found in waters, and around coastal areas of The Coiled Isle.",
 						constant = "CAN_BE_FOUND_IN_WATERS_AND_AROUND_COASTAL_AREAS",
 						export = true,

@@ -783,7 +783,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 								{ "i",  12900 },	-- Annals of Darrowshire
 								{ "o", 176150 },	-- Musty Tome
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The Musty Tome you are looking for has a faint X on its binding. If none of the books have this marking, you may have to interact with a few to despawn them.\n\nWARNING: The ghosts that spawn can be a pain.",
 								constant = "THE_MUSTY_TOME_YOU_ARE_LOOKING_FOR_HAS_A_FAINT",
 								export = true,
@@ -997,7 +997,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(RARES, {
 				i(12843, {	-- Corruptor's Scourgestone / Inert Corruptor's Scourgestone
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any Undead rare mob or boss in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 						constant = "CAN_DROP_FROM_ANY_UNDEAD_RARE_MOB_OR_BOSS_IN",
 						export = true,
@@ -1219,7 +1219,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 				}),
 				n(11278, {	-- Magnus Frostwake
 					["cost"] = { { "i", 13544, 1 } },	-- Spectral Essence
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only visible if you have the Spectral Essence equipped.",
 						constant = "ONLY_VISIBLE_IF_YOU_HAVE_THE_SPECTRAL_ESSENCE",
 						export = true,
@@ -1256,7 +1256,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["cr"] = 10816,	-- Wandering Skeleton
 				}),
 				i(13354, {	-- Ectoplasmic Resonator
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These only drop from ghostly mobs in Western Plaguelands while you have Vitreous Focuser in your inventory.",
 						constant = "THESE_ONLY_DROP_FROM_GHOSTLY_MOBS_IN_WESTERN",
 						export = true,
@@ -1284,7 +1284,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["cr"] = 4494,	-- Scarlet Spellbinder
 				}),
 				i(12841, {	-- Invader's Scourgestone / Inert Invader's Scourgestone
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 						constant = "CAN_DROP_FROM_ANY_UNDEAD_MOBS_IN_THE",
 						export = true,
@@ -1304,7 +1304,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					}),
 				}),
 				i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from weak Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 						constant = "CAN_DROP_FROM_WEAK_UNDEAD_MOBS_IN_THE",
 						export = true,
@@ -1332,7 +1332,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["sym"] = {{"select","itemID", 20769}},	-- Disgusting Oozeling (PET!)
 				}),
 				i(13357, {	-- Osseous Agitator
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These only drop from skeletal mobs in Western Plaguelands while you have Vitreous Focuser in your inventory.",
 						constant = "THESE_ONLY_DROP_FROM_SKELETAL_MOBS_IN_WESTERN",
 						export = true,
@@ -1381,7 +1381,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["cr"] = 12128,	-- Crimson Elite
 				}),
 				i(13356, {	-- Somatic Intensifier
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These only drop from zombies in Western Plaguelands while you have Vitreous Focuser in your inventory.",
 						constant = "THESE_ONLY_DROP_FROM_ZOMBIES_IN_WESTERN",
 						export = true,

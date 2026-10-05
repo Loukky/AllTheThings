@@ -28,7 +28,7 @@ local function RemovedWithSOO(t)
 end
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_GOLDEN_LOTUS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Golden Lotus are a mysterious society of pandaren who are guardians of the Vale of Eternal Blossoms. Members of the Golden Lotus are handpicked by the August Celestials to help them keep an eye on the vale, and the pandaren see it as a huge honor to be chosen as a member of the sacred order.",
 			constant = "THE_GOLDEN_LOTUS_ARE_A_MYSTERIOUS_SOCIETY_OF",
 			export = true,
@@ -62,7 +62,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 					["coord"] = { 24.4, 28.0, VALE_OF_ETERNAL_BLOSSOMS },
 					-- #if MOP
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to be on or near someone on the quest That's Not a Rock! in order to activate the mogu statues so that they'll engage you and use their special ability.",
 						constant = "YOU_NEED_TO_BE_ON_OR_NEAR_SOMEONE_ON_THE_QUEST",
 						export = true,
@@ -1677,7 +1677,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["lvl"] = lvlsquish(90, 90, 30),
 					["groups"] = {
 						objective(1, {	-- 0/1 Passed Trial of the Constructs
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Kill the constructs, the orb in the middle will give you a damage boost and the green orbs will heal you.",
 								constant = "KILL_THE_CONSTRUCTS_THE_ORB_IN_THE_MIDDLE_WILL",
 								export = true,
@@ -1848,7 +1848,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				})),
 			}),
 			n(RARES, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These aren't really rares, they're elite quest mobs that are only available on certain days when their respective quest chain is active.",
 					constant = "THESE_AREN_T_REALLY_RARES_THEY_RE_ELITE_QUEST",
 					export = true,
@@ -2105,7 +2105,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			}),
 			n(ZONE_DROPS, {
 				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(103624, {	-- Treasures of the Vale
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a number of Pandarian crafting reagents, herbs, and ore.",
 						constant = "CONTAINS_A_NUMBER_OF_PANDARIAN_CRAFTING",
 						export = true,

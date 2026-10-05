@@ -553,7 +553,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							i(182211),	-- Stone Brick
 							i(182195),	-- Vanity Mirror before use
 							i(182210, {	-- Vanity Mirror after use
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This is the already-used version of the mirror.",
 									constant = "THIS_IS_THE_ALREADY_USED_VERSION_OF_THE_MIRROR",
 									export = true,
@@ -798,7 +798,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							}),
 						})),
 						n(SCENARIO_COMPLETION, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Some rewards drop from the non-Extravagant tribute chests, but targeting the Extravagant tribute from Elated guests is the best way to get rare loot.",
 								constant = "SOME_REWARDS_DROP_FROM_THE_NON_EXTRAVAGANT",
 								export = true,
@@ -828,7 +828,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 								}),
 								n(165686, {	-- Ashen Amalgamation
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "To summon this mob, you need to collect |cFF1eff00Anima-Infused Water|r from Sika's tribute, which makes water buckets appear around the Ember Court. Use the |cFFFFFFFFTraditional|r decorations, and when the candles start fires you can douse them with the water. Put out enough fires, and the rare will spawn.",
 										constant = "TO_SUMMON_THIS_MOB_YOU_NEED_TO_COLLECT",
 										export = true,
@@ -1120,7 +1120,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61738, {	-- Ember Court: Lost Chalice Band
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Available after purchasing Staff: Stage Crew.",
 										constant = "AVAILABLE_AFTER_PURCHASING_STAFF_STAGE_CREW",
 										export = true,
@@ -1171,7 +1171,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61406, {	-- Ember Court: Mushroom Surprise
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Available after purchasing Staff: Waiters.",
 										constant = "AVAILABLE_AFTER_PURCHASING_STAFF_WAITERS",
 										export = true,
@@ -1232,7 +1232,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 27.9, 43.1, REVENDRETH },
 								}),
 								q(61402, {	-- Ember Court: Stoneborn Reserves
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Available after purchasing Building: Guardhouse.",
 										constant = "AVAILABLE_AFTER_PURCHASING_BUILDING_GUARDHOUSE",
 										export = true,
@@ -1640,7 +1640,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61129, {	-- RSVP: Droman Aliothe
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "1. Purchase a |cFFFFFFFFNecklace of Dredbat Fangs|r from Ta'tru in Revendreth (|cFFFFFFFF51.1, 78.8|r). The price of this item changes each week.\n\n2. Exchange the necklace for an |cFFFFFFFFAquamarine Cartel Chit|r from Ta'lan the Antiquary in the Broker's Den in Oribos (|cFFFFFFFF51.6, 44.6|r).\n\n3. Exchange the chit for a |cFFFFFFFFTeregeer Crystal|r from Acquirer Ta'gosh in the Ring of Fates in Oribos (|cFFFFFFFF61.7, 72.0|r).\n\n4. Return to Revendreth and exchange the crystal for the |cFFFFFFFFPreserved Berries|r from Ta'ruca (|cFFFFFFFF51.1, 78.5|r).",
 										constant = "1_PURCHASE_A_CFFFFFFFFNECKLACE_OF_DREDBAT_FANGS",
 										export = true,
@@ -1672,7 +1672,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61092, {	-- RSVP: Grandmaster Vole
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "|cFF1eff00Invitation: Grandmaster Vole|r can be purchased from Lady Ilinca above Sinfall.",
 										constant = "CFF1EFF00INVITATION_GRANDMASTER_VOLE_R_CAN_BE",
 										export = true,
@@ -1838,7 +1838,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["icon"] = 3750313,
 							["groups"] = {
 								q(62177, {	-- A Memorable Look
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Summon your |cFF006211Dredger Butler|r from the Pet Journal.",
 										constant = "SUMMON_YOUR_CFF006211DREDGER_BUTLER_R_FROM_THE",
 										export = true,
@@ -2105,7 +2105,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(61059, {	-- RSVP: Rendle and Cudgelface
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "To get Rendle and Cudgelface's RSVP, you need to do one of the Sootible Hat quests. If you want to collect the |cffffff00Rendle's Big Day|r criteria more quickly, you can abandon the RSVP quest and pick it up again to complete more Sootible Hat quests.",
 										constant = "TO_GET_RENDLE_AND_CUDGELFACE_S_RSVP_YOU_NEED_TO",
 										export = true,
@@ -2520,7 +2520,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									i(181523),	-- Staff: Bouncers (EC!)
 									i(182296, {	-- Letter of Note, Premier Party Planner
 										["cost"] = { { "c", 1820, 85 } },	-- 85x Infused Ruby
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "This is intended to be purchased on a 'Main' Venthyr character to send to 'Alt' Venthyr characters to get a head-start on Ember Court progress.",
 											constant = "THIS_IS_INTENDED_TO_BE_PURCHASED_ON_A_MAIN",
 											export = true,
@@ -2556,7 +2556,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									}),
 									i(185741, {	-- Restock and Repair, Tips and Tricks for Keeping the Party Going
 										["cost"] = { { "c", 1820, 85 } },	-- 85x Infused Ruby
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "This is intended to be purchased on a 'Main' Venthyr character for personal use, or to send to 'Alt' Venthyr characters to get a head-start on Ember Court progress.",
 											constant = "THIS_IS_INTENDED_TO_BE_PURCHASED_ON_A_MAIN_2",
 											export = true,

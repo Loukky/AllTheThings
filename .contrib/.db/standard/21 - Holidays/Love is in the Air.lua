@@ -44,7 +44,7 @@ local POUCH_OF_RED_ROSE_PETALS = applyevent(EVENTS.LOVE_IS_IN_THE_AIR, i(188693,
 local POUCH_OF_EBON_ROSE_PETALS = applyevent(EVENTS.LOVE_IS_IN_THE_AIR, i(188692, {	-- Pouch of Ebon Rose Petals
 	["timeline"] = { ADDED_9_1_5 },
 	-- #if AFTER 10.2.5
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Does NOT give progression towards 'Traveler's Log - Love is in the Air: Throw Rose Petals on Players'.",
 		constant = "DOES_NOT_GIVE_PROGRESSION_TOWARDS_TRAVELER_S",
 		export = true,
@@ -289,7 +289,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["maps"] = { FERALAS },
 					["groups"] = {
 						crit(64676, {	-- Novelty
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Vernon a Shiny New Weapon from the table.",
 								constant = "BRING_VERNON_A_SHINY_NEW_WEAPON_FROM_THE_TABLE",
 								export = true,
@@ -314,7 +314,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.01, 72.4, FERALAS },
 						}),
 						crit(64680, {	-- Beauty
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Bratley a Mystery Gift (Flower) from the table.",
 								constant = "BRING_BRATLEY_A_MYSTERY_GIFT_FLOWER_FROM_THE",
 								export = true,
@@ -339,7 +339,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.09, 72.93, FERALAS },
 						}),
 						crit(64681, {	-- Comfort
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "/hug Theoderic while holding a gift from the table.",
 								constant = "HUG_THEODERIC_WHILE_HOLDING_A_GIFT_FROM_THE",
 								export = true,
@@ -361,7 +361,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.95, 74.1, FERALAS },
 						}),
 						crit(64677, {	-- Festivity
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Clarissa a Barrel of Wine from the table.",
 								constant = "BRING_CLARISSA_A_BARREL_OF_WINE_FROM_THE_TABLE",
 								export = true,
@@ -386,7 +386,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.16, 72.66, FERALAS },
 						}),
 						crit(64679, {	-- Challenge
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Bront a Shiny New Weapon from the table, then duel him.",
 								constant = "BRING_BRONT_A_SHINY_NEW_WEAPON_FROM_THE_TABLE",
 								export = true,
@@ -411,7 +411,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.64, 73.35, FERALAS },
 						}),
 						crit(64682, {	-- Respect
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "/bow to Wilber.",
 								constant = "BOW_TO_WILBER",
 								export = true,
@@ -433,7 +433,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.19, 72.62, FERALAS },
 						}),
 						crit(64678, {	-- Companionship
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Angus back his puppy.",
 								constant = "BRING_ANGUS_BACK_HIS_PUPPY",
 								export = true,
@@ -458,7 +458,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 69.78, 74.08, FERALAS },
 						}),
 						crit(64683, {	-- Attention
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Exhaust Rizzi's dialogue while holding a gift from the table.",
 								constant = "EXHAUST_RIZZI_S_DIALOGUE_WHILE_HOLDING_A_GIFT",
 								export = true,
@@ -480,7 +480,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 68.75, 72.1, FERALAS },
 						}),
 						crit(64736, {	-- Style
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Halene a Mystery Gift (Flower) from the table.",
 								constant = "BRING_HALENE_A_MYSTERY_GIFT_FLOWER_FROM_THE",
 								export = true,
@@ -505,7 +505,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 							["coord"] = { 68.78, 73.66, FERALAS },
 						}),
 						crit(64703, {	-- Praise
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring Verilas a Mystery Gift (Sealed Letter) from the table.",
 								constant = "BRING_VERILAS_A_MYSTERY_GIFT_SEALED_LETTER_FROM",
 								export = true,
@@ -577,7 +577,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["cost"] = { { "i", 22200, 10 } },	-- 10x Silver Shafted Arrow
 				}),
 				ach(19400, {	-- Support Your Local Artisans
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can donate once per day with a maximum of 10.000 gold",
 						constant = "YOU_CAN_DONATE_ONCE_PER_DAY_WITH_A_MAXIMUM_OF",
 						export = true,
@@ -656,7 +656,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		-- #if AFTER 10.2.5
 		prof(FISHING, {
 			i(211383, {	-- Luvkip
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Fished in Olivia's pond during event.",
 					constant = "FISHED_IN_OLIVIA_S_POND_DURING_EVENT",
 					export = true,
@@ -2200,7 +2200,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			},
 		}),
 		n(DROPS, bubbleDownSelf({["timeline"] = { ADDED_10_2_5 }}, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Perfumes and Colognes can be looted from any killed creature related to the Holiday.",
 				constant = "PERFUMES_AND_COLOGNES_CAN_BE_LOOTED_FROM_ANY",
 				export = true,
@@ -2989,7 +2989,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["groups"] = {
 				i(49655, {	-- Lovely Charm
 					["provider"] = { "i", 49661 },	-- Lovely Charm Collector's Kit
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "With a Lovely Charm Collector's Kit in your inventory, go out and kill mobs near your character's level.",
 						constant = "WITH_A_LOVELY_CHARM_COLLECTOR_S_KIT_IN_YOUR",
 						export = true,
@@ -3479,7 +3479,7 @@ for i,o in ipairs({
 
 			-- #if BEFORE CATA
 			i(54537, {	-- Heart-Shaped Box
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This box doesn't actually exist without RDF. The loot normally contained within drop directly from the boss this year.",
 					constant = "THIS_BOX_DOESN_T_ACTUALLY_EXIST_WITHOUT_RDF_THE",
 					export = true,
@@ -3523,7 +3523,7 @@ for i,o in ipairs({
 			-- #else
 			i(54537, {	-- Heart-Shaped Box
 				-- #if BEFORE 10.0.5
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can loot the Heart-Shaped Box once a day per character by queueing for the encounter in the Dungeon Finder.",
 					constant = "YOU_CAN_LOOT_THE_HEART_SHAPED_BOX_ONCE_A_DAY",
 					export = true,

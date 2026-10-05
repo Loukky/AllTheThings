@@ -308,7 +308,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 		["groups"] = {
 			header(HEADERS.Item, 204177, {	-- Nasz'uro, the Unbound Legacy
 				i(204274, {	-- Ancient Memories
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to find an Evoker who is doing this quest.",
 						constant = "YOU_NEED_TO_FIND_AN_EVOKER_WHO_IS_DOING_THIS",
 						export = true,
@@ -342,7 +342,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 					},
 				}),
 				i(205257, {	-- Temporal Vestigial
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "May drop from open world content. World Bosses drop 10 and rares drop 3.",
 						constant = "MAY_DROP_FROM_OPEN_WORLD_CONTENT_WORLD_BOSSES",
 						export = true,
@@ -738,7 +738,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 			-- #endif
 			-- #endif
 			o(382621, {	-- Revival Catalyst Console
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Revival Catalyst is a system that lets you convert non-set items from the Aberrus Raid into your class' Tier Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
 					constant = "THE_REVIVAL_CATALYST_IS_A_SYSTEM_THAT_LETS_YOU_2",
 					export = true,

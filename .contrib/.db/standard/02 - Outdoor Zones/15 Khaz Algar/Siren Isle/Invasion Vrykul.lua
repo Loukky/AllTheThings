@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["groups"] = {
 				petbattle(filter(BATTLE_PETS, {
 					pet(4724, {	-- Battleboar Piglet
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only spawns during Vrykul invasion week.",
 							constant = "ONLY_SPAWNS_DURING_VRYKUL_INVASION_WEEK",
 							export = true,
@@ -118,7 +118,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				n(ZONE_DROPS, {
 					i(233494, {	-- Muddy Snapdragon Treat (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Vrykul.",
 							constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT_3",
 							export = true,

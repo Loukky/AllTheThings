@@ -91,7 +91,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			n(QUESTS, {
 				-- Intro --
 				q(86706, {	-- Seeking Knowledge of the Past
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "May need to be acquired from the Adventure Journal if not automatically given on login",
 						constant = "MAY_NEED_TO_BE_ACQUIRED_FROM_THE_ADVENTURE",
 						export = true,
@@ -211,7 +211,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			}),
 			n(RARES, {
 				n(239581, {	-- Nesting Swarmite
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to spawn from piles of Trash in either vision.",
 						constant = "HAS_A_CHANCE_TO_SPAWN_FROM_PILES_OF_TRASH_IN",
 						export = true,
@@ -267,7 +267,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				["groups"] = {
 					currency(3149),	-- Displaced Corrupted Mementos
 					i(239106, {	-- Shadow Infused Onyx
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Chance to drop from any Horrific Vision reward chest with an active Mask.",
 							constant = "CHANCE_TO_DROP_FROM_ANY_HORRIFIC_VISION_REWARD",
 							export = true,
@@ -390,7 +390,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			}),
 			n(TREASURES, {
 				o(495367, {	-- Corrupted Chest (Participation)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Default Chest if you don't clear the central district.",
 						constant = "DEFAULT_CHEST_IF_YOU_DON_T_CLEAR_THE_CENTRAL",
 						export = true,
@@ -414,7 +414,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					},
 				}),
 				o(527842, {	-- Black Blood Infused Bar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be looted once per run",
 						constant = "CAN_BE_LOOTED_ONCE_PER_RUN",
 						export = true,
@@ -449,7 +449,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					},
 				}),
 				header(HEADERS.Item, 211089, {	-- Voidfire Deathcycle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Collect each reagent and craft them together into cycle parts, return the parts to the bike in Dornogal to earn your own.\n\nEach special reagent is available from Visions with an active Mask.",
 						constant = "COLLECT_EACH_REAGENT_AND_CRAFT_THEM_TOGETHER",
 						export = true,
@@ -849,7 +849,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					}),
 					n(SCENARIO_COMPLETION, {
 						o(499956, {	-- Corrupted Chest (The Drag/Garona)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing The Drag Objective/Garona.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_DRAG_OBJECTIVE",
 								export = true,
@@ -874,7 +874,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499957, {	-- Corrupted Chest (Valley of Wisdom/Geya'rah)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Valley of Wisdom/Geya'rah.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_VALLEY_OF_WISDOM",
 								export = true,
@@ -902,7 +902,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499958, {	-- Corrupted Chest (Valley of Honor/Rexxar)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Valley of Honor Objective/Rexxar.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_VALLEY_OF_HONOR",
 								export = true,
@@ -929,7 +929,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499960, {	-- Corrupted Chest (Vale of Spirits/Zekhan)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Vale of Spirits Objective/Zekhan.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_VALE_OF_SPIRITS",
 								export = true,
@@ -955,7 +955,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499954, {	-- Corrupted Chest (Valley of Strength/Thrall chest)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Chest for completing Valley of Strength Objective/Thrall.",
 								constant = "CHEST_FOR_COMPLETING_VALLEY_OF_STRENGTH",
 								export = true,
@@ -989,7 +989,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(241702, {	-- Gamon <Hero of Orgrimmar>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with his axe on the table on the right portion of the first floor of the Broken Tusk inn at the Valley of Strength",
 								constant = "INTERACT_WITH_HIS_AXE_ON_THE_TABLE_ON_THE_RIGHT",
 								export = true,
@@ -1011,7 +1011,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["groups"] = { i(239158) },	-- Nemesis Shard (GAMON)
 						}),
 						n(238836, {	-- Void-Scarred Wolf
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with Wolf Rider gear in the Valleys of Honor and Wisdom to gain a stacking buff, then interact with a wolf rug at the Drag's leatherworking shop to spawn the rare.\n\nWolf rider packs are only visible with an active Mask.",
 								constant = "INTERACT_WITH_WOLF_RIDER_GEAR_IN_THE_VALLEYS_OF",
 								export = true,
@@ -1042,7 +1042,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["groups"] = { i(235706) },	-- Void-Scarred Pack Mother's Harness (MOUNT!)
 						}),
 						n(238145, {	-- Void-Scarred Wyvern Matriarch
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Clear the Valley of Wisdom to access the elevator up to the Skyway. Defeat waves of Void-Scarred Wyverns until the matriarch spawns.\n\nThe path up to the Skyway will remain blocked without at least 3 masks active.",
 								constant = "CLEAR_THE_VALLEY_OF_WISDOM_TO_ACCESS_THE",
 								export = true,
@@ -1096,7 +1096,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					}),
 					n(SCENARIO_COMPLETION, {
 						o(499031, {	-- Corrupted Chest (Trade District/Wyrmbane)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Trade District Objective/Wyrmbane.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_TRADE_DISTRICT",
 								export = true,
@@ -1121,7 +1121,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499026, {	-- Corrupted Chest (Dwarven District/Kelsey)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Dwarven District Objective/Kelsey.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_DWARVEN_DISTRICT",
 								export = true,
@@ -1146,7 +1146,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499028, {	-- Corrupted Chest (Mage Quarter/Umbric)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Mage Quarter Objective/Umbric.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_MAGE_QUARTER",
 								export = true,
@@ -1169,7 +1169,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								i(242648),	-- Black Blood Coagulate
 								i(240186),	-- Depleted Void Crystal
 								i(232919, {	-- Faceless Mask of Dark Imagination (QI!/QS!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Granted by completing Mage Quarter, with an active Mask.",
 										constant = "GRANTED_BY_COMPLETING_MAGE_QUARTER_WITH_AN",
 										export = true,
@@ -1192,7 +1192,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499029, {	-- Corrupted Chest (Old Town/Valeera)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bonus Chest for completing the Old Town Objective/Valeera.",
 								constant = "BONUS_CHEST_FOR_COMPLETING_THE_OLD_TOWN",
 								export = true,
@@ -1215,7 +1215,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								i(242648),	-- Black Blood Coagulate
 								i(235794),	-- Eye of Chaos (PET!)
 								i(232920, {	-- Faceless Mask of the Pained (QI!/QS!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Granted by completing Old Town, with an active Mask.",
 										constant = "GRANTED_BY_COMPLETING_OLD_TOWN_WITH_AN_ACTIVE",
 										export = true,
@@ -1237,7 +1237,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								i(174932),	-- Illusion: Void Edge (ILLUSION!)
 								i(240183),	-- Twisted Skull-Scythe Handlebars
 								i(239105, {	-- Unusual Gems
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Can only drop if you have an active Mask and Void-Bound Orb of Mystery in your inventory!",
 										constant = "CAN_ONLY_DROP_IF_YOU_HAVE_AN_ACTIVE_MASK_AND",
 										export = true,
@@ -1260,7 +1260,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(499022, {	-- Corrupted Chest (Cathedral/Alleria)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Chest for completing the Cathedral Objective/Alleria.",
 								constant = "CHEST_FOR_COMPLETING_THE_CATHEDRAL_OBJECTIVE",
 								export = true,
@@ -1281,7 +1281,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["coord"] = { 41.6, 34.4, RE_HORRIFIC_STORMWIND },
 							["groups"] = {
 								i(232921, {	-- Faceless Mask of the Long Night (QI!/QS!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Granted by completing all five districts within a single visit.",
 										constant = "GRANTED_BY_COMPLETING_ALL_FIVE_DISTRICTS_WITHIN",
 										export = true,
@@ -1301,7 +1301,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 									}),
 								}),
 								i(235414, {	-- Faceless Mask of Multitudes (QS!/QI!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Granted by completing all five districts and killing every last NPC, with an active Mask.",
 										constant = "GRANTED_BY_COMPLETING_ALL_FIVE_DISTRICTS_AND",
 										export = true,
@@ -1336,7 +1336,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["groups"] = { i(174926) },	-- Overly Sensitive Void Spectacles (TOY!)
 						}),
 						n(241698, {	-- Hogger
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with his WANTED poster just to the right of the entrance to the Mage Quarter area\n\nRequires an active Mask",
 								constant = "INTERACT_WITH_HIS_WANTED_POSTER_JUST_TO_THE",
 								export = true,
@@ -1361,7 +1361,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["coord"] = { 71.0, 70.0, RE_HORRIFIC_STORMWIND },
 							["groups"] = {
 								i(238260, {	-- Faceless Mask of Vengeance (QI!/QS!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires an active Mask",
 										constant = "REQUIRES_AN_ACTIVE_MASK",
 										export = true,
@@ -1383,7 +1383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(242639, {	-- Voidfire Deathcycle Frame
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Must be tagged to start progress towards unlocking the mount\n\nRequires an active Mask",
 								constant = "MUST_BE_TAGGED_TO_START_PROGRESS_TOWARDS",
 								export = true,
@@ -1406,7 +1406,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["questID"] = 90129,
 						}),
 						n(238079, {	-- Void-Forged Stallion
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with Cursed Horseshoes around Stormwind's districts to gain a stacking buff, visit the blacksmithing area in the Dwarven District to summon the rare when you have 4 stacks.\n\nRequires an active Mask",
 								constant = "INTERACT_WITH_CURSED_HORSESHOES_AROUND",
 								export = true,
@@ -1442,7 +1442,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 						header(HEADERS.Item, 235700, {	-- Reins of the Void-Scarred Gryphon
 							n(237918, {	-- Claw Marked Bowl
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Interact with the nearby Ripped Notes (top of ramp, right of inquisitor) to read the clues then place the desired item into the bowl and rattle it to spawn the rare.\n...fish: Fresh Fillet (Raw) / Skewered Fillet (Cooked)\n...fungus: Chopped Mycobloom (Raw) / Roasted Mycobloom (Cooked)\n...meat that has been spiced: Spiced Meat Stock (Raw) / Simple Stew (Cooked)\n...steak: Portioned Steak (Raw) / Unseasoned Field Steak (Cooked)\n\nThe notes and bowl are only visible with at least two masks active.",
 									constant = "INTERACT_WITH_THE_NEARBY_RIPPED_NOTES_TOP_OF",
 									export = true,

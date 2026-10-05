@@ -10,7 +10,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(NIGHT_FAE, {
 		n(REWARDS, {
 			i(183702, {	-- Nature's Splendor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only Obtainable from Niya Soulbind.",
 					constant = "ONLY_OBTAINABLE_FROM_NIYA_SOULBIND",
 					export = true,

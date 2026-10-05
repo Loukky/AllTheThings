@@ -24,7 +24,7 @@ root(ROOTS.Promotions, n(HEROES_OF_THE_STORM, {
 	["timeline"] = { ADDED_6_0_2 },
 	["groups"] = {
 		ach(10657, {	-- Fledgling Hero of Warcraft
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cross-Game Reward: Lady Liadrin Paladin Hero in Hearthstone.",
 				constant = "CROSS_GAME_REWARD_LADY_LIADRIN_PALADIN_HERO_IN",
 				export = true,

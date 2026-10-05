@@ -14,7 +14,7 @@ root(ROOTS.Zones, {
 		},
 		["timeline"] = { ADDED_4_0_1 },
 	},{
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These quests can be obtained from any city or town to lead the Character to a specific Zone.",
 			constant = "THESE_QUESTS_CAN_BE_OBTAINED_FROM_ANY_CITY_OR",
 			export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			q(49846, {	-- Wars on Two Fronts [Cataclysm]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Special Duty Assignments will automatically pop up when you reach level 80. You can use them to progress either to Cataclysm or Pandaria.",
 					constant = "THE_SPECIAL_DUTY_ASSIGNMENTS_WILL_AUTOMATICALLY",
 					export = true,
@@ -135,7 +135,7 @@ root(ROOTS.Zones, {
 	})),
 	n(DUNGEON_JOURNAL, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 		q(72743, {	-- A Piece of Copper
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you are lucky. You will get this quest from your adventure guide.",
 				constant = "IF_YOU_ARE_LUCKY_YOU_WILL_GET_THIS_QUEST_FROM",
 				export = true,
@@ -158,7 +158,7 @@ root(ROOTS.Zones, {
 			},
 		}),
 		q(72746, {	-- A Piece of Silver
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available on the next reset after \"A Piece of Copper\", from the adventure guide.",
 				constant = "AVAILABLE_ON_THE_NEXT_RESET_AFTER_A_PIECE_OF",
 				export = true,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, {
 			["sourceQuests"] = { 72743 },	-- A Piece of Copper
 		}),
 		q(72747, {	-- A Piece of Gold
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available on the next reset after \"A Piece of Silver\", from the adventure guide.",
 				constant = "AVAILABLE_ON_THE_NEXT_RESET_AFTER_A_PIECE_OF_2",
 				export = true,
@@ -200,7 +200,7 @@ root(ROOTS.Zones, {
 			["sourceQuests"] = { 72746 },	-- A Piece of Silver
 		}),
 		q(72748, {	-- A Bag of Gold
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available on the next reset after \"A Piece of Gold\", from the adventure guide.",
 				constant = "AVAILABLE_ON_THE_NEXT_RESET_AFTER_A_PIECE_OF_3",
 				export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Zones, {
 			["sourceQuests"] = { 72747 },	-- A Piece of Gold
 		}),
 		q(72749, {	-- A Curious Coin
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available on the next reset after \"A Bag of Gold\", from the adventure guide.",
 				constant = "AVAILABLE_ON_THE_NEXT_RESET_AFTER_A_BAG_OF_GOLD",
 				export = true,

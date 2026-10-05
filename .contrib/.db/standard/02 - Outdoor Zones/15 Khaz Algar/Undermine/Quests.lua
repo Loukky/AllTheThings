@@ -725,7 +725,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 43.5, 51.1, UNDERMINE },
 					}),
 					o(508377, {	-- Renzik's Lockbox
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You do not need to have done the Undermine campaign on that character to see this chest.",
 							constant = "YOU_DO_NOT_NEED_TO_HAVE_DONE_THE_UNDERMINE",
 							export = true,

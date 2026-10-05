@@ -64,7 +64,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 				}),
 			}),
 			n(251042, {	-- Domelius <Home Improvements>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can buy additional copies of Housing Decor after receiving the first one from the respective Achievement.",
 					constant = "YOU_CAN_BUY_ADDITIONAL_COPIES_OF_HOUSING_DECOR",
 					export = true,
@@ -112,7 +112,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					i(250404, {	-- Hanging Felsteel Chain (DECOR!)
 						-- #if BEFORE 12.0.0
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Not awarded by the achievement but unlocked by it so you can buy the Decor from the vendor.",
 							constant = "NOT_AWARDED_BY_THE_ACHIEVEMENT_BUT_UNLOCKED_BY",
 							export = true,
@@ -824,7 +824,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					["cost"] = { { "c", BRONZE, 5 } },
 				}, {
 					i(254320, {	-- Elixir of Remembered Sight
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|cFFE50D12NOT CONSUMED ON USE:|r If you, by any chance, destroyed the one you received from the quest, buy only 1.",
 							constant = "CFFE50D12NOT_CONSUMED_ON_USE_R_IF_YOU_BY_ANY",
 							export = true,
@@ -1226,7 +1226,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 					}),
 					filter(CONSUMABLES, {
 						i(254847, {	-- Minor Bronze Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Becomes available after purchasing 'Taeshalach'.\n\nContains 2500 Bronze.",
 								constant = "BECOMES_AVAILABLE_AFTER_PURCHASING_TAESHALACH",
 								export = true,
@@ -1247,7 +1247,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["cost"] = { { "i", 253306, 5 } },	-- 5x Everflame of Hatred
 						}),
 						i(254848, {	-- Minor Bronze Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Becomes available after purchasing 'Scythe of the Unmaker'.\n\nContains 2500 Bronze.",
 								constant = "BECOMES_AVAILABLE_AFTER_PURCHASING_SCYTHE_OF",
 								export = true,
@@ -1268,7 +1268,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["cost"] = { { "i", 253304, 5 } },	-- 5x Cosmic Soulsilver
 						}),
 						i(254849, {	-- Minor Bronze Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Becomes available after purchasing 'Hammer of Vigilance'.\n\nContains 2500 Bronze.",
 								constant = "BECOMES_AVAILABLE_AFTER_PURCHASING_HAMMER_OF",
 								export = true,
@@ -1289,7 +1289,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 							["cost"] = { { "i", 253305, 5 } },	-- 5x Felwarped Slab
 						}),
 						i(254850, {	-- Minor Bronze Cache
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Becomes available after purchasing 'The First Satyr's Spaulders'.\n\nContains 2500 Bronze.",
 								constant = "BECOMES_AVAILABLE_AFTER_PURCHASING_THE_FIRST",
 								export = true,

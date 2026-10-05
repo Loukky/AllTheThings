@@ -141,7 +141,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			n(206825, {	-- Waking Dream
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found in Dreamsurge zone, interact with it to start event, kill all npcs that came out and portal is closed.",
 					constant = "CAN_BE_FOUND_IN_DREAMSURGE_ZONE_INTERACT_WITH",
 					export = true,
@@ -173,7 +173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			},
 			["groups"] = {
 				i(DREAMSURGE_COALESCENCE, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "10 per WQ, 25 per rare kill in zone where Dreamsurge is active",
 						constant = "10_PER_WQ_25_PER_RARE_KILL_IN_ZONE_WHERE",
 						export = true,

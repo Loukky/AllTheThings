@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(SIREN_ISLE, {
 		n(ZONE_DROPS, {
 			i(234816, {	-- Overflowing Bag of Iron
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Contains around 550 Currency.",
 					constant = "CONTAINS_AROUND_550_CURRENCY",
 					export = true,

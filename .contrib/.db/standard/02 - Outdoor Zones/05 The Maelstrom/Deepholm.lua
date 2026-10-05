@@ -89,7 +89,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(838, {	-- Amethyst Shale Hatchling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The biggest concentration can be found in Desolace, the purple section of open world Maraudon. Can also be found in Deepholm around Therazane's Throne, in Silvermarsh, as well as scattered around Temple of Earth.",
 								constant = "THE_BIGGEST_CONCENTRATION_CAN_BE_FOUND_IN_2",
 								export = true,
@@ -114,7 +114,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(559, {	-- Crimson Geode (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around Crimson Expanse.",
 								constant = "FOUND_AROUND_CRIMSON_EXPANSE",
 								export = true,
@@ -139,7 +139,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 73.0, 42.0, DEEPHOLM },	-- Crimson Expanse
 						}),
 						pet(556, {	-- Crystal Beetle (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found scattered around Temple of Earth.",
 								constant = "FOUND_SCATTERED_AROUND_TEMPLE_OF_EARTH",
 								export = true,
@@ -164,7 +164,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 53.0, 42.0, DEEPHOLM },	-- Northeast of Temple of Earth
 						}),
 						pet(837, {	-- Emerald Shale Hatchling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around The Quaking Fields, as well as in smaller concentrations elsewhere in Deepholm.",
 								constant = "FOUND_AROUND_THE_QUAKING_FIELDS_AS_WELL_AS_IN",
 								export = true,
@@ -190,7 +190,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(756, {	-- Fungal Moth (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found scattered around Silvermarsh, Needlerock Slag and Chasm, as well as Verlok Stand.",
 								constant = "FOUND_SCATTERED_AROUND_SILVERMARSH_NEEDLEROCK",
 								export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						pet(553, {	-- Stowaway Rat (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Is most commonly found as secondary pet in Deepholm.",
 								constant = "IS_MOST_COMMONLY_FOUND_AS_SECONDARY_PET_IN",
 								export = true,
@@ -283,7 +283,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					prof(MINING, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require Cataclysm Mining.",
 							constant = "ELEMENTIUM_VEINS_0_05_DROP_RATE_AND_RICH_2",
 							export = true,
@@ -510,7 +510,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(26259, {	-- Blood of the Earthwarder
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest must be completed before unlocking the Therazane dailies (The Binding). Seer Kormo will not be present in the Temple of Earth once the fight is done.",
 							constant = "THIS_QUEST_MUST_BE_COMPLETED_BEFORE_UNLOCKING",
 							export = true,
@@ -1110,7 +1110,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 82,
 					}),
 					q(28295, {	-- Meetup with the Caravan
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is part of a breadcrumb questline from Deepholm and cannot be accepted if you have accepted or completed 'Hero's Call: Uldum!', or any following quests in Uldum.",
 							constant = "THIS_QUEST_IS_PART_OF_A_BREADCRUMB_QUESTLINE",
 							export = true,
@@ -1135,7 +1135,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(28296, {	-- Meetup with the Caravan
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is part of a breadcrumb questline from Deepholm and cannot be accepted if you have accepted or completed 'Warchief's Command: Uldum!' or any following quests in Uldum.",
 							constant = "THIS_QUEST_IS_PART_OF_A_BREADCRUMB_QUESTLINE_2",
 							export = true,
@@ -1294,7 +1294,7 @@ root(ROOTS.Zones, {
 									{ "o", 205197 },	-- Trogg Crate
 								},
 								["coord"] = { 71.8, 64.2, DEEPHOLM },
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can trigger this by jumping into the water next to the camp and swimming to the bottom.",
 									constant = "YOU_CAN_TRIGGER_THIS_BY_JUMPING_INTO_THE_WATER",
 									export = true,
@@ -1646,7 +1646,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(27952, {	-- The Explorers [Alliance]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest must be completed before unlocking the Therazane dailies (The Binding). Earthcaller Yevaa will not be present in the Temple of Earth once the fight is done.",
 							constant = "THIS_QUEST_MUST_BE_COMPLETED_BEFORE_UNLOCKING_2",
 							export = true,
@@ -2172,7 +2172,7 @@ root(ROOTS.Zones, {
 							{ 50.50, 63.50, DEEPHOLM },
 							{ 42.00, 43.60, DEEPHOLM },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Aeonaxx has six possible spawn points. It shares these spawn points and its spawn timer with a bat called Blood Seeker. This means that only one of the NPCs (Aeonaxx or Blood Seeker) can be up on a realm at any given time. Once Aeonaxx spawns, he will fly in a small circle near his spawn point, and will continue to do so until killed or until a server reset. In contrast, when Blood Seeker spawns, it only stays up for about 15 seconds before despawning.\n\nBlood Seeker does not drop a mount, and spawns much more frequently than Aeonaxx. Blood Seeker quickly becomes a nuisance to any lucky enough to see him in his 15-second spawn window, but finding him can be helpful. Tracking Blood Seeker's spawns will help you keep track of when it is possible for Aeonaxx to spawn. Whenever you are able to spot this bat, it means that you can safely take a break from your camping for 2 hours, as there will not be a spawn until the minimum timer has passed (2 hours). Aeonaxx is often thought of as \"the rare spawn of Blood Seeker.\" Simply put, this means that there is a small chance for Aeonaxx to spawn instead of Blood Seeker whenever a spawn is due.",
 							constant = "AEONAXX_HAS_SIX_POSSIBLE_SPAWN_POINTS_IT_SHARES",
 							export = true,
@@ -2207,7 +2207,7 @@ root(ROOTS.Zones, {
 					}),
 					n(49822, {	-- Jadefang
 						["coord"] = { 61.2, 22.6, DEEPHOLM },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found inside Crumbling Depths, requires the daily quest Underground Economy. Use the bomb \"Ricket's Tickers\" in the central cavern to reach the cave where Jadefang spawns.",
 							constant = "FOUND_INSIDE_CRUMBLING_DEPTHS_REQUIRES_THE",
 							export = true,

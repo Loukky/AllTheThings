@@ -12,7 +12,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 			n(RITUAL_SITES, {
 				faction(FACTION_RITUAL_SITES),
 				n(BROKEN_THRONE_RS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Broken Throne, also known as Atal'Kaldan, is an Amani ruin that has been taken over by the Twilight's Blade as their base of operations in the region.",
 						constant = "THE_BROKEN_THRONE_ALSO_KNOWN_AS_ATAL_KALDAN_IS",
 						export = true,
@@ -52,7 +52,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(TREASURES, {
 							o(649115, {	-- Chewed Meat
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Summon Pet 'Chubs' at the Meat Piles. Defeat Angry Amani Warbear. Once it turns friendly, feed it.",
 									constant = "SUMMON_PET_CHUBS_AT_THE_MEAT_PILES_DEFEAT_ANGRY",
 									export = true,
@@ -79,7 +79,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["groups"] = { i(271999) },	-- Misplaced Ritual Candle
 							}),
 							o(649189, {	-- Ritual Circle
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Find the Misplaced Ritual Candle nearby and place it on the appropriate place. After that, begin the ritual.",
 									constant = "FIND_THE_MISPLACED_RITUAL_CANDLE_NEARBY_AND",
 									export = true,
@@ -103,7 +103,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["groups"] = { i(269828) },	-- Void-Corrupted Eagle Talon (MOUNT!)
 							}),
 							o(649412, {	-- Void-Tainted Nest
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You need to be mounted on the 'Void-Corrupted Hex Eagle' in order to see the Updraft at the corner of the pillar in the southern part of the Ritual Site.\nStep into the Updraft to be flown to the nest.",
 									constant = "YOU_NEED_TO_BE_MOUNTED_ON_THE_VOID_CORRUPTED",
 									export = true,
@@ -131,7 +131,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					},
 				}),
 				n(DAGGERSPINE_POINT_RS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Daggerspine Point is an island that has been claimed by the Daggerspine naga and serves as their base of operations. It was formerly named Shalandis Isle. ",
 						constant = "DAGGERSPINE_POINT_IS_AN_ISLAND_THAT_HAS_BEEN",
 						export = true,
@@ -173,7 +173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(TREASURES, {
 							n(263805, {	-- Egg
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "A small, inconspicuous, egg is floating down the river. Catch it.",
 									constant = "A_SMALL_INCONSPICUOUS_EGG_IS_FLOATING_DOWN_THE",
 									export = true,
@@ -225,7 +225,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								},
 							}),
 							o(649380, {	-- Washed Up Kelp
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",
 									constant = "SEARCH_THROUGH_THE_KELP_FOR_A_CHANCE_TO_ATTRACT",
 									export = true,
@@ -261,7 +261,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(ZONE_DROPS, {
 							i(271644),	-- Ember of Power (QS!/QI!)
 							i(272128, {	-- Soggy Lynx Toy
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Has a chance to drop from any Naga-type creature within the Ritual Site.",
 									constant = "HAS_A_CHANCE_TO_DROP_FROM_ANY_NAGA_TYPE",
 									export = true,
@@ -357,7 +357,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["groups"] = {
 						i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
 						i(272392, {	-- Broken Lynx Leash
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it.",
 								constant = "CAN_ONLY_DROP_IF_YOU_ARE_RENOWN_8_CAN_DROP_ON",
 								export = true,
@@ -548,7 +548,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["groups"] = { i(271427) },	-- Exquisite Treasure (QS!/QI!)
 					}),
 					header(HEADERS.Item, 270063, {	-- Void-Touched Lynx Kitten
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Tier 3 or higher.\nClick the Rustling Bushes inside the Ritual Site.\n- You will have to click 8-13 rustling bushes before being able to click on the pet.\nOnly 1-2 are available per run.\nThe cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the bushes anymore.",
 							constant = "FOUND_IN_TIER_3_OR_HIGHER_CLICK_THE_RUSTLING",
 							export = true,

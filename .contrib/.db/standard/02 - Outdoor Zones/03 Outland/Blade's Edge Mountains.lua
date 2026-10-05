@@ -90,7 +90,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(1164, {	-- Cogblade Raptor
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found often to the left and right of Death's Door.",
 								constant = "FOUND_OFTEN_TO_THE_LEFT_AND_RIGHT_OF_DEATH_S",
 								export = true,
@@ -112,7 +112,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(528, {	-- Scalded Basilisk Hatchling (PET!)
 							["coord"] = { 72.8, 20.6, BLADES_EDGE_MOUNTAINS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in a fairly large area around Skald, the volcanic area in northeast before the road slopes downwards towards Netherstorm.",
 								constant = "FOUND_IN_A_FAIRLY_LARGE_AREA_AROUND_SKALD_THE",
 								export = true,
@@ -132,7 +132,7 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						pet(637, {	-- Skittering Cavern Crawler (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in the two caves that connect Blade's Edge to Zangarmarsh, and as secondary pet in the zone.",
 								constant = "FOUND_IN_THE_TWO_CAVES_THAT_CONNECT_BLADE_S",
 								export = true,
@@ -635,7 +635,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10719, {	-- Did You Get The Note?
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You have to accept or complete the quest '...and a Time for Action' to receive the item.",
 							constant = "YOU_HAVE_TO_ACCEPT_OR_COMPLETE_THE_QUEST_AND_A",
 							export = true,
@@ -671,7 +671,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10997, {	-- Even Gronn Have Standards
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest has three possible breadcrumb quests. Completing one will give you credit for the other, but if you're interested in completing as many breadcrumbs as possible then you should start this quest chain by picking up 'Speak with the Ogre' in the middle of Shattrath City.",
 							constant = "THIS_QUEST_HAS_THREE_POSSIBLE_BREADCRUMB_QUESTS",
 							export = true,
@@ -730,7 +730,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 70,
 					})),
 					q(10797, {	-- Favor of the Gronn
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You have to accept or complete the quest 'A Date with Dorgok' to receive the item.",
 							constant = "YOU_HAVE_TO_ACCEPT_OR_COMPLETE_THE_QUEST_A_DATE",
 							export = true,
@@ -782,7 +782,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10911, {	-- Fire At Will!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Quest Giver location depends on where you use |cFFFFFFFFDruid Signal|r which was given to you when accepting the quest |cFFFFD700Death's Door|r (10910).",
 							constant = "QUEST_GIVER_LOCATION_DEPENDS_ON_WHERE_YOU_USE",
 							export = true,
@@ -1339,7 +1339,7 @@ root(ROOTS.Zones, {
 					q(11009, {	-- Ogre Heaven
 						-- #if ANYCLASSIC
 						-- #if BEFORE WRATH
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can pick up this quest during phase 1, but cannot turn it in until they introduce the Ogri'la faction in a later phase.",
 							constant = "YOU_CAN_PICK_UP_THIS_QUEST_DURING_PHASE_1_BUT",
 							export = true,
@@ -1595,7 +1595,7 @@ root(ROOTS.Zones, {
 							i(31456),	-- Gnomish Casting Boots
 							i(30690, {	-- Power Converter (Toy !)
 								-- #if BEFORE WRATH
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "It's an unlimited Firework Launcher that eventually becomes a Toy and is also a Star Wars reference. Keep it forever.",
 									constant = "IT_S_AN_UNLIMITED_FIREWORK_LAUNCHER_THAT",
 									export = true,
@@ -2188,7 +2188,7 @@ root(ROOTS.Zones, {
 					q(10867, {	-- There Can Be Only One Response
 						["sourceQuest"] = 10865,	-- Inform Leoroxx!
 						["qg"] = 22004,	-- Leoroxx
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Nexus-Prince Razaan spawns after killing etereals in the area.",
 							constant = "NEXUS_PRINCE_RAZAAN_SPAWNS_AFTER_KILLING",
 							export = true,
@@ -2651,7 +2651,7 @@ root(ROOTS.Zones, {
 				}),
 				n(VENDORS, {
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, n(23245, {	-- Aether-tech Master
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Skyguard sends out a group to study the Bash'ir Crystalforge at Bash'ir Landing once every two hours.|nOnce the event is underway, you must protect the Skyguard from three waves of attacks.|nWave one: fight until the elite Bash'ir Flesh Fiend spawns, then kill it.|nWave two: Fight until the three Disruptor Towers spawn, then destroy them.|nWave three: Fight until The Grand Collector shows up. He will be unattackable initially, but once you have defeated enough of the Bash'ir, he will decide to kill you himself, and become attackable.|nOnce the Grand Collector has been dealt with, the Aether-tech Master will arrive and you may purchase his goods with Apexis Crystals.|r",
 							constant = "THE_SKYGUARD_SENDS_OUT_A_GROUP_TO_STUDY_THE",
 							export = true,
@@ -2891,7 +2891,7 @@ root(ROOTS.Zones, {
 					}),
 					n(21494, {	-- Smiles O'Byron <Engineer>
 						["requireSkill"] = GNOMISH_ENGINEERING,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gnomish Engineers can speak to Smiles to learn the recipe.",
 							constant = "GNOMISH_ENGINEERS_CAN_SPEAK_TO_SMILES_TO_LEARN",
 							export = true,
@@ -2915,7 +2915,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(22099, {	-- Wyrmcult Provisioner
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To access this vendor, you must be wearing an Overseer Disguise. To get the disguise, you must either be currently on, or have completed, the quest 'Meeting at the Blackwing Coven' which will allow you to loot 'Costume Scraps' from Wyrmcultists. You will need 5 Costume Scraps to make an Overseer Disguise.",
 							constant = "TO_ACCESS_THIS_VENDOR_YOU_MUST_BE_WEARING_AN",
 							export = true,
@@ -2941,7 +2941,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(20916, {	-- Xerintha Ravenoak <Food & Drink>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor stocks a limited supply of these items. Alliance players can purchase them from Sassa Weldwell, who sells unlimited quantities. Horde players who don't wish to wait for Xerintha to restock can complete the quest |cFFefc400Mok'Nathal Treats|r, which awards both recipes.",
 							constant = "THIS_VENDOR_STOCKS_A_LIMITED_SUPPLY_OF_THESE",
 							export = true,
@@ -3066,7 +3066,7 @@ root(ROOTS.Zones, {
 						["cr"] = 21300,	-- Fel Corrupter
 					}),
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, i(31942, {	-- Deathwing Brood Cloak
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You need to summon the four dragons for 35 Apexis Shards and loot the scale to put the cloak together.",
 							constant = "YOU_NEED_TO_SUMMON_THE_FOUR_DRAGONS_FOR_35",
 							export = true,
@@ -3472,7 +3472,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					o(184595, {	-- Ethereum Stasis Chamber
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can use either of the listed keys to open an Ethereum Stasis Chamber.",
 							constant = "YOU_CAN_USE_EITHER_OF_THE_LISTED_KEYS_TO_OPEN",
 							export = true,

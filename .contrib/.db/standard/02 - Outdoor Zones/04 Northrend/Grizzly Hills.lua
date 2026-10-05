@@ -576,7 +576,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.0, 47.9, GRIZZLY_HILLS },
 					}),
 					q(11984, {	-- Filling the Cages
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest requires the use of a pet named Budd.\nAny pet classes must dismiss their active pets.\nSpeak with Budd in the camp to get him as a pet.\nThe ability to tag a troll can be found on the pet bar.",
 							constant = "THIS_QUEST_REQUIRES_THE_USE_OF_A_PET_NAMED_BUDD",
 							export = true,
@@ -1959,7 +1959,7 @@ root(ROOTS.Zones, {
 				}),
 				n(RARES, {
 					n(38453, {	-- Arcturis
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a highly sought-after Hunter Pet. If you see this mob, be a kind soul and announce to General chat instead of killing it.",
 							constant = "THIS_IS_A_HIGHLY_SOUGHT_AFTER_HUNTER_PET_IF_YOU",
 							export = true,
@@ -2040,7 +2040,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						n(27760, {	-- "Grizzly" D. Adams <Venture Coin Vendor>
 							["coord"] = { 13.8, 86.4, GRIZZLY_HILLS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Is only visible while your faction controls Venture Bay.",
 								constant = "IS_ONLY_VISIBLE_WHILE_YOUR_FACTION_CONTROLS",
 								export = true,
@@ -2110,7 +2110,7 @@ root(ROOTS.Zones, {
 						}),
 						n(29275, {	-- Aspen Grove Supplier <Food & Drink>
 							["coord"] = { 34.6, 55.0, GRIZZLY_HILLS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This vendor is only friendly to Alliance players, and even then it only applies until you finalise your relationship with the people at Silverbrook!",
 								constant = "THIS_VENDOR_IS_ONLY_FRIENDLY_TO_ALLIANCE",
 								export = true,
@@ -2144,7 +2144,7 @@ root(ROOTS.Zones, {
 						}),
 						n(29244, {	-- Jesse Masters <Butcher>
 							["coord"] = { 31.6, 59.8, GRIZZLY_HILLS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Access to this vendor requires completing 'Replenishing the Storehouse' and the following 'Take Their Rear!'.",
 								constant = "ACCESS_TO_THIS_VENDOR_REQUIRES_COMPLETING",
 								export = true,
@@ -2229,7 +2229,7 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						n(91632, {	-- Remington Brode <Traveling Lumberjack>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Patrols all over Grizzly Hills. When you find him select\n \"<Breathe deeply.>\",\n \"I'm looking for a song...\",\n \"A song about the wilderness.\",\n and \"Yes!\"",
 								constant = "PATROLS_ALL_OVER_GRIZZLY_HILLS_WHEN_YOU_FIND",
 								export = true,
@@ -2276,7 +2276,7 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					applyclassicphase(WRATH_PHASE_TWO, n(33224, {	-- Maiden of Ashwood Lake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kiss this frog.",
 							constant = "KISS_THIS_FROG",
 							export = true,
@@ -2299,7 +2299,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(44981) },	-- Ashwood Brand (QI!)
 					})),
 					i(36743, {	-- Desperate Mojo
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only used for a given quest, can otherwise be vendored.",
 							constant = "ONLY_USED_FOR_A_GIVEN_QUEST_CAN_OTHERWISE_BE",
 							export = true,

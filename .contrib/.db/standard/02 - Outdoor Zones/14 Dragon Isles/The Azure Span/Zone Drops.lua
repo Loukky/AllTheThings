@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["description"] = "~L.DROPS_FROM_GNOLL_CREATURES_OR_DECAY_COVERED",
 			}),
 			i(201373, {	-- Imbu Net Cutter
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Primal Mobs spawning around Tuskarr Chests or from Tuskarr Chests themselves.",
 					constant = "DROPS_FROM_PRIMAL_MOBS_SPAWNING_AROUND_TUSKARR",
 					export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["description"] = "~L.DROPS_FROM_PRIMAL_MOBS_SPAWNING_AROUND_TUSKARR",
 			}),
 			i(193882, {	-- Pattern: Acidic Hailstone Treads (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Decayed Creatures around Bracken Hollow.",
 					constant = "DROPS_FROM_DECAYED_CREATURES_AROUND_BRACKEN",
 					export = true,

@@ -17,7 +17,7 @@ root(ROOTS.Zones, {
 				}),
 				n(FOLLOWERS, {
 					follower(467, {	-- Fen Tao
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to obtain this follower you need to talk to him and let him finish his dialogue.",
 							constant = "IN_ORDER_TO_OBTAIN_THIS_FOLLOWER_YOU_NEED_TO",
 							export = true,
@@ -796,7 +796,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						n(88155, {	-- Challenger Savina
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can only buy items from this vendor if you have Challenge Warlord: Gold Feat of Strength on your character.",
 								constant = "YOU_CAN_ONLY_BUY_ITEMS_FROM_THIS_VENDOR_IF_YOU_2",
 								export = true,
@@ -874,7 +874,7 @@ root(ROOTS.Zones, {
 									["cost"] = 10000000,	-- 1,000g
 								}),
 								un(REMOVED_FROM_GAME, i(119032, {	-- Rusted Challenger's Strongbox
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This box was from the WoD Challenge Mode Dailies.",
 										constant = "THIS_BOX_WAS_FROM_THE_WOD_CHALLENGE_MODE",
 										export = true,

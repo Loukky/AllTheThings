@@ -164,7 +164,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 				},
 			}),
 			q(8868, {	-- Elune's Blessing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to summon Omen you need to fire 30 cluster rockets from the launcer at 63.73, 62.41. Any will do. The spawns Minion of Omen can be ignored.\n\nElune's Blessing is obtained from a ring of light appearing on Omen's corpse. The light does not disappear when the corpse despawns, so you might not need to fight Omen at all.",
 					constant = "IN_ORDER_TO_SUMMON_OMEN_YOU_NEED_TO_FIRE_30",
 					export = true,
@@ -374,7 +374,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 				["isYearly"] = true,
 			}),
 			q(8883, {	-- Valadar Starsong
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Picking up this Quest from a Quest Giver makes it unavailable at another one.\nIt does not matter which one.\nThere is no need (or point) to visit all of them. You need only one.",
 					constant = "PICKING_UP_THIS_QUEST_FROM_A_QUEST_GIVER_MAKES",
 					export = true,
@@ -591,7 +591,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 			}),
 			preWrathEldersHeader(ELDERS_OF_THE_DUNGEONS, {	-- Elders of the Dungeons
 				q(8727, {	-- Farwhisper the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located inside of Stratholme in Festival Lane. Fastest route to him is from the Service Entrance and then head towards The Unforgiven on Live side.",
 						constant = "LOCATED_INSIDE_OF_STRATHOLME_IN_FESTIVAL_LANE",
 						export = true,
@@ -614,7 +614,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 					["maps"] = { MAP.STRATHOLME },
 				}),
 				q(8619, {	-- Morndeep the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located inside Blackrock Depths at the Ring of Law, accessed through the Detention Block. From the entrance walk straight forward across the big central floor into the facing cave, and the Ring of Law can be accessed on the immediate left. \n\nWARNING: Approaching the Elder will also start the encounter, but you can escape the way you came before the gate closes.",
 						constant = "LOCATED_INSIDE_BLACKROCK_DEPTHS_AT_THE_RING_OF",
 						export = true,
@@ -637,7 +637,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 					["maps"] = { MAP.BLACKROCK_DEPTHS },
 				}),
 				q(8635, {	-- Splitrock the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside of Maraudon. Located in the passage way across the water where Rotgrip can be found as if you were headed to Tinkerer from the water near Princess.",
 						constant = "INSIDE_OF_MARAUDON_LOCATED_IN_THE_PASSAGE_WAY",
 						export = true,
@@ -660,7 +660,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 					["maps"] = { MAP.MARAUDON },
 				}),
 				q(8713, {	-- Starsong the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside of Sunken Temple. From the entrance, take a left up the spiral staircase. You will need to fight and kill the first dragon pack. Continue down the hallway and hang left into the room with all the dragonkin and then again into the alcove.",
 						constant = "INSIDE_OF_SUNKEN_TEMPLE_FROM_THE_ENTRANCE_TAKE",
 						export = true,
@@ -683,7 +683,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 					["maps"] = { MAP.TEMPLE_OF_ATALHAKKAR },
 				}),
 				q(8644, {	-- Stonefort the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located in Lower Blackrock Spire in Hordemar City. He can be found on the left as you cross the first wooden bridge.",
 						constant = "LOCATED_IN_LOWER_BLACKROCK_SPIRE_IN_HORDEMAR",
 						export = true,
@@ -705,7 +705,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(createHeader({
 					["maps"] = { MAP.BLACKROCK_SPIRE },
 				}),
 				q(8676, {	-- Wildmane the Elder
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside of Zul'Farrak. Located by the pool where Gahz'rilla is summoned.",
 						constant = "INSIDE_OF_ZUL_FARRAK_LOCATED_BY_THE_POOL_WHERE",
 						export = true,

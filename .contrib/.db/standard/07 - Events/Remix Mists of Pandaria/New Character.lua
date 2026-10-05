@@ -84,7 +84,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 			i(210339),	-- Timerunner's Staff
 		}),
 		n(REWARDS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items are in the box you get when you make a new character. Their IDs are different than the starter gear that is on you!",
 				constant = "THESE_ITEMS_ARE_IN_THE_BOX_YOU_GET_WHEN_YOU",
 				export = true,

@@ -90,7 +90,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(475, {	-- Giraffe Calf (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found with groups of roaming Dusthoof Giraffe.",
 							constant = "CAN_BE_FOUND_WITH_GROUPS_OF_ROAMING_DUSTHOOF",
 							export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66422, {	-- Cassandra Kaboom <Master Pet Tamer>
 					["coord"] = { 39.6, 79.2, SOUTHERN_BARRENS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nCassandra's pets are level 11 of the following consecutive pet classes:\nMechanical - use Elemental (powerful and tanky) pet.\n2. Mechanical - see above.\n3. Mechanical - see above.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_CASSANDRA_S_PETS",
 						export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Go to the Top of the Tower
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "In case event not starting: 1. Look at window. 2. Stand on middle wooden section on the left corner. 3. Take two steps backwards.",
 								constant = "IN_CASE_EVENT_NOT_STARTING_1_LOOK_AT_WINDOW_2",
 								export = true,
@@ -1105,7 +1105,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				heroscall(q(28550, {	-- Hero's Call: Southern Barrens!
 					-- #if NOT ANYCLASSIC
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest can only be accepted from the 'Adventure Guide' by a character in Chromie timeline: Cataclysm.",
 						constant = "THIS_QUEST_CAN_ONLY_BE_ACCEPTED_FROM_THE",
 						export = true,
@@ -2040,7 +2040,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 				}),
 				q(25197, {	-- The Admiral Won't Back Down
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The only way to do both this and 'Report to Aubrey' is if you do it before accepting and completing 'Repel Boarders.'",
 						constant = "THE_ONLY_WAY_TO_DO_BOTH_THIS_AND_REPORT_TO",
 						export = true,
@@ -2482,7 +2482,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Rare NPC is friendly to Alliance players.",
 						constant = "THIS_RARE_NPC_IS_FRIENDLY_TO_ALLIANCE_PLAYERS",
 						export = true,
@@ -2593,7 +2593,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					},
 					["races"] = HORDE_ONLY,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Rare NPC is friendly to Alliance players and functions as a vendor.",
 						constant = "THIS_RARE_NPC_IS_FRIENDLY_TO_ALLIANCE_PLAYERS_2",
 						export = true,
@@ -2740,7 +2740,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				i(5051, {	-- Dig Rat
 					["coord"] = { 49.4, 88.2, SOUTHERN_BARRENS },	-- Bael Modan Excavation
 					["cr"] = 3444,	-- Dig Rat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only drops from Dig Rats in Southern Barrens.",
 						constant = "ONLY_DROPS_FROM_DIG_RATS_IN_SOUTHERN_BARRENS",
 						export = true,

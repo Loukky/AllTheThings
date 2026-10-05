@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 64.0, 26.0, OHNAHRAN_PLAINS },
 				}),
 				pet(3327, {	-- Dusky Timbertooth (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You have to click on the |cFFefc400Beaver Dam|r before you can battle this pet.",
 						constant = "YOU_HAVE_TO_CLICK_ON_THE_CFFEFC400BEAVER_DAM_R",
 						export = true,
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				pet(3353),	-- Stoneshell (PET!)
 				pet(3389, {	-- The Quackcestor (PET!)
 					["minReputation"] = { FACTION_MARUUK_CENTAUR, 7 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Buy the |cFFefc400Essence of Awakening|r from |cFFefc400Quartermaster Huseng|r and use it to be able to see this pet.",
 						constant = "BUY_THE_CFFEFC400ESSENCE_OF_AWAKENING_R_FROM",
 						export = true,

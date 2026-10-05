@@ -25,7 +25,7 @@ root(ROOTS.Housing, {
 		["timeline"] = { ADDED_11_2_7 },
 		["groups"] = {
 			q(93057, {	-- A House For You
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Triggers on login. Requires a re-log if purchasing Midnight via in-game shop.",
 					constant = "TRIGGERS_ON_LOGIN_REQUIRES_A_RE_LOG_IF",
 					export = true,
@@ -160,7 +160,7 @@ root(ROOTS.Housing, {
 				["groups"] = { i(269010) },	-- Essence of Lumber
 			}),
 			q(98204, {	-- Cursed Keepsake
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Decor offered by the quest is on a rotation and is different per character on your account.\nYou can complete and obtain only 1 of 2 offered Decor Scenarios per Housing Area, per week.\nYou can buy additional copies of the Decor from the Cursed Keepsake after Scenario Completion with 'Keepsake Corruption' you have gathered as currency.",
 					constant = "DECOR_OFFERED_BY_THE_QUEST_IS_ON_A_ROTATION_AND",
 					export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Housing, {
 				},
 			}),
 			q(98406, {	-- A Curated Gift
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks when your house reaches Level 8.",
 					constant = "UNLOCKS_WHEN_YOUR_HOUSE_REACHES_LEVEL_8",
 					export = true,

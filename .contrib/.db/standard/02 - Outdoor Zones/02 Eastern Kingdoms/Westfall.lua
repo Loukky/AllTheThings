@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(65648, {	-- Old MacDonald <Master Pet Tamer>
 					["coord"] = { 60.8, 18.6, WESTFALL },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only.\n\nMacDonald's pets are level 3 of the following consecutive pet classes:\n1. Mechanical - use Elemental (powerful and tanky) pet.\n2. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_MACDONALD_S",
 						export = true,
@@ -235,7 +235,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				q(6181, {	-- A Swift Message
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest '|cFF4A54E8A Swift Message|r' (26393) in Elwynn Forest.",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_13",
 						export = true,
@@ -426,7 +426,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6281, {	-- Continue to Stormwind
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Continue to Stormwind' (26394) in Stormwind.",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_14",
 						export = true,
@@ -1723,7 +1723,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 51.0, 47.0, WESTFALL },
 						{ 51.6, 55.6, WESTFALL },
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Hunters need to use Hunter's Mark.",
 						constant = "HUNTERS_NEED_TO_USE_HUNTER_S_MARK",
 						export = true,
@@ -2340,7 +2340,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208851, {	-- Libram of Justice
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "While this supposedly can drop from the Drones, don't bother. Go loot the chest in Loch Modan instead!",
 						constant = "WHILE_THIS_SUPPOSEDLY_CAN_DROP_FROM_THE_DRONES",
 						export = true,
@@ -2472,7 +2472,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if AFTER CATA
 				i(2698, {	-- Recipe: Cooked Crab Claw (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to drop from any creature in Westfall.\nRecommended farming spot: Murlocs in the north area.",
 						constant = "HAS_A_CHANCE_TO_DROP_FROM_ANY_CREATURE_IN",
 						export = true,
@@ -2492,7 +2492,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				i(728, {	-- Recipe: Westfall Stew (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to drop from any creature in Westfall.\nRecommended: farm the Riverpaw Gnolls.",
 						constant = "HAS_A_CHANCE_TO_DROP_FROM_ANY_CREATURE_IN_2",
 						export = true,
@@ -2520,7 +2520,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208741, {	-- Rune of Endless Rage
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Rune can drop from any of the Rare creatures in the zone.",
 						constant = "THIS_RUNE_CAN_DROP_FROM_ANY_OF_THE_RARE",
 						export = true,
@@ -2593,7 +2593,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209045, {	-- Soul of the Sea
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This will only drop if you have Gillsbane equipped and haven't completed your Quick Strike rune yet.",
 						constant = "THIS_WILL_ONLY_DROP_IF_YOU_HAVE_GILLSBANE",
 						export = true,

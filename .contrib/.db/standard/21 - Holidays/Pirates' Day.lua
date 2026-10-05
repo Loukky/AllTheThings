@@ -34,7 +34,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 	["groups"] = {
 		-- #if BEFORE 6.0.2.18816
 		n(28048, {	-- Dread Captain DeMeza <Scourge of the South Seas>
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "When you speak with her, she gives you a Pirate Costume buff that lasts for 12 hours.",
 				constant = "WHEN_YOU_SPEAK_WITH_HER_SHE_GIVES_YOU_A_PIRATE",
 				export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 					}),
 					i(138400, {	-- Petey
 						-- #if AFTER TWW
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Harlan Sweete can be found in Freehold on Tiragarde Sound, Kul Tiras.",
 							constant = "HARLAN_SWEETE_CAN_BE_FOUND_IN_FREEHOLD_ON",
 							export = true,
@@ -150,7 +150,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 				["timeline"] = { ADDED_7_2_5 },
 				["groups"] = {
 					i(150547, {	-- Jolly Roger (TOY!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To purchase this toy, you must have earned the achievement |cFFFFD700Avast Ye, Admiral|r.",
 							constant = "TO_PURCHASE_THIS_TOY_YOU_MUST_HAVE_EARNED_THE",
 							export = true,

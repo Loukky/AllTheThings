@@ -255,7 +255,7 @@ root(ROOTS.Character, n(createHeader({
 		}),
 		ach(9651, {	-- Challenge Warlords: Gold - Guild Edition
 			-- #if AFTER 7.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Achievement no longer obtainable. You will need to find a guild that already has it to buy Deathwatch Hatchling.",
 				constant = "ACHIEVEMENT_NO_LONGER_OBTAINABLE_YOU_WILL_NEED",
 				export = true,

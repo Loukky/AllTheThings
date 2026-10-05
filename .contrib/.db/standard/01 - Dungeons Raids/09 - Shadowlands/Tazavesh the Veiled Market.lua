@@ -122,7 +122,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 					["_drop"] = { "g" },	-- Anima Trash
 				}),
 				q(64607, {	-- Tazavesh: A Hard Bargain
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires |cFFFFFFFFPassably-Forged Credentials|r to be equipped to be able to accept the quest.",
 						constant = "REQUIRES_CFFFFFFFFPASSABLY_FORGED_CREDENTIALS_R",
 						export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 				}),
 			}),
 			n(VENDORS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "All the vendors with the name Vendor in them can be found just inside the entrance to the dungeon.",
 					constant = "ALL_THE_VENDORS_WITH_THE_NAME_VENDOR_IN_THEM",
 					export = true,
@@ -180,7 +180,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 						i(161208),	-- Pirate's Snuff Box
 					}),
 					n(180750, {	-- Au'manal <Master Forger>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires |cFFFFFFFFFraudulent Credentials|r to be equipped to be able to trade for the new neck.",
 							constant = "REQUIRES_CFFFFFFFFFRAUDULENT_CREDENTIALS_R_TO",
 							export = true,
@@ -229,7 +229,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 						i(185953),	-- Fraudulent Credentials
 					}),
 					n(180161, {	-- Shopkeeper
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When the NPC whispers you, |cFFFFFFFF/nod|r at them.",
 							constant = "WHEN_THE_NPC_WHISPERS_YOU_CFFFFFFFF_NOD_R_AT",
 							export = true,
@@ -556,7 +556,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 							["timeline"] = { ADDED_9_1_0, REMOVED_9_2_0 },
 						}),
 						i(185047, {	-- Yak Soul (SS!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Drops on Hard Mode or M+.",
 								constant = "DROPS_ON_HARD_MODE_OR_M",
 								export = true,

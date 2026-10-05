@@ -6,7 +6,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 	n(COMMON_BOSS_DROPS, {
 		d(DIFFICULTY.RAID.MULTI.ALL, {
 			i(213089, {	-- Antique Bronze Bullion
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Awakened Dragonflight Raid bosses.",
 					constant = "DROPS_FROM_AWAKENED_DRAGONFLIGHT_RAID_BOSSES",
 					export = true,
@@ -27,7 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 				["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
 			}),
 			i(211515, {	-- Splintered Spark of Awakening
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Dragonflight Dungeon/Raid & certain Outdoor content.\n\nEnable 'Debug Mode' to see the drop limitations for this Item for your character.",
 					constant = "DROPS_FROM_DRAGONFLIGHT_DUNGEON_RAID_CERTAIN",
 					export = true,

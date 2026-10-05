@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 73903,
 			}),
 			n(193128, {	-- Blightpaw the Depraved
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak to nearby NPC to spawn.",
 					constant = "SPEAK_TO_NEARBY_NPC_TO_SPAWN",
 					export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			})),
 			n(195186, {	-- Cinta the Forgotten
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns if the Aylaag Camp is stationed west.",
 					constant = "ONLY_SPAWNS_IF_THE_AYLAAG_CAMP_IS_STATIONED",
 					export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(192020, {	-- Eaglemaster Niraak
 				["coord"] = { 49.5, 67.0, OHNAHRAN_PLAINS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Chance to spawn after killing any nearby Nokhud Mobs. Yells 'Filth! I will end you for your actions!' upon spawning.",
 					constant = "CHANCE_TO_SPAWN_AFTER_KILLING_ANY_NEARBY_NOKHUD",
 					export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			})),
 			n(187781, {	-- Hamett <Rockfang Matriarch>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available if the Aylaag Camp is stationed north.\nChance to spawn upon killing Sutaan.",
 					constant = "ONLY_AVAILABLE_IF_THE_AYLAAG_CAMP_IS_STATIONED",
 					export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 73951,
 			}),
 			n(188095, {	-- Hunter of the Deep
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns if the Aylaag Camp is stationed north.\nThere will be some glowing fish in the water when he is summonable. Click on the weapon rack, shoot the fish. When all fish are eliminated, the boss will spawn.",
 					constant = "ONLY_SPAWNS_IF_THE_AYLAAG_CAMP_IS_STATIONED_2",
 					export = true,
@@ -178,7 +178,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			})),
 			n(188124, {	-- Irontree
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns if the Aylaag Camp is stationed north.\nCave Entrance: 79.2, 36.6.",
 					constant = "ONLY_SPAWNS_IF_THE_AYLAAG_CAMP_IS_STATIONED_3",
 					export = true,
@@ -231,7 +231,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 74093,
 			}),
 			n(187219, {	-- Nokhud Warmaster
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns during the Aylaag Caravan escort from River Camp to Eaglewatch Outpost.",
 					constant = "SPAWNS_DURING_THE_AYLAAG_CARAVAN_ESCORT_FROM",
 					export = true,
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				-- },
 			}),
 			n(196350, {	-- Old Stormhide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns during the Aylaag Caravan escort from Eaglewatch Outlook to Aylaag Outpout.",
 					constant = "SPAWNS_DURING_THE_AYLAAG_CARAVAN_ESCORT_FROM_2",
 					export = true,
@@ -280,7 +280,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			-- n(193235),	-- Oshigol // under DF/Timed Based Rare
 			n(191950, {	-- Porta the Overgrown
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available if the Aylaag Camp is stationed at the south east.\nRequires 5 Enriched Soil used on the mushroom in the cave at 59.71, 68.10 to spawn this rare. The Enriched Soil can be looted from piles of dirt scattered around the bottom of the lake in Mirror of the Sky and underwater in the surrounding area. The coordinates indicate possible spots for the Dirt Piles.",
 					constant = "ONLY_AVAILABLE_IF_THE_AYLAAG_CAMP_IS_STATIONED_2",
 					export = true,
@@ -344,7 +344,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(193215, {	-- Scaleseeker Mezeri
 				["crs"] = { 193224 },	-- Dawnbell
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Feed Dawnbell at the southern waypoint a Sugarwing Cupcake & then follow her to the rare.",
 					constant = "FEED_DAWNBELL_AT_THE_SOUTHERN_WAYPOINT_A",
 					export = true,
@@ -422,7 +422,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			})),
 			n(191842, {	-- Sulfurion
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns if the Aylaag Camp is stationed at the south east.",
 					constant = "ONLY_SPAWNS_IF_THE_AYLAAG_CAMP_IS_STATIONED_AT",
 					export = true,
@@ -454,7 +454,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["isDaily"] = IGNORED_VALUE,
 				["groups"] = {
 					i(200212, {	-- Sand-Encrusted Graves
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "While this item can drop from almost every Dragonflight Rare, its best farmed by killing the Territorial Coastling Rare.\n\nDroprate is around 75%.\n\nThe Rare is once per Character.",
 							constant = "WHILE_THIS_ITEM_CAN_DROP_FROM_ALMOST_EVERY",
 							export = true,
@@ -476,7 +476,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(196334, {	-- The Great Enla <Scourge of the Plains>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns during the Aylaag Caravan escort from Eaglewatch Outpost to Aylaag Outpost.",
 					constant = "SPAWNS_DURING_THE_AYLAAG_CARAVAN_ESCORT_FROM_3",
 					export = true,
@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(192364, {	-- Windscale the Stormborn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available if the Aylaag Camp is stationed at the south east.\nSpawns from the egg after killing 5 nearby egg channelers.",
 					constant = "ONLY_AVAILABLE_IF_THE_AYLAAG_CAMP_IS_STATIONED_3",
 					export = true,
@@ -566,7 +566,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(188451, {	-- Zerimek <The Darkened Cloud>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only spawns if the Aylaag Camp is stationed north.",
 					constant = "ONLY_SPAWNS_IF_THE_AYLAAG_CAMP_IS_STATIONED_4",
 					export = true,
@@ -588,7 +588,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["questID"] = 73980,
 			}),
 			n(193140, {	-- Zarizz
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use /hiss on 4 nearby Juvenile Wind Serpents to spawn.",
 					constant = "USE_HISS_ON_4_NEARBY_JUVENILE_WIND_SERPENTS_TO",
 					export = true,

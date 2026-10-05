@@ -550,7 +550,7 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				i(71339, {	-- Vicious Gladiator's Twilight Drake
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded to members of the Arena teams during Cata Season 1 that were in the 0.5% bracket of their battlegroup.",
 						constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_9",
 						export = true,
@@ -577,7 +577,7 @@ root(ROOTS.PVP, {
 			}, {
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146423, {	-- Ensemble: Bloodthirsty Gladiator's Dreadplate Armor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
 							constant = "YOU_WILL_NEED_TO_LOG_OUT_AND_BACK_IN_TO",
 							export = true,
@@ -1522,7 +1522,7 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				i(71954, {	-- Ruthless Gladiator's Twilight Drake
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded to members of the Arena teams during Cata Season 2 that were in the 0.5% bracket of their battlegroup.",
 						constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_10",
 						export = true,
@@ -1659,7 +1659,7 @@ root(ROOTS.PVP, {
 					i(70529),	-- Vicious Gladiator's Bracers of Meditation
 					i(70530),	-- Vicious Gladiator's Bracers of Prowess
 					i(70547, {	-- Vicious Gladiator's Cuffs of Accuracy
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only obtainable via the Bloodthirsty Gladiator Mage Ensemble.",
 							constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE",
 							export = true,
@@ -1679,7 +1679,7 @@ root(ROOTS.PVP, {
 						}),
 					}),
 					i(70548, {	-- Vicious Gladiator's Cuffs of Meditation
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only obtainable via the Bloodthirsty Gladiator Priest Ensemble.",
 							constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE_2",
 							export = true,
@@ -1699,7 +1699,7 @@ root(ROOTS.PVP, {
 						}),
 					}),
 					i(70549, {	-- Vicious Gladiator's Cuffs of Prowess
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only obtainable via the Bloodthirsty Gladiator Warlock Ensemble.",
 							constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE_3",
 							export = true,
@@ -1861,7 +1861,7 @@ root(ROOTS.PVP, {
 				})),
 				cl(DEATHKNIGHT, {
 					moh(12, iensemble(146503, {	-- Ensemble: Ruthless Gladiator's Dreadplate Armor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will need to log out and back in to register every Ruthless Gladiator Item.",
 							constant = "YOU_WILL_NEED_TO_LOG_OUT_AND_BACK_IN_TO_2",
 							export = true,
@@ -2536,7 +2536,7 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				i(85785, {	-- Cataclysmic Gladiator's Twilight Drake
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded to members of the Arena teams during Cata Season 3 that were in the 0.5% bracket of their battlegroup.",
 						constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_11",
 						export = true,
@@ -2558,7 +2558,7 @@ root(ROOTS.PVP, {
 			}))),
 			n(PVP_HONOR, {
 				-- #if AFTER 7.2.0.23436
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These items are only available from Ruthless Gladiator class ensembles.",
 					constant = "THESE_ITEMS_ARE_ONLY_AVAILABLE_FROM_RUTHLESS",
 					export = true,

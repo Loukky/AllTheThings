@@ -235,7 +235,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(COMMON_BOSS_DROPS, {
 						symselector=SymSelector.BFA_WARFRONT_ARATHI_CBD,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "These items can drop off any rare.",
 							constant = "THESE_ITEMS_CAN_DROP_OFF_ANY_RARE",
 							export = true,
@@ -335,7 +335,7 @@ root(ROOTS.ExpansionFeatures,
 						n(142688, {	-- Darbel Montrose
 							["allianceQuestID"] = 53084,	-- Darbel Montrose [Alliance]
 							["hordeQuestID"] = 53507,	-- Darbel Montrose [Horde]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns at the northern point when Alliance-controlled and the southern point when Horde-controlled.",
 								constant = "SPAWNS_AT_THE_NORTHERN_POINT_WHEN_ALLIANCE",
 								export = true,
@@ -367,7 +367,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = ALLIANCE_ONLY,
 							["isWeekly"] = true,
 							["coord"] = { 53.8, 58.2, ARATHI_HIGHLANDS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only shows up when Alliance-controlled.",
 								constant = "ONLY_SHOWS_UP_WHEN_ALLIANCE_CONTROLLED_2",
 								export = true,
@@ -401,7 +401,7 @@ root(ROOTS.ExpansionFeatures,
 						n(142686, {	-- Foulbelly
 							["allianceQuestID"] = 53086,	-- Foulbelly [Alliance]
 							["hordeQuestID"] = 53509,	-- Foulbelly [Horde]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns at the back of the cave.",
 								constant = "SPAWNS_AT_THE_BACK_OF_THE_CAVE",
 								export = true,
@@ -465,7 +465,7 @@ root(ROOTS.ExpansionFeatures,
 							["isWeekly"] = true,
 							["coord"] = { 49.0, 40.0, ARATHI_HIGHLANDS },
 							["races"] = HORDE_ONLY,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only shows up when Horde-controlled.",
 								constant = "ONLY_SHOWS_UP_WHEN_HORDE_CONTROLLED_2",
 								export = true,
@@ -500,7 +500,7 @@ root(ROOTS.ExpansionFeatures,
 						n(142684, {	-- Kovork
 							["allianceQuestID"] = 53089,	-- Kovork [Alliance]
 							["hordeQuestID"] = 53514,	-- Kovork [Horde]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns at the front of the cave.",
 								constant = "SPAWNS_AT_THE_FRONT_OF_THE_CAVE",
 								export = true,
@@ -555,7 +555,7 @@ root(ROOTS.ExpansionFeatures,
 						n(142423, {	-- Overseer Krix
 							["allianceQuestID"] = 53014,	-- Overseer Krix [Alliance]
 							["hordeQuestID"] = 53518,	-- Overseer Krix [Horde]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns at the back of the northern cave for Alliance and the southern cave for Horde.",
 								constant = "SPAWNS_AT_THE_BACK_OF_THE_NORTHERN_CAVE_FOR",
 								export = true,
@@ -674,7 +674,7 @@ root(ROOTS.ExpansionFeatures,
 						n(142682, {	-- Zalas Witherbark <Warband Leader>
 							["allianceQuestID"] = 53094,	-- Zalas Witherbark <Warband Leader> [Alliance]
 							["hordeQuestID"] = 53530,	-- Zalas Witherbark <Warband Leader> [Horde]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns in the middle of the cave.",
 								constant = "SPAWNS_IN_THE_MIDDLE_OF_THE_CAVE",
 								export = true,
@@ -960,7 +960,7 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = HORDE_ONLY,
 								}),
 								ach(12884, {	-- Leader of Troops (A)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "You must personally create each troop. Siege Engines are limited to 3 active at a time.",
 										constant = "YOU_MUST_PERSONALLY_CREATE_EACH_TROOP_SIEGE",
 										export = true,
@@ -988,7 +988,7 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								ach(12878, {	-- Leader of Troops (H)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "You must personally create each troop. Demolishers are limited to 3 active at a time.",
 										constant = "YOU_MUST_PERSONALLY_CREATE_EACH_TROOP",
 										export = true,
@@ -1019,7 +1019,7 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = ALLIANCE_ONLY,
 								}),
 								ach(12889, {	-- Strike Fast (A)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "You must personally capture each flag.",
 										constant = "YOU_MUST_PERSONALLY_CAPTURE_EACH_FLAG",
 										export = true,
@@ -1065,7 +1065,7 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								ach(12886, {	-- Tour of War (A)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Only one commander is up per warfront cycle.",
 										constant = "ONLY_ONE_COMMANDER_IS_UP_PER_WARFRONT_CYCLE",
 										export = true,
@@ -1598,7 +1598,7 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								q(53207, {	-- The Warfront Looms
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Automatically granted upon completing Uniting Zandalar to unlock World Quests. If it doesn't pop up, relog. I had to relog twice to receive this quest.",
 										constant = "AUTOMATICALLY_GRANTED_UPON_COMPLETING_UNITING",
 										export = true,
@@ -1657,7 +1657,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								-- INCURSIONS INFO STARTS HERE
 								i(165872, {	-- 7th Legion Equipment Cache (awarded for all incursions)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This cache is awarded for completing any incursion on an Alliance character.",
 										constant = "THIS_CACHE_IS_AWARDED_FOR_COMPLETING_ANY",
 										export = true,
@@ -1678,7 +1678,7 @@ root(ROOTS.ExpansionFeatures,
 									["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 5),	-- iLvl 340
 								}),
 								i(165871, {	-- Honorbound Equipment Cache (awarded for all incursions)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This cache is awarded for completing any incursion on a Horde character.",
 										constant = "THIS_CACHE_IS_AWARDED_FOR_COMPLETING_ANY_2",
 										export = true,

@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				q(89012, {	-- A Safe Path
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available after accepting 'The Hour of Need' (86805).",
 						constant = "BECOMES_AVAILABLE_AFTER_ACCEPTING_THE_HOUR_OF",
 						export = true,

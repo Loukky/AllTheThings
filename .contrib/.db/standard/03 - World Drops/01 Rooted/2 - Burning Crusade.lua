@@ -1063,7 +1063,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 				{ 70.8, 79.9, NAGRAND },	-- Kil'sorrow Fortress
 			},
 			-- #if AFTER 9.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Shadowlands level squish made this mark wonky to obtain, requiring low level character and specific conditions. Otherwise Mark of Sargeras drops in it's place.",
 				constant = "THE_SHADOWLANDS_LEVEL_SQUISH_MADE_THIS_MARK",
 				export = true,
@@ -1166,7 +1166,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			-- 	Cloth + Silk:
 			{
 				i(21877, {	-- Netherweave Cloth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Netherweave Cloth is a very common drop from TBC humanoid and undead creatures.",
 						constant = "NETHERWEAVE_CLOTH_IS_A_VERY_COMMON_DROP_FROM",
 						export = true,
@@ -1230,7 +1230,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					22310,	-- Storming Wind-Ripper
 					24222,	-- Windy Cload (Gas cloud)
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
 					constant = "THE_GIVEN_MAPS_COORDINATES_AND_SOURCES_APPLIES",
 					export = true,
@@ -1316,7 +1316,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					17725,	-- Underbog Lurker
 					17871,	-- Underbog Shambler
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The given maps and sources applies for how to obtain this element's motes.",
 					constant = "THE_GIVEN_MAPS_AND_SOURCES_APPLIES_FOR_HOW_TO",
 					export = true,
@@ -1453,7 +1453,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 						{ 53.1, 25.5, SHADOWMOON_VALLEY },	-- Coilskar Cistern
 					},
 					["maps"] = { ZANGARMARSH },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops commonly from humanoid- and beast water creatures like naga, dredgers and trashers.",
 						constant = "DROPS_COMMONLY_FROM_HUMANOID_AND_BEAST_WATER",
 						export = true,
@@ -1530,7 +1530,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					},
 				}),
 				i(27678, {	-- Clefthoof Meat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Clefthoofs can be found all over Nagrand.",
 						constant = "CLEFTHOOFS_CAN_BE_FOUND_ALL_OVER_NAGRAND",
 						export = true,
@@ -1605,7 +1605,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					},
 				}),
 				i(27682, {	-- Talbuk Venison
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talbuks can be found all over Nagrand.",
 						constant = "TALBUKS_CAN_BE_FOUND_ALL_OVER_NAGRAND",
 						export = true,
@@ -1652,7 +1652,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			--
 			-- 	Other reagents:
 				i(32428, {	-- Heart of Darkness
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from most creatures within the given raids.",
 						constant = "CAN_DROP_FROM_MOST_CREATURES_WITHIN_THE_GIVEN",
 						export = true,
@@ -1684,7 +1684,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 					},
 				}),
 				i(23572, {	-- Primal Nether
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Guaranteed drop from the last boss in any Heroic TBC dungeon.",
 						constant = "GUARANTEED_DROP_FROM_THE_LAST_BOSS_IN_ANY",
 						export = true,
@@ -1789,7 +1789,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			{
 				["itemID"] = 31501,	-- Tome of Conjure Food VIII
 				["spellID"] = 33717,	-- Conjure Food VIII
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Learn both of these tomes and then visit your trainer for the table.",
 					constant = "LEARN_BOTH_OF_THESE_TOMES_AND_THEN_VISIT_YOUR",
 					export = true,

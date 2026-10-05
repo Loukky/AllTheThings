@@ -265,7 +265,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["classes"] = exclude(DEMONHUNTER, ALL_CLASSES),
 			}),
 			q(40815, {	-- From Within (DH version, must choose Altruis)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is available if you chose to follow Altruis the Sufferer during the Demon Hunter introduction quests.",
 					constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_CHOSE_TO_FOLLOW",
 					export = true,
@@ -288,7 +288,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["classes"] = { DEMONHUNTER },
 			}),
 			q(44140, {	-- From Within (DH version, must choose Kayn)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest is available if you chose to follow Kayn Sunfury during the Demon Hunter introduction quests.",
 					constant = "THIS_QUEST_IS_AVAILABLE_IF_YOU_CHOSE_TO_FOLLOW_2",
 					export = true,

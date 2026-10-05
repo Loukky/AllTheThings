@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 				-- Mount Protoform
 				i(189173, {	-- Eternal Ragepearl
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Most mobs in the desert drop those, top right of Zereth Mortis.",
 						constant = "MOST_MOBS_IN_THE_DESERT_DROP_THOSE_TOP_RIGHT_OF",
 						export = true,
@@ -342,7 +342,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					},
 				}),
 				i(189176, {	-- Protoform Sentience Crown
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Automas, best farmed during the Dangerous State Daily.",
 						constant = "DROPS_FROM_AUTOMAS_BEST_FARMED_DURING_THE",
 						export = true,

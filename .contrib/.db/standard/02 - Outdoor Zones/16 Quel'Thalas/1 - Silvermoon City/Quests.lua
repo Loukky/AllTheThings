@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["lvl"] = 90,
 			}),
 			q(95276, {	-- The Last Push
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Finish the main campaign before level 90 to access.\nNote: This auto-completes when hitting 90 anyway.",
 					constant = "FINISH_THE_MAIN_CAMPAIGN_BEFORE_LEVEL_90_TO",
 					export = true,
@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["lockCriteria"] = { 1, "lvl", 90 },
 			}),
 			q(96245, {	-- You've Seen it All Before
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Automatically acquired on reaching level 90 if you have another level 90 character who has completed the campaign.",
 					constant = "AUTOMATICALLY_ACQUIRED_ON_REACHING_LEVEL_90_IF",
 					export = true,

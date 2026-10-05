@@ -68,7 +68,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(BOSSES, {
 					n(90802, {	-- Annihilon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Void Prison summons this boss. It has a chance to be obtained during a Shadowmoon Invasion.",
 							constant = "VOID_PRISON_SUMMONS_THIS_BOSS_IT_HAS_A_CHANCE",
 							export = true,
@@ -93,7 +93,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					n(90841, {	-- Commander Dro'gan
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Bloodied Iron Horde Banner summons this boss. It has a chance to be obtained during an Iron Horde Invasion.",
 							constant = "BLOODIED_IRON_HORDE_BANNER_SUMMONS_THIS_BOSS_IT",
 							export = true,
@@ -118,7 +118,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					n(90943, {	-- Gaur
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Runed Greatstone summons this boss. It has a chance to be obtained during a Goren Invasion.",
 							constant = "RUNED_GREATSTONE_SUMMONS_THIS_BOSS_IT_HAS_A",
 							export = true,
@@ -143,7 +143,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					n(91012, {	-- Lady Fleshear
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Legion Beacon summons this boss. It has a chance to be obtained during a Shadow Council Invasion.",
 							constant = "LEGION_BEACON_SUMMONS_THIS_BOSS_IT_HAS_A_CHANCE",
 							export = true,
@@ -168,7 +168,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					n(90995, {	-- Mage Lord Gogg'nathog
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Arcane Highmaul Relic summons this boss. It has a chance to be obtained during an Ogre Invasion.",
 							constant = "ARCANE_HIGHMAUL_RELIC_SUMMONS_THIS_BOSS_IT_HAS",
 							export = true,
@@ -193,7 +193,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					n(90946, {	-- Teluur
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Heart of Oak summons this boss. It has a chance to be obtained during a Botani Invasion.",
 							constant = "HEART_OF_OAK_SUMMONS_THIS_BOSS_IT_HAS_A_CHANCE",
 							export = true,
@@ -306,7 +306,7 @@ root(ROOTS.ExpansionFeatures,
 				}),
 				n(EVENT_COMPLETION, {
 					i(120320, {	-- Invader's Abandoned Sack
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Bronze Challenge",
 							constant = "BRONZE_CHALLENGE",
 							export = true,
@@ -350,7 +350,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					i(120319, {	-- Invader's Damaged Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Silver Challenge",
 							constant = "SILVER_CHALLENGE",
 							export = true,
@@ -376,7 +376,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					i(116980, {	-- Invader's Forgotten Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gold Challenge",
 							constant = "GOLD_CHALLENGE",
 							export = true,
@@ -408,7 +408,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 					}),
 					i(122163, {	-- Routed Invader's Crate of Spoils
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Platinum Challenge",
 							constant = "PLATINUM_CHALLENGE",
 							export = true,

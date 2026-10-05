@@ -7,7 +7,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		["timeline"] = { REMOVED_4_0_3 },
 	}, {
 		q(5283, {	-- The Art of the Armorsmith [A]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Upon finishing this quest, you will become a Armorsmith and be locked out of becoming a Weaponsmith.",
 				constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_3",
 				export = true,
@@ -66,7 +66,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["races"] = HORDE_ONLY,
 		}),
 		q(5284, {	-- The Way of the Weaponsmith [A]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Upon finishing this quest, you will become a Weaponsmith and be locked out of becoming an Armorsmith.",
 				constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_4",
 				export = true,

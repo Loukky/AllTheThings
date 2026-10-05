@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			ach(40826),	-- Explore Hallowfall (automated)
 			ach(20594, {	-- Flamegard's Hope
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use healing spells, bandages or Algari Healing Potion to heal 20 patients over 20 days. This does not have to be done on consecutive days.",
 					constant = "USE_HEALING_SPELLS_BANDAGES_OR_ALGARI_HEALING",
 					export = true,
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				iensemble(219105),	-- Sandy Quotidian Wear
 			}),
 			ach(40151, {	-- Mereldar Menace
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use Throwing Stone at the 3 coordinates to hit nearby targets. Chat dialogs will indicate success per target.",
 					constant = "USE_THROWING_STONE_AT_THE_3_COORDINATES_TO_HIT",
 					export = true,
@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 69.3, 43.7, HALLOWFALL },
 				}),
 				crit(69003, {	-- Nightclaw
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available when Lesser Keyflame is active.",
 						constant = "AVAILABLE_WHEN_LESSER_KEYFLAME_IS_ACTIVE",
 						export = true,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 63.2, 29.3, HALLOWFALL },
 				}),
 				crit(69004, {	-- Purrlock
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available when Light's Blooming Keyflame is active.",
 						constant = "AVAILABLE_WHEN_LIGHT_S_BLOOMING_KEYFLAME_IS",
 						export = true,

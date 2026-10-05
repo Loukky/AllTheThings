@@ -5,7 +5,7 @@ root(ROOTS.Craftables, {
 	prof(ALCHEMY),
 	prof(BLACKSMITHING, {
 		prof(ARMORSMITH, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Blacksmiths who have completed the Art of the Armorsmith quest chain.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_BLACKSMITHS",
 				export = true,
@@ -25,7 +25,7 @@ root(ROOTS.Craftables, {
 			}),
 		}),
 		prof(WEAPONSMITH, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Blacksmiths who have completed the Way of the Weaponsmith quest chain.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_BLACKSMITHS_2",
 				export = true,
@@ -45,7 +45,7 @@ root(ROOTS.Craftables, {
 			}),
 			["groups"] = {
 				prof(MASTER_AXESMITH, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items can only be crafted by Master Axesmith specialized Weaponsmiths.",
 						constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_MASTER",
 						export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Craftables, {
 					}),
 				}),
 				prof(MASTER_HAMMERSMITH, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items can only be crafted by Master Hammersmith specialized Weaponsmiths.",
 						constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_MASTER_2",
 						export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Craftables, {
 					}),
 				}),
 				prof(MASTER_SWORDSMITH, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These items can only be crafted by Master Swordsmith specialized Weaponsmiths.",
 						constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_MASTER_3",
 						export = true,
@@ -105,7 +105,7 @@ root(ROOTS.Craftables, {
 					}),
 				}),
 				n(WEAPONS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These can be crafted by any Weaponsmith.",
 						constant = "THESE_CAN_BE_CRAFTED_BY_ANY_WEAPONSMITH",
 						export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Craftables, {
 	prof(ENCHANTING),
 	prof(ENGINEERING, {
 		prof(GNOMISH_ENGINEERING, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Engineers who have completed the Gnomish Engineering quest chain.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_ENGINEERS",
 				export = true,
@@ -151,7 +151,7 @@ root(ROOTS.Craftables, {
 			}),
 		}),
 		prof(GOBLIN_ENGINEERING, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Engineers who have completed the Goblin Engineering quest chain.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_ENGINEERS_2",
 				export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Craftables, {
 	}),
 	prof(FIRST_AID),
 	prof(FISHING, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "If you struggle to catch an open water fish in a given zone, try a different spot or a different body of water. There might be local variations of which fish you can reliably catch from a given spot.",
 			constant = "IF_YOU_STRUGGLE_TO_CATCH_AN_OPEN_WATER_FISH_IN",
 			export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Craftables, {
 		}),
 	}),
 	prof(HERBALISM, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "It is beneficial to gather all herbs in the area even if you only need specific herbs because the node spawns are often connected.",
 			constant = "IT_IS_BENEFICIAL_TO_GATHER_ALL_HERBS_IN_THE",
 			export = true,
@@ -214,7 +214,7 @@ root(ROOTS.Craftables, {
 	}),
 	prof(LEATHERWORKING, {
 		prof(10656, {	-- Dragonscale Leatherworking
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Leatherworkers who have completed the associated quest.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY",
 				export = true,
@@ -241,7 +241,7 @@ root(ROOTS.Craftables, {
 		}),
 	}),
 	prof(MINING, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Mining veins are usually found on uneven terrain and mountainsides as well as inside caves. It is beneficial to mine all veins in the area even if you only need specific ore because the node spawns are often connected.",
 			constant = "MINING_VEINS_ARE_USUALLY_FOUND_ON_UNEVEN",
 			export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Craftables, {
 		["classes"] = { ROGUE },
 	}),
 	prof(SKINNING, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can be gathered by skinning creatures out in the world.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_BE_GATHERED_BY_SKINNING",
 			export = true,

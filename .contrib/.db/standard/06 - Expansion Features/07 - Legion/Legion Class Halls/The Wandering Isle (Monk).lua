@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(ARTIFACTS, {
 					cl(MONK, BREWMASTER, {
 						gt(254, {	-- Brewhouse
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Click this once per day.",
 								constant = "CLICK_THIS_ONCE_PER_DAY",
 								export = true,
@@ -383,7 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 51.4, 48.4, THE_WANDERING_ISLE },
 					}),
 					q(41729, {	-- Slowing the Spread
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can get this quest after taking the flight to Tian Monastery during |cffffff00The Defense of Tian Monastery|r.",
 							constant = "YOU_CAN_GET_THIS_QUEST_AFTER_TAKING_THE_FLIGHT",
 							export = true,

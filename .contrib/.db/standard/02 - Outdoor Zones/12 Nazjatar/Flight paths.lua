@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		fp(2403, {	-- Kelya's Grave
 			["coord"] = { 74.2, 24.9, NAZJATAR },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Must complete the |cFFFFD700On Ghostly Wings|r quest to unlock this path.",
 				constant = "MUST_COMPLETE_THE_CFFFFD700ON_GHOSTLY_WINGS_R",
 				export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["sourceQuest"] = 56422,	-- On Ghostly Wings
 		}),
 		fp(2408, {	-- Mezzamere
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Must complete the |cFFFFD700Where the Road Leads|r quest to unlock this path.",
 				constant = "MUST_COMPLETE_THE_CFFFFD700WHERE_THE_ROAD_LEADS",
 				export = true,

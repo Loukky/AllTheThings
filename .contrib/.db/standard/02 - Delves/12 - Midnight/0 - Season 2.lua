@@ -84,7 +84,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 								i(276163),	-- Apophic Patagia (COSMETIC!)
 							}),
 							i(264971, {	-- Annihilation Rod (COSMETIC!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The first kill per week per character has a somewhat higher chance to grant you this item.",
 									constant = "THE_FIRST_KILL_PER_WEEK_PER_CHARACTER_HAS_A",
 									export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 						["isWeekly"] = true,
 						["groups"] = {
 							ach(63334, {	-- Fabled Let Me Solo Him: Azta'rec
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Random tips:\nClicking Valeera's Bonefire gives you 5% main stats for 10min, stacking with normal food buffs.\n\nThe completion buff you get at the end of a Delve carries over and works inside the special boss encounter.",
 									constant = "RANDOM_TIPS_CLICKING_VALEERA_S_BONEFIRE_GIVES",
 									export = true,
@@ -282,7 +282,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 				}),
 				filter(MISC, {
 					i(276547, {	-- Afflicted Soul
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use before starting your Prey quest to work properly.",
 							constant = "USE_BEFORE_STARTING_YOUR_PREY_QUEST_TO_WORK",
 							export = true,

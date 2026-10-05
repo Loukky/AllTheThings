@@ -281,7 +281,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Learn Mission Table & Research
 					q(44544, {	-- Call of the Earthen Ring
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After completing |cffffff00Azeroth Needs You|r, return to Dalaran and this NPC will approach you within a few seconds.",
 							constant = "AFTER_COMPLETING_CFFFFFF00AZEROTH_NEEDS_YOU_R",
 							export = true,
@@ -846,7 +846,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				}),
 				n(SPECIAL, {
 					n(103004, {	-- Puzzlemaster Lo <The Earthen Ring>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing all five levels of the puzzle will grant you a chest that contains the toy.\n\nBoard Design (Stand in front of Puzzlemaster with your back to him):\n\n\n A B C D E\n F G H I J\n K L M N O\n P Q R S T\n U V W X Y\n\n\n Level 1: A, E, M, U, Y\n\n Level 2: C, K, M, O, W\n\n Level 3: B, K, L, O, V\n\n Level 4: A, E, F, G, H, I, J, K, O, Q, S, W\n\n Level 5: D, E, F, G, I, J, K, L, M, Q, R, S, U, W, X",
 							constant = "COMPLETING_ALL_FIVE_LEVELS_OF_THE_PUZZLE_WILL",
 							export = true,
@@ -898,7 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 					n(114064, {	-- Snowfang
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Defeating this NPC in a pet battle awards the pet.",
 							constant = "DEFEATING_THIS_NPC_IN_A_PET_BATTLE_AWARDS_THE",
 							export = true,

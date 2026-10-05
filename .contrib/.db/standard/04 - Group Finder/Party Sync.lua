@@ -3,7 +3,7 @@
 --------------------------------------------------
 
 root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 } }, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Rewarded from Quest while in Party Sync",
 		constant = "REWARDED_FROM_QUEST_WHILE_IN_PARTY_SYNC",
 		export = true,

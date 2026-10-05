@@ -441,7 +441,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Dust:
 			i(22445, {	-- Arcane Dust
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_12",
 					export = true,
@@ -460,7 +460,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC garments, amulets, rings, shields and off-hand frills within the ilvl bracket 87-120.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_13",
 					export = true,
@@ -483,7 +483,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Essences:
 			i(22446, {	-- Greater Planar Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC weapons, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_14",
 					export = true,
@@ -502,7 +502,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 102-120, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_15",
 					export = true,
@@ -524,7 +524,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22447, {	-- Lesser Planar Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC weapons, except shields and off-hand frills. This gives you Greater Planar Essence which you then have to split into Lesser Planar Essence.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_16",
 					export = true,
@@ -543,7 +543,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality TBC weapons within the ilvl bracket 80-98, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_17",
 					export = true,
@@ -566,7 +566,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Shards and crystals:
 			i(22449, {	-- Large Prismatic Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality TBC gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_6",
 					export = true,
@@ -585,7 +585,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 100-115.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_7",
 					export = true,
@@ -607,7 +607,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22448, {	-- Small Prismatic Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality TBC gear. This gives you Large Prismatic Shard which you then have to split into Small Prismatic Shard by crafting. Requires skill level 35 to learn from trainer.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_8",
 					export = true,
@@ -626,7 +626,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality TBC gear within the ilvl bracket 68-97.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_9",
 					export = true,
@@ -648,7 +648,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22450, {	-- Void Crystal
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality TBC gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_2",
 					export = true,
@@ -667,7 +667,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					},
 				}),
 				-- #elseif BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality TBC gear within the ilvl bracket 100-141.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE_3",
 					export = true,
@@ -750,7 +750,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(22521),	-- Superior Mana Oil
 			i(22522),	-- Superior Wizard Oil
 			i(22459, {	-- Void Sphere
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This craft have a 48 hours cooldown.",
 					constant = "THIS_CRAFT_HAVE_A_48_HOURS_COOLDOWN",
 					export = true,
@@ -1177,7 +1177,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
 				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
 				constant = "FISHED_UP_FROM_HIGHLAND_MIXED_SCHOOLS_YOU_HAVE",
 				export = true,
@@ -1200,7 +1200,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["groups"] = {
 				i(27445),	-- Magical Crawdad (PET!)
 				i(27446, {	-- Mr. Pinchy's Gift
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains an assortment of potions.",
 						constant = "CONTAINS_AN_ASSORTMENT_OF_POTIONS",
 						export = true,
@@ -1295,7 +1295,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			o(181271, {	-- Dreaming Glory
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found near edges and highly uneven terrain.",
 					constant = "FOUND_NEAR_EDGES_AND_HIGHLY_UNEVEN_TERRAIN",
 					export = true,
@@ -1362,7 +1362,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = { NETHERSTORM },
 			}),
 			o(181280, {	-- Nightmare Vine
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
 					constant = "ALTHOUGH_THIS_CAN_BE_FOUND_ALL_OVER_SHADOWMOON",
 					export = true,
@@ -1403,7 +1403,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			o(181277, {	-- Terocone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found near the base of trees.",
 					constant = "FOUND_NEAR_THE_BASE_OF_TREES",
 					export = true,
@@ -1475,7 +1475,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["provider"] = { "o", 181270 },	-- Felweed
 			}),
 			i(22794, {	-- Fel Lotus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can uncommonly be looted when gathering TBC herbs.",
 					constant = "CAN_UNCOMMONLY_BE_LOOTED_WHEN_GATHERING_TBC",
 					export = true,
@@ -1577,7 +1577,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
 					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Although it can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
 					constant = "ALTHOUGH_IT_CAN_BE_FOUND_ALL_OVER_SHADOWMOON",
 					export = true,
@@ -1758,7 +1758,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			-- Note: Epic quality (purple) gems CANNOT be obtained from prospecting, see Mining.
 			["groups"] = appendAllGroups(
 				sharedData({	-- Uncommon quality (green) gems:
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from prospecting ore with Jewelcrafting.",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_2",
 						export = true,
@@ -1790,7 +1790,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}),
 				sharedData({	-- Rare quality (blue) gems:
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from prospecting ore with Jewelcrafting, Adamatite Ores offering the better drop rate. Mining Ancient Gem Veins in the raid Battle for Mount Hyjal is also a reliable source.",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_3",
 						export = true,
@@ -1809,7 +1809,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 						},
 					}),
 					-- #else
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from prospecting ore with Jewelcrafting, Adamatite Ores offering the better drop rate.",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_4",
 						export = true,
@@ -2615,7 +2615,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		i(22055),	-- Wound Poison V
 	})),
 	prof(SKINNING, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can be gathered by skinning creatures on Outland. Note that Knothide Leather is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.\n\nThis header will often not show everything uncollected it contains, even when enabling 'Debug Mode'. The best way to track specific reagents is to do /att item:[itemID] or pop out this header.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_BE_GATHERED_BY_SKINNING_3",
 			export = true,
@@ -2706,7 +2706,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 73.0, 85.4, SHADOWMOON_VALLEY },	-- Netherwing Ledge flayer hill
 					-- #endif
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning most mobs can also give Fel Scales",
 					constant = "CAN_BE_EFFICIENTLY_FARMED_IN_BLADE_S_EDGE",
 					export = true,
@@ -2805,7 +2805,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 14.9, 28.9, ZANGARMARSH },	-- Ango'rosh, west of
 					{ 8.3, 52.7, ZANGARMARSH },	-- Sporewind Lake, west of
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning all mobs can also give Crystal-Infused Leather.",
 					constant = "CAN_BE_EFFICIENTLY_FARMED_IN_BLADE_S_EDGE_2",
 					export = true,
@@ -2825,7 +2825,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}),
 			}),
 			i(21887, {	-- Knothide Leather
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from any skinnable TBC mobs.",
 					constant = "CAN_BE_SKINNED_FROM_ANY_SKINNABLE_TBC_MOBS",
 					export = true,
@@ -2850,7 +2850,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(29548, {	-- Nether Dragonscales
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is skinned from Netherwing drakes in Outland. Characters who have started the Netherwing questline can only kill Netherwing drakes in Blade's Edge Nountains and Netherstorm, and then it requires the player to toggle 'At War' with the Netherwing in the reputation panel. Killing Netherwing drakes does not lower the reputation with the faction.",
 					constant = "IS_SKINNED_FROM_NETHERWING_DRAKES_IN_OUTLAND",
 					export = true,
@@ -2912,7 +2912,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	prof(TAILORING, {
 		-- #if BEFORE CATA
 		prof(MOONCLOTH_TAILORING, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Tailorings that have completed the Becoming a Mooncloth Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_TAILORINGS",
 				export = true,
@@ -2937,7 +2937,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		prof(SHADOWEAVE_TAILORING, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Tailorings that have completed the Becoming a Shadoweave Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_TAILORINGS_2",
 				export = true,
@@ -2962,7 +2962,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		prof(SPELLFIRE_TAILORING, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can only be crafted by Tailorings that have completed the Becoming a Spellfire Tailor quest in Shattrath.\n\nNOTE: You may only have one of these specializations active per character.",
 				constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_TAILORINGS_3",
 				export = true,

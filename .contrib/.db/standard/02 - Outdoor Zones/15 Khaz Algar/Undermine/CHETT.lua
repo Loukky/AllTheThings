@@ -23,7 +23,7 @@ CHETT = createHeader({
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(UNDERMINE, {
 		n(CHETT, bubbleDownSelf({ ["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 } }, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Once per week you can interact with the C.H.E.T.T. machine to receive a weekly set of tasks with rewards for completing each one. You can turn in a completed list to C.H.E.T.T. for some valorstones or to your cartel's quartermaster for 500 rep.",
 				constant = "ONCE_PER_WEEK_YOU_CAN_INTERACT_WITH_THE_C_H_E_T",
 				export = true,
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					ach(41626),	-- C.H.E.T.T. a Look
 					ach(41627),	-- C.H.E.T.T.ing it Twice
 					ach(41629, {	-- C.H.E.T.T.mate
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Turning in a completed list for a Finders Fee will |cffff0000NOT|r give achievement credit.",
 							constant = "TURNING_IN_A_COMPLETED_LIST_FOR_A_FINDERS_FEE",
 							export = true,
@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						},
 					}),
 					ach(41630, {	-- "Employee" of the Month
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rumored to be obtainable by turning in the most Chett Cards on a single Character in a month.\nOnly 1 Person per Region can get it.\nExpect minimum 150+ Card Turn-in's.",
 							constant = "RUMORED_TO_BE_OBTAINABLE_BY_TURNING_IN_THE_MOST",
 							export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["coord"] = { 43.4, 50.5, UNDERMINE },
 						["groups"] = {
 							i(236682, {	-- C.H.E.T.T. List
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to C.H.E.T.T. to be granted one for free, or turn in 40 C.H.E.T.T. cards to earn more after your first.",
 									constant = "TALK_TO_C_H_E_T_T_TO_BE_GRANTED_ONE_FOR_FREE_OR",
 									export = true,

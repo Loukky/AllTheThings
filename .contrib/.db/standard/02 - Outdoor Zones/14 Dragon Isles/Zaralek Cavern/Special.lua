@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			n(205227, {	-- Tarasek Fighter
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Not technically a rare but behaves like one in regards to certain drops. May require killing any active 'Sundered Flame Cleaver' NPCs to trigger a spawn after 10 minutes.",
 					constant = "NOT_TECHNICALLY_A_RARE_BUT_BEHAVES_LIKE_ONE_IN",
 					export = true,

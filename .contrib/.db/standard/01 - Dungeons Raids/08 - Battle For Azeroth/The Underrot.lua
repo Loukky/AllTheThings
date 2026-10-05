@@ -29,7 +29,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				n(ZONE_DROPS, {
 					i(168142, {	-- Coagulated Miasma
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops from Trolls before the first Boss.\n2-3 Runs is enough for 50 Miasma.",
 							constant = "DROPS_FROM_TROLLS_BEFORE_THE_FIRST_BOSS_2_3",
 							export = true,

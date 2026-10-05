@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 							["lvl"] = 48,
 							["groups"] = {
 								i(15102, {	-- Un'Goro Tested Sample
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Might contain nothing. Bring way more slime samples than you need.",
 										constant = "MIGHT_CONTAIN_NOTHING_BRING_WAY_MORE_SLIME",
 										export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 							},
 						}),
 						i(12235, {	-- Un'Goro Slime Sample
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring at least 30 of these back with you to the Undercity for testing.",
 								constant = "BRING_AT_LEAST_30_OF_THESE_BACK_WITH_YOU_TO_THE",
 								export = true,
@@ -1406,7 +1406,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 				}),
 				n(4554, {	-- Tawny Grisette <Mushroom Vendor>
 					["coord"] = { 69.7, 44.8, MAP.UNDERCITY },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Walks around the Trade Quarter, upper level.",
 						constant = "WALKS_AROUND_THE_TRADE_QUARTER_UPPER_LEVEL",
 						export = true,

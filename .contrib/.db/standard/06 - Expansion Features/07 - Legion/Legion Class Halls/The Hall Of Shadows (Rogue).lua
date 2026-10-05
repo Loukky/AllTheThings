@@ -32,7 +32,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					cl(ROGUE, OUTLAW, {
 							q(43558, {	-- Bindings of the Windlord
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You need to first collect the two bindings and then be in Outlaw spec to get this quest.",
 									constant = "YOU_NEED_TO_FIRST_COLLECT_THE_TWO_BINDINGS_AND",
 									export = true,
@@ -675,7 +675,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 40.6, 76.7, THE_HALL_OF_SHADOWS },
 					}),
 					q(43485, {	-- A Burning Distraction
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If the User Interface fails to show you where the detonator is, go to 29.7 79.5.",
 							constant = "IF_THE_USER_INTERFACE_FAILS_TO_SHOW_YOU_WHERE",
 							export = true,
@@ -1069,7 +1069,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					gt(441, {	-- The Vault
 						i(139781, {	-- Marin Noggenfogger's Lucky Coin
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "|c808080FAYou get these coins from completing missions with Marin Noggenfogger or via pick-pocketing mobs (unique item!) from|r |cFFFFD700The Vault|r |c808080FAclass hall ability that rogues get on Tier 2.|r",
 								constant = "C808080FAYOU_GET_THESE_COINS_FROM_COMPLETING",
 								export = true,
@@ -1095,7 +1095,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["isWeekly"] = true,
 						}),
 						n(REWARDS, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These are common rewards",
 								constant = "THESE_ARE_COMMON_REWARDS",
 								export = true,

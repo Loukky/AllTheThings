@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							{ 42.4, 76.8, AZSHARA },
 							{ 51.8, 74.8, AZSHARA },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Normally found close to these coords, as well as in Everlook.",
 							constant = "NORMALLY_FOUND_CLOSE_TO_THESE_COORDS_AS_WELL_AS",
 							export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(473, {	-- Turquoise Turtle (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can commonly be found on the beaches of Azshara.",
 							constant = "CAN_COMMONLY_BE_FOUND_ON_THE_BEACHES_OF_AZSHARA",
 							export = true,
@@ -1437,7 +1437,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(44920, {	-- Order of Incantations
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Puzzle order is Arcane, Frost, Fire, Shadow.",
 						constant = "PUZZLE_ORDER_IS_ARCANE_FROST_FIRE_SHADOW",
 						export = true,
@@ -2501,7 +2501,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				n(6650, {	-- General Fangferror
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns at the coordinates 62.7, 75.6. Usually respawns in 30 to 60 minutes after last killed.",
 						constant = "SPAWNS_AT_THE_COORDINATES_62_7_75_6_USUALLY",
 						export = true,

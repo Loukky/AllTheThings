@@ -4,7 +4,7 @@
 root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = ENGINEERING }, {
 	n(REWARDS, {
 		i(11423, {	-- Gnome Engineer's Renewal Gift
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you destroy your Gnome Engineer Membership Card, you can renew your membership for 2 Gold and will receive this gift in the mail in about a day.",
 				constant = "IF_YOU_DESTROY_YOUR_GNOME_ENGINEER_MEMBERSHIP",
 				export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			},
 		}),
 		i(11422, {	-- Goblin Engineer's Renewal Gift
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you destroy your Goblin Engineer Membership Card, you can renew your membership for 2 Gold and will receive this gift in the mail in about a day.",
 				constant = "IF_YOU_DESTROY_YOUR_GOBLIN_ENGINEER_MEMBERSHIP",
 				export = true,

@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures, {
 	expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_1_0 } }, {
 		header(HEADERS.Object, 311218, {	-- Xal'atath, Blade of the Black Empire
 			q(54141, {	-- The Azsharan Medallion [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To get the quest item, you need to kill Naga while the world quest 'Naga Attack!' is up. Complete the questline to receive the Twitching Eyeball toy.",
 					constant = "TO_GET_THE_QUEST_ITEM_YOU_NEED_TO_KILL_NAGA",
 					export = true,
@@ -36,7 +36,7 @@ root(ROOTS.ExpansionFeatures, {
 				},
 			}),
 			q(54172, {	-- The Azsharan Medallion [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To get the quest item you need to kill Naga while the world quest 'Naga Attack!' is up. Complete the questline to receive the Twitching Eyeball Toy",
 					constant = "TO_GET_THE_QUEST_ITEM_YOU_NEED_TO_KILL_NAGA_2",
 					export = true,
@@ -216,7 +216,7 @@ root(ROOTS.ExpansionFeatures, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(53765, {	-- His Eye Upon You [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You only get the toy if you choose to cleanse the gift.",
 					constant = "YOU_ONLY_GET_THE_TOY_IF_YOU_CHOOSE_TO_CLEANSE",
 					export = true,

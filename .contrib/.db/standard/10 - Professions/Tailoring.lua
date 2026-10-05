@@ -42,7 +42,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		})),
 		n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_5, REMOVED_4_0_3 } }, {
 			q(10831, {	-- Becoming a Mooncloth Tailor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon finishing this quest, you will become a Mooncloth Tailor.",
 					constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_8",
 					export = true,
@@ -86,7 +86,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 			}),
 			q(10833, {	-- Becoming a Shadoweave Tailor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon finishing this quest, you will become a Shadoweave Tailor.",
 					constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_9",
 					export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 			}),
 			q(10832, {	-- Becoming a Spellfire Tailor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon finishing this quest, you will become a Spellfire Tailor.",
 					constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_10",
 					export = true,
@@ -808,7 +808,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 		})),
 		header(HEADERS.Item, 164733, {	-- Synchronous Thread
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This Trader has a ~20% chance to spawn from closing a Time Rift via the Synchronous Thread (Battle for Azeroth Tailor Only item).\nBest Zone to farm Time Rifts is Nazjatar.",
 				constant = "THIS_TRADER_HAS_A_20_CHANCE_TO_SPAWN_FROM",
 				export = true,
@@ -963,7 +963,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		})),
 		n(QUESTS, {
 			q(72249, {	-- Dragon Isles Tailoring
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_11",
 					export = true,
@@ -1005,7 +1005,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70260, {	-- Hidden Profession Master Tailoring
 				["name"] = "Hidden Profession Master: Tailoring",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Above the Rostrum of Transformation, on a ledge.",
 					constant = "ABOVE_THE_ROSTRUM_OF_TRANSFORMATION_ON_A_LEDGE",
 					export = true,
@@ -1169,7 +1169,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				},
 			})),
 			o(380763, {	-- Ancient Dragonweave Loom
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the loom and complete the minigame to be awared this treasure.",
 					constant = "INTERACT_WITH_THE_LOOM_AND_COMPLETE_THE",
 					export = true,
@@ -1266,7 +1266,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				["groups"] = { i(198688) },	-- Catnip Leaf
 			}),
 			o(380608, {	-- Silky Surprise
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the Catnip Frond, gather 5 Catnip Leaves and throw them at the Playful Prowler. Then the treasure will appear.",
 					constant = "INTERACT_WITH_THE_CATNIP_FROND_GATHER_5_CATNIP",
 					export = true,
@@ -1327,7 +1327,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70525, {	-- DF Weekly Tailoring Knowledgepoint #3
 				["name"] = "DF Tailoring Drop #1: Beast Humanoid",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any beastlike Humanoid.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_BEASTLIKE_HUMANOID_COORDINATES",
 					export = true,
@@ -1357,7 +1357,7 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70524, {	-- DF Weekly Tailoring Knowledgepoint #4
 				["name"] = "DF Tailoring Drop #2: Ohn'ahran Humanoid",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Ohn'ahran Humanoid.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_OHN_AHRAN_HUMANOID_COORDINATES",
 					export = true,

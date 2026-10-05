@@ -209,7 +209,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["isWeekly"] = true,
 						}, {
 							q(76338, {	-- A Better Cabbage Smacker
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Whirring Field Keyflame.",
 									constant = "WHIRRING_FIELD_KEYFLAME",
 									export = true,
@@ -236,7 +236,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							q(79471, {	-- Bleak Sand
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Bleak Sand Keyflame.",
 									constant = "BLEAK_SAND_KEYFLAME",
 									export = true,
@@ -260,7 +260,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							q(79380, {	-- Bog Beast Banishment
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Stillstone Pond Keyflame.",
 									constant = "STILLSTONE_POND_KEYFLAME",
 									export = true,
@@ -281,7 +281,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["coord"] = { 66.5, 24.0, HALLOWFALL },
 							}),
 							q(78590, {	-- Cutting Edge
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Fungal Field Keyflame.",
 									constant = "FUNGAL_FIELD_KEYFLAME",
 									export = true,
@@ -302,7 +302,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["coord"] = { 63.8, 31.9, HALLOWFALL },
 							}),
 							q(79329, {	-- Glowing Harvest
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Light's Blooming Keyflame",
 									constant = "LIGHT_S_BLOOMING_KEYFLAME",
 									export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							q(79469, {	-- Lurking Below
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Duskrise Acerage Keyflame.",
 									constant = "DUSKRISE_ACERAGE_KEYFLAME",
 									export = true,
@@ -352,7 +352,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							q(78657, {	-- The Midnight Sentry
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Torchlight Mine Keyflame.",
 									constant = "TORCHLIGHT_MINE_KEYFLAME",
 									export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							q(79470, {	-- Water of War
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Faded Shore keyflame.",
 									constant = "FADED_SHORE_KEYFLAME",
 									export = true,
@@ -420,7 +420,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						n(QUESTS, {
 							q(82006, {	-- Speak to Attica Whiskervale
 								["name"] = "Speak to Attica Whiskervale",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Speak to Attica Whiskervale about Captain Lancekat. If Attica is not there, relight the nearby lesser keyflame.",
 									constant = "SPEAK_TO_ATTICA_WHISKERVALE_ABOUT_CAPTAIN",
 									export = true,
@@ -777,7 +777,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							n(214757, {	-- Croakit
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Bring 10x Shadowblind Grouper (buy or fish up) and feed him",
 									constant = "BRING_10X_SHADOWBLIND_GROUPER_BUY_OR_FISH_UP",
 									export = true,
@@ -846,7 +846,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							n(206977, {	-- Parasidious
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Pull many Shadowroot Vines until eventually the Rare is spawned.",
 									constant = "PULL_MANY_SHADOWROOT_VINES_UNTIL_EVENTUALLY_THE",
 									export = true,
@@ -899,7 +899,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						})),
 						n(REWARDS, {
 							i(228741, {	-- Lamplighter Supply Satchel
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Received upon completing the Weekly Bonus Objectives and Weekly Quests in the Hallowed Light Area.\n\nEach unlocked Lesser and Major Keyflame unlocks either a weekly quest or bonus objective in the area.",
 									constant = "RECEIVED_UPON_COMPLETING_THE_WEEKLY_BONUS",
 									export = true,
@@ -1046,7 +1046,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							o(428472, {	-- Captain Lancekat's Discretionary Funds
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
 									constant = "REQUIRES_ANY_SOURCE_OF_LIGHT_E_G_TORCH",
 									export = true,
@@ -1079,7 +1079,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							o(423959, {	-- Faded Supply Chest
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The key drops rarely from Drowned Arathi nearby.",
 									constant = "THE_KEY_DROPS_RARELY_FROM_DROWNED_ARATHI_NEARBY",
 									export = true,
@@ -1102,7 +1102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["cost"] = { { "i", 216528, 1 } },	-- 1x Faded Supply Chest Key
 							}),
 							o(441795, {	-- Hallowfall Sparkfly
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires level 80. Use a light source item then walk along the river near Stillstone Pond. With time Sparkbugs will appear next to you and randomly may be interactable, granting the pet.",
 									constant = "REQUIRES_LEVEL_80_USE_A_LIGHT_SOURCE_ITEM_THEN",
 									export = true,
@@ -1125,7 +1125,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["groups"] = { i(220771) },	-- Hallowed Glowfly (PET!)
 							}),
 							o(451993, {	-- Nerubian Device
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure in any area of farmland.",
 									constant = "REQUIRES_ANY_SOURCE_OF_LIGHT_E_G_TORCH_2",
 									export = true,
@@ -1174,7 +1174,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								["groups"] = {
 									-- confirmed x2
 									i(221819, {	-- Shadowbog Hopper (PET!)
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Seems to only come from vines in Stillstone Pond",
 											constant = "SEEMS_TO_ONLY_COME_FROM_VINES_IN_STILLSTONE",
 											export = true,
@@ -1236,7 +1236,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							o(435008, {	-- Farmhand Stash
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires weekly quest with controlling Harvestbot Remy to spawn.",
 									constant = "REQUIRES_WEEKLY_QUEST_WITH_CONTROLLING",
 									export = true,
@@ -1290,7 +1290,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 								},
 							}),
 							o(452005, {	-- Lil Piggy
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure somewhere in The Whirring Field.",
 									constant = "REQUIRES_ANY_SOURCE_OF_LIGHT_E_G_TORCH_3",
 									export = true,

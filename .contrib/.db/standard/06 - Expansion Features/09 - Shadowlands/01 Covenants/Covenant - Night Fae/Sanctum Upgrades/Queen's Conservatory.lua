@@ -324,7 +324,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								}),
 								o(350978, {	-- Queen's Conservatory Cache
 									header(HEADERS.Item, 178881, {	-- Dutiful Spirit
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Spirit quality affects loot chance.",
 											constant = "SPIRIT_QUALITY_AFFECTS_LOOT_CHANCE",
 											export = true,
@@ -376,7 +376,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(181306),	-- Spirit Tender's Bulb
 											i(180414),	-- Wakener's Runestag (MOUNT!)
 											i(187705, {	-- Choofa's Call (TOY!)
-												createLocalizationString({
+												["description"] = createLocalizationString({
 													readable = "Please report if you get this toy from another Spirit.",
 													constant = "PLEASE_REPORT_IF_YOU_GET_THIS_TOY_FROM_ANOTHER",
 													export = true,

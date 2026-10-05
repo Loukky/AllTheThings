@@ -59,7 +59,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 } }, {
 		ach(10599),	-- Legion Medic
 		ach(11139, {	-- Field Medic!
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "WARNING: You must drop or turn in duplicate quests otherwise you will be unable to loot anymore.",
 				constant = "WARNING_YOU_MUST_DROP_OR_TURN_IN_DUPLICATE",
 				export = true,
@@ -83,7 +83,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34872,	-- Bloody Letter
 					["maps"] = { SURAMAR },
 					["crs"] = {101783},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Northwest Suramar.",
 						constant = "NORTHWEST_SURAMAR",
 						export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34873,	-- Bloody Note
 					["maps"] = { MAP.AZSHARA },
 					["crs"] = {108133, 108139, 108153, 108146},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Pirates in southern-east Azsuna.",
 						constant = "PIRATES_IN_SOUTHERN_EAST_AZSUNA",
 						export = true,
@@ -129,7 +129,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34874,	-- Bloody Plea
 					["maps"] = { VALSHARAH },
 					["crs"] = {93577, 91288},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Furbolgs in southern Val'sharah",
 						constant = "FURBOLGS_IN_SOUTHERN_VAL_SHARAH",
 						export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34875,	-- Bloody Prayer
 					["maps"] = { SURAMAR },
 					["crs"] = {114470},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Southwest Suramar City.",
 						constant = "SOUTHWEST_SURAMAR_CITY",
 						export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34876,	-- Bloody Request
 					["maps"] = { VALSHARAH },
 					["crs"] = { 109045 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grizzleweald (68, 73) in Val'sharah",
 						constant = "GRIZZLEWEALD_68_73_IN_VAL_SHARAH",
 						export = true,
@@ -198,7 +198,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34877,	-- Crumpled Letter
 					["maps"] = { HIGHMOUNTAIN },
 					["crs"] = {96774},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Western Highmountain next to Skyhorn.",
 						constant = "WESTERN_HIGHMOUNTAIN_NEXT_TO_SKYHORN",
 						export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34878,	-- Crumpled Note
 					["maps"] = { HIGHMOUNTAIN },
 					["crs"] = {104323},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Northern Highmountain.",
 						constant = "NORTHERN_HIGHMOUNTAIN",
 						export = true,
@@ -244,7 +244,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34879,	-- Crumpled Request
 					["maps"] = { STORMHEIM },
 					["crs"] = {108030},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vampirates. (Stormheim)",
 						constant = "VAMPIRATES_STORMHEIM",
 						export = true,
@@ -267,7 +267,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34880,	-- Fevered Letter
 					["maps"] = { HIGHMOUNTAIN },
 					["crs"] = {103177},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Southern Highmountain.",
 						constant = "SOUTHERN_HIGHMOUNTAIN",
 						export = true,
@@ -290,7 +290,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34881,	-- Fevered Note
 					["maps"] = { VALSHARAH },
 					["crs"] = { 108675 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Southern Val'sharah",
 						constant = "SOUTHERN_VAL_SHARAH",
 						export = true,
@@ -313,7 +313,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34882,	-- Fevered Plea
 					["maps"] = { MAP.AZSHARA },
 					["crs"] = {111598, 111630, 111586 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Murlocs at the southern tip in Azsuna.",
 						constant = "MURLOCS_AT_THE_SOUTHERN_TIP_IN_AZSUNA",
 						export = true,
@@ -342,7 +342,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34884,	-- Fevered Request
 					["maps"] = { STORMHEIM },
 					["crs"] = {98498, 98500, 98501, 98502, 110258},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Murlocs at Morheim (eastern Stormheim).",
 						constant = "MURLOCS_AT_MORHEIM_EASTERN_STORMHEIM",
 						export = true,
@@ -365,7 +365,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34885,	-- Singed Letter
 					["maps"] = { STORMHEIM },
 					["crs"] = {116600},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Southern Stormheim.",
 						constant = "SOUTHERN_STORMHEIM",
 						export = true,
@@ -388,7 +388,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34886,	-- Singed Note
 					["maps"] = { MAP.AZSHARA },
 					["crs"] = {88101, 88099, 108146},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Murlocs on the left coast of the lake surrounding Nar'thalos Academy.",
 						constant = "MURLOCS_ON_THE_LEFT_COAST_OF_THE_LAKE",
 						export = true,
@@ -411,7 +411,7 @@ root(ROOTS.Professions, prof(FIRST_AID, bubbleDownSelf({ ["requireSkill"] = FIRS
 					["criteriaID"] = 34887,	-- Singed Plea
 					["maps"] = { SURAMAR },
 					["crs"] = {105753, 105625, 113162},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fal'dorei Tunnels.",
 						constant = "FAL_DOREI_TUNNELS",
 						export = true,

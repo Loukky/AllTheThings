@@ -52,7 +52,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						pet(535, {	-- Water Waveling (PET!)
 							["coord"] = { 43.0, 77.6,ZULDRAK },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns in the farms south of The Argent Stand.",
 								constant = "SPAWNS_IN_THE_FARMS_SOUTH_OF_THE_ARGENT_STAND",
 								export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66639, {	-- Gutretch <Master Pet Tamer>
 						["coord"] = { 13.2, 66.8, ZULDRAK },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gutretch's pets are level 25 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anodized Robo Cub (Demolish/Maul) and Anubisath Idol (Demolish/Sandstorm/Deflection).",
 							constant = "GUTRETCH_S_PETS_ARE_LEVEL_25_OF_THE_FOLLOWING",
 							export = true,
@@ -220,7 +220,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 53.4, 39.0, ZULDRAK },
 					}),
 					q(12713, {	-- Betrayal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "WARNING: Once you complete this quest, the quest |cFFFFD700Feedin' Da Goolz|r will become unavailable forever!",
 							constant = "WARNING_ONCE_YOU_COMPLETE_THIS_QUEST_THE_QUEST",
 							export = true,
@@ -340,7 +340,7 @@ root(ROOTS.Zones, {
 						-- TODO: based on speed completion of "Troll Patrol" daily. Determine condition and add as description
 						["groups"] = {
 							i(43556, {	-- Patroller's Pack
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Small chance to contain listed items.",
 									constant = "SMALL_CHANCE_TO_CONTAIN_LISTED_ITEMS",
 									export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12599, {	-- Creature Comforts
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Pa'Troll|r to see this quest.",
 							constant = "MUST_BE_ON_CFFFFD700PA_TROLL_R_TO_SEE_THIS",
 							export = true,
@@ -430,7 +430,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 32.1, 75.1, ZULDRAK },
 					}),
 					q(12664, {	-- Dark Horizon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Infiltrating Voltarus|r to see this quest.",
 							constant = "MUST_BE_ON_CFFFFD700INFILTRATING_VOLTARUS_R_TO",
 							export = true,
@@ -490,7 +490,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 59.3, 56.4, ZULDRAK },
 					}),
 					q(12652, {	-- Feedin' Da Goolz
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Suit Up!|r or |cFFFFD700Dressing Down|r to see this quest.\n\nWARNING: Once you complete |cFFFFD700Betrayal|r this quest will become unavailable forever!",
 							constant = "MUST_BE_ON_CFFFFD700SUIT_UP_R_OR",
 							export = true,
@@ -531,7 +531,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 75.3, 58.6, ZULDRAK },
 					}),
 					q(12690, {	-- Fuel for the Fire
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Sabotage|r to see this quest.",
 							constant = "MUST_BE_ON_CFFFFD700SABOTAGE_R_TO_SEE_THIS",
 							export = true,
@@ -629,7 +629,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12673, {	-- It Rolls Downhill
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700So Far, So Bad|r to see this quest.",
 							constant = "MUST_BE_ON_CFFFFD700SO_FAR_SO_BAD_R_TO_SEE_THIS",
 							export = true,
@@ -1030,7 +1030,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.4, 56.3, ZULDRAK },
 					}),
 					q(12954, {	-- The Amphitheater of Anguish: Yggdras!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You will get this version if you did |cFFFFD700The Ring of Blood|r questline in Nagrand before.",
 							constant = "YOU_WILL_GET_THIS_VERSION_IF_YOU_DID",
 							export = true,
@@ -1369,7 +1369,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12686, {	-- Zero Tolerance
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on |cFFFFD700Hazardous Materials|r to see this quest.",
 							constant = "MUST_BE_ON_CFFFFD700HAZARDOUS_MATERIALS_R_TO",
 							export = true,
@@ -1399,7 +1399,7 @@ root(ROOTS.Zones, {
 				}),
 				n(RARES, {
 					n(33776, {	-- Gondria
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a very sought-after Hunter Pet. If you see this mob, be a kind soul and announce to General chat instead of killing it.",
 							constant = "THIS_IS_A_VERY_SOUGHT_AFTER_HUNTER_PET_IF_YOU",
 							export = true,
@@ -1512,7 +1512,7 @@ root(ROOTS.Zones, {
 						["cr"] = 29235,	-- Gundrak Savage
 					}),
 					i(38660, {	-- Unliving Choker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This Item will drop instead of |cffffffffWrithing Choker|r until |cffffd700Cleansing Drak'Tharon|r has been completed.",
 							constant = "THIS_ITEM_WILL_DROP_INSTEAD_OF",
 							export = true,
@@ -1539,7 +1539,7 @@ root(ROOTS.Zones, {
 						["cr"] = 28519,	-- Withered Troll
 					}),
 					i(38673, {	-- Writhing Choker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This Item will drop instead of |cffffffffUnliving Choker|r once |cffffd700Cleansing Drak'Tharon|r has been completed.",
 							constant = "THIS_ITEM_WILL_DROP_INSTEAD_OF_2",
 							export = true,

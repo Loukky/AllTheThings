@@ -13,7 +13,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 		["lvl"] = 80,
 		["groups"] = {
 			n(COMMON_BOSS_DROPS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These can drop from any of the bosses on any difficulty.",
 					constant = "THESE_CAN_DROP_FROM_ANY_OF_THE_BOSSES_ON_ANY",
 					export = true,

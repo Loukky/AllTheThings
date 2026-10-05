@@ -3,7 +3,7 @@
 -------------------------------------------
 root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 } }, {
 	race(BLOODELF, bubbleDown({ ["timeline"] = { ADDED_8_1_0 }, ["races"] = { BLOODELF } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Blood Elf|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED",
 			export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(DARKIRON, bubbleDown({ ["timeline"] = { ADDED_8_0_1 }, ["races"] = { DARKIRON } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Character|r and completed |cFFFFD700Ready for War|r, The 8.0 War Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_2",
 			export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(DRAENEI, bubbleDown({ ["timeline"] = { ADDED_10_2_7 }, ["races"] = { DRAENEI } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Draenei|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_3",
 			export = true,
@@ -285,7 +285,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			------ Stay awhile and listen ------
 			hqt(82162, {	-- Stay awhile and Listen: Prophet Velen
 				["name"] = "Stay awhile and listen: Prophet Velen",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Dialogue becomes available after you collect a Memory Stone from Prophet Velen during 'A Burden Shared' (78082).",
 					constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_YOU_COLLECT_A",
 					export = true,
@@ -327,7 +327,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	}));
 	race(DWARF, bubbleDown({ ["timeline"] = { ADDED_8_1_0 }, ["races"] = { DWARF } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Dwarf|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_4",
 			export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["coord"] = { 56.9, 47.9, 1361 },	-- OldIronforge
 			}),
 			q(53839, {	-- Aegrim's Study
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The coords leads to the stair down",
 					constant = "THE_COORDS_LEADS_TO_THE_STAIR_DOWN",
 					export = true,
@@ -454,7 +454,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	header(HEADERS.Race, EARTHEN_ALLIANCE, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 }, ["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Earthen|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_5",
 			export = true,
@@ -515,7 +515,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(GNOME, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { GNOME } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Gnome|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_6",
 			export = true,
@@ -617,7 +617,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(GOBLIN, bubbleDown({ ["timeline"] = { ADDED_8_3_0 }, ["races"] = { GOBLIN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Goblin|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_7",
 			export = true,
@@ -734,7 +734,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	header(HEADERS.Race, HARANIR_ALLIANCE, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_LAUNCH }, ["races"] = { HARANIR_ALLIANCE, HARANIR_HORDE } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Haranir|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_8",
 			export = true,
@@ -754,7 +754,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 		["groups"] = {
 			q(94464, {	-- Heritage of the Haranir
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pops up when you hit level 50.",
 					constant = "POPS_UP_WHEN_YOU_HIT_LEVEL_50",
 					export = true,
@@ -800,7 +800,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(HIGHMOUNTAIN_TAUREN, bubbleDown({ ["timeline"] = { ADDED_7_3_5 }, ["races"] = { HIGHMOUNTAIN_TAUREN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 45 Character|r and completed |cFFFFD700Ain't No Mountain High Enough|r, The Highmountain Storyline.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_9",
 			export = true,
@@ -840,7 +840,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(HUMAN, bubbleDown({ ["timeline"] = { ADDED_10_0_7 }, ["races"] = { HUMAN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Human|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_10",
 			export = true,
@@ -998,7 +998,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(KULTIRAN, bubbleDown({ ["timeline"] = { ADDED_8_1_5 }, ["races"] = { KULTIRAN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Character|r and completed both |cFFFFD700A Nation United|r, The Kul Tiran Campaign and |cFFFFD700Tides of Vengeance|r, The 8.1.5 War Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_11",
 			export = true,
@@ -1042,7 +1042,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(LIGHTFORGED, bubbleDown({ ["timeline"] = { ADDED_7_3_5 }, ["races"] = { LIGHTFORGED } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 45 Character|r and completed |cFFFFD700You Are Now Prepared!|r, The Argus Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_12",
 			export = true,
@@ -1121,7 +1121,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(MECHAGNOME, bubbleDown({ ["timeline"] = { ADDED_8_3_0 }, ["races"] = { MECHAGNOME } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Character|r and completed |cFFFFD700The Mechagonian Threat|r, The Mechagon Storyline.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_13",
 			export = true,
@@ -1160,7 +1160,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(NIGHTELF, bubbleDown({ ["timeline"] = { ADDED_10_1_7 }, ["races"] = { NIGHTELF } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Night Elf|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_14",
 			export = true,
@@ -1261,7 +1261,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	}));
 	race(NIGHTBORNE, bubbleDown({ ["timeline"] = { ADDED_7_3_5 }, ["races"] = { NIGHTBORNE } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 45 Character|r and completed |cFFFFD700Insurrection|r, The 7.2 Suramar Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_15",
 			export = true,
@@ -1301,7 +1301,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(ORC, bubbleDown({ ["timeline"] = { ADDED_10_0_7 }, ["races"] = { ORC } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Orc|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_16",
 			export = true,
@@ -1325,7 +1325,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			-- #endif
 		}, {
 			q(73703, {	-- A Summon to Orgrimmar
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Auto-accepted in Orgrimmar once criteria is met.",
 					constant = "AUTO_ACCEPTED_IN_ORGRIMMAR_ONCE_CRITERIA_IS_MET",
 					export = true,
@@ -1493,7 +1493,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(PANDAREN_NEUTRAL, bubbleDown({ ["timeline"] = { ADDED_11_2_7 }, ["races"] = { PANDAREN_ALLIANCE, PANDAREN_HORDE } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Pandaren|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_17",
 			export = true,
@@ -1514,7 +1514,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		["groups"] = {
 			n(QUESTS, {
 				q(84442, {	-- Invitation to the Spirit Festival [A]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Auto-accepted once criteria is met.",
 						constant = "AUTO_ACCEPTED_ONCE_CRITERIA_IS_MET",
 						export = true,
@@ -1583,7 +1583,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					},
 				}),
 				q(84455, {	-- Big Bertha
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "She is underground in the Virmen tunnels.",
 						constant = "SHE_IS_UNDERGROUND_IN_THE_VIRMEN_TUNNELS",
 						export = true,
@@ -1703,7 +1703,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				------ Stay awhile and listen ------
 				hqt(89227, {	-- Stay awhile and listen: Li Li Stormstout
 					["name"] = "Stay awhile and listen: Li Li Stormstout",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Thousands of Years Ago...' (84466).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_8",
 						export = true,
@@ -1743,7 +1743,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				------ Stay awhile and listen ------
 				hqt(89270, {	-- Stay awhile and listen: Aysa and Ji
 					["name"] = "Stay awhile and listen: Aysa and Ji",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'This Was Home' (84467).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_THIS",
 						export = true,
@@ -1787,7 +1787,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 							},
 						}),
 						i(258636, {	-- Honored Guest's Party Favor
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Awarded to players completing the Heritage Questline more than once.",
 								constant = "AWARDED_TO_PLAYERS_COMPLETING_THE_HERITAGE",
 								export = true,
@@ -1811,7 +1811,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			}),
 			n(SPECIAL, {
 				n(230150, {	-- Hot Air Balloon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can return to the Capital City of your Faction by riding the Hot Air Balloon after you've had enough celebrating.",
 						constant = "YOU_CAN_RETURN_TO_THE_CAPITAL_CITY_OF_YOUR",
 						export = true,
@@ -1835,7 +1835,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 
 	})),
 	race(TAUREN, bubbleDown({ ["timeline"] = { ADDED_8_2_0 }, ["races"] = { TAUREN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Tauren|r that has completed |cFFFFD700Stay of Execution|r, the 8.2 War Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_18",
 			export = true,
@@ -1922,7 +1922,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(TROLL, bubbleDown({ ["timeline"] = { ADDED_10_2_7 }, ["races"] = { TROLL } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Troll|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_19",
 			export = true,
@@ -2065,7 +2065,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	}));
 	race(UNDEAD, bubbleDown({ ["timeline"] = { ADDED_10_1_7 }, ["races"] = { UNDEAD } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Undead|r who has personally done the |cFFFFD700Return to Lordaeron|r questline.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_20",
 			export = true,
@@ -2235,7 +2235,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(VULPERA, bubbleDown({ ["timeline"] = { ADDED_8_3_0 }, ["races"] = { VULPERA } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Character|r and completed |cFFFFD700Secrets in the Sands|r, The Vol'dun Storyline.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_21",
 			export = true,
@@ -2276,7 +2276,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		},
 	})),
 	race(WORGEN, bubbleDown({ ["timeline"] = { ADDED_8_3_0 }, ["races"] = { WORGEN } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Worgen|r.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_22",
 			export = true,
@@ -2344,7 +2344,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["coord"] = { 46.4, 36.9, DUSKWOOD },
 			}),
 			q(54984, {	-- Let Sleeping Wolves Lie
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you can't see Goldrinn, try relog",
 					constant = "IF_YOU_CAN_T_SEE_GOLDRINN_TRY_RELOG",
 					export = true,
@@ -2386,7 +2386,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 		}),
 	})),
 	race(ZANDALARI, bubbleDown({ ["timeline"] = { ADDED_8_1_5 }, ["races"] = { ZANDALARI } }, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "To unlock this questline you need to be logged in on a |cFFa335eelevel 50 Character|r and completed both |cFFFFD700Zandalar Forever!|r, The Zandalari Campaign and |cFFFFD700Tides of Vengeance|r, The 8.1.5 War Campaign.",
 			constant = "TO_UNLOCK_THIS_QUESTLINE_YOU_NEED_TO_BE_LOGGED_23",
 			export = true,

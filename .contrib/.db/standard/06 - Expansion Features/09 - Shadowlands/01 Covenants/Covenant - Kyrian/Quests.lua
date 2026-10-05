@@ -170,7 +170,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(61785, {	-- An Expected Visitor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 11.",
 					constant = "REQUIRES_RENOWN_11",
 					export = true,
@@ -204,7 +204,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(58557, {	-- Assistance from Sinfall
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 13.",
 					constant = "REQUIRES_RENOWN_13",
 					export = true,
@@ -279,7 +279,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 64.7, 45.6, BASTION },
 			}),
 			q(58854, {	-- Convene the Paragons
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 22.",
 					constant = "REQUIRES_RENOWN_22",
 					export = true,
@@ -549,7 +549,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_0 },
 			}),
 			q(64086, {	-- Kyrian Tactician #2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 59.",
 					constant = "REQUIRES_RENOWN_59",
 					export = true,
@@ -571,7 +571,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 42.7, 70.3, ARCHONS_RISE },
 			}),
 			q(63344, {	-- Kyrian Veteran
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 7.",
 					constant = "REQUIRES_RENOWN_7",
 					export = true,
@@ -594,7 +594,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_0 },
 			}),
 			q(64323, {	-- Kyrian Veteran #2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 43.",
 					constant = "REQUIRES_RENOWN_43",
 					export = true,
@@ -660,7 +660,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 68.3, 41.6, BASTION },
 			}),
 			q(57113, {	-- Lysonia's Trail
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 20.",
 					constant = "REQUIRES_RENOWN_20",
 					export = true,
@@ -683,7 +683,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 55.6, 42.0, ARCHONS_RISE },
 			}),
 			q(58775, {	-- Meet the Queen
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 17.",
 					constant = "REQUIRES_RENOWN_17",
 					export = true,
@@ -756,7 +756,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 59.5, 34.2, SANCTUM_OF_BINDING },
 			}),
 			q(62791, {	-- Our Most Precious Resource
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Becomes available after you complete your first Calling quest.",
 					constant = "BECOMES_AVAILABLE_AFTER_YOU_COMPLETE_YOUR_FIRST",
 					export = true,
@@ -861,7 +861,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["isWeekly"] = true,
 			}),
 			q(62861, {	-- Return Lost Souls (10 Souls)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 15.",
 					constant = "REQUIRES_RENOWN_15",
 					export = true,
@@ -885,7 +885,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["isWeekly"] = true,
 			}),
 			q(62862, {	-- Return Lost Souls (15 Souls)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 24.",
 					constant = "REQUIRES_RENOWN_24",
 					export = true,
@@ -909,7 +909,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["isWeekly"] = true,
 			}),
 			q(62863, {	-- Return Lost Souls (20 Souls)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 32.",
 					constant = "REQUIRES_RENOWN_32",
 					export = true,
@@ -1150,7 +1150,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 32.1, 21.2, BASTION },
 			}),
 			q(58787, {	-- Trial of Ascension
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 5.",
 					constant = "REQUIRES_RENOWN_5",
 					export = true,
@@ -1172,7 +1172,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["coord"] = { 55.6, 42.0, ARCHONS_RISE },
 			}),
 			q(58832, {	-- Trinkle Trinkle Little Twerp
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Sicklethorns while doing quest 'Who Are You Fooling?'",
 					constant = "DROPS_FROM_SICKLETHORNS_WHILE_DOING_QUEST_WHO",
 					export = true,

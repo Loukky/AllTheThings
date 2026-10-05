@@ -24,7 +24,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 	}),
 	expansion(EXPANSION.CLASSIC, {
 		i(156683, {	-- Satchel of Helpful Goods [Level 7-50]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Classic' dungeon.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_CLASSIC",
 				export = true,
@@ -88,7 +88,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		}),
 		i(51999, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 15-25
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 15-25 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE",
 				export = true,
@@ -120,7 +120,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(52000, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 26-35
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 26-35 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE_2",
 				export = true,
@@ -151,7 +151,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(67248, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_1, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 35-39 [CATA+]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This is only rewarded for completing Maraudon - Earth Song Falls (level 36-39 range).",
 				constant = "THIS_IS_ONLY_REWARDED_FOR_COMPLETING_MARAUDON",
 				export = true,
@@ -174,7 +174,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 				i(51974),	-- Enumerated Shoulderpads
 				i(51984, {	-- Stalwart Shoulderpads
 					-- #if BEFORE 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These may only be available at level 40+.",
 						constant = "THESE_MAY_ONLY_BE_AVAILABLE_AT_LEVEL_40",
 						export = true,
@@ -196,7 +196,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 				}),
 				i(51997, {	-- Stalwart Spaulders
 					-- #if BEFORE 7.3.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These may only be available below level 40.",
 						constant = "THESE_MAY_ONLY_BE_AVAILABLE_BELOW_LEVEL_40",
 						export = true,
@@ -251,7 +251,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(52002, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 46-55
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 46-55 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE_3",
 				export = true,
@@ -281,7 +281,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(52003, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 56-60
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 56-60 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE_4",
 				export = true,
@@ -362,7 +362,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		}),
 		i(52004, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 60-64
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 60-64 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE_5",
 				export = true,
@@ -389,7 +389,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(52005, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_0, REMOVED_7_3_5 } }, {	-- Satchel of Helpful Goods 65-70
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random dungeon in the level 65-70 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_DUNGEON_IN_THE_6",
 				export = true,
@@ -452,7 +452,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		}),
 		i(114634, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_7_3_5 } }, {	-- Icy Satchel of Helpful Goods 70-74
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Wrath of the Lich King' dungeon in the level 70-74 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_WRATH_OF_THE",
 				export = true,
@@ -495,7 +495,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(114641, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_7_3_5 } }, {	-- Icy Satchel of Helpful Goods 75-80
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Wrath of the Lich King' dungeon in the level 75-80 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_WRATH_OF_THE_2",
 				export = true,
@@ -622,7 +622,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 		}),
 		i(114648, {	-- Scorched Satchel of Helpful Goods 80-83
 			["u"] = REMOVED_FROM_GAME,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Cataclysm' dungeon in the level 80-84 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_CATACLYSM",
 				export = true,
@@ -666,7 +666,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 		}),
 		i(114655, {	-- Scorched Satchel of Helpful Goods 84-85
 			["u"] = REMOVED_FROM_GAME,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Cataclysm' dungeon in the level 84-85 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_CATACLYSM_2",
 				export = true,
@@ -754,7 +754,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(114662, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_7_3_5 }, }, {	-- Tranquil Satchel of Helpful Goods 85-87, 88-90
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Mists of Pandaria' dungeon in the level 85-89 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_MISTS_OF",
 				export = true,
@@ -798,7 +798,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			},
 		})),
 		i(114669, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_7_3_5 }, }, {	-- Tranquil Satchel of Helpful Goods 88-90
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Rewarded for completing a random 'Mists of Pandaria' dungeon in the level 88-89 range.",
 				constant = "REWARDED_FOR_COMPLETING_A_RANDOM_MISTS_OF_2",
 				export = true,

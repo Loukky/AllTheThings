@@ -9,7 +9,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(10709, {	-- You Used to Scrawl Me In Your Fel Tome (automated)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These spawn on any difficulty, but you'll only get one per run, making this achievement a six-run minimum.",
 						constant = "THESE_SPAWN_ON_ANY_DIFFICULTY_BUT_YOU_LL_ONLY",
 						export = true,
@@ -31,7 +31,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(TREASURES, {
 				o(252385, {	-- Torn Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the Chamber of War Room immediately after the Amalgam of Souls fight, on a desk by the southern part of the room.",
 						constant = "FOUND_IN_THE_CHAMBER_OF_WAR_ROOM_IMMEDIATELY",
 						export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 				}),
 				o(252386, {	-- Worn-Edged Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the Grand Hall, to the left of the broken staircase, by the bookshelves.",
 						constant = "FOUND_IN_THE_GRAND_HALL_TO_THE_LEFT_OF_THE",
 						export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 				}),
 				o(252387, {	-- Dog-Eared Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in the Grand Hall, it's in the hallway connecting to the stairwell that takes you to Illysanna Ravencrest, tucked in the back on a desk.",
 						constant = "FOUND_IN_THE_GRAND_HALL_IT_S_IN_THE_HALLWAY",
 						export = true,
@@ -91,7 +91,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 				}),
 				o(252388, {	-- Singed Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in Ravenshold, the room filled with Wyrmtongue Trickster, on a table by three bookshelves and two weapon racks.",
 						constant = "FOUND_IN_RAVENSHOLD_THE_ROOM_FILLED_WITH",
 						export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 				}),
 				o(252390, {	-- Ink-Splattered Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in Rook's Rise, in the small round room connected to the stairs leading to Lord Ravencrest's Chamber after defeating Smashspite the Hateful.",
 						constant = "FOUND_IN_ROOK_S_RISE_IN_THE_SMALL_ROUND_ROOM",
 						export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					}),
 				}),
 				o(252391, {	-- Hastily-Scrawled Page
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in Lord Ravencrest's Chamber on the desk, at the end of the instance.",
 						constant = "FOUND_IN_LORD_RAVENCREST_S_CHAMBER_ON_THE_DESK",
 						export = true,
@@ -378,7 +378,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						["creatureID"] = 98542,	-- Amalgam of Souls
 						["groups"] = {
 							ach(10710, {	-- Black Rook Moan
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Prevent a soul from touching the boss for 60 seconds during the intermission phase.",
 									constant = "PREVENT_A_SOUL_FROM_TOUCHING_THE_BOSS_FOR_60",
 									export = true,

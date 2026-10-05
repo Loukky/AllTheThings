@@ -819,7 +819,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				q(79343, {	-- Everyday I'm Snufflin'
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Strange Lump of Wax is a somewhat rare drop from the continent of Khaz Algar",
 						constant = "STRANGE_LUMP_OF_WAX_IS_A_SOMEWHAT_RARE_DROP",
 						export = true,

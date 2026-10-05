@@ -144,7 +144,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["ignoreBonus"] = true,
 				["groups"] = {
 					i(89804, {	-- Cache of Mogu Riches (Original)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
 							constant = "CONTAINS_28G_50S_THIS_ITEM_AND_OTHER",
 							export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_2_0 },
 					}),
 					i(95618, {	-- Cache of Mogu Riches
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Mogu'shan Vaults.",
 							constant = "THIS_ITEM_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO",
 							export = true,

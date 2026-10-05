@@ -448,7 +448,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 50,
 				}),
 				q(28768, {	-- Winterspring!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available above level 40.",
 						constant = "ONLY_AVAILABLE_ABOVE_LEVEL_40",
 						export = true,

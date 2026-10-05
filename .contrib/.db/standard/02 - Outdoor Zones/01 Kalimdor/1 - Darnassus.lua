@@ -479,7 +479,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(10, 10, 10),
 				}),
 				q(14085, {	-- Learn to Ride in Darnassus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Night Elves in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO",
 						export = true,
@@ -715,7 +715,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, q(78193, {	-- Secrets of the Light (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Completing this quest will allow you to meditate in the same manner as the humans and dwarves.",
 						constant = "COMPLETING_THIS_QUEST_WILL_ALLOW_YOU_TO",
 						export = true,
@@ -757,7 +757,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- Pray over the Supplicant
 							["provider"] = { "n", 215095 },	-- Supplicant
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must first have your Meditation buff and then use /pray on the kneeling Supplicant.",
 								constant = "YOU_MUST_FIRST_HAVE_YOUR_MEDITATION_BUFF_AND",
 								export = true,
@@ -1155,7 +1155,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if AFTER 6.1.0.19508
 			n(TREASURES, {
 				o(240625, {	-- High Priestess' Reliquary
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Loot the chest on the top floor of the Temple of the Moon, on the wall opposite Tyrande Whisperwind.",
 						constant = "LOOT_THE_CHEST_ON_THE_TOP_FLOOR_OF_THE_TEMPLE",
 						export = true,
@@ -1817,7 +1817,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209948, {	-- Relaeron <Caretaker>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the musk and tame a Deer and then bring it to Relaeron.",
 						constant = "USE_THE_MUSK_AND_TAME_A_DEER_AND_THEN_BRING_IT",
 						export = true,

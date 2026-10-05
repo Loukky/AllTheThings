@@ -72,7 +72,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				}),
 				ach(8354, {		-- Puddle Jumper
 					-- #if AFTER 8.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Post-rework, this is only obtainable in the Deepwind Dunk brawl.",
 						constant = "POST_REWORK_THIS_IS_ONLY_OBTAINABLE_IN_THE",
 						export = true,

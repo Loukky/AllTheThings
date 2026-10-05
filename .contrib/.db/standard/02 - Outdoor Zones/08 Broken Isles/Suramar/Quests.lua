@@ -280,7 +280,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 31.0, 85.0, SURAMAR },
 				}),
 				q(41107, {	-- Bad Apples
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must be disguised as a Nightborne.",
 						constant = "MUST_BE_DISGUISED_AS_A_NIGHTBORNE",
 						export = true,
@@ -1104,7 +1104,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(44492, {	-- Leyline Apprentice
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must restore 3 Leyline feeds to get this quest.",
 						constant = "MUST_RESTORE_3_LEYLINE_FEEDS_TO_GET_THIS_QUEST",
 						export = true,
@@ -1195,7 +1195,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 37.0, 46.2, SURAMAR },
 				}),
 				q(44493, {	-- Leyline Proficiency
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must restore 5 Leyline feeds to get this quest.",
 						constant = "MUST_RESTORE_5_LEYLINE_FEEDS_TO_GET_THIS_QUEST",
 						export = true,
@@ -1397,7 +1397,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 52.0, 79.1, SURAMAR },
 				}),
 				q(45260, {	-- One Day at a Time
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You may need to leave Shal'aran before this quest appears.",
 						constant = "YOU_MAY_NEED_TO_LEAVE_SHAL_ARAN_BEFORE_THIS",
 						export = true,
@@ -1521,7 +1521,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 37.8, 61.5, SURAMAR },
 				}),
 				q(41108, {	-- Rain Death Upon Them
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted when you mount a hippogryph.",
 						constant = "AUTOMATICALLY_GRANTED_WHEN_YOU_MOUNT_A",
 						export = true,
@@ -1734,7 +1734,7 @@ root(ROOTS.Zones, {
 					["groups"] = { i(138147) },	-- Control Orb (QI!)
 				}),
 				q(41030, {	-- Sigil Reclamation
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automated granted when approaching the first fallen Moon Guard member.",
 						constant = "AUTOMATED_GRANTED_WHEN_APPROACHING_THE_FIRST",
 						export = true,
@@ -2012,7 +2012,7 @@ root(ROOTS.Zones, {
 					["groups"] = { i(132860 ) },	-- The Black Tome (QI!)
 				}),
 				q(44176, {	-- The Conveniences of Home
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Obtained through Withered Army Training.",
 						constant = "OBTAINED_THROUGH_WITHERED_ARMY_TRAINING",
 						export = true,
@@ -2418,7 +2418,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 57.5, 57.5, SURAMAR },
 				}),
 				q(41109, {	-- Waiting for Revenge
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted after looting the |cFFFFD700Volatile Spell Focus|r.",
 						constant = "AUTOMATICALLY_GRANTED_AFTER_LOOTING_THE",
 						export = true,

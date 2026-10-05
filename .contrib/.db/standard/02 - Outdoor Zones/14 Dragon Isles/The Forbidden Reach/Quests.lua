@@ -296,7 +296,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 			}),
 			-- Augmentation Evoker questline
 			q(72513, {	-- Our Destiny
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You get this anywhere in the Dragon Isles when you specialize in Augmentation for the first time.",
 					constant = "YOU_GET_THIS_ANYWHERE_IN_THE_DRAGON_ISLES_WHEN",
 					export = true,

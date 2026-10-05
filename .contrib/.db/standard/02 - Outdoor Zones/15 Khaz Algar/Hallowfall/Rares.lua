@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["isDaily"] = true,
 		}, {
 			n(207802, {	-- Beledar's Spawn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns immediately somewhere in the zone the moment Beledar shifts into its Void state.",
 					constant = "SPAWNS_IMMEDIATELY_SOMEWHERE_IN_THE_ZONE_THE",
 					export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221668, {	-- Horror of the Shallows
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Swimming along the western coast of Hallowfall between the coordinates.",
 					constant = "SWIMMING_ALONG_THE_WESTERN_COAST_OF_HALLOWFALL",
 					export = true,
@@ -174,7 +174,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221551, {	-- Grimslice
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walking around the park. Can be killed by random Arathi NPCs in area.",
 					constant = "WALKING_AROUND_THE_PARK_CAN_BE_KILLED_BY_RANDOM",
 					export = true,

@@ -13,7 +13,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				["customCollect"] = "SL_COV_KYR",
 			},{
 				q(62692, {	-- A Calling in Bastion
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Will only be offered as the initial 'Calling' during the Covenant introduction.",
 						constant = "WILL_ONLY_BE_OFFERED_AS_THE_INITIAL_CALLING",
 						export = true,

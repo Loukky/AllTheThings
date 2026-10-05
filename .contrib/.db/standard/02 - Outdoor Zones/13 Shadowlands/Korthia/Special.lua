@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	m(KORTHIA, {
 		n(SPECIAL, {
 			n(180063, {	-- Darkmaul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect |cFFFFFFFFTasty Mawshrooms|r from the daily Invasive Mawshroom treasures in Korthia and feed them to Darkmaul.",
 					constant = "COLLECT_CFFFFFFFFTASTY_MAWSHROOMS_R_FROM_THE",
 					export = true,
@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179871, {	-- Dusklight Matriarch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bring 10 |cFFFFFFFFLost Razorwing Eggs|r to the Razorwing Nest to receive the mount.",
 					constant = "BRING_10_CFFFFFFFFLOST_RAZORWING_EGGS_R_TO_THE",
 					export = true,
@@ -84,7 +84,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					q(64297, { ["name"] = "Day 5: Maelie found" }),	-- Day 5
 					q(64299, { ["name"] = "Day 6: Maelie found" }),	-- Day 6
 					q(64292, {	-- Maelie, The Wanderer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you find Maelie 6 times, return to Tinybell and accept responsibility for the wayward unicorn.",
 							constant = "AFTER_YOU_FIND_MAELIE_6_TIMES_RETURN_TO",
 							export = true,

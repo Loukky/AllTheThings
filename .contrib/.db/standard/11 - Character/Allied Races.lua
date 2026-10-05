@@ -890,7 +890,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54734, {	-- Summons from Dorian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The questgiver will appear close to where you turn in |cFFFFD700Balance in All Things|r OR |cFFFFD700Make it Wright|r, depending on which set of quests you do second.",
 					constant = "THE_QUESTGIVER_WILL_APPEAR_CLOSE_TO_WHERE_YOU",
 					export = true,
@@ -1380,7 +1380,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 		["groups"] = {
 			q(53870, {	-- Guests at Grommash Hold
 				-- #if BEFORE 10.1.5
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must be exalted with |cFFFFD700Voldunai|r and complete the |cFFFFD700Secrets in the Sands|r achievement.",
 					constant = "MUST_BE_EXALTED_WITH_CFFFFD700VOLDUNAI_R_AND",
 					export = true,

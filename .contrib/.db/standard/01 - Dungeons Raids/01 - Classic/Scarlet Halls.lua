@@ -27,7 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["coord"] = { 48.4, 20.0, SCARLET_HALLS_ATHENAEUM },
 							["groups"] = {
 								i(82469, {	-- Ancient Tome of Teleport: Dalaran (CI!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Can be looted from a bookshelf if the boss didn't burn them.",
 										constant = "CAN_BE_LOOTED_FROM_A_BOOKSHELF_IF_THE_BOSS_DIDN",
 										export = true,

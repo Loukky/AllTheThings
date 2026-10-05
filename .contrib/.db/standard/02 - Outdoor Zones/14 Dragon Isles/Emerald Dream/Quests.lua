@@ -1086,7 +1086,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			}),
 			-- Sprout weekly?
 			q(77677, {	-- Some Water...
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Dismount, and click through dialogue to obtain quest.",
 					constant = "DISMOUNT_AND_CLICK_THROUGH_DIALOGUE_TO_OBTAIN",
 					export = true,
@@ -1157,7 +1157,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 						},
 					}),
 					i(208647, {	-- Primed Emerald Dream Fertilizer (QI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Takes 3 days to turn into this.",
 							constant = "TAKES_3_DAYS_TO_TURN_INTO_THIS",
 							export = true,

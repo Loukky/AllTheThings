@@ -166,7 +166,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(5243, {	-- Houses of the Holy
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "When mousing over the crates, look for 'Requires: Disarm Trap'. If you see this, it's a trap and shouldn't be touched.\n\nIf you are a dwarf, use find treasure and on the mini map it will show a dot for the holy water in the crate. It will only show crates with items in it on the mini map and not bad crates.",
 						constant = "WHEN_MOUSING_OVER_THE_CRATES_LOOK_FOR_REQUIRES",
 						export = true,
@@ -842,7 +842,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					n(ZONE_DROPS, {
 						i(12811, {	-- Righteous Orb
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can drop from any Scarlet Crusade member in Stratholme in addition to the Scarlet Oracle and the Crimson Elite in the Plaguelands.",
 								constant = "CAN_DROP_FROM_ANY_SCARLET_CRUSADE_MEMBER_IN",
 								export = true,
@@ -865,7 +865,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(12734, {	-- Enchanted Scarlet Thread
 							["provider"] = { "o", 175966 },	-- Enchanted Scarlet Thread
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These can be found in 4 places in the Scarlet Enclave.\n\n1&2: Malor's Room on the Table\n3: In the next room before you split to Cannon Master or Archivist.\n4: In Archivist's room on a box in the back.",
 								constant = "THESE_CAN_BE_FOUND_IN_4_PLACES_IN_THE_SCARLET",
 								export = true,
@@ -913,7 +913,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(11058, {	-- Fras Siabi / Ezra Grimm
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In order to summon this boss, one of your party members must be on the quest.",
 							constant = "IN_ORDER_TO_SUMMON_THIS_BOSS_ONE_OF_YOUR_PARTY",
 							export = true,
@@ -939,7 +939,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if BEFORE 4.0.3
 					n(11082, {	-- Stratholme Courier
 						["timeline"] = { REMOVED_4_0_3 },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drops 3 random keys used to open postboxes found throughout Stratholme. All 3 of the postboxes must be opened to spawn the Postmaster.",
 							constant = "DROPS_3_RANDOM_KEYS_USED_TO_OPEN_POSTBOXES",
 							export = true,
@@ -1209,7 +1209,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(12845, {	-- Medallion of Faith
 							["provider"] = { "o", 176112 },	-- Malor's Strongbox
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Located in Malor's Strongbox. Can be turned in to Aurius on the Dead side of Stratholme to have him aide you during the Baron Rivendare encounter.",
 								constant = "LOCATED_IN_MALOR_S_STRONGBOX_CAN_BE_TURNED_IN",
 								export = true,
@@ -1236,7 +1236,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					n(11120, {	-- Crimson Hammersmith [Classic] / Risen Hammersmith [CATA+]
 						["provider"] = { "o", 176325 },	-- Blacksmithing Plans
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the Hoard on the way to Cannon Master Willey.",
 							constant = "FOUND_IN_THE_HOARD_ON_THE_WAY_TO_CANNON_MASTER",
 							export = true,
@@ -1262,7 +1262,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								["timeline"] = { REMOVED_4_0_3 },
 							}),
 							i(12827, {	-- Plans: Serenity (RECIPE!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must be a Blacksmith in order to loot this from the Plans on the floor.",
 									constant = "YOU_MUST_BE_A_BLACKSMITH_IN_ORDER_TO_LOOT_THIS",
 									export = true,
@@ -1356,7 +1356,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 							i(14679, {	-- Of Love and Family
 								-- #if BEFORE 4.0.3
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Found on the wall near Archivist Galford.",
 									constant = "FOUND_ON_THE_WALL_NEAR_ARCHIVIST_GALFORD",
 									export = true,
@@ -1565,7 +1565,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					})),
 					applyclassicphase(PHASE_SIX, n(16387, {	-- Atiesh <Hand of Sargeras>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Summoned and defeated as part of the Atiesh quest chain to get the Greatstaff of the Guardian.",
 							constant = "SUMMONED_AND_DEFEATED_AS_PART_OF_THE_ATIESH",
 							export = true,
@@ -1587,7 +1587,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["groups"] = {
 							i(22736, {	-- Andonisus, Reaper of Souls
 								-- #if BEFORE 3.0.2
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "He drops this midway through the encounter and one lucky DPS can wield this. However, it is a conjured item and will disappear after a few minutes.",
 									constant = "HE_DROPS_THIS_MIDWAY_THROUGH_THE_ENCOUNTER_AND",
 									export = true,
@@ -1672,7 +1672,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(13176, {	-- Scourge Data
 								["provider"] = { "o", 176249 },	-- Scourge Data
 								-- #if BEFORE 4.0.3
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Located in the Ziggurat behind the boss.",
 									constant = "LOCATED_IN_THE_ZIGGURAT_BEHIND_THE_BOSS",
 									export = true,
@@ -1730,7 +1730,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							-- This is what it should be, but since tooltips for objects with EXACTLY THE SAME NAME are wonky in the same instance (due to a lack of coordinates....), this is necessary to make the tooltips make more sense.
 							-- { "o", 176327 },	-- Blacksmithing Plans
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found outside of Baroness Anastari's ziggurat.",
 							constant = "FOUND_OUTSIDE_OF_BARONESS_ANASTARI_S_ZIGGURAT",
 							export = true,
@@ -1756,7 +1756,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								["timeline"] = { REMOVED_4_0_3 },
 							}),
 							i(12830, {	-- Plans: Corruption (RECIPE!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must be a Blacksmith in order to loot this from the Plans on the floor. This will despawn once a player interacts with it.",
 									constant = "YOU_MUST_BE_A_BLACKSMITH_IN_ORDER_TO_LOOT_THIS_2",
 									export = true,
@@ -1802,7 +1802,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 							i(13514, {	-- Wail of the Banshee
 								-- #if BEFORE 4.0.3
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This can be used on raid bosses and in PVP... Probably not a bad idea to keep on you.",
 									constant = "THIS_CAN_BE_USED_ON_RAID_BOSSES_AND_IN_PVP",
 									export = true,
@@ -1853,7 +1853,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					e(454, {	-- Magistrate Barthilas
 						["creatureID"] = 10435,	-- Magistrate Barthilas
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you enter from the Main Gate side, you can fight this boss first, otherwise he runs to the Slaughter House.",
 							constant = "IF_YOU_ENTER_FROM_THE_MAIN_GATE_SIDE_YOU_CAN",
 							export = true,

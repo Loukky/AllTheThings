@@ -284,7 +284,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 		}),
 		filter(MISC, {
 			i(234422, {	-- Storm-Singed Plunder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Contains 1 Silver and 2 Bronze Spoils.",
 					constant = "CONTAINS_1_SILVER_AND_2_BRONZE_SPOILS",
 					export = true,

@@ -12,7 +12,7 @@ SILITHUS_THE_WOUND = createHeader({
 
 root(ROOTS.Zones, m(KALIMDOR, {
 	n(SILITHUS_THE_WOUND, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Wound was a mini pre-expansion event tailored around the aftermath of the wounding of Azeroth following the conclusion of the Antorus raid. Talk to Zidormi if you are stuck in the old Silithus.",
 			constant = "THE_WOUND_WAS_A_MINI_PRE_EXPANSION_EVENT",
 			export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					n(PROFESSIONS, bubbleDown({ ["timeline"] = { ADDED_8_3_0 } }, {
 						-- Void Focus quests
 						q(57275, {	-- Something in Your Mind
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be made with any crafting profession.",
 								constant = "CAN_BE_MADE_WITH_ANY_CRAFTING_PROFESSION",
 								export = true,
@@ -162,7 +162,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(54938, {	-- A Brother's Help
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Once you complete 'The Chamber of Heart' in Silithus, you can pick this quest up from Magni, or it will be automatically offered when you return to your capital city.",
 								constant = "ONCE_YOU_COMPLETE_THE_CHAMBER_OF_HEART_IN",
 								export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- used to be able to be picked up in Orgrimmar from Nathanos, but that doesn't seem to be the case anymore. Nathanos is still in Org, but the only quest he offered to me at 50 was "Battle for Azeroth: Mission Statement," which i think originally took place after players had picked up the HoA - after completing "Mission Statement" i went back and Nathanos was no longer in that location in Orgrimmar
 						}),
 						q(55519, {	-- A Fresh Trauma
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Your Heart of Azeroth needs to be 55 to start the questline.",
 								constant = "YOUR_HEART_OF_AZEROTH_NEEDS_TO_BE_55_TO_START",
 								export = true,
@@ -270,7 +270,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_3_0 },
 						}),
 						q(55732, {	-- An Old Scar
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Your Heart of Azeroth needs to be 65 to start the questline.",
 								constant = "YOUR_HEART_OF_AZEROTH_NEEDS_TO_BE_65_TO_START",
 								export = true,
@@ -388,7 +388,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_2_0 },
 						}),
 						q(58991, {	-- Curious Corruption
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Automatically granted when you get your first corrupted item.",
 								constant = "AUTOMATICALLY_GRANTED_WHEN_YOU_GET_YOUR_FIRST",
 								export = true,
@@ -448,7 +448,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_2_0 },
 							["groups"] = {
 								n(152095, {	-- Magni Bronzebeard
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This is a terrible experience if you are working through content chronologically, as you cannot circumvent this phased version of Nordrassil.\n\nYou have to get started with Battle for Azeroth, get access to Chamber of Heart in Silithus: The Wound, and reach Heart of Azeroth power level 55. Then you can pick up 'A Fresh Trauma' from Magni in Chamber of Heart and return to Nordrassil for the short questline.",
 										constant = "THIS_IS_A_TERRIBLE_EXPERIENCE_IF_YOU_ARE",
 										export = true,
@@ -515,7 +515,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_2_0 },
 						}),
 						q(55390, {	-- In Darkness, I Dream
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Your Heart of Azeroth needs to be 54 to start the questline.",
 								constant = "YOUR_HEART_OF_AZEROTH_NEEDS_TO_BE_54_TO_START",
 								export = true,
@@ -602,7 +602,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = { currency(1719) },	-- Corrupted Memento
 						}),
 						q(56167, {	-- Investigating the Highlands
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Your Heart of Azeroth needs to be 60 to start the questline.",
 								constant = "YOUR_HEART_OF_AZEROTH_NEEDS_TO_BE_60_TO_START",
 								export = true,
@@ -918,7 +918,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_8_2_0 },
 						}),
 						q(53406, {	-- The Chamber of Heart (third HoA upgrade)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Revered with Champions of Azeroth.",
 								constant = "THIS_QUEST_AWARDS_15_ITEM_LEVELS_FOR_YOUR_HEART",
 								export = true,
@@ -968,7 +968,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(50973, {	-- The Heart's Power (first HoA upgrade)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Friendly with Champions of Azeroth.",
 								constant = "THIS_QUEST_AWARDS_15_ITEM_LEVELS_FOR_YOUR_HEART_2",
 								export = true,
@@ -1032,7 +1032,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(61872, {	-- To Current Matters (A)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest becomes available after completing 'A One-Way Ticket to the Heart' and unlocking the three outposts through the War Campaign, and becomes unavailable after setting foot in Nazjatar.",
 								constant = "THIS_QUEST_BECOMES_AVAILABLE_AFTER_COMPLETING_A",
 								export = true,
@@ -1080,7 +1080,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = { i(170486) },	-- Torn Journal Page #25 (QI!)
 						}),
 						q(53405, {	-- Unlocking the Heart's Potential (second HoA upgrade)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest awards +15 item levels for your Heart of Azeroth. You can pick it up once one of your characters reaches Honored with Champions of Azeroth.",
 								constant = "THIS_QUEST_AWARDS_15_ITEM_LEVELS_FOR_YOUR_HEART_3",
 								export = true,
@@ -1105,7 +1105,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["lvl"] = 120,
 						}),
 						q(56263, {	-- Unlocking the Power (A)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Your Heart of Azeroth needs to be 70 to start the questline.",
 								constant = "YOUR_HEART_OF_AZEROTH_NEEDS_TO_BE_70_TO_START",
 								export = true,
@@ -1197,7 +1197,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(56185, {	-- Whispers of N'zoth (A)
 							-- #if BEFORE 9.2
 							["sourceQuest"] = 57002,	-- Old Soldier
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest requires finishing the War Campaign and defeating Azshara on any difficulty.",
 								constant = "THIS_QUEST_REQUIRES_FINISHING_THE_WAR_CAMPAIGN",
 								export = true,
@@ -1331,7 +1331,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							}),
 						}),
 						n(152194, {	-- MOTHER
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "MOTHER sells rank 3 essences for Echoes of Ny'alotha provided you have obtained them through other means on your account on at least one character.",
 								constant = "MOTHER_SELLS_RANK_3_ESSENCES_FOR_ECHOES_OF_NY",
 								export = true,
@@ -1490,7 +1490,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 									["cost"] = { { "c", 1755, 10000 } },	-- 10,000 Coalescing Visions
 								}),
 								i(173291, {	-- Luminous Azerite Geode (Rank 4)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires completing the achievement |cffffff00Through the Depths of Visions|r.\n",
 										constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT",
 										export = true,

@@ -29,7 +29,7 @@ root(ROOTS.ExpansionFeatures,
 							["sym"] = {{"sub", "common_vendor", 87049}},	-- Steven Cochrane <Tailoring Patterns>
 						}),
 						n(88283, {	-- Tailoring Follower (Alliance)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You have to build Level 3 Tailoring Emporium and hire a tailor there in order to use these spells.",
 								constant = "YOU_HAVE_TO_BUILD_LEVEL_3_TAILORING_EMPORIUM",
 								export = true,

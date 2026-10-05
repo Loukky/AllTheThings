@@ -39,7 +39,7 @@ local MATRIX_PUNCHOGRAPH_D = o(142696, {	-- Matrix Punchograph 3005-D
 	},
 });
 local MATRIX_PUNCHOGRAPH_E = o(251048, {	-- Matrix Punchograph 3005-E
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "This is located in the Dormitory, in the top-left cubby hole of the sloped southern wall.",
 		constant = "THIS_IS_LOCATED_IN_THE_DORMITORY_IN_THE_TOP",
 		export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["lore"] = "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city.\n\nIt is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplug, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplug remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord.",
 		-- #endif
 		-- #if AFTER 4.0.6
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Horde players can access Gnomeregan from the teleporter in Grom'gol Base Camp, Northern Stranglethorn.",
 			constant = "HORDE_PLAYERS_CAN_ACCESS_GNOMEREGAN_FROM_THE",
 			export = true,
@@ -899,7 +899,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			-- #if AFTER 4.0.3
 			n(7850, {	-- Kernobee
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kernobee was the quest giver of the now removed quest 'A Fine Mess', and remains abandoned on the ground without any purpose.",
 					constant = "KERNOBEE_WAS_THE_QUEST_GIVER_OF_THE_NOW_REMOVED",
 					export = true,
@@ -1017,7 +1017,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(113621, {	-- Endgineer Omegaplugg
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cff3399ffSTEP 1:|r Kill the last boss in Gnomeregan.\n|cff3399ffSTEP 2:|r Go to the back of the pillar on the left side of the room's entrance, and press the small button.\n|cff3399ffSTEP 3:|r Endgineer Omegaplugg will spawn, and his health scales to max level.\n|cff3399ffSTEP 4:|r To stop the bombs from spawning, you must disable the conduits in the room by pressing all the large red buttons in a counterclockwise format. (This is the first conduit on the right as you enter the room.)\n|cff3399ffSTEP 5:|r Kill the boss, and all players can loot the toy. Good luck, have fun!",
 					constant = "CFF3399FFSTEP_1_R_KILL_THE_LAST_BOSS_IN",
 					export = true,
@@ -1219,7 +1219,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						q(79984, {	-- Quadrangulation
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can technically skip this quest if you get summoned to the next one... But you're a Completionist, right? Right?!",
 								constant = "YOU_CAN_TECHNICALLY_SKIP_THIS_QUEST_IF_YOU_GET",
 								export = true,
@@ -1492,7 +1492,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					n(VENDORS, {
 						n(217689, {	-- Ziri "The Wrench" Littlesprocket <Gearhead>
 							["sourceQuest"] = 79705,	-- Salvaging the Salvagematic
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Located in the Clean Zone.",
 								constant = "LOCATED_IN_THE_CLEAN_ZONE",
 								export = true,
@@ -1649,7 +1649,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["cost"] = { { "i", 217007, 1 } },	-- Power Depleted Boots
 								}),
 								i(216646, {	-- Ziri's Mystery Crate
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Contains random reagents and world drops within. Can also contain epics!",
 										constant = "CONTAINS_RANDOM_REAGENTS_AND_WORLD_DROPS_WITHIN",
 										export = true,
@@ -1673,7 +1673,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The following can drop from three of the bosses.",
 							constant = "THE_FOLLOWING_CAN_DROP_FROM_THREE_OF_THE_BOSSES",
 							export = true,
@@ -1718,7 +1718,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(217280, {	-- Grubbis
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Grubbis fight starts with a short gauntlet style fight, a mix of Troggs will spawn in small waves followed by Poison Clouds, you should kite the Troggs into the Poison Clouds. This causes the Poison Clouds to explode and kill the Troggs and then despawn.\n\nAfter a few waves, Grubbis spawns alongside his basilisk pet - Chomper, because of his pet this fight easier to manage with two tanks, but not required with disciplined damage dealers who focus Grubbis himself - this makes threat more manageable. Additionally, everyone with an interrupt must be paying close attention to Chomper's casts, to kick the Petrify cast - otherwise the only tank will lose threat of both bosses.\n\nOnce he spawns, the waves of Troggs and Poison Clouds continue to spawn, these can be managed through the same means as during the gauntlet by kiting the creatures into the clouds. It is possible to ignore the clouds for uptime and cleave or ignore the adds while focusing the boss but it is not recommended for the average raid.",
 							constant = "THE_GRUBBIS_FIGHT_STARTS_WITH_A_SHORT_GAUNTLET",
 							export = true,
@@ -1755,7 +1755,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(220007, {	-- Viscous Fallout
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "He will drop pools of toxic slime that both damages and slows those that stand on it. Making sure to move the boss out of these will make it a lot easier for healers.\n\nThe Viscous Fallout boss will also sometimes spawn in 3x Irradiated Goo, these will run towards the fallen Desiccated Fallout in the ground, make sure to kill them before they make it to the corpses or they will respawn the Desiccated Fallout which cause a lot more raid-wide damage if not interrupted. This can be made easier by initially moving the boss to further from the Desiccated Fallout corpses to give longer leeway for killing the Irradiated Goo.",
 							constant = "HE_WILL_DROP_POOLS_OF_TOXIC_SLIME_THAT_BOTH",
 							export = true,
@@ -1789,7 +1789,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(220072, {	-- Electrocutioner 6000
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The main mechanic of this fight comes from Static Arc, this ability does a chain lighting cast on a player and it bounces twice, hitting a total of three players - these get debuffed and cannot be hit by it again twice in a row or the 500% damage increase will kill them.\n\nThe way to deal with it is to have two pre-assigned groups be moving in and out of close proximity to the boss in order to soak every other Static Arc. Doing this will make the mechanic safe. Ideally have the caster damage dealers do this so that the melee can keep up high uptime on the boss. Healers can potentially be assigned for moving in and out as well, but ideally it's important that they can heal freely since the fight has somewhat respectable damage throughout.\n\nLastly, Magnetic Pulse is an ability that must be respected by everyone, if targeted the player must move out to a empty space or pre-assigned spot in order to avoid damaging other players as well. Just be aware that if targeted, the player should not by any means ever be further away from the boss than the groups soaking Static Arc, otherwise you'll get targeted by it instead and potentially killing the players with the debuff that are currently standing near the boss.",
 							constant = "THE_MAIN_MECHANIC_OF_THIS_FIGHT_COMES_FROM",
 							export = true,
@@ -1825,7 +1825,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(215728, {	-- Crowd Pummeler 9-60
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This fight only requires one tank and should just be tanked normally, the tank should be careful to not get knocked back in order to help with melee dps uptime.\n\nThe boss will initially throw out two gears onto the floor using Gear Toss, which you must dodge as they run linearly through the boss area, they're pretty slow so just position with them in mind since they can knock the players off the platforms and kill them.\n\nOccasionally, the boss will shoot out a frontal Gnomeregan Smash which targets a player and shoots a large projectile that will knock back and kill mainly via fall damage, this can easily be dodged by looking at the boss's feet to see where he's facing since the upper half of the body can be facing elsewhere.\n\nTowards the end of the fight (30%) the boss will also be able to cast The Claw! which will target a random player and dash to grab them and do significant damage - this is telegraphed quite well so healers should pay attention to it and keep that player alive through the initial damage and follow up.",
 							constant = "THIS_FIGHT_ONLY_REQUIRES_ONE_TANK_AND_SHOULD",
 							export = true,
@@ -1860,7 +1860,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(218242, {	-- Mechanical Menagerie (STX-04/BD)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The chicken, squirrel and whelp must be tanked, meaning it requires at least two tanks.\n\nThe sheep instead of being tanked, targets a player and slowly moves towards them. It must be kited, ideally somewhat near the other three but not close enough where it'll Binary Bleat silence the melee and tanks.\n\nRanged should stand near the middle so that the tank and melee can kite the bosses around the perimeter of the boss area.\n\nThe dps should try to damage the bosses somewhat evenly - but pay attention to which boss the whelp applies Overheat onto, since this causes that target to get damaged 25% more while the buff is active, making it more effective to focus while it's up.\n\nEvery boss should die at the same time, otherwise they cast Self Repair which only gets canceled by all of them being at 1hp - this ability will heal them for 31% of their total health.",
 							constant = "THE_CHICKEN_SQUIRREL_AND_WHELP_MUST_BE_TANKED",
 							export = true,
@@ -1911,7 +1911,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(218537, {	-- Mekgineer Thermaplugg
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This fight requires two tanks, as each phase has a different forced tank swap mechanic.\n\nThroughout the fight, the six pillars around the boss arena will ocasionally activate and spawn in bombs if different types depending on the current phase. These pillars must be turned off by clicking the red button to on their right side.\n\nDuring the first phase, the fire boss will be stacking Sprocketfire on the tank, via either Sprocketfire Punch, Furnace Surge, and Incendiary Bombs; and on the raid through the latter two. Furnace Surge can be avoided entirely even by the tank by running directly away from the boss while it does its frontal. Between 5 and 7 stacks, the off-tank should taunt and pick up the boss until the main tank's Sprocketfire runs out.\n\nDuring the second phase, the frost boss will be stacking Freezing on the raid, via Coolant Discharge, and Frost Bomb; and on the tank, via Supercooled Smash. This debuff can be dispelled, meaning one tank can handle the boss the entire phase - without worrying about getting Frozen Solid. Make sure to keep the tank and the raid below 9 stacks, because during the 10th, it will freeze the target, and when Coolant Discharge is cast, it'll causes a raid-wipe.\n\nDuring the third phase, the nature boss will be stacking Radiation Sickness on the raid via Radioactive Bomb; and on the tank through Hazardous Hammer. These stacks should be either dispelled, or at least kept low. Otherwise, when the Toxic Ventilation gets casted, it'll have massive AoE damage. Toxic Ventilation can be interrupted, but the lack of a cast bar can make it more challenging than normal - so those with kicks should pay close attention.\n\nDuring the fourth phase, STX-99/XD will spawn and have all of the abilities mentioned above, although it sounds chaotic, it makes each individual mechanic somewhat easier to deal with, since the none of the three stacks will be major concern as long as you continue dealing with the bombs, and remember the previous basic mechanics.",
 							constant = "THIS_FIGHT_REQUIRES_TWO_TANKS_AS_EACH_PHASE_HAS",
 							export = true,

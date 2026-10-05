@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(TREASURES, {
 			i(180866),	-- Gilded Wader (PET!)
 			o(349797, {	-- Abandoned Curios
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can reach it with Door of Shadows or by jumping down from the road above.",
 					constant = "YOU_CAN_REACH_IT_WITH_DOOR_OF_SHADOWS_OR_BY",
 					export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353791, {	-- Castle Strongbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "A repeatable treasure chest that does not show up on the minimap.",
 					constant = "A_REPEATABLE_TREASURE_CHEST_THAT_DOES_NOT_SHOW",
 					export = true,
@@ -183,7 +183,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 59883,
 			}),
 			o(349795, {	-- Fleeing Soul's Bundle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Bounding Shroom at 47.0, 58.3 to reach the treasure.",
 					constant = "USE_THE_BOUNDING_SHROOM_AT_47_0_58_3_TO_REACH",
 					export = true,
@@ -205,7 +205,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 59886,
 			}),
 			o(358298, {	-- Forbidden Chamber Lockbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Anima Canister to drain anima from Silent Observers, and then use the Extra Action Button next to the Chamber Guardian.",
 					constant = "USE_THE_ANIMA_CANISTER_TO_DRAIN_ANIMA_FROM",
 					export = true,
@@ -234,7 +234,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(357467, {	-- Forbidden Ink
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Take the |cFFFFFFFF[Forbidden Ink]|r from the library at |cFFFFFFFF37.6, 68.7|r and give it to the Lost Quill.",
 					constant = "TAKE_THE_CFFFFFFFF_FORBIDDEN_INK_R_FROM_THE",
 					export = true,
@@ -261,7 +261,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(357565, {	-- Forgotten Angler's Rod
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the fishing rod to spawn Muckribbon.",
 					constant = "CLICK_THE_FISHING_ROD_TO_SPAWN_MUCKRIBBON",
 					export = true,
@@ -287,7 +287,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(339283, {	-- Forgotten Noble's Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Opening a Crypt Door with the Atonement Crypt Key has a chance to reveal a Mirror that leads to this chest.",
 					constant = "OPENING_A_CRYPT_DOOR_WITH_THE_ATONEMENT_CRYPT",
 					export = true,
@@ -318,7 +318,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(349796, {	-- Gilded Plum Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a Greedy Soul that wanders up and down the road. Kill it, and it will drop the treasure.",
 					constant = "THERE_IS_A_GREEDY_SOUL_THAT_WANDERS_UP_AND_DOWN",
 					export = true,
@@ -425,7 +425,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(337237, {	-- Lost Vault
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Opening a Crypt Door with the Atonement Crypt Key has a chance to reveal this treasure.",
 					constant = "OPENING_A_CRYPT_DOOR_WITH_THE_ATONEMENT_CRYPT_2",
 					export = true,
@@ -464,7 +464,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353793, {	-- Parish Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "A repeatable treasure chest that does not show up on the minimap.\n\nThe items in Parish Chests can be looted from other Revendreth treasures, but Parish Chests are up every day.",
 					constant = "A_REPEATABLE_TREASURE_CHEST_THAT_DOES_NOT_SHOW_2",
 					export = true,
@@ -537,7 +537,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			-- Objects
 				o(354115, {	-- Pugilist's Prize
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Defeat the mobs to make the treasure lootable.",
 						constant = "DEFEAT_THE_MOBS_TO_MAKE_THE_TREASURE_LOOTABLE",
 						export = true,
@@ -585,7 +585,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(358318, {	-- R. Suavel Dredger Portrait
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Take the mirror portal in Thornhill Manor at |cFFFFFFFF58.8, 30.3|r. Once inside Redelav Tower, head all the way to the top floor. The portrait is on a small table at |cFFFFFFFF58.0, 27.8|r.",
 					constant = "TAKE_THE_MIRROR_PORTAL_IN_THORNHILL_MANOR_AT",
 					export = true,
@@ -661,7 +661,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(349794, {	-- Remlate's Hidden Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Hug the cliff from the nearby flight path around the building.\nDrops 2 random green zone drops.",
 					constant = "HUG_THE_CLIFF_FROM_THE_NEARBY_FLIGHT_PATH",
 					export = true,
@@ -683,7 +683,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 59885,
 			}),
 			o(351487, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find the small alcove at |cFFFFFFFF65.7, 42.9|r. On the wall behind a dark red oval rug is a single |cFFFFFFFFFlickering Candle|r. Click it to open up a secret passage beneath the rug. To exit after you collect the treasure, click the candle on the right-hand side of the stairs where you entered.",
 					constant = "FIND_THE_SMALL_ALCOVE_AT_CFFFFFFFF65_7_42_9_R",
 					export = true,
@@ -712,7 +712,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351540, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Find a |cFFFFFFFFDredger's Hammer|r in the surrounding area (they sparkle), and use it to open the |cFFFFFFFFJammed Door|r in front of the treasure.\nRequires |cFFFFD700It Used to Be Quiet Here|r completed in order to see hammers.\n\nIf the door closes behind you, use the |cFFFFFFFFEscape Shovel|r on the wall.",
 					constant = "FIND_A_CFFFFFFFFDREDGER_S_HAMMER_R_IN_THE",
 					export = true,
@@ -741,7 +741,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351541, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Enter the crypt at |cFFFFFFFF41.9, 50.0|r. Downstairs, go through the right-hand door. On the left side of the room is a bookshelf with a |cFFFFFFFFNondescript Book|r. Click the book, and the treasure will appear.",
 					constant = "ENTER_THE_CRYPT_AT_CFFFFFFFF41_9_50_0_R",
 					export = true,
@@ -770,7 +770,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351542, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Destroy the |cFFFFFFFFCracked Crate|r in the small alcove at |cFFFFFFFF74.6, 62.6|r. Turn the |cFFFFFFFFHidden Valve|r found inside, and find the treasure in the hidden chamber that opens up in the floor.",
 					constant = "DESTROY_THE_CFFFFFFFFCRACKED_CRATE_R_IN_THE",
 					export = true,
@@ -805,7 +805,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(180173) },	-- House Grinchin Ring
 			}),
 			o(351543, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Do not take the mirror portal!  To the right of the mirror, there is a |cFFFFFFFFHanging Chain|r. Clicking the chain will pull you up to the tiny alcove above the treasure. Click the |cFFFFFFFFGrinchin Calligraphy Set|r on the desk to pick up the |cFFFFFFFFHouse Grinchin Ring|r, which will allow you to loot the treasure.",
 					constant = "DO_NOT_TAKE_THE_MIRROR_PORTAL_TO_THE_RIGHT_OF",
 					export = true,
@@ -835,7 +835,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351544, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Enter the crypt at |cFFFFFFFF55.2, 34.7|r. Downstairs, go through the right-hand door and defeat Lord Darion.\n\nWhen you turn to leave the room, you will see a painting on either side of the door. The one on the right side is a |cFFFFFFFFFlickering Portrait|r, and it has a hidden lever behind it that will open the door to the treasure. There are two more Venthyr guarding the chest.",
 					constant = "ENTER_THE_CRYPT_AT_CFFFFFFFF55_2_34_7_R",
 					export = true,
@@ -869,7 +869,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(351545, {	-- Secret Treasure
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Lord Scowl is imprisoned in a cage next to the treasure. Pick up a book from a nearby fallen cage, climb up the tree, give the book to Lord Scowl, and he will kick the treasure down to the ground for you.",
 					constant = "LORD_SCOWL_IS_IMPRISONED_IN_A_CAGE_NEXT_TO_THE",
 					export = true,
@@ -1057,7 +1057,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(354190, {	-- Stoneborn Satchel
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can jump down from the ledge above or use the Bounding Shroom at |cFFFFFFFF52.5, 59.2|r to reach the treasure.",
 						constant = "YOU_CAN_JUMP_DOWN_FROM_THE_LEDGE_ABOVE_OR_USE",
 						export = true,
@@ -1099,7 +1099,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(357487, {	-- Stylish Parasol
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Go up the stairs that start at 41.3, 44.9.",
 					constant = "GO_UP_THE_STAIRS_THAT_START_AT_41_3_44_9",
 					export = true,
@@ -1125,7 +1125,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(357697, {	-- Taskmaster's Trove
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the Ingress And Egress Rites at |cFFFFFFFF63.0, 72.1|r to see the Chest.",
 					constant = "USE_THE_INGRESS_AND_EGRESS_RITES_AT_CFFFFFFFF63",
 					export = true,
@@ -1161,7 +1161,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(352703, {	-- The Harvest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Read the |cFFFFFFFFNote What Says Where You Put The Key|r near the treasure to figure out where the key is.\n\n- 'By one of those big lamps' = |cFFFFFFFF43.8, 41.4|r / |cFFFFFFFF41.6, 41.2|r\n- 'In another storehouse' = |cFFFFFFFF38.2, 43.7|r",
 					constant = "READ_THE_CFFFFFFFFNOTE_WHAT_SAYS_WHERE_YOU_PUT",
 					export = true,
@@ -1240,7 +1240,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(349793, {	-- Wayfarer's Abandoned Spoils
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the nearby Bounding Shroom to get up to the treasure.",
 					constant = "USE_THE_NEARBY_BOUNDING_SHROOM_TO_GET_UP_TO_THE",
 					export = true,

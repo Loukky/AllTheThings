@@ -5,7 +5,7 @@
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(BASTION, {
 		n(ZONE_REWARDS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items can drop from repeatable treasure chests and are sometimes awarded from world quests or table missions.",
 				constant = "THESE_ITEMS_CAN_DROP_FROM_REPEATABLE_TREASURE",
 				export = true,

@@ -12,7 +12,7 @@ root(ROOTS.Zones, {
 					["classes"] = { ROGUE },
 				}),
 				o(269037, {	-- Loose Pebble
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Used to move Dog from your Garrison into Dalaran.",
 						constant = "USED_TO_MOVE_DOG_FROM_YOUR_GARRISON_INTO",
 						export = true,
@@ -47,7 +47,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				o(244965, {	-- Sheddle's Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Item spawns shortly after midnight on Saturday and stays up for 2 hours (during the Saturday to Sunday transition). To find this chest you go to the upper level of the |cFFFFD700Photonic Playground|r, which is connected to the toy shop (you will know it's the right area if you see |cFFFFD700Shandy Glossgleam|r there with his pool). You will either want to fly past |cFFFFD700Shandy Glossgleam|r or go up the stairs to reach the area. Once you walk in you will see the chest in between a white chair and a brown chair.",
 						constant = "ITEM_SPAWNS_SHORTLY_AFTER_MIDNIGHT_ON_SATURDAY",
 						export = true,
@@ -96,7 +96,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				o(266851, {	-- Wand of Simulated Life
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Item is sitting on a table upstairs in The Legerdemain Lounge.",
 						constant = "ITEM_IS_SITTING_ON_A_TABLE_UPSTAIRS_IN_THE",
 						export = true,

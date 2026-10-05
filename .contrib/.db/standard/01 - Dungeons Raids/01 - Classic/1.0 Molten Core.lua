@@ -111,7 +111,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					})),
 					applyclassicphase(PHASE_THREE, q(7785, {	-- Examine the Vessel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest becomes available once you have looted either of the two Bindings of the Windseeker.\n\nWARNING: You may want to immediately travel to Silithus when you do as the Essence of the Firelord only drops from Ragnaros if you are on this quest!",
 							constant = "THIS_QUEST_BECOMES_AVAILABLE_ONCE_YOU_HAVE",
 							export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								["provider"] = { "i", 17771 },	-- Elementium Bar
 								-- #if SEASON_OF_DISCOVERY
 								-- #if BEFORE 1.15.4
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Neither the Elementium Ore nor the recipe for smelting these bars are in the game until BWL... In the meantime, gather the required materials while things are less in demand.",
 									constant = "NEITHER_THE_ELEMENTIUM_ORE_NOR_THE_RECIPE_FOR",
 									export = true,
@@ -210,7 +210,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								["provider"] = { "i", 18564 },	-- Bindings of the Windseeker [Right]
 							}),
 							n(14435, {	-- Prince Thunderaan <The Wind Seeker>
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This is a 40-man raid boss.",
 									constant = "THIS_IS_A_40_MAN_RAID_BOSS",
 									export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["lvl"] = 60,
 				})),
 				q(7487, {	-- Attunement to the Core [Old]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete this quest to be able to quickly teleport to Molten Core by simply talking to Lothos.",
 						constant = "COMPLETE_THIS_QUEST_TO_BE_ABLE_TO_QUICKLY",
 						export = true,
@@ -460,7 +460,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				})),
 				q(7632, bubbleDown({ ["timeline"] = { ADDED_1_0_1, REMOVED_4_0_3 } }, {	-- The Ancient Leaf
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To find Vartrus go to the Irontree Woods in Felwood, there is an island in the middle of the green sludge with a little hill on it, go up the hill and Vartrus will appear to you.",
 						constant = "TO_FIND_VARTRUS_GO_TO_THE_IRONTREE_WOODS_IN",
 						export = true,
@@ -507,7 +507,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(REWARDS, {
 				i(17333, {	-- Aqual Quintessence
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Return to the Duke at Honored reputation after completing the Hands of the Enemy quest to receive this item from a dialog option.",
 						constant = "RETURN_TO_THE_DUKE_AT_HONORED_REPUTATION_AFTER",
 						export = true,
@@ -530,7 +530,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["timeline"] = { ADDED_1_0_1, REMOVED_3_0_8 },
 				}),
 				applyclassicphase(PHASE_THREE, i(22754, {	-- Eternal Quintessence
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Return to the Duke at Revered reputation to be given a version of your Quintessence that can be used more than once.",
 						constant = "RETURN_TO_THE_DUKE_AT_REVERED_REPUTATION_TO_BE",
 						export = true,
@@ -556,7 +556,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(ZONE_DROPS, {
 				applyclassicphase(PHASE_FIVE, i(20951, {	-- Narain's Scrying Goggles
 					-- #if BEFORE CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "For this to drop, you must be on the Scrying Goggles? No Problem! quest.",
 						constant = "FOR_THIS_TO_DROP_YOU_MUST_BE_ON_THE_SCRYING",
 						export = true,
@@ -712,7 +712,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(16822),	-- Nightslayer Pants (Rogue)
 					i(16814, {	-- Pants of Prophecy (Priest)
 						-- #if AFTER 7.3.5
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "For Blizzard to consider the Tier 1 Priest set as collected in the Transmog Preview, you need to loot these exact pants.",
 							constant = "FOR_BLIZZARD_TO_CONSIDER_THE_TIER_1_PRIEST_SET",
 							export = true,
@@ -862,7 +862,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 					i(17074),	-- Shadowstrike
 					i(17223, {	-- Thunderstrike
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use Shadowstrike to create this item.",
 							constant = "USE_SHADOWSTRIKE_TO_CREATE_THIS_ITEM",
 							export = true,
@@ -943,7 +943,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["lvl"] = 60,
 					}),
 					i(18646, {	-- The Eye of Divinity
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Reagent for the Splinter of Nordrassil. Used by Priests to create Benediction and Anathema.",
 							constant = "REAGENT_FOR_THE_SPLINTER_OF_NORDRASSIL_USED_BY",
 							export = true,
@@ -995,7 +995,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					}),
 					i(19017, {	-- Essence of the Firelord
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "For this to drop, you must be on the 'Thunderaan the Windseeker' quest.",
 							constant = "FOR_THIS_TO_DROP_YOU_MUST_BE_ON_THE_THUNDERAAN",
 							export = true,
@@ -1071,7 +1071,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				n(227819, {	-- Duke Hydraxis
 					["provider"] = { "n", 231178 },	-- Duke Hydraxis
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to the Duke to Turn Up The Heat! (Or let your raid leader do that instead...)\n\nAlso sells 'Core Forged' versions of the Tier 2 gear.",
 						constant = "SPEAK_TO_THE_DUKE_TO_TURN_UP_THE_HEAT_OR_LET",
 						export = true,
@@ -1890,7 +1890,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228297),	-- Shard of the Flame
 				}),
 				n(227939, {	-- The Molten Core
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available on Molten Heat difficulty.\n\nCan drop loot from any other Molten Core boss. It has no unique drops of its own.",
 						constant = "ONLY_AVAILABLE_ON_MOLTEN_HEAT_DIFFICULTY_CAN",
 						export = true,
@@ -1910,7 +1910,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					}),
 				}),
 				spell(458843, {	-- Molten Heat [Heat Level 3]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can opt into Heat Level 3 by speaking to Duke Hydraxis. Doing so will drop 'Molten' varients of the weapons that have a neat molten appearance despite providing no difference in quality. (Cosmetic only!)",
 						constant = "YOU_CAN_OPT_INTO_HEAT_LEVEL_3_BY_SPEAKING_TO",
 						export = true,

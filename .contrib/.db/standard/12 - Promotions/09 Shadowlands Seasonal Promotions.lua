@@ -30,7 +30,7 @@ root(ROOTS.Promotions, {
 		["groups"] = {
 			-- SEASON 1
 			mount(348162, {	-- Wandering Ancient (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Granted to players by logging in on character of at least level 20.",
 					constant = "GRANTED_TO_PLAYERS_BY_LOGGING_IN_ON_CHARACTER",
 					export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- SEASON 2
 			i(187834, {		-- Tormented Banner of the Opportune (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Great Push: SL Season 2\n\nInstead of teams fighting to beat their opponent's time, The Great Push is focused on teams pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Tormented Banner of the Opportune to use in-game!\nSign-ups close 29 Nov 2021 and The Proving Grounds are on 3-5 Dec (US).",
 					constant = "THE_GREAT_PUSH_SL_SEASON_2_INSTEAD_OF_TEAMS",
 					export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- SEASON 3
 			i(187957, {		-- Encrypted Banner of the Opportune (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mythic Dungeon International: SL Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions for its 6th year, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Encrypted Banner of the Opportune to use in-game!\nSign-ups close 28 March 2022 and The Proving Grounds are on 30 March - 5 April (US).",
 					constant = "MYTHIC_DUNGEON_INTERNATIONAL_SL_SEASON_3_THE",
 					export = true,
@@ -98,7 +98,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			i(95474, {	-- Jewel of the Firelord (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through Prime Gaming from June 29th 2022 till July 26th 2022.",
 					constant = "OBTAINED_THROUGH_PRIME_GAMING_FROM_JUNE_29TH",
 					export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- SEASON 4
 			ach(15594, {	-- Fearless Spectator
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Granted to players who watch MDI Global Finals, AWC Grand Finals or AWC Cross-Region Tournament for 2 total hours in July 2022. You have to link your Battle.net account to your YouTube account and watch eligible streams.",
 					constant = "GRANTED_TO_PLAYERS_WHO_WATCH_MDI_GLOBAL_FINALS",
 					export = true,
@@ -153,7 +153,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- Removed again on August 24th 2022
 			}),
 			i(187958, {		-- Shrouded Banner of the Opportune (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Break the Meta: SL Season 4\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season's 4 off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFRaider.io/break-the-meta-2022|r and complete 2 or more eligible timed keystones at level 15 or higher during BTM S4, and the Shrouded Banner of the Opportune will be automatically added to your collection in-game within 30 days of the conclusion of the event.\n\nThe Event starts on October 4th for US, October 5th for EU & October 6th for KR/TW & lasts for the entire reset of your region.\n\nThis was previously available through The Great Push: SL Season 4.",
 					constant = "BREAK_THE_META_SL_SEASON_4_INSTEAD_OF_TEAMS",
 					export = true,
@@ -178,7 +178,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- Removed again on October 12th 2022
 			}),
 			i(95475, {	-- Crown of Eternal Winter (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through Prime Gaming from August 24th 2022 till September 20th 2022.",
 					constant = "OBTAINED_THROUGH_PRIME_GAMING_FROM_AUGUST_24TH",
 					export = true,
@@ -202,7 +202,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			mount(386452, {	-- Frostbrood Proto-Wyrm (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to unlock the Frostbrood Proto-Wyrm you have finish the Death Knight starting zone in |cFFfe040fWotLK Classic|r. The very first Death Knight you make is completely free of restrictions, so even if you've never played Classic before, you can create a Death Knight starting at level 55.",
 					constant = "IN_ORDER_TO_UNLOCK_THE_FROSTBROOD_PROTO_WYRM",
 					export = true,

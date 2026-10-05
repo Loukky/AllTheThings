@@ -7,7 +7,7 @@ local SHRIEKERS_VOICEBOX = i(180713);
 local DREDBATSKIN_JERKIN = i(183720);
 local FORGEMASTERS_MANYFOLD_RAPIER = i(180489);
 local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Can be killed and looted by any Covenant, but a member of the |cFFfe040fVenthyr Covenant|r must channel anima to Wanecrypt Hill to summon it. Find a Dredhollow Bolt and give it to Wingsmash.",
 		constant = "CAN_BE_KILLED_AND_LOOTED_BY_ANY_COVENANT_BUT_A_2",
 		export = true,
@@ -30,7 +30,7 @@ local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
 	["coord"] = { 45.8, 79.0, REVENDRETH },
 	["groups"] = {
 		q(59607, {	-- Takin' Down the Beast
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This quest is offered in order to make Harika attackable.\n\nSeek out a Dredhollow Bolt in Dredhollow north-east from here.\nAfter completing the quest, talk to Wingsmash and tell him to Smash.",
 				constant = "THIS_QUEST_IS_OFFERED_IN_ORDER_TO_MAKE_HARIKA",
 				export = true,
@@ -73,7 +73,7 @@ local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
 	},
 });
 local FORGEMASTER_MADALAV = n(159496, {	-- Forgemaster Madalav
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Can be killed and looted by any Covenant, but a member of the |cFFfe040fVenthyr Covenant|r must channel anima to Dominance Keep and click on |cFFFFFFFFMadalav's Hammer|r to summon the rare.",
 		constant = "CAN_BE_KILLED_AND_LOOTED_BY_ANY_COVENANT_BUT_A_3",
 		export = true,
@@ -133,7 +133,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 							n(TREASURES, {
 								o(356757, {	-- Greed's Desire
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Part of the Greater Greedstone treasure. Requires focusing the Anima Conductor at Crypt of the Forgotten.",
 										constant = "PART_OF_THE_GREATER_GREEDSTONE_TREASURE",
 										export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 		header(HEADERS.Achievement, 6193, {
 			-- Note: [As of patch 6.0.1 Level 90 Boost does reward this gear instead]
 			-- Note: [As of --Date--(when this became class trial) you obtain the old Level 90 Boost Gear]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These were obtained by creating a Level 90 Class Trial or boosting a character to Level 90 for each class and specialization.",
 				constant = "THESE_WERE_OBTAINED_BY_CREATING_A_LEVEL_90_2",
 				export = true,

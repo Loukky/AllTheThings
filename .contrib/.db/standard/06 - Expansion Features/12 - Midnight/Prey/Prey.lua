@@ -446,7 +446,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 			q(91229),	-- Prey: Zadu, Fist of Nalorakk (Nightmare)
 		})),
 		n(258928, {	-- Ral'kala <Terror of the Isle>
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Repeatable special Prey Mob on The Coiled Isle.\nSpawned as a public event by burning 98x Ossified Relic at a Haunted Brazier. Has Delayed Demise (immune 15s on spawn), keep attacking or he despawns and the Relics are lost.\n\nRequires Preyhunter's Journey Rank 1 unlocked and Prey: Curse of the Isle, actived by Astalor Bloodsworn, npc 266481.\nTo see/fight him and to get loot you must personally burn at least 1x Ossified Relic at the brazier.",
 				constant = "REPEATABLE_SPECIAL_PREY_MOB_ON_THE_COILED_ISLE",
 				export = true,

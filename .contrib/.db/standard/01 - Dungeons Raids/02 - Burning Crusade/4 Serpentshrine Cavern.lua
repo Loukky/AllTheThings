@@ -24,7 +24,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 		["groups"] = {
 			n(QUESTS, {
 				q(10944, {	-- The Secret Compromised
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After you defeat Fathom-Lord Karathress, Seer Olum will be freed from his cage and offer you the quest.",
 						constant = "AFTER_YOU_DEFEAT_FATHOM_LORD_KARATHRESS_SEER",
 						export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 				i(30021),	-- Wildfury Greatstaff
 				i(30183),	-- Nether Vortex
 				i(32897, {	-- Mark of the Illidari
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only used to buy flasks usable for later TBC raids. Access to the apothecary vendor requires being Exalted with Cenarion Expedition, the Sha'tar, and the Aldor/Scryers.",
 						constant = "ONLY_USED_TO_BUY_FLASKS_USABLE_FOR_LATER_TBC",
 						export = true,

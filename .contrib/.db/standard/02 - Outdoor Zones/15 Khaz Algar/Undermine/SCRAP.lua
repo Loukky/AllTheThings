@@ -27,7 +27,7 @@ end
 root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(UNDERMINE, {
 		n(SCRAP, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Frequently around the zone a pile of scrap will be marked on the map, ready for excavation. Once started, there is a two minute timer to dig up as much as possible, clearing obstables and dodging projectiles. Renown unlocks new drops and efficiency upgrades, and a rare mob can sometimes spawn at max excavation progress.",
 				constant = "FREQUENTLY_AROUND_THE_ZONE_A_PILE_OF_SCRAP_WILL",
 				export = true,
@@ -162,7 +162,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				FromSCRAP(n(RARES, {
 					n(234621, {	-- Gallagio Garbage <Luxury Trash>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.\n\nNote: All loot can drop even when the daily flag is saved.",
 							constant = "CAN_SPAWN_WHEN_PLAYERS_FILL_THE_TRASH_SHOVELED",
 							export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					--
 					i(236161, {	-- Broiler Supreme 300 (COSMETIC!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can randomly drop while scraping.",
 							constant = "CAN_RANDOMLY_DROP_WHILE_SCRAPING",
 							export = true,
@@ -237,7 +237,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["description"] = "~L.CAN_RANDOMLY_DROP_WHILE_SCRAPING",
 					}),
 					i(233246, {	-- Gunk-Covered Thingy
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
 							constant = "REQUIRES_THE_SCRAPPY_S_C_R_A_P_PER_III_PERK",
 							export = true,

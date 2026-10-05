@@ -331,7 +331,7 @@ root(ROOTS.Craftables, {
 		n(COMMON_VENDOR_ITEMS, {
 			["groups"] = appendAllGroups(
 				sharedData({	-- Vanilla cooking reagents
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Cooking Suppliers, as well as some Trade vendors around the world.",
 						constant = "CAN_BE_BOUGHT_FROM_COOKING_SUPPLIERS_AS_WELL_AS",
 						export = true,
@@ -368,7 +368,7 @@ root(ROOTS.Craftables, {
 				}),
 				{
 					i(1179, {	-- Ice Cold Milk
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be bought from bartenders, innkeepers and general goods vendors.",
 							constant = "CAN_BE_BOUGHT_FROM_BARTENDERS_INNKEEPERS_AND",
 							export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Craftables, {
 		header(HEADERS.Spell, 13262, {	-- Disenchant
 			-- Dust:
 			i(11176, {	-- Dream Dust
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets and rings within the ilvl bracket 46-55.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN",
 					export = true,
@@ -498,7 +498,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(16204, {	-- Illusion Dust
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets and rings within the ilvl bracket 56-65.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_2",
 					export = true,
@@ -518,7 +518,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11083, {	-- Soul Dust
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets, rings, shields and off-hand frills within the ilvl bracket 26-35.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_3",
 					export = true,
@@ -538,7 +538,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(10940, {	-- Strange Dust
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets, rings, shields and off-hand frills within the ilvl bracket 10-25.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_4",
 					export = true,
@@ -558,7 +558,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11137, {	-- Vision Dust
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets, rings, shields and off-hand frills within the ilvl bracket 36-45.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_5",
 					export = true,
@@ -579,7 +579,7 @@ root(ROOTS.Craftables, {
 			}),
 			-- Essences:
 			i(11082, {	-- Greater Astral Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets, rings, shields and off-hand frills within the ilvl bracket 26-30.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_6",
 					export = true,
@@ -599,7 +599,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(10998, {	-- Lesser Astral Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality garments, amulets, rings, shields and off-hand frills within the ilvl bracket 21-25.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_7",
 					export = true,
@@ -619,7 +619,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(16203, {	-- Greater Eternal Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality weapons within the ilvl bracket 56-65, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_8",
 					export = true,
@@ -639,7 +639,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(16202, {	-- Lesser Eternal Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 51-55.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_UNCOMMON_GREEN",
 					export = true,
@@ -659,7 +659,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(10939, {	-- Greater Magic Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality weapons within the ilvl bracket 16-30, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_9",
 					export = true,
@@ -679,7 +679,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(10938, {	-- Lesser Magic Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality weapons within the ilvl bracket 11-15, except shields and off-hand frills.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_10",
 					export = true,
@@ -699,7 +699,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11135, {	-- Greater Mystic Essence 
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 36-40.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_UNCOMMON_GREEN_2",
 					export = true,
@@ -719,7 +719,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11134, {	-- Lesser Mystic Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 31-35.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_UNCOMMON_GREEN_3",
 					export = true,
@@ -739,7 +739,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11175, {	-- Greater Nether Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 46-50.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_UNCOMMON_GREEN_4",
 					export = true,
@@ -759,7 +759,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11174, {	-- Lesser Nether Essence
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all uncommon (green) quality gear within the ilvl bracket 41-45.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_UNCOMMON_GREEN_5",
 					export = true,
@@ -780,7 +780,7 @@ root(ROOTS.Craftables, {
 			}),
 			-- Shards and crystals:
 			i(14344, {	-- Large Brilliant Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality gear within the ilvl bracket 56-71.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE",
 					export = true,
@@ -800,7 +800,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(14343, {	-- Small Brilliant Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) and epic (purple) quality gear within the ilvl bracket 51-55.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_AND",
 					export = true,
@@ -820,7 +820,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11084, {	-- Large Glimmering Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality gear within the ilvl bracket 26-30.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_2",
 					export = true,
@@ -840,7 +840,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(10978, {	-- Small Glimmering Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality gear within the ilvl bracket 20-25.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_3",
 					export = true,
@@ -860,7 +860,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11139, {	-- Large Glowing Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality gear within the ilvl bracket 36-40.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_4",
 					export = true,
@@ -880,7 +880,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11138, {	-- Small Glowing Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) quality gear within the ilvl bracket 31-35.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_5",
 					export = true,
@@ -900,7 +900,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11178, {	-- Large Radiant Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) and epic (purple) quality gear within the ilvl bracket 46-50.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_AND_2",
 					export = true,
@@ -920,7 +920,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(11177, {	-- Small Radiant Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) and epic (purple) quality gear within the ilvl bracket 41-45.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_AND_3",
 					export = true,
@@ -969,7 +969,7 @@ root(ROOTS.Craftables, {
 	}),
 	prof(ENGINEERING, {
 		n(COMMON_VENDOR_ITEMS, sharedData({
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world.",
 				constant = "CAN_BE_BOUGHT_FROM_ENGINEERING_SUPPLIERS_AS",
 				export = true,
@@ -1032,7 +1032,7 @@ root(ROOTS.Craftables, {
 			}),
 			filter(RECIPES, {
 				i(10713, {	-- Plans: Inlaid Mithril Cylinder (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This recipe is crafted by Gnomish Engineers and given to Blacksmiths to learn so that the Blacksmith can craft the item needed by the Engineer.\n\nIf you are missing this recipe, ask a Gnomish Engineer to craft it for you.",
 						constant = "THIS_RECIPE_IS_CRAFTED_BY_GNOMISH_ENGINEERS_AND",
 						export = true,
@@ -1089,7 +1089,7 @@ root(ROOTS.Craftables, {
 			}),
 			filter(RECIPES, {
 				i(10644, {	-- Recipe: Goblin Rocket Fuel (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This recipe is crafted by Goblin Engineers and given to Alchemists to learn so that the Alchemist can craft the item needed by the Engineer.\n\nIf you are missing this recipe, ask a Goblin Engineer to craft it for you.",
 						constant = "THIS_RECIPE_IS_CRAFTED_BY_GOBLIN_ENGINEERS_AND",
 						export = true,
@@ -1292,7 +1292,7 @@ root(ROOTS.Craftables, {
 	}),
 	prof(FISHING, {
 		n(COMMON_VENDOR_ITEMS, sharedData({
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be bought from Fishing Suppliers, as well as some Trade vendors around the world.",
 				constant = "CAN_BE_BOUGHT_FROM_FISHING_SUPPLIERS_AS_WELL_AS",
 				export = true,
@@ -1342,7 +1342,7 @@ root(ROOTS.Craftables, {
 		})),
 		filter(ONE_HANDED_MACES, {
 			i(6360, {	-- Steelscale Crushfish
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be caught in open water in the given zones.",
 					constant = "CAN_BE_CAUGHT_IN_OPEN_WATER_IN_THE_GIVEN_ZONES",
 					export = true,
@@ -1369,7 +1369,7 @@ root(ROOTS.Craftables, {
 		}),
 		filter(FINGER_F, {
 			i(8350, {	-- The 1 Ring
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interestingly enough, you can fish this out of the lava in Ironforge. I guess the gnomes failed their quest...",
 					constant = "INTERESTINGLY_ENOUGH_YOU_CAN_FISH_THIS_OUT_OF",
 					export = true,
@@ -1588,7 +1588,7 @@ root(ROOTS.Craftables, {
 		}),
 		filter(PROFESSION_EQUIPMENT, {
 			i(6366, {	-- Darkwood Fishing Pole
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be caught in Ashenvale, Arathi Highlands, Hillsbrad Foothills, Stranglethorn Vale, Redridge Mountains and Wetlands.",
 					constant = "CAN_BE_CAUGHT_IN_ASHENVALE_ARATHI_HIGHLANDS",
 					export = true,
@@ -1619,7 +1619,7 @@ root(ROOTS.Craftables, {
 		-- Danny Donkey: The post Cata data for fish and school locations is accurate for viability in retail and might deviate from Cata+ classic. Pre Cata data is also not validated in-game.
 		-- Fish:
 		i(13888, {	-- Darkclaw Lobster
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught on the seaside.",
 				constant = "CAN_BE_CAUGHT_ON_THE_SEASIDE",
 				export = true,
@@ -1651,7 +1651,7 @@ root(ROOTS.Craftables, {
 			["provider"] = { "o", 180658 },	-- School of Deviate Fish
 		}),
 		i(6359, {	-- Firefin Snapper
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Schools can be found on the seaside.",
 				constant = "SCHOOLS_CAN_BE_FOUND_ON_THE_SEASIDE",
 				export = true,
@@ -1700,7 +1700,7 @@ root(ROOTS.Craftables, {
 		}),
 		i(13757, {	-- Lightening Eel
 			["coord"] = { 60.6, 71.7, MAP.SILITHUS },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in inland waters and waterways. This fish have a 5-10% drop rate.",
 				constant = "CAN_BE_CAUGHT_IN_INLAND_WATERS_AND_WATERWAYS",
 				export = true,
@@ -1751,7 +1751,7 @@ root(ROOTS.Craftables, {
 			},
 		}),
 		i(6291, {	-- Raw Brilliant Smallfish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in inland waters and waterways.",
 				constant = "CAN_BE_CAUGHT_IN_INLAND_WATERS_AND_WATERWAYS_2",
 				export = true,
@@ -1795,7 +1795,7 @@ root(ROOTS.Craftables, {
 			},
 		}),
 		i(21153, {	-- Raw Greater Sagefish
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Schools can be found in inland waters and waterways.",
 				constant = "SCHOOLS_CAN_BE_FOUND_IN_INLAND_WATERS_AND",
 				export = true,
@@ -1820,7 +1820,7 @@ root(ROOTS.Craftables, {
 			["provider"] = { "o", 180684 },	-- Greater Sagefish School
 		}),
 		i(6317, {	-- Raw Loch Frenzy
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in The Loch.",
 				constant = "CAN_BE_CAUGHT_IN_THE_LOCH",
 				export = true,
@@ -1857,7 +1857,7 @@ root(ROOTS.Craftables, {
 			},
 		}),
 		i(13759, {	-- Raw Nightfin Snapper
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in inland waters and waterways during night time: 18:00/6pm to 12:00/12pm server time.",
 				constant = "CAN_BE_CAUGHT_IN_INLAND_WATERS_AND_WATERWAYS_3",
 				export = true,
@@ -1947,7 +1947,7 @@ root(ROOTS.Craftables, {
 		}),
 		-- i(13756),	-- Raw Summer Bass: Is properly sourced in 21 - Holidays/Seasonal Fish.lua.
 		i(13760, {	-- Raw Sunscale Salmon
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be caught in inland waters and waterways during day time: 06:00/6am to 21:00/9pm server time.",
 				constant = "CAN_BE_CAUGHT_IN_INLAND_WATERS_AND_WATERWAYS_4",
 				export = true,
@@ -1990,7 +1990,7 @@ root(ROOTS.Craftables, {
 		-- i(13755),	-- Winter Squid: Is properly sourced in 21 - Holidays/Seasonal Fish.lua.
 		-- Fish schools:
 		o(180683, {	-- Firefin Snapper School
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found on the seaside.",
 				constant = "CAN_BE_FOUND_ON_THE_SEASIDE",
 				export = true,
@@ -2033,7 +2033,7 @@ root(ROOTS.Craftables, {
 		o(180752),	-- Firefin Snapper School 4
 		o(180902),	-- Firefin Snapper School 5
 		o(180684, {	-- Greater Sagefish School
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found in inland waters and waterways.",
 				constant = "CAN_BE_FOUND_IN_INLAND_WATERS_AND_WATERWAYS",
 				export = true,
@@ -2116,7 +2116,7 @@ root(ROOTS.Craftables, {
 		}),
 		-- Wreckages:
 		o(180901, {	-- Bloodsail Wreckage
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
 				constant = "WRECKAGES_CAN_BE_FOUND_ON_THE_SEASIDE_AS_WELL",
 				export = true,
@@ -2192,7 +2192,7 @@ root(ROOTS.Craftables, {
 				["maps"] = { MAP.FELWOOD },
 			}),
 			o(176589, {	-- Black Lotus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Black Lotus is a rare spawn, and can spawn in place of other herbs.",
 					constant = "BLACK_LOTUS_IS_A_RARE_SPAWN_AND_CAN_SPAWN_IN",
 					export = true,
@@ -2221,7 +2221,7 @@ root(ROOTS.Craftables, {
 			o(142143, {	-- Blindweed
 				["maps"] = { MAP.SWAMP_OF_SORROWS },
 				["learnedAt"] = 235,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found near wet terrain and/or waterways, somehow Blizzard managed to make this very inconsistent in some zones.",
 					constant = "CAN_BE_FOUND_NEAR_WET_TERRAIN_AND_OR_WATERWAYS",
 					export = true,
@@ -2252,7 +2252,7 @@ root(ROOTS.Craftables, {
 					MAP.REDRIDGE_MOUNTAINS,
 					MAP.SILVERPINE_FOREST,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Usually found near trees.",
 					constant = "USUALLY_FOUND_NEAR_TREES",
 					export = true,
@@ -2289,7 +2289,7 @@ root(ROOTS.Craftables, {
 					MAP.THOUSAND_NEEDLES,
 					MAP.WETLANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Usually found near hillsides, buildings and structures.",
 					constant = "USUALLY_FOUND_NEAR_HILLSIDES_BUILDINGS_AND",
 					export = true,
@@ -2329,7 +2329,7 @@ root(ROOTS.Craftables, {
 					MAP.UNGORO_CRATER,
 					MAP.WESTERN_PLAGUELANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can usually be found on flat open spaces.",
 					constant = "CAN_USUALLY_BE_FOUND_ON_FLAT_OPEN_SPACES",
 					export = true,
@@ -2366,7 +2366,7 @@ root(ROOTS.Craftables, {
 					MAP.DARKSHORE,
 					MAP.REDRIDGE_MOUNTAINS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found on uneven terrain and mountain sides.",
 					constant = "CAN_BE_FOUND_ON_UNEVEN_TERRAIN_AND_MOUNTAIN",
 					export = true,
@@ -2398,7 +2398,7 @@ root(ROOTS.Craftables, {
 					MAP.DUSTWALLOW_MARSH,
 					MAP.STRANGLETHORN_VALE,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found in fertile terrain and fields.",
 					constant = "CAN_BE_FOUND_IN_FERTILE_TERRAIN_AND_FIELDS",
 					export = true,
@@ -2425,7 +2425,7 @@ root(ROOTS.Craftables, {
 					MAP.TANARIS,
 					MAP.BLASTED_LANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found on hot deserts.",
 					constant = "CAN_BE_FOUND_ON_HOT_DESERTS",
 					export = true,
@@ -2450,7 +2450,7 @@ root(ROOTS.Craftables, {
 					{ 55.8, 68.1, MAP.THE_HINTERLANDS },
 					{ 57.0, 81.0, MAP.THE_HINTERLANDS },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found inside caves.",
 					constant = "CAN_BE_FOUND_INSIDE_CAVES",
 					export = true,
@@ -2481,7 +2481,7 @@ root(ROOTS.Craftables, {
 					MAP.FERALAS,
 					MAP.THE_HINTERLANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found by trees and other natural structures.",
 					constant = "CAN_BE_FOUND_BY_TREES_AND_OTHER_NATURAL",
 					export = true,
@@ -2523,7 +2523,7 @@ root(ROOTS.Craftables, {
 					{ 50.0, 58.0, MAP.DESOLACE },
 					{ 80.0, 71.0, MAP.DUSKWOOD },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found on graves.",
 					constant = "CAN_BE_FOUND_ON_GRAVES",
 					export = true,
@@ -2549,7 +2549,7 @@ root(ROOTS.Craftables, {
 					{ 53.5, 46.5, MAP.BLASTED_LANDS },
 					{ 50.0, 80.0, MAP.DESOLACE },
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found in locations corrupted by the Burning Legion.",
 					constant = "FOUND_IN_LOCATIONS_CORRUPTED_BY_THE_BURNING",
 					export = true,
@@ -2589,7 +2589,7 @@ root(ROOTS.Craftables, {
 					MAP.STRANGLETHORN_VALE,
 					MAP.SWAMP_OF_SORROWS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found near trees.",
 					constant = "CAN_BE_FOUND_NEAR_TREES",
 					export = true,
@@ -2625,7 +2625,7 @@ root(ROOTS.Craftables, {
 					MAP.SWAMP_OF_SORROWS,
 					MAP.THOUSAND_NEEDLES,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found in the woods.",
 					constant = "CAN_BE_FOUND_IN_THE_WOODS",
 					export = true,
@@ -2659,7 +2659,7 @@ root(ROOTS.Craftables, {
 					MAP.SWAMP_OF_SORROWS,
 					MAP.WESTERN_PLAGUELANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can usually be found on fertile grounds by inland waters and waterways, but coherency is not Blizzard's forte.",
 					constant = "CAN_USUALLY_BE_FOUND_ON_FERTILE_GROUNDS_BY",
 					export = true,
@@ -2742,7 +2742,7 @@ root(ROOTS.Craftables, {
 					MAP.TANARIS,
 					MAP.THE_HINTERLANDS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found in elven or troll ruins.",
 					constant = "CAN_BE_FOUND_IN_ELVEN_OR_TROLL_RUINS",
 					export = true,
@@ -2810,7 +2810,7 @@ root(ROOTS.Craftables, {
 					MAP.STRANGLETHORN_VALE,
 					MAP.THE_BARRENS,
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can usually be found in the sea, but also sometimes in bodies of inland waters and waterways.",
 					constant = "CAN_USUALLY_BE_FOUND_IN_THE_SEA_BUT_ALSO",
 					export = true,
@@ -3262,7 +3262,7 @@ root(ROOTS.Craftables, {
 			["groups"] = appendAllGroups(
 				{
 					i(4289, {	-- Salt
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
 							constant = "CAN_BE_BOUGHT_FROM_LEATHERWORKING_SUPPLIERS_AS",
 							export = true,
@@ -3292,7 +3292,7 @@ root(ROOTS.Craftables, {
 					}),
 				},
 				sharedData({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Leatherworking- and Tailoring Suppliers, as well as some Trade vendors around the world.",
 						constant = "CAN_BE_BOUGHT_FROM_LEATHERWORKING_AND_TAILORING",
 						export = true,
@@ -3609,7 +3609,7 @@ root(ROOTS.Craftables, {
 					-- ____________________________________________
 					-- Gold
 					o(1734, {	-- Gold Vein
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gold Vein is a rare spawn in place of Iron Deposits and Mithril Deposits.",
 							constant = "GOLD_VEIN_IS_A_RARE_SPAWN_IN_PLACE_OF_IRON",
 							export = true,
@@ -3961,7 +3961,7 @@ root(ROOTS.Craftables, {
 						["timeline"] = { TIMELINE.ADDED_1_60_1 },
 					}),
 					i(2775, {	-- Silver Ore
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Silver Veins is a rare spawn in place of Tin Veins and Iron Deposits.",
 							constant = "SILVER_VEINS_IS_A_RARE_SPAWN_IN_PLACE_OF_TIN",
 							export = true,
@@ -4030,7 +4030,7 @@ root(ROOTS.Craftables, {
 						["provider"] = { "o", 1732 },	-- Tin Vein
 					}),
 					i(7911, {	-- Truesilver Ore
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Truesilver Deposits is a rare spawn in place of Mithril Deposits and Thorium Veins.",
 							constant = "TRUESILVER_DEPOSITS_IS_A_RARE_SPAWN_IN_PLACE_OF",
 							export = true,
@@ -4144,7 +4144,7 @@ root(ROOTS.Craftables, {
 					-- i(7076),	-- Essence of Earth
 					-- Misc:
 					i(12363, {	-- Arcane Crystal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Arcane Crystal is most reliably obtainable from mining Rich Thorium Veins, although the droprate is low.",
 							constant = "ARCANE_CRYSTAL_IS_MOST_RELIABLY_OBTAINABLE_FROM",
 							export = true,
@@ -4179,7 +4179,7 @@ root(ROOTS.Craftables, {
 						},
 					}),
 					i(9262, {	-- Black Vitriol
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This gem is most reliably obtained from mining veins, although the droprate is 1%.",
 							constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_MINING",
 							export = true,
@@ -4212,7 +4212,7 @@ root(ROOTS.Craftables, {
 						["provider"] = { "o", 165658 },	-- Dark Iron Deposit
 					}),
 					i(8150, {	-- Deeprock Salt
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can drop from any highlevel earth elemental and construct creatures, and miners can get additional yield from mining the corpse.",
 							constant = "CAN_DROP_FROM_ANY_HIGHLEVEL_EARTH_ELEMENTAL_AND",
 							export = true,
@@ -4241,7 +4241,7 @@ root(ROOTS.Craftables, {
 				-- Gems (obtainable from prospecting):
 				-- Note: The gems are linked to respective ores with provider for prospecting in JEWELCRAFTING > Prospecting.
 				sharedData({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This gem is most reliably obtained from mining veins, although the droprate is low.",
 						constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM_MINING_2",
 						export = true,
@@ -4537,7 +4537,7 @@ root(ROOTS.Craftables, {
 			}),
 			i(11371, {	-- Dark Iron Bar
 				["cost"] = ClassicCost({ { "i", 11370, 8 } }),	-- Dark Iron Ore
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Learning how to melt Dark Iron Ore from Gloom'rel costs 2 Star Ruby, 20 Gold Bars, and 10 Truesilver Bars.\n\nThe Black Forge can be found in Blackrock Depths, just past the Summoner's Tomb. Head right into The Molten Bridge, and the forge will be on the left side.\nThe Black Anvil can be found by Lord Incendius in the same dungeon.",
 					constant = "LEARNING_HOW_TO_MELT_DARK_IRON_ORE_FROM_GLOOM",
 					export = true,
@@ -4665,7 +4665,7 @@ root(ROOTS.Craftables, {
 			}),
 			-- Base hides:
 			i(4235, {	-- Heavy Hide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is a rare drop in place of Heavy Leather.",
 					constant = "IS_A_RARE_DROP_IN_PLACE_OF_HEAVY_LEATHER",
 					export = true,
@@ -4690,7 +4690,7 @@ root(ROOTS.Craftables, {
 				},
 				}),
 			i(783, {	-- Light Hide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is a rare drop in place of Light Leather.",
 					constant = "IS_A_RARE_DROP_IN_PLACE_OF_LIGHT_LEATHER",
 					export = true,
@@ -4716,7 +4716,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(4232, {	-- Medium Hide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is a rare drop in place of Medium Leather.",
 					constant = "IS_A_RARE_DROP_IN_PLACE_OF_MEDIUM_LEATHER",
 					export = true,
@@ -4740,7 +4740,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(8171, {	-- Rugged Hide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is a rare drop in place of Rugged Leather.",
 					constant = "IS_A_RARE_DROP_IN_PLACE_OF_RUGGED_LEATHER",
 					export = true,
@@ -4763,7 +4763,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(8169, {	-- Thick Hide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Is a rare drop in place of Thick Leather.",
 					constant = "IS_A_RARE_DROP_IN_PLACE_OF_THICK_LEATHER",
 					export = true,
@@ -4823,7 +4823,7 @@ root(ROOTS.Craftables, {
 					7445,	-- Elder Shardtooth
 					7444,	-- Shardtooth Mauler
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from bears in the level bracket 50-60 like shardtooths in Winterspring.",
 					constant = "CAN_BE_SKINNED_FROM_BEARS_IN_THE_LEVEL_BRACKET",
 					export = true,
@@ -4853,7 +4853,7 @@ root(ROOTS.Craftables, {
 					768,	-- Shadow Panther
 					684,	-- Shadowmaw Panther
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Panthers can be found in central Stranglethorn Vale and eastern Swamp of Sorrows.",
 					constant = "PANTHERS_CAN_BE_FOUND_IN_CENTRAL_STRANGLETHORN",
 					export = true,
@@ -4877,7 +4877,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(8368, {	-- Thick Wolfhide
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from all wolfs in the level bracket 40-60 though the droprate is 3-5 %.",
 					constant = "CAN_BE_SKINNED_FROM_ALL_WOLFS_IN_THE_LEVEL",
 					export = true,
@@ -4899,7 +4899,7 @@ root(ROOTS.Craftables, {
 			}),
 			-- Scales
 			i(15416, {	-- Black Dragonscale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from elite creatures of the Black Dragonflight.",
 					constant = "CAN_BE_SKINNED_FROM_ELITE_CREATURES_OF_THE",
 					export = true,
@@ -4925,7 +4925,7 @@ root(ROOTS.Craftables, {
 			}),
 			i(7286),	-- Black Whelp Scale (Sourced in Wetlands [CATA+] / Redridge Mountains)
 			i(15415, {	-- Blue Dragonscale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from elite creatures of the Blue Dragonflight, though is a pain to farm in regards to drop rate.",
 					constant = "CAN_BE_SKINNED_FROM_ELITE_CREATURES_OF_THE_BLUE",
 					export = true,
@@ -4950,7 +4950,7 @@ root(ROOTS.Craftables, {
 			}),
 			i(12607),	-- Brilliant Chromatic Scale (Sourced in Blackwing Lair [WOD+] / Blackwing Spire)
 			i(15412, {	-- Green Dragonscale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from elite creatures of the Green Dragonflight around the world.",
 					constant = "CAN_BE_SKINNED_FROM_ELITE_CREATURES_OF_THE_2",
 					export = true,
@@ -4971,7 +4971,7 @@ root(ROOTS.Craftables, {
 				["maps_disp"] = { MAP.TEMPLE_OF_ATALHAKKAR },
 			}),
 			i(15408, {	-- Heavy Scorpid Scale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from scorpids in the level bracket 50-60.",
 					constant = "CAN_BE_SKINNED_FROM_SCORPIDS_IN_THE_LEVEL",
 					export = true,
@@ -4995,7 +4995,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(15414, {	-- Red Dragonscale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from elite creatures of the Red Dragonflight around the world.",
 					constant = "CAN_BE_SKINNED_FROM_ELITE_CREATURES_OF_THE_RED",
 					export = true,
@@ -5017,7 +5017,7 @@ root(ROOTS.Craftables, {
 			}),
 			i(8154, {	-- Scorpid Scale
 				["maps_disp"] = { MAP.TANARIS },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from scorpids in the level bracket 40-60 like scorpids in Tanaris.",
 					constant = "DROPS_FROM_SCORPIDS_IN_THE_LEVEL_BRACKET_40_60",
 					export = true,
@@ -5037,7 +5037,7 @@ root(ROOTS.Craftables, {
 				}),
 			}),
 			i(8167, {	-- Turtle Scale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from turtles in the level bracket 35-60 like Mudrock turtles in Dustwallow.",
 					constant = "CAN_BE_SKINNED_FROM_TURTLES_IN_THE_LEVEL",
 					export = true,
@@ -5060,7 +5060,7 @@ root(ROOTS.Craftables, {
 				},
 			}),
 			i(8165, {	-- Worn Dragonscale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be skinned from elite creatures of any Dragonflights around the world.",
 					constant = "CAN_BE_SKINNED_FROM_ELITE_CREATURES_OF_ANY",
 					export = true,
@@ -5302,7 +5302,7 @@ root(ROOTS.Craftables, {
 					i(14341),	-- Rune Thread
 				},
 				sharedData({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Tailoring Suppliers, as well as some Trade vendors around the world.",
 						constant = "CAN_BE_BOUGHT_FROM_TAILORING_SUPPLIERS_AS_WELL",
 						export = true,
@@ -5345,7 +5345,7 @@ root(ROOTS.Craftables, {
 			i(4305),	-- Bolt of Silk Cloth
 			i(2997),	-- Bolt of Woolen Cloth
 			i(14342, {	-- Mooncloth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coordinates are for select Moonwells around the world.",
 					constant = "COORDINATES_ARE_FOR_SELECT_MOONWELLS_AROUND_THE",
 					export = true,

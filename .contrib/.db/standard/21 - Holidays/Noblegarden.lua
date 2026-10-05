@@ -364,7 +364,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["timeline"] = { ADDED_3_0_2 },
 		}),
 		ach(2416, {	-- Hard Boiled
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Use the Blossoming Branch on someone else and hopefully they return the favor.",
 				constant = "USE_THE_BLOSSOMING_BRANCH_ON_SOMEONE_ELSE_AND",
 				export = true,
@@ -466,7 +466,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				{ "n", 216836 },	-- Golden Egg
 				{ "n", 219936 },	-- [DNT] Vignette
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drag the large Golden Egg to the Large Duck Nest to spawn the boss.",
 				constant = "DRAG_THE_LARGE_GOLDEN_EGG_TO_THE_LARGE_DUCK",
 				export = true,
@@ -507,7 +507,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			},
 		}),
 		n(216836, {	-- Golden Egg
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "A large golden egg will spawn somewhere nearby that you have to drag to the nest. It is about the same size as a player character and very easy to see. Multiple people can help drag the egg (more people makes it go faster). It works kinda similar to Tuskarr harpoon fishing.",
 				constant = "A_LARGE_GOLDEN_EGG_WILL_SPAWN_SOMEWHERE_NEARBY",
 				export = true,

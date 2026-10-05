@@ -65,7 +65,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							["cost"] = { { "i", 33865, 1 } },	-- Amani Hex Stick
 							["groups"] = {
 								i(33926, {	-- Sealed Scroll Case
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Can contain profession recipes.",
 										constant = "CAN_CONTAIN_PROFESSION_RECIPES",
 										export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						}),
 						-- #endif
 						n(52924, {	-- Vol'jin (Not a Vendor, but a placeholder for information.)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To open the gates you have to tell Vol'jin you are ready to open the gates, and then click ONCE on the gong when it becomes interactable. Your character will keep auto-hitting it, and Vol'jin will open the gates.",
 								constant = "TO_OPEN_THE_GATES_YOU_HAVE_TO_TELL_VOL_JIN_YOU",
 								export = true,
@@ -188,7 +188,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(69799),	-- Quickfinger Ring
 					}),
 					n(24396, {	-- Forest Frog
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use an Amani Hex Stick on a Forest Frog for a chance to get vendors and bags of gold, as well as have Mojo spawn and hop into your bags.",
 							constant = "USE_AN_AMANI_HEX_STICK_ON_A_FOREST_FROG_FOR_A_2",
 							export = true,
@@ -256,7 +256,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						},
 					}),
 					n(ZULAMAN_TIMED_EVENT, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Enter the instance and talk to Vol'Jin to start the event and open the doors. You will now have 15 minutes to defeat the first animal-boss of your choice. Any of the loa spirit bosses will do and there is no required order, but two of them will add extra time to the timer.\n\nKilling Nalorakk (bear) will add 5 minutes to your timer.\nKilling Akil'zon (eagle) will add 5 minutes to your timer.\nOther bosses will not grant additional time.\n\nThe loot from the event is dependent on the number of hostages you rescue, and spawns in containers near the hostage's cage upon release.",
 							constant = "ENTER_THE_INSTANCE_AND_TALK_TO_VOL_JIN_TO_START",
 							export = true,
@@ -294,7 +294,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								i(69589),	-- Leggings of Dancing Blades
 							}),
 							n(ZULAMAN_CHEST_4, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item is found in the prisoner's loot chest associated with the fourth animal boss you defeat within the time limit of the event.\n\nOnly one player can receive this within a given instance lockout.",
 									constant = "THIS_ITEM_IS_FOUND_IN_THE_PRISONER_S_LOOT_CHEST",
 									export = true,

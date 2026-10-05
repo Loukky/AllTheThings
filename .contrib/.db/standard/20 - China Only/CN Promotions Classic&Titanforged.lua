@@ -46,7 +46,7 @@ root(ROOTS.Promotions, {
 	-- #if ANYCLASSIC
 	cnONLY(n(CN_PROMOTIONS_CLASSIC, {
 		cnONLY(i(33225, {	-- Reins of the Swift Spectral Tiger (MOUNT!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Obtained if you paid 267$ to set up a 6 Month WoW Subscription between 25th January 2022 until 25th July 2022.",
 				constant = "OBTAINED_IF_YOU_PAID_267_TO_SET_UP_A_6_MONTH",
 				export = true,
@@ -68,7 +68,7 @@ root(ROOTS.Promotions, {
 		})),
 		cnONLY(mount(471440, {	-- Skybound Spectral Tiger (MOUNT!)
 			["timeline"] = { ADDED_3_4_3, "removed 3.4.5", "added 5.5.2", "removed 5.5.10" },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be bought for ¥1888 ($265 USD) or a discounted price of ¥588 ($82 USD) for owners of the original from October 2024 to 7 January 2025 in the Ingame Shop. The bundle returned for 2026.",
 				constant = "CAN_BE_BOUGHT_FOR_1888_265_USD_OR_A_DISCOUNTED",
 				export = true,
@@ -159,7 +159,7 @@ root(ROOTS.Promotions, {
 				i(45037),	-- Epic Purple Shirt
 				mount(457485),	-- Grizzly Hills Packmaster (MOUNT!)
 				i(273849, {	-- Landro's Sha-Touched Loot Box
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1.25% chance for any of the following:",
 						constant = "1_25_CHANCE_FOR_ANY_OF_THE_FOLLOWING",
 						export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Promotions, {
 		["timeline"] = { "added 3.80.0", "removed 3.80.10" },
 		["groups"] = {
 			mount(1280400, {	-- Reforged Invincible (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This red version of the iconic Invincible mount has so far only been available in China. We don't know if or when it'll become available in the rest of the world. It was obtainable only through a special event on China's Titan Reforged servers in September-November 2025, awarded to players who defeated the Lich King in Icecrown Citadel on any difficulty.",
 					constant = "THIS_RED_VERSION_OF_THE_ICONIC_INVINCIBLE_MOUNT",
 					export = true,

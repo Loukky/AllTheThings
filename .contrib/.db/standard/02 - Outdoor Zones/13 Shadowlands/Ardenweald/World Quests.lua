@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(WORLD_QUESTS, {
 			n(REWARDS, {
 				i(187858, {	-- Bunny Soul
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to be listed as a reward for players of the 'Night Fae' Covenant from Pet Battle World Quests.\n\nSwitch to Night Fae Covenant, and use '/attwq' to see if it's up!",
 						constant = "HAS_A_CHANCE_TO_BE_LISTED_AS_A_REWARD_FOR",
 						export = true,
@@ -288,7 +288,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["crs"] = { 170080 },	-- Audience Member / Exposed Boggart
 				}),
 				n(170080, {	-- Exposed Boggart
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "THIS IS A BOGGART.",
 						constant = "THIS_IS_A_BOGGART",
 						export = true,
@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(60475, {	-- We'll Workshop It
 				["groups"] = {
 					ach(14672, {	-- A Bit of This, A Bit of That
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can currently be completed in one appearance of the World Quest by converting the Party to a Raid after collecting the 10 supplies then talking to all 6 NPCs.",
 							constant = "CAN_CURRENTLY_BE_COMPLETED_IN_ONE_APPEARANCE_OF",
 							export = true,

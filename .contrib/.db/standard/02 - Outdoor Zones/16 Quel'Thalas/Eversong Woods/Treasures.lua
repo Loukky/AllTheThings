@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						i(263211),	-- Gilded Eversong Cup (DECOR!)
 						o(613729, {	-- Sunstrider Vessel
 							["provider"] = { "o", 613708 },	-- Sunstrider Vessel / Gift of the Phoenix mid-phase ID for treasure
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Pick up the Vessel and catch 5 Cinder Embers, then place it back where you picked it up.",
 								constant = "PICK_UP_THE_VESSEL_AND_CATCH_5_CINDER_EMBERS",
 								export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = {
 						i(265828),	-- Gilded Armillary Sphere (750g JUNK!)
 						i(262453, {	-- Heathlight Armillary (DECOR!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Complete any quest after looting the 'Gilded Armillary Sphere' to automatically collect this item.",
 								constant = "COMPLETE_ANY_QUEST_AFTER_LOOTING_THE_GILDED",
 								export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				o(613252, {	-- Triple-Locked Safebox
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Pick up the torch and find three keys in your general area.",
 						constant = "PICK_UP_THE_TORCH_AND_FIND_THREE_KEYS_IN_YOUR",
 						export = true,

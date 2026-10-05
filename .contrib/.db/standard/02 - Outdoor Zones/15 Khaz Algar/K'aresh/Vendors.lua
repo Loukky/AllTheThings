@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(236409, {	-- Ta'rex <Rare Materials>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFE50D12WARNING:|r Sells junk items. Purchases are not refundable. Selling the items back will get you back only 1/4 of the gold spent.",
 					constant = "CFFE50D12WARNING_R_SELLS_JUNK_ITEMS_PURCHASES",
 					export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(235314, {	-- Ta'sam <Fine Goods & Lost Treasures>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFE50D12WARNING:|r Sells mostly junk items. Purchases are not refundable. Selling the items back will get you back only 1/4 of the gold spent.",
 					constant = "CFFE50D12WARNING_R_SELLS_MOSTLY_JUNK_ITEMS",
 					export = true,

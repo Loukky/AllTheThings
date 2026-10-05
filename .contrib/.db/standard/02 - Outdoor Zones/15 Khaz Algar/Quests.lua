@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				}),
 				------ Stay awhile and listen ------
 				hqt(84813, {	-- Stay awhile and listen: Rooktender Lufsela
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Ground Pounders' (79146).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_3",
 						export = true,
@@ -313,7 +313,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(82541, {	-- Stay awhile and listen: Merrix <Councilward>
 					["name"] = "Stay awhile and listen: Merrix <Councilward>",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after completing 'Titanic Failsafe' (79157).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING",
 						export = true,
@@ -552,7 +552,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(84139, {	-- Stay awhile and listen: Anduin Wrynn
 					["name"] = "Stay awhile and listen: Anduin Wrynn",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after completing 'Return to Dornogal' (83503).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_2",
 						export = true,
@@ -716,7 +716,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(86818, {	-- Stay awhile and listen: Archamge Aethas Sunreaver
 					["name"] = "Stay awhile and listen: Archmage Aethas Sunreaver",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Magic-stealing Kobolds' (83553). Wait for Kalecgos to cast his Mirror Images and fly away.",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_4",
 						export = true,
@@ -840,7 +840,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(86819, {	-- Stay awhile and listen: Archmage Khadgar
 					["name"] = "Stay awhile and listen: Archmage Khadgar",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after completing 'Farewell, City of Magic' (83773). Go back to Khadgar in Foundation Hall, Dornogal.",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_3",
 						export = true,
@@ -906,7 +906,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(87322, {	-- Stay awhile and listen: Arator
 					["name"] = "Stay awhile and listen: Arator",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Off to Tazavesh' (85002).\nDon't click on the portal immediately.",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_OFF",
 						export = true,
@@ -994,7 +994,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(87378, {	-- Stay awhile and listen: Alleria Windrunner
 					["name"] = "Stay awhile and listen: Alleria Windrunner",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Off to Tazavesh, Again' (85196), right after talking to Ve'nari.",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_OFF_2",
 						export = true,
@@ -1089,7 +1089,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(91850, {	-- Stay awhile and listen: Arator
 					["name"] = "Stay awhile and listen: Arator",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'The Long Vigil' (84943) and 'Preludes and Preparations' (84944).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_THE",
 						export = true,
@@ -1155,7 +1155,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 }
 				------ Stay awhile and listen ------
 				hqt(87418, {	-- Stay awhile and listen: Arator
 					["name"] = "Stay awhile and listen: Arator",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'The Eleventh Hour' (84949).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_THE_2",
 						export = true,

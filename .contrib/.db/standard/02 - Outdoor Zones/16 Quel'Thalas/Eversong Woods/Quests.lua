@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 45.4, 70.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 					q(94871, {	-- Eversong
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Adventure Mode Exclusive Quest from the Scouting Map as you pick to quest in Eversong Woods.",
 							constant = "ADVENTURE_MODE_EXCLUSIVE_QUEST_FROM_THE",
 							export = true,

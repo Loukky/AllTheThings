@@ -320,7 +320,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						}),
 						-- Cosmetic
 						i(205421, {	-- Ponzo's Scheming Topper
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Hat appears when you click dialog options (for the best price - click it a few times)",
 								constant = "HAT_APPEARS_WHEN_YOU_CLICK_DIALOG_OPTIONS_FOR",
 								export = true,

@@ -1068,7 +1068,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				q(70268, {	-- Memories Revived
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To obtain this quest, you must enter the vault located at 27, 61. Once inside, head down the stairs and take a left, and then another left into the room. This room will have a bookshelf on it with the item to start this quest.",
 						constant = "TO_OBTAIN_THIS_QUEST_YOU_MUST_ENTER_THE_VAULT",
 						export = true,
@@ -1142,7 +1142,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			header(HEADERS.Achievement, 16323, {	-- Fragments of History
 				q(70231, {	-- Talk to Emilia Bellocq
 					["name"] = "Talk to Emilia Bellocq",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to Emilia Bellocq and chose her dialogue option to complete this quest and unlock the objects required to complete achievement Fragments of History",
 						constant = "TALK_TO_EMILIA_BELLOCQ_AND_CHOSE_HER_DIALOGUE",
 						export = true,

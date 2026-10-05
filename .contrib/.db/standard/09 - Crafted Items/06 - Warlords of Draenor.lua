@@ -57,24 +57,7 @@ local WOD_CRAFTED_IDENTICAL_ITEM = function(id, upgradeItem)
 	return
 	i(id, {	-- Base Item 1/6
 		["bonusID"] = 525,
-		createLocalizationString({
-			readable = "The upgraded versions of this Item are *still* not available, but they share the same SourceID as this base Item so they will appear as available in ATT.",
-			constant = "THE_UPGRADED_VERSIONS_OF_THIS_ITEM_ARE_STILL",
-			export = true,
-			text = {
-				en = "The upgraded versions of this Item are *still* not available, but they share the same SourceID as this base Item so they will appear as available in ATT.",
-				-- TODO: de = "",
-				-- TODO: es = "",
-				-- TODO: mx = "",
-				-- TODO: fr = "",
-				-- TODO: it = "",
-				-- TODO: ko = "",
-				-- TODO: pt = "",
-				-- TODO: ru = "",
-				cn = "此物品的升级版本**仍然**无法获得，但它们与本基础物品共享同一个 SourceID，因此在 ATT 中会显示为可获得。",
-				-- TODO: tw = "",
-			},
-		}),
+		["description"] = "The upgraded versions of this Item are *still* not available, but they share the same SourceID as this base Item so they will appear as available in ATT.",
 		["groups"] = bubbleDown({["cost"] = upgradeItem and { { "i", upgradeItem, 1 } },},{
 			i(id, {	-- Upgrade 1 2/6
 				["bonusID"] = 558,
@@ -400,7 +383,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 	}),
 	prof(COOKING, {
 		n(DISCOVERY, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items have a chance to appear in your bag after cooking any recipe from Warlords of Draenor.",
 				constant = "THESE_ITEMS_HAVE_A_CHANCE_TO_APPEAR_IN_YOUR_BAG",
 				export = true,

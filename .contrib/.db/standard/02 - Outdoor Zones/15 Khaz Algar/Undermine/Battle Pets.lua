@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			pet(4667, {	-- Spring-Loaded Ribbitron (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Backline pet only",
 					constant = "BACKLINE_PET_ONLY_2",
 					export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 			}),
 			pet(4668, {	-- Ultrahopper EX (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Very long Respawn. Patrols the listed coords.",
 					constant = "VERY_LONG_RESPAWN_PATROLS_THE_LISTED_COORDS",
 					export = true,

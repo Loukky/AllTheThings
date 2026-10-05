@@ -225,7 +225,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			}),
 			-------------------------- Week 2 --------------------------
 			q(62162, {	-- A Message from the Justicar (A)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available if you've done \"Advancing the Effort\" in week 1.",
 					constant = "ONLY_AVAILABLE_IF_YOU_VE_DONE_ADVANCING_THE",
 					export = true,
@@ -595,7 +595,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				["coord"] = { 36.5, 67.7, ICECROWN },
 				["questID"] = 62344,
 				["isRepeatable"] = true,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the Sanctum of Reanimation at the Fleshworks.",
 					constant = "INSIDE_THE_SANCTUM_OF_REANIMATION_AT_THE",
 					export = true,
@@ -931,7 +931,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 				}),
 			}),
 			n(173791, {	-- Crusader Adevald Ironbeard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "While this vendor and his items are still available, the currency required to buy the items is not.\nTagging the vendor and his goods as removed as otherwise they would show up as collectible.",
 					constant = "WHILE_THIS_VENDOR_AND_HIS_ITEMS_ARE_STILL",
 					export = true,

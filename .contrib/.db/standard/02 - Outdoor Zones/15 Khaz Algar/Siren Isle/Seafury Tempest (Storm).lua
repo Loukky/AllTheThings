@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 85404,
 				}),
 				n(231353, {	-- Tempest Talon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Flying around in area, assigned coords easiest spot to pull it.",
 						constant = "FLYING_AROUND_IN_AREA_ASSIGNED_COORDS_EASIEST",
 						export = true,
@@ -89,7 +89,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 85403,
 				}),
 				n(228547, {	-- Slaughtershell
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can spawn almost anywhere on the island.",
 						constant = "CAN_SPAWN_ALMOST_ANYWHERE_ON_THE_ISLAND",
 						export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 85406,
 					["groups"] = {
 						i(235017, {	-- Glittering Vault Shard (TOY!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The toy can drop on every kill and is unaffected by daily lockout.",
 								constant = "THE_TOY_CAN_DROP_ON_EVERY_KILL_AND_IS",
 								export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			})),
 			n(TREASURES, {
 				o(507120, {	-- Ducky Friend
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found during the storm in a house on the 2nd floor, on a bed.",
 						constant = "CAN_BE_FOUND_DURING_THE_STORM_IN_A_HOUSE_ON_THE",
 						export = true,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				o(499127, {	-- Runemarked Coffer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In the back of the left room of the Forgotten Vault during a storm.",
 						constant = "IN_THE_BACK_OF_THE_LEFT_ROOM_OF_THE_FORGOTTEN",
 						export = true,
@@ -201,7 +201,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 85859,
 				}),
 				i(234327, {	-- Turbulent Fragment
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Western coordinates fragment is gathered from a dirtpile, next to a Kul Tiran Ghost.\nSouthern coordinates Fragment in front of a ghost inside a cave.\nNorthern coordinates Fragment is found in the hands of a ghost in another cave.",
 						constant = "WESTERN_COORDINATES_FRAGMENT_IS_GATHERED_FROM_A",
 						export = true,
@@ -229,7 +229,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["cost"] = { { "i", 234327, 3 } },
 				}),
 				i(232605, {	-- Thunderous Fragment
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found in chests and treasures during a storm.",
 						constant = "FOUND_IN_CHESTS_AND_TREASURES_DURING_A_STORM",
 						export = true,
@@ -279,7 +279,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["crs"] = { 230827 },	-- Stormtouched Pridetalon
 				}),
 				i(233498, {	-- Storminfused Snapdragon Treat (CI!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from crab mobs during tempest.",
 						constant = "YOU_MUST_HAVE_THE_PRISMATIC_SNAPDRAGON_MOUNT_4",
 						export = true,
@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					-- n: 227625 (from debugger)
 				}),
 				i(234328, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops rarely from any enemies on the island during a storm.",
 						constant = "DROPS_RARELY_FROM_ANY_ENEMIES_ON_THE_ISLAND",
 						export = true,

@@ -28,7 +28,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			-- #if SEASON_OF_DISCOVERY
 			pickpocketing({
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Rare Creatures only spawn if a Rogue enters the instance alone while on the quest The Horn of Xelthos.",
 					constant = "THE_RARE_CREATURES_ONLY_SPAWN_IF_A_ROGUE_ENTERS",
 					export = true,
@@ -48,7 +48,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				["groups"] = {
 					applyclassicphase(SOD_PHASE_ONE, i(210212, {	-- Brother's Half-Key
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found shortly after Baron Silverlaine.\nHead up the stairs behind the boss, and take a right, Gefell should be in a room up the stairs around the corner.",
 							constant = "FOUND_SHORTLY_AFTER_BARON_SILVERLAINE_HEAD_UP",
 							export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["cr"] = 211764,	-- Gefell
 					})),
 					applyclassicphase(SOD_PHASE_ONE, i(210213, {	-- Sister's Half-Key
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Just after the Kitchen in Baron Silverlaine's room.",
 							constant = "JUST_AFTER_THE_KITCHEN_IN_BARON_SILVERLAINE_S",
 							export = true,
@@ -887,7 +887,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								{ "o", 410528 },	-- Ornamented Chest
 								{ "i", 210209 },	-- Twin Key
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Once you've gotten both of the half keys from pick pocketing the npcs, combine them and bring the twin key to the ornamented chest in the stables.",
 								constant = "ONCE_YOU_VE_GOTTEN_BOTH_OF_THE_HALF_KEYS_FROM",
 								export = true,
@@ -913,7 +913,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, q(78307, {	-- The Horn of Xelthos (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "15 minutes or so after you turn in the first part of the Horn of Xelthos, you'll receive another mail from C and be able to loot the rune from the dead drop outside of SFK.",
 						constant = "15_MINUTES_OR_SO_AFTER_YOU_TURN_IN_THE_FIRST",
 						export = true,
@@ -2211,7 +2211,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				i(60873, {	-- Book of Lost Souls
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item in located on a chair in Lord Walden's room.",
 						constant = "THIS_ITEM_IN_LOCATED_ON_A_CHAIR_IN_LORD_WALDEN",
 						export = true,

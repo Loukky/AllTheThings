@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			i(172957, {	-- Atonement Crypt Key
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Used to open the crypts around |cFFFFFFFF70.1, 55.2|r.",
 					constant = "USED_TO_OPEN_THE_CRYPTS_AROUND_CFFFFFFFF70_1_55",
 					export = true,
@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["sourceQuest"] = 57925,	-- Archivist Fane
 			}),
 			i(182703, {	-- Bubbling Red Muck Dye
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from mobs or |cFFFFFFFFDiscarded Vials|r in the Blistering Bog area (|cFFFFFFFF35.7, 32.7|r).",
 					constant = "DROPS_FROM_MOBS_OR_CFFFFFFFFDISCARDED_VIALS_R",
 					export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			i(182972, {	-- Critter Two-Thumbs Portrait
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from mobs in the Endmire area (|cFFFFFFFF62.5, 44.3|r).",
 					constant = "DROPS_FROM_MOBS_IN_THE_ENDMIRE_AREA_CFFFFFFFF62",
 					export = true,
@@ -191,7 +191,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(177806),	-- Banewood Dirk
 			i(174655, {	-- Bell of Remembrance
 				["questID"] = 61194,	-- after the first day, when you can do the original quest item > second looted bell (this one), i haven't been able to loot more than one bell per day. they also generally drop very quickly, like in < 10 mob kills, and this quest triggers on loot each time
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use in front of the Seal of the Forgotten at |cFFFFFFFF73.2, 33.8|r.",
 					constant = "USE_IN_FRONT_OF_THE_SEAL_OF_THE_FORGOTTEN_AT",
 					export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				-- no questID appears to be attached to this, you can just judge souls as often as you loot bells. this gives no rep (with court of harvesters or the avowed) and i'm not sure if there's anything interesting from the satchel either. it gave me a buff item + some greys the first time, the second one gave me a Crumbling Sinstone that gave 8 Sinstone Fragments
 				["groups"] = {
 					i(174652, {	-- Satchel of Forgotten Heirlooms
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded regardless of your judgment.",
 							constant = "AWARDED_REGARDLESS_OF_YOUR_JUDGMENT",
 							export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(177816),	-- Dredhollow Cape
 			i(179323),	-- Dredhollow Cudgel
 			i(173939, {	-- Enticing Anima
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Used to summon the Worldedge Gorger.",
 					constant = "USED_TO_SUMMON_THE_WORLDEDGE_GORGER",
 					export = true,
@@ -336,7 +336,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(177810),	-- Stonebreaker Mace
 			i(180487),	-- Stonefist's Knuckle Cover
 			i(187930, {	-- Technique: Mark of the Regal Dredbat (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Evedweller bats in Dominance Keep.",
 					constant = "DROPS_FROM_EVEDWELLER_BATS_IN_DOMINANCE_KEEP",
 					export = true,
@@ -362,7 +362,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			i(182705, {	-- Vial of Blue Muck Dye
 				-- may also come from the |cFFFFFFFFDiscarded Vial object that can be found around the muck lakes - only the other itemID version shows up for that now, though|r
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from mobs or |cFFFFFFFFDiscarded Vials|r in the Dredgewood area (|cFFFFFFFF72.9, 73.5|r).",
 					constant = "DROPS_FROM_MOBS_OR_CFFFFFFFFDISCARDED_VIALS_R_2",
 					export = true,
@@ -390,7 +390,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			--]]
 			}),
 			i(184446, {	-- Vial of Blue Muck Dye
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This version of the dye appears to only be used during the initial questline to obtain your Dredger.",
 					constant = "THIS_VERSION_OF_THE_DYE_APPEARS_TO_ONLY_BE_USED",
 					export = true,

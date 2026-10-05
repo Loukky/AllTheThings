@@ -199,7 +199,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				applyclassicphase(TBC_PHASE_FOUR, q(9524, {	-- Imprisoned in the Citadel [Alliance]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest can only be completed on Heroic Difficulty.",
 						constant = "THIS_QUEST_CAN_ONLY_BE_COMPLETED_ON_HEROIC",
 						export = true,
@@ -416,7 +416,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(27517),	-- Bands of Nethekurse
 						i(27519),	-- Cloak of Malice
 						i(23726, {	-- Fel Ember
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the Amulet that he drops on the brazier near his throne to gather the ember.",
 								constant = "USE_THE_AMULET_THAT_HE_DROPS_ON_THE_BRAZIER",
 								export = true,

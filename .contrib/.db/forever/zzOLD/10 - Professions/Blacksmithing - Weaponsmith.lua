@@ -1,7 +1,7 @@
 -- #if ANYCLASSIC
 profession(BLACKSMITHING, {
 	prof(9787, {	-- Weaponsmith
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These items can only be crafted by Blacksmiths who have completed the Way of the Weaponsmith quest chain.\n\nNOTE: You may only have one of these specializations active per character. If you wish to finish your collection, you must level several Blacksmiths and complete the opposing specialization(s).",
 			constant = "THESE_ITEMS_CAN_ONLY_BE_CRAFTED_BY_BLACKSMITHS_4",
 			export = true,
@@ -40,7 +40,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 16991,
 						["requireSkill"] = 17041,
 						-- #if SEASON_OF_DISCOVERY
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Blizzard stated that Annihilator was an item that forced 1 member of the raid into a role that did not fit their design, so they've decided to not include Annihilator.",
 							constant = "BLIZZARD_STATED_THAT_ANNIHILATOR_WAS_AN_ITEM",
 							export = true,

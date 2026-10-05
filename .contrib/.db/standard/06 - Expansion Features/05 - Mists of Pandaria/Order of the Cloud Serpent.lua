@@ -4,7 +4,7 @@
 
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Gain reputation with this faction by training a cloud serpent hatchling, and eventually you will earn either an Azure, Golden, or Jade Cloud Serpent mount. More rewards are unlocked by reaching Revered and Exalted with the faction, including a toy, more mounts, and Jewelcrafting designs.\n\nThe quest chain begins with |cFFefc400Wild Things|r.\n\n",
 			constant = "GAIN_REPUTATION_WITH_THIS_FACTION_BY_TRAINING_A",
 			export = true,
@@ -30,7 +30,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				ach(6550),	-- Order of the Cloud Serpent
 			}),
 			battlepets({
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following pets require Exalted with Order of the Cloud Serpent and can be found around The Arboretum.",
 					constant = "THE_FOLLOWING_PETS_REQUIRE_EXALTED_WITH_ORDER",
 					export = true,
@@ -187,7 +187,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(30148, {	-- Just a Flesh Wound
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Windwool- or Heavy Windwool Bandages. Any other bandages will not provide progression regardless of how well they heal.",
 						constant = "REQUIRES_WINDWOOL_OR_HEAVY_WINDWOOL_BANDAGES",
 						export = true,
@@ -542,7 +542,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(30152, {	-- The Sky Race
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is on a rotation thus only occasionally available. There are no other quests in it's place from the quest giver.\nIs also available for players who are Exalted with the faction given prerequisite quests are completed.",
 						constant = "THIS_QUEST_IS_ON_A_ROTATION_THUS_ONLY",
 						export = true,
@@ -573,7 +573,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						}),
 						i(90537, {	-- Winner's Reward
 							-- #if AFTER LEGION
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains a useless grey item based on how well you place in the race. Sell to vendor before it's duration runs out.",
 								constant = "CONTAINS_A_USELESS_GREY_ITEM_BASED_ON_HOW_WELL",
 								export = true,
@@ -592,7 +592,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 								},
 							}),
 							-- #else
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains a reward of Valor Points based on how well you place in the race.",
 								constant = "CONTAINS_A_REWARD_OF_VALOR_POINTS_BASED_ON_HOW",
 								export = true,
@@ -621,7 +621,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 							},
 						}),
 						ach(7290, {	-- How To Strain Your Dragon
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can do as many attempts as you need, simply dismount the serpent or abandon the quest.\n\nYou can easily get the first place by doing the run on your own fast flying mount. Simply be mounted and activate autorun while interacting with the quest giver.",
 								constant = "YOU_CAN_DO_AS_MANY_ATTEMPTS_AS_YOU_NEED_SIMPLY",
 								export = true,
@@ -825,7 +825,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(30145, {	-- Flight Training: Full Speed Ahead
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a terribly designed escort quest wrapped as a tutorial, where the tutorial part only will be a distraction for unfamiliar players. Your main objective is to keep up with the Instructor, which means cutting corners and going through cloud rings for speed boosts. Read through the monologue in the chat afterwards for the information dump.",
 						constant = "THIS_IS_A_TERRIBLY_DESIGNED_ESCORT_QUEST",
 						export = true,
@@ -894,7 +894,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["isBreadcrumb"] = true,
 				}),
 				q(31810, {	-- Riding the Skies (Azure)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You will receive the mount that corresponds to the color of egg you selected. To get the other two mounts, you may purchase them from the vendor or do the questline again on another character.",
 						constant = "YOU_WILL_RECEIVE_THE_MOUNT_THAT_CORRESPONDS_TO",
 						export = true,
@@ -938,7 +938,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					},
 				}),
 				q(32461, {	-- The Order of the Cloud Serpent
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You are offered this quest after looting a Cloud Serpent mount without having completed the introductory quest for the Order of the Cloud Serpent.",
 						constant = "YOU_ARE_OFFERED_THIS_QUEST_AFTER_LOOTING_A",
 						export = true,
@@ -1025,7 +1025,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						31811,	-- Riding the Skies (Golden)
 						30188,	-- Riding the Skies (Jade)
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is learned by completing the Riding the Skies quest chain upon reaching Exalted with the Order of the Cloud Serpents.",
 						constant = "THIS_IS_LEARNED_BY_COMPLETING_THE_RIDING_THE",
 						export = true,
@@ -1050,7 +1050,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			-- #endif
 			n(TREASURES, {
 				o(214945, {	-- Onyx Egg
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Collect these until exalted for turn-in reputation with the Order of the Cloud Serpents.",
 						constant = "COLLECT_THESE_UNTIL_EXALTED_FOR_TURN_IN",
 						export = true,
@@ -1131,7 +1131,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 						}, {	-- Exalted
 							i(83877),	-- Design: Jeweled Onyx Panther (RECIPE!)
 							i(183123, {	-- How to School Your Serpent (CI!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Purchasable/learnable by any character exalted with Order of the Cloud Serpent.",
 									constant = "PURCHASABLE_LEARNABLE_BY_ANY_CHARACTER_EXALTED",
 									export = true,

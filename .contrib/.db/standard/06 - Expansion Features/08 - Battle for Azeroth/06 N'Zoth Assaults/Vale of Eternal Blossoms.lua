@@ -241,7 +241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							["coord"] = { 64.2, 51.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						}),
 						n(157176, {	-- The Forgotten
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns on a platform high up in the air.",
 								constant = "SPAWNS_ON_A_PLATFORM_HIGH_UP_IN_THE_AIR",
 								export = true,
@@ -342,7 +342,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							i(174041),	-- Eyeball Jelly
 						}),
 						i(170553, {	-- Void Focus Splinter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The fastest way is to farm them inside Lesser Vision. To unlock these and the related recipes, you need to complete the Descending Into Madness quest.",
 								constant = "THE_FASTEST_WAY_IS_TO_FARM_THEM_INSIDE_LESSER_2",
 								export = true,
@@ -565,7 +565,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(163042, {	-- Ivory Cloud Serpent
 							["coord"] = { 29.0, 53.0, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires a Zan-Tien Lasso to wrangle!",
 								constant = "REQUIRES_A_ZAN_TIEN_LASSO_TO_WRANGLE",
 								export = true,
@@ -589,7 +589,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(157162, {	-- Rei Lun
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns inside Guo-Lai Halls, all the way to the back (not off to the left or right).\n\nThe scale drops from the rare and can be turned in to the Rajani provisioner for the mount.",
 								constant = "SPAWNS_INSIDE_GUO_LAI_HALLS_ALL_THE_WAY_TO_THE",
 								export = true,
@@ -703,7 +703,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						i(174759),	-- Mogu Relic Fragment
 						i(170497),	-- Stoneshaper Rod
 						i(174927, {	-- Zan-Tien Lasso
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The lasso is a zone drop from various Mogu mobs.",
 								constant = "THE_LASSO_IS_A_ZONE_DROP_FROM_VARIOUS_MOGU_MOBS",
 								export = true,
@@ -740,7 +740,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 					n(QUESTS, {
 						-- Assault questline
 						q(56574, {	-- Reflections in Amber
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Quest item drops from many rares during Mantid Assault.",
 								constant = "QUEST_ITEM_DROPS_FROM_MANY_RARES_DURING_MANTID",
 								export = true,
@@ -1139,7 +1139,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["questID"] = 57364,
 						["coord"] = { 9.5, 67.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						["isDaily"] = true,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the fishing pole.",
 							constant = "USE_THE_FISHING_POLE",
 							export = true,

@@ -2405,7 +2405,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, q(78680, {	-- Rumors Abound
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Climb each of the towers, you'll likely need a group or a friend capable of surviving long enough to give you about 3 seconds of uninterupted looting time.",
 						constant = "CLIMB_EACH_OF_THE_TOWERS_YOU_LL_LIKELY_NEED_A",
 						export = true,
@@ -2710,7 +2710,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["provider"] = { "i", 210146 },	-- Shredder Turbocharger
 							["coord"] = { 62.6, 52.8, STONETALON_MOUNTAINS },
 							["cost"] = { { "i", 210147, 25 } },	-- Shredder Autosalvage Unit
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This may take a more than 25 salvage units. It's ~50% chance to salvage the right item.",
 								constant = "THIS_MAY_TAKE_A_MORE_THAN_25_SALVAGE_UNITS_IT_S",
 								export = true,
@@ -2817,7 +2817,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["questID"] = 78908,	-- N'ora HQT
 					["coord"] = { 62.0, 39.4, THE_BARRENS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to loot the Handful of Shifting Scales before this quest will be displayed to you.",
 						constant = "YOU_NEED_TO_LOOT_THE_HANDFUL_OF_SHIFTING_SCALES",
 						export = true,
@@ -3211,7 +3211,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, q(78681, {	-- The Conjuring
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After obtaining the blood, interact with the altar near the obelisk dedicated to Grommash Hellscream to begin a ritual, summoning a few waves of demons that must be defeated using Drain Soul while standing inside the purple rune on the ground. Defeat the final Searing Infernal this way to cause the Mysterious Traveler to appear.",
 						constant = "AFTER_OBTAINING_THE_BLOOD_INTERACT_WITH_THE",
 						export = true,
@@ -4056,7 +4056,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, n(209742, {	-- Desert Mirage
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Dispel or Purge on it.",
 						constant = "CAST_DISPEL_OR_PURGE_ON_IT",
 						export = true,
@@ -4106,7 +4106,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						i(4785, {	-- Brimstone Belt
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 								constant = "THIS_ITEM_IS_ONLY_NATURALLY_ACCESSIBLE_TO_HORDE_3",
 								export = true,
@@ -4294,7 +4294,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209524, {	-- Patrolling Cheetah
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drop a trap in its path to remove its speed buff.",
 						constant = "DROP_A_TRAP_IN_ITS_PATH_TO_REMOVE_ITS_SPEED",
 						export = true,
@@ -4525,7 +4525,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, o(407510, {	-- Etched Carving
 					["provider"] = { "o", 407505 },	-- Etched Carving
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Stand on the green dot and read the inscription to activate the hidden path. Blink from green dot to green dot without taking any steps or losing the Path of no Steps debuff.\n\nOnce you've reached the last green dot, you'll see another large carving. Blink to it and quickly read the inscription before the buff falls off to earn the Rune.",
 						constant = "STAND_ON_THE_GREEN_DOT_AND_READ_THE_INSCRIPTION",
 						export = true,
@@ -4574,7 +4574,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208750, {	-- Rune of Channeling
 					["provider"] = { "o", 407347 },	-- Altar of Thorns
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Channel Health Funnel to 0 health while standing on the Altar of Thorns. You will be healed to full and granted the Rune.",
 						constant = "CHANNEL_HEALTH_FUNNEL_TO_0_HEALTH_WHILE",
 						export = true,
@@ -4604,7 +4604,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "o", 407120 },	-- Empty Snapjaw Nest
 						{ "n", 209511 },	-- Oasis Snapjaw Hatchling
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Bring the Abandoned Snapjaw Egg to an empty nest and interact with the hatchling afterward.",
 						constant = "BRING_THE_ABANDONED_SNAPJAW_EGG_TO_AN_EMPTY",
 						export = true,
@@ -4630,7 +4630,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208772, {	-- Rune of Saber Slash
 					["provider"] = { "o", 407457 },	-- Stable Hand's Trunk
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Head to Northwatch Hold. As you pass the main gate look to your left, you'll see a stable with a chest on the roof. Go up and around to the right and jump down onto the wall behind the stable. Once there you can jump to the roof and loot the chest for the Rune. You need lockpicking (80) to open this chest.",
 						constant = "HEAD_TO_NORTHWATCH_HOLD_AS_YOU_PASS_THE_MAIN",
 						export = true,
@@ -5263,7 +5263,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208765, {	-- Helping Hand (Closed)
 					["provider"] = { "i", 208766 },	-- Helping Hand (Open)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The hand will open when you ressurect another player.",
 						constant = "THE_HAND_WILL_OPEN_WHEN_YOU_RESSURECT_ANOTHER",
 						export = true,
@@ -5359,7 +5359,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208743, {	-- Soul of Greed
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Drain Soul on him.",
 						constant = "USE_DRAIN_SOUL_ON_HIM",
 						export = true,

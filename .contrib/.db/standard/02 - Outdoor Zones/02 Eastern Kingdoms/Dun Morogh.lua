@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if AFTER 10.1.7
 					pickpocketing({
 						i(2109, {	-- Frostmane Chain Vest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other lowlevel creatures on Azeroth.",
 								constant = "CAN_BE_PICKPOCKETED_FROM_FROSTMANE_TROLLS_IN",
 								export = true,
@@ -305,7 +305,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["classes"] = { PALADIN },
 						}),
 						q(24493, {	-- Don't Forget About Us
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only available during |cFFFFD700Pack Your Bags|r.",
 								constant = "ONLY_AVAILABLE_DURING_CFFFFD700PACK_YOUR_BAGS_R",
 								export = true,
@@ -823,7 +823,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 										{ "n", 208565 },	-- Altar of the Light
 									},
 									["coord"] = { 28.8, 66.6, DUN_MOROGH },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Kneel (/kneel) at the Altar of the Light to gain a Meditation buff, then use the Rune to complete the quest.",
 										constant = "KNEEL_KNEEL_AT_THE_ALTAR_OF_THE_LIGHT_TO_GAIN_A",
 										export = true,
@@ -1605,7 +1605,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				["groups"] = {
 					battlepets({
 						pet(1162, {	-- Fluxfire Feline (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found all around the Toxic Airfield and Lower Gnomeregan.",
 								constant = "FOUND_ALL_AROUND_THE_TOXIC_AIRFIELD_AND_LOWER",
 								export = true,
@@ -1626,7 +1626,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_5_1_0 },
 						}),
 						pet(442, {	-- Irradiated Roach (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found only in the Toxic Airfield near Gnomeregan.",
 								constant = "FOUND_ONLY_IN_THE_TOXIC_AIRFIELD_NEAR",
 								export = true,
@@ -1650,7 +1650,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					petbattles({
 						n(124617, {	-- Environeer Bert <Leprous Pet Tamer>
 							["coord"] = { 42.9, 74.3, NEW_TINKERTOWN_LOWER },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This tamer's pets scale with the level of your pets. (They will be the same level as your highest pet in your party!) Meaning the easiest strategy is actually to bring 3 level 1 Elemental pets with an Elemental attack, spam, and win.",
 								constant = "THIS_TAMER_S_PETS_SCALE_WITH_THE_LEVEL_OF_YOUR",
 								export = true,
@@ -2701,7 +2701,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 10.1.7
 			pickpocketing({
 				i(2109, {	-- Frostmane Chain Vest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other low level creatures on Azeroth.",
 						constant = "CAN_BE_PICKPOCKETED_FROM_FROSTMANE_TROLLS_IN_2",
 						export = true,
@@ -2978,7 +2978,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(7674, {	-- Black Ram Exchange
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you are one of the poor unfortunate souls that turned in your unique mount for one of the generic mounts, I'm so sorry.",
 						constant = "IF_YOU_ARE_ONE_OF_THE_POOR_UNFORTUNATE_SOULS_2",
 						export = true,
@@ -3447,7 +3447,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 				}),
 				q(14084, {	-- Learn to Ride in Dun Morogh
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Gnomes in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_6",
 						export = true,
@@ -3478,7 +3478,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(14083, {	-- Learn to Ride in Dun Morogh
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Dwarves in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_7",
 						export = true,
@@ -4486,7 +4486,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, n(208638, {	-- Fyodi
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The runes he drops can also drop from any of the rare creatures in the zone.",
 						constant = "THE_RUNES_HE_DROPS_CAN_ALSO_DROP_FROM_ANY_OF",
 						export = true,
@@ -4564,7 +4564,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(1119, {	-- Hammerspine
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns at the very end of the cave.",
 						constant = "SPAWNS_AT_THE_VERY_END_OF_THE_CAVE",
 						export = true,
@@ -4637,7 +4637,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(208180, {	-- Razormane Poacher
 					["provider"] = { "n", 208975 },	-- Rustling Bush
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Hunter's Mark on the bush to spawn the rare creature.",
 						constant = "CAST_HUNTER_S_MARK_ON_THE_BUSH_TO_SPAWN_THE_3",
 						export = true,
@@ -4952,7 +4952,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(208711, {	-- Toby
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the musk and tame a Rabbit and then bring it to Toby.",
 						constant = "USE_THE_MUSK_AND_TAME_A_RABBIT_AND_THEN_BRING",
 						export = true,

@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2090, {	-- Hillcrest Pasture, Stormsong Valley [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Hillcrest Pasture and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_HILLCREST",
 					export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2091, {	-- Stonetusk Watch, Stormsong Valley [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Stonetusk Watch and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_STONETUSK",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2094, {	-- Warfang Hold, Stormsong Valley [Horde] [NOTE: Verification Required, this may be locked behind the War Campaign quests]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock this Flight Path you must progress in the War Campaign and set a foothold in Stormsong Valley.",
 					constant = "TO_UNLOCK_THIS_FLIGHT_PATH_YOU_MUST_PROGRESS_IN",
 					export = true,
@@ -119,7 +119,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			fp(2139, {	-- Windfall Cave, Stormsong Valley [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Windfall Cavern and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_WINDFALL",
 					export = true,

@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["groups"] = { i(233799) },	-- Submerged Bottle
 				}),
 				o(503375, {	-- Ancient Coffer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Find 'Battered Book' and 'Submerged Bottle' in order to reveal the Coffer and obtain it's Treasure.",
 						constant = "FIND_BATTERED_BOOK_AND_SUBMERGED_BOTTLE_IN",
 						export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 85837,
 				}),
 				o(500046, {	-- Gift of the Brothers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to 3 NPCs after clicking on the treasure.\n\nEnable Quest tracking for detailed infos.",
 						constant = "TALK_TO_3_NPCS_AFTER_CLICKING_ON_THE_TREASURE",
 						export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["questID"] = 91352,
 				}),
 				o(503823, {	-- Mailroom Distribution
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grab the Mail Overflow from the Mailbox in front of the Mailroom.",
 						constant = "GRAB_THE_MAIL_OVERFLOW_FROM_THE_MAILBOX_IN",
 						export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			-- Repeatable
 			-- None phase
 			o(516571, {	-- Broker Exchequer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be found at random locations throughout K'aresh.",
 					constant = "CAN_BE_FOUND_AT_RANDOM_LOCATIONS_THROUGHOUT_K",
 					export = true,

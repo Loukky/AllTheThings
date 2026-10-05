@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				i(173715),	-- Dredger's Toolkit
 				i(173720),	-- Glittering Primrose Necklace
 				i(182704, {	-- Green Muck Dye
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from mobs or |cFFFFFFFFDiscarded Vials|r in the Muck Pool: Banewood area (|cFFFFFFFF53.8, 72.3|r). It's easiest to find when the |cFFFFD700Dirty Job: Demolition Detail|r WQ is up, but there may be leftover Bonemauler mobs after the WQ has ended.",
 						constant = "DROPS_FROM_MOBS_OR_CFFFFFFFFDISCARDED_VIALS_R_3",
 						export = true,
@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				i(173707),	-- Soul Hunter's Blade
 				i(173705),	-- The Venthyr Diaries
 				i(173709, {	-- Vial of Dredger Muck
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Dredger mobs and can be found in Revendreth treasure chests.",
 						constant = "DROPS_FROM_DREDGER_MOBS_AND_CAN_BE_FOUND_IN",
 						export = true,

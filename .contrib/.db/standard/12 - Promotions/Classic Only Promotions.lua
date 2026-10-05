@@ -43,7 +43,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 				["groups"] = {
 					i(32542, {	-- Imp in a Ball
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained if you set up a 6 Month WoW Subscription between 5th May 2021 until 5th Nov 2022.",
 							constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_4",
 							export = true,
@@ -99,7 +99,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 				["groups"] = {
 					i(33219, {	-- Goblin Gumbo Kettle
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained if you set up a 6 Month WoW Subscription between 13th February 2022 until 13th August 2022.",
 							constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_5",
 							export = true,
@@ -155,7 +155,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 				["groups"] = {
 					i(23705, {	-- Tabard of Flame
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained if you set up a 6 Month WoW Subscription between 13th February 2022 until 13th August 2022 or a 12 Month WoW Subscription between 11th November 2022 until 15th January 2023.",
 							constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_6",
 							export = true,
@@ -216,7 +216,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 						["groups"] = {
 							i(273150, {	-- Voidfeather Dragonhawk
 								["timeline"] = { ADDED_2_5_5, REMOVED_2_5_5_PHASE_2 },
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Earned by completing the introductory questline for Midnight in retail servers",
 									constant = "EARNED_BY_COMPLETING_THE_INTRODUCTORY_QUESTLINE",
 									export = true,
@@ -279,7 +279,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 				["groups"] = {
 					i(201699, {	-- Festering Emerald Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained if you set up a 12 Month WoW Subscription between 11th November 2022 until 15th January 2023.",
 							constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW_4",
 							export = true,
@@ -417,7 +417,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				},
 			}),
 			i(207097, {	-- Nightmarish Emerald Drake
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 12 Month WoW Subscription after 27th October 2023.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW_5",
 					export = true,
@@ -438,7 +438,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			i(209877, {	-- Cypress
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6 Month WoW Subscription after 10th January 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_7",
 					export = true,
@@ -459,7 +459,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			mount(49290, {	-- Magic Rooster (TW Only)[2023 10th October until 8th January 2024]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 3 Month WoW Subscription between 10th October 2022 until 8th January 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_3_MONTH_WOW",
 					export = true,
@@ -480,7 +480,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			i(74269, {	-- Blazing Hippogryph (TW Only)[2024 8th January until 8th April 2024] (Unknown which exact dates)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 3 Month WoW Subscription between 8th January 2024 until 8th April 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_3_MONTH_WOW_2",
 					export = true,
@@ -506,7 +506,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 		["timeline"] = { ADDED_4_4_0 },
 		["groups"] = {
 			i(224002, {	-- Swoopy
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 12 Month WoW Subscription after 9th July 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW_6",
 					export = true,
@@ -527,7 +527,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			mount(463045, {	-- Lava Drake
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW_7",
 					export = true,
@@ -548,7 +548,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			i(231312, {	-- Timbered Air Snakelet
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6/12 Month WoW Subscription after 31st January 2025.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_12_MONTH_WOW",
 					export = true,
@@ -574,7 +574,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 		["timeline"] = { ADDED_5_5_0 },
 		["groups"] = {
 			pet(4850, {	-- Sa'bak's Blessed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6/12 Month WoW Subscription after 15th July 2025.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_12_MONTH_WOW_2",
 					export = true,

@@ -70,7 +70,7 @@ root(ROOTS.Character, n(WARBAND, timelineSelf({ ["timeline"] = { ADDED_11_0_0 } 
 	})),
 	n(CAMPSITES, timelineSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 		campsite(1, {	-- Adventurer's Rest (CS!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Granted to all warbands as default.",
 				constant = "GRANTED_TO_ALL_WARBANDS_AS_DEFAULT",
 				export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Character, n(WARBAND, timelineSelf({ ["timeline"] = { ADDED_11_0_0 } 
 			}),
 		}),
 		campsite(4, {	-- Ohn'ahran Overlook (CS!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Granted to all warbands.",
 				constant = "GRANTED_TO_ALL_WARBANDS",
 				export = true,

@@ -236,7 +236,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 42.8, 27.8, LEGION_DALARAN },
 		}),
 		q(90659, {	-- Something Borrowed
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You can get one Artifact Weapon of your choice (based on your specialization). Others can be obtained through Order Hall Campaign.",
 				constant = "YOU_CAN_GET_ONE_ARTIFACT_WEAPON_OF_YOUR_CHOICE",
 				export = true,
@@ -464,7 +464,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 65.3, 37.2, THE_JADE_FOREST },
 		}),
 		q(91437, {	-- Call for Participants
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest pops-up into your log when you visit Bazaar after completing 'Time Flies'.",
 				constant = "QUEST_POPS_UP_INTO_YOUR_LOG_WHEN_YOU_VISIT",
 				export = true,
@@ -495,7 +495,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
 		q(92430, {	-- Embracing the Infinite Chaos
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest pops-up when you hit Level 25.",
 				constant = "QUEST_POPS_UP_WHEN_YOU_HIT_LEVEL_25",
 				export = true,
@@ -518,7 +518,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 25,
 		}),
 		q(91061, {	-- Infinite Chaos
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest becomes available after you enable 'Heroic World Tier'.",
 				constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_ENABLE_HEROIC",
 				export = true,
@@ -541,7 +541,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["groups"] = { i(246808) },	-- Experiment Instructions (PQI!)
 		}),
 		q(90892, {	-- Clearing the Skies: A Fel of a Time
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest pops-up when you fly through first 'Mote of Bronze'.",
 				constant = "QUEST_POPS_UP_WHEN_YOU_FLY_THROUGH_FIRST_MOTE",
 				export = true,
@@ -561,7 +561,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 		}),
 		q(92563, {	-- Awoken by Accessory
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest pops-up when you obtain and equip your first jewelry (Trinket, Ring, Necklace).",
 				constant = "QUEST_POPS_UP_WHEN_YOU_OBTAIN_AND_EQUIP_YOUR",
 				export = true,
@@ -581,7 +581,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			}),
 		}),
 		q(91613, {	-- Infinite Research Promotion: Timely Assistant
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest becomes available after you complete 5 'Infinite Research' quests.",
 				constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_COMPLETE_5",
 				export = true,
@@ -603,7 +603,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["coord"] = { 45.7, 68.5, BROKEN_ISLES },
 		}),
 		q(92855, {	-- Make Haste, Not Waste
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Grants a random piece of jewelry.",
 				constant = "GRANTS_A_RANDOM_PIECE_OF_JEWELRY",
 				export = true,
@@ -631,7 +631,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 20,
 		}),
 		q(91844, {	-- Infinite Research Promotion: Honorary Chronographer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest becomes available after you complete 20 'Infinite Research' quests.",
 				constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_COMPLETE_20",
 				export = true,
@@ -704,7 +704,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 80,
 		}),
 		q(91845, {	-- Infinite Research Promotion: Senior Executive Chronographer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest becomes available after you complete 50 'Infinite Research' quests.",
 				constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_COMPLETE_50",
 				export = true,
@@ -732,7 +732,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 			["lvl"] = 80,
 		}),
 		q(91846, {	-- Infinite Research Promotion: Principal Chronoquery Investigator
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Quest becomes available after you complete 150 'Infinite Research' quests.",
 				constant = "QUEST_BECOMES_AVAILABLE_AFTER_YOU_COMPLETE_150",
 				export = true,

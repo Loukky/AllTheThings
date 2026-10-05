@@ -72,7 +72,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 45.2, 29.1, LEGION_DALARAN },
 					["groups"] = {
 						i(154879, {	-- Awoken Titan Essence
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Unless you played during Legion and have legendaries still not at their maximum iLvl, this item is completely useless.",
 								constant = "UNLESS_YOU_PLAYED_DURING_LEGION_AND_HAVE",
 								export = true,
@@ -1252,7 +1252,7 @@ root(ROOTS.Zones, {
 							["timeline"] = { ADDED_7_1_0 },
 						}),
 						i(141850, {	-- Pattern: Elderhorn Riding Harness (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The vendor will only sell this recipe to those who have already completed the quest that rewards it. This is in case you deleted the recipe without learning it, or if you dropped Leatherworking after doing the quest and decided to relearn it later.",
 								constant = "THE_VENDOR_WILL_ONLY_SELL_THIS_RECIPE_TO_THOSE",
 								export = true,
@@ -1310,7 +1310,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(97529, {	-- The Amazing Zanzo
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Wanders around the city.",
 						constant = "WANDERS_AROUND_THE_CITY",
 						export = true,
@@ -1336,7 +1336,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(108468, {	-- The Mad Merchant
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This vendor is not always present.",
 						constant = "THIS_VENDOR_IS_NOT_ALWAYS_PRESENT",
 						export = true,

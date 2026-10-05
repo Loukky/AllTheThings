@@ -646,7 +646,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 	prof(ENCHANTING, {
 		header(HEADERS.Spell, 13262, {	-- Disenchant
 			i(80433, {	-- Blood Spirit
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be obtained by disenchanting epics from Mogu'shan Vaults, Heart of Fear, or Terrace of the Eternal Spring",
 					constant = "CAN_BE_OBTAINED_BY_DISENCHANTING_EPICS_FROM",
 					export = true,
@@ -667,7 +667,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			}),
 			i(74247),	-- Ethereal Shard
 			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94289, {	-- Haunting Spirit
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be obtained by disenchanting epics from Throne of Thunder",
 					constant = "CAN_BE_OBTAINED_BY_DISENCHANTING_EPICS_FROM_2",
 					export = true,
@@ -869,7 +869,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		i(74861),	-- Tiger Gourami
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94933, {	-- Tiny Blue Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be fished from:\n\n|cFFFfffff— Schools:|r Jewel Danio & Redbelly Mandarin\n\n|cFFFfffff— Fish of the Day:|r Townlong Steppes & Vale of Eternal Blossoms\n\n|cFFFfffff— Inland open water:|r Townlong Steppes & Vale of Eternal Blossoms\n",
 				constant = "CAN_BE_FISHED_FROM_CFFFFFFFF_SCHOOLS_R_JEWEL",
 				export = true,
@@ -895,7 +895,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		})),
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94934, {	-- Tiny Green Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be fished from:\n\n|cFFFfffff— Schools:|r Emperor Salmon, Jade Lungfish, & Krasarang Paddlefish\n\n|cFFFfffff— Fish of the Day:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n\n|cFFFfffff— Inland open water:|r Jade Forest, Krasarang Wilds, & Valley of the Four Winds\n",
 				constant = "CAN_BE_FISHED_FROM_CFFFFFFFF_SCHOOLS_R_EMPEROR",
 				export = true,
@@ -922,7 +922,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		})),
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94932, {	-- Tiny Red Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be fished from:\n\n|cFFFfffff— Schools:|r Spinefish\n\n|cFFFfffff— Fish of the Day:|r Kun-Lai Summit\n\n|cFFFfffff— Sha-Touched water:|r Dread Wastes, Kun-Lai Summit & Townlong Steppes\n",
 				constant = "CAN_BE_FISHED_FROM_CFFFFFFFF_SCHOOLS_R",
 				export = true,
@@ -948,7 +948,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		})),
 		applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, i(94935, {	-- Tiny White Carp (PET!)
 			["timeline"] = { ADDED_5_2_0 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be fished from:\n\n|cFFFfffff— Schools:|r Giant Mantis Shrimp, Reef Octopus, & Tiger Gourami\n\n|cFFFfffff— Fish of the Day:|r Dread Wastes, Jade Forest, & Kun-Lai Summit\n\n|cFFFfffff— Inland open water:|r Kun-Lai Summit & The Veiled Stair\n\nIt can also be caught in most coastal open water.\n",
 				constant = "CAN_BE_FISHED_FROM_CFFFFFFFF_SCHOOLS_R_GIANT",
 				export = true,

@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169778) },	-- Enchanting Crystal (QI!)
 		}),
 		q(56787, {	-- Additional Supplies
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R",
 				export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169903) },	-- Nazjatar Survival Pack
 		}),
 		q(56810, {	-- A Friend Indeed
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACK_R_REACHES",
 				export = true,
@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169919) },	-- Unshackled Commendation Crate
 		}),
 		q(56777, {	-- A Gift From The Clan
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Hunter Akana|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700HUNTER_AKANA_R_REACHES",
 				export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169903) },	-- Nazjatar Survival Pack
 		}),
 		q(56789, {	-- A Gift of Supplies
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R_2",
 				export = true,
@@ -140,7 +140,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169904) },	-- Ankoan Commendation Crate
 		}),
 		q(56778, {	-- A Glint of the Darkness
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Hunter Akana|r reaches rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700HUNTER_AKANA_R_REACHES_2",
 				export = true,
@@ -162,7 +162,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(55984, {	-- A Good Offense
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Vim Brineheart|r as your friend.",
 				constant = "REQUIRES_CFFFFD700VIM_BRINEHEART_R_AS_YOUR",
 				export = true,
@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(56816, {	-- A Kelfin's Best Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES",
 				export = true,
@@ -210,7 +210,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(55636, {	-- A Life's Work
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 				constant = "REQUIRES_CFFFFD700FARSEER_ORI_R_AS_YOUR_FRIEND",
 				export = true,
@@ -241,7 +241,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55993, {	-- A Little Edge
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
 				constant = "REQUIRES_CFFFFD700NERI_SHARPFIN_R_AS_YOUR",
 				export = true,
@@ -266,7 +266,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168605) },	-- Chitterspine Spine (QI!)
 		}),
 		q(55662, {	-- Arcane Cache (A)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 				constant = "REQUIRES_CFFFFD700HUNTER_AKANA_R_AS_YOUR_FRIEND",
 				export = true,
@@ -292,7 +292,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168199) },	-- Arcane Cache Key (QI!)
 		}),
 		q(56233, {	-- Arcane Cache (H)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Poen Gillbrack|r as your friend.",
 				constant = "REQUIRES_CFFFFD700POEN_GILLBRACK_R_AS_YOUR",
 				export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56156, {	-- A Tempered Blade
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Must complete this quest for the rest of the zone to become available.",
 				constant = "MUST_COMPLETE_THIS_QUEST_FOR_THE_REST_OF_THE",
 				export = true,
@@ -357,7 +357,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56779, {	-- A Valorous Reward
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Hunter Akana|r reaches rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700HUNTER_AKANA_R_REACHES_3",
 				export = true,
@@ -447,7 +447,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56813, {	-- An Unexpected Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES_2",
 				export = true,
@@ -495,7 +495,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56346, {	-- Ancient Technology
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This quest is not available unless you have 150 in Kul Tiran Alchemy, Blacksmithing, Engineering, Jewelcrafting, Leatherworking, or Tailoring.",
 				constant = "THIS_QUEST_IS_NOT_AVAILABLE_UNLESS_YOU_HAVE_150",
 				export = true,
@@ -520,7 +520,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169320) },	-- Broken Power Core (QI!)
 		}),
 		q(56354, {	-- Ancient Technology
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This quest is not available unless you have 150 in Zandalari Alchemy, Blacksmithing, Engineering, Jewelcrafting, Leatherworking, or Tailoring.",
 				constant = "THIS_QUEST_IS_NOT_AVAILABLE_UNLESS_YOU_HAVE_150_2",
 				export = true,
@@ -545,7 +545,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169320) },	-- Broken Power Core (QI!)
 		}),
 		q(56814, {	-- Anytime You Need a Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES_3",
 				export = true,
@@ -571,7 +571,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169908) },	-- Cleverly Concealed Supplies
 		}),
 		q(56218, {	-- Beauty in the Deeps
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R_3",
 				export = true,
@@ -918,7 +918,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168540) },	-- Deepsea Crystal (QI!)
 		}),
 		q(55681, {	-- Crab Marks The Spot
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Requires |cFFFFD700Bladesman Inowari|r as your friend.",
 				constant = "REQUIRES_CFFFFD700BLADESMAN_INOWARI_R_AS_YOUR",
 				export = true,
@@ -1158,7 +1158,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168433) },	-- Vent Kelp Sprout (QI!)
 		}),
 		q(56246, {	-- Enchanted Lock (A)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Match 3 purple runes.",
 				constant = "MATCH_3_PURPLE_RUNES",
 				export = true,
@@ -1314,7 +1314,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56812, {	-- Friendship Is Magic
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 13.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACK_R_REACHES_2",
 				export = true,
@@ -1345,7 +1345,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168847) },	-- Pearl of Manifest Ambitions (Rank 2)
 		}),
 		q(56806, {	-- Friends Through Eternity
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES",
 				export = true,
@@ -1396,7 +1396,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56215, {	-- Glittering Shell
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACK_R_REACHES_3",
 				export = true,
@@ -1420,7 +1420,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169353) },	-- Lustrous Glimmershell (PET!)
 		}),
 		q(56214, {	-- Good Girl
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES_4",
 				export = true,
@@ -1443,7 +1443,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["lvl"] = 120,
 			["groups"] = {
 				i(169199, {	-- Snapdragon Kelpstalker (MOUNT!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Learning this mount also unlocks the Alliance |cFFA330C9Deepcoral Snapdragon|r mount.",
 						constant = "LEARNING_THIS_MOUNT_ALSO_UNLOCKS_THE_ALLIANCE",
 						export = true,
@@ -1465,7 +1465,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56784, {	-- Helpful Provisions
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES",
 				export = true,
@@ -1498,7 +1498,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56780, {	-- Hidden, But Dangerous
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Hunter Akana|r reaches rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700HUNTER_AKANA_R_REACHES_4",
 				export = true,
@@ -1559,7 +1559,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56803, {	-- Just A Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES_2",
 				export = true,
@@ -1601,7 +1601,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isDaily"] = true,
 		}),
 		q(56216, {	-- Last Heirloom
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES_2",
 				export = true,
@@ -1627,7 +1627,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["lvl"] = 120,
 			["groups"] = {
 				i(170155, {	-- Carved Ankoan Charm (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Learning this toy also unlocks the Horde |cFF0070DEBook of the Unshackled|r toy.",
 						constant = "LEARNING_THIS_TOY_ALSO_UNLOCKS_THE_HORDE",
 						export = true,
@@ -1657,7 +1657,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 66.4, 47.3, NAZJATAR },
 		}),
 		q(57086, {	-- Legacy of the Mad Mage
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Loot the Arcane Chest at the provided coordinates to get the item that starts this quest.",
 				constant = "LOOT_THE_ARCANE_CHEST_AT_THE_PROVIDED",
 				export = true,
@@ -1836,7 +1836,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168647) },	-- Mgglurky's Mugglrgl (QI!)
 		}),
 		q(56791, {	-- Mysterious Treasure
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches Rank 13.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R_4",
 				export = true,
@@ -1860,7 +1860,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169917) },	-- Mysterious Azshari Chest
 		}),
 		q(56786, {	-- Naga Treasure
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 13.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES_3",
 				export = true,
@@ -2068,7 +2068,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56050, {	-- PvP Event: Battle for Nazjatar
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "500 rep with your Nazjatar faction",
 				constant = "500_REP_WITH_YOUR_NAZJATAR_FACTION",
 				export = true,
@@ -2089,7 +2089,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["isWeekly"] = true,
 		}),
 		q(56807, {	-- Real Friends Help Hide Bodies
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 13.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES_3",
 				export = true,
@@ -2138,7 +2138,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["repeatable"] = true,
 		}),
 		q(56788, {	-- Reclaimed Treasure
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches Rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R_5",
 				export = true,
@@ -2480,7 +2480,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168753) },	-- Chitterspine Roe (QI!)
 		}),
 		q(55500, {	-- Save a Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Unlocks the rest of the zone and opens up World Quests.",
 				constant = "UNLOCKS_THE_REST_OF_THE_ZONE_AND_OPENS_UP_WORLD",
 				export = true,
@@ -2699,7 +2699,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168841) },	-- Scroll of Shirakess (QI!)
 		}),
 		q(56239, {	-- Strange Silver Knife (A)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Obtained from the first Arcane Chest you find.",
 				constant = "OBTAINED_FROM_THE_FIRST_ARCANE_CHEST_YOU_FIND",
 				export = true,
@@ -2726,7 +2726,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56830, {	-- Summons from the Deep
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This event takes place every 3 hours (based on realm time, it starts at 3:00, 6:00, 9:00, and 12:00 for NA realms; 1:00, 4:00, 7:00, and 10:00 for EU realms). A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
 				constant = "THIS_EVENT_TAKES_PLACE_EVERY_3_HOURS_BASED_ON",
 				export = true,
@@ -2765,7 +2765,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56809, {	-- Super Friends
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbrack|r reaches Rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACK_R_REACHES_4",
 				export = true,
@@ -2793,7 +2793,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56817, {	-- Thank You For Being A Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 13.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES_5",
 				export = true,
@@ -2822,7 +2822,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56805, {	-- That's What Friends Are For
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES_4",
 				export = true,
@@ -2904,7 +2904,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56312, {	-- The Ever Drowning (H)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Dodge the fleeing civilians.",
 				constant = "DODGE_THE_FLEEING_CIVILIANS",
 				export = true,
@@ -2983,7 +2983,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168212) },	-- Javelin of Suramar (QI!)
 		}),
 		q(56783, {	-- The Lambent Lockbox
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES_4",
 				export = true,
@@ -3013,7 +3013,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(56785, {	-- The Mystic Chest
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches Rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES_5",
 				export = true,
@@ -3056,7 +3056,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56782, {	-- The Speaker's Gift (also gave credit for Horde quest 56803 "Just a Friend")
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Farseer Ori|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700FARSEER_ORI_R_REACHES_6",
 				export = true,
@@ -3148,7 +3148,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56219, {	-- Tome of Tears
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES_5",
 				export = true,
@@ -3171,7 +3171,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["lvl"] = 120,
 			["groups"] = {
 				i(170154, {	-- Book of the Unshackled (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Learning this toy also unlocks the Alliance |cFF0070DECarved Ankoan Charm|r toy.",
 						constant = "LEARNING_THIS_TOY_ALSO_UNLOCKS_THE_ALLIANCE",
 						export = true,
@@ -3212,7 +3212,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56781, {	-- Treasure in the Deep
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Hunter Akana|r reaches rank 20.",
 				constant = "OFFERED_WHEN_CFFFFD700HUNTER_AKANA_R_REACHES_5",
 				export = true,
@@ -3249,7 +3249,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { spell(305101) },	-- Curios of Nazjatar
 		}),
 		q(56790, {	-- Treasure to Find
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Bladesman Inowari|r reaches rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700BLADESMAN_INOWARI_R_6",
 				export = true,
@@ -3499,7 +3499,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = HORDE_ONLY,
 		}),
 		q(56808, {	-- We're Going To Be Friends
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbrack|r reaches rank 2.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACK_R_REACHES_5",
 				export = true,
@@ -3575,7 +3575,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55426, {	-- What Will It Grow?
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Germinating Seed can drop from any rare in Nazjatar.",
 				constant = "GERMINATING_SEED_CAN_DROP_FROM_ANY_RARE_IN",
 				export = true,
@@ -3601,7 +3601,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55602, {	-- What Will It Lure?
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Chum can drop from any rare in Nazjatar.",
 				constant = "CHUM_CAN_DROP_FROM_ANY_RARE_IN_NAZJATAR",
 				export = true,
@@ -3629,7 +3629,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(55531, {	-- What Will It Mine?
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Brinestone Pickaxe can drop from any rare in Nazjatar or be mined from Osmenite Deposits or Seams.",
 				constant = "BRINESTONE_PICKAXE_CAN_DROP_FROM_ANY_RARE_IN",
 				export = true,
@@ -3697,7 +3697,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["lvl"] = 120,
 			["groups"] = {
 				i(169200, {	-- Deepcoral Snapdragon (MOUNT!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Learning this mount also unlocks the Horde |cFFA330C9Snapdragon Kelpstalker|r mount.",
 						constant = "LEARNING_THIS_MOUNT_ALSO_UNLOCKS_THE_HORDE",
 						export = true,
@@ -3719,7 +3719,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		q(56815, {	-- With A Little Help From My Friends
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 7.",
 				constant = "OFFERED_WHEN_CFFFFD700NERI_SHARPFIN_R_REACHES_6",
 				export = true,
@@ -3742,7 +3742,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(169919) },	-- Unshackled Commendation Crate
 		}),
 		q(56804, {	-- With Friends Like You, Who Needs Anemones?
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Vim Brineheart|r reaches Rank 5.",
 				constant = "OFFERED_WHEN_CFFFFD700VIM_BRINEHEART_R_REACHES_6",
 				export = true,
@@ -3784,7 +3784,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = { i(168810) },	-- Iridescent Pearl (QI!)
 		}),
 		q(56811, {	-- You've Got A Friend In Me
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Offered when |cFFFFD700Poen Gillbract|r reaches Rank 9.",
 				constant = "OFFERED_WHEN_CFFFFD700POEN_GILLBRACT_R_REACHES",
 				export = true,

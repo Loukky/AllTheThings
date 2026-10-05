@@ -1082,7 +1082,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 10,
 				}),
 				q(14087, {	-- Learn to Ride in Mulgore
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Tauren in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_5",
 						export = true,
@@ -2220,7 +2220,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206989, {	-- Rune of the Sun
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Moonfire on each of the Lunar Stones to spawn the Lunar Chest nearby.",
 						constant = "CAST_MOONFIRE_ON_EACH_OF_THE_LUNAR_STONES_TO",
 						export = true,
@@ -2301,7 +2301,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(205635, {	-- Takoda Sunmane <Naturalist>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the musk and tame a prairie dog and then bring it to Takoda.",
 						constant = "USE_THE_MUSK_AND_TAME_A_PRAIRIE_DOG_AND_THEN",
 						export = true,
@@ -2400,7 +2400,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206469, {	-- Prairie Flower
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These are scattered throughout the zone.",
 						constant = "THESE_ARE_SCATTERED_THROUGHOUT_THE_ZONE",
 						export = true,
@@ -2421,7 +2421,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "o", 403718 },	-- Prairie Flower
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(206169, {	-- Rune of Explosive Shot
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This can drop from any of the Rare Creatures in the zone.",
 						constant = "THIS_CAN_DROP_FROM_ANY_OF_THE_RARE_CREATURES_IN",
 						export = true,

@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				},
 			}),
 			n(253387, {	-- Selfira Ambergrove <Decor Specialist>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Reputation-based Decor from this Vendor is currently NOT discounted!",
 					constant = "REPUTATION_BASED_DECOR_FROM_THIS_VENDOR_IS",
 					export = true,

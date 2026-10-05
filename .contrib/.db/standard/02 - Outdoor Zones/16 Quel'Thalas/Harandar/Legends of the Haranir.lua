@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(264259),	-- On'ohia's Call (DECOR!)
 				}),
 				ach(42278, {	-- The Empty Cradle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Currently requires completing all 7 Legends on ONE character, and due to the account-wide lockout per week of completing 'Lost Legends' (89268) you can only get credit for one legend for one character per week! Choose wisely!",
 						constant = "CURRENTLY_REQUIRES_COMPLETING_ALL_7_LEGENDS_ON",
 						export = true,
@@ -143,7 +143,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(89268),	-- Lost Legends
 				q(92720),	-- The Story of Aln'hara's Bloom
 				q(91492, {	-- The Tale of Aln'hara's Bloom
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This 'Bonus Objective' is triggered after you interact with Ancient Visionstone and embark on a Vision Walk.",
 						constant = "THIS_BONUS_OBJECTIVE_IS_TRIGGERED_AFTER_YOU",
 						export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(TREASURES, {
 				["lore"] = "Discover all of the lore objects found within the Legends of the Haranir relic stories.",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to be on the respective 'Legends Never Die' Quest in order to see the lore objects. You can discover 3 of them per week.",
 					constant = "YOU_NEED_TO_BE_ON_THE_RESPECTIVE_LEGENDS_NEVER",
 					export = true,

@@ -15,7 +15,7 @@ root(ROOTS.WorldDrops, {
 			}),
 			expansion(EXPANSION.WRATH, {
 				i(37674, {	-- An Unopened Tome of Advice
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If only they would have read this.",
 						constant = "IF_ONLY_THEY_WOULD_HAVE_READ_THIS",
 						export = true,
@@ -41,7 +41,7 @@ root(ROOTS.WorldDrops, {
 				}),
 				filter(TOYS, {
 					i(36863, {	-- Decahedral Dwarven Dice (TOY!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be pickpocketed from Northrend humanoids.",
 							constant = "CAN_BE_PICKPOCKETED_FROM_NORTHREND_HUMANOIDS",
 							export = true,
@@ -72,7 +72,7 @@ root(ROOTS.WorldDrops, {
 			expansion(EXPANSION.CATA, {
 				filter(TOYS, {
 					i(63269, {	-- Loaded Gnomish Dice (TOY!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be pickpocketed from Cataclysm humanoids.",
 							constant = "CAN_BE_PICKPOCKETED_FROM_CATACLYSM_HUMANOIDS",
 							export = true,

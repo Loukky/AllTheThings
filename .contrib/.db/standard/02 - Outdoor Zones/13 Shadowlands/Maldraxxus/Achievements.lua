@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			ach(14634, {	-- Nine Afterlives
 				i(184449),	-- Jiggles's Favorite Toy (TOY!)
 				crit(49425, {	-- Hairball
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Close to the top-left corner of the final boss's map. On the left side of the slime pool, kill a green ooze and then turn left. Hairball is in a tiny alcove filled with fish skeletons and candles.",
 						constant = "CLOSE_TO_THE_TOP_LEFT_CORNER_OF_THE_FINAL_BOSS",
 						export = true,
@@ -176,7 +176,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["crs"] = { 174221 },	-- Snots
 				}),
 				crit(49427, {	-- Pus-In-Boots
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Under the bridge.",
 						constant = "UNDER_THE_BRIDGE",
 						export = true,
@@ -206,7 +206,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["crs"] = { 174226 },	-- Mr. Jigglesworth
 				}),
 				crit(49430, {	-- Lime
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Lime is on the bone arch that runs over the road.",
 						constant = "LIME_IS_ON_THE_BONE_ARCH_THAT_RUNS_OVER_THE",
 						export = true,
@@ -232,7 +232,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["crs"] = { 174234 },	-- Mayhem
 				}),
 				crit(49432, {	-- Moldstopheles
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Moldstopheles is on an offshoot on the side of the big mushroom.",
 						constant = "MOLDSTOPHELES_IS_ON_AN_OFFSHOOT_ON_THE_SIDE_OF",
 						export = true,
@@ -254,7 +254,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["crs"] = { 174236 },	-- Moldstopheles
 				}),
 				crit(49433, {	-- Meowmalade
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Napping inside a small crate.",
 						constant = "NAPPING_INSIDE_A_SMALL_CRATE",
 						export = true,

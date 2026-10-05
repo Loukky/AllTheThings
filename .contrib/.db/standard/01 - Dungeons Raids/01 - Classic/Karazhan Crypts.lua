@@ -46,7 +46,7 @@ OPERA_OF_MALEDICTION = createHeader({
 
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_SEVEN, inst(2875, bubbleDownSelf({["timeline"] = { ADDED_1_15_6 }}, {	-- Karazhan Crypts
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "[TBC] \nThis is a new dungeon added in SoD Phase 7.\nThe current loot table is not accurate. If you get items not in the boss drop, please report it in Discord #classic-errors.\n\nNOTE: Kharon drop all rewards, please do not report any that are known to be dropped by other bosses but not by Kharon.",
 			constant = "TBC_THIS_IS_A_NEW_DUNGEON_ADDED_IN_SOD_PHASE_7",
 			export = true,
@@ -143,7 +143,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["groups"] = {
 						i(236002),	-- List of Components
 						objective(1, {	-- 0/1 Flame of Life
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "loot from lvl 60 Elite Red Dragon, in the right side of Wetland.",
 								constant = "LOOT_FROM_LVL_60_ELITE_RED_DRAGON_IN_THE_RIGHT",
 								export = true,
@@ -202,7 +202,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					n(PROFESSIONS, {
 						prof(ENCHANTING, {
 							n(238270, {	-- Encrypted Text
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "These enchants are learned from an Enchanted Text inside Karazhan Crypts. Encrypted Texts are found throughout the dungeon and can be decyphered by enchanters and mages using enchanting materials or Comprehension Charms respectively. Once the text is decyphered, it becomes a scroll; click on it to learn the recipe. Although the enchanting recipes are in randomized locations, the materials needed to decypher them are fixed by enchant according to the list below. This is helpful to know so you don't waste materials trying to learn enchants you already have.\n\n1x Nexus Crystal\nEnchant 2H Weapon - Spellblasting\nEnchant Off-Hand - Excellent Spirit\nEnchant Off-Hand - Superior Intellect\n\n1x Large Brilliant Shard\nEnchant Off-Hand - Wisdom\nEnchant Shield - Critical Strike\nEnchant Shield - Excellent Stamina\n\n1x Greater Eternal Essence\nEnchant Cloak - Agility\nEnchant Bracer - Greater Spellpower\nEnchant Gloves - Superior Strength",
 									constant = "THESE_ENCHANTS_ARE_LEARNED_FROM_AN_ENCHANTED",
 									export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(236712),	-- Bracers of Undead Slaying
 					}),
 					n(APPRENTICE , {	-- Apprentice
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "There are 3 Failed Apprentices locked in cells. The Warden can be found patrolling the Prison, if you kill him, he drops Portcullis Key. You can use this key to free one of the Failed Apprentices",
 							constant = "THERE_ARE_3_FAILED_APPRENTICES_LOCKED_IN_CELLS",
 							export = true,
@@ -352,7 +352,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(235882),	-- Clattering Steps
 					}),
 					n(238678, {	--Unk'omon <The Winged Sorrow>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In the Library, use the torch to open the secret room behind the bookshelf. Mage, or Warlock should speak to Alfwhit Grigdert. He will spawn a portal and teleport back up to the Dark Rider room. Speak with Alfwhit Grigdert again and the boss will spawn. He will give Mark of the Master, a 25% attackspeed & 25% castspeed for 15minutes, when killed",
 							constant = "IN_THE_LIBRARY_USE_THE_TORCH_TO_OPEN_THE_SECRET",
 							export = true,
@@ -373,7 +373,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- Nothing worth listining. Drops Felcloth, Demonic Rune, a sack of gems, random BoE greens/blues, and has a chance of dropping Sanctified armor
 					}),
 					n(237439, {	-- Kharon			(2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Players can summon Kharon by interacting with Dialogues of the Dead at his Altar.\n\nKharon's loots are special, as it will loot an item from the loot table of all dungeon bosses, including the Opera, plus Kharon's own loots.\nKharon's exclusive loot is ilv86, which has an additional random 1 of 6 Enchantments",
 							constant = "PLAYERS_CAN_SUMMON_KHARON_BY_INTERACTING_WITH",
 							export = true,
@@ -403,7 +403,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(238365, {	-- Dark Rider		(4)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To summon the Dark Rider Boss, you will need to collect 3 Mysterious Relics - a Staff, Sword, and Scythe. Once you have these you can use them to summon Dark Rider in the Prison",
 							constant = "TO_SUMMON_THE_DARK_RIDER_BOSS_YOU_WILL_NEED_TO",
 							export = true,

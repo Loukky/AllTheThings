@@ -153,7 +153,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(53095, {	-- A Flicker of Hope
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You do not have to save all 982 people. Once timer runs out this quest is removed and next one is auto-accepted.",
 						constant = "YOU_DO_NOT_HAVE_TO_SAVE_ALL_982_PEOPLE_ONCE",
 						export = true,
@@ -179,7 +179,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 					},
 				}),
 				q(53310, {	-- From the Ashes… [Note: Final Quest for Part 2]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Upon either failing or completing \"A Flicker of Hope\" this quest is auto-accepted",
 						constant = "UPON_EITHER_FAILING_OR_COMPLETING_A_FLICKER_OF",
 						export = true,

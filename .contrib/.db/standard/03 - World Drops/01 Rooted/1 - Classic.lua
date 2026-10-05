@@ -228,7 +228,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(9745),	-- Simple Cape
 		i(22782, {	-- Sin'dorei Cloak of Warding
 			-- #if AFTER 6.0.1
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Dropped from Big Crate of Salvage during Warlords of Draenor.",
 				constant = "DROPPED_FROM_BIG_CRATE_OF_SALVAGE_DURING",
 				export = true,
@@ -2055,7 +2055,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(14788),	-- Protector Armguards
 		i(14789, {	-- Protector Breastplate
 			-- #if AFTER 9.2.0
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Is currently bugged and cannot be sold to vendor.",
 				constant = "IS_CURRENTLY_BUGGED_AND_CANNOT_BE_SOLD_TO",
 				export = true,
@@ -3217,7 +3217,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(12034),	-- Marble Necklace
 		i(5004, {	-- Mark of the Kirin Tor
 			-- #if AFTER 6.0.1
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Dropped from Crate of Salvage during Warlords of Draenor.",
 				constant = "DROPPED_FROM_CRATE_OF_SALVAGE_DURING_WARLORDS",
 				export = true,
@@ -3347,7 +3347,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(7734),	-- Six Demon Bag
 		i(14557, {	-- The Lion Horn of Stormwind
 			-- #if WOD
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Big Crate of Salvage.",
 				constant = "DROPS_FROM_BIG_CRATE_OF_SALVAGE",
 				export = true,
@@ -3399,7 +3399,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		-- #if AFTER 9.1.0
 		i(3670, {	-- Large Slimy Bone
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Slimes in Classic zones.",
 				constant = "DROPS_FROM_SLIMES_IN_CLASSIC_ZONES",
 				export = true,
@@ -3421,7 +3421,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		i(11733, {	-- Libram of Constitution
 			-- #if AFTER CATA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This item is now completely worthless.",
 				constant = "THIS_ITEM_IS_NOW_COMPLETELY_WORTHLESS",
 				export = true,
@@ -3468,7 +3468,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		}),
 		-- #if AFTER 9.1.0
 		i(3300, {	-- Rabbit's Foot
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from wolves or dogs in vanilla zones.",
 				constant = "DROPS_FROM_WOLVES_OR_DOGS_IN_VANILLA_ZONES",
 				export = true,
@@ -3488,7 +3488,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			}),
 		}),
 		i(11406, {	-- Rotting Bear Carcass
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from bears in vanilla zones and the dungeon Old Hillsbrad Foothills.",
 				constant = "DROPS_FROM_BEARS_IN_VANILLA_ZONES_AND_THE",
 				export = true,
@@ -3692,7 +3692,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #if AFTER 4.0.3
 			i(9294, {	-- Recipe: Wildvine Potion (RECIPE!)
 				-- #if AFTER 10.1.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can drop from any troll in zones such as Arathi Highlands, Dun Morogh, Stranglethorn, Silithus, The Hinterlands & Zul Gurub. Inside Zul Gurub is a great spot.",
 					constant = "CAN_DROP_FROM_ANY_TROLL_IN_ZONES_SUCH_AS_ARATHI",
 					export = true,
@@ -4301,7 +4301,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				5858,	-- Greater Lava Spider
 				5857,	-- Searing Lava Spider
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in Searing Gorge.",
 				constant = "DROPS_FROM_SPIDERS_IN_SEARING_GORGE",
 				export = true,
@@ -4327,7 +4327,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				5857,	-- Searing Lava Spider
 				1822,	-- Venom Mist Lurker
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from spiders in higher level vanilla zones.",
 				constant = "DROPS_FROM_SPIDERS_IN_HIGHER_LEVEL_VANILLA",
 				export = true,
@@ -4479,7 +4479,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				-- #endif
 			},
 			-- #if AFTER 4.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Silithus is the best place to farm these in terms of mob density and drop rate.",
 				constant = "SILITHUS_IS_THE_BEST_PLACE_TO_FARM_THESE_IN",
 				export = true,
@@ -4524,7 +4524,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				-- #endif
 			},
 			-- #if AFTER TBC
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If there is competition about spawns in Silithus, Nagrand is the second best option where air elementals can be found almost everywhere.",
 				constant = "IF_THERE_IS_COMPETITION_ABOUT_SPAWNS_IN",
 				export = true,
@@ -5570,7 +5570,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				15651,	-- Springpaw Stalker
 				16347,	-- Starving Ghostclaw
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Only drops from lynxes in Eversong Forest (except Sunstrider Isle) and Ghostlands.",
 				constant = "ONLY_DROPS_FROM_LYNXES_IN_EVERSONG_FOREST",
 				export = true,
@@ -5840,7 +5840,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				33311,	-- Darkshore Stag
 				35096,	-- Weakened Mosshoof Stag
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Only drops from the given stags. Brown Stags can only be found in phased Gilneas for fresh Worgen characters.",
 				constant = "ONLY_DROPS_FROM_THE_GIVEN_STAGS_BROWN_STAGS_CAN",
 				export = true,
@@ -6170,7 +6170,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				DUSKWOOD,
 			},
 			-- #elseif AFTER BFA
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from spiders in most vanilla zones, and are most abundant in Ashenvale and Duskwood. Spiders often share a spawn with other beasts, so kill the bear or whatever if you cannot find spiders.",
 				constant = "CAN_DROP_FROM_SPIDERS_IN_MOST_VANILLA_ZONES_AND",
 				export = true,
@@ -6211,7 +6211,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			},
 			-- #endif
 			-- #if AFTER 4.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from all birds, harpies, owlkin and striders on Kalimdor, Eastern Kingdoms, Outland and Northrend.",
 				constant = "CAN_DROP_FROM_ALL_BIRDS_HARPIES_OWLKIN_AND",
 				export = true,
@@ -6278,7 +6278,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #else
 			["coord"] = { 29.0, 11.0, DESOLACE },
 			["cr"] = 4719,	-- Slitherblade Sea Witch
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Naga Scale. Slitherblade Sea Witches seems to be the most reliable source. Consider farming this on a character that are more capable to farm in water.",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR",
 				export = true,
@@ -6322,7 +6322,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #else
 			["coord"] = { 50.0, 70.0, ARATHI_HIGHLANDS },
 			["cr"] = 2561,	-- Highland Fleshstalker
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Raptor Hides. Supposed to drop from all raptors within a given level range. The Highland Fleshstalker seems to be the most reliable source. Consider farming this on a character that needs Skining skills or skinned reagents.",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR_2",
 				export = true,
@@ -6377,7 +6377,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				16349,	-- Ghostclaw Ravager
 				16347,	-- Starving Ghostclaw
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Sharp Claws. Supposed to drop from some Beast and Demon creatures like hounds, feline, spiders, raptors and bats. The Ghostclaw lynxs in Ghostland seems to be the most reliable source. Consider farming this on a character that needs Skining skills or skinned reagents!",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR_3",
 				export = true,
@@ -6399,7 +6399,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		}),
 		i(5784, {	-- Slimy Murloc Scale
 			-- #if AFTER 4.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from murlocs Blackfathom Deeps.",
 				constant = "DROPS_FROM_MURLOCS_BLACKFATHOM_DEEPS",
 				export = true,
@@ -6435,7 +6435,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		i(4402, {	-- Small Flame Sac
 			-- #if AFTER 4.0.3
 			["cr"] = 14398,	-- Eldreth Darter
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Small Flame Sacs. Supposed to drop from small dragonkin like darters and whelps. Eldreth Darters in The Capital Gardens in Dire Maul seems to be the most reliable source.",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR_4",
 				export = true,
@@ -6480,7 +6480,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				17522,	-- Myst Spinner
 				17683,	-- Zarakh
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Small Venom Sac, and unfortunately for Horde players the only reliable farming spot is on Bloodmyst Isle.",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR_5",
 				export = true,
@@ -6554,7 +6554,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				41426,	-- Bluegill Oracle
 				42110,	-- Bluegill Puddlejumper
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Bluegill murlocs in Wetlands.",
 				constant = "DROPS_FROM_BLUEGILL_MURLOCS_IN_WETLANDS",
 				export = true,
@@ -6652,7 +6652,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				THE_HINTERLANDS,
 			},
 			-- #else
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Cataclysm messed up with the drop sources for Wildvine. Supposed to drop from trolls in Hinterlands and Stranglethorn, farming Purple Lotus with herbalism is the most reliable source.",
 				constant = "CATACLYSM_MESSED_UP_WITH_THE_DROP_SOURCES_FOR_6",
 				export = true,

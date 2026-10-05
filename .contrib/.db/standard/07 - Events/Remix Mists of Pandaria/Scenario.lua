@@ -268,7 +268,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 			}),
 			i(89196, {	-- Theramore Tabard
 				["races"] = ALLIANCE_ONLY,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Buyable from the Toy Vendor at any Infinite Bazar Location or granted to Alliance players on completion of the Theramore's Fall scenario at |cffFF0000exactly level 35|R. You can unequip your cloak if your experience bonus is too great.",
 					constant = "BUYABLE_FROM_THE_TOY_VENDOR_AT_ANY_INFINITE",
 					export = true,
@@ -289,7 +289,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 			}),
 			i(89205, {	-- Mini Mana Bomb Toy (TOY!)
 				["races"] = HORDE_ONLY,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Buyable from the Toy Vendor at any Infinite Bazar Location or granted to Horde players on completion of the Theramore's Fall scenario at |cffFF0000exactly level 35|R. You can unequip your cloak if your experience bonus is too great.",
 					constant = "BUYABLE_FROM_THE_TOY_VENDOR_AT_ANY_INFINITE_2",
 					export = true,

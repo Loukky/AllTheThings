@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			ach(14767, {	-- Count Your Blessings
 				crit(49944, {		-- Purified Blessing of Grace
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires a |cFFFFFFFFRipe Purian|r to activate.",
 						constant = "REQUIRES_A_CFFFFFFFFRIPE_PURIAN_R_TO_ACTIVATE",
 						export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14339, {	-- Shard Labor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "'Collect all trackable things' must be enabled to see the location of each shard in the list.\n\nShards are collected account-wide. There are shards to collect in Bastion, Necrotic Wake, and Spires of Ascension.",
 					constant = "COLLECT_ALL_TRACKABLE_THINGS_MUST_BE_ENABLED_TO",
 					export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					-- moving completed ones up to the top for now so it's easier to see which one checks off (to verify coords + add data more easily)
 					q(61295, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a bookshelf inside the room behind Rector Kalliope.",
 							constant = "ON_A_BOOKSHELF_INSIDE_THE_ROOM_BEHIND_RECTOR",
 							export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61293, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a pillar underneath the platform. The shard is surrounded by mobs that will attack you even if you land properly on top of the pillar, so you need a way to stun, fear, or kill them so you can loot.\n\nDon't jump all the way down to the middle section. There is a small gap between the staircase to the top of the platform and the archway the waterfall passes through. Walk through the gap and forward along the ledge. The shard can be difficult to see, depending on your camera angle, but you need to jump off the ledge towards the pillar.",
 							constant = "ON_A_PILLAR_UNDERNEATH_THE_PLATFORM_THE_SHARD",
 							export = true,
@@ -146,7 +146,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61294, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Behind some barrels of anima.",
 							constant = "BEHIND_SOME_BARRELS_OF_ANIMA",
 							export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61292, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The pathway to this shard starts at |cFFFFFFFF27.7, 19.2|r, in an area full of elite mobs. Run up the ledge on the side of the mountain until you can jump down to the archway and pick up the shard.",
 							constant = "THE_PATHWAY_TO_THIS_SHARD_STARTS_AT_CFFFFFFFF27",
 							export = true,
@@ -192,7 +192,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61291, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the bottom of the lake, hidden inside the base of a fallen statue.",
 							constant = "AT_THE_BOTTOM_OF_THE_LAKE_HIDDEN_INSIDE_THE",
 							export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61290, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Jump over the short wall to the left of the statue at |cFFFFFFFF33.2, 36.8|r. The shard is at the end of the ledge.",
 							constant = "JUMP_OVER_THE_SHORT_WALL_TO_THE_LEFT_OF_THE",
 							export = true,
@@ -238,7 +238,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61257, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a tiny outcropping behind Epistasia. Jump from the side, rather than trying to fall backwards to the shard.",
 							constant = "ON_A_TINY_OUTCROPPING_BEHIND_EPISTASIA_JUMP",
 							export = true,
@@ -261,7 +261,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61287, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The path to this shard starts at |cFFFFFFFF35.1, 23.2|r. Just follow the ledge around the cliffs.",
 							constant = "THE_PATH_TO_THIS_SHARD_STARTS_AT_CFFFFFFFF35_1",
 							export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61264, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Up at the top of a small fallen pillar.",
 							constant = "UP_AT_THE_TOP_OF_A_SMALL_FALLEN_PILLAR",
 							export = true,
@@ -307,7 +307,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61225, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underneath the bridge that runs from Aspirant's Crucible to the Vestibule of Eternity.\n\nUse a Goblin Glider at |cFFFFFFFF39.6, 74.6|r to reach the platform. After you've collected the shard, leap off the side and a Kyrian will carry you to safety.",
 							constant = "UNDERNEATH_THE_BRIDGE_THAT_RUNS_FROM_ASPIRANT_S",
 							export = true,
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61263, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a pillar. Jump down from the cliffs above. Levitate helped me reach this one.",
 							constant = "ON_TOP_OF_A_PILLAR_JUMP_DOWN_FROM_THE_CLIFFS",
 							export = true,
@@ -353,7 +353,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61261, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Don't fully jump down from the cliffs. It's on the lower portion, hidden on a narrow ledge.",
 							constant = "DON_T_FULLY_JUMP_DOWN_FROM_THE_CLIFFS_IT_S_ON",
 							export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61286, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "From |cFFFFFFFF43.8, 21.6|r, simply walk toward the shard's coordinates. It's just through an arch on a ledge.",
 							constant = "FROM_CFFFFFFFF43_8_21_6_R_SIMPLY_WALK_TOWARD",
 							export = true,
@@ -399,7 +399,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61289, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a gazebo with a crystal roof. You will have to jump down to the shard from the cliffs above.",
 							constant = "ON_TOP_OF_A_GAZEBO_WITH_A_CRYSTAL_ROOF_YOU_WILL",
 							export = true,
@@ -422,7 +422,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61288, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the end of a narrow ledge that starts at |cFFFFFFFF43.6, 33.8|r.",
 							constant = "AT_THE_END_OF_A_NARROW_LEDGE_THAT_STARTS_AT",
 							export = true,
@@ -445,7 +445,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61235, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the middle level of the waterfall. Jump down from above.",
 							constant = "ON_THE_MIDDLE_LEVEL_OF_THE_WATERFALL_JUMP_DOWN",
 							export = true,
@@ -468,7 +468,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61285, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a ledge underneath a waterfall. The path starts at |cFFFFFFFF45.6, 25.2|r. Follow the ledge to the right until you get to the shard.",
 							constant = "ON_A_LEDGE_UNDERNEATH_A_WATERFALL_THE_PATH",
 							export = true,
@@ -491,7 +491,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61284, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The path starts around |cFFFFFFFF45.5, 20.3|r. Just follow the ledge on the right. You will pass a statue of a steward when you are about halfway to the shard. The path is so narrow and short in some places that mounting will knock you off the path or prevent you from continuing along it.",
 							constant = "THE_PATH_STARTS_AROUND_CFFFFFFFF45_5_20_3_R",
 							export = true,
@@ -514,7 +514,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61253, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a fallen wall. Climb up, and then you can carefully fall backwards towards the shard.",
 							constant = "ON_TOP_OF_A_FALLEN_WALL_CLIMB_UP_AND_THEN_YOU",
 							export = true,
@@ -537,7 +537,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61260, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the middle section of the cliffside, underneath the platform.",
 							constant = "ON_THE_MIDDLE_SECTION_OF_THE_CLIFFSIDE",
 							export = true,
@@ -560,7 +560,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61236, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a very narrow piece of the framework of Aspirant's Rest. Use a Goblin Glider. You can go to the highest cliff on the other side of the building, but I was able to glide straight towards the shard from |cFFFFFFFF48.6, 70.7|r, land on the nearby pillar, and hop over to pick up the shard.",
 							constant = "ON_A_VERY_NARROW_PIECE_OF_THE_FRAMEWORK_OF",
 							export = true,
@@ -583,7 +583,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61279, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a pillar. You will need to jump down from the cliffs above.",
 							constant = "ON_TOP_OF_A_PILLAR_YOU_WILL_NEED_TO_JUMP_DOWN",
 							export = true,
@@ -606,7 +606,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61278, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a rock underneath the bridge. You will have to jump down from the cliffs on the western side.",
 							constant = "ON_A_ROCK_UNDERNEATH_THE_BRIDGE_YOU_WILL_HAVE",
 							export = true,
@@ -629,7 +629,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61254, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a beam that goes across the top of a little hut. You will have to jump down to the shard from the cliffs above.",
 							constant = "ON_A_BEAM_THAT_GOES_ACROSS_THE_TOP_OF_A_LITTLE",
 							export = true,
@@ -652,7 +652,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61258, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the ledge of Hero's Rest, next to the stairs. You have to jump down to the bottom of the rocky platform and walk along the edge to reach the shard.",
 							constant = "ON_THE_LEDGE_OF_HERO_S_REST_NEXT_TO_THE_STAIRS",
 							export = true,
@@ -675,7 +675,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61277, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of a pillar. You will have to jump down from the cliffs above.",
 							constant = "ON_TOP_OF_A_PILLAR_YOU_WILL_HAVE_TO_JUMP_DOWN",
 							export = true,
@@ -698,7 +698,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61283, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Enter Covinkles' Workshop at |cFFFFFFFF53.8, 9.6|r. The shard is on the left side, behind some barrels.",
 							constant = "ENTER_COVINKLES_WORKSHOP_AT_CFFFFFFFF53_8_9_6_R",
 							export = true,
@@ -721,7 +721,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61237, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underneath the cliff, on a small outcropping above the water. You'll need to jump from the side of the hill to get to the shard. Slow fall abilities are useful here.",
 							constant = "UNDERNEATH_THE_CLIFF_ON_A_SMALL_OUTCROPPING",
 							export = true,
@@ -744,7 +744,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61238, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underwater, beneath the little bridge.",
 							constant = "UNDERWATER_BENEATH_THE_LITTLE_BRIDGE",
 							export = true,
@@ -767,7 +767,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61239, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of one of the pillars. Some strategic jumping is required to get to this one (and luck).",
 							constant = "ON_TOP_OF_ONE_OF_THE_PILLARS_SOME_STRATEGIC",
 							export = true,
@@ -790,7 +790,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61251, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "At the bottom of waterfall on the left-hand side, inside a small shrine.",
 							constant = "AT_THE_BOTTOM_OF_WATERFALL_ON_THE_LEFT_HAND",
 							export = true,
@@ -813,7 +813,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61241, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a little outcropping on the cliffside. Some strategic falling is required to reach this shard.",
 							constant = "ON_A_LITTLE_OUTCROPPING_ON_THE_CLIFFSIDE_SOME",
 							export = true,
@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61281, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underneath the highest part of the cliff. Jump down to the second part of the cliff and walk underneath the large outcropping.",
 							constant = "UNDERNEATH_THE_HIGHEST_PART_OF_THE_CLIFF_JUMP",
 							export = true,
@@ -859,7 +859,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61280, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Behind the Gilded Bulwark, on the left side of a small table.",
 							constant = "BEHIND_THE_GILDED_BULWARK_ON_THE_LEFT_SIDE_OF_A",
 							export = true,
@@ -882,7 +882,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61247, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Partway up the wall. You must jump down from the platform above.",
 							constant = "PARTWAY_UP_THE_WALL_YOU_MUST_JUMP_DOWN_FROM_THE",
 							export = true,
@@ -905,7 +905,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61275, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Enter the Hall of Beasts at |cFFFFFFFF55.6, 43.0|r. The shard is all the way at the back, hidden behind some barrels.",
 							constant = "ENTER_THE_HALL_OF_BEASTS_AT_CFFFFFFFF55_6_43_0",
 							export = true,
@@ -928,7 +928,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61270, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On top of the cliff (not in the cave below), at the base of a tree.",
 							constant = "ON_TOP_OF_THE_CLIFF_NOT_IN_THE_CAVE_BELOW_AT",
 							export = true,
@@ -951,7 +951,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61250, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Don't go up the small staircase. To the right of the stairs, there is a passage that leads to the bottom of a little waterfall on the cliffside. The shard is there, to the left, underneath a Vesper.",
 							constant = "DON_T_GO_UP_THE_SMALL_STAIRCASE_TO_THE_RIGHT_OF",
 							export = true,
@@ -974,7 +974,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61245, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You have to carefully jump down from the cliffs. The shard is close to the edge of the map, next to a small pool of water at the top of a waterfall.",
 							constant = "YOU_HAVE_TO_CAREFULLY_JUMP_DOWN_FROM_THE_CLIFFS",
 							export = true,
@@ -997,7 +997,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61282, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a ledge. You will need to jump down from the cliffs above.",
 							constant = "ON_A_LEDGE_YOU_WILL_NEED_TO_JUMP_DOWN_FROM_THE",
 							export = true,
@@ -1020,7 +1020,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61244, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the edge of the cliffs.",
 							constant = "ON_THE_EDGE_OF_THE_CLIFFS",
 							export = true,
@@ -1043,7 +1043,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61271, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the upper level, in a bookshelf.",
 							constant = "ON_THE_UPPER_LEVEL_IN_A_BOOKSHELF",
 							export = true,
@@ -1066,7 +1066,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61249, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the Anima Gateway at |cFFFFFFFF63.5, 72.4|r. You can only use the gateway if you aren't in combat, so be careful what you pull.\n\nAfter taking the gateway, head to the shard coordinates. It is hidden behind a pillar.",
 							constant = "USE_THE_ANIMA_GATEWAY_AT_CFFFFFFFF63_5_72_4_R",
 							export = true,
@@ -1089,7 +1089,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61274, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Underneath the edge of the platform. Facing north, towards the sky, drop off the left-hand side of the platform and walk under it.",
 							constant = "UNDERNEATH_THE_EDGE_OF_THE_PLATFORM_FACING",
 							export = true,
@@ -1112,7 +1112,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					q(61273, {	-- Anima Crystal Shard
 						["name"] = "Anima Crystal Shard",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Walk along the lower ledge that starts at |cFFFFFFFF71.4, 38.9|r.",
 							constant = "WALK_ALONG_THE_LOWER_LEDGE_THAT_STARTS_AT",
 							export = true,
@@ -1135,7 +1135,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 					-- TODO: keep these here, within the achievement, or move them to treasures or something?  you do the final 3 steps after the achievement is totally completed, it's just a prerequisite...so i'm not sure if it makes sense to have them here??
 					n(171732, {	-- Forgelite Hephaesius
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you finish collecting all the shards from Bastion, Necrotic Wake, and Spires of Ascension, visit Hephaesius. Give him the shards, and he will forge them into a mallet.",
 							constant = "AFTER_YOU_FINISH_COLLECTING_ALL_THE_SHARDS_FROM",
 							export = true,
@@ -1160,7 +1160,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					o(355435, {	-- Vesper of the Silver Wind
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Once you have the mallet, take it to the Vesper of the Silver Wind and ring the bell.",
 							constant = "ONCE_YOU_HAVE_THE_MALLET_TAKE_IT_TO_THE_VESPER",
 							export = true,
@@ -1184,7 +1184,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						["provider"] = { "i", 180858 },	-- Crystal Mallet of Heralds
 					}),
 					o(355449, {	-- Gift of the Silver Wind
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "A Silverwind Larion will spawn behind you and drop a treasure chest containing the mount.",
 							constant = "A_SILVERWIND_LARION_WILL_SPAWN_BEHIND_YOU_AND",
 							export = true,
@@ -1309,7 +1309,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			ach(14768, {	-- What is that Melody?
 				crit(49947, {		-- Hymn of Purity
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Triangular stacks of bundled scrolls, often found on tables and benches. The coordinates given are not exhaustive; this scroll can spawn throughout the Temple of Purity. Part of this temple is full of elite mobs.",
 						constant = "TRIANGULAR_STACKS_OF_BUNDLED_SCROLLS_OFTEN",
 						export = true,
@@ -1337,7 +1337,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				crit(49948, {		-- Hymn of Courage
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rolled scrolls that can be found on the ground. The coordinates given are not exhaustive; this scroll can spawn throughout the Temple of Courage. The transport pad to reach the area is located at |cFFFFFFFF39.2, 56.1|r.",
 						constant = "ROLLED_SCROLLS_THAT_CAN_BE_FOUND_ON_THE_GROUND",
 						export = true,
@@ -1366,7 +1366,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				crit(49949, {		-- Hymn of Humility
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vertical scrolls that are often on tables. The coordinates given are not exhaustive; this scroll can spawn throughout the Temple of Humility.",
 						constant = "VERTICAL_SCROLLS_THAT_ARE_OFTEN_ON_TABLES_THE",
 						export = true,
@@ -1395,7 +1395,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				crit(49950, {		-- Hymn of Wisdom
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vertical scrolls that are often pinned to monuments or walls. The coordinates given are not exhaustive; this scroll can spawn throughout the Temple of Wisdom.",
 						constant = "VERTICAL_SCROLLS_THAT_ARE_OFTEN_PINNED_TO",
 						export = true,

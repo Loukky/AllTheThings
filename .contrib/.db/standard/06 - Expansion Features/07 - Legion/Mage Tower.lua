@@ -22,7 +22,7 @@ local MageTowerFilter92 =
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 	-- Original Legion content
 	n(MAGE_TOWER, bubbleDown(MageTowerFilter, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Mage Tower Challenges were solo encounters designed for all of the 36 talent specializations in the game during Legion. They were designed to be challenging, but beatable. Access to these challenges was removed with the BFA Prepatch, 8.0.1.\n\nCongratulations to everyone that worked really hard attempting to collect all of these appearances!\n\n - Crieve (31/36)",
 			constant = "THE_MAGE_TOWER_CHALLENGES_WERE_SOLO_ENCOUNTERS",
 			export = true,
@@ -287,7 +287,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 	})),
 	-- Rehashed Permanent content
 	n(MAGE_TOWER, bubbleDown(MageTowerFilter92, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Mage Tower Challenges are back, more challenging than ever. Good luck everyone!",
 			constant = "THE_MAGE_TOWER_CHALLENGES_ARE_BACK_MORE",
 			export = true,

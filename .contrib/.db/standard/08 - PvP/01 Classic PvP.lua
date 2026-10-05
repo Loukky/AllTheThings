@@ -26,7 +26,7 @@ local function MarkOfWHOOOWHATNow(t)
 end
 
 root(ROOTS.PVP, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CLASSIC, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "In order to collect these, you need to have the original title associated with the gear.",
 		constant = "IN_ORDER_TO_COLLECT_THESE_YOU_NEED_TO_HAVE_THE",
 		export = true,

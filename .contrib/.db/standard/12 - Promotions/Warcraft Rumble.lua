@@ -36,7 +36,7 @@ WARCRAFT_RUMBLE = createHeader({
 root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 	n(ACHIEVEMENTS, {
 		ach(15344, {	-- "S.A.F.E" Pilot
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Play Warcraft Rumble on your phone until you defeat Hogger. Restart the App & you receive the pet.",
 				constant = "PLAY_WARCRAFT_RUMBLE_ON_YOUR_PHONE_UNTIL_YOU",
 				export = true,

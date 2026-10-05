@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				ach(11264),	-- Adventurer of Highmountain (automated)
 				ach(10059),	-- Ain't No Mountain High Enough (automated)
 				ach(10398, {	-- Drum Circle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This achievement can be soloed since after 'Battle for Azeroth'. Repeatedly jump for 1-3 minutes in the middle ring on the lower floor of Thunder Totem. It CANNOT be completed while you are on 'Assault on Thunder Totem' and you must be able to hear the drum beats to know the achievement is working.",
 						constant = "THIS_ACHIEVEMENT_CAN_BE_SOLOED_SINCE_AFTER",
 						export = true,

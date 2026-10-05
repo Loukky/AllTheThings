@@ -521,7 +521,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
 									["provider"] = { "i", 205951 },	-- Memory of a Troubled Acolyte
 									-- ["coord"] = { , TELDRASSIL },	-- TODO: Find the coordinate for the closest moonwell.
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Kneel (/kneel) in the Moonwell to gain a Meditation buff, then use the Rune to complete the quest.",
 										constant = "KNEEL_KNEEL_IN_THE_MOONWELL_TO_GAIN_A",
 										export = true,
@@ -743,7 +743,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(28731, {	-- Teldrassil: Passing Awareness
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The quest completion marker is placed wrong, go to the crossroad just outside of Darnassus.",
 								constant = "THE_QUEST_COMPLETION_MARKER_IS_PLACED_WRONG_GO",
 								export = true,
@@ -1253,7 +1253,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 56.2, 61.7, TELDRASSIL },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 1.7.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest ' Crown of the Earth (5/6)' (7383).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_5",
 						export = true,
@@ -1855,7 +1855,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(929, {	-- Teldrassil: The Refusal of the Aspects [CATA+] / Crown of the Earth (3/6)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The quest completion marker and position of the quest giver depends on the quests you have accepted.\n\nIf you DO NOT have |cff4a54e8Teldrassil: The Burden of the Kaldorei|r in your Quest Log, Corithras Moonrage will be at Dolanaar.\nIf you DO HAVE it accepted, along with this quest, he will be at the Crossroads in front of the entrance to Darnassus.",
 						constant = "THE_QUEST_COMPLETION_MARKER_AND_POSITION_OF_THE",
 						export = true,
@@ -1922,7 +1922,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(2438, {	-- The Emerald Dreamcatcher
 					-- #if AFTER CATA
 					-- #if BEFORE LEGION
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is incorrectly marked as a weekly by Blizzard up until Legion. Complete it on a Night Elf character to prevent it from reappearing in ATT.",
 						constant = "THIS_QUEST_IS_INCORRECTLY_MARKED_AS_A_WEEKLY_BY",
 						export = true,
@@ -1997,7 +1997,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						i(5592, {	-- Shackled Girdle
 							-- #if ANYCLASSIC
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This gets completely removed. To be safe, keep this in your bank forever on a mail user.",
 								constant = "THIS_GETS_COMPLETELY_REMOVED_TO_BE_SAFE_KEEP_2",
 								export = true,
@@ -2199,7 +2199,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(931, {	-- The Shimmering Frond
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Give the Shimmering Frond to Denalan at the east end of Lake Al'Ameth (59.9, 59.8) to ensure you get the next quest.",
 						constant = "GIVE_THE_SHIMMERING_FROND_TO_DENALAN_AT_THE",
 						export = true,
@@ -2255,7 +2255,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(2399, {	-- The Sprouted Fronds
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "A bug prevents the spawn of Sprouted Frond if completed at a wrong NPC.\nAfter picking up the quest, |cff4a54e8The Shimmering Frond|r, DO NOT turn in the quest to Denalan at the Wellspring Hovel, but to the Denalan at the east end of Lake Al'Ameth (59.9, 59.8). Denalan at the Wellsping Hovel will not spawn the Sprouted Frond after completing the quest and you will be unable to get the next quest.\nThe Denalan at the east end of Lake Al'Ameth WILL spawn the Sprouted Frond and you can pick up the next quest |cff4a54e8The Shimmering Frond|r.\n\nIf, like me, you turned it in to Denalan at the Wellspring Hovel, just travel to the one at the lake and log out. Go onto another character who has not done the quest yet, turn it in there and log out. The plants should spawn and give you enough time to re-log back to your previous character and do the quest.\n\n- Crieve",
 						constant = "A_BUG_PREVENTS_THE_SPAWN_OF_SPROUTED_FROND_IF",
 						export = true,
@@ -2622,7 +2622,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209812, {	-- Fallenroot Poacher
 					["provider"] = { "n", 209811 },	-- Rustling Bush
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Hunter's Mark on the bush to spawn the Rare Creature.",
 						constant = "CAST_HUNTER_S_MARK_ON_THE_BUSH_TO_SPAWN_THE_2",
 						export = true,

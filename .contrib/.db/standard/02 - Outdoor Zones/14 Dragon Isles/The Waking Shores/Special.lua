@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["cost"] = { { "i", 200063, 1 } },	-- 1x Observant Riddle "Treat"
 			}),
 			i(192777, {	-- Magmashell (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Farm Lavaslurpers and Basalt Shells for Empty Magma Shell in the area around the first waypoint. Go to the second waypoint and click on the Empowered Snail to get the Magmashell mount. You will need to survive the lava.",
 					constant = "FARM_LAVASLURPERS_AND_BASALT_SHELLS_FOR_EMPTY",
 					export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["cost"] = { { "i", 198047, 1 } },	-- 1x Kul Tiran Red
 			}),
 			i(200638, {	-- Bubblefilled Flounder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can only be looted while dead. Found within bubbles of air underwater at the Hissing Grotto north of the Obsidian Citadel in the Waking Shores.",
 					constant = "CAN_ONLY_BE_LOOTED_WHILE_DEAD_FOUND_WITHIN",
 					export = true,

@@ -193,7 +193,7 @@ appendAllGroups(SeasonDifficultyGroups, {
 local INSTANCE_GROUPS = {
 	n(VENDORS, {
 		n(140319, {	-- Hobart Grapplehammer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "In the building directly at the end of the first road after entering the dungeon.",
 				constant = "IN_THE_BUILDING_DIRECTLY_AT_THE_END_OF_THE",
 				export = true,
@@ -240,7 +240,7 @@ local INSTANCE_GROUPS = {
 			ach(12844),	-- The MOTHERLODE!!
 			ig(163708),	-- Ironfoe (Dark Iron Dwarf Quest Item)
 			ig(161136, {	-- Azerite Forged Protection Plating
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Seems to require at least 175 BFA Engineering Skill to drop.",
 					constant = "SEEMS_TO_REQUIRE_AT_LEAST_175_BFA_ENGINEERING",
 					export = true,
@@ -260,7 +260,7 @@ local INSTANCE_GROUPS = {
 				}),
 			}),
 			ig(161137, {	-- Blast-Fired Electric Servomotor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Seems to require at least 225 BFA Engineering Skill to drop.",
 					constant = "SEEMS_TO_REQUIRE_AT_LEAST_225_BFA_ENGINEERING",
 					export = true,
@@ -280,7 +280,7 @@ local INSTANCE_GROUPS = {
 				}),
 			}),
 			ig(161132, {	-- Crush Resistant Stabilizer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Seems to require at least 200 BFA Engineering Skill to drop.",
 					constant = "SEEMS_TO_REQUIRE_AT_LEAST_200_BFA_ENGINEERING",
 					export = true,
@@ -300,7 +300,7 @@ local INSTANCE_GROUPS = {
 				}),
 			}),
 			ig(161129, {	-- Mecha-Mogul Mk1 Remote Activation Device
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Seems to require at least 250 BFA Engineering Skill to drop.",
 					constant = "SEEMS_TO_REQUIRE_AT_LEAST_250_BFA_ENGINEERING",
 					export = true,

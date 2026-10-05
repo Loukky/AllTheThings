@@ -1827,7 +1827,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["lvl"] = 10,
 						}),
 						q(57730, {	-- Zinfizzlex's Portable Shredder Unit (A)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
 								constant = "QUESTGIVER_IS_WEST_OF_KORRAK_OVER_THE_BRIDGE",
 								export = true,
@@ -2764,7 +2764,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						hqt(84743, {	-- Stay awhile and listen: Moira Thaurissan <Queen of the Dark Iron>
 							["name"] = "Stay awhile and listen: Moira Thaurissan",
 							-- #IF BEFORE 11.2.5
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Dialogue becomes available after completing 'Disturbance Detected: Blackrock Depths' (82817).",
 								constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_7",
 								export = true,
@@ -2961,7 +2961,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
 						CommonBossDrops({
 							i(231510, {	-- Timewarped Relic Coffer Key
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can only loot 120 keys per difficulty per character for the entire event.",
 									constant = "YOU_CAN_ONLY_LOOT_120_KEYS_PER_DIFFICULTY_PER",
 									export = true,
@@ -3073,7 +3073,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = { i(208092) },	-- Torch of Pyrreth
 						}),
 						q(84363, {	-- Tweasure Hunt
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Activate Torch of Pyrreth at each of the Dig Sites.",
 								constant = "ACTIVATE_TORCH_OF_PYRRETH_AT_EACH_OF_THE_DIG",
 								export = true,
@@ -3125,7 +3125,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								i(228617),	-- Benatauk's Clue Book (QI!)
 								i(228618, {	-- Benatauk's Crystal Ocular Lenses (QI!)
 									["coord"] = { 64.2, 50.0, TANARIS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Go to Isaandrae <Skyway Balloonist>. Maru will find and give you [Benatauk's Crystal Ocular Lenses].",
 										constant = "GO_TO_ISAANDRAE_SKYWAY_BALLOONIST_MARU_WILL",
 										export = true,
@@ -3146,7 +3146,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								}),
 								i(228619, {	-- Benatauk's Thought Calculating Apparatus (QI!)
 									["coord"] = { 63.6, 48.5, TANARIS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Go behind the Fashion Show platform. Maru will find and give you [Benatauk's Thought Calculating Apparatus].",
 										constant = "GO_BEHIND_THE_FASHION_SHOW_PLATFORM_MARU_WILL",
 										export = true,
@@ -3167,7 +3167,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								}),
 								i(228620, {	-- Benatauk's Downy Helmet Liner (QI!)
 									["coord"] = { 61.4, 49.9, TANARIS },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Go near Taivan. Maru will find and give you [Benatauk's Downy Helmet Liner].",
 										constant = "GO_NEAR_TAIVAN_MARU_WILL_FIND_AND_GIVE_YOU",
 										export = true,
@@ -3203,7 +3203,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					n(VENDORS, {
 						-- TODO: Review if these vendors are available outside anniversary
 						n(226766, {	-- Benatauk <Unco Benny>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to get up to the quest 'A Whiff of Help' in the chain and accept it in order to buy the items.",
 								constant = "YOU_NEED_TO_GET_UP_TO_THE_QUEST_A_WHIFF_OF_HELP",
 								export = true,
@@ -3234,7 +3234,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							},
 						}),
 						n(230310, {	-- Pointless Treasure Salesman
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Inside the Booty Bay goblin statue behind chests in the back.",
 								constant = "INSIDE_THE_BOOTY_BAY_GOBLIN_STATUE_BEHIND",
 								export = true,
@@ -3263,7 +3263,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							},
 						}),
 						n(91079, {	-- Vashti the Wandering Merchant <General Goods>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found pathing up and down the road between Felblaze Ingress and The Ruined Sanctum in Azsuna, Broken Isles.",
 								constant = "CAN_BE_FOUND_PATHING_UP_AND_DOWN_THE_ROAD",
 								export = true,
@@ -3325,7 +3325,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84237, {	-- The "Great" Detective
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "1. Talk to the members of Team Solid in following order until the quest shows 48% progress.\n- Ellanoir\n- Duryllin\n- Juddson Rakes\n- Ellanoir\n2. Use your Torch of Pyrreth at Wavestrider Beach to reveal Herrkrop's body.\n3. Talk to all nearby NPCs.\n4. Talk to Athelton Jones to complete the quest requirements.",
 								constant = "1_TALK_TO_THE_MEMBERS_OF_TEAM_SOLID_IN",
 								export = true,
@@ -3375,7 +3375,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							},
 						}),
 						q(84278, {	-- Tracking Quest
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the Goblin Transport at 68.0, 40.8 to travel to Borean Tundra, then find Rexxar.",
 								constant = "USE_THE_GOBLIN_TRANSPORT_AT_68_0_40_8_TO_TRAVEL",
 								export = true,
@@ -3410,7 +3410,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							},
 						}),
 						q(84296, {	-- The Trail's Gone Cold
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "1. Locate 3 diary pages around the marked shed and then go to Sholazar Basin.\n2. Interact with the Mounted Spyglass atop the Glimmering Pillar and then head to Icecrown.\n3. Summon Rexxar with your Spirit's Whistle and tell him about a shapeshifter.",
 								constant = "1_LOCATE_3_DIARY_PAGES_AROUND_THE_MARKED_SHED",
 								export = true,
@@ -3439,7 +3439,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(227665) },	-- Torn Diary, Page 4 (QI!)
 								}),
 								o(457161, {	-- Torn Note
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Torch of Pyrreth to reveal the page.",
 										constant = "USE_TORCH_OF_PYRRETH_TO_REVEAL_THE_PAGE",
 										export = true,
@@ -3482,7 +3482,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84336, {	-- Spot The Difference
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Speak to Hemet, Leeroy, and Addie to suss out the detectives' stories, then accuse one. Chase the intruder east of Bootlegger Outpost and kill him.",
 								constant = "SPEAK_TO_HEMET_LEEROY_AND_ADDIE_TO_SUSS_OUT_THE",
 								export = true,
@@ -3537,7 +3537,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						},
 						{	-- Operation Toy Rescue
 								["allianceQuestData"] = q(84588, {	-- Operation Toy Rescue [A]
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Kenshi in Boralus, find the Ball of Yarn in the park, and talk to Kenshi again.",
 									constant = "TALK_TO_YENNU_IN_ISKAARA_FIND_A_NOTE_IN",
 									export = true,
@@ -3567,7 +3567,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 										},
 									}),
 									o(467060, {	-- Ball of Yarn
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Near a fence and tree in Boralus Park.",
 											constant = "NEAR_A_FENCE_AND_TREE_IN_BORALUS_PARK",
 											export = true,
@@ -3591,7 +3591,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								},
 							}),
 								["hordeQuestData"] = q(85025, {	-- Operation Toy Rescue [H]
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
 									constant = "TALK_TO_YENNU_IN_ISKAARA_FIND_A_NOTE_IN_2",
 									export = true,
@@ -3628,7 +3628,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
 								}),
 								o(465234, {	-- Missing Page from Yennu's Snackbook
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Inside a cart in Dragonscale Basecamp.",
 										constant = "INSIDE_A_CART_IN_DRAGONSCALE_BASECAMP",
 										export = true,
@@ -3650,7 +3650,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(228791) },	-- Missing Page from Yennu's Snackbook (QI!)
 								}),
 								o(465277, {	-- Mound of Dirt
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By a river by the eastern side of Maruukai.",
 										constant = "BY_A_RIVER_BY_THE_EASTERN_SIDE_OF_MARUUKAI",
 										export = true,
@@ -3689,7 +3689,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						},
 						{	-- The Toy Thief
 							["allianceQuestData"] = q(84756, {	-- The Toy Thief [A]
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 									constant = "TALK_TO_MARU_SUSPECT_A_DOG_THEN_VISIT_URBAN",
 									export = true,
@@ -3717,7 +3717,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									},
 							}),
 							["hordeQuestData"] = q(85043, {	-- The Toy Thief [H]
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Talk to Maru, suspect a dog, then visit Matan in Dazar'alor.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 									constant = "TALK_TO_MARU_SUSPECT_A_DOG_THEN_VISIT_MATAN_IN",
 									export = true,
@@ -3748,7 +3748,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.2, 52.4, TANARIS },
 							["groups"] = {
 								o(467293, {	-- Chew Toy
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Atop the high mountain peak behind Maruukai.",
 										constant = "ATOP_THE_HIGH_MOUNTAIN_PEAK_BEHIND_MARUUKAI",
 										export = true,
@@ -3770,7 +3770,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229350) },	-- Chew Toy (QI!)
 								}),
 								o(467305, {	-- Toy Box
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Place the Chew Toy inside the Toy Box and then hide in the nearby bush.\nAfter Bakar Pup takes the toy, follow him to the cave.",
 										constant = "PLACE_THE_CHEW_TOY_INSIDE_THE_TOY_BOX_AND_THEN",
 										export = true,
@@ -3791,7 +3791,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 39.6, 58.3, OHNAHRAN_PLAINS },
 								}),
 								o(467329, {	-- Maru's Toy
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Inside a cave near Teerakai",
 										constant = "INSIDE_A_CAVE_NEAR_TEERAKAI",
 										export = true,
@@ -3828,7 +3828,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(85060, {	-- Pirate Foods and Superstitions
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Talk to Kelsey Yance in the Old Port Authority building or Mrs. Gant in a room on the lowest level of Booty Bay. Collect the Boonful Banquet from a barrel in the same room as Mrs. Gant then show it to Scowling Rosa who paths around the wharf.",
 								constant = "TALK_TO_KELSEY_YANCE_IN_THE_OLD_PORT_AUTHORITY",
 								export = true,
@@ -3858,7 +3858,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 42.7, 72.7, THE_CAPE_OF_STRANGLETHORN },
 								}),
 								o(473934, {	-- Property of Cooktholomew
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On the bottom floor of a building in Booty Bay by some bunks.",
 										constant = "ON_THE_BOTTOM_FLOOR_OF_A_BUILDING_IN_BOOTY_BAY",
 										export = true,
@@ -3891,7 +3891,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["isBreadcrumb"] = true,
 						}),
 						q(85195, {	-- Pirate Gastronomy
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Acquire the required ingredients then talk to Bottlenose in Tanaris. Visit Hrothgar's Landing to grab the last ingredient.",
 								constant = "ACQUIRE_THE_REQUIRED_INGREDIENTS_THEN_TALK_TO",
 								export = true,
@@ -3930,7 +3930,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 60.9, 44.7, TANARIS },
 								}),
 								o(469985, {	-- Ice Block
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In the mountains of Hrothgar's Landing in Icecrown, contains the secret ingredient fish and must be visited for quest completion, even if you grab the fish elsewhere.",
 										constant = "IN_THE_MOUNTAINS_OF_HROTHGAR_S_LANDING_IN",
 										export = true,
@@ -3963,7 +3963,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(85476, {	-- Buried Tweasure
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Find clues in the Ruins of Uldum, by a rock to the east of Dunemaul Compound, to the left of Zul'Farakk's entrance, then talk to Yennu in the Gadgetzan inn.",
 								constant = "FIND_CLUES_IN_THE_RUINS_OF_ULDUM_BY_A_ROCK_TO",
 								export = true,
@@ -3987,7 +3987,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = {
 								i(231808),	-- Ancient Treasure Notes (QI!)
 								o(476815, {	-- Ancient Treasure Note
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In the back right of the Ruins of Uldum in the Valley of the Watchers.",
 										constant = "IN_THE_BACK_RIGHT_OF_THE_RUINS_OF_ULDUM_IN_THE",
 										export = true,
@@ -4008,7 +4008,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 37.6, 84.1, TANARIS },
 								}),
 								o(477605, {	-- Ancient Treasure Note
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By a rock to the south-east of Dunemaul Compound's adjacent mountain.",
 										constant = "BY_A_ROCK_TO_THE_SOUTH_EAST_OF_DUNEMAUL",
 										export = true,
@@ -4029,7 +4029,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 47.5, 56.5, TANARIS },
 								}),
 								o(477609, {	-- Ancient Treasure Note
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Around the wall to the left of Zul'Farakk's entrance. Use your Torch of Pyrreth.",
 										constant = "AROUND_THE_WALL_TO_THE_LEFT_OF_ZUL_FARAKK_S",
 										export = true,
@@ -4051,7 +4051,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 38.8, 22.1, TANARIS },
 								}),
 								n(232863, {	-- Yennu
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Inside Gadgetzan's Inn.",
 										constant = "INSIDE_GADGETZAN_S_INN",
 										export = true,
@@ -4084,7 +4084,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(85503, {	-- A Surprising Investigation
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Speak to the time-displaced visitors, toss letters to eventgoers, speak to Bonenose at the north camp again, then head a bit northeast up the beach to celebrate with Alyx.",
 								constant = "SPEAK_TO_THE_TIME_DISPLACED_VISITORS_TOSS",
 								export = true,
@@ -4107,7 +4107,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 61.0, 50.7, TANARIS },
 							["groups"] = {
 								n(233000, {	-- Big Kinook
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By the mole machine.",
 										constant = "BY_THE_MOLE_MACHINE",
 										export = true,
@@ -4128,7 +4128,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 63.0, 49.9, TANARIS },
 								}),
 								n(233008, {	-- Jepetto Joybuzz
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By the Story Time seating.",
 										constant = "BY_THE_STORY_TIME_SEATING",
 										export = true,
@@ -4149,7 +4149,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 63.8, 51.8, TANARIS },
 								}),
 								n(233002, {	-- Lorewalker Cho
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By the ice rink.",
 										constant = "BY_THE_ICE_RINK",
 										export = true,
@@ -4170,7 +4170,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 61.6, 51.0, TANARIS },
 								}),
 								n(233006, {	-- Maru <Junior Secret Sleuf>
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By the pet kennels.",
 										constant = "BY_THE_PET_KENNELS",
 										export = true,
@@ -4191,7 +4191,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 61.9, 49.9, TANARIS },
 								}),
 								n(233007, {	-- Reshad
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On the fashion frenzy stage.",
 										constant = "ON_THE_FASHION_FRENZY_STAGE",
 										export = true,
@@ -4224,7 +4224,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						-- The Case of Misfortune
 						o(467403, {	-- Darkmoon Fortune Card
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Behind the crate next to Alyx. After looting this, talk with her, she will tell you to Speak to Alphonse.\n\nYou need to obtain 1 card, it does not matter which one, in order to see gossip options and start the quest.\nThis one is just an example as it is located near Alyx, the main quest giver of the event.",
 								constant = "BEHIND_THE_CRATE_NEXT_TO_ALYX_AFTER_LOOTING",
 								export = true,
@@ -4254,7 +4254,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = { i(229219) },	-- Six of Frost
 						}),
 						q(84882, {	-- Deck Dismay
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Speak to Alphonse after having looted the Six of Frost to unlock this quest. Use the Idol of Ohn'ahra to find more cards scattered around the grounds.",
 								constant = "SPEAK_TO_ALPHONSE_AFTER_HAVING_LOOTED_THE_SIX",
 								export = true,
@@ -4280,7 +4280,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.9, 52.4, TANARIS },
 							["groups"] = {
 								o(467083, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Under a bench near the Story Time stage.",
 										constant = "UNDER_A_BENCH_NEAR_THE_STORY_TIME_STAGE",
 										export = true,
@@ -4302,7 +4302,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229207) },	-- Two of Fire (QI!)
 								}),
 								o(467336, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By two barrels near the Story Time seating.",
 										constant = "BY_TWO_BARRELS_NEAR_THE_STORY_TIME_SEATING",
 										export = true,
@@ -4324,7 +4324,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229210) },	-- Five of Fire (QI!)
 								}),
 								o(467337, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "To the right of Leeroy's food stall.",
 										constant = "TO_THE_RIGHT_OF_LEEROY_S_FOOD_STALL",
 										export = true,
@@ -4346,7 +4346,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229211) },	-- Six of Fire (QI!)
 								}),
 								o(467339, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Behind Brivelthwerp near the ice rink.",
 										constant = "BEHIND_BRIVELTHWERP_NEAR_THE_ICE_RINK",
 										export = true,
@@ -4368,7 +4368,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229213) },	-- Eight of Fire (QI!)
 								}),
 								o(467351, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Between two caravan carts by the front of the grounds.",
 										constant = "BETWEEN_TWO_CARAVAN_CARTS_BY_THE_FRONT_OF_THE",
 										export = true,
@@ -4390,7 +4390,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229225) },	-- Four of Earth (QI!)
 								}),
 								o(467334, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "By the outhose near the photo-op portals.",
 										constant = "BY_THE_OUTHOSE_NEAR_THE_PHOTO_OP_PORTALS",
 										export = true,
@@ -4412,7 +4412,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229208) },	-- Three of Fire (QI!)
 								}),
 								o(467338, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Near the black market walls under the Fashion Frenzy stage.",
 										constant = "NEAR_THE_BLACK_MARKET_WALLS_UNDER_THE_FASHION",
 										export = true,
@@ -4434,7 +4434,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229212) },	-- Seven of Fire (QI!)
 								}),
 								o(467342, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On one of the steps leading down to the Story Time area.",
 										constant = "ON_ONE_OF_THE_STEPS_LEADING_DOWN_TO_THE_STORY",
 										export = true,
@@ -4456,7 +4456,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229216) },	-- Three of Frost (QI!)
 								}),
 								o(467075, {	-- Darkmoon Fortune Card
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On the Fashion Frenzy stage to the left.",
 										constant = "ON_THE_FASHION_FRENZY_STAGE_TO_THE_LEFT",
 										export = true,
@@ -4498,7 +4498,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								i(226362),	-- Torn Note (Black Market)
 								i(226364),	-- Torn Note (Fiona Caravan)
 								o(456039, {	-- Crumpled Letter
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Next to the boxes behind Leeroy's tent.",
 										constant = "NEXT_TO_THE_BOXES_BEHIND_LEEROY_S_TENT",
 										export = true,
@@ -4521,7 +4521,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(226365) },	-- Crumpled Letter
 								}),
 								o(456032, {	-- Ruffled Paper
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Right by Farmer Yoon, near the Mount Mania.",
 										constant = "RIGHT_BY_FARMER_YOON_NEAR_THE_MOUNT_MANIA",
 										export = true,
@@ -4544,7 +4544,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(226361) },	-- Next Week's Mount Competition Listing
 								}),
 								o(456041, {	-- Folded Paper
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Next to the outhouse behind the Fashion Show platform.",
 										constant = "NEXT_TO_THE_OUTHOUSE_BEHIND_THE_FASHION_SHOW",
 										export = true,
@@ -4566,7 +4566,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(226236) },	-- Green Hills of Stranglethorn - Page 21 (QI!)
 								}),
 								i(226232, {	-- Green Hills of Stranglethorn - Page 6 (QI!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Drops from any of the Anniversary World Bosses.",
 										constant = "DROPS_FROM_ANY_OF_THE_ANNIVERSARY_WORLD_BOSSES",
 										export = true,
@@ -4589,7 +4589,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["description"] = "~L.DROPS_FROM_ANY_OF_THE_ANNIVERSARY_WORLD_BOSSES",
 								}),
 								o(456036, {	-- Loose Paper
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In a Dog Bowl, in front of the Doghouse.",
 										constant = "IN_A_DOG_BOWL_IN_FRONT_OF_THE_DOGHOUSE",
 										export = true,
@@ -4611,7 +4611,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(226234) },	-- Green Hills of Stranglethorn - Page 16 (QI!)
 								}),
 								i(226237, {	-- Green Hills of Stranglethorn - Page 25 (QI!)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Drops from Sand Devils In the Timeless Tunnel.",
 										constant = "DROPS_FROM_SAND_DEVILS_IN_THE_TIMELESS_TUNNEL",
 										export = true,
@@ -4636,7 +4636,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["crs"] = { 227795 },	-- Sand Devil
 								}),
 								o(456038, {	-- Wet Paper
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Behind the Story Time Stage, next to the Hearthstone Table.",
 										constant = "BEHIND_THE_STORY_TIME_STAGE_NEXT_TO_THE",
 										export = true,
@@ -4658,7 +4658,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(226235) },	-- Green Hills of Stranglethorn - Page 18 (QI!)
 								}),
 								n(227816, {	-- Cravitz Lorent <Shady Book Dealer>
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Below the Fashion Frenzy platform.",
 										constant = "BELOW_THE_FASHION_FRENZY_PLATFORM",
 										export = true,
@@ -4679,7 +4679,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 63.6, 48.8, TANARIS },
 									["groups"] = {
 										i(226242, {	-- Green Hills of Stranglethorn (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Ultimately, if you could not be bothered to search for the scattered pages,\nyou can buy this item from a vendor... |CFFFF0000Cheater...|r",
 												constant = "ULTIMATELY_IF_YOU_COULD_NOT_BE_BOTHERED_TO",
 												export = true,
@@ -4715,7 +4715,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84595, {	-- The Case of the Fur-Getting Wikket
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Talk to Riko, Shademaster Kiryn, then Sully. Visit Gizmo's grave in the Jade Forest, then chase him down to return to Riko. Wait 5 minutes for Riko to send you mail.",
 								constant = "TALK_TO_RIKO_SHADEMASTER_KIRYN_THEN_SULLY_VISIT",
 								export = true,
@@ -4751,7 +4751,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						-- The Case of an Old Soul
 						q(84435, {	-- Nola's Last Wish
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Speak to Lashk by the story time stage, locate Nola's Last Wish south of Tortaka Refuge in Vol'Dun, then used it to summon and speak to Scrollsage Nola's spirit at the underwater Tortollan wedding west of Atal'Dazar.",
 								constant = "SPEAK_TO_LASHK_BY_THE_STORY_TIME_STAGE_LOCATE",
 								export = true,
@@ -4779,7 +4779,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = {
 								i(228302),	-- My Journal: Nola's Last Wish (QI!)
 								n(229102, {	-- Lashk
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Near the story time stage.",
 										constant = "NEAR_THE_STORY_TIME_STAGE",
 										export = true,
@@ -4800,7 +4800,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 63.9, 53.5, TANARIS },
 								}),
 								o(463104, {	-- Nola's Last Wish
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In a pile of scrolls south of Tortaka Refuge in Vol'Dun.",
 										constant = "IN_A_PILE_OF_SCROLLS_SOUTH_OF_TORTAKA_REFUGE_IN",
 										export = true,
@@ -4822,7 +4822,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(228223)	},	-- Nola's Last Wish (QI!)
 								}),
 								n(229103, {	-- Scrollsage Nola
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding west of Atal'Dazar.",
 										constant = "USE_NOLA_S_LAST_WISH_TO_SUMMON_AND_SPEAK_TO_AT",
 										export = true,
@@ -4855,7 +4855,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84933, {	-- From Ashes to Wisdom
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Summon Voidfire with the provided whistle then talk to him in the following locations:\nNear the Ruins of Thaurissan in the Burning Steppes (61.4, 28.7)\nNear the Scar of the Worldbreaker in the Badlands (33.1, 53.0)\nNear the Twilight Breach north of Victor's Point in the Twilight Highlands (38.3, 49.1)\nIn the Quel'Dormir Gardens by the Ruins of Vash'jir in the Shimmering Expanse (38.8, 66.9)",
 								constant = "SUMMON_VOIDFIRE_WITH_THE_PROVIDED_WHISTLE_THEN",
 								export = true,
@@ -4895,7 +4895,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84924, {	-- A Bird's Tail
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with four feathers hidden around Spires of Arak, Shattrath, Nagrand and Frostfire Ridge in Draenor.",
 								constant = "INTERACT_WITH_FOUR_FEATHERS_HIDDEN_AROUND",
 								export = true,
@@ -4919,7 +4919,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = {
 								i(229958),	-- Decorated Feather (QI!)
 								o(469568, {	-- Burnt Feather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On the alignment controls device atop the Windswept Terrace spire in Spires of Arak directly south of Veil Terokk.",
 										constant = "ON_THE_ALIGNMENT_CONTROLS_DEVICE_ATOP_THE",
 										export = true,
@@ -4941,7 +4941,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229408) },	-- Burnt Feather (QI!)
 								}),
 								o(469569, {	-- Plucked Feather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On a rock in Shattrath Overlook on the north-west side of Shattrath (Talador).",
 										constant = "ON_A_ROCK_IN_SHATTRATH_OVERLOOK_ON_THE_NORTH",
 										export = true,
@@ -4963,7 +4963,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229409) },	-- Plucked Feather (QI!)
 								}),
 								o(469573, {	-- Frozen Feather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Atop a seaside mountain in the Elemental Plateau in Nagrand (Draenor).",
 										constant = "ATOP_A_SEASIDE_MOUNTAIN_IN_THE_ELEMENTAL",
 										export = true,
@@ -4985,7 +4985,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229410) },	-- Frozen Feather (QI!)
 								}),
 								o(469574, {	-- Normal Feather
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On a ridge slightly north of the Horde shipyard in Frostfire Ridge.",
 										constant = "ON_A_RIDGE_SLIGHTLY_NORTH_OF_THE_HORDE_SHIPYARD",
 										export = true,
@@ -5019,7 +5019,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84469, {	-- Battle Pet Bingo
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Interact with the Jumping Spider in the Bamboo Wilds in Jade Forest and the Summit Kid atop Neverest Pinnacl in Kun'Lai Summit.",
 								constant = "INTERACT_WITH_THE_JUMPING_SPIDER_IN_THE_BAMBOO",
 								export = true,
@@ -5043,7 +5043,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = {
 								i(228328),	-- Bingo Card (QI!)
 								o(464213, {	-- Jumping Spider
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In the Bamboo Wilds, northeast of Pearlfin Village in the Jade Forest.",
 										constant = "IN_THE_BAMBOO_WILDS_NORTHEAST_OF_PEARLFIN",
 										export = true,
@@ -5064,7 +5064,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 64.0, 80.8, THE_JADE_FOREST },
 								}),
 								o(464218, {	-- Summit Kid
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Atop Neverest Pinnacle in Kun'Lai Summit.",
 										constant = "ATOP_NEVEREST_PINNACLE_IN_KUN_LAI_SUMMIT",
 										export = true,
@@ -5088,7 +5088,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						-- The Case of Missing Mementos
 						q(85477, {	-- Lost and... Found?
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Open the Lost & Found box nest to Alyx then return the items to visitors around the anniversary grounds.",
 								constant = "OPEN_THE_LOST_FOUND_BOX_NEST_TO_ALYX_THEN",
 								export = true,
@@ -5118,7 +5118,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["coord"] = { 63.0, 50.2, TANARIS },
 									["groups"] = {
 										i(231761, {	-- Crude Ivory Locket (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Return this to Mankrik, found by Bartender Bob's stall to the right of the Story Time stage.",
 												constant = "RETURN_THIS_TO_MANKRIK_FOUND_BY_BARTENDER_BOB_S",
 												export = true,
@@ -5138,7 +5138,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 											}),
 										}),
 										i(231764, {	-- Jade Amulet (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Return this to John J. Keeshan, found south-east of the Mount Mania stage next to Ariok.",
 												constant = "RETURN_THIS_TO_JOHN_J_KEESHAN_FOUND_SOUTH_EAST",
 												export = true,
@@ -5158,7 +5158,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 											}),
 										}),
 										i(231763, {	-- Potion Bottle (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Return this to Marin Noggenfogger, who paths around the grounds.",
 												constant = "RETURN_THIS_TO_MARIN_NOGGENFOGGER_WHO_PATHS",
 												export = true,
@@ -5178,7 +5178,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 											}),
 										}),
 										i(231762, {	-- Tiny Mechanical Mouse (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Return this to Oglethorpe Obnoticus who paths around the grounds but frequently stops by Moira Thaurissan and the Dark Iron mole machine.",
 												constant = "RETURN_THIS_TO_OGLETHORPE_OBNOTICUS_WHO_PATHS",
 												export = true,
@@ -5198,7 +5198,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 											}),
 										}),
 										i(231765, {	-- Well-Worn Almanac (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Return this to Farmer Yoon, found south of the Mount Mania stage.",
 												constant = "RETURN_THIS_TO_FARMER_YOON_FOUND_SOUTH_OF_THE",
 												export = true,
@@ -5252,7 +5252,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["coord"] = { 63.0, 50.2, TANARIS },
 						}),
 						q(84912, {	-- The Show Must Go On
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Collect the Mask of the Trickster and the Play Script from on and behind the stage, and the Prop Sword and Conductor's Baton from near the venue entrance.",
 								constant = "COLLECT_THE_MASK_OF_THE_TRICKSTER_AND_THE_PLAY",
 								export = true,
@@ -5276,7 +5276,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							["groups"] = {
 								i(229387),	-- Trickster's Riddles (QI!)
 								o(469334, {	-- Mask of the Trickster
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Behind a wooden wall onstage near the back.",
 										constant = "BEHIND_A_WOODEN_WALL_ONSTAGE_NEAR_THE_BACK",
 										export = true,
@@ -5298,7 +5298,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229385) },	-- Mask of the Trickster (QI!)
 								}),
 								o(469327, {	-- Play Script
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "On a table to the right in the back of the stage's balcony area.",
 										constant = "ON_A_TABLE_TO_THE_RIGHT_IN_THE_BACK_OF_THE",
 										export = true,
@@ -5320,7 +5320,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229383) },	-- Play Script (QI!)
 								}),
 								o(469332, {	-- Prop Sword
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Under the Winter Queen's throne platform.",
 										constant = "UNDER_THE_WINTER_QUEEN_S_THRONE_PLATFORM",
 										export = true,
@@ -5342,7 +5342,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 									["groups"] = { i(229384) },	-- Prop Sword (QI!)
 								}),
 								o(469335, {	-- Conductor's Baton
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Next to some drums to the right of the south venue entrance.",
 										constant = "NEXT_TO_SOME_DRUMS_TO_THE_RIGHT_OF_THE_SOUTH",
 										export = true,
@@ -5390,7 +5390,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								["groups"] = { i(225996) },	-- Clam Digger
 							}),
 							o(455761, {	-- Gerald
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Go to Zuldazar in Zandalar. At 54.3, 54.5 you will find Nikto. Buy Clam Digger and head upwards to 54.2, 54.2. Interract with Gerald and give him the drink.",
 									constant = "GO_TO_ZULDAZAR_IN_ZANDALAR_AT_54_3_54_5_YOU",
 									export = true,
@@ -5424,7 +5424,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						header(HEADERS.Quest, 85574, {
 							n(233545, {	-- Curious Haze
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Interact with while dead to bounce up the mountain towards the crate and make it appear.",
 									constant = "INTERACT_WITH_WHILE_DEAD_TO_BOUNCE_UP_THE",
 									export = true,
@@ -5445,7 +5445,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								["coord"] = { 21.1, 57.2, NAGRAND },
 							}),
 							n(233090, {	-- Hazy Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Only visible while dead.",
 									constant = "ONLY_VISIBLE_WHILE_DEAD",
 									export = true,
@@ -5476,7 +5476,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84624, {
 							i(228766),	-- Sandy Ransom Note
 							o(465161, {	-- Water-Resistant Receipt of Sale
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Enter the underwater tunnel at 66.3, 86.2 in the Thousand Needles, find the receipt behind some pipes inside.",
 									constant = "ENTER_THE_UNDERWATER_TUNNEL_AT_66_3_86_2_IN_THE",
 									export = true,
@@ -5504,7 +5504,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84470, {
 							i(228321),	-- Dirt-Caked Ransom Note
 							o(463653, {	-- Dirt-Caked Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Enter the Karazhan Crypt at 39.83, 73.11 in Deadwind Pass. Follow the spiraling corridor down until you find the pool of Upside Down Sinners. Cross the pool and the crate will be in the back left of the next room.",
 									constant = "ENTER_THE_KARAZHAN_CRYPT_AT_39_83_73_11_IN",
 									export = true,
@@ -5531,7 +5531,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						header(HEADERS.Quest, 83931, {
 							o(456061, {	-- Battered Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Outside a worg den near Gjalerbron in Howling Fjord.",
 									constant = "OUTSIDE_A_WORG_DEN_NEAR_GJALERBRON_IN_HOWLING",
 									export = true,
@@ -5559,7 +5559,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84426, {
 							i(228300),	-- Sun-Baked Ransom Note
 							o(462417, {	-- Waterlogged Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Behind a bed on the second floor of an underwater gnomish building off the south-eastern coast of Tanaris.",
 									constant = "BEHIND_A_BED_ON_THE_SECOND_FLOOR_OF_AN",
 									export = true,
@@ -5587,7 +5587,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84767, {
 							i(228977),	-- Burnt Ransom Note
 							o(466438, {	-- Charred Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "On the ground by the bear trampoline in the north-western corner of Mount Hyjal.",
 									constant = "ON_THE_GROUND_BY_THE_BEAR_TRAMPOLINE_IN_THE",
 									export = true,
@@ -5615,7 +5615,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 85523, {
 							i(231888),	-- Mildewed Ransom Note
 							o(505260, {	-- Potion of Truth
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
 									constant = "FOUND_AT_THE_TOP_OF_THUNDER_PEAK_BEHIND_LORD",
 									export = true,
@@ -5636,7 +5636,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								["coord"] = { 47.9, 38.3, ASHENVALE },
 							}),
 							o(478090, {	-- Mildewed Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "In a corner within Eldreth Row by the exterior of Dire Maul.\nVisible only with a buff, obtained from the Potion of Truth.",
 									constant = "IN_A_CORNER_WITHIN_ELDRETH_ROW_BY_THE_EXTERIOR",
 									export = true,
@@ -5665,7 +5665,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84773, {
 							i(228985),	-- Shiny Ransom Note
 							o(466512, {	-- Crystalized Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Inside Oshu'gun's central chamber in Nagrand (Outland).",
 									constant = "INSIDE_OSHU_GUN_S_CENTRAL_CHAMBER_IN_NAGRAND",
 									export = true,
@@ -5693,7 +5693,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84625, {
 							i(228769),	-- Surprisingly Pristine Ransom Note
 							o(465183, {	-- Mysterious Bones
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Behind Andrestrasz's cave in his cave in Silithus, use Perky Pug or other dog battle pets at the coordinates to dig up the bones.",
 									constant = "BEHIND_ANDRESTRASZ_S_CAVE_IN_HIS_CAVE_IN",
 									export = true,
@@ -5719,7 +5719,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								["groups"] = { i(228772) },	-- Mysterious Bones
 							}),
 							o(465186, {	-- Unmarked Grave
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Use the bones at the Unmarked Grave to receive the crate.",
 									constant = "USE_THE_BONES_AT_THE_UNMARKED_GRAVE_TO_RECEIVE",
 									export = true,
@@ -5748,7 +5748,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						header(HEADERS.Quest, 84909, {
 							i(229369),	-- Ghostly Ransom Note
 							o(467489, {	-- Ghostly Celebration Crate
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Atop the Seat of the Primus in Maldraxxus, in the back to the right of the portal.",
 									constant = "ATOP_THE_SEAT_OF_THE_PRIMUS_IN_MALDRAXXUS_IN",
 									export = true,
@@ -6176,7 +6176,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					},
 				}),
 				n(227257, {	-- Archavon the Stone Watcher
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To engage Archavon, simply have five players stepping on the five runes around his dome.\n\nIgnore the valkyrs above the runes, they will despawn immediately when all runes are stepped on!",
 						constant = "TO_ENGAGE_ARCHAVON_SIMPLY_HAVE_FIVE_PLAYERS",
 						export = true,

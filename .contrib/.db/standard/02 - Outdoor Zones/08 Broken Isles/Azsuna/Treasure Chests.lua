@@ -32,7 +32,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 55.9, 56.9, AZSUNA },
 				}),
 				o(256790, {	-- Elven Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These repeatable chests spawn all over the map in Azsuna and Val'Sharah.",
 						constant = "THESE_REPEATABLE_CHESTS_SPAWN_ALL_OVER_THE_MAP",
 						export = true,
@@ -62,7 +62,7 @@ root(ROOTS.Zones, {
 				o(240645, {	-- Glimmering Treasure Chest
 					["questID"] = 37649,
 					["coord"] = { 69.5, 49.3, 632 },	-- Oceanus Cove
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In the Oceanus Cove cave next to Lady Sssurine.",
 						constant = "IN_THE_OCEANUS_COVE_CAVE_NEXT_TO_LADY_SSSURINE",
 						export = true,
@@ -104,7 +104,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				o(269064, {	-- Small Treasure Chest (need to verify objectID)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inside Nar'thalas Academy, down the right branching hallway. May require Nar'thalas Academy quests to open the door.",
 						constant = "INSIDE_NAR_THALAS_ACADEMY_DOWN_THE_RIGHT",
 						export = true,
@@ -172,7 +172,7 @@ root(ROOTS.Zones, {
 				o(254025, {	-- Small Treasure Chest
 					["questID"] = 44103,
 					["coord"] = { 68.9, 29.7, AZSUNA },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In an underwater cave.",
 						constant = "IN_AN_UNDERWATER_CAVE",
 						export = true,
@@ -269,7 +269,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 55.6, 18.5, AZSUNA },
 				}),
 				o(240634, {	-- Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the back of the room, behind some Withered Leyfeeders channeling a floating mana crystal.",
 						constant = "AT_THE_BACK_OF_THE_ROOM_BEHIND_SOME_WITHERED",
 						export = true,
@@ -303,7 +303,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 56.4, 34.8, AZSUNA },
 				}),
 				o(250092, {	-- Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the far back of the Leyhollow cave.",
 						constant = "AT_THE_FAR_BACK_OF_THE_LEYHOLLOW_CAVE",
 						export = true,
@@ -336,7 +336,7 @@ root(ROOTS.Zones, {
 				o(250109, {	-- Treasure Chest
 					["questID"] = 42339,
 					["coord"] = { 52.9, 20.6, AZSUNA },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "At the end of the cave full of sleeping bears. Tread lightly!",
 						constant = "AT_THE_END_OF_THE_CAVE_FULL_OF_SLEEPING_BEARS",
 						export = true,

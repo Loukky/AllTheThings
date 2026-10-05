@@ -1324,7 +1324,7 @@ maproot(MAP.KALIMDOR, MAP.DUROTAR, {
 					5823,	-- Death Flayer
 					3127,	-- Venomtail Scorpid
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only drops from scorpids in Durotar, excluding Echo Isles and Valley of Trials.",
 					constant = "ONLY_DROPS_FROM_SCORPIDS_IN_DUROTAR_EXCLUDING",
 					export = true,

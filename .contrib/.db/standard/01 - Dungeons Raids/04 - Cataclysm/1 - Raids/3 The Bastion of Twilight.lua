@@ -284,7 +284,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				e(168, {	-- Sinestra
 					["creatureID"] = 45213,
 					-- #if AFTER 6.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This encounter can be buggy to solo. Stand in Sinestra's melee range, only leave for attacking the Pulsing Twilight Eggs when Sinestra have removed their damage protection.",
 						constant = "THIS_ENCOUNTER_CAN_BE_BUGGY_TO_SOLO_STAND_IN",
 						export = true,

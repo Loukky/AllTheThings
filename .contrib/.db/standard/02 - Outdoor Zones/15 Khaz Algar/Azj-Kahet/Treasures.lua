@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(446404, {	-- Memory Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with Black Blood Extractors in area or stand in Black Blood pools until you reach at least 50 Unseeming Shift debuff to see Corrupted Memory near the cache. Kill it to obtain key for cache.",
 					constant = "INTERACT_WITH_BLACK_BLOOD_EXTRACTORS_IN_AREA_OR",
 					export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82722,
 			}),
 			o(446101, {	-- Nerubian Offerings
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Below the terrace, hanging from the ceiling.",
 					constant = "BELOW_THE_TERRACE_HANGING_FROM_THE_CEILING",
 					export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82720,
 			}),
 			o(446423, {	-- Nest Egg
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Above on a web, near the ceiling.",
 					constant = "ABOVE_ON_A_WEB_NEAR_THE_CEILING",
 					export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(446135, {	-- Niffen Stash
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Below, hanging from a bridge.",
 					constant = "BELOW_HANGING_FROM_A_BRIDGE",
 					export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82721,
 			}),
 			o(445360, {	-- Pilfered Loot
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Respawn timer around 5 minutes.",
 					constant = "RESPAWN_TIMER_AROUND_5_MINUTES",
 					export = true,
@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(445275, {	-- Royal Sureki Strongbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has a chance to spawn instead of Sureki Strongbox randomly throughout the zone.",
 					constant = "HAS_A_CHANCE_TO_SPAWN_INSTEAD_OF_SUREKI",
 					export = true,
@@ -182,7 +182,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444800, {	-- Sureki Strongbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly throughout the zone.",
 					constant = "SPAWNS_RANDOMLY_THROUGHOUT_THE_ZONE",
 					export = true,
@@ -203,7 +203,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["maps"] = { AZJ_KAHET },
 			}),
 			o(446421, {	-- Trapped Trove
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "IT'S A TRAP! Navigate through the web traps to get to the treasure.",
 					constant = "IT_S_A_TRAP_NAVIGATE_THROUGH_THE_WEB_TRAPS_TO",
 					export = true,
@@ -248,7 +248,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			-- I know these three are out of order here but they are related to the "Weaving Supplies". -Exodius
 			o(446437, {	-- Crimson Thread
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "One of three Silk Scraps required to open 'Weaving Supplies'.",
 					constant = "ONE_OF_THREE_SILK_SCRAPS_REQUIRED_TO_OPEN",
 					export = true,
@@ -286,7 +286,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(446420, {	-- "Weaving Supplies"
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect colored Silk Scrap from the nearby platform in order to open the treasure chest.",
 					constant = "COLLECT_COLORED_SILK_SCRAP_FROM_THE_NEARBY",
 					export = true,
@@ -366,7 +366,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 82079,
 				-- #if AFTER 11.0.2.56313
 				-- #if BEFORE 11.0.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 					constant = "THIS_OBJECT_FOR_ITS_ACHIEVEMENT_IS_CURRENTLY",
 					export = true,

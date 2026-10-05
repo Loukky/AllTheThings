@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(ARDENWEALD, {
 		petbattle(filter(BATTLE_PETS, {
 			pet(3081, {	-- Decay Grub (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found around Heartwood Grove, along the path of coords.",
 					constant = "FOUND_AROUND_HEARTWOOD_GROVE_ALONG_THE_PATH_OF",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(3021, {	-- Deepwood Leaper (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found in most of southeast Ardenweald. Coords are general locations.",
 					constant = "FOUND_IN_MOST_OF_SOUTHEAST_ARDENWEALD_COORDS",
 					export = true,
@@ -58,7 +58,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(2919, {	-- Gorm Rootstinger (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found in the areas around these coords.",
 					constant = "FOUND_IN_THE_AREAS_AROUND_THESE_COORDS",
 					export = true,
@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(3082, {	-- Starmoth (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found south of Glitterfall Basin in large area around coord.",
 					constant = "FOUND_SOUTH_OF_GLITTERFALL_BASIN_IN_LARGE_AREA",
 					export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 53.0, 34.4, ARDENWEALD },
 			}),
 			pet(2924, {	-- Tranquil Wader (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found between Hibernal Hollow and Heart of the Forest.",
 					constant = "FOUND_BETWEEN_HIBERNAL_HOLLOW_AND_HEART_OF_THE",
 					export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			pet(3080, {	-- Verdant Kit (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found west of Heart of the Forest.",
 					constant = "FOUND_WEST_OF_HEART_OF_THE_FOREST",
 					export = true,

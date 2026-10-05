@@ -131,7 +131,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 84801,
 			}),
 			n(228201, {	-- Gravesludge
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available during The Drain objective",
 					constant = "AVAILABLE_DURING_THE_DRAIN_OBJECTIVE",
 					export = true,
@@ -157,7 +157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 84796,
 			}),
 			n(228159, {	-- Gunnlod the Sea-Drinker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In non-Storm phase of the Vault.",
 					constant = "IN_NON_STORM_PHASE_OF_THE_VAULT",
 					export = true,
@@ -182,7 +182,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(229982, {	-- Nerathor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available during The Drowned Lair objective",
 					constant = "AVAILABLE_DURING_THE_DROWNED_LAIR_OBJECTIVE",
 					export = true,
@@ -216,7 +216,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 86933,
 			}),
 			n(229992, {	-- Stalagnarok
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available during Shuddering Hollow objective",
 					constant = "AVAILABLE_DURING_SHUDDERING_HOLLOW_OBJECTIVE",
 					export = true,

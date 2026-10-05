@@ -39,7 +39,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 			},
 		}),
 		n(COMMON_BOSS_DROPS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Showdown Elite Patrol creatures have a small (<1%) chance to drop or reward these items, in addition to their most prevalent Source.",
 				constant = "SHOWDOWN_ELITE_PATROL_CREATURES_HAVE_A_SMALL_1",
 				export = true,

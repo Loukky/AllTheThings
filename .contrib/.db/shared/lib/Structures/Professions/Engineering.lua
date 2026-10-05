@@ -719,7 +719,24 @@ ALL_GNOMISH_ENGINEERING = appendGroups(CLASSIC_TBC_GNOMISH_ENGINEERING,
 
 local SECRET_OF_DRAENOR_ENGINEERING = 119299;
 DRAENOR_ENGINEERING = applyclassicphase(WOD_PHASE_ONE, i(111921, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
-	["description"] = "This is a reward for completing the introductory Engineering questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
+	["description"] = createLocalizationString({
+		readable = "This is a reward for completing the introductory Engineering questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
+		constant = "THIS_IS_A_REWARD_FOR_COMPLETING_THE_4",
+		export = true,
+		text = {
+			en = "This is a reward for completing the introductory Engineering questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
+			-- TODO: de = "",
+			-- TODO: es = "",
+			-- TODO: mx = "",
+			-- TODO: fr = "",
+			-- TODO: it = "",
+			-- TODO: ko = "",
+			-- TODO: pt = "",
+			-- TODO: ru = "",
+			cn = "这是完成工程学入门任务线的奖励，可从任何德拉诺生物身上掉落。也可在熔炉处以 100 金币购买。",
+			-- TODO: tw = "",
+		},
+	}),
 	["groups"] = {
 		r(158739, {	-- Engineering (Draenor Master)
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },

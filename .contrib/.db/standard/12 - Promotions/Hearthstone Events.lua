@@ -186,7 +186,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			i(163186, {	-- Fiery Hearthsteed (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Granted to Players who logged in to Hearthstone between March 11th 2024 and May 14th 2024.",
 					constant = "GRANTED_TO_PLAYERS_WHO_LOGGED_IN_TO_HEARTHSTONE",
 					export = true,

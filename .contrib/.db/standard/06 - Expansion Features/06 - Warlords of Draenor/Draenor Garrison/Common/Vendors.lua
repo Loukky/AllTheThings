@@ -329,7 +329,7 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = FUR_TRADER,
 				})),
 				n(88633, {	-- Deluwin Whisperfield <Contracts>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Sells contracts for followers not chosen during zone quests.",
 						constant = "SELLS_CONTRACTS_FOR_FOLLOWERS_NOT_CHOSEN_DURING",
 						export = true,
@@ -407,7 +407,7 @@ root(ROOTS.ExpansionFeatures,
 					["groups"] = DUST_TRADER,
 				})),
 				n(80285, {	-- Guh <Bladespire Trader>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must speak to him in |cFFFFD700Frostfire Ridge|r to invite him to your garrison.",
 						constant = "MUST_SPEAK_TO_HIM_IN_CFFFFD700FROSTFIRE_RIDGE_R",
 						export = true,

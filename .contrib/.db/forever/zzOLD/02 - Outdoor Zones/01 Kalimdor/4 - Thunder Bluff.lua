@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(768, {	-- Gathering Leather
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest becomes available at Skinning skill level 1 when the character level requirement is met.",
 						constant = "THIS_QUEST_BECOMES_AVAILABLE_AT_SKINNING_SKILL",
 						export = true,
@@ -200,7 +200,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(769, {	-- Kodo Hide Bag
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest becomes available at Leatherworking skill level 10 when the character level requirement is met.",
 						constant = "THIS_QUEST_BECOMES_AVAILABLE_AT_LEATHERWORKING",
 						export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 5,
 					["groups"] = {
 						i(5083, {	-- Pattern: Kodo Hide Bag (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This recipe is not soulbound and can be mailed to Horde alts.",
 								constant = "THIS_RECIPE_IS_NOT_SOULBOUND_AND_CAN_BE_MAILED",
 								export = true,

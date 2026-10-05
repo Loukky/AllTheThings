@@ -659,7 +659,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 43.6, 59.8, HIGHMOUNTAIN },
 				}),
 				q(39386, {	-- Procuring a Prototype
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Rating Razik|r on the same character.",
 						constant = "WITHOUT_USING_THE_PARTY_SYNC_FEATURE_YOU_CANNOT",
 						export = true,
@@ -687,7 +687,7 @@ root(ROOTS.Zones, {
 					["isBreadcrumb"] = true,
 				}),
 				q(39417, {	-- Rating Razik
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Procuring a Prototype|r on the same character.",
 						constant = "WITHOUT_USING_THE_PARTY_SYNC_FEATURE_YOU_CANNOT_2",
 						export = true,

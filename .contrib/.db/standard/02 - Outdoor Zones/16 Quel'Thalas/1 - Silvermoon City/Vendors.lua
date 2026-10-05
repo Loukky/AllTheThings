@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				}),
 			}),
 			n(256828, {	-- Dennia Silvertongue
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This Vendor sells additional copies of the Promotional Decor only to players that have obtained it when the Promotion was active.",
 					constant = "THIS_VENDOR_SELLS_ADDITIONAL_COPIES_OF_THE",
 					export = true,
@@ -406,7 +406,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 24.8, 69.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
 					i(265674, {	-- Tasty Meat
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you feed a nearby Mischevious Chick, you'll get a reward.",
 							constant = "IF_YOU_FEED_A_NEARBY_MISCHEVIOUS_CHICK_YOU_LL",
 							export = true,
@@ -471,7 +471,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(274734),	-- Framed Horde Pride (DECOR!)
 					i(276281, {	-- Kickable Practice Ball
 						ach(63343, {	-- Goal!
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Kick three balls from the center of the field into either nearby goal.",
 								constant = "KICK_THREE_BALLS_FROM_THE_CENTER_OF_THE_FIELD",
 								export = true,
@@ -515,7 +515,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					-- Season 1
 					--- Trade DOWN
 					i(263976, {	-- Bundle of Adventurer Dawncrests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: LFR Crest\nReceive: Adventurer Crest",
 							constant = "CFFFF0000_DOWNGRADE_R_COST_LFR_CREST_RECEIVE",
 							export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 					--- Trade UP
 					i(263977, {	-- Venerable Satchel of Veteran Dawncrests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Adventurer Crest\nReceive: LFR Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_ADVENTURER_CREST",
 							export = true,
@@ -580,7 +580,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_1_0 },
 					}),
 					i(246752, {	-- Celebratory Pack of Hero Dawncrests (TODO: Blizzard bug - same item ID as vault vendor)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Normal Crest\nReceive: Hero Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_NORMAL_CREST_RECEIVE_2",
 							export = true,
@@ -602,7 +602,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_1_0 },
 					}),
 					i(246753, {	-- Glorious Cluster of Myth Dawncrests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Hero Crest\nReceive: Myth Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_HERO_CREST_RECEIVE",
 							export = true,

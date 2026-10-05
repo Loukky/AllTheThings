@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			currency(2009),	-- Cosmic Flux
 			i(190189),	-- Sandworn Relic
 			i(190336, {	-- Thrumming Powerstone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Disenchant might give lattices.",
 					constant = "DISENCHANT_MIGHT_GIVE_LATTICES",
 					export = true,

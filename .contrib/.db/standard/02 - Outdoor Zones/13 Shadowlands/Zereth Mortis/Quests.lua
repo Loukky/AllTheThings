@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 		n(QUESTS, {
 			n(REWARDS, {
 				i(190754, {	-- Firim's Specimen Container (TOY!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Chance from Firim Dailies.",
 						constant = "CHANCE_FROM_FIRIM_DAILIES",
 						export = true,
@@ -663,7 +663,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					["coord"] = { 47.2, 29.4, ZERETH_MORTIS },
 				}),
 				q(64889, {	-- Match Made in Zereth Mortis
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "to unlock cosmic transport",
 						constant = "TO_UNLOCK_COSMIC_TRANSPORT",
 						export = true,
@@ -1182,7 +1182,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["coord"] = { 61.2, 51.5, ZERETH_MORTIS },
 			}),
 			q(65326, {	-- Circle of Strife
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This Daily is available after researching Altonian Understanding",
 					constant = "THIS_DAILY_IS_AVAILABLE_AFTER_RESEARCHING",
 					export = true,
@@ -1241,7 +1241,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			q(64579, {	-- Hallow Efforts
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has Forge-tap for the achievement",
 					constant = "HAS_FORGE_TAP_FOR_THE_ACHIEVEMENT",
 					export = true,
@@ -1337,7 +1337,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			q(64785, {	-- Overgrown Story
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has Containment Trap for the achievement",
 					constant = "HAS_CONTAINMENT_TRAP_FOR_THE_ACHIEVEMENT",
 					export = true,

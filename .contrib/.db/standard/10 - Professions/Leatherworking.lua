@@ -826,7 +826,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			}),
 				------ Tools of Trade Questline ------
 			q(55227, {	-- The Aeonian Artisan
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Kul Tiran Leatherworking.",
 					constant = "REQUIRES_150_KUL_TIRAN_LEATHERWORKING",
 					export = true,
@@ -850,7 +850,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(53995, {	-- The Tauren Tanner
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 150 Zandalari Leatherworking.",
 					constant = "REQUIRES_150_ZANDALARI_LEATHERWORKING",
 					export = true,
@@ -1075,7 +1075,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		})),
 		n(QUESTS, {
 			q(70362, {	-- Dragon Isles Leatherworking
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Leatherworking.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_10",
 					export = true,
@@ -1339,7 +1339,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				},
 			})),
 			o(380554, {	-- Well-Danced Drum
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Fix the drum by interacting with it, wait for the little Tuskarr to finish dancing, then you can loot the treasure.",
 					constant = "FIX_THE_DRUM_BY_INTERACTING_WITH_IT_WAIT_FOR",
 					export = true,
@@ -1393,7 +1393,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			}),
 			q(70522, {	-- DF Weekly Leatherworking Knowledgepoint #3
 				["name"] = "DF Leatherworking Drop #1: Proto Drake",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Proto Drake.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_PROTO_DRAKE_COORDINATES_LINK_TO",
 					export = true,
@@ -1426,7 +1426,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			}),
 			q(70523, {	-- DF Weekly Leatherworking Knowledgepoint #4
 				["name"] = "DF Leatherworking Drop #2: Sylvern&Vorquin",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Sylvern or Vorquin.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_SYLVERN_OR_VORQUIN_COORDINATES",
 					export = true,

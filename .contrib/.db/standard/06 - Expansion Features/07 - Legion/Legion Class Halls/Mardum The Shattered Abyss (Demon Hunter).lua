@@ -368,7 +368,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["lvl"] = 101,
 					}),
 					q(44223, {	-- Champion Armaments
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires the |cFFFFD700Fel Armaments|r order hall upgrade.",
 							constant = "REQUIRES_THE_CFFFFD700FEL_ARMAMENTS_R_ORDER",
 							export = true,
@@ -390,7 +390,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 60.0, 43.8, 720 },
 					}),
 					q(42653, {	-- Champion: Akama
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This follower is only available if you sided with |cFFFFD700Altruis the Sufferer|r.",
 							constant = "THIS_FOLLOWER_IS_ONLY_AVAILABLE_IF_YOU_SIDED",
 							export = true,
@@ -506,7 +506,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					q(42664, {	-- Champion: Shade of Akama
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This follower is only available if you sided with |cFFFFD700Kayn Sunfury|r.",
 							constant = "THIS_FOLLOWER_IS_ONLY_AVAILABLE_IF_YOU_SIDED_2",
 							export = true,
@@ -589,7 +589,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 59.5, 58.0, 720 },
 					}),
 					q(44226, {	-- Fate Favors Us
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires the |cFFFFD700Focused War Effort|r order hall upgrade.",
 							constant = "REQUIRES_THE_CFFFFD700FOCUSED_WAR_EFFORT_R",
 							export = true,
@@ -866,7 +866,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 64.9, 58.9, STORMHEIM },
 					}),
 					q(42737, {	-- Rune Ruination: Runeskeld Rollo
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If the game doesn't properly display the mob's location, Rollo can be found in the cliffside room at 71.4, 39.0.",
 							constant = "IF_THE_GAME_DOESN_T_PROPERLY_DISPLAY_THE_MOB_S",
 							export = true,
@@ -1055,7 +1055,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(SPECIAL, {
 					cl(DEMONHUNTER, HAVOC, {
 						i(141409, {	-- Candrael's Charm (CI!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Has a chance to drop from any creature in Suramar.",
 								constant = "HAS_A_CHANCE_TO_DROP_FROM_ANY_CREATURE_IN_3",
 								export = true,
@@ -1076,7 +1076,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["maps"] = { SURAMAR },
 						}),
 						n(113935, {	-- Candrael Twinshadow
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must have |cFF4A54E8Candrael's Charm|r in your bags before talking to Candrael. After asking her about the initials on the Charm, she will kick you off the cliff towards Downfall.\n|cFFE50D12NOTE:|rIf, by any chance, Charm is not consumed in the process, or you are not getting any loot, you will need to destroy it before re-trying to kill Downfall. DO NOT try to keep the Charm as a memento in your bank.",
 								constant = "YOU_MUST_HAVE_CFF4A54E8CANDRAEL_S_CHARM_R_IN",
 								export = true,
@@ -1098,7 +1098,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["cost"] = { { "i", 141409, 1 } },	-- 1x Candrael's Charm
 							["groups"] = {
 								n(111110, {	-- Downfall
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "While near Downfall his winds will keep you aloft while you fight him.\nHe will occassionaly knock you back. Make use of your glide ability and make sure you float back to (through) him, you will begin to float once you come near.\n\nWhen he dies his corpse will fall to the ground.",
 										constant = "WHILE_NEAR_DOWNFALL_HIS_WINDS_WILL_KEEP_YOU",
 										export = true,
@@ -1220,7 +1220,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sym"] = {{"select","itemID",143727}},	-- Champion's Salute (TOY!)
 						["groups"] = {
 							i(147537, {	-- A Tiny Set of Warglaives (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "|c808080FAIn order to purchase the toy|r |c00FF96AFTiny Set of Warglaives|r|c808080FA, you must have completed the class mount quest|r |cFFFFD700To Fel and Back|r|c808080FA.\n|c808080FAOnce completed you have to unlock all 52 traits on either spec to be able purchase it.|r",
 									constant = "C808080FAIN_ORDER_TO_PURCHASE_THE_TOY_R",
 									export = true,

@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(508, {	-- Darkshore Cub (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the woods west of the Grove of the Ancients, usually on the treeline just before the beach.",
 							constant = "CAN_BE_FOUND_IN_THE_WOODS_WEST_OF_THE_GROVE_OF",
 							export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(493, {	-- Shimmershell Snail (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can commonly be found on the beaches of Old Darkshore.",
 							constant = "CAN_COMMONLY_BE_FOUND_ON_THE_BEACHES_OF_OLD",
 							export = true,
@@ -1711,7 +1711,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13568, {	-- Spirit of the Moonstalker
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Great Moonstalker Spirit grants a buff increasing your haste by 10%.\nChoose carefuly, you can get only 1 buff.",
 						constant = "GREAT_MOONSTALKER_SPIRIT_GRANTS_A_BUFF",
 						export = true,
@@ -1745,7 +1745,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["DisablePartySync"] = true,	-- cannot be completed with altQuests... they unflag due to the buff
 				}),
 				q(13567, {	-- Spirit of the Stag
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Great Stag Spirit grants a buff increasing your movement speed by 10%.\nChoose carefuly, you can get only 1 buff.",
 						constant = "GREAT_STAG_SPIRIT_GRANTS_A_BUFF_INCREASING_YOUR",
 						export = true,
@@ -1779,7 +1779,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["DisablePartySync"] = true,	-- cannot be completed with altQuests... they unflag due to the buff
 				}),
 				q(13597, {	-- Spirit of the Thistle Bear
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Great Thistle Bear Spirit grants a buff reducing the damage you take by 10%.\nChoose carefuly, you can get only 1 buff.",
 						constant = "GREAT_THISTLE_BEAR_SPIRIT_GRANTS_A_BUFF",
 						export = true,
@@ -1995,7 +1995,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13897, {	-- The Battle for Darkshore
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you don't pick this quest up promptly after the event ends, Malfurion will despawn and you will have to repeat the event to get the quest.",
 						constant = "IF_YOU_DON_T_PICK_THIS_QUEST_UP_PROMPTLY_AFTER",
 						export = true,
@@ -2338,7 +2338,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13562, {	-- The Final Flame of Bashal'Aran
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Ranger Glynda Nal'Shea patrols around Lor'danel.",
 						constant = "RANGER_GLYNDA_NAL_SHEA_PATROLS_AROUND_LOR_DANEL",
 						export = true,
@@ -2705,7 +2705,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["cost"] = { { "i", 46702, 5 } },	-- Ancient Device Fragment
 						}),
 						o(195055, {	-- Buried Debris
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the detector to spawn these on the beach.",
 								constant = "USE_THE_DETECTOR_TO_SPAWN_THESE_ON_THE_BEACH",
 								export = true,
@@ -2909,7 +2909,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 11,
 				}),
 				q(13510, {	-- Timely Arrival
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order to obtain this quest, loot a |cffffffffShatterspear Torturer's Cage Key|r dropped by |cffe50d12Rit'ko|r.",
 						constant = "IN_ORDER_TO_OBTAIN_THIS_QUEST_LOOT_A",
 						export = true,
@@ -3139,7 +3139,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,	-- for "The Bear's Paw"
 				}),
 				q(28529, {	-- Writings of the Void
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Jump into the whirlpool.",
 						constant = "JUMP_INTO_THE_WHIRLPOOL",
 						export = true,
@@ -3319,7 +3319,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209836, {	-- Althalaxx Orb
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Climb the tower in Darkshore, you'll likely need a group or a friend capable of surviving long enough to give you about 3 seconds of uninterupted looting time.",
 						constant = "CLIMB_THE_TOWER_IN_DARKSHORE_YOU_LL_LIKELY_NEED",
 						export = true,
@@ -3395,7 +3395,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(208701, {	-- Rune of Beast Mastery
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Crab Treats on a young reef crawler to receive this rune.",
 						constant = "USE_CRAB_TREATS_ON_A_YOUNG_REEF_CRAWLER_TO",
 						export = true,
@@ -3603,7 +3603,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				i(45040, {	-- Shatterspear Torturer's Cage Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the Key on a nearby cage to release Sentinel Aynasha and receive an Escort Quest.",
 						constant = "USE_THE_KEY_ON_A_NEARBY_CAGE_TO_RELEASE",
 						export = true,

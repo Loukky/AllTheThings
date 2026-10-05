@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 	m(EMERALD_DREAM, {
 		petbattle(filter(BATTLE_PETS, {
 			pet(4304, {	-- Dream Badger (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill pewling to force this pet to spawn.",
 					constant = "KILL_PEWLING_TO_FORCE_THIS_PET_TO_SPAWN",
 					export = true,
@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			pet(4275, {	-- Flooftalon (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill the critter version to force this to spawn.",
 					constant = "KILL_THE_CRITTER_VERSION_TO_FORCE_THIS_TO_SPAWN",
 					export = true,
@@ -75,7 +75,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			pet(4302, {	-- Pale Slumbertooth (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires the Friendsurge Defenders toy to see.",
 					constant = "REQUIRES_THE_FRIENDSURGE_DEFENDERS_TOY_TO_SEE",
 					export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			pet(4279, {	-- Slumbertooth (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be caught outside of the Superbloom by killing the critter version.",
 					constant = "CAN_BE_CAUGHT_OUTSIDE_OF_THE_SUPERBLOOM_BY",
 					export = true,

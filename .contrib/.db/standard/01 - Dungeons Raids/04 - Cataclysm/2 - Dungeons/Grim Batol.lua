@@ -97,7 +97,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					},
 				}),
 				q(28852, {	-- Soften them Up
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blizzard will occasionally mess with the way creatures scales with level, which can make this quest impossible to complete.",
 						constant = "BLIZZARD_WILL_OCCASIONALLY_MESS_WITH_THE_WAY",
 						export = true,

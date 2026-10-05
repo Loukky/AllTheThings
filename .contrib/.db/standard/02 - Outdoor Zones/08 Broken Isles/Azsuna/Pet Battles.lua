@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 	m(AZSUNA, {
 		petbattles({
 			q(40310, {	-- Shipwrecked Captive
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Weekly Account-Wide Pet Battle Quest. You need the toy Sternfathom's Pet Journal to summon this npc.",
 					constant = "WEEKLY_ACCOUNT_WIDE_PET_BATTLE_QUEST_YOU_NEED",
 					export = true,

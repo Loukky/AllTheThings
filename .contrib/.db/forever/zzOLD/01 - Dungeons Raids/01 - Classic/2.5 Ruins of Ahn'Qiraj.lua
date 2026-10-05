@@ -776,7 +776,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				})),
 			}),
 			o(180691, {	-- Scarab Coffer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These can be found along the walls of the instance and require a coffer key to open.",
 					constant = "THESE_CAN_BE_FOUND_ALONG_THE_WALLS_OF_THE",
 					export = true,
@@ -811,7 +811,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(20867),	-- Onyx Idol
 					i(20872),	-- Vermillion Idol
 					i(21156, {	-- Scarab Bag
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a couple of random scarabs.",
 							constant = "CONTAINS_A_COUPLE_OF_RANDOM_SCARABS",
 							export = true,
@@ -854,7 +854,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				},
 			}),
 			n(15471, {	-- Lieutenant General Andorov
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to interact with this vendor, you must first talk to him to start the encounter with General Rajaxx and allow him to get at least one hit on the boss after the waves have completed.",
 					constant = "IN_ORDER_TO_INTERACT_WITH_THIS_VENDOR_YOU_MUST",
 					export = true,
@@ -885,7 +885,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 			}),
 			e(1538, {	-- General Rajaxx
 				-- #if BEFORE TBC
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak with Lieutenant General Andorov in order to start the encounter. Andorov must survive the fight in order to defeat the encounter.",
 					constant = "SPEAK_WITH_LIEUTENANT_GENERAL_ANDOROV_IN_ORDER",
 					export = true,
@@ -957,7 +957,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					}),
 					i(21482, {	-- Boots of the Fiery Sands
 						-- #if BEFORE 10.1.
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item was originally a Horde exclusive drop for Shamans during vanilla. Sometime after TBC Prepatch, this item disappeared from the loot table. Please @Crieve if you get it to drop.",
 							constant = "THIS_ITEM_WAS_ORIGINALLY_A_HORDE_EXCLUSIVE_DROP",
 							export = true,

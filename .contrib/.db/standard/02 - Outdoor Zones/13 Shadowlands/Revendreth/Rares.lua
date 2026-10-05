@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			["isDaily"] = true,
 		}, {
 			n(166393, {	-- Amalgamation of Filth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on the sparkling Rubbish Box and throw rubbish into the water. Kill the oozes, and eventually the rare will spawn.",
 					constant = "CLICK_ON_THE_SPARKLING_RUBBISH_BOX_AND_THROW",
 					export = true,
@@ -33,7 +33,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164388, {	-- Amalgamation of Light
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When the rare is available, 3 light-reflecting mirrors will appear. Move all 3 to start the encounter.",
 					constant = "WHEN_THE_RARE_IS_AVAILABLE_3_LIGHT_REFLECTING",
 					export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(165206, {	-- Endlurker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There is a sparkling Anima Stake in front of the portal. Pick it up and use the Extra Action Button to lure the rare.",
 					constant = "THERE_IS_A_SPARKLING_ANIMA_STAKE_IN_FRONT_OF",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(166710, {	-- Executioner Aatron
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill the 3 Stone Legion Punishers along the wall to make the rare attackable.",
 					constant = "KILL_THE_3_STONE_LEGION_PUNISHERS_ALONG_THE",
 					export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(161310, {	-- Executioner Adrastia
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "As of 9.1, there is now an on-screen counter in the area: 'Dredgers Escaped: 0/50'. Freeing 50 dredgers causes the rare to spawn. Once the rare is killed, the counter resets.",
 					constant = "AS_OF_9_1_THERE_IS_NOW_AN_ON_SCREEN_COUNTER_IN",
 					export = true,
@@ -159,7 +159,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(167464, {	-- Grand Arcanist Dimitri
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill the Shrouded Ritualists to spawn the rare.",
 					constant = "KILL_THE_SHROUDED_RITUALISTS_TO_SPAWN_THE_RARE",
 					export = true,
@@ -186,7 +186,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(166679, {	-- Hopecrusher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When you inspect the Large Prey, Hopecrusher will attack you.",
 					constant = "WHEN_YOU_INSPECT_THE_LARGE_PREY_HOPECRUSHER",
 					export = true,
@@ -223,7 +223,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160640, {	-- Innervus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You will need a |cFFFFFFFFScorched Crypt Key|r to enter the rare's tomb. The key can drop from the Feral Ritualists and Blistering Inquisitors in the surrounding area.",
 					constant = "YOU_WILL_NEED_A_CFFFFFFFFSCORCHED_CRYPT_KEY_R",
 					export = true,
@@ -250,7 +250,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(165152, {	-- Leeched Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the crypt. Protect Absolver Meylann from waves of mobs.",
 					constant = "INSIDE_THE_CRYPT_PROTECT_ABSOLVER_MEYLANN_FROM",
 					export = true,
@@ -280,7 +280,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(161891, {	-- Lord Mortegore
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect 4 |cFF0070ddMortegore Scrolls|r from nearby Maldraxxi and use them to activate |cFFFFFFFFMortegore Sigils|r to summon the rare.",
 					constant = "COLLECT_4_CFF0070DDMORTEGORE_SCROLLS_R_FROM",
 					export = true,
@@ -306,7 +306,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160675, {	-- Scrivener Lenua
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To spawn the rare, find four stacks of Forbidden Tomes in the surrounding area and deliver them to the library.",
 					constant = "TO_SPAWN_THE_RARE_FIND_FOUR_STACKS_OF_FORBIDDEN",
 					export = true,
@@ -333,7 +333,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162481, {	-- Sinstone Hoarder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click on the |cFFFFFFFFCatacombs Cache|r to spawn the rare.",
 					constant = "CLICK_ON_THE_CFFFFFFFFCATACOMBS_CACHE_R_TO",
 					export = true,
@@ -359,7 +359,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160857, {	-- Sire Ladinas <The Lightrazed>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Remnants of Light are sparkling gold shards scattered around the Ember Ward. Pick them up and use the Extra Action Button on any mobs in the area (ghouls/outcasts/etc.) for a chance to make Sire Ladinas spawn.\n\nIf the ghoul yells, the rare will spawn soon.",
 					constant = "REMNANTS_OF_LIGHT_ARE_SPARKLING_GOLD_SHARDS",
 					export = true,
@@ -384,7 +384,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160392, {	-- Soulstalker Doina
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns at the top of the tower. She will escape through mirror portals twice during the encounter. Follow her to continue the fight.",
 					constant = "SPAWNS_AT_THE_TOP_OF_THE_TOWER_SHE_WILL_ESCAPE",
 					export = true,
@@ -430,7 +430,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(155779, {	-- Tomb Burster <Dread Crawler Queen>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After you kill all the Crawler Eggs around Funguss and defeat several waves of Dread Crawlers, the rare will attack.",
 					constant = "AFTER_YOU_KILL_ALL_THE_CRAWLER_EGGS_AROUND",
 					export = true,
@@ -459,7 +459,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160821, {	-- Worldedge Gorger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To summon Worldedge Gorger, you need to use |cff1eff00Enticing Anima|r to light Worldedge Braziers. |cff1eff00Enticing Anima|r drops from the aberrations that spawn along the river.",
 					constant = "TO_SUMMON_WORLDEDGE_GORGER_YOU_NEED_TO_USE",
 					export = true,
@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["cost"] = { { "i", 173939, 1 } },	-- Enticing Anima
 				["groups"] = {
 					i(180583, {	-- Impressionable Gorger Spawn
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To have a chance for this item to drop, you may need to complete the The Endmire Quest (/ATT quest:60480). Better safe than sorry, the Quest only takes 1 minute to do.",
 							constant = "TO_HAVE_A_CHANCE_FOR_THIS_ITEM_TO_DROP_YOU_MAY",
 							export = true,

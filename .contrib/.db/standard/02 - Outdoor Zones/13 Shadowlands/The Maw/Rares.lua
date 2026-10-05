@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		}, {
 			n(COMMON_BOSS_DROPS, {
 				i(184395, {	-- Fallen Adventurer's Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from numerous rares, elites, and named mobs in The Maw and Korthia.",
 						constant = "DROPS_FROM_NUMEROUS_RARES_ELITES_AND_NAMED_MOBS",
 						export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170301, {	-- Apholeias, Herald of Loss
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 4 players to summon.",
 					constant = "REQUIRES_4_PLAYERS_TO_SUMMON",
 					export = true,
@@ -134,7 +134,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(180246, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Carriage Crusher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Assault Supply Carriage starts in Korthia, moves to the northeastern bridge out of the Beastwarrens, and then finishes its supply run to the current covenant assault.\n\nWhen the carriage makes it to the bridge, the Carriage Crusher spawns. You can hop into the carriage to heal it and yourself.",
 					constant = "THE_ASSAULT_SUPPLY_CARRIAGE_STARTS_IN_KORTHIA",
 					export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			n(171317, {	-- Conjured Death
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns outside the Tremaculum when the Venthyr assault is active and inside the Tremaculum at all other times.",
 					constant = "SPAWNS_OUTSIDE_THE_TREMACULUM_WHEN_THE_VENTHYR",
 					export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162452, {	-- Dartanos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coordinates are for a teleportation pad that will take you to the rare's platform.",
 					constant = "COORDINATES_ARE_FOR_A_TELEPORTATION_PAD_THAT",
 					export = true,
@@ -258,7 +258,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(179779, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Deomen the Vortex
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If the cage is locked, enter the building to the left of the rare at |cFFFFFFFF63.3, 43.6|r. There is a lever on the wall on either side of the room at the bottom of the stairs, inside the alcoves.",
 					constant = "IF_THE_CAGE_IS_LOCKED_ENTER_THE_BUILDING_TO_THE",
 					export = true,
@@ -285,7 +285,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			n(170711, {	-- Dolos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Will not spawn during Necrolord assault.",
 					constant = "WILL_NOT_SPAWN_DURING_NECROLORD_ASSAULT",
 					export = true,
@@ -310,7 +310,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(158314, {	-- Drifting Sorrow
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To summon the mob, kill Agonizing Shades near the dark floating orb.",
 					constant = "TO_SUMMON_THE_MOB_KILL_AGONIZING_SHADES_NEAR",
 					export = true,
@@ -364,7 +364,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170303, {	-- Exos, Herald of Domination
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Summoned using |cff0070ddDomination's Calling|r.",
 					constant = "SUMMONED_USING_CFF0070DDDOMINATION_S_CALLING_R",
 					export = true,
@@ -394,7 +394,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(179460, {	-- Fallen Charger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "It spawns in the Crucible of the Damned with a zonewide announcement: |cFFff8040An earsplitting whinny echoes across the Maw as the Fallen Charger begins its ride.|r\n\nIt either runs (A) through the Tremaculum, south past Ve'nari's Refuge, and down the eastern side of the Beastwarrens or (B) down the western side of Zovaal's Cauldron, past Perdition Hold, and down the western side of the Beastwarrens.\n\nIf it makes it all the way to Korthia, it despawns with another zonewide announcement: |cFFff8040Fallen Charger releases a final mournful whinny as it fades away.|r",
 					constant = "IT_SPAWNS_IN_THE_CRUCIBLE_OF_THE_DAMNED_WITH_A",
 					export = true,
@@ -435,7 +435,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(175012, {	-- Ikras the Devourer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flies along the gap between islands.",
 					constant = "FLIES_ALONG_THE_GAP_BETWEEN_ISLANDS",
 					export = true,
@@ -478,7 +478,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162849, {	-- Morguliax <Lord of Decapitation>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns next to the Herald of Loss when the Night Fae assault is active.",
 					constant = "SPAWNS_NEXT_TO_THE_HERALD_OF_LOSS_WHEN_THE",
 					export = true,
@@ -545,7 +545,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(172577, {	-- Orophea
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect Eurydea's Necklace and offer it to Orophea.",
 					constant = "COLLECT_EURYDEA_S_NECKLACE_AND_OFFER_IT_TO",
 					export = true,
@@ -696,7 +696,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			n(173086, {	-- Valis the Cruel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the runes in the correct order.",
 					constant = "CLICK_THE_RUNES_IN_THE_CORRECT_ORDER",
 					export = true,
@@ -719,7 +719,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = {
 					i(186632),	-- Rune Covered Bindings
 					n(174810, {	-- Rune of Cruelty (1)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click 1st.",
 							constant = "CLICK_1ST",
 							export = true,
@@ -739,7 +739,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}),
 					n(174811, {	-- Rune of Cruelty (2)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click 2nd.",
 							constant = "CLICK_2ND",
 							export = true,
@@ -759,7 +759,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					}),
 					n(174812, {	-- Rune of Cruelty (3)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click 3rd.",
 							constant = "CLICK_3RD",
 							export = true,
@@ -793,7 +793,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 66.7, 42.4, THE_MAW },
 				["groups"] = {
 					ach(14943, {	-- Guarmageddon
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill all of Ylva and Guarm's children, and then kill the rare. You must be within range of the baby guarm when they die to get the debuff.",
 							constant = "KILL_ALL_OF_YLVA_AND_GUARM_S_CHILDREN_AND_THEN",
 							export = true,
@@ -837,7 +837,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			})),
 			i(182329, {	-- Domination's Calling
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is NOT consumed upon use.",
 					constant = "THIS_IS_NOT_CONSUMED_UPON_USE",
 					export = true,

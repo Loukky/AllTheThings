@@ -127,7 +127,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["lvl"] = 68,
 		}),
 		q(10902, {	-- Master of Elixirs (2/2)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Upon finishing this quest, you will become a Elixir Master and be locked out of becoming a Transmutation or Potion Master.",
 				constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_5",
 				export = true,
@@ -191,7 +191,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["lvl"] = 68,
 		}),
 		q(10897, {	-- Master of Potions (2/2)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Upon finishing this quest, you will become a Potion Master and be locked out of becoming a Transmutation or Elixir Master.",
 				constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_6",
 				export = true,
@@ -258,7 +258,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["lvl"] = 68,
 		}),
 		q(10899, {	-- Master of Transmutation (2/2)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Upon finishing this quest, you will become a Transmutation Master and be locked out of becoming a Potion or Elixir Master.",
 				constant = "UPON_FINISHING_THIS_QUEST_YOU_WILL_BECOME_A_7",
 				export = true,
@@ -458,7 +458,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			},
 		}),
 		q(39341, {	-- Vault of the Wardens: Demon's Bile
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Need to bring a Skaggldrynk and drink infront of the boss door, located west section after Inquisitor Tormentorum.",
 				constant = "NEED_TO_BRING_A_SKAGGLDRYNK_AND_DRINK_INFRONT",
 				export = true,
@@ -546,7 +546,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["coord"] = { 41.6, 32.8, LEGION_DALARAN },
 		}),
 		q(39349, {	-- Black Rook Hold: Heavy, But Helpful
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The respective Rank 2 recipe will drop from the dungeon, don't forget to loot it.",
 				constant = "THE_RESPECTIVE_RANK_2_RECIPE_WILL_DROP_FROM_THE",
 				export = true,
@@ -661,7 +661,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 			------ Tools of Trade Questline ------
 			q(50121, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Casting the First Stone [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Kul Tiran Alchemy.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_KUL_TIRAN",
 					export = true,
@@ -694,7 +694,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			})),
 			q(50112, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Casting the First Stone [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Zandalari Alchemy.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_ZANDALARI",
 					export = true,
@@ -901,7 +901,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		})),
 		n(QUESTS, {
 			q(70355, {	-- Dragon Isles Alchemy
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Alchemy.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO",
 					export = true,
@@ -966,7 +966,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		},{
 			------ Requires 25 Skill ------
 			q(72427, {	-- Animated Infusion
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 25 Skill.",
 					constant = "REQUIRES_25_SKILL",
 					export = true,
@@ -1017,7 +1017,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 
 			------ Requires 45 Skill ------
 			q(70532, {	-- Aiding the Raiding
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 45 Skill.",
 					constant = "REQUIRES_45_SKILL",
 					export = true,
@@ -1092,7 +1092,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 		})),
 		filter(RECIPES, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These are learned by specialization.",
 				constant = "THESE_ARE_LEARNED_BY_SPECIALIZATION",
 				export = true,
@@ -1122,7 +1122,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		}),
 		n(TREASURES, {
 			o(380611, {	-- Canteen of Suspicious Water
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside cave.",
 					constant = "INSIDE_CAVE",
 					export = true,
@@ -1147,7 +1147,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			}),
 			o(380605, {	-- Contraband Concoction
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Hidden in some bushes, hard to see.",
 					constant = "HIDDEN_IN_SOME_BUSHES_HARD_TO_SEE",
 					export = true,
@@ -1194,7 +1194,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 				},
 			})),
 			o(380586, {	-- Mysterious Cauldrons
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Grab and drop a Discarded Toy in each of these, then you can collect the treasure.",
 					constant = "GRAB_AND_DROP_A_DISCARDED_TOY_IN_EACH_OF_THESE",
 					export = true,
@@ -1260,7 +1260,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			})),
 			o(410434,	-- Splash Potion of Narcolepsy
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In cavern.",
 					constant = "IN_CAVERN",
 					export = true,
@@ -1301,7 +1301,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			i(198608),	-- Alchemy Notes
 			q(74108, {	-- DF Inscription Order: Alchemy
 				["name"] = "DF Inscription Order: Alchemy",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires a crafting order from Inscription.",
 					constant = "REQUIRES_A_CRAFTING_ORDER_FROM_INSCRIPTION",
 					export = true,
@@ -1331,7 +1331,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 			q(70504, {	-- DF Weekly Alchemy Knowledgepoint #3
 				["name"] = "DF Alchemy Drop #1: Decayed",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Decayed Mob.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_DECAYED_MOB_COORDINATES_LINK_TO",
 					export = true,
@@ -1355,7 +1355,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 			q(70511, {	-- DF Weekly Alchemy Knowledgepoint #4
 				["name"] = "DF Alchemy Drop #2: Elemental",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Elemental.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_ELEMENTAL_COORDINATES_LINK_TO",
 					export = true,

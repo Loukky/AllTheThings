@@ -86,7 +86,7 @@ root(ROOTS.Zones, {
 					ach(9433),	-- A-VOID-ance
 					ach(9469),	-- Arakkoa Outcasts
 					ach(8925, {	-- Between Arak and a Hard Place (Alliance)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Spires of Arak Treasure Map' from Grakis in Stormshield.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_6",
 							export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, {
 						["groups"] = { follower(218) },	-- Talonpriest Ishaal
 					}),
 					ach(8926, {	-- Between Arak and a Hard Place (Horde)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Spires of Arak Treasure Map' from Srikka in Warspear.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_7",
 							export = true,
@@ -166,7 +166,7 @@ root(ROOTS.Zones, {
 						pet(1462),	-- Bloodsting Wasp (PET!)
 						pet(1573),	-- Golden Dawnfeather (PET!)
 						pet(1592, {	-- Sapphire Firefly (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only one is up at a time. Once captured or killed, it immediately respawns.",
 								constant = "ONLY_ONE_IS_UP_AT_A_TIME_ONCE_CAPTURED_OR",
 								export = true,
@@ -730,7 +730,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 52.0, 49.9, SPIRES_OF_ARAK },
 					}),
 					q(37177, {	-- Call of the Talon King
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted automatically. If you're in the zone when you hit exalted, leave the zone and return.",
 							constant = "GRANTED_AUTOMATICALLY_IF_YOU_RE_IN_THE_ZONE",
 							export = true,
@@ -933,7 +933,7 @@ root(ROOTS.Zones, {
 						["groups"] = { pet(1532) },	-- Ikky (PET!)
 					}),
 					q(34838, {	-- Ikky's Egg
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available once you pick up the gavel during |cFFFFD700The Kaliri Whisperer|r.",
 							constant = "AVAILABLE_ONCE_YOU_PICK_UP_THE_GAVEL_DURING",
 							export = true,
@@ -1628,7 +1628,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118200) },	-- Vile Branch of Festerbloom
 					}),
 					n(85036, {	-- Formless Nightmare
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located inside the void portal phase.",
 							constant = "LOCATED_INSIDE_THE_VOID_PORTAL_PHASE",
 							export = true,
@@ -1652,7 +1652,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119373) },	-- Nightmare-Chain Bracers
 					}),
 					n(86978, {	-- Gaze
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click on the Fel Tome to summon.",
 							constant = "CLICK_ON_THE_FEL_TOME_TO_SUMMON",
 							export = true,
@@ -1709,7 +1709,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(118735) },	-- Bloodbathed Outcast Robes
 					}),
 					n(85037, {	-- Kenos the Unraveler
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located inside the void portal phase. Requires 3 people to click orb.",
 							constant = "LOCATED_INSIDE_THE_VOID_PORTAL_PHASE_REQUIRES_3",
 							export = true,
@@ -1813,7 +1813,7 @@ root(ROOTS.Zones, {
 					n(84912, {	-- Sunderthorn
 						["questID"] = 36298,
 						["coord"] = { 58.6, 45.0, SPIRES_OF_ARAK },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This rare can sometimes bug out. If you fly in fast enough, you can still kill enough wasps to get her to spawn. Melee classes may find this near impossible.",
 							constant = "THIS_RARE_CAN_SOMETIMES_BUG_OUT_IF_YOU_FLY_IN",
 							export = true,
@@ -1873,7 +1873,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116913) },	-- Peon's Mining Pick
 					}),
 					o(235365, {	-- Admiral Taylor's Coffer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The key is on a stone behind a skeleton in front of the closed mine, south of the garrison. (37.7, 56.3)",
 							constant = "THE_KEY_IS_ON_A_STONE_BEHIND_A_SKELETON_IN",
 							export = true,
@@ -1901,7 +1901,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116835) },	-- Assassin's Spear
 					}),
 					o(232989, {	-- Basket of Arakkoa Goods
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must establish your outpost to get this treasure.",
 							constant = "MUST_ESTABLISH_YOUR_OUTPOST_TO_GET_THIS",
 							export = true,
@@ -1926,7 +1926,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(234473, {	-- Campaign Contributions
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a shelf above the doorway.",
 							constant = "ON_A_SHELF_ABOVE_THE_DOORWAY",
 							export = true,
@@ -2011,7 +2011,7 @@ root(ROOTS.Zones, {
 					o(235289, {	-- Garrison Workman's Hammer
 						["questID"] = 36451,
 						["coord"] = { 41.8, 50.5, SPIRES_OF_ARAK },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This treasure is bugged as of 8.0.1. The hammer can be seen in the cart from a distance but disappears when you approach it due to zone phasing. If you fly in fast enough, you can still loot it.",
 							constant = "THIS_TREASURE_IS_BUGGED_AS_OF_8_0_1_THE_HAMMER",
 							export = true,
@@ -2032,7 +2032,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116918) },	-- Garrison Workman's Hammer
 					}),
 					o(234618, {	-- Gift of Anzu
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 							constant = "DRINK_AN_ELIXIR_OF_SHADOW_SIGHT_NEAR_THE_SHRINE",
 							export = true,
@@ -2187,7 +2187,7 @@ root(ROOTS.Zones, {
 						["questID"] = 36355,
 						["icon"] = 1002596,
 						["coord"] = { 43.2, 27.2, SPIRES_OF_ARAK },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have archaeology.",
 							constant = "MUST_HAVE_ARCHAEOLOGY",
 							export = true,
@@ -2207,7 +2207,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					o(234454, {	-- Relics of the Outcasts
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires archaeology.",
 							constant = "REQUIRES_ARCHAEOLOGY",
 							export = true,
@@ -2254,7 +2254,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.0, 16.5, SPIRES_OF_ARAK },
 					}),
 					o(233975, {	-- Rooby's Roo
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Buy 3 Rooby Treats from Miril Dumonde in the basement of the inn and feed them to Rooby on the main floor of the inn. Follow Rooby and feed him each time he stops until he leaves his treasure.",
 							constant = "BUY_3_ROOBY_TREATS_FROM_MIRIL_DUMONDE_IN_THE",
 							export = true,
@@ -2306,7 +2306,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 60.9, 84.6, SPIRES_OF_ARAK },
 					}),
 					o(380963, {	-- Small Pile of Ash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Some North locations are phased until completing 'Orders From On High' (34658)",
 							constant = "SOME_NORTH_LOCATIONS_ARE_PHASED_UNTIL",
 							export = true,
@@ -2379,7 +2379,7 @@ root(ROOTS.Zones, {
 				n(VENDORS, {
 					n(SMUGGLERS_DEN, {
 						n(82459, {	-- Honest Jim
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use the |cFFFFD700Smuggling Run!|r ability to summon.",
 								constant = "USE_THE_CFFFFD700SMUGGLING_RUN_R_ABILITY_TO",
 								export = true,
@@ -2479,7 +2479,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					n(82432, {	-- Miril Dumonde
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Vendor only sells Admiral Taylor's Greatsword to those who have completed the associated quest.",
 							constant = "VENDOR_ONLY_SELLS_ADMIRAL_TAYLOR_S_GREATSWORD",
 							export = true,
@@ -2522,7 +2522,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(87123, {	-- Vesharr
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Items will be unavailable until you complete the pet battle daily quest |cFFFFD700Vesharr|r.",
 							constant = "ITEMS_WILL_BE_UNAVAILABLE_UNTIL_YOU_COMPLETE",
 							export = true,

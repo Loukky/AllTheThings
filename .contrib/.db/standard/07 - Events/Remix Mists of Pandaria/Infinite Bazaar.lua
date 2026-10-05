@@ -658,7 +658,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 			n(219025, {	-- Larah Treebender <World Apparel>
 				iensemble(215219, {	-- Ensemble: Guise of the Shado-Pan (Dark)
 					["cost"] = { { "c", BRONZE, 2500 } },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "All appearances are MoP: Remix exclusive.",
 						constant = "ALL_APPEARANCES_ARE_MOP_REMIX_EXCLUSIVE",
 						export = true,

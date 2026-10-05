@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 		["groups"] = {
 			n(QUESTS, {
 				q(71093, {	-- Legacy of Tyr: Secrets of the Past
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Given on zoning into the instance on a character that did not do the pre-patch version of this quest.",
 						constant = "GIVEN_ON_ZONING_INTO_THE_INSTANCE_ON_A",
 						export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(384653, {	-- Ancient Volume
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After second boss room, to the right of the broken bench.",
 						constant = "AFTER_SECOND_BOSS_ROOM_TO_THE_RIGHT_OF_THE",
 						export = true,
@@ -66,7 +66,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(384313, {	-- Ancient Volume
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Third boss room to the right of the exit door on the shelf.",
 						constant = "THIRD_BOSS_ROOM_TO_THE_RIGHT_OF_THE_EXIT_DOOR",
 						export = true,
@@ -89,7 +89,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(384311, {	-- Ancient Volume
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Before entering the Fourth boss room on top of some chests.",
 						constant = "BEFORE_ENTERING_THE_FOURTH_BOSS_ROOM_ON_TOP_OF",
 						export = true,
@@ -112,7 +112,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(384654, {	-- Ancient Volume
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To the right on shelf in the circle room before final boss.",
 						constant = "TO_THE_RIGHT_ON_SHELF_IN_THE_CIRCLE_ROOM_BEFORE",
 						export = true,
@@ -135,7 +135,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(384312, {	-- Ancient Volume
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In the room before final boss, left side under the middle bench.",
 						constant = "IN_THE_ROOM_BEFORE_FINAL_BOSS_LEFT_SIDE_UNDER",
 						export = true,

@@ -719,7 +719,7 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 		["timeline"] = { ADDED_7_0_3, REMOVED_7_0_3_LAUNCH },
 		["groups"]= {
 			title(326, {	-- <Name>, Patron of War
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Connect Twitch and Battle.net accounts and watch tournament streams",
 					constant = "CONNECT_TWITCH_AND_BATTLE_NET_ACCOUNTS_AND",
 					export = true,

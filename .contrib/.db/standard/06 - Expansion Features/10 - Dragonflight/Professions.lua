@@ -106,7 +106,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			q(70126, {	-- A Finishing Touch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Even though Miguel can be found in numerous places around the Dragon Isles, this quest is only offered in Valdrakken once the Dragon Shard of Knowledge chain has been completed.",
 					constant = "EVEN_THOUGH_MIGUEL_CAN_BE_FOUND_IN_NUMEROUS",
 					export = true,
@@ -383,7 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 		}),
 		n(SPECIAL, {
 			i(200932, {	-- Encaged Airy Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to capture a soul with Empty Soul Cage, the elite air elemental must die while having the Zapthrottle Soul Inhaler debuff.\n\nOnce you receive the soul, do not open the item until the Encaged turns into Docile, which will happen once the 15-minute timer expires.",
 					constant = "IN_ORDER_TO_CAPTURE_A_SOUL_WITH_EMPTY_SOUL_CAGE",
 					export = true,
@@ -412,7 +412,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			i(200936, {	-- Encaged Earthen Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to capture a soul with Empty Soul Cage, the elite earth elemental must die while having the Zapthrottle Soul Inhaler debuff.\n\nOnce you receive the soul, do not open the item until the Encaged turns into Docile, which will happen once the 15-minute timer expires.",
 					constant = "IN_ORDER_TO_CAPTURE_A_SOUL_WITH_EMPTY_SOUL_CAGE_2",
 					export = true,
@@ -445,7 +445,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			i(200931, {	-- Encaged Fiery Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to capture a soul with Empty Soul Cage, the elite fire elemental must die while having the Zapthrottle Soul Inhaler debuff.\n\nOnce you receive the soul, do not open the item until the Encaged turns into Docile, which will happen once the 15-minute timer expires.",
 					constant = "IN_ORDER_TO_CAPTURE_A_SOUL_WITH_EMPTY_SOUL_CAGE_3",
 					export = true,
@@ -474,7 +474,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 			i(200934, {	-- Encaged Frosty Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to capture a soul with Empty Soul Cage, the elite frost elemental must die while having the Zapthrottle Soul Inhaler debuff.\n\nOnce you receive the soul, do not open the item until the Encaged turns into Docile, which will happen once the 15-minute timer expires.",
 					constant = "IN_ORDER_TO_CAPTURE_A_SOUL_WITH_EMPTY_SOUL_CAGE_4",
 					export = true,

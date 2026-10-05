@@ -180,7 +180,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADD
 	}),
 	filter(RECIPES, {
 		i(194298, {	-- Pattern: Forlorn Funeral Pall (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Decaying World Creatures.",
 				constant = "DROPS_FROM_DECAYING_WORLD_CREATURES",
 				export = true,
@@ -202,7 +202,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADD
 		i(194267),	-- Pattern: Shimmering Embroidery Thread (RECIPE!)
 		i(194486),	-- Plans: Shield of the Hearth (RECIPE!)
 		i(191580, {	-- Recipe: Transmute: Awakened Earth (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Earthen World Creatures.",
 				constant = "DROPS_FROM_EARTHEN_WORLD_CREATURES",
 				export = true,
@@ -222,7 +222,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADD
 			}),
 		}),
 		i(191578, {	-- Recipe: Transmute: Awakened Fire (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Fiery World Creatures.",
 				constant = "DROPS_FROM_FIERY_WORLD_CREATURES",
 				export = true,
@@ -243,7 +243,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADD
 		}),
 		i(198876),	-- Technique: Weathered Explorer's Stave (RECIPE!)
 		i(207461, {	-- Schematic: Portable Party Platter (RECIPE!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You must be a mage or get one to help you. The mage character needs to have DF cooking and a rare quality Chef's Splendid Rolling Pin equipped with the special tooltip \"Whenever you gain Well Fed, you conjure a DF Dessert from among the recipes you have learned.\" and at least 1 DF dessert recipe learned. The engineer needs DF engineering skill leveled to 50, 1 Light Parchment and 1 Engineer's Ink. If the engineer is close enough to the mage when they get the Well Fed buff, the engineer will get the recipe.",
 				constant = "YOU_MUST_BE_A_MAGE_OR_GET_ONE_TO_HELP_YOU_THE",
 				export = true,

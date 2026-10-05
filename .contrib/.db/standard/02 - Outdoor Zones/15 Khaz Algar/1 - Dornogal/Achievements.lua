@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(DORNOGAL, {
 		n(ACHIEVEMENTS, {
 			ach(40606, {	-- Flat Earthen
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Stand at the coordinates and let the machine crush you.",
 					constant = "STAND_AT_THE_COORDINATES_AND_LET_THE_MACHINE",
 					export = true,

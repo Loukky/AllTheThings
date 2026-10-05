@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 4551,	-- Michael Garrett <Bat Handler>
 					["coord"] = { 63.6, 48.6, UNDERCITY },
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be picked up only during Chromie time.",
 						constant = "CAN_BE_PICKED_UP_ONLY_DURING_CHROMIE_TIME",
 						export = true,
@@ -916,7 +916,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, q(78199, {	-- Secrets of the Loa (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Completing this quest will allow you to meditate in the same manner as the trolls.",
 						constant = "COMPLETING_THIS_QUEST_WILL_ALLOW_YOU_TO_4",
 						export = true,
@@ -1482,7 +1482,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				o(240623, {	-- Sylvanas' Strongbox
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Zidormi to access Tirisfal Glades of the past. Loot the strongbox at the base of a pillar to the left of Sylvanas Windrunner. Alliance characters *can* loot this.",
 						constant = "USE_ZIDORMI_TO_ACCESS_TIRISFAL_GLADES_OF_THE",
 						export = true,

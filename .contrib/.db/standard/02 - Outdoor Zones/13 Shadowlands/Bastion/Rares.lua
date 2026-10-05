@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170899,   {	-- Ascended Council
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You have to ring all 5 vespers within 5 minutes to summon the Ascended Council at |cFFFFFFFF53.5, 88.3|r. The vespers are spread out all over the map, so this might require at least a couple people.",
 					constant = "YOU_HAVE_TO_RING_ALL_5_VESPERS_WITHIN_5_MINUTES",
 					export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160629, {	-- Baedos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To start the encounter, find casks full of Fermenting Purian Fruit near the rare and bring them to Baedos' Fruit Barrel.",
 					constant = "TO_START_THE_ENCOUNTER_FIND_CASKS_FULL_OF",
 					export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170932, {	-- Cloudfeather Guardian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If the rare is not attackable, you can kill Anima-Starved Cloudfeathers in the area to provoke it.",
 					constant = "IF_THE_RARE_IS_NOT_ATTACKABLE_YOU_CAN_KILL",
 					export = true,
@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171014, {	-- Collector Astorestes
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "First, read the 6 chapters of Mercia's Legacy in order.\n\nChapter One - |cFFFFFFFF66.1, 44.1|r, on a small table with two vases.\nChapter Two - |cFFFFFFFF65.9, 44.1|r, on a bench.\nChapter Three - |cFFFFFFFF65.7, 43.9|r, behind a bench.\nChapter Four - |cFFFFFFFF65.7, 43.4|r, on the lower-left shelf.\nChapter Five - |cFFFFFFFF65.9, 43.2|r, to the right of the bench.\nChapter Six - |cFFFFFFFF66.2, 43.2|r, on the lower-right corner of the table.\n\nSpeak to the Echo of Mercia, and she will give you a 5-minute buff allowing you to find the secret 7th chapter of the story. It will be outside the main temple room; just look at all the tables until you find a glowing purple scroll.\n\nPick up the 7th chapter scroll, bring it to the Echo of Mercia, and the rare will appear.",
 					constant = "FIRST_READ_THE_6_CHAPTERS_OF_MERCIA_S_LEGACY_IN",
 					export = true,
@@ -215,7 +215,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171010, {	-- Corrupted Clawguard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To start the encounter, you need to find a Discarded Phalynx Core and use it on the Malfunctioning Clawguard.",
 					constant = "TO_START_THE_ENCOUNTER_YOU_NEED_TO_FIND_A",
 					export = true,
@@ -242,7 +242,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170623, {	-- Dark Watcher
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If the rare is up, you will get a debuff called Ominous Gaze when you are close to it. To start the encounter, you need to die and speak to the NPC.",
 					constant = "IF_THE_RARE_IS_UP_YOU_WILL_GET_A_DEBUFF_CALLED",
 					export = true,
@@ -267,7 +267,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171011, {	-- Demi the Relic Hoarder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "As soon as Demi is pulled, she will start running east. She will pull additional Forsworn mobs for you to contend with, and she has 100 stacks of a buff that causes her to take reduced damage. The stacks drop each time she is attacked, so she will take progressively more damage. Upon defeat, she drops the treasure she is holding.\n\nThis rare is soloable, but having decent gear and at least one more person may be helpful — if Demi makes it to safety, she will despawn.",
 					constant = "AS_SOON_AS_DEMI_IS_PULLED_SHE_WILL_START",
 					export = true,
@@ -304,7 +304,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(163460, {	-- Dionae
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Stewart offers you his Stewpendous Stew in thanks after you save him from Dionae.",
 					constant = "STEWART_OFFERS_YOU_HIS_STEWPENDOUS_STEW_IN",
 					export = true,
@@ -338,7 +338,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171009, {	-- Enforcer Aegeon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Force the rare to spawn by killing mobs around the Eternal Forge. Forge-Keeper Mnemis will periodically announce the threat level, and Aegeon will be dispatched when the threat level reaches Major.",
 					constant = "FORCE_THE_RARE_TO_SPAWN_BY_KILLING_MOBS_AROUND",
 					export = true,
@@ -372,7 +372,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(158659, {	-- Herculon
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pick up anima from the Depleted Anima Canisters around the chamber and the area outside. Feed them to Herculon to activate him.\n\nLoot will be in the Aspirant's Cache behind him after he is defeated.",
 					constant = "PICK_UP_ANIMA_FROM_THE_DEPLETED_ANIMA_CANISTERS",
 					export = true,
@@ -405,7 +405,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160882, {	-- Nikara Blackheart
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 3 people to summon. After all 3 have channeled the incense, the vesper will ring and Sophia will appear. Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Gift.",
 					constant = "REQUIRES_3_PEOPLE_TO_SUMMON_AFTER_ALL_3_HAVE",
 					export = true,
@@ -435,7 +435,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171327, {	-- Reekmonger
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Killing the creatures in 'The Necrotic Wake' area will have a chance to make the dragon come down from the sky and become attackable.",
 					constant = "KILLING_THE_CREATURES_IN_THE_NECROTIC_WAKE_AREA",
 					export = true,
@@ -460,7 +460,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160985, {	-- Selena the Reborn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 3 people to summon. After all 3 have channeled the incense, the vesper will ring and Sophia will appear. Protect her by defeating 2 waves of Forsworn attackers, and then the rare will spawn.\n\nAfter Nikara is defeated, Sophia will leave behind a chest called Sophia's Radiance.",
 					constant = "REQUIRES_3_PEOPLE_TO_SUMMON_AFTER_ALL_3_HAVE_2",
 					export = true,
@@ -499,7 +499,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(170548, {	-- Sundancer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires two Buffs to mount the rare. First buff is from the statue next to the rare & the second buff comes from the Skystrider Glider item.",
 					constant = "REQUIRES_TWO_BUFFS_TO_MOUNT_THE_RARE_FIRST_BUFF",
 					export = true,
@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["cost"] = { { "i", 180445, 1 } },	-- 1xSkystrider Glider
 				["groups"] = {
 					ach(14733, {	-- In the Hot Seat
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires using the Skystrider Glider to bring Sundancer down. Being present for a kill will not grant credit.",
 							constant = "REQUIRES_USING_THE_SKYSTRIDER_GLIDER_TO_BRING",
 							export = true,
@@ -545,7 +545,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171012, {	-- Swelling Tear
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Swelling Tear has a chance to spawn Embodied Hunger, Worldfeaster Chronn, or Xixin the Ravening.",
 					constant = "SWELLING_TEAR_HAS_A_CHANCE_TO_SPAWN_EMBODIED",
 					export = true,
@@ -604,7 +604,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171008, {	-- Unstable Memory
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Get aggro on an Unstable Memory Fragment, drag it through more fragments until the mob has 10 stacks of Instability, and it will turn into the rare.\n\nIf Unstable Memory Fragments are not up, the rare is not available to summon.",
 					constant = "GET_AGGRO_ON_AN_UNSTABLE_MEMORY_FRAGMENT_DRAG",
 					export = true,

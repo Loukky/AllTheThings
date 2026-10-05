@@ -4,7 +4,7 @@
 
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_THE_ANGLERS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Anglers are a group of Pandaren fishermen that hope to feed their people and grow their knowledge of fishing.",
 			constant = "THE_ANGLERS_ARE_A_GROUP_OF_PANDAREN_FISHERMEN",
 			export = true,
@@ -177,7 +177,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["repeatable"] = true,
 				}),
 				q(31443, {	-- Flying Tiger Gourami
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found while fishing in any inland body of water on Pandaria.\n\n",
 						constant = "FOUND_WHILE_FISHING_IN_ANY_INLAND_BODY_OF_WATER",
 						export = true,
@@ -200,7 +200,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["isDaily"] = true,
 				}),
 				q(31446, {	-- Mimic Octopus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found while fishing in any inland body of water on Pandaria.",
 						constant = "FOUND_WHILE_FISHING_IN_ANY_INLAND_BODY_OF_WATER_2",
 						export = true,
@@ -223,7 +223,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 					["isDaily"] = true,
 				}),
 				q(31444, {	-- Spinefish Alpha
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found while fishing in inland water near Sha-touched land.",
 						constant = "FOUND_WHILE_FISHING_IN_INLAND_WATER_NEAR_SHA",
 						export = true,
@@ -248,7 +248,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 			}),
 			n(RARES, {
 				n(70323, {	-- Krakkanon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fished out of the daily Pandaria fishing holes.",
 						constant = "FISHED_OUT_OF_THE_DAILY_PANDARIA_FISHING_HOLES",
 						export = true,

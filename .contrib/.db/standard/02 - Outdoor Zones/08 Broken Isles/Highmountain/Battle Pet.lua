@@ -20,7 +20,7 @@ root(ROOTS.Zones, {
 				["groups"] = {
 					pet(1743),	-- Black-Footed Fox Kit (PET!)
 					pet(1726, {	-- Burrow Spiderling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found inside Neltharion's Vault. Coord is entrance.",
 							constant = "FOUND_INSIDE_NELTHARION_S_VAULT_COORD_IS",
 							export = true,
@@ -41,7 +41,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.6, 72.4, HIGHMOUNTAIN },
 					}),
 					pet(1775, {	-- Coralback Fiddler (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found on the northern coastline of Highmountain.",
 							constant = "FOUND_ON_THE_NORTHERN_COASTLINE_OF_HIGHMOUNTAIN",
 							export = true,
@@ -61,7 +61,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(1761, {	-- Echo Batling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Rockcrawler Chasm and Mucksnout Den. Something is making the critter form of this pet unattackable, so this pet may be hard to come across.",
 							constant = "FOUND_IN_ROCKCRAWLER_CHASM_AND_MUCKSNOUT_DEN",
 							export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					pet(1731, {	-- Felspider (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the Blind Marshlands and in Faronaar (in a small area under the 'F' on the map.)",
 							constant = "FOUND_IN_THE_BLIND_MARSHLANDS_AND_IN_FARONAAR",
 							export = true,
@@ -114,7 +114,7 @@ root(ROOTS.Zones, {
 						["description"] = "~L.FOUND_ON_THE_NORTHERN_COASTLINE_OF_HIGHMOUNTAIN",
 					}),
 					pet(1714, {	-- Northern Hawk Owl (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in the snowy area of Highmountain by Frosthoof Watch.",
 							constant = "FOUND_IN_THE_SNOWY_AREA_OF_HIGHMOUNTAIN_BY",
 							export = true,
@@ -135,7 +135,7 @@ root(ROOTS.Zones, {
 					}),
 					pet(1763),	-- Spiketail Beaver (PET!)
 					header(HEADERS.NPC, 115784, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {	-- Snowfeather Hatchling
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "1. Buy Smoked Elderhorn from Marius Felbane in Highmountain.\n2. Kill Snowfeather Matriarch.\n3. /target Orphaned Snowfeather\n4. Feed Orphaned Snowfeather Smoked Elderhorn.\n5. Enjoy new Snowfeather Hatchling|r",
 							constant = "1_BUY_SMOKED_ELDERHORN_FROM_MARIUS_FELBANE_IN",
 							export = true,

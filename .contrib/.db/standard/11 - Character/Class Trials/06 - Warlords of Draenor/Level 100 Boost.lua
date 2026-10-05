@@ -5,7 +5,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 	expansion(EXPANSION.WOD, bubbleDown({["timeline"] = { ADDED_6_2_0, REMOVED_7_3_5}}, {
 		header(HEADERS.Achievement, 9060, {
 			-- Note: [As of August 16, 2018 Level 100 Boost became Level 100 Class Trial]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These were obtained by boosting a character to Level 100 for each class and specialization.",
 				constant = "THESE_WERE_OBTAINED_BY_BOOSTING_A_CHARACTER_TO",
 				export = true,

@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(FLIGHT_PATHS, {
 				fp(87, {	-- Crown Guard Tower, Eastern Plaguelands
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If Plaguewood Tower is controlled by your faction, you can fly to this tower.",
 						constant = "IF_PLAGUEWOOD_TOWER_IS_CONTROLLED_BY_YOUR",
 						export = true,
@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 						17209,	-- William Kielar <Spectral Gryphon Master>
 					},
 					["coord"] = { 22.2, 31.4, MAP.EASTERN_PLAGUELANDS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If this tower is controlled by your faction, you can fly from this tower to the other towers your faction controls.",
 						constant = "IF_THIS_TOWER_IS_CONTROLLED_BY_YOUR_FACTION_YOU",
 						export = true,
@@ -974,7 +974,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 						}),
 						i(15454),	-- Mortar and Pestle
 						i(15447, {	-- Living Rot
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "PROTIP: Do NOT loot these until you have a couple of creatures killed nearby. The timer starts the second you pick it up.",
 								constant = "PROTIP_DO_NOT_LOOT_THESE_UNTIL_YOU_HAVE_A",
 								export = true,
@@ -1066,7 +1066,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					},
 				}),
 				q(9165, {	-- Writ of Safe Passage
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Twice per day, Guard Didier starts a caravan westward. Simply protect him and the mules, but if any of them die, it's over. After the caravan arrives at its destination, he will offer this quest.",
 						constant = "TWICE_PER_DAY_GUARD_DIDIER_STARTS_A_CARAVAN",
 						export = true,
@@ -1249,7 +1249,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(TREASURES, {
 				o(176213, {	-- Blood of Heroes
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item can be found sporatically on the ground in the Plaguelands.",
 						constant = "THIS_ITEM_CAN_BE_FOUND_SPORATICALLY_ON_THE",
 						export = true,
@@ -1416,7 +1416,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(VENDORS, {
 				n(12384, {	-- Agustus the Touched
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vendor will not sell anything until you complete his quest.",
 						constant = "VENDOR_WILL_NOT_SELL_ANYTHING_UNTIL_YOU",
 						export = true,
@@ -1440,7 +1440,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["coord"] = { 14.4, 33.6, MAP.EASTERN_PLAGUELANDS },
 					["groups"] = {
 						i(15902, {	-- A Crazy Grab Bag
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains a random green item. In later expansions due to gold inflation, this might not be a bad purchase, but if you're trying to buy it before say Legion, don't bother.",
 								constant = "CONTAINS_A_RANDOM_GREEN_ITEM_IN_LATER",
 								export = true,
@@ -1497,7 +1497,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 						},
 						{	-- Revered
 							i(18171, {	-- Arcane Mantle of the Dawn
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must have first completed 'Mantles of the Dawn' in order to purchase this.",
 									constant = "YOU_MUST_HAVE_FIRST_COMPLETED_MANTLES_OF_THE",
 									export = true,
@@ -1566,7 +1566,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 						},
 						{	-- Exalted
 							i(18182, {	-- Chromatic Mantle of the Dawn
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must have first completed 'Chromatic Mantle of the Dawn' in order to purchase this.",
 									constant = "YOU_MUST_HAVE_FIRST_COMPLETED_CHROMATIC_MANTLE",
 									export = true,
@@ -1665,7 +1665,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["cr"] = 12339,	-- Demetria <The Scarlet Oracle>
 				}),
 				i(16056, {	-- Schematic: Flawless Arcanite Rifle (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can kill Mossflayer Scout and Mossflayer Cannibal to get Shadowhunters.",
 						constant = "CAN_KILL_MOSSFLAYER_SCOUT_AND_MOSSFLAYER",
 						export = true,

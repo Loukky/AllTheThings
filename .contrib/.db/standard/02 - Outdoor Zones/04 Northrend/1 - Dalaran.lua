@@ -876,7 +876,7 @@ root(ROOTS.Zones, {
 							}),
 							-- #endif
 							n(106887, {	-- Cravitz Lorent <Shady Book Dealer>
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This vendor is not always present. It can appear in either version of Dalaran.",
 									constant = "THIS_VENDOR_IS_NOT_ALWAYS_PRESENT_IT_CAN_APPEAR",
 									export = true,
@@ -1242,7 +1242,7 @@ root(ROOTS.Zones, {
 						["requireSkill"] = COOKING,
 					}),
 					ach(1956, {	-- Higher Learning
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Schools of Arcane Magic books share a spawn location with generic books. Read the books in each location to start the respawn timer, which seems to be 3-4 hours.\n\nThe best time to hunt books is right after a server restart.",
 							constant = "THE_SCHOOLS_OF_ARCANE_MAGIC_BOOKS_SHARE_A_SPAWN",
 							export = true,
@@ -1262,7 +1262,7 @@ root(ROOTS.Zones, {
 						}),
 						["groups"] = {
 							i(44738, {	-- Kirin Tor Familiar (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This pet is obtained by doing the following:\n1. Complete the achievement 'Higher Learning'\n2. Use the newly aqcuired toy 'The Schools of Arcane Magic - Mastery' and teleport yourself to the spires atop Violet Citadel.\n3. Interact with Archmage Vargoth.",
 									constant = "THIS_PET_IS_OBTAINED_BY_DOING_THE_FOLLOWING_1",
 									export = true,
@@ -1283,7 +1283,7 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_3_0_3 },
 							}),
 							i(43824, {	-- The Schools of Arcane Magic - Mastery (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "If you lost the book, Rhonin will provide it to you at no charge as long as you have the achievement. This only works on the character who completed the achievement.",
 									constant = "IF_YOU_LOST_THE_BOOK_RHONIN_WILL_PROVIDE_IT_TO",
 									export = true,
@@ -1457,7 +1457,7 @@ root(ROOTS.Zones, {
 				-- #if AFTER MOP
 				filter(BATTLE_PETS, {
 					pet(1604, {	-- Nethaera's Light (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To obtain this pet do /cheer at it.\nNote: May go to the closest player who does not already have the pet.",
 							constant = "TO_OBTAIN_THIS_PET_DO_CHEER_AT_IT_NOTE_MAY_GO",
 							export = true,
@@ -1634,7 +1634,7 @@ root(ROOTS.Zones, {
 						}),
 						i(43659, {	-- Bloodied Prison Shank
 							["timeline"] = { ADDED_3_0_2 },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be fished up from the waters outside Violet Hold on WotLK Dalaran.",
 								constant = "CAN_BE_FISHED_UP_FROM_THE_WATERS_OUTSIDE_VIOLET",
 								export = true,
@@ -1702,7 +1702,7 @@ root(ROOTS.Zones, {
 							["groups"] = TIFFANY_JEWELCRAFTING_RECIPES,
 						}),
 						n(28701, {	-- Timothy Jones <Jewelcrafting Trainer>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Daily Jewelcrafting quests:\n\nShipment: Blood Jade Amulet - Vrykul can be found on Ymirheim, in the middle of Icecrown.\n\nShipment: Bright Armor Relic - Revenants/Elementals can be found in Dragonblight, following the mountainside from the Crystal Vice towards Wrathgate.\n\nShipment: Glowing Ivory Figurine - Mammoth can be found in southernmost Storm Peaks, by the road towards K3.\n\nShipment: Intricate Bone Figurine - Proto Dragons can be found in Storm Peaks, in the valley above Brunnhildar Village.\n\nShipment:Shifting Sun Curio - Scourge/Undead can be found as neutral ghosts in Crystalsong Forest, by the Violet Stand beneath Dalaran.\n\nShipment: Wicked Armour Relic - Iron Dwarfs can be found in the Storm Peaks, in a cave between Frosthold and Valkyrion.",
 								constant = "DAILY_JEWELCRAFTING_QUESTS_SHIPMENT_BLOOD_JADE",
 								export = true,
@@ -1745,7 +1745,7 @@ root(ROOTS.Zones, {
 					prof(TAILORING, {
 						n(28699, {	-- Charles Worth <Tailoring Trainer>
 							-- #if AFTER 6.2.2
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can now learn these recipes even if the achievements have been completed on a different character. If your tailor isn't your main, rejoice!  Just speak to Charles Worth and tell him you're ready to learn the patterns.",
 								constant = "YOU_CAN_NOW_LEARN_THESE_RECIPES_EVEN_IF_THE",
 								export = true,
@@ -1774,7 +1774,7 @@ root(ROOTS.Zones, {
 										1360,	-- Loremaster of Northrend (H)
 										-- #endif
 									},
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In order to learn this recipe, you must have the Loremaster of Northrend achievement completed.",
 										constant = "IN_ORDER_TO_LEARN_THIS_RECIPE_YOU_MUST_HAVE_THE",
 										export = true,
@@ -1796,7 +1796,7 @@ root(ROOTS.Zones, {
 								}),
 								r(56016, {	-- Wispcloak
 									["sourceAchievement"] = 1288,	-- Northrend Dungeonmaster
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "In order to learn this recipe, you must have the Northrend Dungeonmaster achievement completed.",
 										constant = "IN_ORDER_TO_LEARN_THIS_RECIPE_YOU_MUST_HAVE_THE_2",
 										export = true,
@@ -2121,7 +2121,7 @@ root(ROOTS.Zones, {
 					})),
 					q(29073, {	-- Make Haste to Orgrimmar!
 						-- #if BEFORE 6.2.0
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you have your hearthstone set to Dalaran, this quest will be available to you.",
 							constant = "IF_YOU_HAVE_YOUR_HEARTHSTONE_SET_TO_DALARAN",
 							export = true,
@@ -2466,7 +2466,7 @@ root(ROOTS.Zones, {
 					-- #if ANYCLASSIC
 					applyclassicphase(WRATH_PHASE_FOUR, q(78752, {	-- Proof of Demise: Titan Rune Protocol Gamma
 						-- #if BEFORE 4.0.1
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The quest item can also drop from any of the new Icecrown Heroic Dungeons.",
 							constant = "THE_QUEST_ITEM_CAN_ALSO_DROP_FROM_ANY_OF_THE",
 							export = true,
@@ -2777,7 +2777,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 					q(39210, {	-- The Magical Kingdom of Dalaran (Adventure Guide)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be acquired through the Adventure Guide.",
 							constant = "CAN_BE_ACQUIRED_THROUGH_THE_ADVENTURE_GUIDE",
 							export = true,
@@ -2964,7 +2964,7 @@ root(ROOTS.Zones, {
 				n(REWARDS, {
 					container(46007, {	-- Bag of Fishing Treasures
 						["provider"] = { "n", 28742 },	-- Marcia Chase
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Fishing Daily Quest Reward",
 							constant = "FISHING_DAILY_QUEST_REWARD",
 							export = true,
@@ -3006,7 +3006,7 @@ root(ROOTS.Zones, {
 							i(40195),	-- Pygmy Oil
 							i(46004, {	-- Sealed Vial of Poison
 								-- #if ANYCLASSIC
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Provides a nice source of XP. You can buy and sell this on the AH!",
 									constant = "PROVIDES_A_NICE_SOURCE_OF_XP_YOU_CAN_BUY_AND",
 									export = true,
@@ -3045,7 +3045,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					container(44113, {	-- Small Spice Bag
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Cooking Daily Quest Reward",
 							constant = "COOKING_DAILY_QUEST_REWARD",
 							export = true,
@@ -3070,7 +3070,7 @@ root(ROOTS.Zones, {
 							i(33925),	-- Recipe: Delicious Chocolate Cake (RECIPE!)
 							i(33871),	-- Recipe: Stormchops (RECIPE!)
 							i(43007, {	-- Northern Spices
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Only available from given Cooking suppliers.",
 									constant = "ONLY_AVAILABLE_FROM_GIVEN_COOKING_SUPPLIERS",
 									export = true,
@@ -3096,7 +3096,7 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(192709, {	-- The Schools of Arcane Magic - Abjuration
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The floor of the Dalaran Visitors Center next to a small book covered table.",
 							constant = "THE_FLOOR_OF_THE_DALARAN_VISITORS_CENTER_NEXT",
 							export = true,
@@ -3117,7 +3117,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 52.2, 54.8, NORTHREND_DALARAN },
 					}),
 					o(192710, {	-- The Schools of Arcane Magic - Conjuration
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "First floor of the Violet Citadel on the bottom shelf of the left bookcase on the north side of the room.",
 							constant = "FIRST_FLOOR_OF_THE_VIOLET_CITADEL_ON_THE_BOTTOM",
 							export = true,
@@ -3138,7 +3138,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 31.0, 46.7, NORTHREND_DALARAN },
 					}),
 					o(192711, {	-- The Schools of Arcane Magic - Divination
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Between the two bookcases on the south side of the second floor of the Violet Citadel.",
 							constant = "BETWEEN_THE_TWO_BOOKCASES_ON_THE_SOUTH_SIDE_OF",
 							export = true,
@@ -3159,7 +3159,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 26.5, 52.2, NORTHREND_DALARAN },
 					}),
 					o(192713, {	-- The Schools of Arcane Magic - Enchantment
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a box on the upper balcony of The Threads of Fate.",
 							constant = "ON_A_BOX_ON_THE_UPPER_BALCONY_OF_THE_THREADS_OF",
 							export = true,
@@ -3180,7 +3180,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.6, 46.7, NORTHREND_DALARAN },
 					}),
 					o(192865, {	-- The Schools of Arcane Magic - Illusion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On a box in the corner of the Violet Hold near Archmage Timear.",
 							constant = "ON_A_BOX_IN_THE_CORNER_OF_THE_VIOLET_HOLD_NEAR",
 							export = true,
@@ -3201,7 +3201,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 64.4, 52.3, NORTHREND_DALARAN },
 					}),
 					o(192708, {	-- The Schools of Arcane Magic - Introduction
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "First floor of the teleportation room of the Violet Gate near a bookcase.",
 							constant = "FIRST_FLOOR_OF_THE_TELEPORTATION_ROOM_OF_THE",
 							export = true,
@@ -3222,7 +3222,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.7, 45.5, NORTHREND_DALARAN },
 					}),
 					o(192866, {	-- The Schools of Arcane Magic - Necromancy
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Second floor of the Legerdemain Lounge in a bookcase in the northwest bedroom.",
 							constant = "SECOND_FLOOR_OF_THE_LEGERDEMAIN_LOUNGE_IN_A",
 							export = true,
@@ -3243,7 +3243,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 46.8, 39.1, NORTHREND_DALARAN },
 					}),
 					o(192867, {	-- The Schools of Arcane Magic - Transmutation
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "First floor of the Legerdemain Lounge in the bookcase nearest the stove.",
 							constant = "FIRST_FLOOR_OF_THE_LEGERDEMAIN_LOUNGE_IN_THE",
 							export = true,
@@ -3309,7 +3309,7 @@ root(ROOTS.Zones, {
 					}),
 					n(32631, {	-- Alfred Copperworth <Butler>
 						["coord"] = { 26.2, 39.2, NORTHREND_DALARAN },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Walks around the Purple Parlour.",
 							constant = "WALKS_AROUND_THE_PURPLE_PARLOUR",
 							export = true,
@@ -3925,7 +3925,7 @@ root(ROOTS.Zones, {
 						["providers"] = {
 							{ "i", 44235 },	-- Traveler's Tundra Mammoth (A) (MOUNT!)
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor can be found on someone's Traveler's Tundra Mammoth.",
 							constant = "THIS_VENDOR_CAN_BE_FOUND_ON_SOMEONE_S_TRAVELER",
 							export = true,
@@ -4106,7 +4106,7 @@ root(ROOTS.Zones, {
 					-- #endif
 					n(28682, {	-- Inzi Charmlight <Barmaid>
 						["coord"] = { 44.2, 62.3, NORTHREND_DALARAN },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inzi is walking around in the Tavern.",
 							constant = "INZI_IS_WALKING_AROUND_IN_THE_TAVERN",
 							export = true,
@@ -4201,7 +4201,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(35826, {	-- Kaye Toogie
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "When using |cff0070ddWormhole Generator: Northrend|r, you have a chance to receive the option 'Underground...,' which ports you to the vendor. You must have Engineering to use the toy.",
 							constant = "WHEN_USING_CFF0070DDWORMHOLE_GENERATOR",
 							export = true,
@@ -4427,7 +4427,7 @@ root(ROOTS.Zones, {
 					}),
 					n(32420, {	-- Mimbihi <Barmaid>
 						["coord"] = { 67.4, 32.2, NORTHREND_DALARAN },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Mimbihi is walking around in the Tavern.",
 							constant = "MIMBIHI_IS_WALKING_AROUND_IN_THE_TAVERN",
 							export = true,
@@ -4452,7 +4452,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(29529, {	-- Ninsianna <Relics>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you /dance with her, she will say Not bad, though some additional schooling wouldn't hurt! Here, watch my hips... like so! and start dancing.",
 							constant = "IF_YOU_DANCE_WITH_HER_SHE_WILL_SAY_NOT_BAD",
 							export = true,
@@ -4619,7 +4619,7 @@ root(ROOTS.Zones, {
 					}),
 					-- #if AFTER CATA
 					n(32712, {	-- The Amazing Zanzo
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This NPC have two possiple spawns and routes: Either leaving The Militiant Mystic in The Eventide going to the nearby bank, or leaving the Legerdemain Lounge for a stroll through the Magus Commerce Exchange and back.",
 							constant = "THIS_NPC_HAVE_TWO_POSSIPLE_SPAWNS_AND_ROUTES",
 							export = true,
@@ -4647,7 +4647,7 @@ root(ROOTS.Zones, {
 					-- #endif
 					n(32419, {	-- Umbiwa <Barmaid>
 						["coord"] = { 67.4, 32.2, NORTHREND_DALARAN },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Umbiwa is walking around in the Tavern.",
 							constant = "UMBIWA_IS_WALKING_AROUND_IN_THE_TAVERN",
 							export = true,

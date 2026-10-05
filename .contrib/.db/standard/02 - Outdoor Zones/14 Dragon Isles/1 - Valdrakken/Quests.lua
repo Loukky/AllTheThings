@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 		}),
 		n(QUESTS, {
 			header(HEADERS.Achievement, 16556, {	-- Great Gourmand of The Ruby Feast
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Every Day a new sequence of Quests will appear.",
 					constant = "EVERY_DAY_A_NEW_SEQUENCE_OF_QUESTS_WILL_APPEAR",
 					export = true,

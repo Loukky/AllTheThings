@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(122214, {	-- Music Roll: Mulgore Plains
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Go fishing for a bit in the Pools of Vision beneath the Spirit Rise.",
 							constant = "GO_FISHING_FOR_A_BIT_IN_THE_POOLS_OF_VISION",
 							export = true,

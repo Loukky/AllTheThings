@@ -475,7 +475,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			-- Tools of Trade Questline
 			q(49570, {	-- A Rocky Start [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Kul Tiran Jewelcrafting.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_KUL_TIRAN_3",
 					export = true,
@@ -499,7 +499,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49585, {	-- A Rocky Start [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Zandalari Jewelcrafting.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_ZANDALARI_3",
 					export = true,
@@ -784,7 +784,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 		})),
 		n(QUESTS, {
 			q(70365, {	-- To the Dragon Isles: Jewelcrafting
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Jewelcrafting.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_9",
 					export = true,
@@ -1032,7 +1032,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			})),
 			o(380556, {	-- Harmonic Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the key next to the chest, then click the three crystals in the same lake. Return to the chest to collect the treasure.",
 					constant = "CLICK_THE_KEY_NEXT_TO_THE_CHEST_THEN_CLICK_THE",
 					export = true,
@@ -1057,7 +1057,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 			}),
 			o(380822, {	-- Igneous Gem
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the three crystals on the nearby small islands (quickly), then return to collect the treasure.",
 					constant = "CLICK_THE_THREE_CRYSTALS_ON_THE_NEARBY_SMALL",
 					export = true,
@@ -1146,7 +1146,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 			}),
 			q(70521, {	-- DF Weekly Jewelcrafting Knowledgepoint #3
 				["name"] = "DF Jewelcrafting Drop #1: Well Dressed",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Well Dressed Humanoids & Dragonkins.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_WELL_DRESSED_HUMANOIDS",
 					export = true,

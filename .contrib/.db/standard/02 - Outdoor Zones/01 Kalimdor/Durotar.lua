@@ -1984,7 +1984,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
 									["provider"] = { "i", 205951 },	-- Memory of a Troubled Acolyte
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Kneel (/kneel) at the Loa Altar to gain a Meditation buff, then use the Rune to complete the quest.",
 										constant = "KNEEL_KNEEL_AT_THE_LOA_ALTAR_TO_GAIN_A",
 										export = true,
@@ -2054,7 +2054,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["cr"] = 3124,	-- Scorpid Worker
 						})),
 						applyclassicphase(SOD_PHASE_ONE, i(206169, {	-- Rune of Explosive Shot
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This can also drop from any of the rare mobs in the zone.",
 								constant = "THIS_CAN_ALSO_DROP_FROM_ANY_OF_THE_RARE_MOBS_IN",
 								export = true,
@@ -2169,7 +2169,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66126, {	-- Zunta <Aspiring Pet Tamer>
 					["coord"] = { 43.9, 28.9, DUROTAR },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nZunta's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_ZUNTA_S_PETS_ARE",
 						export = true,
@@ -2921,7 +2921,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(14088, {	-- Learn to Ride in Durotar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Trolls in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_4",
 						export = true,
@@ -2952,7 +2952,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(25179, {	-- Loss Reduction
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to an Injured Razor Hill Grunt on the beach.",
 						constant = "TALK_TO_AN_INJURED_RAZOR_HILL_GRUNT_ON_THE",
 						export = true,
@@ -3604,7 +3604,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				q(40518, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {	-- The Battle for Broken Shore
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Legion expansion introduction quest.|r",
 						constant = "LEGION_EXPANSION_INTRODUCTION_QUEST_R",
 						export = true,
@@ -4047,7 +4047,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(208124, {	-- Raluk
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can tame him and you still get the rune!",
 						constant = "YOU_CAN_TAME_HIM_AND_YOU_STILL_GET_THE_RUNE",
 						export = true,
@@ -4078,7 +4078,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_ONE, n(208180, {	-- Razormane Poacher
 					["provider"] = { "n", 208179 },	-- Rustling Bush
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Hunter's Mark on the bush to spawn the rare.",
 						constant = "CAST_HUNTER_S_MARK_ON_THE_BUSH_TO_SPAWN_THE",
 						export = true,
@@ -4234,7 +4234,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(206386, {	-- Galvanic Icon
 					-- ["provider"] = { "o",  },	-- TODO: I don't have the objectID for this. It's called "Galvanic Icon" just like the item.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These are random spawn totems on the ground; listen for the lightning cast sound to help you pinpoint the location.",
 						constant = "THESE_ARE_RANDOM_SPAWN_TOTEMS_ON_THE_GROUND",
 						export = true,
@@ -4321,7 +4321,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(113615, {	-- Ravika <Darkspear Quartermaster> Legion Version
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available with the quests |cFFFFD700The Legion Returns|r or |cFFFFD700To Be Prepared|r. Permanently available on the Echo Isles.",
 						constant = "ONLY_AVAILABLE_WITH_THE_QUESTS_CFFFFD700THE",
 						export = true,
@@ -4362,7 +4362,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(208184, {	-- Razzil <Snake Charmer>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the pheromone and tame an adder and then bring it to Razzil.",
 						constant = "USE_THE_PHEROMONE_AND_TAME_AN_ADDER_AND_THEN",
 						export = true,

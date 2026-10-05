@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	q(55121, {	-- The Laboratory of Mardivas
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "For this weekly quest, combine reagents scavenged from Nazjatar (|cFF0070ddStrange Mineralized Water|r, |cFF0070ddStrange Oceanic Sediment|r, and |cFF0070ddStrange Volcanic Rock|r) to create various elemental amalgamations.\n\nKill each one to fulfill the requirements for |cFFFFFF00Periodic Destruction|r, part of the |cFFFFFF00Undersea Usurper|r achievement, or target specific ones to collect their unique drops!\n\nHover over the name of the mob you want to summon for a description that outlines which Arcanocrystals to activate.",
 			constant = "FOR_THIS_WEEKLY_QUEST_COMBINE_REAGENTS",
 			export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		["groups"] = {
 			currency(1721),	-- Prismatic Manapearl x5
 			n(155139, {	-- Arcane Amalgamation
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate no crystals.",
 					constant = "ACTIVATE_NO_CRYSTALS",
 					export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170477) },	-- Mardivas's Universally Lauded Tote
 			}),
 			n(150926, {	-- Burning Amalgamation
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Pyroclasmic (Red) Arcanocrystal.",
 					constant = "ACTIVATE_LESSER_PYROCLASMIC_RED_ARCANOCRYSTAL",
 					export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170126) },	-- Igneous Longbow
 			}),
 			n(150862, {	-- Dusty Amalgamation
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Lithic (Yellow) Arcanocrystal.",
 					constant = "ACTIVATE_LESSER_LITHIC_YELLOW_ARCANOCRYSTAL",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170383) },	-- Coralspine Bulwark
 			}),
 			n(150864, {	-- Herald of Salgos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Lithic (Yellow) and Greater Lithic (Yellow) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_LITHIC_YELLOW_AND_GREATER",
 					export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170125) },	-- Behemoth Claw of the Abyss
 			}),
 			n(150928, {	-- Moghiea
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Pyroclasmic (Red) and Greater Lithic (Yellow) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_PYROCLASMIC_RED_AND_GREATER",
 					export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170128) },	-- Majestic Shirakess Greatstaff
 			}),
 			n(151157, {	-- Omus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Benthic (Blue) and Greater Pyroclasmic (Red) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_BENTHIC_BLUE_AND_GREATER",
 					export = true,
@@ -184,7 +184,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				},
 			}),
 			n(150856, {	-- Osgen <Shifter of Tides>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Benthic (Blue) and Greater Benthic (Blue) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_BENTHIC_BLUE_AND_GREATER_2",
 					export = true,
@@ -210,7 +210,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170130) },	-- Glaive of Swells
 			}),
 			n(151154, {	-- Salgos the Eternal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Lithic (Yellow) and Greater Pyroclasmic (Red) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_LITHIC_YELLOW_AND_GREATER_2",
 					export = true,
@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170129) },	-- Salgos' Volatile Basher
 			}),
 			n(150863, {	-- Spawn of Salgos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Lithic (Yellow) and Greater Benthic (Blue) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_LITHIC_YELLOW_AND_GREATER_3",
 					export = true,
@@ -268,7 +268,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170124) },	-- Coral-Sharpened Greatsword
 			}),
 			n(151155, {	-- Ungormath <The Malevolent>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Pyroclasmic (Red) and Greater Pyroclasmic (Red) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_PYROCLASMIC_RED_AND_GREATER_2",
 					export = true,
@@ -294,7 +294,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170131) },	-- Tidal Wand of Malevolence
 			}),
 			n(150846, {	-- Watery Amalgamation
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Benthic (Blue) Arcanocrystal.",
 					constant = "ACTIVATE_LESSER_BENTHIC_BLUE_ARCANOCRYSTAL",
 					export = true,
@@ -317,7 +317,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["groups"] = { i(170138) },	-- Scroll of Violent Tides
 			}),
 			n(150927, {	-- Xue <The Cinder>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Pyroclasmic (Red) and Greater Benthic (Blue) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_PYROCLASMIC_RED_AND_GREATER_3",
 					export = true,
@@ -349,7 +349,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				},
 			}),
 			n(150848, {	-- Zomera
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Activate Lesser Benthic (Blue) and Greater Lithic (Yellow) Arcanocrystals.",
 					constant = "ACTIVATE_LESSER_BENTHIC_BLUE_AND_GREATER_LITHIC",
 					export = true,

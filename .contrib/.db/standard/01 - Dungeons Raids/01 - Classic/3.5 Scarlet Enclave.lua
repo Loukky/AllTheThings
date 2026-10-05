@@ -80,7 +80,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["lvl"] = 60,
 									["groups"] = {
 										i(239010, {	-- Hilt of the Ashbringer
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Equip the Hilt to summon The Will of the Ashbringer!",
 												constant = "EQUIP_THE_HILT_TO_SUMMON_THE_WILL_OF_THE",
 												export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["groups"] = {
 										i(239219),	-- Emblem of the Ashbringer
 										i(240936, {	-- Inert Ashbringer
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Be aware, when you equip it all Argent Dawn NPCs turn hostile. Make sure you are a good distance outside of Light's Hope Chapel before equipping it. Use it to summon the Will of the Ashbringer once again.",
 												constant = "BE_AWARE_WHEN_YOU_EQUIP_IT_ALL_ARGENT_DAWN_NPCS",
 												export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 									["qg"] = 242174,	-- Thisalee Crow
 									["classes"] = { HUNTER, PALADIN, WARRIOR },
 									["lvl"] = 60,
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Use the Inert Ashbringer Inert Ashbringer to summon the Will of the Ashbringer again & to start the next quest.",
 										constant = "USE_THE_INERT_ASHBRINGER_INERT_ASHBRINGER_TO",
 										export = true,
@@ -710,7 +710,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(240841),	-- High Commander's Guard
 							i(239696, {	-- Hilt of the Ashbringer (QUEST!)
 								["sourceQuest"] = 89304,	-- The Perfect Metal
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Only drops once you have completed the 'Ruined Lightforged Blade' Questchain.",
 									constant = "ONLY_DROPS_ONCE_YOU_HAVE_COMPLETED_THE_RUINED",
 									export = true,

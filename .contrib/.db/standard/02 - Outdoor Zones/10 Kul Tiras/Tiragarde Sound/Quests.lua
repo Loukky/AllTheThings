@@ -820,7 +820,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(161083, {	-- Satchel of Plundered Jewels
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains some gems as well.",
 							constant = "CONTAINS_SOME_GEMS_AS_WELL",
 							export = true,
@@ -1719,7 +1719,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["sourceQuest"] = 48366,	-- Paddle to Safety
 				}),
 				q(49739, {	-- Enemies at the Gate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must accept |cffffff9aFor Kul Tiras!|r in order for this Bonus Objective to become active.",
 						constant = "YOU_MUST_ACCEPT_CFFFFFF9AFOR_KUL_TIRAS_R_IN",
 						export = true,
@@ -1743,7 +1743,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["sourceQuest"] = 50026,	-- Save our Shipmates
 				}),
 				q(49529, {	-- Spring Cleaning
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must accept |cffffff00Making Mysteries|r in order for this Bonus Objective to become available.",
 						constant = "YOU_MUST_ACCEPT_CFFFFFF00MAKING_MYSTERIES_R_IN",
 						export = true,

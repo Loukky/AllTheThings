@@ -899,7 +899,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(52068, {	-- Helping Out, Somewhere Else
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00More Fodder|r on the same character.",
 					constant = "WITHOUT_USING_THE_PARTY_SYNC_FEATURE_YOU_CANNOT_3",
 					export = true,
@@ -1093,7 +1093,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = { i(163212) },	-- Cleansing Thurible (QI!)
 			}),
 			q(52069, {	-- More Fodder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Without using the Party Sync feature, you cannot complete both this quest and |cffffff00Helping Out, Somewhere Else|r on the same character.",
 					constant = "WITHOUT_USING_THE_PARTY_SYNC_FEATURE_YOU_CANNOT_4",
 					export = true,
@@ -1595,7 +1595,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["qi"] = 160056,	-- Dead Ringer (QI!)
 			}),
 			q(53476, {	-- The Great Sea Scrolls
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You receive the item that starts this quest from looting any treasure chest.",
 					constant = "YOU_RECEIVE_THE_ITEM_THAT_STARTS_THIS_QUEST",
 					export = true,
@@ -1932,7 +1932,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			},{
 				q(50779, {	-- A Clean Slate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must accept |cffffff00The Storm Awakens|r in order for this Bonus Objective to become available.",
 						constant = "YOU_MUST_ACCEPT_CFFFFFF00THE_STORM_AWAKENS_R_IN",
 						export = true,

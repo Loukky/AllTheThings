@@ -150,7 +150,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 					1224923	-- Twilight's Madness
 				),
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following can drop from the final boss of any heroic dungeon on Protocol Twilight difficulty.",
 					constant = "THE_FOLLOWING_CAN_DROP_FROM_THE_FINAL_BOSS_OF",
 					export = true,
@@ -192,7 +192,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 					1224923	-- Twilight's Madness
 				),
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following can drop from specific final bosses in heroic dungeons on Protocol Twilight difficulty or from the new End Time, Hour of Twilight, or Well of Eternity heroic dungeons.",
 					constant = "THE_FOLLOWING_CAN_DROP_FROM_SPECIFIC_FINAL",
 					export = true,
@@ -312,7 +312,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 						1224923	-- Twilight's Madness
 					),
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Two Obsidian Fragments drop per boss in Protocol Twilight and the final boss of each dungeon will drop an extra three Obsidian Fragments if players have defeated all of the other bosses in the dungeon.",
 						constant = "TWO_OBSIDIAN_FRAGMENTS_DROP_PER_BOSS_IN",
 						export = true,

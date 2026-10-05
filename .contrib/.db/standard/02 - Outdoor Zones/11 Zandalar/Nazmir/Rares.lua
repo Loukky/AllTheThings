@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			n(133505, {	-- Aiji the Accursed
 				["questID"] = 50339,
 				["coord"] = { 53.0, 72.1, NAZMIR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Light all 5 braziers in the area to summon.",
 					constant = "LIGHT_ALL_5_BRAZIERS_IN_THE_AREA_TO_SUMMON",
 					export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(127001, {	-- Gwugnug the Cursed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare is not on top of the mountain, but on the middle level in a cave. The cave entrance is on the southern side of the mountain.",
 					constant = "THIS_RARE_IS_NOT_ON_TOP_OF_THE_MOUNTAIN_BUT_ON",
 					export = true,
@@ -229,7 +229,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			n(134296, {	-- Lucille (Chag's Challenge)
 				["questID"] = 50567,
 				["coord"] = { 68.0, 19.8, NAZMIR },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This rare is sometimes bugged when the world quest is active. If you cannot talk to Chag to summon Lucille, try Warmode On/Off to enter another shard that he might be working in, or come back later.",
 					constant = "THIS_RARE_IS_SOMETIMES_BUGGED_WHEN_THE_WORLD",
 					export = true,

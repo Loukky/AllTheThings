@@ -30,7 +30,7 @@ root(ROOTS.Promotions, {
 		["groups"] = {
 			-- "Pre" Season
 			mount(315132, {	-- Gargantuan Grrloc (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 12-Month WoW Subscription. Promotion valid through January 15, 2023.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW",
 					export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Promotions, {
 			i(34493, {	-- Dragon Kite (PET!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 15th, 03:00 p.m. & November 18th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH",
 					export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Promotions, {
 			i(79771, {	-- Fel Drake (MOUNT!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between November 28th, 03:00 p.m. & December 1st, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_2",
 					export = true,
@@ -113,7 +113,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			i(190583, {	-- Ichabod (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained by gifting an eligible creator's channel two Twitch subscriptions between November 28th, 03:00 p.m. & December 12th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_BY_GIFTING_AN_ELIGIBLE_CREATOR_S",
 					export = true,
@@ -142,7 +142,7 @@ root(ROOTS.Promotions, {
 			i(70099, {	-- Cenarion Hatchling (PET!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching the Race to World First streams with Drops enabled for at least 4 hours between December 9th, 12:00 a.m. & December 13th, 02:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_THE_RACE_TO_WORLD",
 					export = true,
@@ -170,7 +170,7 @@ root(ROOTS.Promotions, {
 			i(92724, {	-- Swift Windsteed (MOUNT!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching the Race to World First streams with Drops enabled for at least 8 hours between December 9th, 12:00 a.m. & December 13th, 02:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_THE_RACE_TO_WORLD_2",
 					export = true,
@@ -199,7 +199,7 @@ root(ROOTS.Promotions, {
 			i(49703, {	-- Perpetual Purple Firework (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 2 hours between December 13th, 03:00 p.m. & December 28th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH",
 					export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Promotions, {
 				},
 			}),
 			i(203716, {	-- Thundering Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mythic Dungeon International: DF Season 1\n\nThe Mythic Dungeon International (MDI) returns with its global competitions for its 7th year, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Thundering Banner of the Aspects to use in-game!\nSign-ups close 27 January 2022 1PM PDT and The Proving Grounds are on 1 February 1PM PDT - 8 February (US) 1PM PDT.",
 					constant = "MYTHIC_DUNGEON_INTERNATIONAL_DF_SEASON_1_THE",
 					export = true,
@@ -248,7 +248,7 @@ root(ROOTS.Promotions, {
 			i(35227, {	-- Goblin Weather Machine - Prototype 01-B (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between February 1st, 10:00 a.m. & February 5th, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_2",
 					export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Promotions, {
 			i(38301, {	-- D.I.S.C.O. (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between February 21st, 10:00 a.m. & April 2nd, 11:59 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_3",
 					export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 2nd April 2023
 			}),
 			i(203716, {	-- Thundering Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Break the Meta: DF Season 1\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season's 1 off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFRaider.io/break-the-meta-2023/signups|r and complete 2 or more eligible timed keystones at level 15 or higher during BTM S1, and the Thundering Banner of the Aspects will be automatically added to your collection in-game within 30 days of the conclusion of the event.\n\nThe Event starts on April 18th for US, April 19th for EU & April 20th for KR/TW & lasts for 2 entire resets of your region.",
 					constant = "BREAK_THE_META_DF_SEASON_1_INSTEAD_OF_TEAMS",
 					export = true,
@@ -327,7 +327,7 @@ root(ROOTS.Promotions, {
 			i(54452, {	-- Ethereal Portal (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 2nd, 10:00 a.m. & May 9th, 9:59 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_4",
 					export = true,
@@ -352,7 +352,7 @@ root(ROOTS.Promotions, {
 			i(54069, {	-- Blazing Hippogryph (MOUNT!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 9th, 10:00 a.m. & May 17th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_5",
 					export = true,
@@ -375,7 +375,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },
 			}),
 			i(208057, {	-- Smoldering Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Great Push returns in Dragonflight Season 2\n\nInstead of teams fighting to beat their opponent's time, The Great Push is focused on teams pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Smoldering Banner of the Aspects to use in-game!\nSign-ups close 30 Jun 2023 and The Proving Grounds are on 5-10 July (US).",
 					constant = "THE_GREAT_PUSH_RETURNS_IN_DRAGONFLIGHT_SEASON_2",
 					export = true,
@@ -396,7 +396,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_1_5, REMOVED_10_1_5 },
 			}),
 			i(206167, {	-- Wonderous Wavewhisker (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6-Month WoW Subscription. Promotion valid through January 9, 2024.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW",
 					export = true,
@@ -419,7 +419,7 @@ root(ROOTS.Promotions, {
 			i(32566, {	-- Picnic Basket (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between July 11th, 10:00 a.m. & July 18th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_6",
 					export = true,
@@ -443,7 +443,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 18th July 2023
 			}),
 			iensemble(190923, {	-- Ensemble: Dashing Buccaneer's Slops (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between September 5th, 10:00 a.m. & September 12th, 01:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_7",
 					export = true,
@@ -464,7 +464,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_1_5, REMOVED_10_1_5 },	-- Added 5th Sep, Removed 12th Sep
 			}),
 			i(208057, {	-- Smoldering Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Break the Meta: DF Season 2\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season's 2 off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFraider.io/break-the-meta-df-season-2/signups|r and complete at least 2 BTM-Eligible timed keystones at level +15 or higher during the Competition Period, and the Smoldering Banner of the Aspects will be automatically added to your collection in-game after the conclusion of the event.\n\nThe Event starts on October 3rd for US, October 4th for EU & October 5th for KR/TW & lasts for 1 reset of your region.",
 					constant = "BREAK_THE_META_DF_SEASON_2_INSTEAD_OF_TEAMS",
 					export = true,
@@ -485,7 +485,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_1_7, REMOVED_10_1_7 },
 			}),
 			mount(419567, {	-- Ginormous Grrloc (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 12-Month WoW Subscription.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_12_MONTH_WOW_2",
 					export = true,
@@ -511,7 +511,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 3
 			pet(2623, {	-- Dottie (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between November 7th, 10:00 a.m. & November 14th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_8",
 					export = true,
@@ -534,7 +534,7 @@ root(ROOTS.Promotions, {
 			i(72575, {	-- White Riding Camel (MOUNT!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between November 14th, 10:00 a.m. & November 21st, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_9",
 					export = true,
@@ -557,7 +557,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },
 			}),
 			i(211424, {	-- Dreaming Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mythic Dungeon International: DF Season 3\n\nThe Mythic Dungeon International (MDI) returns with its global competitions for its 8th year, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Dreaming Banner of the Aspects to use in-game!\nSign-ups close 29 January 2024 1PM PDT and The Proving Grounds are on 31st January 1PM PDT - 5 February (US) 1PM PDT.\n\nhttps://raider.io/events/mdi-dragonflight-season-3/info",
 					constant = "MYTHIC_DUNGEON_INTERNATIONAL_DF_SEASON_3_THE",
 					export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },
 			}),
 			mount(418286, {	-- Auspicious Arborwyrm (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6-Month WoW Subscription.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_2",
 					export = true,
@@ -601,7 +601,7 @@ root(ROOTS.Promotions, {
 			i(67097, {	-- Grim Campfire (TOY!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between January 23, 10:00 a.m. & January 30, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_10",
 					export = true,
@@ -624,7 +624,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },
 			}),
 			pet(4437, {	-- Fathom (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between March 22, 10:00 a.m. & April 5, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_11",
 					export = true,
@@ -645,7 +645,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_10_2_6, REMOVED_10_2_6 },
 			}),
 			i(211424, {	-- Dreaming Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Break the Meta: DF Season 3\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season 3's off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFraider.io/break-the-meta-df-season-3/register|r and complete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +17|r or higher during the Competition Period, and the Dreaming Banner of the Aspects will be automatically added to your collection in-game after the conclusion of the event.\n\nThe Event starts on April 3rd for US, April 4th for EU & April 5th for KR/TW & lasts for 2 resets of your region.",
 					constant = "BREAK_THE_META_DF_SEASON_3_INSTEAD_OF_TEAMS",
 					export = true,
@@ -669,7 +669,7 @@ root(ROOTS.Promotions, {
 			i(79744, {	-- Eye of the Legion (PET!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between May 16, 10:00 a.m. & May 30, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_SELECT_TWITCH_12",
 					export = true,
@@ -692,7 +692,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_MOP_REMIX, "removed 10.2.7.54904" },
 			}),
 			i(218128, {	-- Draconic Banner of the Aspects (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Great Push returns in Dragonflight Season 4\n\nInstead of teams fighting to beat their opponent's time, The Great Push is focused on teams pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Smoldering Banner of the Aspects to use in-game!\nSign-ups close 15 Jun 2024 and The Proving Grounds are on 19-24 June (US).",
 					constant = "THE_GREAT_PUSH_RETURNS_IN_DRAGONFLIGHT_SEASON_4",
 					export = true,

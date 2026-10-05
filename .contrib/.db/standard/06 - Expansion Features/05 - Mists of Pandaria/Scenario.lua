@@ -218,7 +218,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				}),
 				n(QUESTS, {
 					q(31611, {	-- The Kun-Lai Kicker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you don't see questgiver in The Veiled Stair, look in the Binan Village to the north.",
 							constant = "IF_YOU_DON_T_SEE_QUESTGIVER_IN_THE_VEILED_STAIR",
 							export = true,
@@ -432,7 +432,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 			}),
 			n(REWARDS, {
 				-- #if AFTER 6.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mini Guide to farm both boxes:\nStep 1: Create a class-trial character.\nStep 2: Enter the portal room to travel to Jade Forest & fly to the Vale of Eternal Blossoms capital.\nStep 3: Pick up the Quest 'Heroic Deeds' in the middle of the capital.\nStep 4: Fly to the Seat of Knowledge and pick up the quest 'The King and the Council'.\nStep 5: Complete the 'Blood in the Snow' scenario on heroic.\nStep 6: Turn in the quest 'The King and the Council' and pick up the follow-up quest 'The Warchief and the Darkness'.\nStep 7: Complete the \"Dark heart of Pandaria\" scenario on either normal or heroic.\nStep 8: Turn in all quests, open all the boxes, logout & delete the trial character. Repeat Step 1-8.\nYou can create 4 trial characters per hour and 12 per week (based on realtime).\nBonus: The Trial Char can also be used to kill the World Boss on the Timless Isle. Talk to Chromie at the Seat Entrance for a free teleport.",
 					constant = "MINI_GUIDE_TO_FARM_BOTH_BOXES_STEP_1_CREATE_A",
 					export = true,
@@ -454,7 +454,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 				["groups"] = {
 					-- #if MOP
 					applyclassicphase(MOP_PHASE_ONE, container(89613, {	-- Cache of Treasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rewarded for completing a random scenario.",
 							constant = "REWARDED_FOR_COMPLETING_A_RANDOM_SCENARIO",
 							export = true,
@@ -880,7 +880,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					})),
 					-- #endif
 					applyclassicphase(MOP_PHASE_ESCALATION, container(98133, {	-- Greater Cache of Treasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rewarded for completing |cFFFFD700The King and the Council|r and |cFFFFD700The Warchief and the Darkness|r quests.",
 							constant = "REWARDED_FOR_COMPLETING_CFFFFD700THE_KING_AND",
 							export = true,
@@ -1219,7 +1219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						},
 					})),
 					applyclassicphase(MOP_PHASE_ESCALATION, container(98546, {	-- Bulging Heroic Cache of Treasures
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rewarded for completing |cFFFFD700Heroic Deeds|r quest.",
 							constant = "REWARDED_FOR_COMPLETING_CFFFFD700HEROIC_DEEDS_R",
 							export = true,

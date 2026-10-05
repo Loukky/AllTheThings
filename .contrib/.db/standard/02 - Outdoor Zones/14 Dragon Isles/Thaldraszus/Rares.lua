@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["isDaily"] = IGNORED_VALUE,
 			}),
 			n(193126, {	-- Innumerable Ruination
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols in a circle around the coordinates.",
 					constant = "PATROLS_IN_A_CIRCLE_AROUND_THE_COORDINATES",
 					export = true,
@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(193241, {	-- Lord Epochbrgl <Time-Lost>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of the questhub in the area. Only spawns if the portal is available.",
 					constant = "REQUIRES_COMPLETION_OF_THE_QUESTHUB_IN_THE_AREA",
 					export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			-- n(193240),	-- Riverwalker Tamopo // under DF/Timed Based Rare
 			-- n(193666),	-- Rokmur // under DF/Timed Based Rare
 			n(191305, {	-- The Great Shellkhan
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Needs a Case of Fresh Gleamfish fish from Azure Span.",
 					constant = "NEEDS_A_CASE_OF_FRESH_GLEAMFISH_FISH_FROM_AZURE",
 					export = true,
@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(183984, {	-- The Weeping Vilomah
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside cave, speak to 'Boomhooch the Lost'.",
 					constant = "INSIDE_CAVE_SPEAK_TO_BOOMHOOCH_THE_LOST",
 					export = true,
@@ -235,7 +235,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			-- n(193258),	-- Tempestrian // under DF/Timed Based Rare
 			-- n(193146),	-- Treasure-Mad // under DF/Timed Based Rare
 			n(193161, {	-- Woolfang
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pet a Wooly Lamb to spawn.",
 					constant = "PET_A_WOOLY_LAMB_TO_SPAWN",
 					export = true,

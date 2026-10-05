@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["groups"] = {
 			battlepets({ ADDED_5_1_0 }, {
 				pet(1161, {	-- Infinite Whelpling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet can be found around the Caverns of Time entrance and the pathway leading to the main chamber.",
 						constant = "THIS_PET_CAN_BE_FOUND_AROUND_THE_CAVERNS_OF",
 						export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(66, 66, 15),
 				})),
 				applyclassicphase(TBC_PHASE_TWO, q(10445, {	-- The Vials of Eternity
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The questgiver can be found walking around the Caverns of Time.",
 						constant = "THE_QUESTGIVER_CAN_BE_FOUND_WALKING_AROUND_THE",
 						export = true,

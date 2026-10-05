@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.LEGION, {
 		header(HEADERS.Map, 897, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 } }, {	-- The Deaths of Chromie
 			["lvl"] = 110,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Chromie Scenario sends you through multiple timeways to defeat Chromie's attackers. As you gain reputation with Chromie by killing mobs in the scenario, you will unlock more powerful abilities for Chromie to help speed up your run. Unlike past solo scenarios like Withered Army Training, you do not need to worry about gearing up--your gear is scaled up to 1000 and your player level is increased as well to 112. You can also fly inside this scenario--unusual for instanced content.\n\nEach scenario attempt lasts 15 minutes and the ultimate goal is to defeat 8 timeways in one attempt. Progress can be speed up through obtaining items that grant extra time, buffs from Chromie, and items which auto-complete a timeway threat.",
 				constant = "THE_CHROMIE_SCENARIO_SENDS_YOU_THROUGH_MULTIPLE",
 				export = true,
@@ -157,7 +157,7 @@ root(ROOTS.ExpansionFeatures,
 				n(124765, {	-- Emerald Dragonshrine
 					n(QUESTS, {
 						q(47643, {	-- The Ancients' Wisdom
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use 'Nightmare-Catcher' to enter The Emerald Nightmare and kill the |cFFFFD700Dream Tormentors|r around each ancient.",
 								constant = "USE_NIGHTMARE_CATCHER_TO_ENTER_THE_EMERALD",
 								export = true,

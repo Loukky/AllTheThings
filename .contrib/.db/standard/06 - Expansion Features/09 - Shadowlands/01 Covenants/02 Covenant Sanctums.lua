@@ -4,7 +4,7 @@
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	n(COVENANT_SANCTUMS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "These rewards are shared across Covenants.",
 			constant = "THESE_REWARDS_ARE_SHARED_ACROSS_COVENANTS",
 			export = true,
@@ -208,7 +208,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					i(185942),	-- Sinheart Choker
 					i(187821, {	-- Bar-Fusan's Hackblade
 						["sourceQuests"] = { 64963 },	-- A Defector's Request
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can only spawn after completing the quest |cFFFFD700A Defector's Request'(64963)|r.",
 							constant = "CAN_ONLY_SPAWN_AFTER_COMPLETING_THE_QUEST",
 							export = true,
@@ -234,7 +234,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			}),
 			n(COVENANT_CALLINGS, {
 				n(175390, {	-- Dirty Glinting Object
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can appear when on certain Training callings. Roughly every 5 minutes, upon exiting combat, your trainee will call your attention to something they've discovered.\n\nOften contains potions, leveling and rarity charms for pets, or food.",
 						constant = "CAN_APPEAR_WHEN_ON_CERTAIN_TRAINING_CALLINGS",
 						export = true,

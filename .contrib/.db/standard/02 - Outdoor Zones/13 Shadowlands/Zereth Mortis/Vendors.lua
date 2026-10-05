@@ -210,7 +210,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			n(185092, {	-- Shade of Irik-tu
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only available while dead.",
 					constant = "ONLY_AVAILABLE_WHILE_DEAD",
 					export = true,

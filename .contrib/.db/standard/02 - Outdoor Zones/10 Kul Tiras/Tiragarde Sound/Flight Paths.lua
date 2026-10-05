@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2279, {	-- Stonefist Watch, Tiragarde Sound [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Stonefist Watch and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_STONEFIST",
 					export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				-- ["sourceQuest"] = ,	-- TODO: determine actual unlock quest
 			}),
 			fp(2067, {	-- Timberfell Outpost, Tiragarde Sound [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Timberfell Outpost and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT",
 					export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			fp(2062, {	-- Wolf's Den, Tiragarde Sound [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Wolf's Den and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_WOLF_S",
 					export = true,

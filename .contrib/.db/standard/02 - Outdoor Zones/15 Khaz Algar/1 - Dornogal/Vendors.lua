@@ -648,7 +648,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(224294, {	-- Osidion <Ensemble Vendor>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Cost is based on if a Earth-Encrusted Gem is in your inventory. If none then the ensembles are available for Resonance Crystals.",
 					constant = "COST_IS_BASED_ON_IF_A_EARTH_ENCRUSTED_GEM_IS_IN",
 					export = true,
@@ -797,7 +797,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					-- Season 1
 					-- Trade DOWN
 					i(221268, {	-- Pouch of Weathered Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Normal Crest\nReceive: LFR Crest",
 							constant = "CFFFF0000_DOWNGRADE_R_COST_NORMAL_CREST_RECEIVE",
 							export = true,
@@ -819,7 +819,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
 					i(221373, {	-- Satchel of Carved Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Heroic Crest\nReceive: Normal Crest",
 							constant = "CFFFF0000_DOWNGRADE_R_COST_HEROIC_CREST_RECEIVE",
 							export = true,
@@ -841,7 +841,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
 					i(221375, {	-- Pack of Runed Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Mythic Crest\nReceive: Heroic Crest",
 							constant = "CFFFF0000_DOWNGRADE_R_COST_MYTHIC_CREST_RECEIVE",
 							export = true,
@@ -864,7 +864,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					}),
 					-- Trade UP
 					i(220767, {	-- Triumphant Satchel of Carved Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: LFR Crest\nReceive: Normal Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_LFR_CREST_RECEIVE",
 							export = true,
@@ -886,7 +886,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
 					i(220773, {	-- Celebratory Pack of Runed Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Normal Crest\nReceive: Heroic Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_NORMAL_CREST_RECEIVE",
 							export = true,
@@ -908,7 +908,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
 					i(220776, {	-- Glorious Cluster of Gilded Harbinger Crests
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Heroic Crest\nReceive: Mythic Crest",
 							constant = "CFF4CAF50_UPGRADE_R_COST_HEROIC_CREST_RECEIVE",
 							export = true,

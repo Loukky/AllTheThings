@@ -242,7 +242,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							},
 						}),
 						q(37444, {	-- Inoculation
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest is given if you pick it up before getting or turning in the quest |cFFFFD700Vindicator Aldar|r.",
 								constant = "THIS_QUEST_IS_GIVEN_IF_YOU_PICK_IT_UP_BEFORE",
 								export = true,
@@ -811,7 +811,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 				q(9612, {	-- A Hearty Thanks!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1. Find a |cFFFFD700Draenei Youngling|r.\n2. Get them to engage in combat with an aggressive mob.\n3. Once they take damage, use |cFFFFD700Gift of the Naaru.|r\n4. Kill the creature for the quest to be offered.\n\nThis quest is presumably unobtainable by Warlocks.",
 						constant = "1_FIND_A_CFFFFD700DRAENEI_YOUNGLING_R_2_GET",
 						export = true,
@@ -1715,7 +1715,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["cr"] = 17202,	-- Infected Nightstalker Runt)
 				}),
 				i(23850, {	-- Gurf's Dignity
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "It is not necessary to complete |cFFFFD700Murlocs...|r but you must at least be ON that quest to loot the item that starts Gurf's Dignity.",
 						constant = "IT_IS_NOT_NECESSARY_TO_COMPLETE",
 						export = true,
@@ -1742,7 +1742,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["cr"] = 17475,	-- Murgurgula
 				}),
 				i(23676, {	-- Moongraze Stag Tenderloin
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only drops from stags on Azuremyst Isle.",
 						constant = "ONLY_DROPS_FROM_STAGS_ON_AZUREMYST_ISLE",
 						export = true,

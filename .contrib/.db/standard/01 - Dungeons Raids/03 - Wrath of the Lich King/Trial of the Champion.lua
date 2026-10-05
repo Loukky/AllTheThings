@@ -351,7 +351,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 			n(QUESTS, {
 				q(29851, {	-- Champion of the Tournament
 					-- #if BEFORE 5.0.4
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blizzard broke auto complete quests, so until they fix that system, this can't be turned in.",
 						constant = "BLIZZARD_BROKE_AUTO_COMPLETE_QUESTS_SO_UNTIL",
 						export = true,

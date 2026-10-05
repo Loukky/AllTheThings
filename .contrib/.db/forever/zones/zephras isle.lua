@@ -1407,7 +1407,7 @@ maproot(MAP.ZEPHRAS_ISLE, {
 		}),
 		n(TREASURES, {
 			o(616907, {	-- Windstone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly throughout Zephras Isle.",
 					constant = "SPAWNS_RANDOMLY_THROUGHOUT_ZEPHRAS_ISLE",
 					export = true,

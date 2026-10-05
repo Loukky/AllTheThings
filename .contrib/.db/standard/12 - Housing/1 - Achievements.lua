@@ -82,7 +82,7 @@ root(ROOTS.Housing, n(ACHIEVEMENTS, {
 			["timeline"] = { "added 12.0.1" },
 		}),
 		ach(61211, {	-- Welcome Home
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Build your own home through Housing",
 				constant = "BUILD_YOUR_OWN_HOME_THROUGH_HOUSING",
 				export = true,

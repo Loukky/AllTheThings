@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						["coord"] = { 58.1, 73.5, ZARALEK_CAVERN },
 						["groups"] = {
 							i(205688, {	-- Glutinous Glitterscale Glob (TOY!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Gets sometimes rewarded as bonus loot upon completing the Quest.",
 									constant = "GETS_SOMETIMES_REWARDED_AS_BONUS_LOOT_UPON",
 									export = true,

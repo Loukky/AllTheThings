@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["description"] = "~L.BACKLINE_PET_ONLY",
 				}),
 				pet(4456, {	-- Arachnoid Hatchling (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found commonly in groups around the Ringing Deeps and as backline in all 3 main underground zones.",
 						constant = "FOUND_COMMONLY_IN_GROUPS_AROUND_THE_RINGING",
 						export = true,
@@ -34,7 +34,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4460, {	-- Arathi Chicken (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found around farms in Hallowfall, frontline & backline.",
 						constant = "FOUND_AROUND_FARMS_IN_HALLOWFALL_FRONTLINE",
 						export = true,
@@ -55,7 +55,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["coord"] = { 48.7, 35.6, HALLOWFALL },
 				}),
 				pet(4515, {	-- Azure Flickerfly (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found most commonly between the Coreway and Hallowfall gates, or around Mereldar and The Weaver's Lair.",
 						constant = "FOUND_MOST_COMMONLY_BETWEEN_THE_COREWAY_AND",
 						export = true,
@@ -79,7 +79,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4457, {	-- Chitin Burrower (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found commonly in small groups around the 3 main underground zones.",
 						constant = "FOUND_COMMONLY_IN_SMALL_GROUPS_AROUND_THE_3",
 						export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4461, {	-- Greenlands Chicken (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Likely a Rare spawn of Arathi Chicken, can be found frontline & backline. Coords are some confirmed repeat spawn spots.",
 						constant = "LIKELY_A_RARE_SPAWN_OF_ARATHI_CHICKEN_CAN_BE",
 						export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				pet(4544, {	-- Umbral Amalgam (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only spawns during Beledar's void state. Found around cliffs overlooking water.",
 						constant = "ONLY_SPAWNS_DURING_BELEDAR_S_VOID_STATE_FOUND",
 						export = true,

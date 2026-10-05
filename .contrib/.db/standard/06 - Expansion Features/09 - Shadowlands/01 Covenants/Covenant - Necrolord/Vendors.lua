@@ -11,7 +11,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(NECROLORD, {
 		n(REWARDS, {
 			i(183703, {	-- Bonesmith's Satchel
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Only Obtainable from Heirmir Soulbind.",
 					constant = "ONLY_OBTAINABLE_FROM_HEIRMIR_SOULBIND",
 					export = true,

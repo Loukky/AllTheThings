@@ -23,7 +23,7 @@ root(ROOTS.Zones, {
 					["isDaily"] = IGNORED_VALUE,
 				}),
 				n(90244, {	-- Arcavellus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the Unbound Rift in Ley-Ruins of Zarkhenar to start the event. Arcavellus will spawn after a few waves of enemies.",
 						constant = "CLICK_ON_THE_UNBOUND_RIFT_IN_LEY_RUINS_OF",
 						export = true,
@@ -48,7 +48,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(91187, {	-- Beacher
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Due to phasing issues, you will be unable to kill Beacher if a Kvaldir WQ is up in the area it patrols.",
 						constant = "DUE_TO_PHASING_ISSUES_YOU_WILL_BE_UNABLE_TO",
 						export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(91100, {	-- Brogozog
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to Tehd to start the encounter.",
 						constant = "SPEAK_TO_TEHD_TO_START_THE_ENCOUNTER",
 						export = true,
@@ -208,7 +208,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(90803, {	-- Infernal Lord
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click Cache of Infernals in Faronaar to start the event. Infernal Lord will spawn after a few waves of small infernals.",
 						constant = "CLICK_CACHE_OF_INFERNALS_IN_FARONAAR_TO_START",
 						export = true,

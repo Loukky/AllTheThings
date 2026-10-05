@@ -161,7 +161,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				-- AZJ'KAHET
 				-- Rak-Zakaz
 				o(527416, {	-- Suspicious Document (Dissenter Oathland/Whisperer Warsididel)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns Dissenter Oathland/Whisperer Warsididel.",
 						constant = "SPAWNS_DISSENTER_OATHLAND_WHISPERER_WARSIDIDEL",
 						export = true,
@@ -188,7 +188,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241228, {	-- Dissenter Oathland
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within the Rak-Zakaz assault.",
 						constant = "WITHIN_THE_RAK_ZAKAZ_ASSAULT",
 						export = true,
@@ -228,7 +228,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241230, {	-- Dissenter Tailtrek
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within the Sureki's End assault.",
 						constant = "WITHIN_THE_SUREKI_S_END_ASSAULT",
 						export = true,
@@ -268,7 +268,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241227, {	-- Dissenter Glaivefur
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within the Toxins and Pheromones assault.",
 						constant = "WITHIN_THE_TOXINS_AND_PHEROMONES_ASSAULT",
 						export = true,
@@ -311,7 +311,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241231, {	-- Dissenter Fortfervor
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within the Hold the Wall assault.",
 						constant = "WITHIN_THE_HOLD_THE_WALL_ASSAULT",
 						export = true,
@@ -350,7 +350,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241229, {	-- Dissenter Fervormyt
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within the Southern Swarm assault.",
 						constant = "WITHIN_THE_SOUTHERN_SWARM_ASSAULT",
 						export = true,
@@ -389,7 +389,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				n(241232, {	-- Dissenter Troosilver
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Within The Eastern Assault.",
 						constant = "WITHIN_THE_EASTERN_ASSAULT",
 						export = true,
@@ -421,7 +421,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			n(REWARDS, {
 				-- Special Single List Item:
 				container(239546, {	-- Confiscated Cultist's Bag
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rewarded by completing Radiant Incursion or Sureki Incursion Dailies.",
 						constant = "REWARDED_BY_COMPLETING_RADIANT_INCURSION_OR",
 						export = true,
@@ -521,7 +521,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				i(237743, {	-- Arathi Soldier's Coffer (Uncommon) Only Green Cosmetics
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 33% during the Nightfall event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe event always starts on the hour.\n\nThe Boss itself gives 41%.",
 						constant = "GRANTED_FOR_ACHIEVING_33_DURING_THE_NIGHTFALL",
 						export = true,
@@ -546,7 +546,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				i(237759, {	-- Arathi Cleric's Chest (Rare) Only Weapons
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 66% during the Nightfall event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe event always starts on the hour.\n\nThe Boss itself gives 41%.",
 						constant = "GRANTED_FOR_ACHIEVING_66_DURING_THE_NIGHTFALL",
 						export = true,
@@ -589,7 +589,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				i(237760, {	-- Arathi Champion's Spoils (Epic)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 100% during the Nightfall event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe event always starts on the hour.\n\nThe Boss itself gives 41%.",
 						constant = "GRANTED_FOR_ACHIEVING_100_DURING_THE_NIGHTFALL",
 						export = true,
@@ -676,7 +676,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				-- Crafting reagent?
 				n(EVENT_COMPLETION, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Boss spawns at the end of the Nightfall Event.\nThe Event always starts on the hour.",
 						constant = "THE_BOSS_SPAWNS_AT_THE_END_OF_THE_NIGHTFALL",
 						export = true,

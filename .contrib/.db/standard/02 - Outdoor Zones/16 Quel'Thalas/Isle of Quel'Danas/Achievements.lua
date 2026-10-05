@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		n(ACHIEVEMENTS, {
 			ach(62191),	-- Call of the Light
 			ach(62273, {	-- Echoes of Midnight	// https://worldofwarcraft.blizzard.com/en-us/news/24267942
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Earning this achievement rewards a 'Voidfeather Dragonhawk' flying mount on Anniversary realms if completed before May 16th, 2026.",
 					constant = "EARNING_THIS_ACHIEVEMENT_REWARDS_A_VOIDFEATHER",
 					export = true,

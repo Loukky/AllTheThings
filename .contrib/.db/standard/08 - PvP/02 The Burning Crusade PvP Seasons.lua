@@ -386,7 +386,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 						["filterID"] = MOUNTS,
 					}),
 					i(30609, {	-- Swift Nether Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during TBC Season 1 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING",
 							export = true,
@@ -1047,7 +1047,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 						["filterID"] = MOUNTS,
 					}),
 					i(34092, {	-- Merciless Nether Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during TBC Season 2 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_2",
 							export = true,
@@ -1399,7 +1399,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 						["filterID"] = MOUNTS,
 					}),
 					i(37676, {	-- Vengeful Nether Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during TBC Season 3 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_3",
 							export = true,
@@ -1778,7 +1778,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(exp
 						["filterID"] = MOUNTS,
 					}),
 					i(43516, {	-- Brutal Nether Drake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded to members of the Arena teams during TBC Season 4 that were in the 0.5% bracket of their battlegroup.",
 							constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_4",
 							export = true,

@@ -5,7 +5,7 @@
 root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 	header(HEADERS.Item, 192485, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_5 } }, {	-- Stored Wisdom Device
 		n(162804, {	-- Ve'nari
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "If you talk to Ve'nari at her usual location in her hideout in the Maw, you'll see that she is an echo and no longer physically present. Talking to her reveals an extra dialogue option, where she will mention that she has finally found Zereth Mortis.",
 				constant = "IF_YOU_TALK_TO_VE_NARI_AT_HER_USUAL_LOCATION_IN",
 				export = true,
@@ -27,7 +27,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 			["questID"] = 65470,
 		}),
 		n(185083, {	-- Ve'nari
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After talking to Ve'nari's echo in her hideout, head to the Creation Catalyst in Zereth Mortis. There, you will find Ve'nari's charred corpse in the center of the room. Interact with it, and select the dialogue option to take a closer look.",
 				constant = "AFTER_TALKING_TO_VE_NARI_S_ECHO_IN_HER_HIDEOUT",
 				export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 			["questID"] = 65488,
 		}),
 		n(MAILBOX, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You should receive a letter from Ve'nari with the toy attached 5 days after interacting with her decoy corpse in Zereth Mortis.",
 				constant = "YOU_SHOULD_RECEIVE_A_LETTER_FROM_VE_NARI_WITH",
 				export = true,

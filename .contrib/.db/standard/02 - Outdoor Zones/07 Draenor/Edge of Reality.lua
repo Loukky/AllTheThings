@@ -6,7 +6,7 @@ root(ROOTS.Zones, {
 	m(DRAENOR, {
 		n(RARES, {
 			o(239828, {	-- Edge of Reality
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When you click on the Edge of Reality, it will teleport you. Click on the egg to receive the mount.\n\nIf you are not on your own realm when you click on the portal, you will NOT be teleported and the mount will be mailed to you.",
 					constant = "WHEN_YOU_CLICK_ON_THE_EDGE_OF_REALITY_IT_WILL",
 					export = true,

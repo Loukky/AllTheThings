@@ -229,7 +229,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(ARTIFACTS, {
 					cl(WARRIOR, ARMS, {
 						q(43643, {	-- Secrets of the Axes
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Every day, there is a chance that speaking to Master Smith Helgar will offer a dialogue option, \"Is there an axe the equal to Strom'kar?\", which will end with being offered the quest Secrets of the Axes. When this quest is active, it is active region-wide, and everyone will have access to it for that day.\n\nThis sends you to speak to High Overlord Saurfang at Krasus' Landing in Dalaran. When done, jump back up to Skyhold and speak again to Master Smith Helgar, who will send you to the Circle of Wills to duel Saurfang.",
 								constant = "EVERY_DAY_THERE_IS_A_CHANCE_THAT_SPEAKING_TO",
 								export = true,
@@ -270,7 +270,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 					}),
 					cl(WARRIOR, PROTECTION, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Read the Saga of the Valajar tablet (right behind your AK research guy) in your Order Hall first.\nGo to Highmount and go forward into the cave until the zone changes to \"Neltharions Vault\" (just to make sure, the next step can already trigger in front of the cave)\nIf you see the chat emote \"You hear a strange roar from the cavern ahead\"(May not be seen anymore as of 9.1.0) carefully search all gold piles for your appreance (it can be on multiple locations, so search carefully)\nIf you do not see that emote, try visiting the cave the next day...\n\nYou must be spec'd Protection to see the appearance on the ground.",
 							constant = "READ_THE_SAGA_OF_THE_VALAJAR_TABLET_RIGHT",
 							export = true,
@@ -295,7 +295,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["groups"] = {
 							q(44311, {	-- Burning Plate of the Worldbreaker Available
 								["name"] = "Burning Plate of the Worldbreaker Available",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This quest indicates if the appearance spawns and can be looted.",
 									constant = "THIS_QUEST_INDICATES_IF_THE_APPEARANCE_SPAWNS",
 									export = true,
@@ -316,7 +316,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							}),
 							q(44312, {	-- Burning Plate of the Worldbreaker Denied
 								["name"] = "Burning Plate of the Worldbreaker Denied",
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This quest apparently makes you unable to see/obtain the container while it is true.",
 									constant = "THIS_QUEST_APPARENTLY_MAKES_YOU_UNABLE_TO_SEE",
 									export = true,
@@ -945,7 +945,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["timeline"] = { ADDED_7_2_0 },
 					}),
 					i(144436, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Lost Legend of Odyn
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item can drop off of any Vrykul in the Broken Isles as a Warrior (any spec).",
 							constant = "THIS_ITEM_CAN_DROP_OFF_OF_ANY_VRYKUL_IN_THE",
 							export = true,
@@ -995,7 +995,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					gt(408, {	-- For Honor and Glory
 						o(252570, {	-- Skyhold Chest of Riches
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "\nThe chests spawn every 3 hours in the Arena of Glory, starting at 0:00 Realm Time or 02:00 Realm Time if Daylight Savings Time is active. You must research the 2nd tier order hall upgrade |cFFFFD700For Honor and Glory|r from Einar the Runecaster to see the chest. You can only loot it once per week.\n\nIt can contain the Fury Hidden Appearance items, however, you're better off gathering those items from their respective sources in the outdoor world due to the number of Warriors going for the toy. (IE: Do not open this chest if you already have the toy)",
 								constant = "THE_CHESTS_SPAWN_EVERY_3_HOURS_IN_THE_ARENA_OF",
 								export = true,

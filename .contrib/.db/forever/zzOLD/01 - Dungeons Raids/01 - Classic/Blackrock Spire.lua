@@ -277,7 +277,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					o(175382, {	-- Doomrigger's Coffer
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in a coffer in the Whelp Room behind a fallen column to the left of the ramp leading to the next room.\nNOTE: Most groups skip this room, so ask your group to clear to the column.",
 							constant = "CAN_BE_FOUND_IN_A_COFFER_IN_THE_WHELP_ROOM",
 							export = true,
@@ -352,7 +352,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					i(12144, {	-- Eggscilloscope
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You don't need to keep this, but it might be nice to have just in case someone doesn't quite grasp the 'don't touch the eggs' rule.",
 							constant = "YOU_DON_T_NEED_TO_KEEP_THIS_BUT_IT_MIGHT_BE",
 							export = true,
@@ -418,7 +418,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 							{ "i",  12530 },	-- Spire Spider Egg
 							{ "o", 175606 },	-- Spire Spider Egg
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Interacting with a spider egg may spawn baby spiders, beware!",
 							constant = "INTERACTING_WITH_A_SPIDER_EGG_MAY_SPAWN_BABY",
 							export = true,
@@ -556,7 +556,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 			}),
 			q(5103, {	-- Hot Fiery Death
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the bottom floor of Lower Blackrock Spire near the lava.",
 					constant = "AT_THE_BOTTOM_FLOOR_OF_LOWER_BLACKROCK_SPIRE",
 					export = true,
@@ -598,7 +598,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["groups"] = {
 					objective(1, {	-- 0/1 Caged Worg Pup
 						["provider"] = { "i", 12263 },	-- Caged Worg Pup
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be pulled outside of the room without engaging the boss.",
 							constant = "CAN_BE_PULLED_OUTSIDE_OF_THE_ROOM_WITHOUT",
 							export = true,
@@ -666,7 +666,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 			}),
 			q(5126, {	-- Lorax's Tale
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Have an Unforged Rune Covered Breastplate in your bags to make his dialog available.",
 					constant = "HAVE_AN_UNFORGED_RUNE_COVERED_BREASTPLATE_IN",
 					export = true,
@@ -751,7 +751,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(4866, {	-- Mother's Milk
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to setup a coordinated group ONLY for this. If the healer or ANYONE removes the poison, you have to reset and try again.\n\nBefore the group starts, set your hearth to Stormwind or have a mage for a quick port to Stormwind after the group has gotten their bites.",
 					constant = "YOU_NEED_TO_SETUP_A_COORDINATED_GROUP_ONLY_FOR",
 					export = true,
@@ -805,7 +805,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(5047, {	-- Pip Quickwit, At Your Service!
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill The Beast in UBRS. Using Pip's Skinner and a 300 Skill Skinner, skin the boss and Pip Quickwit will appear. Everyone in the raid can pick up this quest at that time.",
 					constant = "KILL_THE_BEAST_IN_UBRS_USING_PIP_S_SKINNER_AND",
 					export = true,
@@ -856,7 +856,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(4742, {	-- Seal of Ascension (1/2)
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pickup this quest by going up to the hidden ledge in LBRS and speaking to the Infiltrator.",
 					constant = "PICKUP_THIS_QUEST_BY_GOING_UP_TO_THE_HIDDEN",
 					export = true,
@@ -887,7 +887,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(4743, {	-- Seal of Ascension (2/2)
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Ask your party to come with you to Dustwallow Marsh. You will not be able to solo this quest.\n\nOnly one person can complete this quest per Emberstrife cooldown. Your party will need to kill Emberstrife to reset the cooldown. (Respawn is about 5 minutes.)",
 					constant = "ASK_YOUR_PARTY_TO_COME_WITH_YOU_TO_DUSTWALLOW",
 					export = true,
@@ -922,7 +922,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					i(12339, {	-- Vaelan's Gift
 						i(12323, {	-- Unforged Seal of Ascension
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use this once the dragon reaches 10-20% health.",
 								constant = "USE_THIS_ONCE_THE_DRAGON_REACHES_10_20_HEALTH",
 								export = true,
@@ -942,7 +942,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 							}),
 						}),
 						i(12300, {	-- Orb of Draconic Energy
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use this once the dragon reaches 10% health. Instruct your party NOT to kill Emberstrife.",
 								constant = "USE_THIS_ONCE_THE_DRAGON_REACHES_10_HEALTH",
 								export = true,
@@ -964,7 +964,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					i(12344, {	-- Seal of Ascension
 						-- #if BEFORE 3.0.8
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item must be in your bags to open the door to UBRS.",
 							constant = "THIS_ITEM_MUST_BE_IN_YOUR_BAGS_TO_OPEN_THE_DOOR",
 							export = true,
@@ -1017,7 +1017,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					}),
 					o(175385, {	-- Darkstone Tablet
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is the white tablet leaning up against the wall in the Whelp Room.",
 							constant = "THIS_IS_THE_WHITE_TABLET_LEANING_UP_AGAINST_THE",
 							export = true,
@@ -1158,7 +1158,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(5160, {	-- The Matron Protectorate
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak with Awbee in UBRS to accept this quest. Most tanks skip the two mobs near Awbee, so you should mention it to them.",
 					constant = "SPEAK_WITH_AWBEE_IN_UBRS_TO_ACCEPT_THIS_QUEST",
 					export = true,
@@ -1384,7 +1384,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(4903, {	-- Warlord's Command
 				-- #if BEFORE 4.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to Warlord Goretooth and read through his full dialog for the item that starts the quest to be given to you.",
 					constant = "TALK_TO_WARLORD_GORETOOTH_AND_READ_THROUGH_HIS",
 					export = true,
@@ -1426,7 +1426,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 							{ "i",  12562 },	-- Important Blackrock Documents
 							{ "o", 175785 },	-- Inconspicuous Documents
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the ground next to Overlord Wyrmthalak.",
 							constant = "ON_THE_GROUND_NEXT_TO_OVERLORD_WYRMTHALAK",
 							export = true,
@@ -1747,7 +1747,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				}),
 			}),
 			n(9257, {	-- Scarshield Warlock
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "DO NOT KILL this mob if you are trying to get the Burning Felguard to spawn.",
 					constant = "DO_NOT_KILL_THIS_MOB_IF_YOU_ARE_TRYING_TO_GET",
 					export = true,
@@ -1774,7 +1774,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						-- #endif
 					}),
 					n(10263, {	-- Burning Felguard
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This mob is infinitely farmable if you don't kill all of the Scarshield Warlocks.",
 							constant = "THIS_MOB_IS_INFINITELY_FARMABLE_IF_YOU_DON_T",
 							export = true,
@@ -1818,7 +1818,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 			}),
 			i(12533, {	-- Roughshod Pike
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item can be found along the back wall as you cross the 2nd bridge to the sleeping orc encampment just after Warosh.",
 					constant = "THIS_ITEM_CAN_BE_FOUND_ALONG_THE_BACK_WALL_AS",
 					export = true,
@@ -1967,7 +1967,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["groups"] = {
 					i(12740, {	-- Fifth Mosh'aru Tablet
 						-- #if BEFORE 4.0.3
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located directly behind the boss.",
 							constant = "LOCATED_DIRECTLY_BEHIND_THE_BOSS",
 							export = true,
@@ -2139,7 +2139,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 			}),
 			applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n_conditional(16080, {	-- Mor Grayhoof
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This boss can be summoned using the Brazier of Beckoning or the Brazier of Invocation, which can summon any of the spirits.\nSummon Location: The Beast's room. (Requires parkour inside LBRS to the ledge above the entrance portal to access the old UBRS areas)",
 					constant = "THIS_BOSS_CAN_BE_SUMMONED_USING_THE_BRAZIER_OF",
 					export = true,
@@ -2322,7 +2322,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			e(392, {	-- Urok Doomhowl
 				["creatureID"] = 10584,	-- Urok Doomhowl
 				["provider"] = { "o", 175621 },	-- Urok's Tribute Pile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Summonable Boss. Loot a Roughshod Pike, found on the left wall after crossing the second bridge before heading to Highlord Omokk. Kill Highlord Omokk and loot his head. After killing Mother Smolderweb, head up and use the pike at the pile of skulls located at the corner of the square platform. This will summon waves of enemies and finally the boss.",
 					constant = "SUMMONABLE_BOSS_LOOT_A_ROUGHSHOD_PIKE_FOUND_ON",
 					export = true,
@@ -2385,7 +2385,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						["timeline"] = { ADDED_7_3_0 },
 					}),
 					i(13247, {	-- Quartermaster Zigris' Footlocker
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a random green item.",
 							constant = "CONTAINS_A_RANDOM_GREEN_ITEM",
 							export = true,
@@ -2436,7 +2436,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			e(395, {	-- Gizrul the Slavener
 				["creatureID"] = 10268,	-- Gizrul the Slavener
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Summoned immediately after Halycon is defeated.",
 					constant = "SUMMONED_IMMEDIATELY_AFTER_HALYCON_IS_DEFEATED",
 					export = true,
@@ -2520,7 +2520,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					-- #endif
 					i(13148, {	-- Chillpike
 						-- #if BEFORE 10.1.7
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item seems to have disappeared in Classic. If you get this item in Classic Era or Wrath Classic, please screenshot this and send it directly to @crieve on Discord!",
 							constant = "THIS_ITEM_SEEMS_TO_HAVE_DISAPPEARED_IN_CLASSIC",
 							export = true,
@@ -2765,7 +2765,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				}),
 				i(13371, {	-- Father Flame
 					-- #if BEFORE 6.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Opening this will spawn 8 waves of drake adds in the Leeroy Jenkins room along with Solakar Flamewreath.",
 						constant = "OPENING_THIS_WILL_SPAWN_8_WAVES_OF_DRAKE_ADDS",
 						export = true,
@@ -2789,7 +2789,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				}),
 				n(10264, {	-- Solakar Flamewreath
 					-- #if BEFORE 6.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is spawned by clicking on the Father Flame and killing 8 waves of drake adds in the Leeroy Jenkins room.",
 						constant = "THIS_IS_SPAWNED_BY_CLICKING_ON_THE_FATHER_FLAME",
 						export = true,
@@ -2901,7 +2901,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						}),
 						i(12848, {	-- Unforged Rune Covered Breastplate
 							-- #if BEFORE 4.0.3
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found on the rack behind Anvilcrack in Upper Blackrock Spire.",
 								constant = "FOUND_ON_THE_RACK_BEHIND_ANVILCRACK_IN_UPPER",
 								export = true,
@@ -3319,7 +3319,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						-- #endif
 						prof(SKINNING, {
 							-- #if BEFORE TBC
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must have 315 Skinning skill. This can only be accomplished with the Zulian Slicer or Pip's Skinner.",
 								constant = "YOU_MUST_HAVE_315_SKINNING_SKILL_THIS_CAN_ONLY",
 								export = true,
@@ -3351,7 +3351,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					},
 				}),
 				applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n_conditional(16042, {	-- Lord Valthalak
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This boss can be summoned using the Brazier of Beckoning or the Brazier of Invocation, which can summon any of the spirits.\nSummon Location: War Master Voone's room.",
 						constant = "THIS_BOSS_CAN_BE_SUMMONED_USING_THE_BRAZIER_OF_2",
 						export = true,
@@ -3390,7 +3390,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						i(22336),	-- Draconian Aegis of the Legion
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228682, {	-- Lord Valthalak's Staff of Command
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This version of the staff was created and added to the DB, but doesn't seem to drop. @Crieve if you get it to drop.",
 								constant = "THIS_VERSION_OF_THE_STAFF_WAS_CREATED_AND_ADDED",
 								export = true,

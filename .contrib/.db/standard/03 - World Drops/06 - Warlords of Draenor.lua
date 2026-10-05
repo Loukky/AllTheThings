@@ -544,7 +544,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 			i(122240, {	-- Footwraps of the Frostweaver
 				-- #if BEFORE 10.0.1
 				-- CRIEVE NOTE: This might have changed with Dragonflight rather than 10.1.7, which is when it was reported to us to be BOE.
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Yes, they're a world drop, and yes, they're BoP. We're as perplexed as you are.",
 					constant = "YES_THEY_RE_A_WORLD_DROP_AND_YES_THEY_RE_BOP_WE",
 					export = true,
@@ -895,7 +895,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { AD
 	}),
 	filter(RECIPES, {
 		q(36239, {	-- A Mysterious Satchel
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This item can drop from any Draenor mob.",
 				constant = "THIS_ITEM_CAN_DROP_FROM_ANY_DRAENOR_MOB",
 				export = true,

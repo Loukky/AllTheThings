@@ -43,7 +43,7 @@ root(ROOTS.Promotions, n(SPIRIT_OF_COMPETITION, bubbleDownSelf({ ["timeline"] = 
 		["provider"] = { "i", 37297 },	-- Spirit of Competition
 	}),
 	i(37297, {	-- Spirit of Competition (PET!)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Win a battleground during the Spirit of Competition event to get this.",
 			constant = "WIN_A_BATTLEGROUND_DURING_THE_SPIRIT_OF",
 			export = true,
@@ -66,7 +66,7 @@ root(ROOTS.Promotions, n(SPIRIT_OF_COMPETITION, bubbleDownSelf({ ["timeline"] = 
 		["provider"] = { "i", 36941 },	-- Competitor's Tabard
 	}),
 	i(36941, {	-- Competitor's Tabard
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Participate in a battleground during the Spirit of Competition event to get this.",
 			constant = "PARTICIPATE_IN_A_BATTLEGROUND_DURING_THE_SPIRIT",
 			export = true,
@@ -95,7 +95,7 @@ root(ROOTS.Promotions, n(SPIRIT_OF_COMPETITION, bubbleDownSelf({ ["timeline"] = 
 		end]],
 	}),
 	cnONLY(i(37298, {	-- Essence of Competition (PET!) (China Only)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Only available on Chinese realms.\n\nThroughout each day of the event in China, the code is mailed to 500 random players. Only players who have achieved various in-game milestones during the event are eligible for a chance to receive the code. Some milestones include having an Arena rating of 1650+, increasing reputation for certain Outland factions from less than revered to exalted, or raising a crafting profession from 350 or less to 375.",
 			constant = "ONLY_AVAILABLE_ON_CHINESE_REALMS_THROUGHOUT",
 			export = true,

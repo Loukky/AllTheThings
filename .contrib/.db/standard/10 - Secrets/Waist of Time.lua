@@ -3,7 +3,7 @@
 -------------------------------------------
 
 root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {	-- Waist of Time
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "***Quest tracking enabled is required to see all the steps.***\n\nYou will need uncommon quality Windwool Hood, Deathsilk Shoulders, Netherweave Tunic, Frostwoven Leggings, as well as Proximo's Rudius, Rough Wooden Staff, Punctured Pelt, and Formula: Enchant Ring - Striking later on in the secret. It is recommended that you have flying and the Ever-Shifting Mirror toy for ease of travel between Draenor and Outland.",
 		constant = "QUEST_TRACKING_ENABLED_IS_REQUIRED_TO_SEE_ALL_4",
 		export = true,
@@ -26,7 +26,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		hqt(52829, name(HEADERS.NPC, 141941, {	-- Summon Baa'l
 			["displayID"] = 80456,	-- Baa'l
 			["sourceQuests"] = { 52828 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Summon Baa'l from Pet Journal.\n\nSouls fEast on the enDless shrieKing, in darKNess they writhe and scream, yOu WiLl join thEm, toGether forEver morE!",
 				constant = "SUMMON_BAA_L_FROM_PET_JOURNAL_SOULS_FEAST_ON",
 				export = true,
@@ -49,7 +49,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 1046021,
 			["questID"] = 52830,	-- Orb click
 			["sourceQuests"] = { 52829 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Your journey continues in Spires of Arak. You must have summoned Baa'l at least once before you can continue. \n\nInside the small basket \n\nThe Orb Reads: \n\n\"<Something is written here.>\n\nPassive Ice Veins\"",
 				constant = "YOUR_JOURNEY_CONTINUES_IN_SPIRES_OF_ARAK_YOU",
 				export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = 2,
 			["questID"] = 52831,
 			["sourceQuests"] = { 52830 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Stormwind City\n\nThe Strange Seed reads: \n\n\"<Something is written here.>\n\nSadness, Keynoted\"",
 				constant = "STORMWIND_CITY_THE_STRANGE_SEED_READS_SOMETHING",
 				export = true,
@@ -102,7 +102,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52898,
 			["sourceQuests"] = { 52831 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Spires of Arak\n\nUnderwater on top of the large rock. \n\nThe Tiny Frog says:\n\n\"<Something is written here.>\n\nDog wig moss?\"",
 				constant = "SPIRES_OF_ARAK_UNDERWATER_ON_TOP_OF_THE_LARGE",
 				export = true,
@@ -127,7 +127,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52899,
 			["sourceQuests"] = { 52898 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Blades Edge Mountains\n\nOn the ground next to a crystal. \n\nThe Brittle Bone reads:\n\n\"<Something is written here.>\n\nRage, Shank Sever\"",
 				constant = "BLADES_EDGE_MOUNTAINS_ON_THE_GROUND_NEXT_TO_A",
 				export = true,
@@ -151,7 +151,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 1307043,
 			["questID"] = 52900,
 			["sourceQuests"] = { 52899 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Spires of Arak\n\nNext to a large candle. \n\nThe Misplaced Candle reads:\n\n\"<Something is written here.>\n\nRankest Goldfish\"",
 				constant = "SPIRES_OF_ARAK_NEXT_TO_A_LARGE_CANDLE_THE",
 				export = true,
@@ -176,7 +176,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52901,
 			["sourceQuests"] = { 52900 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Draenor SMV\n\nBrown cup, next to the fire. \n\nThe Odd Cup reads:\n\n\"<Something is written here.>\n\nEase off fruit...\"",
 				constant = "DRAENOR_SMV_BROWN_CUP_NEXT_TO_THE_FIRE_THE_ODD",
 				export = true,
@@ -201,7 +201,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52902,
 			["sourceQuests"] = { 52901 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Outland SMV\n\nOn top of the mountain.\n\nThe Interesting Rock reads:\n\n\"<Something is written here.>\n\nThe BIG Bull\"",
 				constant = "OUTLAND_SMV_ON_TOP_OF_THE_MOUNTAIN_THE",
 				export = true,
@@ -225,7 +225,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 343460,
 			["questID"] = 52903,
 			["sourceQuests"] = { 52902 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Swamp of Sorrows\n\nUnder the tree, on top of the water.\n\nThe Blooming Lily reads:\n\n\"<Something is written here.>\n\nJaws open nooks!\"",
 				constant = "SWAMP_OF_SORROWS_UNDER_THE_TREE_ON_TOP_OF_THE",
 				export = true,
@@ -250,7 +250,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52904,
 			["sourceQuests"] = { 52903 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Eastern Plaguelands\n\nInside the crypt, on top of the sarcophagus lid\n\nThe Pretty Flower reads:\n\n\"<Something is written here.>\n\nDead Rune Thug\"",
 				constant = "EASTERN_PLAGUELANDS_INSIDE_THE_CRYPT_ON_TOP_OF",
 				export = true,
@@ -275,7 +275,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52905,
 			["sourceQuests"] = { 52904 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Deadwind Pass\n\nInside the old church, near the table.\n\nThe Old Book reads:\n\n\"<Something is written here.>\n\n...A Stage Deception\"",
 				constant = "DEADWIND_PASS_INSIDE_THE_OLD_CHURCH_NEAR_THE",
 				export = true,
@@ -300,7 +300,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52906,
 			["sourceQuests"] = { 52905 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Blackrock Mountain\n\nRoom next to LBRS entrance, next to the fire.\n\nThe Dead Fish says:\n\n\"<Something is written here.>\n\nNecropolis Expos!\"",
 				constant = "BLACKROCK_MOUNTAIN_ROOM_NEXT_TO_LBRS_ENTRANCE",
 				export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = 3,
 			["questID"] = 52907,
 			["sourceQuests"] = { 52906 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Duskwood\n\nUnderneath the large plank.\n\nThe Scratched Board reads:\n\n\"<Something is written here.>\n\nThe net saves.\"",
 				constant = "DUSKWOOD_UNDERNEATH_THE_LARGE_PLANK_THE",
 				export = true,
@@ -352,7 +352,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 242730,
 			["questID"] = 52908,
 			["sourceQuests"] = { 52907 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Hillsbrad Foothills\n\nJust inside the clocktower, left pile of bones.\n\nThe Lost Ring reads:\n\n\"<Something is written here.>\n\nTerrible grunt.\"",
 				constant = "HILLSBRAD_FOOTHILLS_JUST_INSIDE_THE_CLOCKTOWER",
 				export = true,
@@ -377,7 +377,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52909,
 			["sourceQuests"] = { 52908 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Badlands\n\nInside the larger building, on the table, next to the roasted boar.\n\nThe Spoiled Apple reads:\n\n\"<Something is written here.>\n\nLeave Nets, Often\"",
 				constant = "BADLANDS_INSIDE_THE_LARGER_BUILDING_ON_THE",
 				export = true,
@@ -401,7 +401,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 442505,
 			["questID"] = 52910,
 			["sourceQuests"] = { 52909 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Blasted Lands\n\nBase of the statue, near a candle. The tooth is present in both the past and present.\n\nThe Broken tooth reads:\n\n\"<Something is written here.>\n\nBrash remains.\"",
 				constant = "BLASTED_LANDS_BASE_OF_THE_STATUE_NEAR_A_CANDLE",
 				export = true,
@@ -426,7 +426,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52911,
 			["sourceQuests"] = { 52910 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Burning Steppes\n\nEquipped on the larger brown skeletons head.\n\nThe Worn Helm reads:\n\n\"<Something is written here.>\n\nSensed the Figs...\"",
 				constant = "BURNING_STEPPES_EQUIPPED_ON_THE_LARGER_BROWN",
 				export = true,
@@ -451,7 +451,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = 2,
 			["questID"] = 52912,
 			["sourceQuests"] = { 52911 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Northrend Dalaran\n\nIn front of the left planter.\n\nThe Leafy Leaf reads:\n\n\"<Something is written here.>\n\nPhantasmal Hosts?\"",
 				constant = "NORTHREND_DALARAN_IN_FRONT_OF_THE_LEFT_PLANTER",
 				export = true,
@@ -475,7 +475,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 1360796,
 			["questID"] = 52913,
 			["sourceQuests"] = { 52912 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Terrokar Forrest\n\nInside the crate, inside the tent, near the Shadow Labs entrance.\n\nThe Musty Cloth reads:\n\n\"<Something is written here.>\n\nScarce odds, still.\"",
 				constant = "TERROKAR_FORREST_INSIDE_THE_CRATE_INSIDE_THE",
 				export = true,
@@ -500,7 +500,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = 2,
 			["questID"] = 52914,
 			["sourceQuests"] = { 52913 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Twilight Highlands\n\nOn the ground next to the mace.\n\nThe Broken Tablet reads:\n\n\"<Something is written here.>\n\nStarfish droplets!\"",
 				constant = "TWILIGHT_HIGHLANDS_ON_THE_GROUND_NEXT_TO_THE",
 				export = true,
@@ -525,7 +525,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = 2,
 			["questID"] = 52915,
 			["sourceQuests"] = { 52914 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Feralas\n\nMiddle of the remains and table, sticking out of the ground.\n\nThe Ashed Torch reads:\n\n\"<Something is written here.>\n\n...a daft tormenter's fog.\"",
 				constant = "FERALAS_MIDDLE_OF_THE_REMAINS_AND_TABLE",
 				export = true,
@@ -550,7 +550,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52916,
 			["sourceQuests"] = { 52915 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Head to the past version of Arathi Highlands, and click on the note on the table inside Grimmy's house.\n\nGrimmy's List of Friends reads:\n\n\"List of My Friends?\nFirst is SN, you always smelled so good\nSecond is TM, you smelled like burning\nwood\nThird is FD, though you smelled like fel\nLast is OM, I hated that fishy smell\"",
 				constant = "HEAD_TO_THE_PAST_VERSION_OF_ARATHI_HIGHLANDS",
 				export = true,
@@ -575,7 +575,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		}),
 		hqt(52917, {	-- Grimmy Dialogue
 			["name"] = "Grimmy Dialogue",
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Equip the Windwool Hood, Deathsilk Shoulders, Netherweave Tunic, and Frostwoven Leggings, and talk to Grimmy. Select his dialogue \"It's me, your friend. Got any secrets to tell me about?\"",
 				constant = "EQUIP_THE_WINDWOOL_HOOD_DEATHSILK_SHOULDERS",
 				export = true,
@@ -601,7 +601,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["model"] = 305391,
 			["questID"] = 52918,
 			["sourceQuests"] = { 52917 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After selecting the Grimmy dialogue, a note appears on his bedstand. Click it. Grimmy's List of Enemies reads:\n\n\"You flaunted your virility, and red was\nnever to my liking\nThough I wanted to slap you, I always\nfound you striking.\n\nYou Always though you knew what was\nbest, but not everyone likes greens,\nThough I waved your way, I pictured\nyour shredded hide in my dreams.\n??\nYour bread was bad, you diseased lout,\nit made me sick.\nI woudl cheerily beat you with a stick.\n??\nLast you, I'm not eve going to think of\na rhyme for you, Mugs.\nI will dance on your grave, you were\nuniquely terrible.\"\n\nGo to each of the following NPCs with Proximo's Rudius, Rough Wooden Staff, Punctured Pelt, and Formula: Enchant Ring - Striking, and emote to them.",
 				constant = "AFTER_SELECTING_THE_GRIMMY_DIALOGUE_A_NOTE",
 				export = true,
@@ -624,7 +624,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		n(47121, {	-- Aquinastrasz <Vermillion Redoubt Flight Master>
 			["questID"] = 52822,
 			["sourceQuests"] = { 52918 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Twilight Highlands\n\n/slap",
 				constant = "TWILIGHT_HIGHLANDS_SLAP",
 				export = true,
@@ -647,7 +647,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		n(36034, {	-- Karnum Marshweaver <The Cenarion Circle>
 			["questID"] = 52823,
 			["sourceQuests"] = { 52918 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Desolace\n\n/wave",
 				constant = "DESOLACE_WAVE",
 				export = true,
@@ -670,7 +670,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		n(28792, {	-- Noggra <General Goods>
 			["questID"] = 52824,
 			["sourceQuests"] = { 52918 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Zul'drak\n\n/cheer",
 				constant = "ZUL_DRAK_CHEER",
 				export = true,
@@ -693,7 +693,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		n(62877, {	-- Stained Mug <Innkeeper>
 			["questID"] = 52826,
 			["sourceQuests"] = { 52918 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Kun-Lai Summit\n\n/dance",
 				constant = "KUN_LAI_SUMMIT_DANCE",
 				export = true,
@@ -716,7 +716,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		n(138578, {	-- Grimmy Dialogue
 			["questID"] = 52919,
 			["sourceQuests"] = { 52826, 52824, 52823, 52822, },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Return to Grimmy and select his new dialogue\n\n\"I've sent some messages to your enemies, now about those secrets...\"",
 				constant = "RETURN_TO_GRIMMY_AND_SELECT_HIS_NEW_DIALOGUE_I",
 				export = true,
@@ -741,7 +741,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52920,
 			["sourceQuests"] = { 52919 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After selecting Grimmy's dialogue, a new note appears by the fireplace. Click it. Grimmy's Favorite Recipe reads:\n\n\"A pinch of turmeric and a pound of salt,\nif it comes out poorly it's your own\nfault.\n\nPay attention to the broth, and stir,stir,\nstir!\nThen add a big handful of boar fur.\n\nLast you need a little sour,\nget the kick with a little gunpowder!\"",
 				constant = "AFTER_SELECTING_GRIMMY_S_DIALOGUE_A_NEW_NOTE",
 				export = true,
@@ -766,7 +766,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 			["modelScale"] = .5,
 			["questID"] = 52921,
 			["sourceQuests"] = { 52920 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Go outside and find the Rotten Potato. You will need to get exactly 144 stacks of Rotten Potato by clicking the potato. After getting 144 stacks of the buff, go back and talk to Grimmy and select his new dialogue option\"How do I smell?\"\n\nGrimmy's new dialogue says:\n\n\"Oh, my, just like my mother used to after she made her famous pie.\n\nVery well, I will show you...my life's work!\n\nIt's in the chest out back, and it's all yours!\n\nI hope it was worth it!\"",
 				constant = "GO_OUTSIDE_AND_FIND_THE_ROTTEN_POTATO_YOU_WILL",
 				export = true,
@@ -789,7 +789,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDownSelf({ ["timeline"] =
 		o(294703, {	-- Grimmy's Rusty Lockbox
 			["questID"] = 52922,
 			["sourceQuests"] = { 52921 },
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After asking Grimmy how you smell, go outside behind and above his house, and on the hill will be Grimmy's Rusty Lockbox waiting for you to open it.",
 				constant = "AFTER_ASKING_GRIMMY_HOW_YOU_SMELL_GO_OUTSIDE",
 				export = true,

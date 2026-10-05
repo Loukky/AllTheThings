@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = bubbleDownClassicRep(FACTION_THE_UNSHACKLED, {
 				{		-- Neutral
 					i(168848, {	-- Pearl of Perspicuous Intentions (Rank 3)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Nautical Battlefield Training|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_6",
 							export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 						["cost"] = { { "c", 1721, 50 } },	-- 50x Prismatic Manapearl
 					}),
 					i(168849, {	-- Pearl of Luminous Designs (Rank 4)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires completing the achievement |cffffff00Aqua Team Murder Force|r.\n",
 							constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_7",
 							export = true,
@@ -195,7 +195,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = appendGroups(COMMON_BFA_PVP_RECIPES_S3, {
 				i(168851, {	-- Enduring Battlefield Memento (Rank 2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires completing the achievement |cffffff00Fighting on Two Fronts|r.\n",
 						constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_8",
 						export = true,
@@ -222,7 +222,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					},
 				}),
 				i(168853, {	-- Glinting Battlefield Memento (Rank 4)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires completing the achievement |cffffff00Supplying the Assassins|r.\n",
 						constant = "REQUIRES_COMPLETING_THE_ACHIEVEMENT_9",
 						export = true,
@@ -443,7 +443,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["groups"] = {	-- not sure it's worth adding 'cost' to these items since the purchasing process is so convoluted.
 				i(169202),	-- Crimson Tidestallion (MOUNT!)
 				i(168092, {	-- Curiously Warm Kelp Bundle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains Mardivas reagents.",
 						constant = "CONTAINS_MARDIVAS_REAGENTS",
 						export = true,
@@ -463,7 +463,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					}),
 				}),
 				i(168094, {	-- Faintly Humming Sea Stones
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains Scrying Stones.",
 						constant = "CONTAINS_SCRYING_STONES",
 						export = true,
@@ -486,7 +486,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					},
 				}),
 				i(168093, {	-- Grimy Manapearl Bracelet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains 3 Prismatic Manapearls.",
 						constant = "CONTAINS_3_PRISMATIC_MANAPEARLS",
 						export = true,
@@ -509,7 +509,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					["description"] = "~L.CONTAINS_3_PRISMATIC_MANAPEARLS",
 				}),
 				i(170153, {	-- Ominous Looking Tome
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 150 reputation with each of your bodyguards.",
 						constant = "GRANTS_150_REPUTATION_WITH_EACH_OF_YOUR",
 						export = true,
@@ -533,7 +533,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					},
 				}),
 				i(168097, {	-- Pilfered Armor Crate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a piece of Benthic gear.",
 						constant = "CONTAINS_A_PIECE_OF_BENTHIC_GEAR",
 						export = true,
@@ -560,7 +560,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					["description"] = "~L.CONTAINS_A_PIECE_OF_BENTHIC_GEAR",
 				}),
 				i(168091, {	-- Severly Rusted Lockbox
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains a Barnacled Lockbox.",
 						constant = "CONTAINS_A_BARNACLED_LOCKBOX",
 						export = true,
@@ -583,7 +583,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					}},
 				}),
 				i(170152, {	-- Shadow-Cloaked Shell
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Grants 150 reputation with your Nazjatar faction.",
 						constant = "GRANTS_150_REPUTATION_WITH_YOUR_NAZJATAR",
 						export = true,
@@ -606,7 +606,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					["description"] = "~L.CONTAINS_MARDIVAS_REAGENTS",
 				}),
 				i(168095, {	-- Strange Coral Cluster
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains 300-400 Azerite.",
 						constant = "CONTAINS_300_400_AZERITE",
 						export = true,
@@ -626,7 +626,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					}),
 				}),
 				i(170158, {	-- Unspeakable Pearl Idol
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains 7 Prismatic Manapearls.",
 						constant = "CONTAINS_7_PRISMATIC_MANAPEARLS",
 						export = true,
@@ -648,7 +648,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(168053),	-- Unusually Wise Hermit Crab
 				i(170161),	-- Unusually Wise Hermit Crab
 				i(168096, {	-- Waterlogged Toolbox
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains items to summon Nazjatar rares.",
 						constant = "CONTAINS_ITEMS_TO_SUMMON_NAZJATAR_RARES",
 						export = true,

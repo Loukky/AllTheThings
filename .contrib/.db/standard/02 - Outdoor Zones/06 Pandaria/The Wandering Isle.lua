@@ -24,7 +24,7 @@ root(ROOTS.Zones, {
 					faction(1216, {	-- Shang Xi's Academy
 						-- #if BEFORE 11.2.7
 						-- Exalted is now obtainable with Heritage questline for Pandarens
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The maximum obtainable reputation with this faction is 8510/12000 (Honored).",
 							constant = "THE_MAXIMUM_OBTAINABLE_REPUTATION_WITH_THIS",
 							export = true,
@@ -62,7 +62,7 @@ root(ROOTS.Zones, {
 							objective(1, {	-- Play with the Spirit of Water
 								["provider"] = { "n", 55212 },	-- Shu <Ancient Spirit of Water>
 								["coord"] = { 78.96, 37.18, THE_WANDERING_ISLE_STARTING_ZONE },
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "If you can't see the water spouts, open Options -> Graphics -> and change \"Particle Density\" to \"Good\" or higher.",
 									constant = "IF_YOU_CAN_T_SEE_THE_WATER_SPOUTS_OPEN_OPTIONS",
 									export = true,
@@ -632,7 +632,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 78.4, 43.0, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
 							objective(1, {	-- Cross to the Pool of Reflection
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Jump into the swirling blue effects on the closest rock to the shore to jump up the rest of the stones to ledge.",
 									constant = "JUMP_INTO_THE_SWIRLING_BLUE_EFFECTS_ON_THE",
 									export = true,
@@ -1378,7 +1378,7 @@ root(ROOTS.Zones, {
 							{ 57.9, 19.9, THE_WANDERING_ISLE_STARTING_ZONE },
 							{ 59.1, 17.3, THE_WANDERING_ISLE_STARTING_ZONE },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only available during The Lesson of the Iron Bough.",
 							constant = "ONLY_AVAILABLE_DURING_THE_LESSON_OF_THE_IRON",
 							export = true,

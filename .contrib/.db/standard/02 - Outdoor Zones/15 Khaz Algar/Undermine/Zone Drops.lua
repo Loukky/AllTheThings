@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(UNDERMINE, {
 		n(ZONE_DROPS, {
 			currency(3226, {	-- Market Research
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from S.C.R.A.P. treasures, and as a zone drop.",
 					constant = "DROPS_FROM_S_C_R_A_P_TREASURES_AND_AS_A_ZONE",
 					export = true,
@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["sourceQuest"] = 86961,	-- Diversified Investments
 			}),
 			i(236668, {	-- C.H.E.T.T. Card
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops very often in Sidestreet Sluice, commonly from enemies in Undermine.\n\nWill |cffff0000NOT|r drop if you have an active C.H.E.T.T. List in your bags.",
 					constant = "DROPS_VERY_OFTEN_IN_SIDESTREET_SLUICE_COMMONLY",
 					export = true,

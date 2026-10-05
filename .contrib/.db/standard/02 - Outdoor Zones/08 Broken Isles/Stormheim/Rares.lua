@@ -25,7 +25,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(92685, {	-- Captain Brvet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the Horn of the Helmouth to spawn Captain Brvet.",
 						constant = "CLICK_ON_THE_HORN_OF_THE_HELMOUTH_TO_SPAWN",
 						export = true,
@@ -249,7 +249,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				n(92763, {	-- The Nameless King
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the offering shrine that spawns in front of the sign to summon The Nameless King.",
 						constant = "CLICK_ON_THE_OFFERING_SHRINE_THAT_SPAWNS_IN",
 						export = true,

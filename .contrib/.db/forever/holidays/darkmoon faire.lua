@@ -95,7 +95,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["lvl"] = 15,
 				["groups"] = {
 					i(19298, {	-- Minor Darkmoon Prize
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a level 15-25 (usually uncommon quality) item.",
 							constant = "CONTAINS_A_LEVEL_15_25_USUALLY_UNCOMMON_QUALITY",
 							export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["repeatable"] = true,
 				["groups"] = {
 					i(19297, {	-- Lesser Darkmoon Prize
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a level 25-40 (usually uncommon quality) item.",
 							constant = "CONTAINS_A_LEVEL_25_40_USUALLY_UNCOMMON_QUALITY",
 							export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["repeatable"] = true,
 				["groups"] = {
 					i(19296, {	-- Greater Darkmoon Prize
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains a level 40-55 (usually uncommon quality) item.",
 							constant = "CONTAINS_A_LEVEL_40_55_USUALLY_UNCOMMON_QUALITY",
 							export = true,
@@ -542,7 +542,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7946, {	-- Spawn of Jubjub
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to throw down a Dark Iron Ale mug near Morja in Darkmoon Faire, and wait for the jubling to come hopping to it. This might take a while. Then she'll offer the quest 'Spawn of Jubjub', which requires another mug of Dark Iron Ale. This can only be done once per character.",
 					constant = "YOU_NEED_TO_THROW_DOWN_A_DARK_IRON_ALE_MUG_NEAR",
 					export = true,
@@ -715,7 +715,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		}),
 		n(REWARDS, {
 			i(19422, {	-- Darkmoon Faire Fortune
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a reward from completing the Sayge's Fortune. The answers you select to get your buff do not affect the contents of this container.\n\nSayge offers a buff if you answer his questions correctly.\n\n1:1 +10% Damage\n1:2  +25 Magical Resistance\n1:3 +10% Armor\n2:1 +10% Spirit\n2:2 +10% Int\n2:3  +25 Magical Resistance\n3:1 +10% Stamina\n3:2 +10% Strength\n3:3 +10% Agility\n4:1 +10% Int\n4:2 +10% Spirit\n4:3 +10% Armor",
 					constant = "THIS_IS_A_REWARD_FROM_COMPLETING_THE_SAYGE_S",
 					export = true,

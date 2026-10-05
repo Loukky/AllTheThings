@@ -1586,7 +1586,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(216638),	-- Timerunner's Intro Kit
 			i(219218),	-- Timerunner's Starter Kit
 			i(219219),	-- Timerunner's Starter Kit
-			i(223639, {["isBounty"] = true, createLocalizationString({
+			i(223639, {["isBounty"] = true, ["description"] = createLocalizationString({
 				readable = "This ensemble is broken and will most likely not work when used.",
 				constant = "THIS_ENSEMBLE_IS_BROKEN_AND_WILL_MOST_LIKELY",
 				export = true,

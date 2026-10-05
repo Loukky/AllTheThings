@@ -1133,7 +1133,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				}),
 			}),
 			i(219192, {	-- Comprehensibly Organized Ideas
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "NOTE: Some of these require a specific specialization to discover.",
 					constant = "NOTE_SOME_OF_THESE_REQUIRE_A_SPECIFIC",
 					export = true,
@@ -1153,7 +1153,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				}),
 				["groups"] = {
 					r(447325, {	-- Aqirite Brainwave Projector
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires specialization - Profession Gear to discover",
 							constant = "REQUIRES_SPECIALIZATION_PROFESSION_GEAR_TO",
 							export = true,
@@ -1184,7 +1184,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					r(447330),	-- Bismuth Miner's Headgear
 					r(447358),	-- Blame Redirection Device
 					r(447318, {	-- Blasting Bracers
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires specialization - Bracers to discover",
 							constant = "REQUIRES_SPECIALIZATION_BRACERS_TO_DISCOVER",
 							export = true,
@@ -1211,7 +1211,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					r(447373),	-- Crowd Pummeler 2-30
 					r(447362),	-- Concealed Chaos Module
 					r(447317, {	-- Dangerous Distraction Inhibitor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires specialization - Goggles to discover",
 							constant = "REQUIRES_SPECIALIZATION_GOGGLES_TO_DISCOVER",
 							export = true,
@@ -2570,7 +2570,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(213611),	-- Writhing Sample
 		}),
 		o(413902, {	-- Weeping Ironclaw
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Has a chance to spawn only in a few Delves.",
 				constant = "HAS_A_CHANCE_TO_SPAWN_ONLY_IN_A_FEW_DELVES",
 				export = true,

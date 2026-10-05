@@ -28,7 +28,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					},
 				}),
 				q(26012, {	-- Trouble at Wyrmrest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to have cleared the first four bosses in Icecrown Citadel before this quest will be available to you.",
 						constant = "YOU_NEED_TO_HAVE_CLEARED_THE_FIRST_FOUR_BOSSES",
 						export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 			}),
 			n(39751, {	-- Baltharus the Warborn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must be killed before you can fight General Zarithrian or talk to the quest giver.",
 					constant = "MUST_BE_KILLED_BEFORE_YOU_CAN_FIGHT_GENERAL",
 					export = true,
@@ -77,7 +77,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 			}),
 			n(39747, {	-- Saviana Ragefire
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must be killed before you can fight General Zarithrian.",
 					constant = "MUST_BE_KILLED_BEFORE_YOU_CAN_FIGHT_GENERAL_2",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				})
 			}),
 			n(39746, {	-- General Zarithrian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must be killed before you can fight Halion.",
 					constant = "MUST_BE_KILLED_BEFORE_YOU_CAN_FIGHT_HALION",
 					export = true,

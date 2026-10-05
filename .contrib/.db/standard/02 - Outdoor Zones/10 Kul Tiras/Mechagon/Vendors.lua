@@ -29,7 +29,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["groups"] = {
 					i(167698, {	-- Secret Fish Goggles
 						-- #if AFTER 11.1.5
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a toy since 11.1.5.\nIf you buy the goggles from the vendor, the toy is automatically added to your Toy Box. You do not have to click it on to add it (as you do with most toys).\n\nBut, the vendor won't sell you the goggles if you already have one on your bag or your bank, so make sure to delete it first.",
 							constant = "THIS_IS_A_TOY_SINCE_11_1_5_IF_YOU_BUY_THE",
 							export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							["cost"] = 5120000,	-- 512g
 						}),
 						i(168533, {	-- Schematic: Ub3r-Module: P.O.G.O. (RECIPE!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Must be an engineer, have completed the |cFFFFD700Iteration Is Key|r quest, and have a crafted Ub3r-Spanner for this to show up on the vendor.",
 								constant = "MUST_BE_AN_ENGINEER_HAVE_COMPLETED_THE",
 								export = true,

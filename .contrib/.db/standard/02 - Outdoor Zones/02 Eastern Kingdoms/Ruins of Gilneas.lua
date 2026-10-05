@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 45479,	-- Bat Handler Doomair <Flight Master>
 					["altQuests"] = { 27438 },	-- The Great Escape
 					["sourceQuest"] = 27290,	-- To Forsaken Forward Command
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available during |cFFFFD700To Forsaken Forward Command|r and is no longer available after |cFFFFD700The Great Escape|r.",
 						constant = "BECOMES_AVAILABLE_DURING_CFFFFD700TO_FORSAKEN",
 						export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27322, {	-- Korok's Second Head
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If Forward Commander Onslaught is dead, you can turn this quest in to |cFFFFD700Deathguard Podrig|r at |cFFFFD700The Sepulcher|r.",
 						constant = "IF_FORWARD_COMMANDER_ONSLAUGHT_IS_DEAD_YOU_CAN",
 						export = true,
@@ -431,7 +431,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(67108),	-- Lord Godfrey's Old Spectacles
 			})),
 			n(TREASURES, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Upon completing the quest chain, non-Worgen players can relog and the toy will appear in your Toy Box automatically. As a worgan you can loot the bouquet.",
 					constant = "UPON_COMPLETING_THE_QUEST_CHAIN_NON_WORGEN",
 					export = true,

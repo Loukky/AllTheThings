@@ -91,7 +91,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				["lvl"] = 85,
 				["groups"] = {
 					a(q(29453, {	-- Your Time Has Come [A]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is auto accepted upon killing a Molten Lord.",
 							constant = "THIS_QUEST_IS_AUTO_ACCEPTED_UPON_KILLING_A",
 							export = true,
@@ -120,7 +120,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["isBreadcrumb"] = true,	-- for A Legendary Engagement
 					})),
 					a(q(29132, {	-- A Legendary Engagement [A]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located inside Portal tower.\n\nThis is a really great quest to pick up on a character that you don't plan to ever get the legendary on. So long as you never finish this quest you have a very very convenient port to the heart of the Caverns of Time from Stormwind or Orgrimmar.",
 							constant = "LOCATED_INSIDE_PORTAL_TOWER_THIS_IS_A_REALLY",
 							export = true,
@@ -144,7 +144,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["maps"] = { CAVERNS_OF_TIME },
 					})),
 					h(q(29129, {	-- A Legendary Engagement [H]
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is a really great quest to pick up on a character that you don't plan to ever get the legendary on. So long as you never finish this quest you have a very very convenient port to the heart of the Caverns of Time from Stormwind or Orgrimmar.",
 							constant = "THIS_IS_A_REALLY_GREAT_QUEST_TO_PICK_UP_ON_A",
 							export = true,
@@ -249,7 +249,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["questID"] = 29432,	-- Delegation Tracker HQT
 						["lockCriteria"] = { 1, "questID", 29234 },	-- Delegation
 						-- #IF ANYCLASSIC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing this quest means that you personally unlocked the Circle of Thorns Portal and can open the portal for others in the future instead of taking the lazy route and having someone else open the portal for you.",
 							constant = "COMPLETING_THIS_QUEST_MEANS_THAT_YOU_PERSONALLY",
 							export = true,
@@ -340,7 +340,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["groups"] = {
 							objective(1, {	-- 0/250 Smouldering Essences Collected
 								["provider"] = { "i", 71085 },	-- Runestaff of Nordrassil
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Gather Essences by killing the bosses and syphoning the essences with your staff.",
 									constant = "GATHER_ESSENCES_BY_KILLING_THE_BOSSES_AND",
 									export = true,
@@ -372,7 +372,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 									{ "i", 69848 },	-- Heart of Flame
 									{ "n", 54293 },	-- Heart of Ragnaros
 								},
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "The heart spawns after killing Ragnaros for anyone on the quest once you have obtained 250 smoldering essences, regardless of raid size or difficulty. Only one person can loot the heart per lockout.",
 									constant = "THE_HEART_SPAWNS_AFTER_KILLING_RAGNAROS_FOR",
 									export = true,
@@ -575,7 +575,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70998, 1 } },	-- Dull Chitinous Focus
 						}),
 						i(70998, {	-- Dull Chitinous Focus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use on top of the web just before she uses Smoldering Devastation at 0 Energy. Loot the Charged Chitinous Focus afterwards.",
 								constant = "USE_ON_TOP_OF_THE_WEB_JUST_BEFORE_SHE_USES",
 								export = true,
@@ -596,7 +596,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70999, 3 } },	-- Obsidian-Flecked Chitin Fragment
 						}),
 						i(70999, {	-- Obsidian-Flecked Chitin Fragment
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "While fighting Beth'tilac you loot the Obsidian-Flecked Chitin Fragments, three of which spawn when a Cinderweb Drone is killed. Gather them and create a Dull Chitinous Focus.",
 								constant = "WHILE_FIGHTING_BETH_TILAC_YOU_LOOT_THE_OBSIDIAN",
 								export = true,
@@ -621,7 +621,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				}),
 				n(53833, {	-- Volcanus <Firelord>
 					["sourceQuest"] = 29432,	-- Circle of Thorns Portal (Delegation Tracker HQT)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This encounter does not drop any loot directly, instead, the Branch of Nordrassil is spawned on the ground after he is defeated.\n\nOnly available when someone in your party that has completed their Circle of Thorns Portal quest opens the portal. NOTE: You can have someone that has completed their staff AND opened THEIR OWN PORTAL during Delegation open the portal for you. HOWEVER, this means that you specifically will not be able to do the same for other players in the future.",
 						constant = "THIS_ENCOUNTER_DOES_NOT_DROP_ANY_LOOT_DIRECTLY",
 						export = true,
@@ -641,7 +641,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					}),
 					["groups"] = {
 						title(146, {	-- <Name>, Blessed Defender of Nordrassil
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You only have this title for as long as you are in tree form. :(",
 								constant = "YOU_ONLY_HAVE_THIS_TITLE_FOR_AS_LONG_AS_YOU_ARE",
 								export = true,
@@ -677,7 +677,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70996, 1 } },	-- Dull Rhyolite Focus
 						}),
 						i(70996, {	-- Dull Rhyolite Focus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use just before he uses Concussive Stomp. (STOMP NOW!) He has to stand on it almost directly so make sure you're pretty close before using it. Loot the Charged Rhyolite Focus afterwards.",
 								constant = "USE_JUST_BEFORE_HE_USES_CONCUSSIVE_STOMP_STOMP",
 								export = true,
@@ -698,7 +698,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70997, 3 } },	-- Rhyolite Fragment
 						}),
 						i(70997, {	-- Rhyolite Fragment
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Rhyolite Fragments which randomly spawn around the edge of the area after killing mobs spawned during the encounter. Gather three of them and create a Dull Rhyolite Focus.",
 								constant = "RHYOLITE_FRAGMENTS_WHICH_RANDOMLY_SPAWN_AROUND",
 								export = true,
@@ -737,7 +737,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70995, 1 } },	-- Dull Pyreshell Focus
 						}),
 						i(70995, {	-- Dull Pyreshell Focus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use when she is on the ground and close to full resources during Burnout. Loot the Charged Pyreshell Focus afterwards.\n\nIf she stays grounded and you need more fragments or need to charge your focus, you can fly out of the instance to reset, no more Eggs will spawn at this time.",
 								constant = "USE_WHEN_SHE_IS_ON_THE_GROUND_AND_CLOSE_TO_FULL",
 								export = true,
@@ -758,7 +758,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 70994, 3 } },	-- Pyreshell Fragment
 						}),
 						i(70994, {	-- Pyreshell Fragment
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "A Pyreshell Fragment spawns whenever a Molten Egg hatches during the encounter. Gather three and create a Dull Pyreshell Focus.",
 								constant = "A_PYRESHELL_FRAGMENT_SPAWNS_WHENEVER_A_MOLTEN",
 								export = true,
@@ -801,7 +801,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 71001, 1 } },	-- Dull Emberstone Focus
 						}),
 						i(71001, {	-- Dull Emberstone Focus
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use just before he uses Hurl Spear. The spear has to hit the focus so make sure you're close. Once the fire has died down loot the Charged Emberstone Focus.\n\nNOTE: This requires at least two targets:\nA mage can use the Frost Elemental.\nA shaman can summon the Earth Elemental.\nA Warlock can use its pet.\nA Priest or Druid needs a friend. :(",
 								constant = "USE_JUST_BEFORE_HE_USES_HURL_SPEAR_THE_SPEAR",
 								export = true,
@@ -822,7 +822,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["cost"] = { { "i", 71000, 3 } },	-- Emberstone Fragment
 						}),
 						i(71000, {	-- Emberstone Fragment
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "An Emberstone Fragment spawns whenever a Crystal Prison Trap is destroyed. Gather three of them and create a Dull Emberstone Focus.",
 								constant = "AN_EMBERSTONE_FRAGMENT_SPAWNS_WHENEVER_A",
 								export = true,
@@ -857,7 +857,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					["creatureID"] = 52571,
 					["groups"] = {
 						ach(5799, {	-- Only the Penitent...
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If you aim to do this achievement, do not move past the Circle of Thorns Portal unprepared! The objective is to reach and interact with the two orbs of flame on each side of the Druids of Flame without getting hit by the AoE effect. You avoid getting hit by not standing on it's way, you have to duck beneath it with /kneel or any other emotes lowering your height. Any shrinking effects from toys does not counts. If the orbs disappear you have failed and need to reset the instance.\n\nAlthough some classes might be able to solo it, being two is easier.",
 								constant = "IF_YOU_AIM_TO_DO_THIS_ACHIEVEMENT_DO_NOT_MOVE",
 								export = true,
@@ -923,7 +923,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(71775),	-- Smoldering Censer of Purity
 							i(71780),	-- Zoid's Firelit Greatsword
 							ig(69237, {	-- Living Ember
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Drops commonly from Firelands bosses.",
 									constant = "DROPS_COMMONLY_FROM_FIRELANDS_BOSSES",
 									export = true,
@@ -1090,7 +1090,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				["groups"] = {
 					n(VENDORS, {
 						n(54402, {	-- Lurah Wrathvine
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring this vendor Crystallized Firestones from the bosses and the BoE and she'll upgrade it to the Heroic version.",
 								constant = "BRING_THIS_VENDOR_CRYSTALLIZED_FIRESTONES_FROM",
 								export = true,
@@ -1276,7 +1276,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(71781),	-- Zoid's Firelit Greatsword
 							ig(69237),	-- Living Ember
 							i(71617, {	-- Crystallized Firestone
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You can use this item to upgrade certain normal mode BoE items to Heroic BoP versions.",
 									constant = "YOU_CAN_USE_THIS_ITEM_TO_UPGRADE_CERTAIN_NORMAL",
 									export = true,

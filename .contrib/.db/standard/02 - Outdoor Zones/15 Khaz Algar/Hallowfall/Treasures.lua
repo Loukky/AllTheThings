@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(HALLOWFALL, {
 		n(TREASURES, {
 			i(220123, {	-- Ominous Offering
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Combine 'Offering of Pure Water' and 'Jar of Mucus' to get this item.\nUsed to summon 'Deathtide'.",
 					constant = "COMBINE_OFFERING_OF_PURE_WATER_AND_JAR_OF_MUCUS",
 					export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["maps"] = { HALLOWFALL },
 			}),
 			n(225948, {	-- Caesper
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bring Caesper Meaty Haunch and follow him, he will dig up treasure for you.",
 					constant = "BRING_CAESPER_MEATY_HAUNCH_AND_FOLLOW_HIM_HE",
 					export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444804, {	-- Concentrated Shadow
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns all over the zone only when Beledar shifts into its Void state.",
 					constant = "SPAWNS_ALL_OVER_THE_ZONE_ONLY_WHEN_BELEDAR",
 					export = true,
@@ -104,7 +104,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(453374, {	-- Shadowed Essence (Dark Ritual, event)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the cave. Interract with the book and start the ritual. Survive the attack and kill the shadows.",
 					constant = "INSIDE_THE_CAVE_INTERRACT_WITH_THE_BOOK_AND",
 					export = true,
@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(437211, {	-- Illuminated Footlocker
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Starblessed Glimmerfly flies around in circle casting Lightning Orbs on the ground.\nCatch 5 Lightning Orbs by standing in illuminated circles in order to reveal the treasure.",
 					constant = "STARBLESSED_GLIMMERFLY_FLIES_AROUND_IN_CIRCLE",
 					export = true,
@@ -156,7 +156,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(440926, {	-- Jar of Mucus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "One of two parts required to create 'Ominous Offering'. An item required to summon 'Deathtide'.",
 					constant = "ONE_OF_TWO_PARTS_REQUIRED_TO_CREATE_OMINOUS",
 					export = true,
@@ -183,7 +183,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(441606, {	-- Jewel of the Cliffs
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Located inside the crack of the pillar high above ground.",
 					constant = "LOCATED_INSIDE_THE_CRACK_OF_THE_PILLAR_HIGH",
 					export = true,
@@ -210,7 +210,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(444802, {	-- Kobyss Ritual Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns randomly around the costal regions of the zone.",
 					constant = "SPAWNS_RANDOMLY_AROUND_THE_COSTAL_REGIONS_OF",
 					export = true,
@@ -247,7 +247,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			o_repeated({	-- Smuggler's Treasure
 				o(453283, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fly down to the Dead Arathi body and loot key.",
 						constant = "FLY_DOWN_TO_THE_DEAD_ARATHI_BODY_AND_LOOT_KEY",
 						export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				i(226021),	-- Jar of Pickles
 			}),
 			o(419695, {	-- Spore-Covered Coffer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the Shadowmire cave.",
 					constant = "INSIDE_THE_SHADOWMIRE_CAVE",
 					export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(439473, {	-- Tenir and the Order of Night
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In the basement.",
 					constant = "IN_THE_BASEMENT",
 					export = true,
@@ -535,7 +535,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(441800, {	-- Sunken Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to talk to Sky-Captains Aerthin, Clairmonte, Dornald, and Onaro on their respective airships.",
 					constant = "YOU_NEED_TO_TALK_TO_SKY_CAPTAINS_AERTHIN",
 					export = true,

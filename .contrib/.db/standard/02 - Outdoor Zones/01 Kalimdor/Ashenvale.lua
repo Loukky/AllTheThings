@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(495),	-- Frog (PET!)
 					pet(450),	-- Maggot (PET!)
 					pet(496, {	-- Rusty Snail (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found on the Blackfathom Deeps beach in Ashenvale.",
 							constant = "CAN_BE_FOUND_ON_THE_BLACKFATHOM_DEEPS_BEACH_IN",
 							export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66136, {	-- Analynn <Master Pet Tamer>
 					["coord"] = { 20.2, 29.6, ASHENVALE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nAnalynn's pets are level 5 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_ANALYNN_S_PETS_ARE",
 						export = true,
@@ -1474,7 +1474,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13921, {	-- He Who Would Be Forgiven
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is auto given to you once completing |cFFFFD700A Trip To The Moonwell|r.",
 						constant = "THIS_QUEST_IS_AUTO_GIVEN_TO_YOU_ONCE_COMPLETING",
 						export = true,
@@ -1498,7 +1498,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(14018, {	-- He Who Would Be Forgiven
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can pick this quest up if you abandon the quest by the same name.",
 						constant = "YOU_CAN_PICK_THIS_QUEST_UP_IF_YOU_ABANDON_THE",
 						export = true,
@@ -3994,7 +3994,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				o(240617, {	-- Lost Sentinel's Pouch
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found inside a large hollow tree trunk.",
 						constant = "FOUND_INSIDE_A_LARGE_HOLLOW_TREE_TRUNK",
 						export = true,
@@ -4187,7 +4187,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				n(6731, {	-- Harlown Darkweave <Leatherworking Supplies>
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Vendor will only sell to those who have rescued him. Go to Benjari Edune and pick up the quest |cFFFFD700Three Friends of the Forest|r to start the quest chain.",
 						constant = "VENDOR_WILL_ONLY_SELL_TO_THOSE_WHO_HAVE_RESCUED",
 						export = true,
@@ -4285,7 +4285,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_ONE, i(211691, {	-- Spell Notes: Arcane Blast
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Cast Arcane Explosion in the correct order next to the Arcane Shard. South to North.",
 						constant = "CAST_ARCANE_EXPLOSION_IN_THE_CORRECT_ORDER_NEXT",
 						export = true,
@@ -4323,7 +4323,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210044, {	-- Symbol of the First Owl
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Channel on the statue to summon a wisp. Wisp will move for a few seconds, then 3 waves of 2 adds (level 23/25) will spawn one after another. Protect the wisp using bear form and you'll receive the symbol in your inventory.",
 						constant = "CHANNEL_ON_THE_STATUE_TO_SUMMON_A_WISP_WISP",
 						export = true,
@@ -4372,7 +4372,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				i(1351, {	-- Fingerbone Bracers
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item is only naturally accessible to Alliance players due to the allegiance of the creatures that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 						constant = "THIS_ITEM_IS_ONLY_NATURALLY_ACCESSIBLE_TO_2",
 						export = true,
@@ -4446,7 +4446,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["groups"] = {
 						i(211531, {	-- Prophecy of Seven Visitors
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Go north to the entrance of the cave. Don't go in the cave, instead climb up the big tree to the left and you'll see the dreamcatchers hanging in the branches.",
 								constant = "GO_NORTH_TO_THE_ENTRANCE_OF_THE_CAVE_DON_T_GO",
 								export = true,

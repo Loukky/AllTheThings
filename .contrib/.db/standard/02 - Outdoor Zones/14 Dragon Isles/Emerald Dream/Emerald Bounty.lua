@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					}),
 					crit(62397, {	-- Whisperbloom Sapling (n: 211059)
 						["coord"] = { 51.2, 58.7, EMERALD_DREAM },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spawns every hour at the 50 minute mark.",
 							constant = "SPAWNS_EVERY_HOUR_AT_THE_50_MINUTE_MARK",
 							export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					["isWeekly"] = true,
 					["groups"] = {
 						i(SEEDBLOOM, {
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Any item bought via Seedbloom's can also be obtained randomly from The Emerald Bounty event while planting or contributing a Small Dreamseed, Plump Dreamseed, or Gigantic Dreamseed.",
 								constant = "ANY_ITEM_BOUGHT_VIA_SEEDBLOOM_S_CAN_ALSO_BE",
 								export = true,
@@ -202,7 +202,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					["providers"] = {
 						{ "n", 210063 },	-- Coagulating Dreams (vignette)
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can randomly spawn near any planting spot.",
 						constant = "CAN_RANDOMLY_SPAWN_NEAR_ANY_PLANTING_SPOT",
 						export = true,

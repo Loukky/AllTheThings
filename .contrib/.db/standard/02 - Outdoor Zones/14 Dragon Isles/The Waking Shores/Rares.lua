@@ -45,7 +45,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["isDaily"] = IGNORED_VALUE,
 			}),
 			n(193217, {	-- Drakewing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns at the top right of the river & follows it all the way down to the Dragonscale Basecamp. Once there, he cycles back to his spawnpoint, again following the river. Coordinates roughly show his path.",
 					constant = "SPAWNS_AT_THE_TOP_RIGHT_OF_THE_RIVER_FOLLOWS_IT",
 					export = true,
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(193134, {	-- Enkine the Voracious
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can only be summoned by fishing with the Lava Spices buff active at 22 65 in the Waking Shores. Lava Spices can be obtained by killing Restless Lava, Lavaslurpers and Basalt Shells along the lava river leading to the rare.",
 					constant = "CAN_ONLY_BE_SUMMONED_BY_FISHING_WITH_THE_LAVA",
 					export = true,
@@ -134,7 +134,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["isDaily"] = IGNORED_VALUE,
 			}),
 			n(193266, {	-- Lepidoralia the Resplendent
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to Collector Zik at the entrance to the cave and get a net. Start catching butterflies- no really, like, 200-400 butterflies. You'll be here a while.\n\nYou can talk to Collector Zik and select chat option 3: 'How many shimmerwings have you collected so far?' to get a hint toward your progress:\n0-33% I've only just started.\n34-66%We're making good progress.\n67-99%We're close to a discovery.",
 					constant = "TALK_TO_COLLECTOR_ZIK_AT_THE_ENTRANCE_TO_THE",
 					export = true,
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				-- ["questID"] = ,
 			}),
 			n(193256, {	-- Nulltheria the Void Gazer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the top of the Tower. Nearby ghostly telescopes will indicate her spawn timer:\n\n2 telescopes means roughly 2h30min till respawn.\n\n3 telescopes indicate 2h respawn till respawn.\n\n4 telescopes indicate 1h till respawn.",
 					constant = "AT_THE_TOP_OF_THE_TOWER_NEARBY_GHOSTLY",
 					export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["isDaily"] = IGNORED_VALUE,
 			}),
 			n(192737, {	-- Qalashi War Mammoth
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Marked with an icon on the map if they are up.",
 					constant = "MARKED_WITH_AN_ICON_ON_THE_MAP_IF_THEY_ARE_UP",
 					export = true,
@@ -230,7 +230,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(193271, {	-- Shadeslash Trakken
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Cave Entrance: 48.6, 74.3. Have to touch Focus, Globe and Telescope to spawn.",
 					constant = "CAVE_ENTRANCE_48_6_74_3_HAVE_TO_TOUCH_FOCUS",
 					export = true,
@@ -256,7 +256,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(193181, {	-- Skewersnout <Raypier of the Deep>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Swims between these 2 coordinates.",
 					constant = "SWIMS_BETWEEN_THESE_2_COORDINATES",
 					export = true,
@@ -284,7 +284,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				},
 			}),
 			n(193175, {	-- Slurpo, the Incredible Snail
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Bring a Magical Salt Crystal from the Azure Span into the cave. If the pool is full of Unsalted Water Snails, use the Extra Action Button to summon the rare.",
 					constant = "BRING_A_MAGICAL_SALT_CRYSTAL_FROM_THE_AZURE",
 					export = true,

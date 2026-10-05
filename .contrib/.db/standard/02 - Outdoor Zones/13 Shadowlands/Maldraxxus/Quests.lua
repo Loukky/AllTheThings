@@ -832,7 +832,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			------ Miscellaneous ------
 			q(57284, {	-- Blade of Blades
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has a chance to be offered by a Recruitable Animate when using the |cffffffffAni-Matter Orb|r provided by 'Synder Sixfold' at |cffffffff26.3, 42.7|r.",
 					constant = "HAS_A_CHANCE_TO_BE_OFFERED_BY_A_RECRUITABLE",
 					export = true,

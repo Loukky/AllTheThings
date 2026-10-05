@@ -93,7 +93,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["coord"] = { 11.6, 34.3, ASHENVALE },
 					["timeline"] = { REMOVED_1_2_4 },
 					-- #if AFTER 1.2.4
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Amongst the Ruins' (6921).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_3",
 						export = true,
@@ -753,7 +753,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #if SEASON_OF_DISCOVERY
 			})),
 			applyclassicphase(SOD_PHASE_ONE, d(DIFFICULTY.SOD.PLAYER10, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_0, REMOVED_2_0_1 }, }, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This instance was converted from a normal difficulty dungeon into a 10-player raid instance.",
 					constant = "THIS_INSTANCE_WAS_CONVERTED_FROM_A_NORMAL_2",
 					export = true,
@@ -788,7 +788,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						q(79099, {	-- Baron Aquanis (A)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "PROTIP: Completing this quest gives you a portal to BFD!",
 								constant = "PROTIP_COMPLETING_THIS_QUEST_GIVES_YOU_A_PORTAL",
 								export = true,
@@ -992,7 +992,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(TREASURES, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After dealing with Aku'mai, you can head back to Lady Sarevess' cave and delve deeper, now that the waterfall is gone. At the very end of the cave, you will be able to loot the recipes from a table.",
 							constant = "AFTER_DEALING_WITH_AKU_MAI_YOU_CAN_HEAD_BACK_TO",
 							export = true,
@@ -1020,7 +1020,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(COMMON_BOSS_DROPS, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The Twilight armor sets can drop from any of the last 4 bosses.",
 							constant = "THE_TWILIGHT_ARMOR_SETS_CAN_DROP_FROM_ANY_OF",
 							export = true,
@@ -1060,7 +1060,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(202699, {	-- Baron Aquanis
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Baron Aquanis sits stationary atop three broken platforms, and raid members must dodge his mechanics to avoid being thrown into the water and possibly aggroing extra enemies - Bubble Beam knocks enemies in front of him, and Depth Charge knocks back anyone close to the target! In addition to this, players must jump through platforms to avoid Torrential Downpour damage.",
 							constant = "BARON_AQUANIS_SITS_STATIONARY_ATOP_THREE_BROKEN",
 							export = true,
@@ -1096,7 +1096,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(201722, {	-- Ghamoo-ra
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Ghamoo-ra patrols around an island and requires clearing around the area before being engageed. In the fight itself, tanks must taunt swap to avoid massive stacks of Crunch Armor, while other members of the raid must deal with Ghamoo-ra's shield, Aqua Shell - Deal damage to break it. Once Aqua Shell is broken, DPS the turtle down while dealing with massive raid-wide damage!",
 							constant = "GHAMOO_RA_PATROLS_AROUND_AN_ISLAND_AND_REQUIRES",
 							export = true,
@@ -1128,7 +1128,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(204068, {	-- Lady Sarevess
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Lady Sarevess is accompanied by a tanky Blackfathom Elite that needs to be off-tanked. The main mechanic players must deal with is Freezing Arrow, in which a player is randomly targetted by an arrow that leaves a frost patch that the off-tank can move the Blackfathom Elite to stun it for a short duration. In addition to this, spread out to not chain Forked Lightning damage!",
 							constant = "LADY_SAREVESS_IS_ACCOMPANIED_BY_A_TANKY",
 							export = true,
@@ -1163,7 +1163,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(204921, {	-- Gelihast
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Gelihast has a quite dangerous curse with Curse of Blackfathom, so you must have ways to decurse it off. The raid must avoid getting hit by Shadow Crash while the tanks taunt swap to prevent reaching high stacks of Shadow Strike. Healers can also dispel the random Fear he throws at people.\n\nThe big mechanic happens once the boss reaches 10% - March of the Murlocs will begin, spawning dozens of murlocs that players must dodge while the boss heals himself and throws more Shadow Crashes. Once fully healed, the fight starts again, with Gelihast summoning low-health Blackfathom Tendril that must be killed. Gelihast will heal himself to full twice with March of the Murlocs before finally dying.",
 							constant = "GELIHAST_HAS_A_QUITE_DANGEROUS_CURSE_WITH_CURSE",
 							export = true,
@@ -1198,7 +1198,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(207356, {	-- Lorgus Jett
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Lorgus Jett can be found behind a gauntlet of Naga and Murlocs that must be dealt with before engaging the boss itself. Lorgus Jett himself has 3 totems he will use - One totem is spawned every 10 seconds in a set order. You can simply ignore two out of the three totems and DPS Lorgus Jett:\n\n    Corrupted Windfury Totem - Ignore and tank through his enhanced attacks;\n    Corrupted Lightning Shield Totem - Kill this totem immediately once it spawns;\n    Corrupted Molten Fury Totem - Ignore this totem and dodge the molten boulders it spawns.",
 							constant = "LORGUS_JETT_CAN_BE_FOUND_BEHIND_A_GAUNTLET_OF",
 							export = true,
@@ -1230,7 +1230,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(209678, {	-- Twilight Lord Kelris
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kelris is a two-phase fight with Phase 1 starting on pull and Phase 2 starting at 35%, so DPS must hold their big cooldowns until Kelris enters Phase 2. Through the fight, players must dodge Shadow Crashes and interrupt Shadowy Chains (priority) and Mind Blast.\n\nThe main difficult in the fight is the Dream Realm mechanic - Every so often, the two closest players to Kelris will be put to Sleep, being sent to a Dream Realm in which they need to kill neutral Phantasmal Priestesses for a chance to spawn a portal to be sent back to reality. After 30 seconds in the Dream Phase, the Priestesses will become aggressive and attack the two players on the Dream Realm. If possible, avoid using casters to go to the Dream Realm, as the Priestesses have high magical resistance.\n\nOnce Kelris reaches 35%, Phase 2 will start - Kelris will no longer send players to the Dream Realm, but will deal increased damage, in addition to his previous interruptible spells now being immune to interrupts. Save your resources and spread around the room to burn the boss down!",
 							constant = "KELRIS_IS_A_TWO_PHASE_FIGHT_WITH_PHASE_1",
 							export = true,
@@ -1266,7 +1266,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(213334, {	-- Aku'mai
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Once engaged, all raid members should stay close to Aku'mai at all times, to easily dodge the Corrosive Blast cones. Getting hit by this gives a stack of Corrosion. Tanks will naturally be affected with Corrosion over time, and once they reach 3-4 stacks of Corrosion, they must drag themselves and the boss to one of the four Cleansing Pool scattered across the room - Cleansing themselves and generating adds that must be killed.\n\nOnce Aku'mai hits 50%, he will enter Phase 2 by casting Dark Protection becoming big and voidlike. His abilities remain mostly the same, but now deal Shadow damage instead of Nature. The main difference is that Corrosion becomes Shadow Seep, and tanks must taunt swap to avoid getting high stacks of the debuff. It is possible to cleanse these the same way as you did Corrosion in Phase 1, but it is largely unnecessary if your DPS is good.",
 							constant = "ONCE_ENGAGED_ALL_RAID_MEMBERS_SHOULD_STAY_CLOSE",
 							export = true,

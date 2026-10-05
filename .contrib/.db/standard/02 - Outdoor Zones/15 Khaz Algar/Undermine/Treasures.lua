@@ -21,7 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 86567,
 			}),
 			o(476066, {	-- Abandoned Toolbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the roof.",
 					constant = "ON_THE_ROOF",
 					export = true,
@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 85422,
 			}),
 			o(495592, {	-- Blackened Dice
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Turn the nearby valve to spew the dice onto the walkway.",
 					constant = "TURN_THE_NEARBY_VALVE_TO_SPEW_THE_DICE_ONTO_THE",
 					export = true,
@@ -102,7 +102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(502893, {	-- First Half of Noggenfogger's Journal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Underground in the nearby sewer.",
 					constant = "UNDERGROUND_IN_THE_NEARBY_SEWER",
 					export = true,
@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["questID"] = 86572,
 			}),
 			o(502903, {	-- Gallywix's Notes
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the cave on a table.",
 					constant = "INSIDE_THE_CAVE_ON_A_TABLE",
 					export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(509567, {	-- The Undermine Guide to Authentic Cooking
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You will only be able to obtain the recipe if you already know the Classic cooking recipe: Undermine Clam Chowder.",
 					constant = "YOU_WILL_ONLY_BE_ABLE_TO_OBTAIN_THE_RECIPE_IF",
 					export = true,
@@ -297,7 +297,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			o(490816, {	-- Unexploded Fireworks
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On the roof",
 					constant = "ON_THE_ROOF_2",
 					export = true,

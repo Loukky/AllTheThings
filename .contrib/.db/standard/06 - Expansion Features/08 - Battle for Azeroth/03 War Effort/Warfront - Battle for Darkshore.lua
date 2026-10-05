@@ -105,7 +105,7 @@ root(ROOTS.ExpansionFeatures,
 						},
 						["groups"] = {
 							n(WEAPONS, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Appearances from:\nDarkshore Rares/Treasures\nNormal Warfront Completion\nNormal Warfront Quest\nHeroic Warfront Quest",
 									constant = "APPEARANCES_FROM_DARKSHORE_RARES_TREASURES",
 									export = true,
@@ -155,7 +155,7 @@ root(ROOTS.ExpansionFeatures,
 								},
 							}),
 							n(BACK, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Appearances from:\nDarkshore Rares/Treasures",
 									constant = "APPEARANCES_FROM_DARKSHORE_RARES_TREASURES_2",
 									export = true,
@@ -298,7 +298,7 @@ root(ROOTS.ExpansionFeatures,
 							["questID"] = 54883,
 							["isWeekly"] = true,
 							["coord"] = { 49.5, 25.1, DARKSHORE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only shows up when Alliance Controlled.",
 								constant = "ONLY_SHOWS_UP_WHEN_ALLIANCE_CONTROLLED",
 								export = true,
@@ -347,7 +347,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = HORDE_ONLY,
 							["isWeekly"] = true,
 							["coord"] = { 40.69, 73.23, DARKSHORE },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only shows up when Horde Controlled.",
 								constant = "ONLY_SHOWS_UP_WHEN_HORDE_CONTROLLED",
 								export = true,
@@ -454,7 +454,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 						}),
 						n(148790, {	-- Frightened Kodo
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This npc roams around. Once you spot it, you will then need to click it to obtain the mount.",
 								constant = "THIS_NPC_ROAMS_AROUND_ONCE_YOU_SPOT_IT_YOU_WILL",
 								export = true,
@@ -1441,7 +1441,7 @@ root(ROOTS.ExpansionFeatures,
 												i(166758),	-- Moonpriest's Cloak
 												i(166759),	-- Darkwood Sentinel's Drape
 												i(166760, {	-- Kaldorei Archer's Greatcloak
-													createLocalizationString({
+													["description"] = createLocalizationString({
 														readable = "This might be only available as Mail class.",
 														constant = "THIS_MIGHT_BE_ONLY_AVAILABLE_AS_MAIL_CLASS",
 														export = true,
@@ -1531,7 +1531,7 @@ root(ROOTS.ExpansionFeatures,
 												i(165625),	-- Sentinel's Warhammer
 												i(166758),	-- Moonpriest's Cloak
 												i(166759, {	-- Darkwood Sentinel's Drape
-													createLocalizationString({
+													["description"] = createLocalizationString({
 														readable = "This might be only available as Leather class.",
 														constant = "THIS_MIGHT_BE_ONLY_AVAILABLE_AS_LEATHER_CLASS",
 														export = true,
@@ -1554,7 +1554,7 @@ root(ROOTS.ExpansionFeatures,
 													["description"] = "~L.THIS_MIGHT_BE_ONLY_AVAILABLE_AS_MAIL_CLASS",
 												}),
 												i(166761, {	-- Wardenguard's Drape
-													createLocalizationString({
+													["description"] = createLocalizationString({
 														readable = "This might be only available as Plate class.",
 														constant = "THIS_MIGHT_BE_ONLY_AVAILABLE_AS_PLATE_CLASS",
 														export = true,
@@ -1780,7 +1780,7 @@ root(ROOTS.ExpansionFeatures,
 												i(166802),	-- Plaguebringer's Spellblade
 												i(166762, {	-- Plaguebringer's Drape
 													-- ["classes"] = { MAGE, PRIEST, WARLOCK },
-													createLocalizationString({
+													["description"] = createLocalizationString({
 														readable = "This might be only available as Cloth class.",
 														constant = "THIS_MIGHT_BE_ONLY_AVAILABLE_AS_CLOTH_CLASS",
 														export = true,
@@ -1959,7 +1959,7 @@ root(ROOTS.ExpansionFeatures,
 								-- [ ] Normal Quest (6) [Weapons]
 								-- [ ] Heroic Quest (23) [Cloaks/Armor/Weapons]
 
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "These are obtained by winning the warfront and can be awarded multiple times a week.",
 									constant = "THESE_ARE_OBTAINED_BY_WINNING_THE_WARFRONT_AND",
 									export = true,

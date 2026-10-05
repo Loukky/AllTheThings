@@ -1269,7 +1269,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
 									["provider"] = { "i", 205951 },	-- Memory of a Troubled Acolyte
 									["coord"] = { 48.2, 30.2, ELWYNN_FOREST },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Kneel (/kneel) inside Northshire Abbey to gain a Meditation buff, then use the Rune to complete the quest.",
 										constant = "KNEEL_KNEEL_INSIDE_NORTHSHIRE_ABBEY_TO_GAIN_A",
 										export = true,
@@ -1390,7 +1390,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						q(2158, {	-- Rest and Relaxation
 							-- #if AFTER 6.0.2
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This quest gets marked as completed when you complete the quest 'Rest and Relaxation' (37112).",
 								constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_10",
 								export = true,
@@ -2147,7 +2147,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				["groups"] = {
 					pet(374),	-- Black Lamb (PET!)
 					pet(459, {	-- Cat (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found commonly around the small farmhouse SW of Northshire and on Sunstrider Isle.",
 							constant = "FOUND_COMMONLY_AROUND_THE_SMALL_FARMHOUSE_SW_OF",
 							export = true,
@@ -2219,7 +2219,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(64330, {	-- Julia Stevens <Aspiring Pet Tamer>
 					["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only.\n\nJulia's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_JULIA_S_PETS",
 						export = true,
@@ -2773,7 +2773,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 				}),
 				q(14079, {	-- Learn to Ride in Elwynn Forest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Humans in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_8",
 						export = true,
@@ -3234,7 +3234,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						i(205183, {	-- Fel-Powered Artifact
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Bring the Unidentified Artifact back to the warlock trainer in the zone to receive the Powerless Artifact and then come back to acquire this item.\n\nBring it to Gakin in Stormwind City to receive the rune.",
 								constant = "BRING_THE_UNIDENTIFIED_ARTIFACT_BACK_TO_THE",
 								export = true,
@@ -3567,7 +3567,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}},
 				}),
 				n(844, {	-- Antonio Perelli <Traveling Salesman>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This vendor travels in a big circuit from Elwynn Forest (stopping in Goldshire) to Westfall (stopping in Sentinel Hill) to Duskwood (stopping in Darkshire) to Redridge Mountains (stopping in Lakeshire) and then back to Elwynn Forest. If you cannot find him in this zone, check one of the other three.",
 						constant = "THIS_VENDOR_TRAVELS_IN_A_BIG_CIRCUIT_FROM",
 						export = true,

@@ -87,7 +87,7 @@ root(ROOTS.Zones, {
 					o(214325, {	-- Forgotten Lockbox
 						["questID"] = 31867,	-- Forgotten Lockbox
 						["coord"] = { 54.66, 71.67, THE_VEILED_STAIR },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located on a barrel on the second floor of the inn",
 							constant = "LOCATED_ON_A_BARREL_ON_THE_SECOND_FLOOR_OF_THE",
 							export = true,

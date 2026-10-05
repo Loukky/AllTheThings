@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		ach(40762, {	-- Khaz Algar Lore Hunter (automated)
 			-- #if AFTER 11.0.2.56313
 			-- #if BEFORE 11.0.7
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				constant = "THIS_ACHIEVEMENT_IS_CURRENTLY_DISABLED_BY",
 				export = true,

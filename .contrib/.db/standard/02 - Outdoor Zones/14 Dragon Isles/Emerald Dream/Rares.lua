@@ -67,7 +67,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					{ "n", 210132 },	-- The Envoy Tribute (vignette)
 					{ "n", 214131 },	-- Envoy of Winter (vignette)
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Finish bonus objective in marked area to make him spawn.",
 					constant = "FINISH_BONUS_OBJECTIVE_IN_MARKED_AREA_TO_MAKE",
 					export = true,
@@ -114,7 +114,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			n(209913, {	-- Fruitface
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Help Mylune by picking up Missing Fruit from floor until npc yell 'I see the podling who took the fruit!', attack enemy once and follow him.",
 					constant = "HELP_MYLUNE_BY_PICKING_UP_MISSING_FRUIT_FROM",
 					export = true,
@@ -259,7 +259,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				["providers"] = {
 					{ "n", 210083 },	-- Primalist Portal (vignette)
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can randomly spawn in zone.",
 					constant = "CAN_RANDOMLY_SPAWN_IN_ZONE",
 					export = true,
@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			n(210047, {	-- Somnambulant Ori
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Fly around assigned coords",
 					constant = "FLY_AROUND_ASSIGNED_COORDS",
 					export = true,
@@ -338,7 +338,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			n(209358, {	-- Splinterlimb
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Gain one stack of 'Corrupting Sparks' per cycle of his route, at 8th stack become enemy (rare)",
 					constant = "GAIN_ONE_STACK_OF_CORRUPTING_SPARKS_PER_CYCLE",
 					export = true,
@@ -371,7 +371,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				["providers"] = {
 					{ "n", 210663 },	-- Surge Widget (vignette)
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can spawn during Emerald Frenzy event.",
 					constant = "CAN_SPAWN_DURING_EMERALD_FRENZY_EVENT",
 					export = true,
@@ -402,7 +402,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				},
 			}),
 			n(209902, {	-- Talthonei Ashwhisper
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Killing Druids of the Flame can make her spawn in areas where they are present.",
 					constant = "KILLING_DRUIDS_OF_THE_FLAME_CAN_MAKE_HER_SPAWN",
 					export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 	m(ISLE_OF_DORN, {
 		n(ZONE_DROPS, {
 			i(224025, {	-- Crackling Shard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Shards can drop from any mob, but rare mobs have an increased chance.\n\nBest Route is killing the following rare mobs:\nBloodmaw\nEmperor Pitfang\nRustul Titancap\nSandres\nSpringbubble\nWarphorn\n\nShards continue to drop even when you already killed the rare for the day.",
 					constant = "SHARDS_CAN_DROP_FROM_ANY_MOB_BUT_RARE_MOBS_HAVE",
 					export = true,

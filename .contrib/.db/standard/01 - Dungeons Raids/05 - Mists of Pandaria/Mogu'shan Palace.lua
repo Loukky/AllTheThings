@@ -87,7 +87,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 				i(89428, {	-- Ancient Mogu Treasure
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Contains some gold and a several green-quality gems.",
 						constant = "CONTAINS_SOME_GOLD_AND_A_SEVERAL_GREEN_QUALITY",
 						export = true,

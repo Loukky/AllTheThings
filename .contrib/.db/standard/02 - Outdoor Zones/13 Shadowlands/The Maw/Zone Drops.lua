@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["crs"] = { 177132 },	-- Helsworn Soulseeker
 			}),
 			i(186559, {	-- Grappling Gauntlet (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available in The Maw, Korthia, Zereth Mortis.",
 					constant = "AVAILABLE_IN_THE_MAW_KORTHIA_ZERETH_MORTIS",
 					export = true,

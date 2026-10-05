@@ -145,7 +145,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 						{ "i",  13471 },	-- The Deed to Brill
 						{ "o", 176484 },	-- The Deed to Brill
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found along the wall in Ras Frostwhisper's room.",
 						constant = "CAN_BE_FOUND_ALONG_THE_WALL_IN_RAS_FROSTWHISPER",
 						export = true,
@@ -169,7 +169,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 						{ "i",  13448 },	-- The Deed to Caer Darrow
 						{ "o", 176485 },	-- The Deed to Caer Darrow
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found right next to Alexi Barov.",
 						constant = "CAN_BE_FOUND_RIGHT_NEXT_TO_ALEXI_BAROV",
 						export = true,
@@ -193,7 +193,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 						{ "i",  13450 },	-- The Deed to Southshore
 						{ "o", 176486 },	-- The Deed to Southshore
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found in the very back of the first room hidden behind some bookshelves.",
 						constant = "CAN_BE_FOUND_IN_THE_VERY_BACK_OF_THE_FIRST_ROOM",
 						export = true,
@@ -217,7 +217,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 						{ "i",  13451 },	-- The Deed to Tarren Mill
 						{ "o", 176487 },	-- The Deed to Tarren Mill
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be found on the table in the back corner just before you enter the dragon whelpling room or travel downstairs to fight Jandice Barov.",
 						constant = "CAN_BE_FOUND_ON_THE_TABLE_IN_THE_BACK_CORNER",
 						export = true,
@@ -291,7 +291,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 		q(4771, {	-- Dawn's Gambit
 			-- #if BEFORE 4.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "After completing this quest, you can return to Betina to have her give you another Gambit.",
 				constant = "AFTER_COMPLETING_THIS_QUEST_YOU_CAN_RETURN_TO",
 				export = true,
@@ -321,7 +321,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 				}),
 				objective(2, {	-- 0/1 Place Dawn's Gambit
 					["provider"] = { "i", 12368 },	-- Dawn's Gambit
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This will significantly reduce all of the nearby student's health and damage. As soon as the component opens, you should have your tank or plate/rogue dps aggro the room other than the 2 bosses and get ready to AOE.",
 						constant = "THIS_WILL_SIGNIFICANTLY_REDUCE_ALL_OF_THE",
 						export = true,
@@ -349,7 +349,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			},
 		}),
 		q(5382, {	-- Doctor Theolen Krastinov, the Butcher
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Talk to Eva until she offers the quest.",
 				constant = "TALK_TO_EVA_UNTIL_SHE_OFFERS_THE_QUEST",
 				export = true,
@@ -520,7 +520,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			["lvl"] = 58,
 		}),
 		q(76249, name(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "It's recommended to activate the Debug Mode to properly see every step and description.\n\nTo start unlocking old Scholomance, you must first do a clear of Heroic Scholomance. Once done, go to the room that used to be Doctor Theolen Krastinov's room in the original Scholomance (top center room). At the top left portion of the room, use the Krastinov's Bag of Horrors toy. When you do, the ghost of Eva Sarkhoff will spawn, afraid of you (as the toy transforms you into the Butcher himself). Removing the toy's buff will make Eva realize you're not her murderer, and she will talk to you, giving you the old Spectral Essence trinket and allowing you to loot Eva's Femur on the ground. This allows you to see ghosts in Caer Darrow.\n\nOnce you do, you can talk to Eva at her old spot outside Scholomance, where she will request you to look for her journal, as well as five candles, to perform a horrible ritual. The candles are traded from citizens in Caer Darrow, and require items they treasured when alive. Below, we have the locations for all items:",
 				constant = "IT_S_RECOMMENDED_TO_ACTIVATE_THE_DEBUG_MODE_TO",
 				export = true,
@@ -551,7 +551,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			},
 		})),
 		q(5463, {	-- Menethil's Gift (1/2)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Take the Keepsake to the symbol on the floor in Baron Rivendare's room in Stratholme.",
 				constant = "TAKE_THE_KEEPSAKE_TO_THE_SYMBOL_ON_THE_FLOOR_IN",
 				export = true,
@@ -876,7 +876,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 	}),
 	n(TREASURES, {
 		o(403567, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {		-- Cracked Argent Dawn Commission
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found at the top of the southwest bone pile in Rattlegore's room. From the Great Ossuary, you can drop down from the southwest hole leading to Rattlegore's room and look down, it's a small object on the pile.\n\nThis is not visible if your character already has an Argent Dawn Commission or a Rune/Seal of the Dawn!",
 				constant = "CAN_BE_FOUND_AT_THE_TOP_OF_THE_SOUTHWEST_BONE",
 				export = true,
@@ -899,7 +899,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			},
 		})),
 		o(405388, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {		-- Familiar Journal
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The Familiar Journal itself can be found in the Viewing Room of Old Scholomance, on the second bookshelf from the left wall, near the mini-boss Marduk Blackpool. All you have to do is pick up the book, and the toy is yours! It's as simple as that.",
 				constant = "THE_FAMILIAR_JOURNAL_ITSELF_CAN_BE_FOUND_IN_THE",
 				export = true,
@@ -922,7 +922,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			},
 		})),
 		i(12736, {	-- Frostwhisper's Embalming Fluid
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be found inside the chemistry lab in Scholomance, in Ras Frostwhisper's room.",
 				constant = "CAN_BE_FOUND_INSIDE_THE_CHEMISTRY_LAB_IN",
 				export = true,
@@ -954,7 +954,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 		i(15776, {	-- Pattern: Runic Leather Armor (RECIPE!)
 			-- #if AFTER 4.0.3
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This pattern no longer drops. The recipe can now be trained at any leatherworking trainer.",
 				constant = "THIS_PATTERN_NO_LONGER_DROPS_THE_RECIPE_CAN_NOW",
 				export = true,
@@ -985,7 +985,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 		applyclassicphase(PHASE_SIX, i(22526)),	-- Bone Fragments
 		i(12843, {	-- Corruptor's Scourgestone / Inert Corruptor's Scourgestone
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 				constant = "CAN_DROP_FROM_ANY_UNDEAD_CREATURE_IN_THE",
 				export = true,
@@ -1010,7 +1010,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
 		i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop from weak Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 				constant = "CAN_DROP_FROM_WEAK_UNDEAD_CREATURE_IN_THE",
 				export = true,
@@ -1031,7 +1031,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
 		i(13920, {	-- Healthy Dragon Scale
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This item can only drop from the Hatchlings after you have completed the Plagued Hatchlings quest.",
 				constant = "THIS_ITEM_CAN_ONLY_DROP_FROM_THE_HATCHLINGS",
 				export = true,
@@ -1075,7 +1075,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		ignoreTimeline(i(14536)),	-- Bonebrace Hauberk
 		-- #if SEASON_OF_DISCOVERY
 		applyclassicphase(SOD_PHASE_FOUR, i(228703, {	-- Coldstone Slippers
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "None of these have been found on WoWHead or the AH. @Crieve if you get one to drop!",
 				constant = "NONE_OF_THESE_HAVE_BEEN_FOUND_ON_WOWHEAD_OR_THE",
 				export = true,
@@ -1276,7 +1276,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			{ "i", 206370 },	-- Blood of Innocents
 			-- #endif
 		},
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Can only be summoned if someone in your group has the Blood of Innocents.",
 			constant = "CAN_ONLY_BE_SUMMONED_IF_SOMEONE_IN_YOUR_GROUP",
 			export = true,
@@ -1388,7 +1388,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 		i(13725),	-- Krastinov's Bag of Horrors
 		o(180794, {	-- Journal of Jandice Barov
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Jandice Barov drops this item when killed, which teaches Felcloth Bag. You must be a tailor of skill 285 or higher to learn this recipe.",
 				constant = "JANDICE_BAROV_DROPS_THIS_ITEM_WHEN_KILLED_WHICH",
 				export = true,
@@ -1480,7 +1480,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 	}),
 	n(11622, {	-- Rattlegore
 		i(13873, {	-- Viewing Room Key
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You must use this item on the door prior to Vectus and Marduk.",
 				constant = "YOU_MUST_USE_THIS_ITEM_ON_THE_DOOR_PRIOR_TO",
 				export = true,
@@ -1564,7 +1564,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			i(18880),	-- Darkreaver's Head
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(228030, {	-- Malicious Axe
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There are no recorded drops for this version, if you get it to drop, @Crieve on Discord!",
 					constant = "THERE_ARE_NO_RECORDED_DROPS_FOR_THIS_VERSION_IF",
 					export = true,
@@ -1635,7 +1635,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 	}),
 	n(10508, {	-- Ras Frostwhisper
 		i(13626, {	-- Human Head of Ras Frostwhisper
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Use the Keepsake on him before he dies to turn him back into a human.",
 				constant = "USE_THE_KEEPSAKE_ON_HIM_BEFORE_HE_DIES_TO_TURN",
 				export = true,
@@ -1815,7 +1815,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		},
 	})),
 	n(COMMON_BOSS_DROPS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can drop from any of the mini-bosses in the crypt before fighting Darkmaster Gandling. The bosses other than Lady Illucia Barov have an item or two exclusive to their own drop tables.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_DROP_FROM_ANY_OF_THE_2",
 			export = true,
@@ -2125,7 +2125,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 	}),
 	n(1853, {	-- Darkmaster Gandling
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "You must fully clear out the six rooms around Headmaster's Study before this boss will spawn on the bottom floor. It is recommended that you clear the top floor last so that you have an opportunity to properly position your group.",
 			constant = "YOU_MUST_FULLY_CLEAR_OUT_THE_SIX_ROOMS_AROUND",
 			export = true,
@@ -2145,7 +2145,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 		}),
 		["groups"] = {
 			i(206373, {	-- Darkmaster's Scourgestone (QI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops only with equipped Argent Dawn Commission",
 					constant = "DROPS_ONLY_WITH_EQUIPPED_ARGENT_DAWN_COMMISSION",
 					export = true,
@@ -2347,7 +2347,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { ADDED_1_3_0, R
 			})),
 			-- #endif
 			i(13950, {	-- Detention Strap [CRIEVE NOTE: This item seems to have disappeared with TBC Classic.]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item seems to have disappeared in Classic. If you get this item in any game flavor, please screenshot this and send it directly to @Crieve on Discord!",
 					constant = "THIS_ITEM_SEEMS_TO_HAVE_DISAPPEARED_IN_CLASSIC_2",
 					export = true,
@@ -2420,7 +2420,7 @@ end
 -- #if AFTER 10.1.5
 table.insert(SCHOLOMANCE_GROUPS, header(HEADERS.Achievement, 18368, {	-- Memory of Scholomance
 	["sourceQuest"] = 76249,	-- Memory of Scholomance
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "With 10.1.5, Blizzard readded the original version of Scholomance!\n\nThank you, Blizzard!\n  -Crieve\n\nHere is how to get started:\n\n1. Obtain 'Krastinov's Bag of Horrors' from the rare spawn Doctor Theolen Krastinov in Scholomance, Heroic difficulty. This step can be skipped if you are accompanied by someone who already have the toy.\n\n2. Defeat Darkmaster Gandling in Headmaster's Retreat and enter the upper level centre room.\n\n3. Find a pile of bones on the ground in the southeastern part of the room, and use the toy 'Krastinov's Bag of Horrors'.\n\n4. Eva Sarkhoff should now have spawned, but you cannot interact with her before you remove the toy visage/buff named 'Surgical Alterations'.\n\n5. Accept Eva Sarkhoof's quest and her Inert Spectral Essence. Loot Eva's Femur from the pile of bones.\n\n6. Walk back upstairs to The Viewing Room. There is two bookcases in the southwestern corner of the room. Eva's Journal can be found on a middle shelf on the backside of the left bookcase.\n\n7. Obtain the reagents 3x Dark Runes and 5x Essence of Undeath and use the Inert Spectral Essence. Equip the crafted trinket 'Spectral Essence'.\n\n8. Obtain candles from doing objectives around Caer Darrow (outside Scholomance):\n8.1 Loot 'The Deed to Andorhal' from inside Andorhal Townhall at 43.35, 69.3., and give it to Magistrate Marduke at 70.5, 74.0.\n8.2 Loot 'Bucket of Fountain Water' from the candlelit fountain at 68.9, 78.8., and give it to Joseph Dirte at 68.0, 74.8.\n8.3 Loot 'Trampled Doll' from the meatwagon in Darrowshire at 35.7, 83.5. (Eastern Plaguelands!), return to Caer Darrow and give it to Sammy at 69.15, 78.7.\n8.4 Loot 'The Road Ahead' from a wall inside old Corin's Crossing tavern  at 55.0, 64.0. (Eastern Plaguelands!), return to Caer Darrow and give it to Artist Renfray at 65.8, 75.4.\n8.5 Loot 'Undelivered Shipment of Smokes' from a wagon behind the fountain at King's Square in Stratholme, return to Caer Darrow and give it to Rory at 63.4, 75.5.\n\n9. Use Eva's Journal to begin the ritual at 69.7, 71.7., inside Caer Darrow keep/open world Scholomance.",
 		constant = "WITH_10_1_5_BLIZZARD_READDED_THE_ORIGINAL",
 		export = true,
@@ -2474,7 +2474,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
 	["groups"] = {
 		-- #if AFTER 10.1.5
 		header(HEADERS.NPC, 206014, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Eva Sarkhoff
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "See the 'Memory of Scholomance'-header for proper instructions on how to do this.",
 				constant = "SEE_THE_MEMORY_OF_SCHOLOMANCE_HEADER_FOR_PROPER",
 				export = true,
@@ -2504,7 +2504,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
 						["sourceQuests"] = { 76248 },	-- Eva Sarkhoff
 						["groups"] = {
 							i(206346, {	-- Eva's Journal
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Use at 69.7, 71.7 outside the Scholomance Dungeon",
 									constant = "USE_AT_69_7_71_7_OUTSIDE_THE_SCHOLOMANCE",
 									export = true,
@@ -2551,7 +2551,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = bubbleDown({["ignoreBonus"] = true},{
 				i(85580, {	-- Empty Polyformic Acid Vial
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use this at the table nearby to apply the appearance, or to store the appearance once applied.",
 						constant = "USE_THIS_AT_THE_TABLE_NEARBY_TO_APPLY_THE",
 						export = true,
@@ -2601,7 +2601,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.NORMAL, {
 			["repeatable"] = true,
 			["lvl"] = lvlsquish(40, 40, 15),
 			-- #if AFTER 10.1.5
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Killing Rattlegore in Old Scholomance DOES NOT progress this quest.",
 				constant = "KILLING_RATTLEGORE_IN_OLD_SCHOLOMANCE_DOES_NOT",
 				export = true,
@@ -2901,7 +2901,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 			},
 		}),
 		n(59369, {	-- Doctor Theolen Krastinov
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This is a Rare Creature and, as such, is not always present.\nThe only way to find out if you will encounter him is right after Rattlegore is killed.\nHe will make his presence known...",
 				constant = "THIS_IS_A_RARE_CREATURE_AND_AS_SUCH_IS_NOT_4",
 				export = true,

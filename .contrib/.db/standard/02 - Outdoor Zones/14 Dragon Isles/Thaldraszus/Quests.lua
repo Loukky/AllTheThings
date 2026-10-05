@@ -1101,7 +1101,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			})),
 			header(HEADERS.Quest, 70377, {	-- Derelict Fashion
 				q(70377, {	-- Derelict Fashion
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from Mudgatu.",
 						constant = "DROPS_FROM_MUDGATU",
 						export = true,

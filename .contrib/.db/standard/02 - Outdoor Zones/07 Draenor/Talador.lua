@@ -94,7 +94,7 @@ root(ROOTS.Zones, {
 						crit(26580),	-- Xothear, the Destroyer
 					}),
 					ach(8920, {	-- Don't Let the Tala-door Hit You on the Way Out (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Talador Treasure Map' from Grakis in Stormshield.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_8",
 							export = true,
@@ -116,7 +116,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(8919, {	-- Don't Let the Tala-door Hit You on the Way Out (H)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Completing the Achievement will allow you to buy 'Talador Treasure Map' from Srikka in Warspear.",
 							constant = "COMPLETING_THE_ACHIEVEMENT_WILL_ALLOW_YOU_TO_9",
 							export = true,
@@ -200,7 +200,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1595),	-- Flat-Tooth Calf (PET!)
 						pet(1583, {	-- Kelp Scuttler (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found on the Orunai Coast, Talador; Tideskorn Harbor, Stormheim; and around Nar'Thalas Academy, Azsuna.",
 								constant = "FOUND_ON_THE_ORUNAI_COAST_TALADOR_TIDESKORN",
 								export = true,
@@ -221,7 +221,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1441),	-- Mud Jumper (PET!)
 						pet(1599, {	-- Shadow Sporebat (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found only in Zangarra.",
 								constant = "FOUND_ONLY_IN_ZANGARRA",
 								export = true,
@@ -1618,7 +1618,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(34721, {	-- Seek Out the Seer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Travels back and forth on the road.",
 							constant = "TRAVELS_BACK_AND_FORTH_ON_THE_ROAD",
 							export = true,
@@ -2180,7 +2180,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(78713, {	-- Galzomar
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Sikthis, Maiden of Slaughter, Kharazos the Triumphant, and Galzomar all share a spawn and drop the toy.",
 							constant = "SIKTHIS_MAIDEN_OF_SLAUGHTER_KHARAZOS_THE",
 							export = true,
@@ -2220,7 +2220,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116113) },	-- Breath of Talador (TOY!)
 					}),
 					n(85572, {	-- Grrbrrgle
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Click on the Restless Crate.",
 							constant = "CLICK_ON_THE_RESTLESS_CRATE",
 							export = true,
@@ -2258,7 +2258,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119403) },	-- Sargerei Soulbiter
 					}),
 					n(77715, {	-- Hammertooth
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Swims all around the area.",
 							constant = "SWIMS_ALL_AROUND_THE_AREA",
 							export = true,
@@ -2324,7 +2324,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119352) },	-- Demlash's Dashing Robe
 					}),
 					n(88494, {	-- Legion Vanguard
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill about 10 Council Soulspeakers, then kill 3 waves of 3 mobs, and then Legion Vanguard will spawn. Kill him.",
 							constant = "KILL_ABOUT_10_COUNCIL_SOULSPEAKERS_THEN_KILL_3",
 							export = true,
@@ -2376,7 +2376,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116077) },	-- Pulsating Brain of No'losh
 					}),
 					n(87668, {	-- Orumo the Observer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires 5 players standing on the runes in front of Orumo to release him from the Demonic Field and make him attackable.\nUltimately, you can summon him with 5 of your own characters.\nBy placing them in front of the runes and then logging onto each of your 5 characters, you will have just enough time from the first to the last to release him.",
 							constant = "REQUIRES_5_PLAYERS_STANDING_ON_THE_RUNES_IN",
 							export = true,
@@ -2469,7 +2469,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(112370) },	-- Shirzir's Sticky Slippers
 					}),
 					n(78715, {	-- Sikthiss, Maiden of Slaughter
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Sikthiss, Maiden of Slaughter, Kharazos the Triumphant, and Galzomar all share a spawn and drop the toy.",
 							constant = "SIKTHISS_MAIDEN_OF_SLAUGHTER_KHARAZOS_THE",
 							export = true,
@@ -2496,7 +2496,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116122) },	-- Burning Legion Missive (TOY!)
 					}),
 					n(51015, {	-- Silthide
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Silthide has a respawn timer between 12-28 hours. Mount drop rate is 100% for all participants.",
 							constant = "SILTHIDE_HAS_A_RESPAWN_TIMER_BETWEEN_12_28",
 							export = true,
@@ -2529,7 +2529,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(117562) },	-- Steeltusk's Steel Tusk
 					}),
 					n(77634, {	-- Taladorantula
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Kill small spiders around the egg sacs until you see warnings. The third warning should spawn the Taladorantula.",
 							constant = "KILL_SMALL_SPIDERS_AROUND_THE_EGG_SACS_UNTIL",
 							export = true,
@@ -2573,7 +2573,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(119383) },	-- Shoulderplates of the Vigilant
 					}),
 					n(77564, {	-- Viperlash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The spear spawns from the corpse of Viperlash.",
 							constant = "THE_SPEAR_SPAWNS_FROM_THE_CORPSE_OF_VIPERLASH",
 							export = true,
@@ -2600,7 +2600,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(77776, {	-- Wandering Vindicator
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After you defeat him, he turns friendly and tells you to loot his sword.",
 							constant = "AFTER_YOU_DEFEAT_HIM_HE_TURNS_FRIENDLY_AND",
 							export = true,
@@ -2646,7 +2646,7 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(227793, {	-- Aarko's Family Treasure
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Speak to Aarko.\nAssist him in killing 2 waves of enemies, then Surok Darkstorm.\nLoot the Treasure.",
 							constant = "SPEAK_TO_AARKO_ASSIST_HIM_IN_KILLING_2_WAVES_OF",
 							export = true,
@@ -2675,7 +2675,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116131) },	-- Amethyl Crystal
 					}),
 					o(228024, {	-- Aruuna Mining Cart
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Aruuna Crystal Mine.",
 							constant = "INSIDE_ARUUNA_CRYSTAL_MINE",
 							export = true,
@@ -2708,7 +2708,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 33.3, 76.8, TALADOR },
 					}),
 					o(229354, {	-- Bright Coin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Below the bridge.",
 							constant = "BELOW_THE_BRIDGE",
 							export = true,
@@ -2768,7 +2768,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116120) },	-- Tasty Talador Lunch (TOY!)
 					}),
 					o(236483, {	-- Gift of the Ancients
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Turn each statue to face the center.",
 							constant = "TURN_EACH_STATUE_TO_FACE_THE_CENTER",
 							export = true,
@@ -2803,7 +2803,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 75.1, 36.1, TALADOR },
 					}),
 					o(239198, {	-- Isaari's Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Rescue 4 citizens from cocoons in Deathweb Hollow.",
 							constant = "RESCUE_4_CITIZENS_FROM_COCOONS_IN_DEATHWEB",
 							export = true,
@@ -2827,7 +2827,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(117563) },	-- Deathweb Toxin Vial
 					}),
 					o(227953, {	-- Jug of Aged Ironwine
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside the cave at the base of Orunai Delta. Guarded by Murdor the Drunk.",
 							constant = "INSIDE_THE_CAVE_AT_THE_BASE_OF_ORUNAI_DELTA",
 							export = true,
@@ -2919,7 +2919,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(116117) },	-- Rook's Lucky Fishin' Line
 					}),
 					o(228483, {	-- Rusted Lockbox
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside Deathweb Hollow. Swim down to the bottom of the cavern.",
 							constant = "INSIDE_DEATHWEB_HOLLOW_SWIM_DOWN_TO_THE_BOTTOM",
 							export = true,
@@ -2953,7 +2953,7 @@ root(ROOTS.Zones, {
 						["groups"] = { i(117570) },	-- Auchenai Soulbinder's Signet
 					}),
 					o(227868, {	-- Sparkling Pool
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires Fishing.",
 							constant = "REQUIRES_FISHING",
 							export = true,
@@ -2981,7 +2981,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(230643, {	-- Teroclaw Nest
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found at the base of trees near Aruuna, the Tomb of Lights and Vol'jin's Pride guarded by Teroclaw Chicks.\nCan be looted 1 time per character.",
 							constant = "CAN_BE_FOUND_AT_THE_BASE_OF_TREES_NEAR_ARUUNA",
 							export = true,
@@ -3040,7 +3040,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 					n(84212, {	-- Kazbala
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor is only available until you reach 50 (Can be lower).\nItems are also available from vendors in Stormwind, Orgrimmar, and Dalaran.",
 							constant = "THIS_VENDOR_IS_ONLY_AVAILABLE_UNTIL_YOU_REACH",
 							export = true,
@@ -3093,7 +3093,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(84216, {	-- Talgaiir the Ironrender
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This vendor is only available at lower levels before he becomes phased out.\nItems are also available from Big Zokk Torquewrench in Area 52.\nItems require Legionnaire/Knight-Captain or higher for purchase.",
 							constant = "THIS_VENDOR_IS_ONLY_AVAILABLE_AT_LOWER_LEVELS",
 							export = true,

@@ -21,7 +21,7 @@ FAITHFUL_DOG = createHeader({
 });
 
 root(ROOTS.Secrets, n(FAITHFUL_DOG, {
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Multi-expansion secret to obtaining Dog as a companion pet.",
 		constant = "MULTI_EXPANSION_SECRET_TO_OBTAINING_DOG_AS_A",
 		export = true,
@@ -55,7 +55,7 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			},
 		}),
 		hqt(46952, name(HEADERS.Item, 147420, {	-- Step 2: Pebble (Show the Pebble to Dog)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Find a Loose Pebble on the streets of (Legion) Dalaran. Build an Herb Garden in your garrison.\nSpeak with Dog and show him the Pebble. Do not throw the Pebble at Dog.",
 				constant = "FIND_A_LOOSE_PEBBLE_ON_THE_STREETS_OF_LEGION",
 				export = true,
@@ -89,7 +89,7 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			["timeline"] = { ADDED_7_2_0 },
 		})),
 		hqt(83093, name(HEADERS.Object, 452438, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {	-- Step 3: Half-Buried Dog Bowl
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Interact with the bowl near Dalaran's crash site to bring Dog out of hiding.",
 				constant = "INTERACT_WITH_THE_BOWL_NEAR_DALARAN_S_CRASH",
 				export = true,
@@ -112,7 +112,7 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			["coord"] = { 31.4, 51.3, ISLE_OF_DORN },
 		}))),
 		hqt(83094, name(HEADERS.NPC, 225486, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {	-- Step 4: Interact with Dog
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Interact with Dog and <Pet his head> to get him as a pet.",
 				constant = "INTERACT_WITH_DOG_AND_PET_HIS_HEAD_TO_GET_HIM",
 				export = true,

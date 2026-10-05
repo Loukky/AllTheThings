@@ -560,7 +560,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			}),
 		}),
 		n(BREWFEST_BANQUET, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Every hour at the top of the hour, the public scenario takes place.\n\nTo take part, first complete the three required tutorial quests:\n1. Gathering the Grub\n2. Brewmaster's Kitchen\n3. Serving with Style.\n\nOnce that's done, speak with the event organizer to choose a role (gather, cook, or serve), and repeatedly complete those tasks to fill a shared progress bar within six minutes.\n\nOnce the six minutes are up, Keggor the Fermented will crash the party. Defeat the boss to end the event.",
 				constant = "EVERY_HOUR_AT_THE_TOP_OF_THE_HOUR_THE_PUBLIC",
 				export = true,
@@ -591,7 +591,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				n(EVENT_COMPLETION, {
 					i(243291, {	-- Bag of Brewfest Merchandise (Uncommon) Only Badges
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted for achieving a minimum of 33% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
 							constant = "GRANTED_FOR_ACHIEVING_A_MINIMUM_OF_33_SHARED",
 							export = true,
@@ -612,7 +612,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						["groups"] = BREWFEST_TOKEN,
 					}),
 					i(243292, {	-- Bag of Brewfest Merchandise (Rare) Only Cosmectics
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted for achieving a minimum of 66% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
 							constant = "GRANTED_FOR_ACHIEVING_A_MINIMUM_OF_66_SHARED",
 							export = true,
@@ -642,7 +642,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						},
 					}),
 					i(243293, {	-- Bag of Brewfest Merchandise (Epic) BoE's
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted for achieving 100% shared progress & then killing Keggor at the end of the Brewfest Banquet event.",
 							constant = "GRANTED_FOR_ACHIEVING_100_SHARED_PROGRESS_THEN",
 							export = true,
@@ -740,7 +740,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 		n(23872, {	-- Coren Direbrew
 			-- #if AFTER 3.0.1
 			-- #if BEFORE 10.0.5
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You can loot the keg once a day per character by queueing for the encounter in the Dungeon Finder.",
 				constant = "YOU_CAN_LOOT_THE_KEG_ONCE_A_DAY_PER_CHARACTER",
 				export = true,
@@ -793,7 +793,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							-- #endif
 						{
 							["name"] = "Coren Special Loot Attempt (Daily Accountwide)",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.\n\nYou can increase your chances by using additional (starter edition) licenses on your Battle.net account. These allow you to queue with up to 5 characters at the same time, by logging into multiple instances of the game simultaneously.",
 								constant = "THIS_ITEM_IS_ONLY_ELIGIBLE_TO_DROP_FOR_THE",
 								export = true,
@@ -822,7 +822,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 							["groups"] = {
 								i(248761, {	-- Brewfest Bomber (MOUNT!)
 									["timeline"] = { ADDED_11_2_0 },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Mouse over 'Coren Special Loot' for a mini-guide on how to greatly increase your chances of receiving this item.",
 										constant = "MOUSE_OVER_COREN_SPECIAL_LOOT_FOR_A_MINI_GUIDE",
 										export = true,
@@ -1375,7 +1375,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(13932, {	-- Another Year, Another Souvenir (A)
 					-- #if BEFORE WRATH
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest was only available during the 2009 & 2010 Brewfest. We are unsure if it will be returning during TBC Classic.",
 						constant = "THIS_QUEST_WAS_ONLY_AVAILABLE_DURING_THE_2009",
 						export = true,
@@ -1700,7 +1700,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						i(169599, {	-- Chowdown Champion Token
 							["timeline"] = { ADDED_8_2_0 },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Awarded for winning, you can participate as much as you can stomach!",
 								constant = "AWARDED_FOR_WINNING_YOU_CAN_PARTICIPATE_AS_MUCH",
 								export = true,
@@ -1823,7 +1823,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(12278, {	-- Brew of the Month Club (A)
 					-- #if BEFORE 3.0.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "We're not sure if completing this at the moment will get you progress on the achievement during Wrath as it does NOT retain its completion status after acquired.",
 						constant = "WE_RE_NOT_SURE_IF_COMPLETING_THIS_AT_THE_MOMENT",
 						export = true,
@@ -2122,7 +2122,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 				}),
 				q(11321, {	-- Did Someone Say "Souvenir?" (A)
 					-- #if BEFORE WRATH
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest was only available during the 2007 Brewfest.",
 						constant = "THIS_QUEST_WAS_ONLY_AVAILABLE_DURING_THE_2007",
 						export = true,
@@ -2645,7 +2645,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			})),
 			i(169448, {	-- Bottomless Brewfest Stein
 				-- #if AFTER TRANSMOG
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Fill up the stein with one brew, unequip and re-equip the filled stein, and then manually refresh your collection. Once it has registered, move on to the next brew and repeat.\n\nBarleybrew Clear and Thunder 45 can only be found in Dun Morogh, while Small Step Brew and Jungle River Water can be only found in Durotar. Gordok Grog is in both areas. Players can use the opposite faction's kegs; it just requires a little traveling!",
 					constant = "FILL_UP_THE_STEIN_WITH_ONE_BREW_UNEQUIP_AND_RE",
 					export = true,

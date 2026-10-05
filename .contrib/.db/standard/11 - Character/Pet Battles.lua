@@ -348,7 +348,7 @@ root(ROOTS.Character, petbattle(n(PET_BATTLES, {
 				}),
 				n(160210, {	-- Tasha Riley
 					["coord"] = { 41.1, 49.1, 1578 },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak with Tasha after you finish the last fight and join the COUNCIL OF CHAOS to get title.",
 						constant = "SPEAK_WITH_TASHA_AFTER_YOU_FINISH_THE_LAST",
 						export = true,
@@ -519,7 +519,7 @@ root(ROOTS.Character, petbattle(n(PET_BATTLES, {
 					i(169670),	-- Minimancer (PET!)
 				}),
 				ach(13766, {	-- Malowned
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To summon Postmaster Malown, find a Discarded Letter on the ground at one of the coordinates provided and put it in the mailbox at |cFFFfffff57.8, 13.6|r.\n",
 						constant = "TO_SUMMON_POSTMASTER_MALOWN_FIND_A_DISCARDED",
 						export = true,
@@ -672,7 +672,7 @@ root(ROOTS.Character, petbattle(n(PET_BATTLES, {
 		["timeline"] = { ADDED_5_0_4 },
 		["groups"] = {
 			pvp(i(165944, {	-- A Shady Message [A] (CI!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded from winning PvP Pet Battles",
 					constant = "REWARDED_FROM_WINNING_PVP_PET_BATTLES",
 					export = true,
@@ -723,7 +723,7 @@ root(ROOTS.Character, petbattle(n(PET_BATTLES, {
 			-- This itemID is for the bugged Caged Pet tooltip.
 			-- Keep it here to prevent NYI false reports whenever someone hovers over the tooltip.
 			i(82800, {	-- Pet Cage (PET!) [NYI]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cffff0000This item serves as a placeholder for a Caged Pet.\nIt appears in chat tooltips when caging a pet, or as a tooltip when viewing pets in the guild bank.|r",
 					constant = "CFFFF0000THIS_ITEM_SERVES_AS_A_PLACEHOLDER_FOR",
 					export = true,
@@ -980,7 +980,7 @@ root(ROOTS.Character, n(PET_BATTLES, {
 			["groups"] = {
 				i(86143, {	-- Battle Pet Bandage
 					["cost"] = { { "i", POLISHED_PET_CHARM, 5 } },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can also buy 25 Bandages for 5 Polished Pet Charms from most Battle Pet Vendors.",
 						constant = "YOU_CAN_ALSO_BUY_25_BANDAGES_FOR_5_POLISHED_PET",
 						export = true,

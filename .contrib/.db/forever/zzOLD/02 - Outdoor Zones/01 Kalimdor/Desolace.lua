@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 34,
 				}),
 				q(1385, {	-- Brutal Politics
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once you complete 'Khan Hratha' for the Gelkis Clan, you can accept and start working on this quest. Bare in mind that it is quite-the-grind to get back to Friendly. Best of luck to you!",
 						constant = "ONCE_YOU_COMPLETE_KHAN_HRATHA_FOR_THE_GELKIS",
 						export = true,
@@ -366,7 +366,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 34,
 				}),
 				q(5421, {	-- Fish in a Bucket
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must be on the quest 'Catch of the Day' to accept this quest. It becomes unavailable after you turn in that quest as well.\n\nConsideration: You can make 55s for every 5 Shellfish you turn in and sell the fish on the AH. Up to you if your time is worth more or not. On densely populated servers, probably not a good idea.",
 						constant = "YOU_MUST_BE_ON_THE_QUEST_CATCH_OF_THE_DAY_TO",
 						export = true,
@@ -831,7 +831,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(1382, {	-- Strange Alliance
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once you complete 'Khan Hratha' for the Magram Clan, you can accept and start working on this quest. Bare in mind that it is quite-the-grind to get back to Friendly. Best of luck to you!",
 						constant = "ONCE_YOU_COMPLETE_KHAN_HRATHA_FOR_THE_MAGRAM",
 						export = true,
@@ -1074,7 +1074,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 			}),
 			n(TREASURES, {
 				o(176582, {	-- Shellfish Trap
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You can interact with Shellfish Traps only during the quest |cFFE50D12Fish in a Bucket|r (5421).\n\nIf you want to obtain the |cFFFFFFFFBig Iron Fishing Pole|r, |cFFFFFFFFDO NOT|r turn in the quest until you do.",
 						constant = "YOU_CAN_INTERACT_WITH_SHELLFISH_TRAPS_ONLY",
 						export = true,

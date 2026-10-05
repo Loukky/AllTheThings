@@ -93,7 +93,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(523, {	-- Devouring Maggot (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found in the Utgarde Catacombs at the very bottom of the zombie pit, as well as occasionally as a secondary pet.",
 								constant = "CAN_BE_FOUND_IN_THE_UTGARDE_CATACOMBS_AT_THE",
 								export = true,
@@ -114,7 +114,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 56.5, 51.0, HOWLING_FJORD },
 						}),
 						pet(644, {	-- Fjord Rat (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in Wyrmskull Village outside Utgarde Keep as well as occasionally as a secondary pet.",
 								constant = "FOUND_IN_WYRMSKULL_VILLAGE_OUTSIDE_UTGARDE_KEEP",
 								export = true,
@@ -135,7 +135,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 58.0, 52.0, HOWLING_FJORD },
 						}),
 						pet(529, {	-- Fjord Worg Pup (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around Kamagua, on The Isle of Spears.",
 								constant = "FOUND_AROUND_KAMAGUA_ON_THE_ISLE_OF_SPEARS",
 								export = true,
@@ -156,7 +156,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 30.0, 62.0, HOWLING_FJORD },
 						}),
 						pet(525, {	-- Turkey (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found inside the Alliance settlements Valgarde and Westguard Keep, as well as occasionally as secondary pet.",
 								constant = "FOUND_INSIDE_THE_ALLIANCE_SETTLEMENTS_VALGARDE",
 								export = true,
@@ -288,7 +288,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66635, {	-- Beegle Blastfuse <Master Pet Tamer>
 						["coord"] = { 28.6, 33.8, HOWLING_FJORD },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Beegle's pets are level 25 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Flying - see above.\n3. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Ageless Bronze Drake (Tail Sweap/Ancient Blessing/Rewind Time) and Abyssius (Crush/Flamethrower/Metero Strike).",
 							constant = "BEEGLE_S_PETS_ARE_LEVEL_25_OF_THE_FOLLOWING",
 							export = true,
@@ -1082,7 +1082,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(11289, {	-- Guided by Honor
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside the |cFFFFD700Utgarde Catacombs|r.",
 							constant = "INSIDE_THE_CFFFFD700UTGARDE_CATACOMBS_R",
 							export = true,
@@ -1628,7 +1628,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(13087, {	-- Northern Cooking (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires |cFFFFD700Northrend Cooking|r.",
 							constant = "REQUIRES_CFFFFD700NORTHREND_COOKING_R",
 							export = true,
@@ -2631,7 +2631,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(11288, {	-- The Shining Light
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Inside the |cFFFFD700Utgarde Catacombs|r. You need to pick up |cFFFFD700The Path to Payback|r first to see this quest.",
 							constant = "INSIDE_THE_CFFFFD700UTGARDE_CATACOMBS_R_YOU",
 							export = true,
@@ -3138,7 +3138,7 @@ root(ROOTS.Zones, {
 					}),
 					n(23802, {	-- Wink Sprinklesprankle <General Goods & Trade Supplies>
 						["coord"] = { 58.4, 62.75, HOWLING_FJORD },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Walks in a circle inside Valgarde Inn.",
 							constant = "WALKS_IN_A_CIRCLE_INSIDE_VALGARDE_INN",
 							export = true,

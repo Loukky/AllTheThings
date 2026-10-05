@@ -495,7 +495,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/10 Murloc Head
 							["provider"] = { "i", 3716 },	-- Murloc Head
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Running joke is that since all adventurers take from the Murlocs is their heads, that's why the drop rate is so low - there's a bunch of headless murlocs running around!",
 								constant = "RUNNING_JOKE_IS_THAT_SINCE_ALL_ADVENTURERS_TAKE",
 								export = true,
@@ -1156,7 +1156,7 @@ root(ROOTS.Zones, m(MAP.EASTERN_KINGDOMS, {
 			}),
 			n(ZONE_DROPS, {
 				i(3668, {	-- Assassin's Contract
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The assassins spawn as part of a random world event. AFK in Southshore and eventually they'll spawn nearby.",
 						constant = "THE_ASSASSINS_SPAWN_AS_PART_OF_A_RANDOM_WORLD",
 						export = true,

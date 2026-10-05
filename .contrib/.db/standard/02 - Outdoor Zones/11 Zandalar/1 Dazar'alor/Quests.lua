@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			-- figure out if "The Warchief's Order" and "The Warfront Looms" are breadcrumbs. they're both auto-popup quests after you hit 120, unlock WQs, and relog. they both direct you to go to dazar'alor and speak with an NPC to pursue nazjatar and the arathi warfront, respectively.
 
 			n(OUTPOSTS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Horde Outposts allow you to set up additional bases in Kul Tiras. You can buy Scouting Reports from Ransa, the vendor next to The Banshee's Wail. Each one will start a mission on your Mission Command Table. After you complete the initial questline, you'll be offered additional missions to upgrade your outposts.",
 					constant = "HORDE_OUTPOSTS_ALLOW_YOU_TO_SET_UP_ADDITIONAL",
 					export = true,
@@ -546,7 +546,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["isBreadcrumb"] = true,
 			}),
 			q(56249, {	-- I Am the Trashmaster
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to get Trashmaster's Mantle from K.U.-J.0. boss in Mechagon for this quest.",
 					constant = "YOU_NEED_TO_GET_TRASHMASTER_S_MANTLE_FROM_K_U_J",
 					export = true,
@@ -889,7 +889,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(56030, {	-- The Warchief's Order
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If not encountered the regular way, this can be obtained via party sync. You need to sync with a character has not yet started BFA. You then need to pick up the quest A Dying World and run it again. Continue up to and finish the quest Infusing the Heart. Then this quest should pop up for you.",
 					constant = "IF_NOT_ENCOUNTERED_THE_REGULAR_WAY_THIS_CAN_BE_2",
 					export = true,

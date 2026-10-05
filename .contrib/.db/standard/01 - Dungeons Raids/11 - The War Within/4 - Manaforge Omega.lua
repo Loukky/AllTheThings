@@ -696,7 +696,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 					}),
 					hqt(91064, {	-- Stay awhile and listen: Alleria Windrunnner
 						["name"] = "Stay awhile and listen: Alleria Windrunnner",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available after defeating Dimensius.",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_DEFEATING",
 							export = true,
@@ -738,7 +738,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				BossOnly(SALHADAAR, {
 					i(243365),	-- Maw of the Void
 					i(246727, {	-- Ethereal Essence Sliver
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a small chance dropping as Personal Loot from Nexus-King Salhadaar once you have reached Renown 12 with the Manaforge Vandals.",
 							constant = "HAS_A_SMALL_CHANCE_DROPPING_AS_PERSONAL_LOOT_2",
 							export = true,

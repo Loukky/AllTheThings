@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				}),
 			}),
 			n(207554, {		-- Verlann Timbercrush
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns at the end of the Superbloom Event.\nThe Event always starts on the hour.",
 					constant = "SPAWNS_AT_THE_END_OF_THE_SUPERBLOOM_EVENT_THE",
 					export = true,
@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			}),
 			n(REWARDS, {
 				i(211414, {	-- Blossoming Dreamtrove
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 8000 points during the Superbloom Event.\nThe Event always starts on the hour.",
 						constant = "GRANTED_FOR_ACHIEVING_8000_POINTS_DURING_THE",
 						export = true,
@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					}),
 				}),
 				i(211413, {	-- Budding Dreamtrove
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 5333 or more points during the Superbloom Event.\nThe Event always starts on the hour.",
 						constant = "GRANTED_FOR_ACHIEVING_5333_OR_MORE_POINTS",
 						export = true,
@@ -217,7 +217,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					},
 				}),
 				i(211411, {	-- Sprouting Dreamtrove
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Granted for achieving 2600 or more points during the Superbloom Event.\nThe Event always starts on the hour.",
 						constant = "GRANTED_FOR_ACHIEVING_2600_OR_MORE_POINTS",
 						export = true,

@@ -362,7 +362,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			------ Tools of Trade Questline ------
 			q(54005, {	-- What the Drust Knew [A]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Kul Tiran Enchanting.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_KUL_TIRAN_2",
 					export = true,
@@ -386,7 +386,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(54161, {	-- What the Drust Knew [H]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest chain requires 150 in Zandalari Enchanting.",
 					constant = "THIS_QUEST_CHAIN_REQUIRES_150_IN_ZANDALARI_2",
 					export = true,
@@ -544,7 +544,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		})),
 		n(QUESTS, {
 			q(70360, {	-- Dragon Isles Enchanting
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This quest can only be picked up PRIOR to learning Dragon Isles Enchanting.",
 					constant = "THIS_QUEST_CAN_ONLY_BE_PICKED_UP_PRIOR_TO_4",
 					export = true,
@@ -731,7 +731,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 		}),
 		n(TREASURES, {
 			o(380558, {	-- Enchanted Debris
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the Disenchanted Broom, then follow it to the location of the treasure.",
 					constant = "INTERACT_WITH_THE_DISENCHANTED_BROOM_THEN",
 					export = true,
@@ -876,7 +876,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			q(70515, {	-- DF Weekly Enchanting Knowledgepoint #3
 				["name"] = "DF Enchanting Drop #1: Primalist",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any mob with Primalist in the name.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_MOB_WITH_PRIMALIST_IN_THE_NAME",
 					export = true,
@@ -900,7 +900,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			q(70514, {	-- DF Weekly Enchanting Knowledgepoint #4
 				["name"] = "DF Enchanting Drop #2: Arcane Elemental",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from any Arcane Elemental.\nCoordinates link to the spot(s) we found best.",
 					constant = "DROPS_FROM_ANY_ARCANE_ELEMENTAL_COORDINATES",
 					export = true,
@@ -1087,7 +1087,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			q(84290, {	-- TWW Weekly Enchanting Knowledgepoint #3
 				["name"] = "TWW Weekly Enchanting Disenchant #1",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Rewarded when disenchanting items.",
 					constant = "REWARDED_WHEN_DISENCHANTING_ITEMS",
 					export = true,
@@ -1345,7 +1345,7 @@ profession(ENCHANTING, {
 			r(158889),	-- Gift of Versatility
 		}),
 		cat(653, {	-- Illusions
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Talk to your Garrison Follower to learn these. If they do not immediately cache, try relogging and then talking to them again.\n\n - Crieve",
 				constant = "TALK_TO_YOUR_GARRISON_FOLLOWER_TO_LEARN_THESE",
 				export = true,

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(MECHAGON, {
 		n(ACHIEVEMENTS, {
 			ach(13790, {	-- Armed for Action
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Each criteria can be earned by creating weapons with Rocket-Chief Fuselage during the |cFFffd200Toys for Destruction|r daily.",
 					constant = "EACH_CRITERIA_CAN_BE_EARNED_BY_CREATING_WEAPONS",
 					export = true,
@@ -513,7 +513,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				}),
 			}),
 			ach(13696, {	-- Scrappy's Best Friend
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When you find Scrappy, use an |cff0070ddEnergy Cell|r to revive him and then feed him a |CffffffffMechano-Treat|r. He runs around after being revived by any player, so if you can't find him try using a /tar macro in the general Rustbolt area.",
 					constant = "WHEN_YOU_FIND_SCRAPPY_USE_AN_CFF0070DDENERGY",
 					export = true,
@@ -552,7 +552,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["groups"] = {
 					i(167698, {	-- Secret Fish Goggles
 						-- #if BEFORE 11.1.5
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This becomes a toy in 11.1.5.",
 							constant = "THIS_BECOMES_A_TOY_IN_11_1_5",
 							export = true,

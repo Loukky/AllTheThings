@@ -56,7 +56,7 @@ ExportDB.OnTooltipDB.ForLockpicking = [[~function(t, tooltipInfo)
 end]];
 root(ROOTS.Professions, lockpicking({
 	-- #if AFTER CATA
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Lockpicking now skills up as you level, you no longer need to practice. Hovering over your Pick Lock ability will show the current level of box you can open.",
 		constant = "LOCKPICKING_NOW_SKILLS_UP_AS_YOU_LEVEL_YOU_NO",
 		export = true,
@@ -75,7 +75,7 @@ root(ROOTS.Professions, lockpicking({
 		},
 	}),
 	-- #else
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Lockpicking needs to be leveled up by practicing on lockboxes found in the world and junkboxes looted by using your pickpocket ability on appropriately leveled mobs.",
 		constant = "LOCKPICKING_NEEDS_TO_BE_LEVELED_UP_BY",
 		export = true,

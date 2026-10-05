@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(64982, {	-- Cat (Well-Fed) Soul
 				["name"] = "Cat (Well-Fed) Soul",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After obtaining the Cat Soul, grab a |cFFFFFFFFSpectral Feed|r located at |cFFFFFFFF63.75, 61.69|r in Revendreth. Then return to Heart of the Forest with it, and go to the Queen's Conservatory portal downstairs.\nFind |cFFFFFFFFMa'oh|r next to the portal and |cFFFFFFFF/meow|r at them. Then use the |cFFFFFFFFSpectral Feed|r from your inventory while targeting them.",
 					constant = "AFTER_OBTAINING_THE_CAT_SOUL_GRAB_A",
 					export = true,
@@ -51,7 +51,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(64939, {	-- Choofa/Squirrel Soul
 				["name"] = "Choofa/Squirrel Soul",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Talk to Choofa in the covenant sanctum.",
 					constant = "TALK_TO_CHOOFA_IN_THE_COVENANT_SANCTUM",
 					export = true,
@@ -75,7 +75,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "i", 187904 },	-- Cloud Serpent Soul
 			})),
 			pvp(q(64651, {	-- Cobra Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from rated PvP.",
 					constant = "DROPS_FROM_RATED_PVP",
 					export = true,
@@ -97,7 +97,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			})),
 			q(64938, {	-- Corgi Soul
 				["name"] = "Corgi Soul",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Emote |cFFFFFFFF/pet|r on the little corgi named Sparkle running around the night fae covenant sanctum.",
 					constant = "EMOTE_CFFFFFFFF_PET_R_ON_THE_LITTLE_CORGI_NAMED",
 					export = true,
@@ -153,7 +153,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "i", 182171 },	-- Hippogryph Soul
 			}),
 			q(64650, {	-- Hyena Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from Mythic Dungeons.",
 					constant = "DROPS_FROM_MYTHIC_DUNGEONS",
 					export = true,
@@ -235,7 +235,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				-- ["crs"] = { 168647 },	-- Valfir the Unrelenting
 			}),
 			pvp(q(63604, {	-- Shoveltusk Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from PvP.",
 					constant = "DROPS_FROM_PVP",
 					export = true,
@@ -291,7 +291,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				-- ["crs"] = { 164415 },	-- Skuld Vit
 			}),
 			pvp(q(62440, {	-- Wyvern Soul
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops from random battlegrounds.",
 					constant = "DROPS_FROM_RANDOM_BATTLEGROUNDS",
 					export = true,

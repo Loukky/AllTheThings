@@ -950,7 +950,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				["groups"] = {
 					pet(430),	-- Gold Beetle (PET!)
 					pet(491, {	-- Sand Kitten (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This pet has very few spawn points and may be easier to find as a second pet, but is sometimes around Gadgetzan. 'Rare' kittens are not easy to come across.",
 							constant = "THIS_PET_HAS_VERY_FEW_SPAWN_POINTS_AND_MAY_BE",
 							export = true,
@@ -970,7 +970,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(560, {	-- Sea Gull (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Most commonly found on beaches or near the ocean.",
 							constant = "MOST_COMMONLY_FOUND_ON_BEACHES_OR_NEAR_THE",
 							export = true,
@@ -990,7 +990,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(494, {	-- Silithid Hatchling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This wild pet can be found in The Gaping Chasm and The Noxious Lair in Tanaris. It only spawns during sandstorms.",
 							constant = "THIS_WILD_PET_CAN_BE_FOUND_IN_THE_GAPING_CHASM",
 							export = true,
@@ -3028,7 +3028,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25566, {	-- The Secrets of Uldum (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If chest disappears for you, go to Zidormi in Uldum and ask her to return you back in time.",
 						constant = "IF_CHEST_DISAPPEARS_FOR_YOU_GO_TO_ZIDORMI_IN",
 						export = true,
@@ -3775,7 +3775,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				n(40216, {	-- Blazzek the Biter <Vicious Gladiator>
 					["coord"] = { 51.6, 28.0, TANARIS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Some items may require you to buy specific class ensembles to unlock every item from the vendor. Shift Rightclick the item to see which ensemble.",
 						constant = "SOME_ITEMS_MAY_REQUIRE_YOU_TO_BUY_SPECIFIC",
 						export = true,
@@ -4137,7 +4137,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				i(9276, {	-- Pirate's Footlocker
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Pirate's Footlocker is one of two sources for Southsea Lamp, and is commonly found on Southsea Pirates and Southsea Swashbucklers within the enclosure at Lost Rigger's Cove.",
 						constant = "THE_PIRATE_S_FOOTLOCKER_IS_ONE_OF_TWO_SOURCES",
 						export = true,

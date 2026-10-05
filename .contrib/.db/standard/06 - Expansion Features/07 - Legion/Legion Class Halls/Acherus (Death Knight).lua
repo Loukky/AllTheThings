@@ -37,7 +37,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						n(111093, {	-- Stitchwork
 							["questID"] = 44188,	-- Hidden Tracking
 							["maps"] = { ICECROWN_CITADEL, 187, 188, 189, 190, 191, 192, 193 },	-- Icecrown Citadel
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "\"Professor Putricide's Lost Journal\" drops from ghouls summoned by your Apocalypse or Army of the Dead spells anywhere in the world. If this is checked off as completed, you will be eligible to enter the trap door in Putricide's room under the Green Slime Pipe. You do not have to interact with the book to be eligible.",
 								constant = "PROFESSOR_PUTRICIDE_S_LOST_JOURNAL_DROPS_FROM",
 								export = true,
@@ -239,7 +239,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 52.3, 34.5, DEADWIND_PASS },
 						}),
 						q(40934, {	-- The Dark Riders (Good)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Obtainable if you are good to Revil Kost",
 								constant = "OBTAINABLE_IF_YOU_ARE_GOOD_TO_REVIL_KOST",
 								export = true,
@@ -272,7 +272,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							},
 						}),
 						q(40986, {	-- The Dark Riders (Bad)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Obtainable if you attack Revil Kost",
 								constant = "OBTAINABLE_IF_YOU_ATTACK_REVIL_KOST",
 								export = true,

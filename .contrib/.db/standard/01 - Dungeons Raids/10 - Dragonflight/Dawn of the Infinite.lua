@@ -16,7 +16,7 @@ DIVERGENT = createHeader({
 });
 
 local QUANTUM_GROUP = sharedData({
-	createLocalizationString({
+	["description"] = createLocalizationString({
 		readable = "Has a 100% drop chance on Mythic Difficulty. This Item turns into one (1) unlearned Item based on ItemID/SourceID from before Dragonflight (10.0).\nOnly items with no alternative source will be attached to the Quantum Tokens.\n\n|cFF1EFF0CPossible Items: The Quantum token will transform into an item from one of these sources:\nAny available Raid\nAny Dungeon (including removed Deadmines&Stockades)\nCrate Items from lowlevel PvP (including removed)\nEvents such as Dungeon Timewalking (including removed Events)\nGarrison Tokens (WoD)\nIsland Expeditions\nNever obtainable Items (if listed in the appearance journal)\nOutdoor Drops&Rewards (including removed)\nSatchel Items from random leveling Dungeons (including removed)\nScenarios (MoP&Torghast)|r\n\n|CFFFF0000Impossible Items: The Quantum Token will not grant you an item from these sources:\nAppearances not listed in the Journal\nChallenge Mode Items\nDragonflight+ Items\nCrafted Items\nQuest Rewards\nRemoved Raids\nVendor Items\nTier3 Set Items|r\n\n|cFFFF0000If you come across an Item that has been removed from the game or was previously unavailable,\nplease notify us on the ATT Discord.|r",
 		constant = "HAS_A_100_DROP_CHANCE_ON_MYTHIC_DIFFICULTY_THIS",
 		export = true,
@@ -699,7 +699,7 @@ local QUANTUM_GROUP = sharedData({
 		}),
 	}),
 	i(208216, {	-- Reins of the Quantum Courser
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Turns into one (1) unlearned Dungeon Mount from before Dragonflight.",
 			constant = "TURNS_INTO_ONE_1_UNLEARNED_DUNGEON_MOUNT_FROM",
 			export = true,

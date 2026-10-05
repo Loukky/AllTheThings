@@ -278,7 +278,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				n(201664, {	-- Temporal Investi-gator
 					["sourceQuests"] = { 75986 },	-- Feats Per Minute
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Go in Everywhere Inn at 2nd floor, borrow Melly's Metronographer, use it near Bartender Bob, buy Infinitea from Bartender Blob and fly at coords, use it and interact with object to summon rare",
 						constant = "GO_IN_EVERYWHERE_INN_AT_2ND_FLOOR_BORROW_MELLY",
 						export = true,
@@ -315,7 +315,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["qi"] = 208449,	-- Melly's Metronographer+++ (QI!)
 					["groups"] = {
 						i(208448, {	-- Infinitea
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Timer starts right after you buy it.",
 								constant = "TIMER_STARTS_RIGHT_AFTER_YOU_BUY_IT",
 								export = true,
@@ -384,7 +384,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 52.2, 81.4, THALDRASZUS },
 					["groups"] = {
 						i(208449, {	-- Melly's Metronographer+++ (QI!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Use next to 'Bartender Bob'.",
 								constant = "USE_NEXT_TO_BARTENDER_BOB",
 								export = true,

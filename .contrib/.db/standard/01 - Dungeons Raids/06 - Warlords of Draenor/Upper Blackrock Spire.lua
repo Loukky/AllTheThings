@@ -181,7 +181,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				BossOnly(KYRAK, {
 				}),
 				n(77081, {	-- The Lanticore
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This rare spawns to the right of Kyrak, the second boss.",
 						constant = "THIS_RARE_SPAWNS_TO_THE_RIGHT_OF_KYRAK_THE",
 						export = true,

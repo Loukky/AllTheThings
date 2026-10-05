@@ -44,7 +44,7 @@ root(ROOTS.Instances, {
 								{ "i", 6283 },	-- The Book of Ur
 								{ "o", 36738 },	-- The Book of Ur
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found on a bookshelf in the circular room with Fenrus.",
 								constant = "CAN_BE_FOUND_ON_A_BOOKSHELF_IN_THE_CIRCULAR",
 								export = true,
@@ -166,7 +166,7 @@ root(ROOTS.Instances, {
 				},
 			}),
 			n(3872, {	-- Deathsworn Captain
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a Rare Creature and, as such, is not always present.\nCan be found in place of a Tormented Officer patrolling the outdoor wall section just after the boss Commander Springvale.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command..",
 					constant = "THIS_IS_A_RARE_CREATURE_AND_AS_SUCH_IS_NOT_2",
 					export = true,

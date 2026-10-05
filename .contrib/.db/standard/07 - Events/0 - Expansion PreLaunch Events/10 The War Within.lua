@@ -13,7 +13,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 			ach(40796),	-- This Takes Me Back
 		}),
 		n(BONUS_OBJECTIVES, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can drop randomly from boss and memory events, Recruit drops respect usability but Dalaran Defender drops do not.",
 				constant = "CAN_DROP_RANDOMLY_FROM_BOSS_AND_MEMORY_EVENTS",
 				export = true,
@@ -199,7 +199,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, {
 		n(BOSSES, {
 			m(EASTERN_KINGDOMS, {
 				i(226256, {	-- Token of the Remembrancers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops once per week per character.",
 						constant = "DROPS_ONCE_PER_WEEK_PER_CHARACTER",
 						export = true,

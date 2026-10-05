@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(4881, {	-- Assassination Plot
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The item that starts this quest is dropped by Galak Messengers.",
 						constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_IS_DROPPED_BY",
 						export = true,
@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- Secret phrase found
 							["provider"] = { "n", 6626 },	-- "Plucky" Johnson
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Target Plucky and then use /beckon at him.",
 								constant = "TARGET_PLUCKY_AND_THEN_USE_BECKON_AT_HIM",
 								export = true,
@@ -721,7 +721,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 25,
 					["groups"] = {
 						objective(1, {	-- Answer Braug Dimspirit's question correctly
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The answer is Neltharion.",
 								constant = "THE_ANSWER_IS_NELTHARION",
 								export = true,
@@ -758,7 +758,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["lvl"] = 25,
 					["groups"] = {
 						objective(1, {	-- Answer Parqual Fintallas' question correctly
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The answer is Nerzhul.",
 								constant = "THE_ANSWER_IS_NERZHUL",
 								export = true,
@@ -912,7 +912,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				q(1191, {	-- Zamek's Distraction
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is repeatable, but can only be completed while you have the quest \"Keeping Pace\" in your quest log.",
 						constant = "THIS_QUEST_IS_REPEATABLE_BUT_CAN_ONLY_BE_3",
 						export = true,

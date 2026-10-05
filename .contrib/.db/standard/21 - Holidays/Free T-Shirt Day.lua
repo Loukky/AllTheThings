@@ -25,7 +25,7 @@ FREE_T_SHIRT_DAY_HEADER = createHeader({
 root(ROOTS.Holidays, applyevent(EVENTS.FREE_T_SHIRT_DAY, n(FREE_T_SHIRT_DAY_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {
 	n(SPECIAL, {
 		n(145826, {	-- Orgrimmar Entertainer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This NPC wanders around in Ogrimmar and shoots T-Shirts on the ground where you can pick them up.",
 				constant = "THIS_NPC_WANDERS_AROUND_IN_OGRIMMAR_AND_SHOOTS",
 				export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FREE_T_SHIRT_DAY, n(FREE_T_SHIRT_DAY_HEAD
 			},
 		}),
 		n(150942, {	-- Stormwind Entertainer
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This NPC wanders around in Stormwind and shoots T-Shirts on the ground where you can pick them up.",
 				constant = "THIS_NPC_WANDERS_AROUND_IN_STORMWIND_AND_SHOOTS",
 				export = true,

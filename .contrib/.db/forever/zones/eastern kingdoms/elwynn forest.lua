@@ -998,7 +998,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ELWYNN_FOREST, {
 						},
 					}),
 					i(1191, {	-- Bag of Marbles
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "One of the single best PvE defensive cooldowns. Choose your targets wisely... Save for Patchwerk!",
 							constant = "ONE_OF_THE_SINGLE_BEST_PVE_DEFENSIVE_COOLDOWNS",
 							export = true,

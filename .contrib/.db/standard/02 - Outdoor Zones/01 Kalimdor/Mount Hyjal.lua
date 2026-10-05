@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(5483, {	-- Bounce
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires the regrowth phase of Mount Hyjal.",
 						constant = "REQUIRES_THE_REGROWTH_PHASE_OF_MOUNT_HYJAL",
 						export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				ach(4863),	-- Explore Hyjal
 				ach(5860, {		-- The 'Unbeatable?' Pterodactyl: BEATEN.
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The daily quest 'Vigilance on Wings' is offered in Firelands Hatchery after completing the intial quests as part of the questline in Shrine of Aviana.",
 						constant = "THE_DAILY_QUEST_VIGILANCE_ON_WINGS_IS_OFFERED",
 						export = true,
@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 					["groups"] = {
 						i(69838, {		-- Chirping Box (Blue / Gold Mini Jouster - which ever wasnt picked during !Vigilance on Wings)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains either the Blue or Gold Mini Jouster, whichever was not picked during the quest Vigilance on Wings.",
 								constant = "CONTAINS_EITHER_THE_BLUE_OR_GOLD_MINI_JOUSTER",
 								export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(540, {	-- Carrion Rat (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only found at the given coords, and as secondary pet.",
 							constant = "ONLY_FOUND_AT_THE_GIVEN_COORDS_AND_AS_SECONDARY",
 							export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(755, {	-- Death's Head Cockroach (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in areas where the Twilight Hammer have set up camp in Mount Hyjal, as well as common secondary pet to other critters.",
 							constant = "CAN_BE_FOUND_IN_AREAS_WHERE_THE_TWILIGHT_HAMMER",
 							export = true,
@@ -158,7 +158,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(479, {	-- Elfin Rabbit (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found mostly around Nordrassil in Mount Hyjal, as well as Teldrassil.",
 							constant = "FOUND_MOSTLY_AROUND_NORDRASSIL_IN_MOUNT_HYJAL",
 							export = true,
@@ -184,7 +184,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(415, {	-- Fire Beetle (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Common around fiery and dry areas of Mount Hyjal, as well as around Searing Gorge, Blasted Lands and Burning Steppes",
 							constant = "COMMON_AROUND_FIERY_AND_DRY_AREAS_OF_MOUNT",
 							export = true,
@@ -207,7 +207,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(541, {	-- Fire-Proof Roach (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Common around fiery and dry areas of Mount Hyjal.",
 							constant = "COMMON_AROUND_FIERY_AND_DRY_AREAS_OF_MOUNT_2",
 							export = true,
@@ -230,7 +230,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(539, {	-- Grotto Vole (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the Hyjal Barrow Dens.",
 							constant = "CAN_BE_FOUND_IN_THE_HYJAL_BARROW_DENS",
 							export = true,
@@ -253,7 +253,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(547, {	-- Nordrassil Wisp (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found around the Nordrassil pond.",
 							constant = "CAN_BE_FOUND_AROUND_THE_NORDRASSIL_POND",
 							export = true,
@@ -276,7 +276,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(503, {	-- Silky Moth (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found around the Nordrassil pond, as well as in Moonglade and Un'Goro Crater.",
 							constant = "CAN_BE_FOUND_AROUND_THE_NORDRASSIL_POND_AS_WELL",
 							export = true,
@@ -301,7 +301,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					pet(469, {	-- Twilight Beetle (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in areas where the Twilight Hammer have set up camp.",
 							constant = "CAN_BE_FOUND_IN_AREAS_WHERE_THE_TWILIGHT_HAMMER_2",
 							export = true,
@@ -376,7 +376,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(22739),	-- Tome of Polymorph: Turtle (CI!)
 					}),
 					i(68050, {	-- Shatterscale Mightfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught by fishing in lava using a special lure.",
 							constant = "CAN_BE_CAUGHT_BY_FISHING_IN_LAVA_USING_A",
 							export = true,
@@ -862,7 +862,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25303, {	-- Elementary!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Activate in order 1. Fire, 2. Earth, 3. Air and 4. Water.",
 						constant = "ACTIVATE_IN_ORDER_1_FIRE_2_EARTH_3_AIR_AND_4",
 						export = true,
@@ -1347,7 +1347,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25355, {	-- Lightning in a Bottle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Before using Totem of Lo'Gosh to turn in the quest, get back to the camp and stand next to Takrik Ragehowl. Summon Spirit of Lo'Gosh, turn in your quest and without going anywhere pick up Into the Maw! from Takrik Ragehowl and then pick up Into the Maw! from Spirit of Lo'Gosh (in this order). Congratulations, you got two quests for the price of one!",
 						constant = "BEFORE_USING_TOTEM_OF_LO_GOSH_TO_TURN_IN_THE",
 						export = true,
@@ -1380,7 +1380,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25353, {	-- Lightning in a Bottle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Before using Totem of Goldrinn to turn in the quest, get back to the camp and stand next to Ian Duran. Summon Goldrinn, turn in your quest and without going anywhere pick up Into the Maw! from Ian Duran and then pick up Into the Maw! from Goldrinn (in this order). Congratulations, you got two quests for the price of one!",
 						constant = "BEFORE_USING_TOTEM_OF_GOLDRINN_TO_TURN_IN_THE",
 						export = true,
@@ -1559,7 +1559,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25317, {	-- Protect the World Tree
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If the NPC is not visible and Magni is there instead, you will need to complete the quest 'Do It the Azerite Way' [55521] to restore the proper phasing to pick up this quest.",
 						constant = "IF_THE_NPC_IS_NOT_VISIBLE_AND_MAGNI_IS_THERE",
 						export = true,
@@ -2050,7 +2050,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25443, {	-- The Name Never Spoken
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "To get this quest DO NOT accept another version from Subjugated Inferno Lord after \"A New Master\", instead head back to Tyrus Blackhorn.",
 						constant = "TO_GET_THIS_QUEST_DO_NOT_ACCEPT_ANOTHER_VERSION",
 						export = true,
@@ -2362,7 +2362,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25985, {	-- Wings Over Mount Hyjal
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you also need the breadcrumb quest 'Aviana's Legacy', this quest must be completed without accepting any quests in Shrine of Aviana prior to turning in 'Return from the Firelands'.",
 						constant = "IF_YOU_ALSO_NEED_THE_BREADCRUMB_QUEST_AVIANA_S",
 						export = true,
@@ -2415,7 +2415,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 39.2, 54.8, MOUNT_HYJAL },
 						{ 41.2, 54.0, MOUNT_HYJAL },
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This spirit beast is a rare tamable cat with a unique silver spectral skin. It is one of the \"challenge\" tames added in 4.2: Spirit Claw will one-shot players wearing armor.",
 						constant = "THIS_SPIRIT_BEAST_IS_A_RARE_TAMABLE_CAT_WITH_A",
 						export = true,
@@ -2443,7 +2443,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 25.8, 61.2, MOUNT_HYJAL },
 						{ 26.2, 62.8, MOUNT_HYJAL },
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This spirit beast is a rare tamable spawn with a unique spectral owl model. It is one of the \"challenge\" tames added in 4.2: the challenge is that he flies very high, so you will need to creatively find ways to aggro and tame without taking lethal fall damage.",
 						constant = "THIS_SPIRIT_BEAST_IS_A_RARE_TAMABLE_SPAWN_WITH",
 						export = true,
@@ -2483,7 +2483,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 39.2, 54.8, MOUNT_HYJAL },
 						{ 41.2, 54.0, MOUNT_HYJAL },
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This spirit beast is a rare tamable cat with a unique blue/white striped skin. It is one of the \"challenge\" tames added in 4.2: Spirit Claw will one-shot players wearing armor.",
 						constant = "THIS_SPIRIT_BEAST_IS_A_RARE_TAMABLE_CAT_WITH_A_2",
 						export = true,
@@ -2531,7 +2531,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 53.8, 82.0, MOUNT_HYJAL },
 						{ 52.2, 83.2, MOUNT_HYJAL },
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This turtle is a rare tamable spawn with a unique fiery shell.",
 						constant = "THIS_TURTLE_IS_A_RARE_TAMABLE_SPAWN_WITH_A",
 						export = true,
@@ -2572,7 +2572,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							i(62380),	-- Wilderness Legguards
 							i(62382),	-- Waywatcher's Boots
 							i(62367, {	-- Arcanum of Hyjal
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This version is only visible on the vendor when you aren't at the required reputation to purchase it yet on your current character.",
 									constant = "THIS_VERSION_IS_ONLY_VISIBLE_ON_THE_VENDOR_WHEN",
 									export = true,

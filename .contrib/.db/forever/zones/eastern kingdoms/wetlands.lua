@@ -554,7 +554,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.WETLANDS, {
 				},
 			}),
 			q(299, {	-- Uncovering the Past
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The quest items spawn randomly in the dig site below.",
 					constant = "THE_QUEST_ITEMS_SPAWN_RANDOMLY_IN_THE_DIG_SITE",
 					export = true,

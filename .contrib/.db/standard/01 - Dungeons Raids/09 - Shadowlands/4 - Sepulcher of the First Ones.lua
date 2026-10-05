@@ -649,7 +649,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			})),
 			n(SPECIAL, {
 				i(189167, {	-- Glimmer of Satisfaction
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Eating a Empty Kettle of Stone Soup (/att i:187648) or Feast of Gluttonous Hedonism Feast (/att i:172043) has a chance to spawn this item in your inventory.\nThe chance to Award Glimmer of Satisfaction happens whenever you either gain the 'Well Fed' buff or refresh the buff, so you can click again on the feast every ~12 seconds.",
 						constant = "EATING_A_EMPTY_KETTLE_OF_STONE_SOUP_ATT_I",
 						export = true,
@@ -669,7 +669,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					}),
 				}),
 				n(185032, {	-- Taskmaster Xy'pro <Cartel Xy>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Killed when having 3 stacks of Synergy",
 						constant = "KILLED_WHEN_HAVING_3_STACKS_OF_SYNERGY",
 						export = true,
@@ -695,7 +695,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(375893, {	-- High Value Cache
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "When Taskmaster Xy'pro has 3 stacks of Synergy, which he gets from being nearby other mobs, he gets another buff called Security Override which says he will drop the Security Override Orb.",
 						constant = "WHEN_TASKMASTER_XY_PRO_HAS_3_STACKS_OF_SYNERGY",
 						export = true,
@@ -723,7 +723,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(375905, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Prior to the Vigilant Guardian encounter, under the north-eastern 'island' in a chain.",
 						constant = "PRIOR_TO_THE_VIGILANT_GUARDIAN_ENCOUNTER_UNDER",
 						export = true,
@@ -747,7 +747,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					},
 				}),
 				o(375907, {	-- Protoform Schematic
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located on the North side of the 2nd encounter area after defeating Halondrus.",
 						constant = "LOCATED_ON_THE_NORTH_SIDE_OF_THE_2ND_ENCOUNTER",
 						export = true,
@@ -772,7 +772,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			o(375368, {	-- Creation Catalyst Console
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Creation Catalyst is a system that lets you convert Items bought with Sandworn Relics in Zereth Morthis & non-set Items from the Sepulcher of the First Ones Raid into your class' Transmog Set Items.\n\nThe catalyst is outside of the Raid in southern Zereth Mortis. Make sure to equip your item first before converting it.",
 					constant = "THE_CREATION_CATALYST_IS_A_SYSTEM_THAT_LETS_YOU",
 					export = true,

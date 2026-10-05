@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(NAZMIR, {
 		petbattle(filter(BATTLE_PETS, {
 			pet(2388, {	-- Bloodfeaver Tarantula (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found all around the Terrace of Sorrows.",
 					constant = "FOUND_ALL_AROUND_THE_TERRACE_OF_SORROWS",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			pet(2398, {	-- Boghopper (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found around Krag'wa's Burrow and NE of Shoaljai Tar Pits.",
 					constant = "FOUND_AROUND_KRAG_WA_S_BURROW_AND_NE_OF",
 					export = true,
@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 32.8, 35.6, NAZMIR },
 			}),
 			pet(2389, {	-- Elusive Skimmer (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found along the southern waterways in Nazmir.",
 					constant = "FOUND_ALONG_THE_SOUTHERN_WATERWAYS_IN_NAZMIR",
 					export = true,
@@ -99,7 +99,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 31.8, 58.8, NAZMIR},
 			}),
 			pet(2397, {	-- Spectral Raven (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found on the outskirts of The Necropolis.",
 					constant = "FOUND_ON_THE_OUTSKIRTS_OF_THE_NECROPOLIS",
 					export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			pet(2393, {	-- Sticky Oozeling (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found in the Shoaljai Tar Pits.",
 					constant = "FOUND_IN_THE_SHOALJAI_TAR_PITS",
 					export = true,
@@ -146,7 +146,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 24.0, 51.8, NAZMIR },
 			}),
 			pet(2392, {	-- Young Sand Sifter (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found commonly around the outer shorelines of Nazmir.",
 					constant = "FOUND_COMMONLY_AROUND_THE_OUTER_SHORELINES_OF",
 					export = true,

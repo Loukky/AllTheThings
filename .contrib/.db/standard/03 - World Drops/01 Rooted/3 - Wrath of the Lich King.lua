@@ -1073,7 +1073,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 	}),
 	filter(MISC, {
 		i(44663, {	-- Abandoned Adventurer's Satchel
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from any of the Northrend Rares. Contains some gold, Frostweave Cloth and crystallized motes.",
 				constant = "DROPS_FROM_ANY_OF_THE_NORTHREND_RARES_CONTAINS",
 				export = true,
@@ -1123,7 +1123,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 		}),
 		i(43297),	-- Damaged Necklace
 		i(36812, {	-- Ground Gear
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from mechs in Northrend for level 10-12 characters. Can also drop from Mimiron in Ulduar.",
 				constant = "DROPS_FROM_MECHS_IN_NORTHREND_FOR_LEVEL_10_12",
 				export = true,
@@ -1297,7 +1297,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			-- 	Cloth + Silk:
 			{
 				i(33470, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Frostweave Cloth is a very common drop from WotLK humanoid and undead creatures.",
 						constant = "FROSTWEAVE_CLOTH_IS_A_VERY_COMMON_DROP_FROM",
 						export = true,
@@ -1361,7 +1361,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 					30875,	-- Tempest Revenant
 					30848,	-- Whispering Wind
 				},
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
 					constant = "MOST_OF_THE_GIVEN_MAPS_COORDINATES_AND_SOURCES",
 					export = true,
@@ -1553,7 +1553,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 						25215,	-- Winterfin Shorestriker
 						25217,	-- Winterfin Warrior
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Is a rare drop from water creatures like murlocs and whales, and have a high chance of containing pearls. Coordinates in Scholazar Basin can be disregarded for players aligned with The Oracles.",
 						constant = "IS_A_RARE_DROP_FROM_WATER_CREATURES_LIKE",
 						export = true,
@@ -1606,7 +1606,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 						25215,	-- Winterfin Shorestriker
 						25217,	-- Winterfin Warrior
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Is a common drop from water creatures like murlocs and whales. Coordinates in Scholazar Basin can be disregarded for players aligned with The Oracles.",
 						constant = "IS_A_COMMON_DROP_FROM_WATER_CREATURES_LIKE",
 						export = true,
@@ -1635,7 +1635,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			--
 			-- 	Cooking reagents:
 				i(43013, {	-- Chilled Meat
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can drop from any Northrend beasts.",
 						constant = "CAN_DROP_FROM_ANY_NORTHREND_BEASTS",
 						export = true,
@@ -1778,7 +1778,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			--
 			-- Other reagents:
 				i(43102, {	-- Frozen Orb
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Has a chance to drop from the last boss of any Heroic WotLK dungeon.",
 						constant = "HAS_A_CHANCE_TO_DROP_FROM_THE_LAST_BOSS_OF_ANY",
 						export = true,

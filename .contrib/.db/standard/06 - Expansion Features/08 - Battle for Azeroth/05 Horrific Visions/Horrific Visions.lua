@@ -100,7 +100,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				i(168938),	-- Ward of Mutual Aid [Rank 3]
 			})),
 			n(QUESTS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Mogs are looted at the end from a full clear with that specific mask on.",
 					constant = "MOGS_ARE_LOOTED_AT_THE_END_FROM_A_FULL_CLEAR",
 					export = true,
@@ -124,7 +124,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				},
 				["groups"] = {
 					q(58314, {	-- Mask of the Burned Bridge
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from completing the Valley of Wisdom objective with one mask active.",
 							constant = "OBTAINED_FROM_COMPLETING_THE_VALLEY_OF_WISDOM",
 							export = true,
@@ -148,7 +148,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58297, {	-- Mask of the Daredevil
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from completing the Valley of Honor objective with one mask active.",
 							constant = "OBTAINED_FROM_COMPLETING_THE_VALLEY_OF_HONOR",
 							export = true,
@@ -172,7 +172,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58316, {	-- Mask of the Dark Imagination
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from completing the Mage Quarter objective with one mask active.",
 							constant = "OBTAINED_FROM_COMPLETING_THE_MAGE_QUARTER",
 							export = true,
@@ -196,7 +196,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58318, {	-- Mask of the Long Night
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from a full clear of either vision.",
 							constant = "OBTAINED_FROM_A_FULL_CLEAR_OF_EITHER_VISION",
 							export = true,
@@ -220,7 +220,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58317, {	-- Mask of the Pained
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Obtained from completing the Old Town objective with one mask active.",
 							constant = "OBTAINED_FROM_COMPLETING_THE_OLD_TOWN_OBJECTIVE",
 							export = true,
@@ -282,7 +282,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				},
 			}),
 			n(SCENARIO_COMPLETION, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can only receive each tier of gear rewards once per week. Ex. Completing multiple 5 mask runs rewards the next lower tier reward each time. After all tier rewards are looted for the week no more gear is given.",
 					constant = "YOU_CAN_ONLY_RECEIVE_EACH_TIER_OF_GEAR_REWARDS",
 					export = true,
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 				},
 				["groups"] = {
 					n(160708, {	-- Mail Muncher
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a chance to spawn from Mailboxes in either vision.",
 							constant = "HAS_A_CHANCE_TO_SPAWN_FROM_MAILBOXES_IN_EITHER",
 							export = true,
@@ -386,7 +386,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						o(342098, {	-- Coifcurl's Close Shave Kit
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires entering the Valley of Spirits. The chest is inside the barber shop on the right.",
 								constant = "REQUIRES_ENTERING_THE_VALLEY_OF_SPIRITS_THE",
 								export = true,
@@ -415,7 +415,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 								i(174457),	-- C'Thuffer (PET!)
 								i(174082),	-- Faceless Mask of the Daredevil (QI!)
 								i(174855, {	-- Bow of Calamity
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Has only been received on a Hunter character (so far).\nCan be traded to party members within the same Vision.",
 										constant = "HAS_ONLY_BEEN_RECEIVED_ON_A_HUNTER_CHARACTER_SO",
 										export = true,
@@ -463,7 +463,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 					}),
 					n(158284, {	-- Craggle Wobbletop <Toys and Novelties>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required. You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
 							constant = "CRAGGLE_PATS_AROUND_OUTSIDE_OF_THE_TRADE",
 							export = true,
@@ -490,7 +490,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["groups"] = { i(174926) },	-- Overly Sensitive Void Spectacles (TOY!)
 					}),
 					i(174928, {	-- Rotten Apple (TOY!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Repeatedly click the bouncing apples at the coordinates provided. Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
 							constant = "REPEATEDLY_CLICK_THE_BOUNCING_APPLES_AT_THE",
 							export = true,
@@ -517,7 +517,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					o(343698, {	-- Void-Touched Skull
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Behind the orphanage in Cathedral Square. It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
 							constant = "BEHIND_THE_ORPHANAGE_IN_CATHEDRAL_SQUARE_IT_S",
 							export = true,

@@ -186,7 +186,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					i(23901),	-- Nazan's Head (QI!)
 				}),
 				o(185168, {	-- Reinforced Fel Iron Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Available after defeating both Vazruden the Herald and Nazan.",
 						constant = "AVAILABLE_AFTER_DEFEATING_BOTH_VAZRUDEN_THE",
 						export = true,

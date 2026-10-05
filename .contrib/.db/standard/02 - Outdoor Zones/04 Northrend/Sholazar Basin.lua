@@ -136,7 +136,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(649, {	-- Biletoad (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around the central basin.",
 								constant = "FOUND_AROUND_THE_CENTRAL_BASIN",
 								export = true,
@@ -157,7 +157,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 48.0, 63.0, SHOLAZAR_BASIN },
 						}),
 						pet(1167, {	-- Emerald Proto-Whelp (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found all around the Savage Thicket, but they seem to be on an undisclosed timer. This pet is a strong PvE Dragonkin.",
 								constant = "FOUND_ALL_AROUND_THE_SAVAGE_THICKET_BUT_THEY",
 								export = true,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, {
 							["timeline"] = { ADDED_5_1_0 },
 						}),
 						pet(532, {	-- Stunted Shardhorn (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around The Suntouched Pillar.",
 								constant = "FOUND_AROUND_THE_SUNTOUCHED_PILLAR",
 								export = true,
@@ -293,7 +293,7 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 					q(12582, {	-- Frenzyheart Champion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "In the battle with Artruis during the quest |cFFefc400A Hero's Burden|r, the NPC left alive determines which faction you are aligned with.\n\nZepik alive: Allied with Frenzyheart\n\nJaloot alive: Allied with Oracles\n\nYou can repeat this quest as often as you like to switch from one faction to the other.\n\nWARNING: Switching factions will reduce your existing reputation to HONORED.",
 							constant = "IN_THE_BATTLE_WITH_ARTRUIS_DURING_THE_QUEST",
 							export = true,
@@ -854,7 +854,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12528, {	-- Playing Along
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Available after you kill |cFFFFD700Pitch|r.",
 							constant = "AVAILABLE_AFTER_YOU_KILL_CFFFFD700PITCH_R",
 							export = true,
@@ -1265,7 +1265,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(32517, {	-- Loque'nahak <Mate of Har'koa>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you're trying to collect Loque'Nahak's Pelt, bring a skinner!",
 							constant = "IF_YOU_RE_TRYING_TO_COLLECT_LOQUE_NAHAK_S_PELT",
 							export = true,

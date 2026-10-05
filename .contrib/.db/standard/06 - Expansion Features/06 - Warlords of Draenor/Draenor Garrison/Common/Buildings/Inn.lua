@@ -235,7 +235,7 @@ root(ROOTS.ExpansionFeatures,
 							follower(172, {	-- Soulare of Andorhal
 								i(117573, {	-- Wayfarer's Bonfire (TOY!)
 									["cr"] = 82717,	-- Soulare of Andorhal
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "|cff3399ffStep 1:|r Recruit |cFFFFD700Soulare of Andorhal|r from the Inn using either Magic Debuff or Wild Aggression.\n|cff3399ffStep 2:|r Do a |cFFFFFFFF/tired|r emote and he will award the toy.\n|cff3399ffNote:|r Can get by visiting someone's Garrison, and players of both factions can now visit Soulare in Stormwind City at |cFFFFFFFF38.2, 64.6|r and emote at him to get the toy.",
 										constant = "CFF3399FFSTEP_1_R_RECRUIT_CFFFFD700SOULARE_OF",
 										export = true,
@@ -545,7 +545,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(QUESTS, {
 						i(119036, {	-- Box of Storied Treasures [4]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Commonly rewarded from quests provided from the Inn.",
 								constant = "COMMONLY_REWARDED_FROM_QUESTS_PROVIDED_FROM_THE",
 								export = true,

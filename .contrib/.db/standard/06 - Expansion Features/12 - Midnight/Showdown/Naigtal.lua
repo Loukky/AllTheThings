@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 		["timeline"] = { ADDED_12_0_7 },
 		["groups"] = {
 			m(NAIGTAL, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Naigtal, is a world of giant mushrooms, rich in arcane energy, covered in vast oceans with ley lines running beneath them. The Azerothian forces on Naigtal during the War of Light and Shadow presume the natives to have been wiped out by the Legion.",
 					constant = "NAIGTAL_IS_A_WORLD_OF_GIANT_MUSHROOMS_RICH_IN",
 					export = true,
@@ -419,7 +419,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								},
 							}),
 							n(264571, {	-- Indomitable Mk XII <Blazing Reaver>
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Patrols up and down the central road.",
 									constant = "PATROLS_UP_AND_DOWN_THE_CENTRAL_ROAD",
 									export = true,
@@ -464,7 +464,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								},
 							}),
 							n(263955, {	-- Lomelith <The Bogshaker>
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Roams around the area.",
 									constant = "ROAMS_AROUND_THE_AREA",
 									export = true,
@@ -583,7 +583,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								97094,	-- Feed the Sleepy Mandrake a Partially-Digested Redcap
 								97095,	-- Feed the Sleepy Mandrake an Airy Redcap
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Feed the Sleepy Mandrake 5 different Redcap Mushrooms from Naigtal to wake it up and become your pet.",
 								constant = "FEED_THE_SLEEPY_MANDRAKE_5_DIFFERENT_REDCAP",
 								export = true,
@@ -636,7 +636,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["groups"] = { i(276369) },	-- Airy Redcap
 						}),
 						o(658802, {	-- Ancient Crypt Reliquary
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns randomly in Vilaldoun cave.",
 								constant = "SPAWNS_RANDOMLY_IN_VILALDOUN_CAVE",
 								export = true,

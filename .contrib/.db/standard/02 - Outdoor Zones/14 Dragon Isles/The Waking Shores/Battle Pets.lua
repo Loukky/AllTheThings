@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				pet(3272),	-- Pricklefury Hare (PET!)
 				pet(3280, {	-- Shyfly (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You won't be able to see these pets until you've accepted the quest |cffffff00A Friend for Lubbins|r. For some reason, these are tradeable.",
 						constant = "YOU_WON_T_BE_ABLE_TO_SEE_THESE_PETS_UNTIL_YOU",
 						export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				pet(3282),	-- Swoglet (PET!)
 				pet(3318, {	-- Thunderfoot Calf (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Not very common, often grouped with other NPCs.",
 						constant = "NOT_VERY_COMMON_OFTEN_GROUPED_WITH_OTHER_NPCS",
 						export = true,

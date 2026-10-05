@@ -143,7 +143,7 @@ maproot(MAP.KALIMDOR, MAP.DARNASSUS, {
 				["groups"] = {
 					objective(1, {	-- 0/1 Sethir's Journal
 						["provider"] = { "i", 7737 },	-- Sethir's Journal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item can only be pickpocketed.",
 							constant = "THIS_ITEM_CAN_ONLY_BE_PICKPOCKETED",
 							export = true,
@@ -632,7 +632,7 @@ maproot(MAP.KALIMDOR, MAP.DARNASSUS, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(22250, {	-- Herb Pouch
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only select Herbalism Suppliers sells this pouch.",
 							constant = "ONLY_SELECT_HERBALISM_SUPPLIERS_SELLS_THIS",
 							export = true,

@@ -298,7 +298,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			-- #endif
 			-- #if SEASON_OF_DISCOVERY
 			q(88748, {	-- Cracked Necrotic Crystal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you hear the yell across the city that they've invaded the Park, head for the canals between the Keep and the Park, that is where the elite abomination will be (heading from the Park to the Keep on the north side of the canal).\n\nWhen he dies, the crystal appears above his corpse and everyone (of the appropriate level) can click on it and get the quest regardless of who tagged him first.",
 					constant = "IF_YOU_HEAR_THE_YELL_ACROSS_THE_CITY_THAT_THEY",
 					export = true,
@@ -393,7 +393,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			q(88749, {	-- Faint Necrotic Crystal
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "If you hear the yell across the city that they've invaded the Sewers, head for the canals between the Sewers and the Royal Quarter, that is where the elite abomination will be.\n\nWhen he dies, the crystal appears above his corpse and everyone (of the appropriate level) can click on it and get the quest regardless of who tagged him first.",
 					constant = "IF_YOU_HEAR_THE_YELL_ACROSS_THE_CITY_THAT_THEY_2",
 					export = true,
@@ -779,7 +779,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				["lvl"] = 65,
 			}),
 			q(9247, {	-- The Keeper's Call
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You should receive this in the mail at level 60.",
 					constant = "YOU_SHOULD_RECEIVE_THIS_IN_THE_MAIL_AT_LEVEL_60",
 					export = true,
@@ -853,7 +853,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			-- #endif
 		}),
 		n(14684, {	-- Balzaphon
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Stratholme.\n\nCan be found wandering in a circle around the fountain in the courtyard.",
 				constant = "LOCATED_IN_STRATHOLME_CAN_BE_FOUND_WANDERING_IN",
 				export = true,
@@ -885,7 +885,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(14686, {	-- Lady Falther'ess
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Razorfen Downs.\n\nCan be found inside one of the prison cells, before the skeleton pile. Looks like a human female until you talk to her upon she transforms into a Banshee.",
 				constant = "LOCATED_IN_RAZORFEN_DOWNS_CAN_BE_FOUND_INSIDE",
 				export = true,
@@ -915,7 +915,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(14695, {	-- Lord Blackwood
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Scholomance.\n\nCan be found in the room just before the plagued hatchlings.",
 				constant = "LOCATED_IN_SCHOLOMANCE_CAN_BE_FOUND_IN_THE_ROOM",
 				export = true,
@@ -947,7 +947,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(14690, {	-- Revanchion
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Dire Maul West.\n\nCan be found in the corridor above and behind Tendris Warpwood, the same one Magister Kalendris is in.",
 				constant = "LOCATED_IN_DIRE_MAUL_WEST_CAN_BE_FOUND_IN_THE",
 				export = true,
@@ -979,7 +979,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(14693, {	-- Scorn
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Scarlet Monastery Graveyard.\n\nHe patrols the graveyard after killing the last boss.",
 				constant = "LOCATED_IN_SCARLET_MONASTERY_GRAVEYARD_HE",
 				export = true,
@@ -1011,7 +1011,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(14682, {	-- Sever
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Shadowfang Keep.\n\nCan be found in the room up the ramp to the right of the entrance to the Butcher's room in the courtyard.",
 				constant = "LOCATED_IN_SHADOWFANG_KEEP_CAN_BE_FOUND_IN_THE",
 				export = true,
@@ -1041,7 +1041,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(16143, {	-- Shadow of Doom
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To summon this mob, speak to the cultist and give them 8 runes. This will automatically tag that mob for your group.",
 				constant = "TO_SUMMON_THIS_MOB_SPEAK_TO_THE_CULTIST_AND",
 				export = true,
@@ -1107,7 +1107,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(28194, {	-- Prince Tenris Mirkblood
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Located in Karazhan.\n\nCan be found in the Guardhouse, behind a Bloodstained Door above the stables where Attumen resides, which can be accessed through the stairs after Attumen, or through the ballroom where Moroes resides.",
 				constant = "LOCATED_IN_KARAZHAN_CAN_BE_FOUND_IN_THE",
 				export = true,
@@ -1138,7 +1138,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				}),
 				i(38658, {	-- Vampiric Batling (PET!)
 					-- #if ANYCLASSIC
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops for everyone in the raid. Get one on all of your alts!",
 						constant = "DROPS_FOR_EVERYONE_IN_THE_RAID_GET_ONE_ON_ALL",
 						export = true,
@@ -1161,7 +1161,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				}),
 				i(39769, {	-- Arcanite Ripper
 					-- #if ANYCLASSIC
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only ONE of these drops per raid. Help your friends get one on their account by bringing your alts! Highly recommend 6-8 manning the boss for this item and hard reserving it for one person per raid group.",
 						constant = "ONLY_ONE_OF_THESE_DROPS_PER_RAID_HELP_YOUR",
 						export = true,
@@ -1278,7 +1278,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				i(22975),	-- A Smudged Document
 				i(22977),	-- A Torn Letter
 				i(40110, {	-- Haunted Memento
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is probably one of the coolest items in the game. DO NOT GET RID OF IT.",
 						constant = "THIS_IS_PROBABLY_ONE_OF_THE_COOLEST_ITEMS_IN",
 						export = true,
@@ -1353,7 +1353,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			},
 		}),
 		n(REWARDS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "The reports are mailed to you about 48 hours after you turn in the random drop letter quests and there is one unique flavor message per letter. I'm not sure if speaking to the npcs mentioned in the responses leads to more flavor text, but someone should probably look into that.",
 				constant = "THE_REPORTS_ARE_MAILED_TO_YOU_ABOUT_48_HOURS",
 				export = true,
@@ -1373,7 +1373,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 			}),
 			["groups"] = {
 				i(23196, {	-- Greater Mark of the Dawn
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1 Stamina for every 2 levels for 1 Hour.\n\nAvailable after 150 Battles won.",
 						constant = "1_STAMINA_FOR_EVERY_2_LEVELS_FOR_1_HOUR",
 						export = true,
@@ -1397,7 +1397,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 					},
 				}),
 				i(23194, {	-- Lesser Mark of the Dawn
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1 Stamina for every 6 levels for 1 Hour.\n\nAvailable after 50 Battles won.",
 						constant = "1_STAMINA_FOR_EVERY_6_LEVELS_FOR_1_HOUR",
 						export = true,
@@ -1421,7 +1421,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 					},
 				}),
 				i(23195, {	-- Mark of the Dawn
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "1 Stamina for every 3 levels for 1 Hour.\n\nAvailable after 100 Battles won.",
 						constant = "1_STAMINA_FOR_EVERY_3_LEVELS_FOR_1_HOUR",
 						export = true,

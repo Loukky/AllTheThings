@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 		n(QUESTS, {
 			header(HEADERS.Achievement, 20118, {	-- The Isle of Dorn
 				q(81966, {	-- Slept like a Rock
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires re-logging to be accepted.",
 						constant = "REQUIRES_RE_LOGGING_TO_BE_ACCEPTED",
 						export = true,
@@ -172,7 +172,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				------ Stay awhile and listen ------
 				hqt(82461, {	-- Stay awhile and listen: Dagran Thaurissan II
 					["name"] = "Stay awhile and listen: Dagran Thaurissan II",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after completing 'The Archive' (78468).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_COMPLETING_THE",
 						export = true,
@@ -196,7 +196,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				---
 				q(78457, {	-- Stones of Dornogal
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After speaking with Innkeeper Ronesh, enter The Inn and talk to Anduin Wrynn and Magni Bronzebeard.",
 						constant = "AFTER_SPEAKING_WITH_INNKEEPER_RONESH_ENTER_THE",
 						export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				------ Stay awhile and listen ------
 				hqt(82459, {	-- Stay awhile and Listen: Anduin Wrynn
 					["name"] = "Stay awhile and listen: Anduin Wrynn",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Hypocenter' (78460).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING",
 						export = true,
@@ -249,7 +249,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				hqt(82460, {	-- Stay awhile and Listen: Magni Bronzebeard
 					["name"] = "Stay awhile and listen: Magni Bronzebeard",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Stones of Dornogal' (78457).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_2",
 						export = true,
@@ -296,7 +296,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				--
 				q(78464, {	-- Delve into the Earth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
 						constant = "FOR_SOME_REASON_BLIZZARD_DECIDED_THAT_THIS",
 						export = true,
@@ -494,7 +494,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				hqt(85681, {	-- Stay awhile and listen: Moira Thaurissan
 					["name"] = "Stay awhile and listen: Moira Thaurissan",
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Dialogue becomes available after accepting 'Into The Deeps' (80434) but vanishes once you hand in 'Into The Deeps' (80434).",
 						constant = "DIALOGUE_BECOMES_AVAILABLE_AFTER_ACCEPTING_INTO",
 						export = true,

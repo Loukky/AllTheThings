@@ -65,7 +65,7 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				i(95041, {	-- Malevolent Gladiator's Cloud Serpent
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded to members of the Arena teams during MoP Season 1 that were in the 0.5% bracket of their battlegroup.",
 						constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_12",
 						export = true,
@@ -907,7 +907,7 @@ root(ROOTS.PVP, {
 					["filterID"] = MOUNTS,
 				}),
 				i(104325, {	-- Tyrannical Gladiator's Cloud Serpent
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Awarded to members of the Arena teams during MoP Season 2 that were in the 0.5% bracket of their battlegroup.",
 						constant = "AWARDED_TO_MEMBERS_OF_THE_ARENA_TEAMS_DURING_13",
 						export = true,
@@ -948,7 +948,7 @@ root(ROOTS.PVP, {
 				-- #endif
 			})),
 			n(PVP_HONOR, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These items are available from Malevolent Gladiator: Season 12 Vendor.",
 					constant = "THESE_ITEMS_ARE_AVAILABLE_FROM_MALEVOLENT",
 					export = true,
@@ -2459,7 +2459,7 @@ root(ROOTS.PVP, {
 							i(100375),	-- Grievous Gladiator's Clasp of Meditation
 							i(100207, {	-- Grievous Gladiator's Cord of Accuracy
 								-- #if AFTER 7.1.5
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item is only obtainable via the Grievous Gladiator Warlock Ensemble.",
 									constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE_GRIEVOUS",
 									export = true,
@@ -2481,7 +2481,7 @@ root(ROOTS.PVP, {
 							}),
 							i(100205, {	-- Grievous Gladiator's Cord of Cruelty
 								-- #if AFTER 7.1.5
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item is only obtainable via the Grievous Gladiator Mage Ensemble.",
 									constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE_GRIEVOUS_2",
 									export = true,
@@ -2503,7 +2503,7 @@ root(ROOTS.PVP, {
 							}),
 							i(100209, {	-- Grievous Gladiator's Cord of Meditation
 								-- #if AFTER 7.1.5
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item is only obtainable via the Grievous Gladiator Priest Ensemble.",
 									constant = "THIS_ITEM_IS_ONLY_OBTAINABLE_VIA_THE_GRIEVOUS_3",
 									export = true,

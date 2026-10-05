@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #endif
 					}),
 					pet(480, {	-- Topaz Shale Hatchling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The biggest concentration can be found in Desolace, the orange section of open world Maraudon. Can also be found in Deepholm around Therazane's Throne, beneath Silvermarsh, as well as inside Fungal Deep.",
 							constant = "THE_BIGGEST_CONCENTRATION_CAN_BE_FOUND_IN",
 							export = true,
@@ -217,7 +217,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66372, {	-- Merda Stronghoof <Master Pet Tamer>
 					["coord"] = { 57.2, 45.8, DESOLACE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only.\n\nMerda's pets are level 9 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_MERDA_S_PETS_ARE",
 						export = true,
@@ -430,7 +430,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(14334, {	-- Blubbergut
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blubbergut will only spawn if you walk to the end of the dock to trigger the spawn event.",
 						constant = "BLUBBERGUT_WILL_ONLY_SPAWN_IF_YOU_WALK_TO_THE",
 						export = true,
@@ -814,7 +814,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(14394, {	-- Death to Agogridon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you completed this quest prior to 8.0.1, go to Karnum's Glade and speak with Karnum Marshweaver (57.4, 47.6) and he'll grant you the rep.\n\n - Crieve",
 						constant = "IF_YOU_COMPLETED_THIS_QUEST_PRIOR_TO_8_0_1_GO",
 						export = true,
@@ -1237,7 +1237,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Brendol's Satchel
 							["provider"] = { "i", 49221 },	-- Brendol's Satchel
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Brendol is stealthed. Be vigilant!",
 								constant = "BRENDOL_IS_STEALTHED_BE_VIGILANT",
 								export = true,
@@ -1508,7 +1508,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14282, {	-- Mystery Solved
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Cenarion Researcher Korrah at Ethel Rethor.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP",
 						export = true,
@@ -1765,7 +1765,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(14364, {	-- Putting Their Heads Together (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, you can pick it up again from Captain Pentigast at Nijel's Point.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_YOU_CAN_PICK_IT_UP_2",
 						export = true,

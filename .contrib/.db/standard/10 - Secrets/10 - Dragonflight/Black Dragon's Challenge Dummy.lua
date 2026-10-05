@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 	header(HEADERS.Item, 201933, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {	-- Black Dragon's Challenge Dummy
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "***Debugg Mode enabled is required to see all the steps.***\n\nFollow the steps as ordered in the descriptions.",
 			constant = "DEBUGG_MODE_ENABLED_IS_REQUIRED_TO_SEE_ALL_THE",
 			export = true,
@@ -26,7 +26,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 		["displayID"] = 110513,
 		["groups"] = {
 			o(377485, {	-- Sour Apple
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Step 1: Get a Sour Apple.",
 					constant = "STEP_1_GET_A_SOUR_APPLE",
 					export = true,
@@ -49,7 +49,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				["groups"] = { i(194122) },	-- Sour Apple
 			}),
 			n(191851, {	-- Blacktalon Shadowclaw
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Step 2: Use the Sour Apple on the Blacktalon Shadowclaw and then, mount up on it.",
 					constant = "STEP_2_USE_THE_SOUR_APPLE_ON_THE_BLACKTALON",
 					export = true,
@@ -72,7 +72,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				["cost"] = { { "i", 194122, 1 } },	-- 1x Sour Apple
 			}),
 			o(379168, {	-- Lost Cache Key
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Step 3: Loot the 'Lost Cache Key'.",
 					constant = "STEP_3_LOOT_THE_LOST_CACHE_KEY",
 					export = true,
@@ -95,7 +95,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				["groups"] = { i(198085) },	-- Lost Obsidian Cache Key
 			}),
 			o(378857, {	-- Lost Obsidian Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Step 4: Venture into the cave to locate the 'Lost Obsidian Cache'.",
 					constant = "STEP_4_VENTURE_INTO_THE_CAVE_TO_LOCATE_THE_LOST",
 					export = true,

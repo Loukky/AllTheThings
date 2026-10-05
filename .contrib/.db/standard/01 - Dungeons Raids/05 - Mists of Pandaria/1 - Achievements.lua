@@ -275,7 +275,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 			-- #endif
 			-- #if ANYCLASSIC
 			ach(62055, bubbleDownSelf({ ["timeline"] = { ADDED_5_5_2, REMOVED_5_5_3 } }, {	-- The Mistwalker (Season 1)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit during Season 1 to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",
 					constant = "PLAYERS_MUST_COMPLETE_CFFE50D12EACH_R_DUNGEON",
 					export = true,

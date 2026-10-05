@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66518, {	-- Everessa <Master Pet Tamer>
 					["coord"] = { 76.6, 41.6, SWAMP_OF_SORROWS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only, though Horde players can battle them once as part of the Horde version of the quest 'Battle Pet Tamers: Eastern Kingdoms'.\n\nEveressa's pets are level 16 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_THOUGH_HORDE_4",
 						export = true,

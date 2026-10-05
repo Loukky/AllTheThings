@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(65651, {	-- Lindsay <Master Pet Tamer>
 					["coord"] = { 33.3, 52.6, REDRIDGE_MOUNTAINS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only.\n\nLindsay's pets are level 5 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Critter - see above.\n3. Critter - see above.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_LINDSAY_S_PETS",
 						export = true,
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["provider"] = { "i", 7871 },	-- Token of Thievery (QI!)
 						}),
 						i(7907, {	-- Certificate of Thievery
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item has no function, but if you get caught, just hand them this like you're Ron Swanson.",
 								constant = "THIS_ITEM_HAS_NO_FUNCTION_BUT_IF_YOU_GET_CAUGHT",
 								export = true,
@@ -445,7 +445,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26514, {	-- Canyon Romp
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you, by any chance, abandon this quest, you can get it back from Magistrate Solomon at the Lakeshire Town Hall.",
 						constant = "IF_YOU_BY_ANY_CHANCE_ABANDON_THIS_QUEST_YOU_CAN",
 						export = true,
@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26714, {	-- Darkblaze, Brood of the Worldbreaker
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you, by any chance, abandon this quest, you can get it back from Colonel Troteman at the Keeshan's Post.",
 						constant = "IF_YOU_BY_ANY_CHANCE_ABANDON_THIS_QUEST_YOU_CAN_2",
 						export = true,
@@ -609,7 +609,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26519, {	-- He Who Controls the Ettins
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Once obtained, the Quest has to be completed. It can't be abandoned.",
 						constant = "ONCE_OBTAINED_THE_QUEST_HAS_TO_BE_COMPLETED_IT",
 						export = true,
@@ -647,7 +647,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26365, {	-- Hero's Call: Redridge Mountains! (From NPCs)
 					-- #IF BEFORE 11.0.5
 					-- [Unsure prior to this]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest seems to be unobtainable at higher levels, so if you want to collect the transmog from this quest then you'll need to do it early.",
 						constant = "THIS_QUEST_SEEMS_TO_BE_UNOBTAINABLE_AT_HIGHER",
 						export = true,
@@ -752,7 +752,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26573, {	-- His Heart Must Be In It
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you, by any chance, abandon this quest, you can get it back from Colonel Troteman at the Lakeshire Town Hall.",
 						constant = "IF_YOU_BY_ANY_CHANCE_ABANDON_THIS_QUEST_YOU_CAN_3",
 						export = true,
@@ -1521,7 +1521,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26694, {	-- The Grand Magus Doane
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you, by any chance, abandon this quest, you can get it back from John J. Keeshan at the Shalewind Canyon.",
 						constant = "IF_YOU_BY_ANY_CHANCE_ABANDON_THIS_QUEST_YOU_CAN_4",
 						export = true,
@@ -1664,7 +1664,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(26651, {	-- To Win a War, You Gotta Become War
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you, by any chance, abandon this quest, you can get it back from John J. Keeshan at the Camp Everstill.",
 						constant = "IF_YOU_BY_ANY_CHANCE_ABANDON_THIS_QUEST_YOU_CAN_5",
 						export = true,
@@ -2037,7 +2037,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(947, {	-- Rohh the Silent
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is a stealthed creature. You can target it with the macro '/tar Rohh'.",
 						constant = "THIS_IS_A_STEALTHED_CREATURE_YOU_CAN_TARGET_IT",
 						export = true,
@@ -2344,7 +2344,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1455, {	-- Blackrock Champion's Axe
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item drops from both Blackrock Renegades & Blackrock Hunters. Renegades might have a higher droprate, but are unavailable for Alliance characters who have completed the 'First Blood' storyline due to phasing.\nPhasing can be circumvented with Party Sync, using an Alliance alt that haven't reached the quest progress trigger for this phasing, or using a Horde alt.",
 						constant = "THIS_ITEM_DROPS_FROM_BOTH_BLACKROCK_RENEGADES",
 						export = true,
@@ -2395,7 +2395,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1448, {	-- Blackrock Gauntlets
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item only drops from Blackrock Scouts, which are unavailable for Alliance characters who have completed the 'First Blood' storyline due to phasing.\nPhasing can be circumvented with Party Sync, using an Alliance alt that haven't reached the quest progress trigger for this phasing, or using a Horde alt.",
 						constant = "THIS_ITEM_ONLY_DROPS_FROM_BLACKROCK_SCOUTS",
 						export = true,
@@ -2434,7 +2434,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1296, {	-- Blackrock Mace
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item only drops from Blackrock Renegades, which are unavailable for Alliance characters who have completed the 'First Blood' storyline due to phasing.\nPhasing can be circumvented with Party Sync, using an Alliance alt that haven't reached the quest progress trigger for this phasing, or using a Horde alt.",
 						constant = "THIS_ITEM_ONLY_DROPS_FROM_BLACKROCK_RENEGADES",
 						export = true,
@@ -2594,7 +2594,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1299, {	-- Lesser Belt of the Spire
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item only drops from Blackrock Warden, which are unavailable for Alliance characters who have completed the quest 'Detonation' due to phasing.\nPhasing can be circumvented with Party Sync, using an Alliance alt that haven't reached the quest progress trigger for this phasing, or using a Horde alt.",
 						constant = "THIS_ITEM_ONLY_DROPS_FROM_BLACKROCK_WARDEN",
 						export = true,
@@ -2695,7 +2695,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(2798, {	-- Rethban Ore
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Rethban Ore's only purpose was to be an objective to a quest that got removed with Cataclysm. Thus it is useless and safe to discard.",
 						constant = "RETHBAN_ORE_S_ONLY_PURPOSE_WAS_TO_BE_AN",
 						export = true,
@@ -2890,7 +2890,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["crs"] = {
 						428,	-- Dire Condor
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only drops from Dire Condors in Redridge Mountains.",
 						constant = "ONLY_DROPS_FROM_DIRE_CONDORS_IN_REDRIDGE",
 						export = true,

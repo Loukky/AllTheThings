@@ -189,7 +189,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 					i(29991),	-- Sunhawk Leggings
 					i(29997),	-- Band of the Ranger-General
 					i(30320, {	-- Bundle of Nether Spikes
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Contains 6 stacks of Nether Spike arrows.",
 							constant = "CONTAINS_6_STACKS_OF_NETHER_SPIKE_ARROWS",
 							export = true,

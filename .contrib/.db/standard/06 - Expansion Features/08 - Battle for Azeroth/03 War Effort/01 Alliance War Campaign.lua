@@ -76,7 +76,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					})),
 				}),
 				n(REWARDS, {
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You'll be offered these rewards at the end of your first foothold.",
 						constant = "YOU_LL_BE_OFFERED_THESE_REWARDS_AT_THE_END_OF",
 						export = true,
@@ -129,7 +129,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 				}),
 				n(QUESTS, {
 					q(53052, {	-- Deeper Into Zandalar
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Conquer one foothold, then relog while in Zandalar.",
 							constant = "CONQUER_ONE_FOOTHOLD_THEN_RELOG_WHILE_IN",
 							export = true,
@@ -272,7 +272,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["lvl"] = 110,	-- Can pick a foothold at 110, 114, and 118
 					}),
 					q(53583, {	-- Adapting Our Tactics
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To get this quest and continue the campaign, you must complete one foothold of your choice.",
 							constant = "TO_GET_THIS_QUEST_AND_CONTINUE_THE_CAMPAIGN_YOU",
 							export = true,
@@ -309,7 +309,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(53055, {	-- Pushing Our Influence
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically starts when you finish your second Foothold in Zandalar.",
 							constant = "AUTOMATICALLY_STARTS_WHEN_YOU_FINISH_YOUR",
 							export = true,
@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["DisablePartySync"] = true,
 					}),
 					q(52443, {	-- The Final Foothold
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "To get this quest and continue the campaign, you must complete two footholds of your choice.",
 							constant = "TO_GET_THIS_QUEST_AND_CONTINUE_THE_CAMPAIGN_YOU_2",
 							export = true,
@@ -815,7 +815,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					}),
 					-- BETWEEN BLOOD ON THE SAND / CHASING DARKNESS
 					q(53069, {	-- Operation: Blood Arrow
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Relog (outside of Boralus) if this doesn't appear upon hitting the reputation requirement",
 							constant = "RELOG_OUTSIDE_OF_BORALUS_IF_THIS_DOESN_T_APPEAR",
 							export = true,

@@ -399,7 +399,7 @@ local WANDS_WITH_COST = {
 	i(20410, {	-- Hallowed Wand - Bat
 		["cost"] = { { "i", 33226, 2 } },	-- 2x Tricky Treat
 		-- #if AFTER TWW
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Can only be used on party members of your faction.",
 			constant = "CAN_ONLY_BE_USED_ON_PARTY_MEMBERS_OF_YOUR",
 			export = true,
@@ -602,7 +602,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			},
 		}),
 		ach(10365, {	-- A Frightening Friend
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You need Tier 3 garrison for this.",
 				constant = "YOU_NEED_TIER_3_GARRISON_FOR_THIS",
 				export = true,
@@ -757,7 +757,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["timeline"] = { ADDED_12_1_5 },
 		}),
 		ach(288, {	-- Out With It
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Eat 2-10 Tricky Treats quickly to trigger the debuff. Results may vary.",
 				constant = "EAT_2_10_TRICKY_TREATS_QUICKLY_TO_TRIGGER_THE",
 				export = true,
@@ -859,7 +859,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 		}),
 		ach(283, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- The Masquerade
 			-- #if AFTER TWW
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You can only get transformed by party members of your faction.",
 				constant = "YOU_CAN_ONLY_GET_TRANSFORMED_BY_PARTY_MEMBERS",
 				export = true,
@@ -1002,7 +1002,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 	n(23682, {	-- Headless Horseman
 		-- #if AFTER WRATH
 		-- #if BEFORE 10.1.7
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "You can loot the Loot-Stuffed Filled Pumpkin once a day per character by queueing for the encounter in the Dungeon Finder.",
 			constant = "YOU_CAN_LOOT_THE_LOOT_STUFFED_FILLED_PUMPKIN",
 			export = true,
@@ -1143,7 +1143,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					{ "exclude", "itemID", 69187, 69188, 69189, 69190, 69192, 69193, 69194, 69195 },	-- Exclude Murloc, Naga, Ogre, Vrykul Masks
 				},
 				-- #if BEFORE 11.2.5
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Your first attempt of the day has an increased chance at the mount, pet, and manuscript. Enabling the curses increases the chances for the mount, at least. Subsequent attempts scan still drop these items, but at a significantly lower rate (as far as we know).",
 					constant = "YOUR_FIRST_ATTEMPT_OF_THE_DAY_HAS_AN_INCREASED",
 					export = true,
@@ -1175,7 +1175,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					i(211271, {	-- Arfus (PET)
 						["timeline"] = { ADDED_10_1_7 },
 						-- #if AFTER 11.2.5
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "While the first attempt each day has a greatly increased drop chance, this item can be farmed using multiple characters.",
 							constant = "WHILE_THE_FIRST_ATTEMPT_EACH_DAY_HAS_A_GREATLY",
 							export = true,
@@ -1201,7 +1201,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					i(37012, {	-- Headless Horseman's Mount (MOUNT!)
 						["timeline"] = { ADDED_2_2_2 },
 						-- #if AFTER 10.1.7
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Enabling the curses increases the chances for the mount. Subsequent attempts scan still drop the mount, according to Blizzard, but at a significantly lower rate (as far as we know).",
 							constant = "ENABLING_THE_CURSES_INCREASES_THE_CHANCES_FOR",
 							export = true,
@@ -1258,7 +1258,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					i(247966, {	-- The Horseman's Ghoulish Breastplate
 						["timeline"] = { ADDED_11_2_5 },
 						-- #if BEFORE 12.0.0
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The first attempt each day guarantees 1 'Ghoulish' Set Item per character.",
 							constant = "THE_FIRST_ATTEMPT_EACH_DAY_GUARANTEES_1",
 							export = true,
@@ -1337,7 +1337,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					}),
 					i(208680, {	-- Windborne Velocidrake: Hallow's End Armor (MM!)
 						["timeline"] = { ADDED_10_1_7 },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item is only eligible to drop for the first attempt per day per Warband, but every eligible failed attempt increases the drop chance.",
 							constant = "THIS_ITEM_IS_ONLY_ELIGIBLE_TO_DROP_FOR_THE_2",
 							export = true,
@@ -1666,7 +1666,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 		},
 	}),
 	petbattle(filter(BATTLE_PETS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "|cFFFFD700Ghastly Rats|r, |cFFFFD700Ghost Maggots|r, and |cFFFFD700Spectral Spinners|r are only present in your Garrison once the |cFFFFD700Creepy Crawlers|r decoration is applied. This can be bought for |cFFFFD7005 Spooky Supplies|r from |cFFFFD700Izzy Hollyfizzle|r in the Garrison.",
 			constant = "CFFFFD700GHASTLY_RATS_R_CFFFFD700GHOST_MAGGOTS",
 			export = true,
@@ -2735,7 +2735,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 				}),
 				candybucket(12340, {	-- Candy Bucket — Westfall, Sentinel Hill, Alliance
 					-- #if BEFORE CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The candy bucket will relocate to Sentinel Tower if the area is phased post Defias attack.",
 						constant = "THE_CANDY_BUCKET_WILL_RELOCATE_TO_SENTINEL",
 						export = true,
@@ -4406,7 +4406,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			},
 		}),
 		q(29411, {	-- What Now? (Alliance)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Does not matter who you give it to, you still get the pet!",
 				constant = "DOES_NOT_MATTER_WHO_YOU_GIVE_IT_TO_YOU_STILL",
 				export = true,
@@ -4452,7 +4452,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["timeline"] = { ADDED_9_1_0 },
 			["customCollect"] = "SL_COV_VEN",
 		},{
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Speak with Theotar within The Ember Court scenario to spawn the 'Vision of Sire Denathrius'. During the final Tribute stage, accept the quest to receive the permanent unlock for your Ember Court.",
 				constant = "SPEAK_WITH_THEOTAR_WITHIN_THE_EMBER_COURT",
 				export = true,
@@ -4539,7 +4539,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 		["timeline"] = { ADDED_6_2_2 },
 		["groups"] = {
 			n(96323, {	-- Arachnis
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFD700Arachnis|r is only present in your Garrison once the |cFFFFD700Creepy Crawlers|r decoration is applied. This can be bought with |cFFFFD7005 Spooky Supplies|r from |cFFFFD700Izzy Hollyfizzle|r in your garrison. (This rare is available all year.)",
 					constant = "CFFFFD700ARACHNIS_R_IS_ONLY_PRESENT_IN_YOUR",
 					export = true,
@@ -4676,7 +4676,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 	}))),
 	n(TREASURES, {
 		o(244568, {	-- Spooky Pepe
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "You need a Tier 3 garrison for this.",
 				constant = "YOU_NEED_A_TIER_3_GARRISON_FOR_THIS",
 				export = true,

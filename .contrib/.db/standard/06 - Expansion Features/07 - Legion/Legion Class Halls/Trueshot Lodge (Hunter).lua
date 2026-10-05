@@ -70,7 +70,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 				}),
 				n(QUESTS, {
 					q(40384, {	-- Needs of the Hunters
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This NPC will approach you within a few seconds the first time you enter Legion Dalaran.",
 							constant = "THIS_NPC_WILL_APPROACH_YOU_WITHIN_A_FEW_SECONDS",
 							export = true,
@@ -160,7 +160,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							},
 						}),
 						q(41009, {	-- Hunter to Hunter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To obtain this quest you must choose to search for the |cffffff9aBeast Mastery|r artifact FIRST.",
 								constant = "TO_OBTAIN_THIS_QUEST_YOU_MUST_CHOOSE_TO_SEARCH",
 								export = true,
@@ -257,7 +257,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 							},
 						}),
 						q(40952, {	-- Hunter to Hunter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To obtain this quest you must choose to search for the |cffffff9aMarksmanship|r artifact FIRST.",
 								constant = "TO_OBTAIN_THIS_QUEST_YOU_MUST_CHOOSE_TO_SEARCH_2",
 								export = true,
@@ -779,7 +779,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["groups"] = { follower(748) },	-- Halduron Brightwing
 					}),
 					q(44090, {	-- Pledge of Loyalty
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "After completing |cffffff00The Campaign Begins|r, return to Dalaran and this NPC will approach you within a few seconds.",
 							constant = "AFTER_COMPLETING_CFFFFFF00THE_CAMPAIGN_BEGINS_R",
 							export = true,
@@ -1055,7 +1055,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					n(100633, {	-- Death Hunter Moorgoth <Hunters of Death>
 						["crs"] = { 105099 },	-- Dark Ranger Velonara
 						["coord"] = { 52.6, 50.3, TRUESHOT_LODGE },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|c808080FAHunters will need to have completed the hidden quest|r |cFFFFD700Dark Memento|r |c808080FAin order to see items on this vendor.|r\n\n|cffff0000How to activate the quest:|r\n|c0070DEFFStep 1:|r\n|c808080FASpeak to|r |cABD473FFDeath Hunter Moorgoth|r |c808080FA and complete the dialogue with him.\n|c0070DEFFStep 2:|r\n|c808080FABuy 13x|r |cFFFFFFFFBlack Roses|r|c808080FA from him.\n|c0070DEFFStep 3:|r\n|c808080FASpeak to|r |cABD473FFDark Ranger Velonara|r |c808080FA and complete the dialogue with her. Afterwards she will take the 13 |r|cFFFFFFFFBlack Roses|r|c808080FA from you.\n|c0070DEFFStep 4:|r\n|c808080FAGo back and speak to|r |cABD473FFDeath Hunter Moorgoth|r |c808080FA who will finish the story between the two. Once doing this he will no longer sell you anything.\n|c0070DEFFStep 5:|r\n|c808080FFFind|r |cABD473FFDark Ranger Velonara|r |c808080FA who will offer the quest, |r|cFFFFD700Dark Memento|r.\n|c0070DEFFStep 6:|r\n|c808080FAAccept the quest and then deliver the hood to|r |cABD473FFDeath Hunter Moorgoth|r |c808080FA.\n|c0070DEFFStep 7:|r\n|c808080FAUpon finishing that quest he will now offer you the two items.",
 							constant = "C808080FAHUNTERS_WILL_NEED_TO_HAVE_COMPLETED",
 							export = true,

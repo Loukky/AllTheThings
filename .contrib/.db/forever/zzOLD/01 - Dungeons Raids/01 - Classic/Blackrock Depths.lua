@@ -52,7 +52,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["lore"] = "Once the capital city of the Dark Iron dwarves, this volcanic labyrinth now serves as the seat of power for Ragnaros the Firelord. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain. Obsessed with defeating Nefarian and his draconic minions, Ragnaros will go to any extreme to achieve final victory.",
 		["zone-text-areaID"] = 1584,	-- Blackrock Depths
 		-- #endif
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The best route for a full clear is to enter Shadowforge City first time through the Dark Iron Highway. The Detention Block can be cleared whenever.",
 			constant = "THE_BEST_ROUTE_FOR_A_FULL_CLEAR_IS_TO_ENTER",
 			export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(4264, {	-- A Crumpled Up Note
 					-- #if BEFORE 3.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After completing the Abandoned Hope quest, kill trash until this item drops for you. If your group has not yet killed the Dark Keeper, they have a fairly high chance to drop this item as well.",
 						constant = "AFTER_COMPLETING_THE_ABANDONED_HOPE_QUEST_KILL",
 						export = true,
@@ -142,7 +142,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(4022, {	-- A Taste of Flame (1/2) (A)
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you completed the quest 'Trinkets...' in Searing Gorge, you can complete this quest immediately without having to fight the elite dragon by bringing the Black Dragonflight Molt with you.",
 						constant = "IF_YOU_COMPLETED_THE_QUEST_TRINKETS_IN_SEARING",
 						export = true,
@@ -235,7 +235,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(3801, {	-- Dark Iron Legacy (1/2)
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must be a ghost in order to interact with this quest giver. He's in the middle of Blackrock Mountain on the floating island on top of his tomb.",
 						constant = "YOU_MUST_BE_A_GHOST_IN_ORDER_TO_INTERACT_WITH",
 						export = true,
@@ -321,7 +321,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(4182, {	-- Dragonkin Menace
 					-- #if BEFORE 3.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You should finish this full quest chain up to Marshal Windsor before joining a Blackrock Depths group.",
 						constant = "YOU_SHOULD_FINISH_THIS_FULL_QUEST_CHAIN_UP_TO",
 						export = true,
@@ -645,7 +645,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(6501, {	-- The Dragon's Eye
 					-- #if BEFORE 3.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Go to Haleh in Winterspring. Use the blue rune on the ground inside the cave to reach her. Don't bother going to Dustwallow Marsh.",
 						constant = "GO_TO_HALEH_IN_WINTERSPRING_USE_THE_BLUE_RUNE",
 						export = true,
@@ -697,7 +697,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(6403, {	-- The Great Masquerade
 					-- #if BEFORE 3.0.2
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest can be solo'd. Do NOT touch anything and let Bolvar take care of the dragons. They do heavy AOE, you will likely die unless you're in a raid group of 20+.",
 						constant = "THIS_QUEST_CAN_BE_SOLO_D_DO_NOT_TOUCH_ANYTHING",
 						export = true,
@@ -923,7 +923,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(4083, {	-- The Spectral Chalice
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you are a miner with 230 skill, speak with Gloom'rel to have him summon the Spectral Chalice.\n\nAfter you deposit the required items, speak to Gloom'rel again to learn how to smelt Dark Iron Ore.",
 						constant = "IF_YOU_ARE_A_MINER_WITH_230_SKILL_SPEAK_WITH",
 						export = true,
@@ -1058,7 +1058,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					{	-- Neutral
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(227730, {	-- Thorium Brotherhood Contract
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "With a Sulfuron Ingot in your bags, speak with Lokhtos and click on the new chat option to obtain a Thorium Brotherhood Contract.",
 								constant = "WITH_A_SULFURON_INGOT_IN_YOUR_BAGS_SPEAK_WITH",
 								export = true,
@@ -1455,7 +1455,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				})),
 				-- #endif
 				i(11614, {	-- Plans: Dark Iron Mail (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|cFFFFD700Plans: Dark Iron Mail|r can spawn in one of four spots.\n\n|cFFFFFFFFLocation 1:|r Located in the |cFFFFD700West Garrison|r. After going up the ramp from where |cFFFFD700General Angerforge|r is located on your left are some tables. It will be located in the back corner where the Fireguard Destroyer is and two tables in front of it. This table is close to the table that has vases on it that is near the keg.\n\n|cFFFFFFFFLocation 2:|r In |cFFFFD700Golem Lord Argelmach's|r room. When you walk into the room it will be in the back left corner where in between barrels. There will be two barrels to the left and one barrel to the right of it.\n\n|cFFFFFFFFLocation 3:|r In |cFFFFD700The Manufactory|r, on a bench.\n\n|cFFFFFFFFLocation 4:|r After leaving the room with |cFFFFD700Ambassador Flamelash|r you will cross a bridge that leads into the |cFFFFD700Mold Foundry|r. Once you enter the room you will continue straight until you see the ramp. Instead of going down the ramp you will jump off the ledge to the right of the ramp. After landing on the ground you will see the plans located here.",
 						constant = "CFFFFD700PLANS_DARK_IRON_MAIL_R_CAN_SPAWN_IN",
 						export = true,
@@ -1476,7 +1476,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "o", 173232 },	-- Blacksmithing Plans
 				}),
 				i(11615, {	-- Plans: Dark Iron Shoulders (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|cFFFFD700Plans: Dark Iron Shoulders|r spawn in one of two spots.\n\n|cFFFFFFFFLocation 1:|r In |cFFFFD700General Angerforge's|r room. They are sitting on the bottom shelf next to the floating crystal.\n\n|cFFFFFFFFLocation 2:|r On the ground in the |cFFFFD700Detention Block|r. After passing Lexlort you will continue down into the room. When you come across the first split into two rooms you will enter the room on the left. They will be located on the seat behind the bench which is located next to the 3 red jugs.",
 						constant = "CFFFFD700PLANS_DARK_IRON_SHOULDERS_R_SPAWN_IN",
 						export = true,
@@ -1509,7 +1509,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["cr"] = 8897,	-- Doomforge Craftsman
 				}),
 				i(18235, {	-- Schematic: Field Repair Bot 74A (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "On the floor next to Golem Lord Argelmach.",
 						constant = "ON_THE_FLOOR_NEXT_TO_GOLEM_LORD_ARGELMACH",
 						export = true,
@@ -1534,7 +1534,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(16053, {	-- Schematic: Master Engineer's Goggles
 					-- #if AFTER 2.0.1
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This is now learned from the trainer.",
 						constant = "THIS_IS_NOW_LEARNED_FROM_THE_TRAINER",
 						export = true,
@@ -1641,7 +1641,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				e(372, {	-- Ring of Law
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Approaching the center of the ring will start an event, and the High Justice will appear and approach one of the gates and release three waves of non-elite enemies, followed by one of six possible mini-bosses.",
 						constant = "APPROACHING_THE_CENTER_OF_THE_RING_WILL_START",
 						export = true,
@@ -1794,7 +1794,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 						}),
 						applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n_conditional(16059, {	-- Theldren
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires Banner of Provocation (Dungeon Set 2 Questline) to summon this boss. Loot the grey chest on the grey grate after killing the mobs. You must use the banner before the non-elites are killed.\nSummon Location: Ring of Law.",
 								constant = "REQUIRES_BANNER_OF_PROVOCATION_DUNGEON_SET_2",
 								export = true,
@@ -1842,7 +1842,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, n(223265, {	-- Delirious Ancient
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns after defeating High Interrogator Gerstahn, Houndmaster Grebmar, Ring of Law in the Dark Iron Highway.",
 						constant = "SPAWNS_AFTER_DEFEATING_HIGH_INTERROGATOR",
 						export = true,
@@ -1891,7 +1891,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(11768, {	-- Incendic Bracers
 							-- #if BEFORE 10.1.7
 							-- #if AFTER 2.0.1
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This item appears to have been removed with TBC Prepatch. Please @Crieve if you get it to drop.",
 								constant = "THIS_ITEM_APPEARS_TO_HAVE_BEEN_REMOVED_WITH_TBC",
 								export = true,
@@ -1996,7 +1996,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(PHASE_FIVE, i(22242)),	-- Verek's Leash
 				}),
 				n(9476, {	-- Watchman Doomgrip
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Watchman Doomgrip spawns once all twelve Relic Coffers have been opened using Relic Coffer Keys that can drop from any Dark Iron mob in the instance. Upon defeating all enemies, a hidden door beneath the Dark Coffer will open allowing access to the Secret Safe as well as the Heart of the Mountain.",
 						constant = "WATCHMAN_DOOMGRIP_SPAWNS_ONCE_ALL_TWELVE_RELIC",
 						export = true,
@@ -2017,7 +2017,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["cost"] = { { "i", 11078, 12 } },	-- Relic Coffer Key
 					["groups"] = {
 						o(160836, {	-- Relic Coffer
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Relic Coffer Keys can drop from any Dark Iron mob in the instance.",
 								constant = "RELIC_COFFER_KEYS_CAN_DROP_FROM_ANY_DARK_IRON",
 								export = true,
@@ -2045,7 +2045,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						o(165554, {	-- Heart of the Mountain
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This spawns after defeating Watchman Doomgrip.",
 								constant = "THIS_SPAWNS_AFTER_DEFEATING_WATCHMAN_DOOMGRIP",
 								export = true,
@@ -2085,7 +2085,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				o(164820, {	-- Dark Keeper Nameplate
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Inspect the portrait in front of the coffer room. Opening it will tell you the name of the Dark Keeper you need and where he is located. Only one will spawn each reset.\n\n|cff3399ffDark Keepers:|r\n\n|cFFFFD700Dark Keeper Bethek|r spawns inside the vault room as soon as you open the portrait.\n\n|cFFFFD700Dark Keeper Ofgut|r is located in |cFFFFD700General Angerforge's|r room. When you come down the stairs and are looking straight at |cFFFFD700General Angerforge|r, you will see him located directly to the left near the crystal.\n\n|cFFFFD700Dark Keeper Pelver|r is located in |cFFFFD700The Domicile|r. For quicker access, you can take any of the mole machines and click |cFFFFD700Into the Domicile|r and he will be on top of it.\n\n|cFFFFD700Dark Keeper Uggel|r is quite a close walk; go outside the vault room and turn right to the last room. He is near the entrance where all the golems are.\n\n|cFFFFD700Dark Keeper Vorfalk|r is located at the |cFFFFD700Grim Guzzler|r. When you first enter the room after coming from the bridge, he will be located on your right side in the corner (in front of the band's playing spot).\n\n|cFFFFD700Dark Keeper Zimrel|r is located on the second floor of the |cFFFFD700Ring of Law|r. When entering this floor from the |cFFFFD700East Garrison|r (room with the Shadowforge Lock), you will go around to your right and he will be sitting in the middle of the seats.",
 						constant = "INSPECT_THE_PORTRAIT_IN_FRONT_OF_THE_COFFER",
 						export = true,
@@ -2213,7 +2213,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				e(380, {	-- Hurley Blackbreath
 					["creatureID"] = 9537,
 					["provider"] = { "o", 164911 },	-- Thunderbrew Lager Keg
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Break the 3 Thunderbrew Lager Kegs to start the encounter.",
 						constant = "BREAK_THE_3_THUNDERBREW_LAGER_KEGS_TO_START_THE",
 						export = true,
@@ -2250,7 +2250,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				e(9543, {	-- Ribbly Screwspigot
 					["creatureID"] = 9543,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to him to start the encounter.",
 						constant = "SPEAK_TO_HIM_TO_START_THE_ENCOUNTER",
 						export = true,
@@ -2297,7 +2297,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				applyclassicphase(TBC_PHASE_FOUR, n(28067, {	-- Dark Iron Brewer
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Speak to him until he passes out, a Mug will appear on the ground",
 						constant = "SPEAK_TO_HIM_UNTIL_HE_PASSES_OUT_A_MUG_WILL",
 						export = true,
@@ -2324,7 +2324,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				})),
 				e(381, {	-- Phalanx
 					["creatureID"] = 9502,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Private Rocknot must be sent into a drunken rage to aggro Phalanx.\nTo do that, give him 6 dark iron ale mugs, which can be bought from Plugger Spazzring.\nRocknot will break one of the kegs, it'll blow the door open and Phalanx will be angry.",
 						constant = "PRIVATE_ROCKNOT_MUST_BE_SENT_INTO_A_DRUNKEN",
 						export = true,
@@ -2529,7 +2529,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				-- #if BEFORE 7.3.2
 				n(8929, {	-- Princess Moira Bronzebeard <Princess of Ironforge> / Thaurissan High Priest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order to be eligible for this loot, you need to have completed The Fate of the Kingdom or The Royal Rescue. (Removed in 4.0.3)",
 						constant = "IN_ORDER_TO_BE_ELIGIBLE_FOR_THIS_LOOT_YOU_NEED",
 						export = true,

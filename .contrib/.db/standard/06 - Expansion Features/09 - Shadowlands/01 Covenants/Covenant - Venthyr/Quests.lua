@@ -725,7 +725,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				}),
 			}),
 			q(57918, {	-- The Absolution of Souls
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Becomes available after unlocking tier 1 of the Command Table sanctum upgrade.",
 					constant = "BECOMES_AVAILABLE_AFTER_UNLOCKING_TIER_1_OF_THE",
 					export = true,

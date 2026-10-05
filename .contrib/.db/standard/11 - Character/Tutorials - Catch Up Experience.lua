@@ -6,7 +6,7 @@ root(ROOTS.Character, n(TUTORIALS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_
 		["icon"] = 236712,
 		["maps"] = { 2451 },	-- Arathi Highlands (Catch Up Experience)
 		["lore"] = "Journey through the Arathi Highlands to help refamiliarize yourself with World of Warcraft and receive upgraded gear for your character.",
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Accessible through Tutorials tab of your Adventure Guide.\n\n|cFFE50D12WARNING:|r Trying to fly out of the area will reset the whole experience.",
 			constant = "ACCESSIBLE_THROUGH_TUTORIALS_TAB_OF_YOUR",
 			export = true,

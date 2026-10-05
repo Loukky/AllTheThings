@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				},
 			}),
 			n(273760, {	-- Ensorcelled Cryptid
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with to remove stacks of Barrier Integrity while dodging arcane swirls, after 100 removed stacks, interact with J'imothy to get the pet. Despawns and reappears elsewhere after a minute, multiple people can participate.",
 					constant = "INTERACT_WITH_TO_REMOVE_STACKS_OF_BARRIER",
 					export = true,

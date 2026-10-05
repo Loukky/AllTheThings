@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(156659, {	-- Counterfeit Rastakhan Mask
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Return to |CFFCC33FFGriftah|r and trade him the |CFFFFD700Counterfeit Rastakhan Mask|r in exchange for the toy |cFFFFFFFF(53.0, 89.9)|r.",
 							constant = "RETURN_TO_CFFCC33FFGRIFTAH_R_AND_TRADE_HIM_THE",
 							export = true,
@@ -254,7 +254,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(156652, {	-- Centennial Blossom
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Visit |CFFCC33FFTrader Nog|r and trade them the |CFFFFD700Centennial Blossom|r for a |CFFFFD700Preserved Night Elf Head|r |cFFFFFFFF(57.1, 91.4)|r.",
 							constant = "VISIT_CFFCC33FFTRADER_NOG_R_AND_TRADE_THEM_THE",
 							export = true,
@@ -292,7 +292,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(156646),	-- Bottled Azerite
 					i(156659, {	-- Counterfeit Rastakhan Mask
 						i(156649, {	-- Zandalari Effigy Amulet (TOY!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To get this item you have to jump through the following hoops:\n\n|cFFFFFFFFStep 1:|r Purchase a |CFFFFD700Sack of \"Discarded\" Hearthstones|r from |CFFCC33FFGriftah|r |cFFFFFFFF[Coords: 53.02, 89.93]|r.\n|cFFFFFFFFStep 2:|r Now visit |CFFCC33FFRakle the Wretched|r and trade him the |CFFFFD700Sack of \"Discarded\" Hearthstones|r to receive a |CFFFFD700Much-Too-Hot-Pepper|r |cFFFFFFFF[Coords: 34.77, 11.58]|r.\n|cFFFFFFFFStep 3:|r Visit |CFFCC33FFTrader Haw'li|r and trade them the |CFFFFD700Much-Too-Hot-Pepper|r for some |CFFFFD700Golden Seeds|r |cFFFFFFFF[Coords: 37.81, 14.72]|r.\n|cFFFFFFFFStep 4:|r Visit |CFFCC33FFGranda Watae|r and trade them the |CFFFFD700Golden Seeds|r for a |CFFFFD700Centennial Blossom|r |cFFFFFFFF[Coords: 42.16, 35.78]|r.\n|cFFFFFFFFStep 5:|r Visit |CFFCC33FFTrader Nog|r and trade them the |CFFFFD700Centennial Blossom|r for a |CFFFFD700Preserved Night Elf Head|r |cFFFFFFFF[Coords: 57.15, 91.47]|r.\n|cFFFFFFFFStep 6:|r Visit |CFFCC33FF\"Black Eye\" Zenru|r and trade them the |CFFFFD700Preserved Night Elf Head|r for a |CFFFFD700Counterfeit Rastakhan Mask|r |cFFFFFFFF[Coords: 53.77, 85.97]|r.\n|cFFFFFFFFStep 7:|r Return back to |CFFCC33FFGriftah|r and you will trade him the |CFFFFD700Counterfeit Rastakhan Mask|r in exchange for the toy |cFFFFFFFF[Coords: 53.02, 89.93]|r.",
 								constant = "TO_GET_THIS_ITEM_YOU_HAVE_TO_JUMP_THROUGH_THE",
 								export = true,
@@ -312,7 +312,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 							}),
 						}),
 						i(156647, {	-- Sack of "Discarded" Hearthstones
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Now visit |CFFCC33FFRakle the Wretched|r and trade him the |CFFFFD700Sack of \"Discarded\" Hearthstones|r to receive a |CFFFFD700Much-Too-Hot-Pepper|r |cFFFFFFFF[Coords: 34.77, 11.58]|r.",
 								constant = "NOW_VISIT_CFFCC33FFRAKLE_THE_WRETCHED_R_AND",
 								export = true,
@@ -358,7 +358,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["cost"] = { { "i", POLISHED_PET_CHARM, 100 } },
 					}),
 					i(163504, {	-- Child of Jani (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Complete the \"Get Hek'd\" achievement for this item to appear on the vendor.",
 							constant = "COMPLETE_THE_GET_HEK_D_ACHIEVEMENT_FOR_THIS",
 							export = true,
@@ -683,7 +683,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(156650, {	-- Much-Too-Hot Pepper
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Visit |CFFCC33FFTrader Haw'li|r and trade them the |CFFFFD700Much-Too-Hot-Pepper|r for some |CFFFFD700Golden Seeds|r |cFFFFFFFF[Coords: 37.8, 14.7]|r.",
 							constant = "VISIT_CFFCC33FFTRADER_HAW_LI_R_AND_TRADE_THEM",
 							export = true,
@@ -1040,7 +1040,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(156651, {	-- Golden Seeds
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Visit |CFFCC33FFGranda Watae|r and trade them the |CFFFFD700Golden Seeds|r for a |CFFFFD700Centennial Blossom|r |cFFFFFFFF[Coords: 42.16, 35.78].",
 							constant = "VISIT_CFFCC33FFGRANDA_WATAE_R_AND_TRADE_THEM",
 							export = true,
@@ -1070,7 +1070,7 @@ root(ROOTS.Zones, m(ZANDALAR, timelineSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(156655, {	-- Preserved Night Elf Head
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Visit |CFFCC33FF\"Black Eye\" Zenru|r and trade them the |CFFFFD700Preserved Night Elf Head|r for a |CFFFFD700Counterfeit Rastakhan Mask|r |cFFFFFFFF[Coords: 53.77, 85.97]|r.",
 							constant = "VISIT_CFFCC33FF_BLACK_EYE_ZENRU_R_AND_TRADE",
 							export = true,

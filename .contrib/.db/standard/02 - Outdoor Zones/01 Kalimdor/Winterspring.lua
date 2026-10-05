@@ -168,7 +168,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				["groups"] = {
 					pet(487),	-- Alpine Chipmunk (PET!)
 					pet(1163, {	-- Anodized Robo Cub (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Everlook.",
 							constant = "FOUND_IN_EVERLOOK",
 							export = true,
@@ -189,7 +189,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["timeline"] = { ADDED_5_1_0 },
 					}),
 					pet(634, {	-- Crystal Spider (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can most commonly be found in Frostwhisper Gorge in southern Winterspring and Lake Kel'theril.",
 							constant = "CAN_MOST_COMMONLY_BE_FOUND_IN_FROSTWHISPER",
 							export = true,
@@ -209,7 +209,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					}),
 					pet(69, {	-- Snowy Owl (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Starts spawning December 21st. Stops spawning March 20th",
 							constant = "STARTS_SPAWNING_DECEMBER_21ST_STOPS_SPAWNING",
 							export = true,
@@ -290,7 +290,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66466, {	-- Stone Cold Trixxy <Grand Master Pet Tamer>
 					["coord"] = { 65.6, 64.6, WINTERSPRING },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Trixxy's pets are level 19 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Blighted Squarrel and Turkey.",
 						constant = "TRIXXY_S_PETS_ARE_LEVEL_19_OF_THE_FOLLOWING",
 						export = true,
@@ -539,7 +539,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(5163, {	-- Are We There, Yeti? (3/3)
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Yetiphobia' (28722).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_6",
 						export = true,
@@ -918,7 +918,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(5084, {	-- Falling to Corruption
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Falling to Corruption' (28464).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_7",
 						export = true,
@@ -1657,7 +1657,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(28656, {	-- Strange Life Forces
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Kill mobs at close range until you receive an E'ko buff.",
 						constant = "KILL_MOBS_AT_CLOSE_RANGE_UNTIL_YOU_RECEIVE_AN_E",
 						export = true,
@@ -1906,7 +1906,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 53,
 				}),
 				q(29034, {	-- They Grow Up So Fast
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest must remain in your quest log to do the relevant daily quests.",
 						constant = "THIS_QUEST_MUST_REMAIN_IN_YOUR_QUEST_LOG_TO_DO",
 						export = true,
@@ -2533,7 +2533,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #endif
 			n(TREASURES, {
 				o(240616, {	-- Frozen Supplies
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Loot the Frozen Supplies in a nook at the base of the pillar.",
 						constant = "LOOT_THE_FROZEN_SUPPLIES_IN_A_NOOK_AT_THE_BASE",
 						export = true,
@@ -2724,7 +2724,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(11184, {	-- Wixxrak <Weaponsmith & Gunsmith>
 					-- #if AFTER 7.1.5.23360
 					["sourceQuest"] = 44952,	-- Blackrock Depths: Jewel of the Depths
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must have completed the quest 'Blackrock Depths: Jewel of the Depths' before he'll sell you the plans.",
 						constant = "MUST_HAVE_COMPLETED_THE_QUEST_BLACKROCK_DEPTHS",
 						export = true,
@@ -2790,7 +2790,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #endif
 						}),
 						i(201794, {	-- Schematic: Tranquil Mechanical Yeti
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Available for purchase after you complete |cFFFFD700Yetiphobia|r quest.",
 								constant = "AVAILABLE_FOR_PURCHASE_AFTER_YOU_COMPLETE",
 								export = true,

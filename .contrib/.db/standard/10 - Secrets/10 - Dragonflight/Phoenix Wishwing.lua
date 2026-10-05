@@ -4,7 +4,7 @@
 
 root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 	header(HEADERS.Item, 193373, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {	-- Phoenix Wishwing
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "Below is a detailed explanation on how to obtain the Phoenix Wishwing pet.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",
 			constant = "BELOW_IS_A_DETAILED_EXPLANATION_ON_HOW_TO_2",
 			export = true,
@@ -25,7 +25,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 		["displayID"] = 106643,
 		["groups"] = {
 			o(13000040, {	-- Step 1: Phoenix Ash Talisman
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 1:|r Obtain the Phoenix Ash Talisman from Zektar in Spires of Arak.",
 					constant = "CFFFFFFFFSTEP_1_R_OBTAIN_THE_PHOENIX_ASH",
 					export = true,
@@ -46,7 +46,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				["provider"] = { "i", 199203 },	-- Phoenix Ash Talisman
 				["groups"] = {
 					o(13000041, {	-- Step 1A: Glittering Phoenix Ember
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|cFFFFFFFFStep 1A:|r Obtain the Glittering Phoenix Ember from Alysrazor in Firelands Timewalking.",
 							constant = "CFFFFFFFFSTEP_1A_R_OBTAIN_THE_GLITTERING",
 							export = true,
@@ -67,7 +67,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						["provider"] = { "i", 199099 },	-- Glittering Phoenix Ember
 					}),
 					o(13000042, {	-- Step 1B: Inert Phoenix Ash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|cFFFFFFFFStep 1B:|r Obtain 20 Inert Phoenix Ash from fire elementals in Un'Goro Crater.",
 							constant = "CFFFFFFFFSTEP_1B_R_OBTAIN_20_INERT_PHOENIX_ASH",
 							export = true,
@@ -88,7 +88,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 						["provider"] = { "i", 199092 },	-- Inert Phoenix Ash
 					}),
 					o(13000043, {	-- Step 1C: Sacred Phoenix Ash
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|cFFFFFFFFStep 1C:|r Obtain 10 Sacred Phoenix Ash from cookpots in Spires of Arak.",
 							constant = "CFFFFFFFFSTEP_1C_R_OBTAIN_10_SACRED_PHOENIX_ASH",
 							export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				},
 			}),
 			o(13000044, {	-- Step 2: Ash Feather
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 2:|r Obtain 20 Ash Feathers spawned by Griftah's Ash Feather Amulet.",
 					constant = "CFFFFFFFFSTEP_2_R_OBTAIN_20_ASH_FEATHERS",
 					export = true,
@@ -132,7 +132,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, {
 				["provider"] = { "i", 202062 },	-- Ash Feather
 			}),
 			o(13000045, {	-- Step 3: Smoldering Phoenix Ash
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "|cFFFFFFFFStep 3:|r Obtain 15 Smoldering Phoenix Ash from phoenixes around the Dragon Isles.",
 					constant = "CFFFFFFFFSTEP_3_R_OBTAIN_15_SMOLDERING_PHOENIX",
 					export = true,

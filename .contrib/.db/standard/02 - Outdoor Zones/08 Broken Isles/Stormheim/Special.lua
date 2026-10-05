@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 				["questID"] = 42858,
 				["coord"] = { 72.0, 59.8, STORMHEIM },
 				["crs"] = { 109089 },	-- Houndmaster Payne
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols inside of Greywatch. Horde players can still interact with him, but be aware the rest of the camp will be hostile. Shares completion with |cffffff00Batmaster Claud|r. \n\nCan be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit.",
 					constant = "PATROLS_INSIDE_OF_GREYWATCH_HORDE_PLAYERS_CAN",
 					export = true,
@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			n(109133, {	-- Batmaster Claud
 				["questID"] = 42858,
 				["coord"] = { 54.6, 71.6, STORMHEIM },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols inside of Dreadwake's Landing. Alliance players can still interact with him, but be aware the rest of the camp will be hostile. Shares completion with |cffffff00Houndmaster Payne|r. \n\nCan be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit.",
 					constant = "PATROLS_INSIDE_OF_DREADWAKE_S_LANDING_ALLIANCE",
 					export = true,

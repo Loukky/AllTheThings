@@ -577,7 +577,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["groups"] = {
 					n(129803, {	-- Whiplash
 						["questID"] = 52296,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This rare only spawns during its associated world quest.",
 							constant = "THIS_RARE_ONLY_SPAWNS_DURING_ITS_ASSOCIATED",
 							export = true,

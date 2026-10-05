@@ -4,7 +4,7 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	inst(777, {	-- Assault on Violet Hold (Legion)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The bosses are random on all difficulties except Mythic.",
 			constant = "THE_BOSSES_ARE_RANDOM_ON_ALL_DIFFICULTIES_2",
 			export = true,

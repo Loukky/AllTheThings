@@ -657,7 +657,7 @@ root(ROOTS.WorldDrops, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP,
 			}),
 			i(104238, {	-- Technique: Glyph of the Compy
 				-- #if BEFORE LEGION
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Drops off high level mobs in Pandaria instances and Timeless Isle.",
 					constant = "DROPS_OFF_HIGH_LEVEL_MOBS_IN_PANDARIA_INSTANCES",
 					export = true,
@@ -707,7 +707,7 @@ root(ROOTS.WorldDrops, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP,
 		}),
 		prof(LEATHERWORKING, {
 			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(102513, {	-- Pattern: Drums of Rage (RECIPE!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires maxed Pandaria leatherworking skill to drop.",
 					constant = "REQUIRES_MAXED_PANDARIA_LEATHERWORKING_SKILL_TO",
 					export = true,
@@ -752,7 +752,7 @@ root(ROOTS.WorldDrops, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP,
 		currency(738),	-- Lesser Charm of Good Fortune
 		i(89112),	-- Mote of Harmony
 		i(74849, {	-- Pink Turnip
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Pink Turnip drops off any Yaungol in Pandaria. Located mostly in Kun-Lai Summit and Townlong Steppes.",
 				constant = "PINK_TURNIP_DROPS_OFF_ANY_YAUNGOL_IN_PANDARIA",
 				export = true,
@@ -773,7 +773,7 @@ root(ROOTS.WorldDrops, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP,
 		}),
 		i(76061),	-- Spirit of Harmony
 		i(74844, {	-- Red Blossom Leek
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops from Jinyu, Sprites or Zandalari. Located in almost every zone.",
 				constant = "DROPS_FROM_JINYU_SPRITES_OR_ZANDALARI_LOCATED",
 				export = true,

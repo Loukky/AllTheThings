@@ -41,7 +41,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["lvl"] = 110,
 				}),
 				q(45296, {	-- No Bones About It
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must complete the full quest chain before the quest item will drop from the boss.",
 						constant = "YOU_MUST_COMPLETE_THE_FULL_QUEST_CHAIN_BEFORE",
 						export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(TREASURES, {
 				i(208048, {	-- Ritual of the Voidmaw Felhunter (CI!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Located by a bookshelf on the second floor of the library in Legion Karazhan, after killing Mana Devourer.",
 						constant = "LOCATED_BY_A_BOOKSHELF_ON_THE_SECOND_FLOOR_OF",
 						export = true,
@@ -193,7 +193,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(VENDORS, {
 				n(114815, {	-- Koren
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This vendor is located in the Livery Stables.",
 						constant = "THIS_VENDOR_IS_LOCATED_IN_THE_LIVERY_STABLES_2",
 						export = true,
@@ -244,7 +244,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["groups"] = {
 						i(138797),	-- Illusion: Mongoose (ILLUSION!)
 						i(142246, {	-- Broken Pocket Watch
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This is a rare drop that eventually leads to adding Moroes as a follower.",
 								constant = "THIS_IS_A_RARE_DROP_THAT_EVENTUALLY_LEADS_TO",
 								export = true,
@@ -466,7 +466,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						},
 					}),
 					ach(11430, {	-- One Night in Karazhan
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "1. Go to Opera and complete the encounter. Click the fragment in the audience.\n\n2. Head towards Maiden. Click the fragment in the room just before the boss.\n\n3. Go to Moroes and complete the encounter. Click the fragment behind the table. Pick up the key that appears on the ground after Moroes dies.\n\n4. Go to the spider room (the far top-right corner of Servant's Quarters) and click the fragment.\n\n5. Go to Curator, complete the encounter, and click the fragment.\n\nRun down to where Nightbane was summoned in the Burning Crusade days. Medivh will be there.\n\nTalk to Medivh.\n",
 							constant = "1_GO_TO_OPERA_AND_COMPLETE_THE_ENCOUNTER_CLICK",
 							export = true,
@@ -605,7 +605,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					},
 				}),
 				n(114895, {	-- Nightbane
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "In order to summon Nightbane, you must find Soul Fragments scattered throughout Karazhan.\n\n1. Go to Opera and complete the encounter. Click the fragment in the audience.\n\n2. Head towards Maiden. Click the fragment in the room just before the boss.\n\n3. Go to Moroes and complete the encounter. Click the fragment behind the table. Pick up the key that appears on the ground after Moroes dies.\n\n4. Go to the spider room (the far top-right corner of Servant's Quarters) and click the fragment.\n\n5. Go to Curator, complete the encounter, and click the fragment.\n\nRun down to where Nightbane was summoned in the Burning Crusade days. Medivh will be there.\n\nTalk to Medivh.\n",
 						constant = "IN_ORDER_TO_SUMMON_NIGHTBANE_YOU_MUST_FIND_SOUL",
 						export = true,
@@ -627,7 +627,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["groups"] = {
 						i(142552),	-- Smoldering Ember Wyrm (MOUNT!)
 						i(143556, {	-- Charred Bone Fragments
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must complete the full quest chain before this will drop from the boss.",
 								constant = "YOU_MUST_COMPLETE_THE_FULL_QUEST_CHAIN_BEFORE_2",
 								export = true,

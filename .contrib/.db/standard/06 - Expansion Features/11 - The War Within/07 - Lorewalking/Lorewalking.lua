@@ -288,7 +288,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["isRepeatable"] = true,
 						["groups"] = {
 							i(254323, {	-- Worldsoul Satchel
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Contains Equipment rewarded from various Quests available throughout Khaz Algar.",
 									constant = "CONTAINS_EQUIPMENT_REWARDED_FROM_VARIOUS_QUESTS",
 									export = true,
@@ -339,7 +339,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						},
 					}),
 					q(93979, {	-- Lingering Memories
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "'Lingering Memories' is available only through Recap Experience. It replaces the quest 'What Is Left of Home' (85032).",
 							constant = "LINGERING_MEMORIES_IS_AVAILABLE_ONLY_THROUGH",
 							export = true,

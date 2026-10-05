@@ -80,7 +80,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14769, {	-- Bat!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "As of 9.2.5, this achievement is currently bugged and only awarding credit occasionally. To work around this, you may have to ride the bat more than once or try another one.",
 					constant = "AS_OF_9_2_5_THIS_ACHIEVEMENT_IS_CURRENTLY",
 					export = true,
@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14771, {	-- The Afterlife Express
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coordinates listed are a single point along the path driven by each carriage. Some have more circuitous routes than others and will require a longer wait.",
 					constant = "COORDINATES_LISTED_ARE_A_SINGLE_POINT_ALONG_THE",
 					export = true,
@@ -269,7 +269,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14770, {	-- What We Ride in the Shadows
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Each ride costs 5 Infused Rubies. Stay on the Sinrunner until you get credit for the ride.",
 					constant = "EACH_RIDE_COSTS_5_INFUSED_RUBIES_STAY_ON_THE",
 					export = true,

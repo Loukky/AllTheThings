@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					},
 				}),
 				q(58932, {	-- Temel, the Sin Herald
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically offered after Echelon drops you off during Inquisitor Stelia's Sinstone.",
 						constant = "AUTOMATICALLY_OFFERED_AFTER_ECHELON_DROPS_YOU",
 						export = true,
@@ -658,7 +658,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 72.5, 73.2, REVENDRETH },
 				}),
 				q(62190, {	-- It's a Dirty Job
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is available to players with Ember Court rank 2 while doing Dredger quest-line before doing Dirty Jobs quest-line in Revendreth",
 						constant = "THIS_QUEST_IS_AVAILABLE_TO_PLAYERS_WITH_EMBER",
 						export = true,
@@ -926,7 +926,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			header(HEADERS.Item, 182589, {	-- Loyal Gorger
 				q(61839, {	-- Nipping at the Undergrowth
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available in the Endmire north of Darkhaven after looting Impressionable Gorger Spawn from the Worldedge Gorger.",
 						constant = "BECOMES_AVAILABLE_IN_THE_ENDMIRE_NORTH_OF",
 						export = true,
@@ -1016,7 +1016,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["timeline"] = { ADDED_9_1_5 },
 			}),
 			q(58062, {	-- A Very Special Guest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlocks the Black Market Auction House and item drops for Favor quests.",
 					constant = "UNLOCKS_THE_BLACK_MARKET_AUCTION_HOUSE_AND_ITEM",
 					export = true,
@@ -1047,7 +1047,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(57928, {	-- Atonement Crypt Key
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The quest item drops from Depraved and Dredger mobs in the Court of the Harvesters.",
 					constant = "THE_QUEST_ITEM_DROPS_FROM_DEPRAVED_AND_DREDGER",
 					export = true,
@@ -1111,7 +1111,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 31.1, 55.1, REVENDRETH },
 			}),
 			q(60501, {	-- Redemption for the Redeemer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Defeat Sire Denathrius on any difficulty in Castle Nathria to start this quest.",
 					constant = "DEFEAT_SIRE_DENATHRIUS_ON_ANY_DIFFICULTY_IN",
 					export = true,
@@ -1141,7 +1141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			q(58327, {	-- Snacks for Stonehead
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pick up the Hollow Rock at |cFFFFFFFF38.8, 64.3|r, or Stonehead will fling you away when you try to approach the quest.",
 					constant = "PICK_UP_THE_HOLLOW_ROCK_AT_CFFFFFFFF38_8_64_3_R",
 					export = true,
@@ -1238,7 +1238,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			n(BONUS_OBJECTIVES, {
 				q(57177, {	-- A Fresh Start
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Probably have to be on quest 57175, Inquisitor Vilhelm's Sinstone for this to show up.",
 						constant = "PROBABLY_HAVE_TO_BE_ON_QUEST_57175_INQUISITOR",
 						export = true,

@@ -446,7 +446,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				BossOnly(HASABEL, {
 					o(405307, {	-- Singed Grimoire
 						i(208050, {	-- Grimoire of the Xorothian Felhunter (CI!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "1. Defeat Portal Keeper Hasabel in Antorus, the Burning Throne, while wearing a staff transmogged into Zhar'doom, Greatstaff of the Devourer.\n2. Enter the Orange portal of the boss encounter to be teleported to a different platform.\n3. Interact with the deactivated portal near the center of the platform while wearing the transmogged staff and select <Channel the power of your weapon into the gateway.>",
 								constant = "1_DEFEAT_PORTAL_KEEPER_HASABEL_IN_ANTORUS_THE",
 								export = true,
@@ -561,7 +561,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(49032, {	-- Antorus, the Burning Throne: Dark Passage (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Imonar the Soulhunter on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_13",
 							export = true,
@@ -587,7 +587,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						["qi"] = 152902,	-- Rune of Passage (QI!)
 					}),
 					q(49133, {	-- Antorus, the Burning Throne: The Heart of Argus (Normal)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Aggramar on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_14",
 							export = true,
@@ -640,7 +640,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(49075, {	-- Antorus, the Burning Throne: Dark Passage (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Imonar the Soulhunter on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_15",
 							export = true,
@@ -663,7 +663,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						["qi"] = 152906,	-- Rune of Passage (QI!)
 					}),
 					q(49134, {	-- Antorus, the Burning Throne: The Heart of Argus (Heroic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Aggramar on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_16",
 							export = true,
@@ -703,7 +703,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				ZoneDrops({}),
 				n(QUESTS, {
 					q(49076, {	-- Antorus, the Burning Throne: Dark Passage (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Imonar the Soulhunter on Mythic difficulty each week.\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_17",
 							export = true,
@@ -725,7 +725,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 						["qi"] = 152907,	-- Rune of Passage (QI!)
 					}),
 					q(49135, {	-- Antorus, the Burning Throne: The Heart of Argus (Mythic)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Finishing this quest will grant you immediate access to Aggramar on Mythic difficulty each week.\n",
 							constant = "FINISHING_THIS_QUEST_WILL_GRANT_YOU_IMMEDIATE_18",
 							export = true,

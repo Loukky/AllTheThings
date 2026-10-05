@@ -54,7 +54,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 				q(29660, {	-- Saving the Botanica
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically provided upon starting the instance.",
 						constant = "AUTOMATICALLY_PROVIDED_UPON_STARTING_THE",
 						export = true,

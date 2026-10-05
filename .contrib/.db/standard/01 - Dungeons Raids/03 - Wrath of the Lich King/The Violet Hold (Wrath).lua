@@ -4,7 +4,7 @@
 
 root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 	inst(283, {	-- The Violet Hold (Wrath)
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The bosses are random on all difficulties.",
 			constant = "THE_BOSSES_ARE_RANDOM_ON_ALL_DIFFICULTIES",
 			export = true,

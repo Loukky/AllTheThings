@@ -148,7 +148,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							["coord"] = { 66.8, 74.3, NZOTH_ASSAULT_ULDUM },
 						}),
 						n(157593, {	-- Amalgamation of Flesh
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This rare will only spawn when the event is up",
 								constant = "THIS_RARE_WILL_ONLY_SPAWN_WHEN_THE_EVENT_IS_UP",
 								export = true,
@@ -178,7 +178,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(158491, {	-- Falconer Amenophis
 							["questID"] = 57662,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Patrols the desert around |cFFFFD700Neferset|r.",
 								constant = "PATROLS_THE_DESERT_AROUND_CFFFFD700NEFERSET_R",
 								export = true,
@@ -211,7 +211,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(158633, {	-- Gaze of N'Zoth
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can spawn anywhere in the Akhenet Fields. Shares a spawn with Foul Observer.",
 								constant = "CAN_SPAWN_ANYWHERE_IN_THE_AKHENET_FIELDS_SHARES",
 								export = true,
@@ -253,7 +253,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						n(160623, {	-- Hungering Miasma (might be 160631 or maybe it's different one)
 							["questID"] = 58206,
 							["coord"] = { 60.0, 39.0, NZOTH_ASSAULT_ULDUM },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "To activate, you must feed it the surrounding oozelings by dragging them on top of it.",
 								constant = "TO_ACTIVATE_YOU_MUST_FEED_IT_THE_SURROUNDING",
 								export = true,
@@ -278,7 +278,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(156299, {	-- R'khuzj the Unfathomable
 							["questID"] = 57430,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Roams around the southern half of Uldum.",
 								constant = "ROAMS_AROUND_THE_SOUTHERN_HALF_OF_ULDUM",
 								export = true,
@@ -298,7 +298,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							}),	-- TODO:  his path is HUGE. do we want to add coords?
 						}),
 						n(161033, {	-- Shadowmaw
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "In the waters surrounding the main hub.",
 								constant = "IN_THE_WATERS_SURROUNDING_THE_MAIN_HUB",
 								export = true,
@@ -328,7 +328,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							["coord"] = { 61.3, 74.9, NZOTH_ASSAULT_ULDUM },
 						}),
 						n(158636, {	-- The Grand Executor
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Up in the air on the platform.",
 								constant = "UP_IN_THE_AIR_ON_THE_PLATFORM",
 								export = true,
@@ -353,7 +353,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(158595, {	-- Thoughtstealer Vos
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "He is in stealth.",
 								constant = "HE_IS_IN_STEALTH",
 								export = true,
@@ -375,7 +375,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							["coord"] = { 59.4, 49.8, NZOTH_ASSAULT_ULDUM },
 						}),
 						q(57359, {	-- Summoning Ritual
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The portal needs to be clicked multiple times in order for the rares to spawn. You can only click the portal once per day, so work together with others to get the spawn. Three rares will spawn at a time and any of the rares can spawn in any of the locations.",
 								constant = "THE_PORTAL_NEEDS_TO_BE_CLICKED_MULTIPLE_TIMES",
 								export = true,
@@ -513,7 +513,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 					})),
 					n(ZONE_DROPS, {
 						i(170553, {	-- Void Focus Splinter
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The fastest way is to farm them inside Lesser Vision.",
 								constant = "THE_FASTEST_WAY_IS_TO_FARM_THEM_INSIDE_LESSER",
 								export = true,
@@ -744,7 +744,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(151883, {	-- Anaua
 							["questID"] = 55468,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Flies around the top of the |cFFFFD700Halls of Origination|r.",
 								constant = "FLIES_AROUND_THE_TOP_OF_THE_CFFFFD700HALLS_OF",
 								export = true,
@@ -772,7 +772,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						n(152757, {	-- Atekhramun
 							["questID"] = 55710,
 							["coord"] = { 64.0, 51.0, NZOTH_ASSAULT_ULDUM },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Crush all the little scorpions by walking over them to spawn this mob.",
 								constant = "CRUSH_ALL_THE_LITTLE_SCORPIONS_BY_WALKING_OVER",
 								export = true,
@@ -841,7 +841,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						n(162352, {	-- Spirit of Dark Ritualist Zakahn
 							["questID"] = 58716,
 							["coord"] = { 49.98, 40.11, NZOTH_ASSAULT_ULDUM },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "In the underwater cave.",
 								constant = "IN_THE_UNDERWATER_CAVE",
 								export = true,
@@ -890,7 +890,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						n(152788, {	-- Uat-ka the Sun's Wrath
 							["questID"] = 55716,
 							["coord"] = { 67.5, 63.8, NZOTH_ASSAULT_ULDUM },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires 3 players with |cFFFFD700Suntouched Amulet|r to channel the pillars at the same time to summon.",
 								constant = "REQUIRES_3_PLAYERS_WITH_CFFFFD700SUNTOUCHED",
 								export = true,
@@ -1191,7 +1191,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						n(162171, {	-- Captain Dunewalker
 							["questID"] = 58699,
 							["coord"] = { 45.61, 57.79, NZOTH_ASSAULT_ULDUM },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "He is inside the Chamber of the Sun.",
 								constant = "HE_IS_INSIDE_THE_CHAMBER_OF_THE_SUN",
 								export = true,
@@ -1227,7 +1227,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(155531, {	-- Infested Wastewander Captain
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Shares a spawn with Wastewander Host. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 								constant = "SHARES_A_SPAWN_WITH_WASTEWANDER_HOST",
 								export = true,
@@ -1252,7 +1252,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 							},
 						}),
 						n(154604, {	-- Lord Aj'qirai
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "He is underground.",
 								constant = "HE_IS_UNDERGROUND",
 								export = true,
@@ -1278,7 +1278,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						}),
 						n(156078, {	-- Magus Rehleth
 							["questID"] = 56952,
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Spawns in Ruins of Ammon.",
 								constant = "SPAWNS_IN_RUINS_OF_AMMON",
 								export = true,
@@ -1440,7 +1440,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			n(VENDORS, {
 				n(163252, {	-- Yasmin <Innkeeper>
 					["coord"] = { 26.6, 7.2, ULDUM },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Since this version of Yasmin is part of a faction, you can buy the sands of time item from her with a discount at higher reputation levels!",
 						constant = "SINCE_THIS_VERSION_OF_YASMIN_IS_PART_OF_A",
 						export = true,
@@ -1503,7 +1503,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58809, {	-- A Shocking Technique
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can appear during Mogu invasions in the Vale of Eternal Blossoms.",
 							constant = "CAN_APPEAR_DURING_MOGU_INVASIONS_IN_THE_VALE_OF",
 							export = true,
@@ -1535,7 +1535,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58808, {	-- Encased in Amber (Mantid assault)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can appear during Mantid invasions in the Vale of Eternal Blossoms.",
 							constant = "CAN_APPEAR_DURING_MANTID_INVASIONS_IN_THE_VALE",
 							export = true,
@@ -1567,7 +1567,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58806, {	-- Warmth of the Sun (Amathet assault)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can appear during Amathet invasions in Uldum.",
 							constant = "CAN_APPEAR_DURING_AMATHET_INVASIONS_IN_ULDUM",
 							export = true,
@@ -1599,7 +1599,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58807, {	-- Wrapping Up (Aqir assault)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can appear during Aqir invasions in Uldum.",
 							constant = "CAN_APPEAR_DURING_AQIR_INVASIONS_IN_ULDUM",
 							export = true,
@@ -1640,7 +1640,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58810, {	-- Coming Out of His Shell
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must reach 5000/5000 with the egg's progress bar.",
 							constant = "MUST_REACH_5000_5000_WITH_THE_EGG_S_PROGRESS",
 							export = true,
@@ -1758,7 +1758,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58829, {	-- They Grow So Fast
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must reach 5000/5000 with the larva's progress bar.",
 							constant = "MUST_REACH_5000_5000_WITH_THE_LARVA_S_PROGRESS",
 							export = true,
@@ -1849,7 +1849,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(58863, {	-- A Custom Order
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must reach 5000/5000 with the hatchling's progress bar.",
 							constant = "MUST_REACH_5000_5000_WITH_THE_HATCHLING_S",
 							export = true,
@@ -1889,7 +1889,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					q(56377, {	-- Forging Onward
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Granted upon entering the Seat of Ramkahen.",
 							constant = "GRANTED_UPON_ENTERING_THE_SEAT_OF_RAMKAHEN",
 							export = true,
@@ -1970,7 +1970,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						["coord"] = { 32.4, 64.6, NZOTH_ASSAULT_ULDUM },
 					}),
 					n(154578, {	-- Aqir Flayer
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Aqir Hive Worker and Aqir Reaper. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 							constant = "SHARES_A_SPAWN_WITH_AQIR_HIVE_WORKER_AND_AQIR",
 							export = true,
@@ -2004,7 +2004,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					n(154576, {	-- Aqir Titanus
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Aqir Goliath. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 							constant = "SHARES_A_SPAWN_WITH_AQIR_GOLIATH_COORDINATES",
 							export = true,
@@ -2041,7 +2041,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					n(162172, {	-- Aqir Warcaster
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Shares a spawn with Aqir Voidcaster. Coordinates are approximate areas where the rare may be found, but spawn camping will be less reliable than farming.",
 							constant = "SHARES_A_SPAWN_WITH_AQIR_VOIDCASTER_COORDINATES",
 							export = true,
@@ -2143,7 +2143,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 					}),
 				}),
 				n(VISIONS_OF_NZOTH,	{
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use the obelisk to see Uldum succumb to N'Zoth's corruption.",
 						constant = "USE_THE_OBELISK_TO_SEE_ULDUM_SUCCUMB_TO_N_ZOTH",
 						export = true,
@@ -2185,7 +2185,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 								}),
 							}),
 							TempForceMisc(i(174491, {	-- Tome of Unspeakable Delicacies
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "This item will not drop until you finish the intro quests up to 'Descending Into Madness'.",
 									constant = "THIS_ITEM_WILL_NOT_DROP_UNTIL_YOU_FINISH_THE",
 									export = true,
@@ -2237,7 +2237,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 			n(SPECIAL, {
 				header(HEADERS.Item, 174859, {	-- Springfur Alpaca (MOUNT!)
 					q(58879, {	-- Alpaca It Up
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Find the |cFFFFD700Gersahl Greens|r at the edge of the main river in Uldum, then complete this quest 7 times for the mount.",
 							constant = "FIND_THE_CFFFFD700GERSAHL_GREENS_R_AT_THE_EDGE",
 							export = true,
@@ -2282,7 +2282,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						},
 					}),
 					o(341808, {	-- Gersahl Shrub
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be located along the river banks in present / N'Zoth assault timeline.",
 							constant = "CAN_BE_LOCATED_ALONG_THE_RIVER_BANKS_IN_PRESENT",
 							export = true,

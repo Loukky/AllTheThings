@@ -363,7 +363,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 					-- Consolation Prize
 					i(95602, {	-- Stormtouched Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is awarded as a consolation prize to players who did not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 							constant = "THIS_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO",
 							export = true,
@@ -585,7 +585,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(105757),	-- Shipley's Shady Silks
 					-- Consolation Prize
 					i(104273, {	-- Flame-Scarred Cache of Offerings
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Awarded if you fail your loot roll. Usually contains gold or crafting materials. May follow your actual spec instead of loot spec, please provide more information to ATT Discord.",
 							constant = "AWARDED_IF_YOU_FAIL_YOUR_LOOT_ROLL_USUALLY",
 							export = true,
@@ -639,7 +639,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(90410, {	-- Cap of Wandering Pride
 						-- #if BEFORE WOD
 						["classes"] = LEATHER_CLASSES_INTELLECT,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Before WoD, this item is only available to classes with a relevant specialization.",
 							constant = "BEFORE_WOD_THIS_ITEM_IS_ONLY_AVAILABLE_TO",
 							export = true,
@@ -786,7 +786,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(90434),	-- Steaming Seal of Flame
 					-- Consolation Prize
 					i(90840, {	-- Marauder's Gleaming Sack of Gold
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This is awarded as a consolation prize to players who do not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 							constant = "THIS_IS_AWARDED_AS_A_CONSOLATION_PRIZE_TO_2",
 							export = true,

@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			fp(2108, {	-- Falconhurst, Drustvar [Alliance]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This flight path may be unlocked prior to completion of the nearby quest chain, but interacting with a different flight master on the same continent will be required to mark it as collected.",
 					constant = "THIS_FLIGHT_PATH_MAY_BE_UNLOCKED_PRIOR_TO",
 					export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			fp(2275, {	-- Mudfisher Cove, Drustvar [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Mudfisher Cove and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_MUDFISHER",
 					export = true,
@@ -86,7 +86,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			fp(2274, {	-- Swiftwind Post, Drustvar [Horde]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires completion of Mission Report: Swiftwind Post and related quest line to unlock.",
 					constant = "REQUIRES_COMPLETION_OF_MISSION_REPORT_SWIFTWIND",
 					export = true,

@@ -795,7 +795,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									["cost"] = { { "c", KEJ, 3000 } },
 								}),
 								i(226520, {	-- Queen's Pheromone (CI!) (8.8mil Cost)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "The item costs 8.8mil Kej, however the price of the item decreases by one digit for each exalted (9/9) Severed Threads leader for a final price of 8.888.",
 										constant = "THE_ITEM_COSTS_8_8MIL_KEJ_HOWEVER_THE_PRICE_OF",
 										export = true,
@@ -816,7 +816,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									-- ["cost"] = { { "c", KEJ, 8888888 } },
 								}),
 								i(229193, {	-- Queen's Pheromone (CI!) (888k Cost)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "The item costs 888.888 Kej, however the price of the item decreases by one digit for each exalted (9/9) Severed Threads leader for a final price of 8.888.",
 										constant = "THE_ITEM_COSTS_888_888_KEJ_HOWEVER_THE_PRICE_OF",
 										export = true,
@@ -837,7 +837,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									-- ["cost"] = { { "c", KEJ, 888888 } },
 								}),
 								i(229194, {	-- Queen's Pheromone (CI!) (88k Cost)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "The item costs 88.888 Kej, however the price of the item decreases by one digit for each exalted (9/9) Severed Threads leader for a final price of 8.888.",
 										constant = "THE_ITEM_COSTS_88_888_KEJ_HOWEVER_THE_PRICE_OF",
 										export = true,
@@ -858,7 +858,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 									-- ["cost"] = { { "c", KEJ, 88888 } },
 								}),
 								i(229195, {	-- Queen's Pheromone (CI!) (8.888 Cost)
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This version for 8.888 Kej is only visible after you reached exalted (9/9) with all three (3) Severed Threads leaders.",
 										constant = "THIS_VERSION_FOR_8_888_KEJ_IS_ONLY_VISIBLE",
 										export = true,
@@ -1030,7 +1030,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 							["questID"] = 82873,
 						}),
 						o(455439, {	-- Aspirant's Tribute
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Inside The Wormlands.",
 								constant = "INSIDE_THE_WORMLANDS",
 								export = true,
@@ -1135,7 +1135,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						o(455327, {	-- Vizier's Appreciation
 							["provider"] = { "n", 224900 },	-- Dor'garad
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Below the ground, at the lowest level of the Breathing Pit.",
 								constant = "BELOW_THE_GROUND_AT_THE_LOWEST_LEVEL_OF_THE",
 								export = true,
@@ -1173,7 +1173,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 						}),
 						o(455331, {	-- Vizier's Appreciation
 							["provider"] = { "n", 224900 },	-- Dor'garad
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Below the City of Threads, inside Pillar-nest Xesh.",
 								constant = "BELOW_THE_CITY_OF_THREADS_INSIDE_PILLAR_NEST",
 								export = true,

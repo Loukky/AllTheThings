@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(MALDRAXXUS, {
 		n(RARES, {
 			n(157226, {	-- Pool of Mixed Monstrosities
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The rare that is summoned is determined by the combination of Miscible Ooze (yellow), Mephitic Goo (blue), and Viscous Oil (red) thrown into the pool.",
 					constant = "THE_RARE_THAT_IS_SUMMONED_IS_DETERMINED_BY_THE",
 					export = true,
@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["modelScale"] = 2,
 				["groups"] = sharedData({ ["isDaily"] = true }, {
 					n(157310, {	-- Boneslurp
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires an equal majority of Blue & Yellow slime.",
 							constant = "REQUIRES_AN_EQUAL_MAJORITY_OF_BLUE_YELLOW_SLIME",
 							export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157311, {	-- Burnblister
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires an equal majority of Red & Yellow slime.",
 							constant = "REQUIRES_AN_EQUAL_MAJORITY_OF_RED_YELLOW_SLIME",
 							export = true,
@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157308, {	-- Corrupted Sediment
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires a majority of Blue slime.",
 							constant = "REQUIRES_A_MAJORITY_OF_BLUE_SLIME",
 							export = true,
@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157307, {	-- Gelloh
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires a majority of Yellow slime.",
 							constant = "REQUIRES_A_MAJORITY_OF_YELLOW_SLIME",
 							export = true,
@@ -125,7 +125,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157312, {	-- Oily Invertebrate
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires an equal portion of Red, Blue, & Yellow slime.",
 							constant = "REQUIRES_AN_EQUAL_PORTION_OF_RED_BLUE_YELLOW",
 							export = true,
@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157294, {	-- Pulsing Leech
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires a majority of Red slime.",
 							constant = "REQUIRES_A_MAJORITY_OF_RED_SLIME",
 							export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(157309, {	-- Violet Mistake
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Requires an equal majority of Red & Blue slime.",
 							constant = "REQUIRES_AN_EQUAL_MAJORITY_OF_RED_BLUE_SLIME",
 							export = true,
@@ -203,7 +203,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			header(HEADERS.Achievement, 14372, {	-- Theater of Pain
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These mobs all spawn in the Theater of Pain, a free-for-all arena in the middle of Maldraxxus.",
 					constant = "THESE_MOBS_ALL_SPAWN_IN_THE_THEATER_OF_PAIN_A",
 					export = true,
@@ -263,7 +263,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = {
 					i(184188),	-- Collector's Corpse Gambrel
 					i(183692, {	-- Jagged Bonesaw (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 							constant = "THIS_MAY_DROP_FOR_ANY_CHARACTER_ON_YOUR_ACCOUNT",
 							export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162588, {	-- Gristlebeak
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill the Unusual Eggs and Gristled Hatchlings to lure Gristlebeak.",
 					constant = "KILL_THE_UNUSUAL_EGGS_AND_GRISTLED_HATCHLINGS",
 					export = true,
@@ -392,7 +392,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 
 			n(159753, {	-- Ravenomous
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Crush Boneweave Spiderlings in the area for a chance to spawn the rare. After flying around for a little while, it will land and be attackable.",
 					constant = "CRUSH_BONEWEAVE_SPIDERLINGS_IN_THE_AREA_FOR_A",
 					export = true,
@@ -429,7 +429,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(159886, {	-- Sister Chelicerae
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Destroy the Intricate Webbing and defeat waves of Chelicerae's Children.",
 					constant = "DESTROY_THE_INTRICATE_WEBBING_AND_DEFEAT_WAVES",
 					export = true,
@@ -459,7 +459,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(162528, {	-- Smorgas the Feaster
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Click the |cFFFFFFFFBloody Lump|r for a chance to spawn the rare. Clicking the object will aggro all the Peaceful Bloodlice in the area.",
 					constant = "CLICK_THE_CFFFFFFFFBLOODY_LUMP_R_FOR_A_CHANCE",
 					export = true,
@@ -484,7 +484,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(181266),	-- Feasting Larva (PET!)
 					i(184299),	-- Goresoaked Carapace
 					i(184038, {	-- Trained Corpselice
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This will only drop for Necrolords that have built the rank 4 Abomination table.",
 							constant = "THIS_WILL_ONLY_DROP_FOR_NECROLORDS_THAT_HAVE",
 							export = true,
@@ -509,7 +509,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			n(162586, {	-- Tahonta
 				["coord"] = { 44.6, 52.0, MALDRAXXUS },
 				["questID"] = 58783,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You must be a Necrolord & have the Abomination building construct \"Neena\" with you otherwise the |cFFFFFFFFBonehoof Tauralus Mount|r can't drop. It's not required to use the extra action button to loot Tahonta.",
 					constant = "YOU_MUST_BE_A_NECROLORD_HAVE_THE_ABOMINATION",
 					export = true,
@@ -529,7 +529,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 				["groups"] = {
 					i(182075, {	-- Bonehoof Tauralus (MOUNT!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You must be a Necrolord & have the Abomination building construct \"Neena\" with you for this mount to have a chance of dropping. It's not required to use the extra action button to loot Tahonta.",
 							constant = "YOU_MUST_BE_A_NECROLORD_HAVE_THE_ABOMINATION_2",
 							export = true,
@@ -553,7 +553,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(160059, {	-- Taskmaster Xox <Master Taskmaster>
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill non-rare taskmasters (Bloata, Joyless, and Mortis) and Xox has a chance to spawn in their place.",
 					constant = "KILL_NON_RARE_TASKMASTERS_BLOATA_JOYLESS_AND",
 					export = true,
@@ -587,7 +587,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 
 			n(162180, {	-- Thread Mistress Leeda
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill the Razorthread Weavers in Leeda's room, and there is a chance that she will spawn in their place.",
 					constant = "KILL_THE_RAZORTHREAD_WEAVERS_IN_LEEDA_S_ROOM",
 					export = true,
@@ -622,7 +622,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(157125, {	-- Zargox the Reborn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Get an |cFFFFFFFFAni-Matter Orb|r from Synder Sixfold at |cFFFFFFFF26.3, 42.7|r (either while doing the weekly quest |cFF349cffAni-Matter Animator|r, or speak to Synder afterward to get another orb from him). Use it to reanimate soldiers near the rare's spawnpoint until a yellow dot appears on your minimap, indicating that Zargox is available to summon.",
 					constant = "GET_AN_CFFFFFFFFANI_MATTER_ORB_R_FROM_SYNDER",
 					export = true,

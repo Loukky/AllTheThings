@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	m(KORTHIA, {
 		n(QUESTS, {
 			n(REWARDS, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These pieces can be rewarded from covenant dailies in Korthia.",
 					constant = "THESE_PIECES_CAN_BE_REWARDED_FROM_COVENANT",
 					export = true,
@@ -102,7 +102,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			header(HEADERS.Achievement, 14961, {	-- Chains of Domination
 				q(63944, {	-- Korthia Awaits
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only available to characters who choose to skip ahead to Korthia.",
 						constant = "ONLY_AVAILABLE_TO_CHARACTERS_WHO_CHOOSE_TO_SKIP",
 						export = true,
@@ -358,7 +358,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				------ Chapter 4 ------
 				q(63703, {	-- Vault of Secrets
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 44 and completion of the original 9 chapters of your covenant's campaign.",
 						constant = "REQUIRES_RENOWN_44_AND_COMPLETION_OF_THE",
 						export = true,
@@ -503,7 +503,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				------ Chapter 5 ------
 				q(63612, {	-- The Chains of Command
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 47.",
 						constant = "REQUIRES_RENOWN_47",
 						export = true,
@@ -584,7 +584,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				------ Chapter 6 ------
 				q(63659, {	-- Dreadlords!
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 50.",
 						constant = "REQUIRES_RENOWN_50",
 						export = true,
@@ -686,7 +686,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				------ Chapter 7 ------
 				q(63672, {	-- A Cry From the Heart
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 52.",
 						constant = "REQUIRES_RENOWN_52",
 						export = true,
@@ -709,7 +709,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["coord"] = { 63.4, 24.6, KORTHIA },
 				}),
 				q(63728, {	-- Hunting Amid Houses [Kyrian, Necrolord, Venthyr]
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Non-Night Fae version.",
 						constant = "NON_NIGHT_FAE_VERSION",
 						export = true,
@@ -851,7 +851,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 				------ Chapter 8 ------
 				q(63579, {	-- A Paladin's Soul
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Requires Renown 56.",
 						constant = "REQUIRES_RENOWN_56",
 						export = true,
@@ -1035,7 +1035,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 
 				-- Archivists of Korthia --
 			q(63731, {	-- Researching Korthian Relics
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item that starts this quest can be looted from any treasure chest or rare in Korthia.",
 					constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_CAN_BE_LOOTED",
 					export = true,
@@ -1209,7 +1209,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["coord"] = { 62.6, 22.5, KORTHIA },
 			}),
 			q(63899, {	-- Book of Binding: The Mad Witch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the end of the top level of the cave.",
 					constant = "AT_THE_END_OF_THE_TOP_LEVEL_OF_THE_CAVE",
 					export = true,
@@ -1248,7 +1248,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(63892, {	-- Diviner's Rune Chits
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The item that starts this quest and the Rune Chits themselves can drop from Korthian treasures.",
 					constant = "THE_ITEM_THAT_STARTS_THIS_QUEST_AND_THE_RUNE",
 					export = true,
@@ -1292,7 +1292,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(64511, {	-- Missing Relics
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Tier 2 Research.",
 					constant = "REQUIRES_TIER_2_RESEARCH",
 					export = true,
@@ -1425,7 +1425,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["minReputation"] = { FACTION_THE_ARCHIVISTS_CODEX, 5 },	-- Tier 5
 			}),
 			q(63908, {	-- Bulwark of Divine Intent
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires having purchased |cFF0070ddResearch Report: Ancient Shrines|r, allowing you to interact with the phasing swords.",
 					constant = "REQUIRES_HAVING_PURCHASED_CFF0070DDRESEARCH",
 					export = true,

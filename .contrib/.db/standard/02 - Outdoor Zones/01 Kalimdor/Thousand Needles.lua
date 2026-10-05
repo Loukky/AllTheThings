@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(505, {	-- Twilight Iguana (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in areas where the Twilight Hammer have set up camp, Twilight Bulwark and Twilight Withering.",
 							constant = "CAN_BE_FOUND_IN_AREAS_WHERE_THE_TWILIGHT_HAMMER_3",
 							export = true,
@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66452, {	-- Kela Grimtotem <Master Pet Tamer>
 					["coord"] = { 31.8, 32.8, THOUSAND_NEEDLES },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nKela's pets are level 15 of the following consecutive pet classes:\n1. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n2. Critter - see above.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_THOUGH_ALLIANCE_5",
 						export = true,
@@ -1356,7 +1356,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25660, {	-- Haunted
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The Spirit of Tony Two-Tusk will appear and start haunting you shortly after you complete quest |cFFFFD700Two-Tusk Takedown|r.",
 						constant = "THE_SPIRIT_OF_TONY_TWO_TUSK_WILL_APPEAR_AND",
 						export = true,
@@ -2585,7 +2585,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 				}),
 				q(28143, {	-- To the Withering
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is offered as a replacement to |cFFFFD700To the Withering|r (28142) if you happen to abandon it.",
 						constant = "THIS_QUEST_IS_OFFERED_AS_A_REPLACEMENT_TO",
 						export = true,
@@ -2610,7 +2610,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- This quest gets marked as completed when you complete 28142
 				}),
 				q(28142, {	-- To the Withering
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest pops-up and gets Auto-Accepted when you complete the quest |cFFFFD700The Elder Crone|r (28140).\nIf you happen to abandon this quest, you can get its replacement, |cFFFFD700To the Withering|r (28143), from Lakota Windsong.",
 						constant = "THIS_QUEST_POPS_UP_AND_GETS_AUTO_ACCEPTED_WHEN",
 						export = true,

@@ -18,7 +18,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 59.8, 31.8, SEAT_OF_THE_PRIMUS },
 								}),
 								q(63055, {	-- Powering the Portals
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Becomes available after you build Transport Network tier 1 in your sanctum.",
 										constant = "BECOMES_AVAILABLE_AFTER_YOU_BUILD_TRANSPORT",
 										export = true,
@@ -44,7 +44,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 						n(TIER_TWO, {
 							n(QUESTS, {
 								q(60184, {	-- Dude, Where's My Necropolis?
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Becomes available during the campaign.",
 										constant = "BECOMES_AVAILABLE_DURING_THE_CAMPAIGN",
 										export = true,

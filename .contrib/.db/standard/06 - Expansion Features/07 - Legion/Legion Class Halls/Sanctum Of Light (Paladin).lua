@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(ARTIFACTS, {
 					cl(PALADIN, HOLY, {
 						i(139564, {	-- Lost Edicts of the Watcher
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Drops from any demon.",
 								constant = "DROPS_FROM_ANY_DEMON",
 								export = true,
@@ -55,7 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					cl(PALADIN, RETRIBUTION, {
 						q(43682, {	-- Book Presented
 							["name"] = "Book Presented",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to bring the Complete Copy of Nat Pagle's Fishing Guide and the Head of Nefarian for him to grant you this interaction.\n\nAlliance: Go to Western Plaguelands and talk to Alexia Ironknife.\n\nHorde: Go to Tirisfal Glades and talk to Bardu Sharpeye.",
 								constant = "YOU_NEED_TO_BRING_THE_COMPLETE_COPY_OF_NAT",
 								export = true,
@@ -89,7 +89,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43683, {	-- Traveler Found
 							["name"] = "Traveler Found",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After talking to Prince Tortheldrin, you can talk to her/him for the next part of the chain. After you have done so, read Grand Inquisitor Isillien's Journal at Hearthglen in Western Plaguelands.",
 								constant = "AFTER_TALKING_TO_PRINCE_TORTHELDRIN_YOU_CAN",
 								export = true,
@@ -120,7 +120,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						}),
 						q(43684, {	-- Notes Read
 							["name"] = "Notes Read",
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "After reading this, you can go kill Large Vile Slime next to Thondroril River in Western Plaguelands.",
 								constant = "AFTER_READING_THIS_YOU_CAN_GO_KILL_LARGE_VILE",
 								export = true,
@@ -150,7 +150,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["cost"] = { { "i", 139623, 1 } },	-- 1x Timolain's Phylactery
 						}),
 						hqt(43688, name(HEADERS.Item, 139624, {	-- Shard of Darkness
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must have the Shard of Darkness in your inventory in order to trigger this dialog.",
 								constant = "YOU_MUST_HAVE_THE_SHARD_OF_DARKNESS_IN_YOUR",
 								export = true,
@@ -582,7 +582,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 48.4, 72.8, LIGHTS_HOPE_CHAPEL },
 					}),
 					q(49812, {	-- Delas in Dalaran
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Complete Cracking the Codex (43486) and don't accept the next quest. Go back to Aponi instead.",
 							constant = "COMPLETE_CRACKING_THE_CODEX_43486_AND_DON_T",
 							export = true,
@@ -977,7 +977,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					}),
 					q(45561, {	-- Seek Me Out
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest will only trigger if you've already recruited |cffffff00Nerus Moonfang|r as a follower, as well as completing the Maximillian of Northshire quest chain in Un'Goro Crater starting with |cffffff00An Important Lesson|r. Once both of those criteria are met, you should receive mail the next time you enter your Order Hall which grants you the item to start this quest chain.",
 							constant = "THIS_QUEST_WILL_ONLY_TRIGGER_IF_YOU_VE_ALREADY",
 							export = true,
@@ -1048,7 +1048,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(SPECIAL, {
 					gt(398, {	-- Holy Purpose
 						q(44219, {	-- Fate's Blessing
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only available if you have the |cFFFFD700Holy Purpose|r order hall upgrade.",
 								constant = "ONLY_AVAILABLE_IF_YOU_HAVE_THE_CFFFFD700HOLY",
 								export = true,
@@ -1072,7 +1072,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					gt(400, {	-- Plowshares to Swords
 						q(44218, {	-- Champion Armaments
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only available if you have the |cFFFFD700Plowshares to Swords|r order hall upgrade.",
 								constant = "ONLY_AVAILABLE_IF_YOU_HAVE_THE_2",
 								export = true,
@@ -1109,7 +1109,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				}),
 				n(VENDORS, {
 					n(99976, {	-- Crusader Lord Dalfors
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "|c808080FAThese mounts are only available to paladins who have completed|r |cFFFFD700Stirring in the Shadows|r |c808080FAquest from the class mount campaign.",
 							constant = "C808080FATHESE_MOUNTS_ARE_ONLY_AVAILABLE_TO",
 							export = true,
@@ -1224,7 +1224,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						},
 					}),
 					n(91190, {	-- Sister Elda <Keeper of the Ancient Tomes>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Your spec must be Retribution for her to respond to your books. Bring both of the books to her and she'll give you the completed book to use in the next part.",
 							constant = "YOUR_SPEC_MUST_BE_RETRIBUTION_FOR_HER_TO",
 							export = true,

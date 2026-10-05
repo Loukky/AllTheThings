@@ -292,7 +292,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 							objective(5, {	-- 0/1 Standard Issue Flare Gun
 								["questID"] = 3449,	-- Arcane Runes
 								["provider"] = { "i", 10444 },	-- Standard Issue Flare Gun
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "DO NOT LEAVE IRONFORGE WITHOUT THIS.\n - Crieve",
 									constant = "DO_NOT_LEAVE_IRONFORGE_WITHOUT_THIS_CRIEVE",
 									export = true,
@@ -408,7 +408,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
 					i(6735, {	-- Plans: Ironforge Breastplate (RECIPE!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
 							constant = "THIS_ITEM_CAN_BE_SOLD_ON_THE_NEUTRAL_AUCTION",
 							export = true,
@@ -492,7 +492,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 				["lvl"] = 10,
 			}),
 			q(6609, {	-- I Got Nothin' Left!
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 225 Fishing to start this quest.",
 					constant = "REQUIRES_225_FISHING_TO_START_THIS_QUEST",
 					export = true,
@@ -964,7 +964,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 		n(VENDORS, {
 			n(7978, {	-- Bimble Longberry <Fruit Vendor>
 				["coord"] = { 32.4, 21.2, MAP.IRONFORGE },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walks around The Mystic Ward.",
 					constant = "WALKS_AROUND_THE_MYSTIC_WARD",
 					export = true,
@@ -1364,7 +1364,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 			}),
 			n(5109, {	-- Myra Tyrngaarde <Bread Vendor>
 				["coord"] = { 29.8, 67.5, MAP.IRONFORGE },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walks around The Commons.",
 					constant = "WALKS_AROUND_THE_COMMONS",
 					export = true,
@@ -1482,7 +1482,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 			}),
 			n(5124, {	-- Sognar Cliffbeard <Meat Vendor>
 				["coord"] = { 62.1, 72.0, MAP.IRONFORGE },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walks around The Military Ward.",
 					constant = "WALKS_AROUND_THE_MILITARY_WARD",
 					export = true,
@@ -1524,7 +1524,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 			}),
 			n(9099, {	-- Sraaz <Pie Vendor>
 				["coord"] = { 46.6, 47.2, MAP.IRONFORGE },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walks around The Great Forge.",
 					constant = "WALKS_AROUND_THE_GREAT_FORGE",
 					export = true,
@@ -1596,7 +1596,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.IRONFORGE, {
 			n(8117, {	-- Wizbang Booms
 				["coord"] = { 31.8, 63.4, MAP.IRONFORGE },
 				["races"] = ALLIANCE_ONLY,
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This NPC is only available on July 4th.",
 					constant = "THIS_NPC_IS_ONLY_AVAILABLE_ON_JULY_4TH",
 					export = true,

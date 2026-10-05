@@ -37,7 +37,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ALTERAC_MOUNTAINS, {
 				["OnTooltip"] = [[_.OnTooltipDB.Ravenholdt]],
 			}),
 			faction(FACTION_SYNDICATE, {	-- Syndicate
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Neutral is the highest you can currently reach with the Syndicate.\n\nDoing this on will tank your Ravenholdt rep, they're mutually exclusive. Get this done on an alt if you want to.",
 					constant = "NEUTRAL_IS_THE_HIGHEST_YOU_CAN_CURRENTLY_REACH",
 					export = true,
@@ -331,7 +331,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ALTERAC_MOUNTAINS, {
 				["groups"] = {
 					objective(1, {	-- 0/1 Syndicate Missive
 						["provider"] = { "i", 3601 },	-- Syndicate Missive
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "You can choose to bring Valik a drink or kill Syndicates until you get a missive to drop. Your choice.",
 							constant = "YOU_CAN_CHOOSE_TO_BRING_VALIK_A_DRINK_OR_KILL",
 							export = true,
@@ -583,7 +583,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ALTERAC_MOUNTAINS, {
 				["lvl"] = 30,
 			}),
 			q(6681, {	-- The Manor, Ravenholdt
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Speak with a Rogue Trainer and use select the chat option to receive the item that gives you this quest.\n\nDO NOT OPEN THE CHEST",
 					constant = "SPEAK_WITH_A_ROGUE_TRAINER_AND_USE_SELECT_THE",
 					export = true,
@@ -730,7 +730,7 @@ maproot(MAP.EASTERN_KINGDOMS, MAP.ALTERAC_MOUNTAINS, {
 				},
 			}),
 			n(2447, {	-- Narillasanz
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols around the entire zone, but can usually be found along the river to the east.\n\nThis particular rare was used in the original World of Warcraft game packaging facing off against heroes wielding Teebu's Blazing Longsword.",
 					constant = "PATROLS_AROUND_THE_ENTIRE_ZONE_BUT_CAN_USUALLY",
 					export = true,

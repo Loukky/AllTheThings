@@ -125,7 +125,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						}),
 						objective(2, {	-- 0/1 Soul Mirror
 							["provider"] = { "i", 28283 },	-- Soul Mirror
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The soul mirror is located in the same chamber you pick up the quest from D'ore in Auchenai Crypts.\n\nDO NOT LEAVE WITHOUT IT.",
 								constant = "THE_SOUL_MIRROR_IS_LOCATED_IN_THE_SAME_CHAMBER",
 								export = true,
@@ -151,7 +151,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
 				n(COMMON_BOSS_DROPS, {
 					i(28558, {	-- Spirit Shard
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses in the Mana-Tombs and Auchenai Crypts drop one shard each; bosses in the Sethekk Halls and Shadow Labyrinth drop two each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
 							constant = "SPIRIT_SHARDS_ARE_CURRENCY_TOKENS_DROPPED_BY",
 							export = true,
@@ -241,7 +241,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
 					i(33836),	-- The Exarch's Soul Gem (QI!)
 					n(18478, {	-- Avatar of the Fallen
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This mob will spawn once the Exarch reaches 25%. If you want the extra loot, the Exarch must stay alive until he spawns.",
 							constant = "THIS_MOB_WILL_SPAWN_ONCE_THE_EXARCH_REACHES_25",
 							export = true,
@@ -307,7 +307,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, {
 				-- #if BEFORE 4.2.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need to have a key to the instance in order to access this mode.",
 					constant = "YOU_NEED_TO_HAVE_A_KEY_TO_THE_INSTANCE_IN_ORDER",
 					export = true,

@@ -1092,7 +1092,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				o(181166, {	-- Bloodthistle
 					["timeline"] = { ADDED_2_0_5 },
 					-- #if ANYCLASSIC
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This node can be gathered by any herbalist, but is expected to become restricted to Blood-Elf only in a future expansion. Please let us know in the ATT Discord if this already have happened in given iterations of Classic.",
 						constant = "THIS_NODE_CAN_BE_GATHERED_BY_ANY_HERBALIST_BUT",
 						export = true,
@@ -1467,7 +1467,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
 				q(32668, {	-- Learn To Ride
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered to Blood Elves upon reaching the specified level.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED_TO_BLOOD",
 						export = true,
@@ -1501,7 +1501,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(14081, {	-- Learn to Ride in the Eversong Woods
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Blood Elves in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_9",
 						export = true,
@@ -2310,7 +2310,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 			}),
 			n(ZONE_DROPS, sharedData({
 				-- #if AFTER 9.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This item seem to only drop easily for characters below level 14 within Sunstrider Isle.",
 					constant = "THIS_ITEM_SEEM_TO_ONLY_DROP_EASILY_FOR",
 					export = true,

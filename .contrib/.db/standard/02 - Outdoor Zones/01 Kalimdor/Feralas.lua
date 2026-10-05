@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}},
 				["groups"] = {
 					pet(557, {	-- Nether Faerie Dragon (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the surrounding areas outside of the Dire Maul instance portals in Feralas.",
 							constant = "CAN_BE_FOUND_IN_THE_SURROUNDING_AREAS_OUTSIDE",
 							export = true,
@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 					pet(387),	-- Snake (PET!)
 					pet(1158, {	-- Stunted Yeti (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found near Feral Scar Yetis south of Dire Maul.",
 							constant = "CAN_BE_FOUND_NEAR_FERAL_SCAR_YETIS_SOUTH_OF",
 							export = true,
@@ -194,7 +194,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66352, {	-- Traitor Gluk <Master Pet Tamer>
 					["coord"] = { 59.6, 49.6, FERALAS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nGluk's pets are level 13 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_THOUGH_ALLIANCE_3",
 						export = true,
@@ -841,7 +841,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(26402, {	-- General Shandris Feathermoon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you completed or currently have active any quest at Feathermoon Stronghold, this quest stops being available",
 						constant = "IF_YOU_COMPLETED_OR_CURRENTLY_HAVE_ACTIVE_ANY",
 						export = true,
@@ -1340,7 +1340,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25403, {	-- Ogre Abduction [A]
 					-- #if AFTER 7.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
 						constant = "HIGH_LEVEL_PLAYERS_MAY_REQUIRE_CFF0070DDSOFT",
 						export = true,
@@ -2847,7 +2847,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 222705 },	-- Blightbark <Guardian of Feralas>
 							},
 							["coord"] = { 58.6, 52.2, FERALAS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Click the shrine to receive a buff called Duty of the Warden.\n\nFight a Gordunni Warlock until it casts Shrink on you. Cast Remove Curse to receive a buff that says 'You have cast out what corrupts the spirit.\n\nFight a Zukk'ash Wasp until it Poisons you. Cast Abolish Poison to receive a buff that says 'Your duty is fulfilled.'\n\nReturn to the Shrine and then defeat the Treant Avatar that spawns once you approach it.",
 								constant = "CLICK_THE_SHRINE_TO_RECEIVE_A_BUFF_CALLED_DUTY",
 								export = true,
@@ -2873,7 +2873,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 222704 },	-- Sagefeather <Guardian of the Hinterlands>
 							},
 							["coord"] = { 66.2, 53.1, THE_HINTERLANDS },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Click on the shrine to see the message 'The calm comes before the storm.'\n\nCast Tranquility followed by Hurricane.\n\nDefeat the avatar and receive its blessing.",
 								constant = "CLICK_ON_THE_SHRINE_TO_SEE_THE_MESSAGE_THE_CALM",
 								export = true,
@@ -2899,7 +2899,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 222703 },	-- Whisperwing <Guardian of Azshara>
 							},
 							["coord"] = { 34.6, 49.0, AZSHARA },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Click on the shrine to see the message 'Hunt the white stag with tooth and claw.'\n\nFight a White Stag with only physical attacks while in feral form and then loo the Sacred Stag Heart.\n\nReturn to the shrine and use the heart. Defeat the avatar and receive its blessing.",
 								constant = "CLICK_ON_THE_SHRINE_TO_SEE_THE_MESSAGE_HUNT_THE",
 								export = true,
@@ -3055,7 +3055,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(7730, {	-- Zukk'ash Infestation
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest gets marked as completed when you complete the quest 'Verinias the Twisted' (25368).",
 						constant = "THIS_QUEST_GETS_MARKED_AS_COMPLETED_WHEN_YOU_4",
 						export = true,
@@ -3237,7 +3237,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				n(54533, {	-- Prince Lakma
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Prince Lakma drops Chimaerok Tenderloin, which is a cooking reagent for Dirge's Kickin' Chimaerok Chops. Eating this consumable is a criteria for the Leatherworking achievement named Always Be Camping. However, do not bother with Prince Lekma if you have not learned the required cooking recipe as it only was available for a short time during vanilla and now sells for gold cap. Dirge's Kickin' Chimaerok Chops can be found on the auction house, or you can ask around for a crafter.",
 						constant = "PRINCE_LAKMA_DROPS_CHIMAEROK_TENDERLOIN_WHICH",
 						export = true,
@@ -3318,7 +3318,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				o(420954, {	-- Carved Eye
 					["coord"] = { 61.5, 30.7, FERALAS },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click on the Carved Eye in the room under the Maul Arena in Dire Maul",
 						constant = "CLICK_ON_THE_CARVED_EYE_IN_THE_ROOM_UNDER_THE",
 						export = true,
@@ -3565,7 +3565,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(216645, {	-- Mote of Darkness
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After acquiring the Spent Voidcore, killing any mob in the zone can cause the Shadowy Figure to appear.",
 						constant = "AFTER_ACQUIRING_THE_SPENT_VOIDCORE_KILLING_ANY",
 						export = true,
@@ -3596,7 +3596,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if AFTER 3.1.0
 				i(11474, {	-- Sprite Darter Egg (PET!)
 					-- #if BEFORE 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet only drops from the Darters for Horde players. Alliance players will need to complete 'Becoming a Parent' that is completed in the Hinterlands.",
 						constant = "THIS_PET_ONLY_DROPS_FROM_THE_DARTERS_FOR_HORDE",
 						export = true,

@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			ach(14774, {	-- Ardenweald Gourmand
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "All food is sold by Tanor in Ardenweald at |cFFFFFFFF65.0, 19.6|r.",
 					constant = "ALL_FOOD_IS_SOLD_BY_TANOR_IN_ARDENWEALD_AT",
 					export = true,
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			ach(14353, {	-- Ardenweald's a Stage
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You have to be in the Night Fae covenant to personally summon mobs, but anyone can kill and loot the mobs if they are summoned by someone else. Only one mob is summonable per day.",
 					constant = "YOU_HAVE_TO_BE_IN_THE_NIGHT_FAE_COVENANT_TO",
 					export = true,
@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["sym"] = {{ "achievement_criteria" }},
 			}),
 			ach(14791, {	-- Toss a Seed to Your Hunter...
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Faintly Glowing Seeds can be found scattered around the zone, but the closest ones to the encounter are up the hill in Heartwood Grove. Look around the bases of trees for sparkling bluish-purple plants.",
 					constant = "THE_FAINTLY_GLOWING_SEEDS_CAN_BE_FOUND",
 					export = true,

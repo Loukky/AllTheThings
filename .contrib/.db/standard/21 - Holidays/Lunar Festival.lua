@@ -327,7 +327,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(56903, {	-- Crown of Courage
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To pick up this quest, you must have collected the |cFF1eff00Crown of Courage|r transmog.",
 				constant = "TO_PICK_UP_THIS_QUEST_YOU_MUST_HAVE_COLLECTED",
 				export = true,
@@ -377,7 +377,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(56905, {	-- Crown of Dark Blossoms
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To pick up this quest, you must have collected the |cFF1eff00Crown of Dark Blossoms|r transmog.",
 				constant = "TO_PICK_UP_THIS_QUEST_YOU_MUST_HAVE_COLLECTED_2",
 				export = true,
@@ -427,7 +427,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(56906, {	-- Crown of Good Fortune
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To pick up this quest, you must have collected the |cFF1eff00Crown of Good Fortune|r transmog.",
 				constant = "TO_PICK_UP_THIS_QUEST_YOU_MUST_HAVE_COLLECTED_3",
 				export = true,
@@ -477,7 +477,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(56904, {	-- Crown of Prosperity
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "To pick up this quest, you must have collected the |cFF1eff00Crown of Prosperity|r transmog.",
 				constant = "TO_PICK_UP_THIS_QUEST_YOU_MUST_HAVE_COLLECTED_4",
 				export = true,
@@ -710,7 +710,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(56842, {	-- Lunar Preservation
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Only a very few moonwells in faction-neutral locations counts for this quest. If you happen to lose the 'Blessing of the Moon'-buff due to death, you can continue as you still have the buff and turn in the quest without having to revisit moonwells.",
 				constant = "ONLY_A_VERY_FEW_MOONWELLS_IN_FACTION_NEUTRAL",
 				export = true,
@@ -977,7 +977,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["coord"] = { 60.5, 27.7, GRIZZLY_HILLS },
 			}),
 			q(13026, {	-- Bluewolf the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the Wintergrasp Antechamber, inaccessible unless your faction controls the area.",
 					constant = "INSIDE_THE_WINTERGRASP_ANTECHAMBER_INACCESSIBLE",
 					export = true,
@@ -1062,7 +1062,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		preWrathEldersHeader(ELDERS_OF_THE_ALLIANCE, 915, ADDED_1_9_0, {	-- Elders of the Alliance
 			q(8718, {	-- Bladeswift the Elder
 				-- #if AFTER BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Darnassus. The Elder is on the left side of the Cenarion Enclave.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_48",
 					export = true,
@@ -1092,7 +1092,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8866, {	-- Bronzebeard the Elder
 				-- #if AFTER CATA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Can be challenging for Horde players. Fly in and fly high without hesitation. Watch out for guard movements in The Mystic Ward.",
 					constant = "CAN_BE_CHALLENGING_FOR_HORDE_PLAYERS_FLY_IN_AND",
 					export = true,
@@ -1138,7 +1138,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		preWrathEldersHeader(ELDERS_OF_THE_HORDE, 914, ADDED_1_9_0, {	-- Elders of the Horde
 			q(8648, {	-- Darkcore the Elder
 				-- #if AFTER BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron. If Zidormi does not offer any dialogue options, travel towards Western Plaguelands and see if you get phased into pre-BfA Tirisfal.\n\nThe Elder is just inside the front door of the city. Alliance players can fly through the broken roof in front of the room. There are no guards in this area.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_69",
 					export = true,
@@ -1169,7 +1169,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8677, {	-- Darkhorn the Elder
 				-- #if AFTER CATA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Elder is on the southern end of the central upper platform in Orgrimmar near the flight master. A visual clue for flying Alliance players is to look for the towering gate seperating Valley of Strength and the Drag.",
 					constant = "THE_ELDER_IS_ON_THE_SOUTHERN_END_OF_THE_CENTRAL",
 					export = true,
@@ -1199,7 +1199,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8678, {	-- Wheathoof the Elder [Wrath+] / Proudhorn the Elder [Classic]
 				-- #if AFTER CATA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found on the northern side of The Elder Rise, easily accessible for flying players.",
 					constant = "FOUND_ON_THE_NORTHERN_SIDE_OF_THE_ELDER_RISE",
 					export = true,
@@ -1231,7 +1231,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		preWrathEldersHeader(ELDERS_OF_EASTERN_KINGDOMS, 912, ADDED_1_9_0, {	-- Elders of Eastern Kingdoms
 			q(8647, {	-- Bellowrage the Elder
 				-- #if AFTER WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 48.1, 7.3 to see Blasted Lands before the invasion.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_48_2",
 					export = true,
@@ -1283,7 +1283,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8652, {	-- Graveborn the Elder
 				-- #if AFTER BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron. If Zidormi does not offer any dialogue options, travel towards Western Plaguelands and see if you get phased into pre-BfA Tirisfal.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_69_2",
 					export = true,
@@ -1327,7 +1327,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8722, {	-- Meadowrun the Elder
 				-- #if AFTER CATA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found inside the Weeping Cave.",
 					constant = "FOUND_INSIDE_THE_WEEPING_CAVE",
 					export = true,
@@ -1447,7 +1447,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		preWrathEldersHeader(ELDERS_OF_KALIMDOR, 911, ADDED_1_9_0, {	-- Elders of Kalimdor
 			q(8715, {	-- Bladeleaf the Elder
 				-- #if AFTER BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 48.8, 24.4 in Darkshore to be able to visit the past version of Teldrassil. The Elder is on the left side of the Cenarion Enclave.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_48_3",
 					export = true,
@@ -1477,7 +1477,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8719, {	-- Bladesing the Elder
 				-- #if BEFORE BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 78.9, 21.9 to see Silithus before the Wound in the World.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_78",
 					export = true,
@@ -1649,7 +1649,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			}),
 			q(8721, {	-- Starweave the Elder
 				-- #if AFTER BFA
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In order to view this Elder, visit Zidormi at 48.8, 24.4 to see Darkshore before the battle.",
 					constant = "IN_ORDER_TO_VIEW_THIS_ELDER_VISIT_ZIDORMI_AT_48_4",
 					export = true,
@@ -1704,7 +1704,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		}),
 		preWrathEldersHeader(ELDERS_OF_THE_DUNGEONS, 910, ADDED_1_9_0, {	-- Elders of the Dungeons
 			q(13067, {	-- Chogan'gada the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After defeating Skadi, the Elder is underneath the staircase before you enter the Ruined Court.",
 					constant = "AFTER_DEFEATING_SKADI_THE_ELDER_IS_UNDERNEATH",
 					export = true,
@@ -1747,7 +1747,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { STRATHOLME },
 			}),
 			q(13021, {	-- Igasho the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "When you enter the Nexus, turn right and loop around the Singing Grove. The Elder is just before you reach Ormorok's platform.",
 					constant = "WHEN_YOU_ENTER_THE_NEXUS_TURN_RIGHT_AND_LOOP",
 					export = true,
@@ -1771,7 +1771,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { THE_NEXUS },
 			}),
 			q(13017, {	-- Jarten the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After defeating Keleseth, continue through the mining tunnel. Before heading up the stairs to the next boss, turn left to find the Elder.",
 					constant = "AFTER_DEFEATING_KELESETH_CONTINUE_THROUGH_THE",
 					export = true,
@@ -1795,7 +1795,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { UTGARDE_KEEP, UTGARDE_KEEP_FLOOR2, UTGARDE_KEEP_FLOOR3 },
 			}),
 			q(13023, {	-- Kilias the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Elder is just inside the Raptor Pens, near King Dred.",
 					constant = "THE_ELDER_IS_JUST_INSIDE_THE_RAPTOR_PENS_NEAR",
 					export = true,
@@ -1825,7 +1825,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { BLACKROCK_DEPTHS },
 			}),
 			q(13022, {	-- Nurgen the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "After defeating Hadronox, jump to the lower level of the dungeon. The Elder is on the north side of the room where you land.",
 					constant = "AFTER_DEFEATING_HADRONOX_JUMP_TO_THE_LOWER",
 					export = true,
@@ -1849,7 +1849,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { AZJOL_NERUB, AZJOL_NERUB_FLOOR2, AZJOL_NERUB_FLOOR3 },
 			}),
 			q(13065, {	-- Ohanzee the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Elder is on the platform behind the second boss in the dungeon, Drakkari Colossus.",
 					constant = "THE_ELDER_IS_ON_THE_PLATFORM_BEHIND_THE_SECOND",
 					export = true,
@@ -1934,7 +1934,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				["maps"] = { ZULFARRAK },
 			}),
 			q(13066, {	-- Yurauk the Elder
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Elder is on the western side of the Crystalline Quarry inside Halls of Stone.",
 					constant = "THE_ELDER_IS_ON_THE_WESTERN_SIDE_OF_THE",
 					export = true,

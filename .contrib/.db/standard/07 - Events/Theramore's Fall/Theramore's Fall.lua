@@ -45,7 +45,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.MOP, { appl
 			}),
 			-- #endif
 			i(90041, {	-- Spoils of Theramore
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This was a reward for completing the Theramore's Fall scenario during the Mists of Pandaria pre-patch.",
 					constant = "THIS_WAS_A_REWARD_FOR_COMPLETING_THE_THERAMORE",
 					export = true,
@@ -104,7 +104,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, { expansion(EXPANSION.MOP, { appl
 		-- #if AFTER 6.0.2
 		n(VENDORS, {
 			n(63546, {	-- Zidormi
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Sells the following items if you completed the level 85 version of the Theramore's Fall Scenario on your current character during the Pre-Launch of MOP.",
 					constant = "SELLS_THE_FOLLOWING_ITEMS_IF_YOU_COMPLETED_THE",
 					export = true,

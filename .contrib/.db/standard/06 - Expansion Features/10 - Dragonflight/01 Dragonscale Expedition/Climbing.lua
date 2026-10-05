@@ -54,7 +54,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 22.0, 95.1, THE_WAKING_SHORES },
 					["groups"] = {
 						n(187077, {	-- Cymre Brightblade
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only available when world quest is active.",
 								constant = "ONLY_AVAILABLE_WHEN_WORLD_QUEST_IS_ACTIVE",
 								export = true,

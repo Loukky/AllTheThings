@@ -111,7 +111,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["hordeQuestData"] = q(29228, {	-- Follow That Cat (H)
 						["sourceQuest"] = 29227,	-- The Hunter's Revenge (H)
 					}),
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Automatically granted after turning in |cFFFFD700The Hunter's Revenge|r.",
 						constant = "AUTOMATICALLY_GRANTED_AFTER_TURNING_IN",
 						export = true,
@@ -145,7 +145,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["hordeQuestData"] = q(29229, {	-- Follow That Cat (H)
 						["sourceQuest"] = 29227,	-- The Hunter's Revenge (H)
 					}),
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version is available if you abandon the quest that was granted automatically.",
 						constant = "THIS_VERSION_IS_AVAILABLE_IF_YOU_ABANDON_THE_2",
 						export = true,

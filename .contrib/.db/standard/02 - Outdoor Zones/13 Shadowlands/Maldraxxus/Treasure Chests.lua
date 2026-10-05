@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(MALDRAXXUS, {
 		n(TREASURES, {
 			o(353627, {		-- Battlefront Rations
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock it, you must obtain |cFF0070ddBattlefront Ration Key|r from Thalrix the Slicer or one of the Supply Officer mobs in the area nearby.",
 					constant = "TO_UNLOCK_IT_YOU_MUST_OBTAIN",
 					export = true,
@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["cost"] = { { "i", 180277, 1 } },	-- 1x Battlefront Ration Key
 			}),
 			o(352086, {		-- Blackhound Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires |cFF40bf40Necrolord Covenant|r using Visectus to open. Interactible Toys, Soulshape, etc. no longer work, as you get teleported out.\n\nIf the door is already open, a character from any covenant may walk in and loot the treasure.",
 					constant = "REQUIRES_CFF40BF40NECROLORD_COVENANT_R_USING",
 					export = true,
@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171337, {		-- Bloated Lootfly
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a critter that flies around. Find it, kill it, and loot it to collect the treasure.",
 					constant = "THIS_IS_A_CRITTER_THAT_FLIES_AROUND_FIND_IT",
 					export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["cost"] = { { "i", 181558, 1 } },	-- Missing Ritual Pages
 			}),
 			o(352433, {		-- Cache of Eyes
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coordinates are to the entrance of Sightless Hold. The cache spawns in numerous locations within the cave. The pet is not a 100% drop and the chest is not always up, but there is no cooldown or lockout for opening the chest.",
 					constant = "COORDINATES_ARE_TO_THE_ENTRANCE_OF_SIGHTLESS",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(345456, {		-- Chest of Eyes
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The path to the treasure starts at |cFFFFFFFF51.6, 13.7|r. Climb up the side of the crumbled building until you get close to the treasure, then turn right and walk up the cliff to it.",
 					constant = "THE_PATH_TO_THE_TREASURE_STARTS_AT_CFFFFFFFF51",
 					export = true,
@@ -166,7 +166,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(345455, {		-- Construct Supply Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock it, you must obtain |cFF0070ddConstruct Supply Key|r from Thalrix the Slicer or one of the Supply Officer mobs in the area nearby.",
 					constant = "TO_UNLOCK_IT_YOU_MUST_OBTAIN_CFF0070DDCONSTRUCT",
 					export = true,
@@ -201,7 +201,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(364483, {		-- Empty Nightcap Cask
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires |cFF40bf40Necrolord Covenant|r with Abomination Factory Rank 3. Coordinates are to the entrance of Molten Forge. The cask is found at 50.3, 17.4 once you enter the Molten Forge.",
 					constant = "REQUIRES_CFF40BF40NECROLORD_COVENANT_R_WITH",
 					export = true,
@@ -228,7 +228,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(341424, {		-- Forgotten Mementos
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Unlock the gate to the treasure by clicking the chain at |cFFFFFFFF25.8, 53.9|r.\n\nThe treasure will respawn about 5 minutes after being looted by another player.",
 					constant = "UNLOCK_THE_GATE_TO_THE_TREASURE_BY_CLICKING_THE",
 					export = true,
@@ -261,7 +261,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355947, {		-- Glutharn's Stash
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a cave behind the slime waterfall.",
 					constant = "IN_A_CAVE_BEHIND_THE_SLIME_WATERFALL",
 					export = true,
@@ -297,7 +297,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353626, {		-- Locked Toolbox
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock it, you must obtain |cFF0070ddLocked Toolbox Key|r from Thalrix the Slicer or one of the Supply Officer mobs in the area nearby.",
 					constant = "TO_UNLOCK_IT_YOU_MUST_OBTAIN_CFF0070DDLOCKED",
 					export = true,
@@ -326,7 +326,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["cost"] = { { "i", 180276, 1 } },	-- Locked Toolbox Key
 			}),
 			o(351980, {		-- Misplaced Supplies
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "On top of the mushroom.",
 					constant = "ON_TOP_OF_THE_MUSHROOM",
 					export = true,
@@ -348,7 +348,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 62.4, 59.9, MALDRAXXUS },
 			}),
 			o(335655, {		-- Oonar's Arm
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires 1xStrength of Blood, 1xPotion of Unusual Strength, 2xBattle Hardened(WQ:A Few Bumps Along the Way), 4xEdible Redcap",
 					constant = "REQUIRES_1XSTRENGTH_OF_BLOOD_1XPOTION_OF",
 					export = true,
@@ -385,7 +385,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355886, {		-- Plaguefallen Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To access this chest, you need the |cFFFFFFFFPlaguefallen|r debuff. You can either pick up a Plaguefallen Potion from |cFFFFFFFF58.4, 73.3|r in Plague Watch, or stand in green slime until you have 10 stacks of |cFFFFFFFFConcentrated Plague|r (living through the stacks requires significant self-healing, but picking up the potion far away from the cave gives you very little time to get there).\n\nWith the debuff, you have 2 minutes to make it to the cave at |cFFFFFFFF62.3, 76.6|r (behind Scunner's platform) and use the pipe at the back of the cave to teleport to the chest.\n\nYou MUST still have the debuff to loot the chest, so don't alt-tab after you get teleported!",
 					constant = "TO_ACCESS_THIS_CHEST_YOU_NEED_THE",
 					export = true,
@@ -408,7 +408,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(183515) },	-- Iridescent Ooze (PET!)
 			}),
 			o(345458, {		-- Prize Bag
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Spawns periodically around the arena.",
 					constant = "SPAWNS_PERIODICALLY_AROUND_THE_ARENA",
 					export = true,
@@ -437,7 +437,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(181558) },	-- Missing Ritual Pages
 			}),
 			o(355980, {		-- Ritualist's Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Loot the |cFFFFFFFFRitual Pages|r from the front-right corner of the room. Take them to the back-right corner and use the |cFFFFFFFFBook of Binding Rituals|r, and then you can loot the chest.",
 					constant = "LOOT_THE_CFFFFFFFFRITUAL_PAGES_R_FROM_THE_FRONT",
 					export = true,
@@ -461,7 +461,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(183517) },	-- Page 76 of the Necronom-i-nom (CI!)
 			}),
 			o(355037, {		-- Runebound Coffer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock it, you must find 3 nearby |cFFFFFFFFRunes of Constructs|r and click them to deactivate the corresponding runes on the chest.",
 					constant = "TO_UNLOCK_IT_YOU_MUST_FIND_3_NEARBY",
 					export = true,
@@ -523,7 +523,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355038, {		-- Runebound Coffer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "To unlock it, you must find 3 nearby |cFFFFFFFFRunes of Rituals|r and click them to deactivate the corresponding runes on the chest.",
 					constant = "TO_UNLOCK_IT_YOU_MUST_FIND_3_NEARBY_2",
 					export = true,
@@ -578,7 +578,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(356535, {		-- Runespeaker's Trove
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You need |cFFFFFFFFPhaeton's Key|r from Runespeaker Phaeton at |cFFFFFFFF37.8, 70.1|r to open the chest. ",
 					constant = "YOU_NEED_CFFFFFFFFPHAETON_S_KEY_R_FROM",
 					export = true,
@@ -682,7 +682,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(355872, {		-- Stolen Jar
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "There are two caves - the treasure is in the lower one.",
 					constant = "THERE_ARE_TWO_CAVES_THE_TREASURE_IS_IN_THE",
 					export = true,
@@ -729,7 +729,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(355865, {		-- Vat of Conspicuous Slime
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pick up the |cFFFFFFFFEmpty Plague Bottle|r from the table next to the vat.",
 					constant = "PICK_UP_THE_CFFFFFFFFEMPTY_PLAGUE_BOTTLE_R_FROM",
 					export = true,

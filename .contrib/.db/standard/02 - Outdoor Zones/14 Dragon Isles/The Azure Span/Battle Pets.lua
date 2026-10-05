@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			["groups"] = {
 				pet(3357),	-- Azure Crystalspine (PET!)
 				pet(3356, {	-- Chalkshell Turtle (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to |cFFefc400Lani|r and use the extra action button to spawn this pet.",
 						constant = "TALK_TO_CFFEFC400LANI_R_AND_USE_THE_EXTRA",
 						export = true,
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				pet(3335, {	-- Pale Baby Vorquin (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Click the |cFFefc400Magical Creature Manual|r to see this pet.",
 						constant = "CLICK_THE_CFFEFC400MAGICAL_CREATURE_MANUAL_R_TO",
 						export = true,
@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 69.0, 27.0, THE_AZURE_SPAN },
 				}),
 				pet(3320, {	-- Whitewhisker (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Talk to |cFFefc400Nuptuk|r to see this pet.",
 						constant = "TALK_TO_CFFEFC400NUPTUK_R_TO_SEE_THIS_PET",
 						export = true,

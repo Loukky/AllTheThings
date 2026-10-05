@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["timeline"] = { ADDED_8_1_0 },
 			}),
 			pet(2385, {	-- Barrier Hermit (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found commonly on the shorelines of Tusk Isle and Isle of Fang, islands south of Zuldazar.",
 					constant = "FOUND_COMMONLY_ON_THE_SHORELINES_OF_TUSK_ISLE",
 					export = true,
@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				})
 			}),
 			pet(2387, {	-- Golden Beetle (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found at the coord in Atal'Dazar area, as well as alongside Barrier Hermits.",
 					constant = "FOUND_AT_THE_COORD_IN_ATAL_DAZAR_AREA_AS_WELL",
 					export = true,
@@ -51,7 +51,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 42.8, 39.2, ZULDAZAR },
 			}),
 			pet(2390, {	-- Leafy Flutterwing (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found mosly along walkways in east Zuldazar.",
 					constant = "FOUND_MOSLY_ALONG_WALKWAYS_IN_EAST_ZULDAZAR",
 					export = true,
@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			pet(2384, {	-- Shore Butterfly (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Found on the SW coasts of Tusk Isle and Isle of Fang, may be easier to find as a backline.",
 					constant = "FOUND_ON_THE_SW_COASTS_OF_TUSK_ISLE_AND_ISLE_OF",
 					export = true,

@@ -89,7 +89,7 @@ root(ROOTS.Zones, {
 					["groups"] = {
 						pet(641),	-- Arctic Hare (PET!)
 						pet(639, {	-- Borean Marmot (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found all over the yellow/brown tundra between Warsong Hold and Sholazar Basin.",
 								constant = "FOUND_ALL_OVER_THE_YELLOW_BROWN_TUNDRA_BETWEEN",
 								export = true,
@@ -110,7 +110,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 57.0, 35.0, BOREAN_TUNDRA },
 						}),
 						pet(1165, {	-- Nexus Whelpling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in Coldarra.",
 								constant = "FOUND_IN_COLDARRA",
 								export = true,
@@ -132,7 +132,7 @@ root(ROOTS.Zones, {
 							["timeline"] = { ADDED_5_1_0 },
 						}),
 						pet(530, {	-- Oily Slimeling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found in the oil pools from Fizzcrank Airstrip to the Geyser Fields.",
 								constant = "FOUND_IN_THE_OIL_POOLS_FROM_FIZZCRANK_AIRSTRIP",
 								export = true,
@@ -153,7 +153,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 61.0, 31.0, BOREAN_TUNDRA },
 						}),
 						pet(536, {	-- Tundra Penguin (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There is only a few spawns of this pet, which can be found by the shore in the westernmost part of Dragonblight. However, it is a common secondary pet in both Borean Tundra and Dragonblight!",
 								constant = "THERE_IS_ONLY_A_FEW_SPAWNS_OF_THIS_PET_WHICH",
 								export = true,
@@ -728,7 +728,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12471, {	-- Cruelty of the Kvaldir
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Offered once you kill the |cFFFFD700Riplash Myrmidon|r attacking the prisoner.",
 							constant = "OFFERED_ONCE_YOU_KILL_THE_CFFFFD700RIPLASH",
 							export = true,
@@ -750,7 +750,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.0, 77.8, BOREAN_TUNDRA },
 					}),
 					q(11920, {	-- Cultists Among Us
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must have or complete |cFFFFD700A Soldier in Need|r to see this quest.",
 							constant = "MUST_HAVE_OR_COMPLETE_CFFFFD700A_SOLDIER_IN",
 							export = true,
@@ -1092,7 +1092,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
 							i(41888, {	-- Small Velvet Bag
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Contains a 'perfect' gem.",
 									constant = "CONTAINS_A_PERFECT_GEM",
 									export = true,
@@ -1255,7 +1255,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(11586, {	-- Hellscream's Vigil
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is only available if you have NOT completed the quest 'There Is No Hope' from Greatmother Geyah in Nagrand (Outland). However, it seems that everyone is receiving this version curently.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_ONLY_AVAILABLE_IF",
 							export = true,
@@ -1466,7 +1466,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(11946, {	-- Keristrasza
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Use the |cFFFFFFFFAugmented Arcane Prison|r in your bags to summon |cFFFFD700Keristrasza|r. If you do not have the item in your bags, talk to |cFFFFD700Raelorasz|r to get one.",
 							constant = "USE_THE_CFFFFFFFFAUGMENTED_ARCANE_PRISON_R_IN",
 							export = true,
@@ -2551,7 +2551,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(11595, {	-- The Defense of Warsong Hold
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is only available if you have completed the quest 'The Lord of Blackrock' from the Head of Nefarian and do NOT have the Scarab Lord title.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_ONLY_AVAILABLE_IF_2",
 							export = true,
@@ -2578,7 +2578,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(11596, {	-- The Defense of Warsong Hold
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is only available if you have NOT completed the quest 'The Lord of Blackrock' from the Head of Nefarian and do NOT have the Scarab Lord title.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_ONLY_AVAILABLE_IF_3",
 							export = true,
@@ -2605,7 +2605,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(11597, {	-- The Defense of Warsong Hold
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version of the quest is only available if you have the Scarab Lord title.",
 							constant = "THIS_VERSION_OF_THE_QUEST_IS_ONLY_AVAILABLE_IF_4",
 							export = true,
@@ -3087,7 +3087,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(11632, {	-- What the Cold Wind Brings...
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must kill |cFFFFD700Ith'rix the Harvester|r during the Warsong Hold attack, then loot the carapace.",
 							constant = "MUST_KILL_CFFFFD700ITH_RIX_THE_HARVESTER_R",
 							export = true,
@@ -3230,7 +3230,7 @@ root(ROOTS.Zones, {
 				-- #if AFTER 6.2.2.20444
 				n(TREASURES, {
 					o(244447, {	-- White Murloc Egg
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found beneath Riplash Ruins. There is an obscured underwater cave outside the northeastern end of the ruins. Two white murloc eggs can be found in the end of the cave, but only the one on the ground can be looted.",
 							constant = "FOUND_BENEATH_RIPLASH_RUINS_THERE_IS_AN",
 							export = true,

@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			["isDaily"] = true,
 		}, {
 			n(216042, {	-- Cha'tak
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Inside the cave, behind the waterfall.",
 					constant = "INSIDE_THE_CAVE_BEHIND_THE_WATERFALL",
 					export = true,
@@ -52,7 +52,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(216050, {	-- Harverster Qixt
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols in the area.",
 					constant = "PATROLS_IN_THE_AREA",
 					export = true,
@@ -95,7 +95,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221327, {	-- Kaheti Silk Hauler
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrols on the road.",
 					constant = "PATROLS_ON_THE_ROAD",
 					export = true,
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(216052, {	-- Skrimisher Sa'zryk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Patrolling the path from the base to the top.",
 					constant = "PATROLLING_THE_PATH_FROM_THE_BASE_TO_THE_TOP",
 					export = true,
@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(216037, {	-- Vilewing
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flies around the area.",
 					constant = "FLIES_AROUND_THE_AREA",
 					export = true,

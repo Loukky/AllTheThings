@@ -105,7 +105,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					["crs"] = { 54938 },	-- Archbishop Benedictus
 					["groups"] = {
 						ach(6132, {	-- Eclipse
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You need to get Benedictus down to 60% to trigger stage two and surrounding Twilight Sparks.",
 								constant = "YOU_NEED_TO_GET_BENEDICTUS_DOWN_TO_60_TO",
 								export = true,

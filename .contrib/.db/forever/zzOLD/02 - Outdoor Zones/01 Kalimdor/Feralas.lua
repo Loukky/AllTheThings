@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 				}),
 				prof(FISHING, {
 					i(16967, {	-- Feralas Ahi
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Best fished at the given coords.",
 							constant = "BEST_FISHED_AT_THE_GIVEN_COORDS",
 							export = true,
@@ -468,7 +468,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- 0/10 Rage Scar Yeti Hide
 							["provider"] = { "i", 18947 },	-- Rage Scar Yeti Hide
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can also be looted via Skinning to speed up your progress.",
 								constant = "CAN_ALSO_BE_LOOTED_VIA_SKINNING_TO_SPEED_UP",
 								export = true,
@@ -1375,7 +1375,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(11447, {	-- Mushgog
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Spawns in the Dire Maul Arena.",
 						constant = "SPAWNS_IN_THE_DIRE_MAUL_ARENA",
 						export = true,
@@ -1553,7 +1553,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				n(14637, {	-- Zorbin Fandazzle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must complete quests |cFFFFD700Zapped Giants|r and |cFFFFD700Fuel For The Zapping|r before he will sell to you.",
 						constant = "MUST_COMPLETE_QUESTS_CFFFFD700ZAPPED_GIANTS_R",
 						export = true,
@@ -1593,7 +1593,7 @@ root(ROOTS.Zones, m(MAP.KALIMDOR, {
 					},
 				}),
 				i(8705, {	-- OOX-22/FE Distress Beacon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item has a chance to drop from any creature in Feralas.",
 						constant = "THIS_ITEM_HAS_A_CHANCE_TO_DROP_FROM_ANY",
 						export = true,

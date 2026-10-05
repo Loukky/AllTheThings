@@ -233,7 +233,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(26121, {	-- Claim Korthun's End
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This version is provided if you abandon the quest granted by killing a |cFFFFD700Hellscream Seadog|r.",
 								constant = "THIS_VERSION_IS_PROVIDED_IF_YOU_ABANDON_THE",
 								export = true,
@@ -416,7 +416,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(26106, {	-- Fuel-ology 101
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "2 Remora, 3 Hammerhead",
 								constant = "2_REMORA_3_HAMMERHEAD",
 								export = true,
@@ -569,7 +569,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(26144, {	-- Prisoners (A)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Only drops when the |cFFFFD700Ascend No More!|r quest has been accepted or completed.",
 								constant = "ONLY_DROPS_WHEN_THE_CFFFFD700ASCEND_NO_MORE_R",
 								export = true,
@@ -692,7 +692,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(26125, {	-- Secure Seabrush (Pickup)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This version is provided if you abandon the quest granted by killing an |cFFFFD700Alliance Sea-Scout|r.",
 								constant = "THIS_VERSION_IS_PROVIDED_IF_YOU_ABANDON_THE_2",
 								export = true,
@@ -897,7 +897,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						n(50051, {	-- Ghostcrawler: Hunter Pet Tamable
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Tameable Spirit Beast for hunters.",
 								constant = "TAMEABLE_SPIRIT_BEAST_FOR_HUNTERS",
 								export = true,
@@ -947,7 +947,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					n(FLIGHT_PATHS, {
 						fp(607, {	-- Sandy Beach, Vashj'ir
 							["cr"] = 43287,	-- Swift Seahorse <Flight Master>
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Underwater.",
 								constant = "UNDERWATER",
 								export = true,
@@ -1153,7 +1153,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER 9.0.3
 							["groups"] = {
 								n(36799, {	-- Recruiter Burns
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Accepting the quest 'Call of Duty' will instantly teleport you to Vashj'ir. Although the old event and cutscene is skipped, the questline is still intact.\n\nIf Burns do not offer you the quest, you might be phased due to Legion intro questline (even by being within the eligible level range!).",
 										constant = "ACCEPTING_THE_QUEST_CALL_OF_DUTY_WILL_INSTANTLY",
 										export = true,
@@ -1413,7 +1413,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(25419, {	-- Lady La-La's Medallion
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Take the quest 'Oh, the Insanity!' from Budd, turn in all quests at the Smuggler's Scar cave, and then start killing Gilbin Collectors to get the quest 'Lady La-La's Medallion.'",
 								constant = "TAKE_THE_QUEST_OH_THE_INSANITY_FROM_BUDD_TURN",
 								export = true,
@@ -1483,7 +1483,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(27729, {	-- Once More, With Eeling
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Granted automatically from killing any eel.",
 								constant = "GRANTED_AUTOMATICALLY_FROM_KILLING_ANY_EEL",
 								export = true,
@@ -1608,7 +1608,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(27699, {	-- Shark Weak
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "If you abandon this quest, leave the area and swim back to the boat. You must NOT use a mount.",
 								constant = "IF_YOU_ABANDON_THIS_QUEST_LEAVE_THE_AREA_AND",
 								export = true,
@@ -2139,7 +2139,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(25858, {	-- By Her Lady's Word
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Must be on |cFFFFD700Visions of the Past: The Slaughter of Biel'aran Ridge|r to accept this quest.",
 								constant = "MUST_BE_ON_CFFFFD700VISIONS_OF_THE_PAST_THE",
 								export = true,
@@ -2410,7 +2410,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["races"] = HORDE_ONLY,
 						}),
 						q(25896, {	-- Devout Assembly
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Must be on |cFFFFD700Visions of the Past: Rise from the Deep|r to accept this quest.",
 								constant = "MUST_BE_ON_CFFFFD700VISIONS_OF_THE_PAST_RISE",
 								export = true,
@@ -2777,7 +2777,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(25619, {	-- Reoccupation (this shows up on the map after "Back in One Piece" but isn't actually available yet)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Must be on |cFFFFD700Visions of the Past: The Invasion of Vashj'ir|r to get this quest.",
 								constant = "MUST_BE_ON_CFFFFD700VISIONS_OF_THE_PAST_THE_2",
 								export = true,

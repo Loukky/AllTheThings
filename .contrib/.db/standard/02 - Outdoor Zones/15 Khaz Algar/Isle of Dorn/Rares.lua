@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221128, {	-- Clawbreaker K'zithix
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Walking around in the area.",
 					constant = "WALKING_AROUND_IN_THE_AREA",
 					export = true,
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(221126, {	-- Tephratennae
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Flying around in the area.",
 					constant = "FLYING_AROUND_IN_THE_AREA",
 					export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				},
 			}),
 			n(220068, {	-- Malfuctioning Spire
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This Rare might only be available during the introduction.",
 					constant = "THIS_RARE_MIGHT_ONLY_BE_AVAILABLE_DURING_THE",
 					export = true,

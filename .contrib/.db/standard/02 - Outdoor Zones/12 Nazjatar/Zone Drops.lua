@@ -35,7 +35,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		i(170184, {	-- Ancient Reefwalker Bark
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Turn in to |cFFFFD700Artisan Itanu|r (Alliance) or |cFFFFD700Finder Palta|r (Horde) for 350 reputation, plus 100 experience for each of your faction's bodyguards.",
 				constant = "TURN_IN_TO_CFFFFD700ARTISAN_ITANU_R_ALLIANCE_OR",
 				export = true,
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		i(169475),	-- Barnacled Lockbox
 		i(170188, {	-- Barnacled Bag of Goods
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops very rarely from Kil'karrok Mobs.",
 				constant = "DROPS_VERY_RARELY_FROM_KIL_KARROK_MOBS",
 				export = true,
@@ -90,7 +90,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		i(167012, {	-- Brinestone Pickaxe
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Drops commonly from Chitterspine Encroachers in the north north west of Nazjatar, after completing the white item version of Brinestone Pickaxe (/att quest:55531)",
 				constant = "DROPS_COMMONLY_FROM_CHITTERSPINE_ENCROACHERS_IN",
 				export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["cr"] = 152297,	-- Deepcoral Bud
 		}),
 		i(170167, {	-- Eel Filet
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Gives 250 reputation and 50 experience for your bodyguard.",
 				constant = "GIVES_250_REPUTATION_AND_50_EXPERIENCE_FOR_YOUR",
 				export = true,
@@ -157,7 +157,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		i(170472, {	-- Encrusted Coin (possibly part of a secret?)
 			["questID"] = 57141,
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "This item can drop from mobs, chests, or Mardivas's Universally Lauded Tote. Turn it in to |cFFFFD700Gloomseeker Yarga|r for a hefty sum of gold.",
 				constant = "THIS_ITEM_CAN_DROP_FROM_MOBS_CHESTS_OR_MARDIVAS",
 				export = true,
@@ -298,7 +298,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		i(170183, {	-- Reefwalker Bark
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Turn in to |cFFFFD700Artisan Itanu|r (Alliance) or |cFFFFD700Finder Palta|r (Horde) for 75 reputation, plus 20 reputation with each of your faction's bodyguards.",
 				constant = "TURN_IN_TO_CFFFFD700ARTISAN_ITANU_R_ALLIANCE_OR_2",
 				export = true,

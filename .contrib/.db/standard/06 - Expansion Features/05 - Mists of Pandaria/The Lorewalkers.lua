@@ -4,7 +4,7 @@
 
 root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	header(HEADERS.Faction, FACTION_THE_LOREWALKERS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The Lorewalkers are a pandaren faction bent on exploring the world, finding stories, artifacts, and relics to fill out their libraries.",
 			constant = "THE_LOREWALKERS_ARE_A_PANDAREN_FACTION_BENT_ON",
 			export = true,
@@ -59,7 +59,7 @@ root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_ONE, expansion(EXPANSI
 				}),
 			}),
 			n(MAILBOX, {
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The following will be mailed to you upon completion of respective achievements.",
 					constant = "THE_FOLLOWING_WILL_BE_MAILED_TO_YOU_UPON",
 					export = true,

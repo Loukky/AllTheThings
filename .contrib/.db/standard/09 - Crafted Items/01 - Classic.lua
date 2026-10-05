@@ -110,7 +110,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["groups"] = appendAllGroups(
 				{
 					i(3371, {	-- Empty Vial for Vanilla, turns into Crystal Vial with Cataclysm and becomes the one vial to use in crafting recipes, deprecating all other vials.
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be bought from Alchemy Suppliers, as well as some Trade vendors around the world.",
 							constant = "CAN_BE_BOUGHT_FROM_ALCHEMY_SUPPLIERS_AS_WELL_AS",
 							export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(PHASE_FOUR, i(19931, {	-- Gurubashi Mojo Madness
 				["timeline"] = { REMOVED_4_0_3, ADDED_10_0_7 },
 				-- #if AFTER 10.0.7
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Has to be used near the 'Brazier of Madness' Toy to receive the 'Succumbed to Madness' Buff.",
 					constant = "HAS_TO_BE_USED_NEAR_THE_BRAZIER_OF_MADNESS_TOY",
 					export = true,
@@ -584,7 +584,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				{
 					i(5956, {	-- Blacksmithing Hammer
 						["collectible"] = false,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be bought from Blacksmithing- and Engineering Suppliers, as well as some Trade vendors around the world.",
 							constant = "CAN_BE_BOUGHT_FROM_BLACKSMITHING_AND",
 							export = true,
@@ -605,7 +605,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					}),
 				},
 				sharedData({
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Blacksmithing Suppliers, as well as some Trade vendors around the world.",
 						constant = "CAN_BE_BOUGHT_FROM_BLACKSMITHING_SUPPLIERS_AS",
 						export = true,
@@ -765,7 +765,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						applyclassicphase(SOD_PHASE_SIX, i(233801, {["timeline"] = { ADDED_1_15_5 }})),	-- Obsidian Defender
 						applyclassicphase(SOD_PHASE_SIX, i(233491, {["timeline"] = { ADDED_1_15_5 }})),	-- Obsidian Reaver
 						applyclassicphase(SOD_PHASE_FOUR, i(227843, {	-- Reaving Nightfall
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Blizzard stated that Nightfall was an item that forced 1 member of the raid into a role that did not fit their design, so they've decided to not include Nightfall or this updated version of it.",
 								constant = "BLIZZARD_STATED_THAT_NIGHTFALL_WAS_AN_ITEM_THAT",
 								export = true,
@@ -1001,7 +1001,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				},
 				sharedData({
 					-- #if AFTER 10.1.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Icebellow Anvil can be found on the right side of the second room of the Military Quarter in Naxxramas.",
 						constant = "ICEBELLOW_ANVIL_CAN_BE_FOUND_ON_THE_RIGHT_SIDE",
 						export = true,
@@ -1394,7 +1394,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				sharedData({
 					-- #if AFTER CATA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This item is only common among Alliance bartenders. Horde players only have a few sources.",
 						constant = "THIS_ITEM_IS_ONLY_COMMON_AMONG_ALLIANCE",
 						export = true,
@@ -1440,7 +1440,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(3220),	-- Blood Sausage
 		i(5525),	-- Boiled Clams
 		applyclassicphase(WRATH_PHASE_ONE, i(46691, {	-- Bread of the Dead [Day of the Dead]
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Ghostly Cooking Fire can be found near any graveyards with Day of the Dead-festivities.",
 				constant = "GHOSTLY_COOKING_FIRE_CAN_BE_FOUND_NEAR_ANY",
 				export = true,
@@ -1567,7 +1567,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		n(COMMON_VENDOR_ITEMS, {
 			["groups"] = appendAllGroups(
 				sharedData({	-- Enchanting supplies
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Enchanting Suppliers, as well as some Trade vendors around the world.",
 						constant = "CAN_BE_BOUGHT_FROM_ENCHANTING_SUPPLIERS_AS_WELL",
 						export = true,
@@ -1711,7 +1711,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(16204, {	-- Legion+: Light Illusion Dust / CLASSIC: Illusion Dust
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) quality gear below max unscaled ilvl.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_11",
 					export = true,
@@ -1736,7 +1736,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(156930, {	-- Rich Illusion Dust
 				["timeline"] = { ADDED_7_3_5 },
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) and rare (blue) qualities of vanilla gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_AND",
 					export = true,
@@ -1764,7 +1764,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(10940, {	-- Strange Dust
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting very low ilvl vanilla gear, or bought from enchanting suppliers.",
 					constant = "OBTAINED_FROM_DISENCHANTING_VERY_LOW_ILVL",
 					export = true,
@@ -1821,7 +1821,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(10939, {	-- Greater Magic Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) and rare (blue) qualities of vanilla gear below max unscaled ilvl. You can also buy Lesser Magic Essences from enchanting suppliers and use them to create Greater Magic Essence.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_AND_2",
 					export = true,
@@ -1845,7 +1845,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(10938, {	-- Lesser Magic Essence
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting uncommon (green) and rare (blue) qualities of vanilla gear below max unscaled ilvl. You can also buy these from enchanting suppliers.",
 					constant = "OBTAINED_FROM_DISENCHANTING_UNCOMMON_GREEN_AND_3",
 					export = true,
@@ -1894,7 +1894,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- Shards and crystals:
 			i(14344, {	-- Large Brilliant Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) and epic (purple) quality vanilla gear.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_AND_4",
 					export = true,
@@ -1918,7 +1918,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			i(14343, {	-- Small Brilliant Shard
 				-- #if AFTER 9.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all rare (blue) and epic (purple) quality vanilla gear below max unscaled ilvl.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_RARE_BLUE_AND_5",
 					export = true,
@@ -1967,7 +1967,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(PHASE_FIVE, i(20725, {	-- Nexus Crystal (removed in retail)
 				["timeline"] = { REMOVED_7_3_5 },
 				-- #if BEFORE WOD
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained from disenchanting all epic (purple) quality gear within the ilvl bracket 60-83.",
 					constant = "OBTAINED_FROM_DISENCHANTING_ALL_EPIC_PURPLE",
 					export = true,
@@ -2953,7 +2953,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			filter(PROFESSION_EQUIPMENT, {
 				i(6366, {	-- Darkwood Fishing Pole
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be caught in Ashenvale, Arathi Highlands, Hillsbrad Foothills, Northern Stranglethorn, Redridge Mountains and Wetlands.",
 						constant = "CAN_BE_CAUGHT_IN_ASHENVALE_ARATHI_HIGHLANDS_2",
 						export = true,
@@ -2986,7 +2986,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			}),
 			filter(RECIPES, {
 				i(34109, {	-- Weather-Beaten Journal (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be fished from schools.",
 						constant = "CAN_BE_FISHED_FROM_SCHOOLS",
 						export = true,
@@ -3589,7 +3589,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #if NOT ANYCLASSIC
 					["description"] = "~L.BLACK_LOTUS_IS_A_RARE_SPAWN_AND_CAN_SPAWN_IN",
 					-- #else
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Black Lotus is a rare spawn, and can spawn in place of other herbs. Please let us know in the ATT discord if the listed zones does not reflect the current spawn locations.",
 						constant = "BLACK_LOTUS_IS_A_RARE_SPAWN_AND_CAN_SPAWN_IN_2",
 						export = true,
@@ -3631,7 +3631,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				o(253069, {	-- Blacker Lotus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blacker Lotus is a special node at the given coords which can take days to respawn. This location also has a group of un-gatherable Black Lotuses.",
 						constant = "BLACKER_LOTUS_IS_A_SPECIAL_NODE_AT_THE_GIVEN",
 						export = true,
@@ -3857,7 +3857,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				o(206085, {	-- Frozen Herb (Hillsbrad Foothills)
 					["coord"] = { 47.0, 26.0, HILLSBRAD_FOOTHILLS },	-- Alterac Mountains
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found all over Alterac Mountains",
 						constant = "FOUND_ALL_OVER_ALTERAC_MOUNTAINS",
 						export = true,
@@ -5099,7 +5099,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(85663, {	-- Herbalist's Spade
 					-- Danny Donkey: For some Blizzard reason Herbalism Suppliers does not sell this equipment.
 					["collectible"] = false,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can only be bought from Trade suppliers.",
 						constant = "CAN_ONLY_BE_BOUGHT_FROM_TRADE_SUPPLIERS",
 						export = true,
@@ -5127,7 +5127,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(INSCRIPTION, {
 		-- Inks and reagents:
 		n(COMMON_VENDOR_ITEMS, sharedData({
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be bought from Inscription Suppliers, as well as some Trade vendors around the world.",
 				constant = "CAN_BE_BOUGHT_FROM_INSCRIPTION_SUPPLIERS_AS",
 				export = true,
@@ -5788,7 +5788,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	-- #if AFTER TBC
 	prof(JEWELCRAFTING, {
 		n(COMMON_VENDOR_ITEMS, sharedData({
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Can be bought from Jewelcrafting Suppliers, as well as some Trade vendors around the world.",
 				constant = "CAN_BE_BOUGHT_FROM_JEWELCRAFTING_SUPPLIERS_AS",
 				export = true,
@@ -6742,7 +6742,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				applyclassicphase(PHASE_FOUR, i(20380, {	-- Dreamscale Breastplate
 					-- #if AFTER 4.0.3
 					-- #if BEFORE 10.1.5
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "While this recipe is still available, the mats required to craft it are not.",
 						constant = "WHILE_THIS_RECIPE_IS_STILL_AVAILABLE_THE_MATS",
 						export = true,
@@ -7725,7 +7725,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- Misc:
 						i(12363, {	-- Arcane Crystal
 							-- #if AFTER TBC
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low. |CFFFF0000You cannot get it from prospecting.|r",
 								constant = "ARCANE_CRYSTAL_IS_MOST_RELIABLY_OBTAINABLE_FROM_2",
 								export = true,
@@ -7744,7 +7744,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 								},
 							}),
 							-- #else
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low.",
 								constant = "ARCANE_CRYSTAL_IS_MOST_RELIABLY_OBTAINABLE_FROM_3",
 								export = true,
@@ -7825,7 +7825,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- Note: The gems are linked to respective ores with provider for prospecting in JEWELCRAFTING > Prospecting.
 					sharedData({
 						-- #if AFTER TBC
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This gem is most reliably obtained from prospecting ores with Jewelcrafting. You can also obtain it from mining veins, although the droprate is low.",
 							constant = "THIS_GEM_IS_MOST_RELIABLY_OBTAINED_FROM",
 							export = true,
@@ -8192,7 +8192,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			filter(PROFESSION_EQUIPMENT, {
 				i(2901, {	-- Mining Pick
 					["collectible"] = false,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be bought from Mining Suppliers, as well as some Trade vendors around the world",
 						constant = "CAN_BE_BOUGHT_FROM_MINING_SUPPLIERS_AS_WELL_AS",
 						export = true,
@@ -8320,7 +8320,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	})),
 	prof(SKINNING, {
 		-- #if NOT ANYCLASSIC
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "The following items can be gathered by skinning creatures out in the world.\n\nNote that although Light-/Medium-/Heavy-/Thick-/Rugged Leather is most common to get from skinning, which one you get is depending on two factors:\n\n* Your skill level in Skinning\n\n*The historic level bracket of the creature.\n\nYou will never be able to obtain Heavy Leather from skinning in Dun Morogh, and if you get Light Leather from skinning in Uldaman your skill level is way too low.",
 			constant = "THE_FOLLOWING_ITEMS_CAN_BE_GATHERED_BY_SKINNING_2",
 			export = true,
@@ -8496,7 +8496,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					},
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be skinned from bears in previously highlevel vanilla zones like shardtooths in Winterspring.",
 						constant = "CAN_BE_SKINNED_FROM_BEARS_IN_PREVIOUSLY",
 						export = true,
@@ -8558,7 +8558,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(15415, {	-- Blue Dragonscale
 					-- #if AFTER WOD
 					["cr"] = 14020,	-- Chromaggus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blizzard being Blizzard, Blue Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
 						constant = "BLIZZARD_BEING_BLIZZARD_BLUE_DRAGONSCALE_IS",
 						export = true,
@@ -8584,7 +8584,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						10814,	-- Chromatic Elite Guard
 						10442,	-- Chromatic Whelp
 					},
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
 						constant = "CAN_BE_SKINNED_FROM_CREATURES_OF_THE_CHROMATIC",
 						export = true,
@@ -8618,7 +8618,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(15408, {	-- Heavy Scorpid Scale
 					-- #if AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be skinned from scorpids in Silithus.",
 						constant = "CAN_BE_SKINNED_FROM_SCORPIDS_IN_SILITHUS",
 						export = true,
@@ -8648,7 +8648,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(15414, {	-- Red Dragonscale
 					-- #if AFTER WOD
 					["cr"] = 14020,	-- Chromaggus
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Blizzard being Blizzard, Red Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
 						constant = "BLIZZARD_BEING_BLIZZARD_RED_DRAGONSCALE_IS_ONLY",
 						export = true,
@@ -8684,7 +8684,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(8154, {	-- Scorpid Scale
 					["maps_disp"] = { TANARIS },
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from scorpids in previously higher intermediate- to higher level vanilla zones like scorpids in Tanaris.",
 						constant = "DROPS_FROM_SCORPIDS_IN_PREVIOUSLY_HIGHER",
 						export = true,
@@ -8703,7 +8703,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					-- #elseif AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from scorpids in higher intermediate- to higher level vanilla zones like scorpids in Tanaris.",
 						constant = "DROPS_FROM_SCORPIDS_IN_HIGHER_INTERMEDIATE_TO",
 						export = true,
@@ -8727,7 +8727,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(8167, {	-- Turtle Scale
 					-- #if AFTER BFA
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be skinned from turtles in previously higher intermediate- to higher level vanilla zones like Tanaris and Thousand Needles.",
 						constant = "CAN_BE_SKINNED_FROM_TURTLES_IN_PREVIOUSLY",
 						export = true,
@@ -8746,7 +8746,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					-- #elseif AFTER 4.0.3
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be skinned from turtles in higher intermediate- to higher level vanilla zones like Tanaris and Thousand Needles.",
 						constant = "CAN_BE_SKINNED_FROM_TURTLES_IN_HIGHER",
 						export = true,
@@ -9106,7 +9106,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(10023),	-- Shadoweave Gloves
 			i(10025, {	-- Shadoweave Mask
 				-- #if AFTER 7.3.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Required for the |cff3399ffLucid Nightmare|r riddle mount.",
 					constant = "REQUIRED_FOR_THE_CFF3399FFLUCID_NIGHTMARE_R_2",
 					export = true,

@@ -29,7 +29,7 @@ end
 
 root(ROOTS.Housing, {
 	n(COMMON_VENDOR_ITEMS, {
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "It is advised to use the |cffffffffNPC Filler for the Mini List|r to allow these Items to fill properly under NPCs within your current Housing Neighborhood.",
 			constant = "IT_IS_ADVISED_TO_USE_THE_CFFFFFFFFNPC_FILLER",
 			export = true,

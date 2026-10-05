@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						["coord"] = { 41.5, 86.2, ZARALEK_CAVERN },
 						["groups"] = {
 							i(205114, {	-- Brul (PET!)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "After defeating Brullo, eat Rocks on the Rocks to transform then open the chest.",
 									constant = "AFTER_DEFEATING_BRULLO_EAT_ROCKS_ON_THE_ROCKS",
 									export = true,

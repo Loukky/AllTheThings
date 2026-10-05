@@ -42,7 +42,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				})),
 				n(ZONE_DROPS, {
 					i(167661, {	-- Energized Lightning Cod
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught near Danielle, though it's likely they can be caught anywhere along the coast of the island.",
 							constant = "CAN_BE_CAUGHT_NEAR_DANIELLE_THOUGH_IT_S_LIKELY",
 							export = true,
@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					i(167562),	-- Ionized Minnow
 					i(168262),	-- Sentry Fish
 					i(167662, {	-- Solarsprocket Barbel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught anywhere on the island.",
 							constant = "CAN_BE_CAUGHT_ANYWHERE_ON_THE_ISLAND",
 							export = true,
@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["description"] = "~L.CAN_BE_CAUGHT_ANYWHERE_ON_THE_ISLAND",
 					}),
 					i(167663, {	-- Tasty Steelfin
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught at the waterfall - 47.37.",
 							constant = "CAN_BE_CAUGHT_AT_THE_WATERFALL_47_37",
 							export = true,
@@ -108,7 +108,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 47.0, 37.0, MECHAGON },
 					}),
 					i(167654, {	-- Bottom Feeding Stinkfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught south of Rustbolt - 79.49",
 							constant = "CAN_BE_CAUGHT_SOUTH_OF_RUSTBOLT_79_49",
 							export = true,
@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 79.0, 49.0, MECHAGON },
 					}),
 					i(167656, {	-- Pond Hopping Springfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught at the pond near the waterfall - 56.32",
 							constant = "CAN_BE_CAUGHT_AT_THE_POND_NEAR_THE_WATERFALL_56",
 							export = true,
@@ -150,7 +150,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 56.0, 32.0, MECHAGON },
 					}),
 					i(167657, {	-- Shadowy Cave Eel
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught in the cave near the waterfall - 59.24",
 							constant = "CAN_BE_CAUGHT_IN_THE_CAVE_NEAR_THE_WATERFALL_59",
 							export = true,
@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 59.0, 24.0, MECHAGON },
 					}),
 					i(167660, {	-- Sludge-fouled Carp
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught in the oil pond in the middle - 66.52",
 							constant = "CAN_BE_CAUGHT_IN_THE_OIL_POND_IN_THE_MIDDLE_66",
 							export = true,
@@ -192,7 +192,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 66.0, 52.0, MECHAGON },
 					}),
 					i(167659, {	-- Spitting Clownfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught in the far southeast - 83.74",
 							constant = "CAN_BE_CAUGHT_IN_THE_FAR_SOUTHEAST_83_74",
 							export = true,
@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["coord"] = { 83.0, 74.0, MECHAGON },
 					}),
 					i(167658, {	-- Mechanical Blowfish
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be caught in the far southwest - 25.77",
 							constant = "CAN_BE_CAUGHT_IN_THE_FAR_SOUTHWEST_25_77",
 							export = true,

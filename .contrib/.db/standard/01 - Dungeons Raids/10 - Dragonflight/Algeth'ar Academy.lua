@@ -20,7 +20,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			n(TREASURES, {
 				o(384370, {	-- Deliberately Delinquent Notes
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This Recipe is found near Overgrown Ancient in far left corner of the arena on a table with some strange flasks.",
 						constant = "THIS_RECIPE_IS_FOUND_NEAR_OVERGROWN_ANCIENT_IN",
 						export = true,

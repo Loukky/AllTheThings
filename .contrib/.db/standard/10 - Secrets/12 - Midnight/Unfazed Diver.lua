@@ -7,7 +7,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.MID, {
 		["level"] = 90,
 		["groups"] = {
 			o(656056, {	-- Bill of Lading
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In Untethered Space on the floor to the left of the counter.",
 					constant = "IN_UNTETHERED_SPACE_ON_THE_FLOOR_TO_THE_LEFT_OF",
 					export = true,
@@ -41,7 +41,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.MID, {
 				["cr"] = 265891,	-- Hal'hadar Manatech
 			}),
 			o(658801, {	-- Specimen Container
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Currently only visible in Normal World Tier.",
 					constant = "CURRENTLY_ONLY_VISIBLE_IN_NORMAL_WORLD_TIER",
 					export = true,

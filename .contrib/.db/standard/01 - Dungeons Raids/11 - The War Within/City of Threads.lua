@@ -18,7 +18,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			n(VENDORS, {
 				n(227607, {	-- Fliq'ri <Mistress of Minions>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found by the right stairs near the second boss. You may need another player to be caught by the nearby guard to be able to buy from the vendor yourself.",
 						constant = "FOUND_BY_THE_RIGHT_STAIRS_NEAR_THE_SECOND_BOSS",
 						export = true,

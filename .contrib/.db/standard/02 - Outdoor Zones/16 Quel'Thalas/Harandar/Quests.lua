@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}, {
 				-- Ordered by the Unlock progression
 				q(96498, {	-- Grovewarden's Kris
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 10 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_10_MOTHS",
 						export = true,
@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(257155) },	-- Grovewarden's Kris (COSMETIC!)
 				}),
 				q(96499, {	-- Grovewarden's Dagger
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 20 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_20_MOTHS",
 						export = true,
@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263283) },	-- Grovewarden's Dagger (COSMETIC!)
 				}),
 				q(96500, {	-- Firm Haranir Pillow
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 30 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_30_MOTHS",
 						export = true,
@@ -84,7 +84,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(264243) },	-- Firm Haranir Pillow (DECOR!)
 				}),
 				q(96501, {	-- Grovewarden's Rapier
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 40 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_40_MOTHS",
 						export = true,
@@ -106,7 +106,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(257158) },	-- Grovewarden's Rapier (COSMETIC!)
 				}),
 				q(96502, {	-- Vivid Chloroceros
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 50 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_50_MOTHS",
 						export = true,
@@ -128,7 +128,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263580) },	-- Vivid Chloroceros (MOUNT!)
 				}),
 				q(96504, {	-- Warm Haranir Blanket
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 60 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_60_MOTHS",
 						export = true,
@@ -150,7 +150,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(264245) },	-- Warm Haranir Blanket (DECOR!)
 				}),
 				q(96505, {	-- Grovewarden's Buckler
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 70 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_70_MOTHS",
 						export = true,
@@ -172,7 +172,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(257159) },	-- Grovewarden's Buckler (COSMETIC!)
 				}),
 				q(96506, {	-- Grovewarden's Staff
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 80 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_80_MOTHS",
 						export = true,
@@ -194,7 +194,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263284) },	-- Grovewarden's Staff (COSMETIC!)
 				}),
 				q(96507, {	-- Haranir Reclined Bed
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 90 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_90_MOTHS",
 						export = true,
@@ -216,7 +216,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263038) },	-- Haranir Reclined Bed (DECOR!)
 				}),
 				q(96508, {	-- Grovewarden's Halberd
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 100 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_100_MOTHS",
 						export = true,
@@ -238,7 +238,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(257161) },	-- Grovewarden's Halberd (COSMETIC!)
 				}),
 				q(96509, {	-- Grovewarden's Greatsword
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 110 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_110_MOTHS",
 						export = true,
@@ -260,7 +260,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					["groups"] = { i(263285) },	-- Grovewarden's Greatsword (COSMETIC!)
 				}),
 				q(96510, {	-- Elder Glowmite
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Unlocks after you have captured 120 Moths.",
 						constant = "UNLOCKS_AFTER_YOU_HAVE_CAPTURED_120_MOTHS",
 						export = true,
@@ -353,7 +353,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(90859, {	-- Stay awhile and listen: Hagar
 						["name"] = "Stay awhile and listen: Hagar",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'Echoes and Memories' (86911).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_ECHOES_AND",
 							export = true,
@@ -496,7 +496,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(90884, {	-- Stay awhile and listen: Orweyna	// Exo 12.03.2026. I did not get this... Does not exist?
 						["name"] = "Stay awhile and listen: Orweyna",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'Seeds of the Rift' (86944).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_SEEDS_OF_THE",
 							export = true,
@@ -552,7 +552,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(94908, {	-- Stay awhile and listen: Orweyna
 						["name"] = "Stay awhile and listen: Orweyna",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'The Hunter Awaits' (86836).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_THE_HUNTER",
 							export = true,
@@ -682,7 +682,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(94991, {	-- Stay awhile and listen: Orweyna
 						["name"] = "Stay awhile and listen: Orweyna ",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'In Search of the Problem' (86865).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_IN_SEARCH_OF",
 							export = true,
@@ -714,7 +714,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					------ Stay awhile and listen ------
 					hqt(94951, {	-- Stay awhile and listen: Hannan
 						["name"] = "Stay awhile and listen: Hannan",
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Dialogue becomes available during 'Can we Heal This?' (86866).",
 							constant = "DIALOGUE_BECOMES_AVAILABLE_DURING_CAN_WE_HEAL",
 							export = true,
@@ -944,7 +944,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				header(HEADERS.AchCriteria, 61739.02, {	-- The Legend of Aln'sharan
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "It is recommended to do this Sojourner quest chain as soon as possible as it unlocks the |cFF4A54E8Mysterious Skyshards|r to drop from any creature in the zone.",
 						constant = "IT_IS_RECOMMENDED_TO_DO_THIS_SOJOURNER_QUEST",
 						export = true,

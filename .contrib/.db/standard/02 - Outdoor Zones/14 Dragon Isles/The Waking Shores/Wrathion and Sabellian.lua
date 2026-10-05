@@ -488,7 +488,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["isDaily"] = true,
 				}),
 				n(190985, {	-- Death's Shadow
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Restore 20 Obsidian Keys to Sabellian.",
 						constant = "RESTORE_20_OBSIDIAN_KEYS_TO_SABELLIAN",
 						export = true,
@@ -515,7 +515,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				n(187306, {	-- Morchok <Harbinger of Twilight>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Restore 10 Obsidian Keys to Igys the Believer.",
 						constant = "RESTORE_10_OBSIDIAN_KEYS_TO_IGYS_THE_BELIEVER",
 						export = true,
@@ -557,7 +557,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				n(189822, {	-- Shas'ith
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Restore 20 Obsidian Keys to Wrathion. Underground",
 						constant = "RESTORE_20_OBSIDIAN_KEYS_TO_WRATHION",
 						export = true,
@@ -620,7 +620,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							["cost"] = { { "i", 202173, 1000 } },	-- 1000x Magmote
 						}),
 						i(199215, {	-- Worldbreaker Membership
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can only be bought if you looted the Worldbreaker Membership once from the Twilight Cache before.",
 								constant = "CAN_ONLY_BE_BOUGHT_IF_YOU_LOOTED_THE",
 								export = true,
@@ -659,7 +659,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 								},
 							}),
 							iensemble(200952, {	-- Ensemble: Obsidian Dracthyr Battlegear Mail Armor
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "To see this select All in filter",
 									constant = "TO_SEE_THIS_SELECT_ALL_IN_FILTER",
 									export = true,
@@ -950,7 +950,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(ZONE_DROPS, {
 				i(193611, {	-- Ancient Horn Ring
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from mobs around the Obsidian Citadel.",
 						constant = "DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL",
 						export = true,
@@ -973,7 +973,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["description"] = "~L.DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL",
 				}),
 				i(201430, {	-- Burning Mallet
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from mobs around the Obsidian Citadel or Djaradin Caches.",
 						constant = "DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL_OR",
 						export = true,
@@ -1035,7 +1035,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["cr"] = 187813,	-- Qalashi Wallcrasher
 				}),
 				i(191251, {	-- Key Fragments
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from mobs around the Obsidian Citadel.\nYou must first pick a side (Wrathion or Sabellian) for the week in order for this item to drop.",
 						constant = "DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL_YOU",
 						export = true,
@@ -1064,7 +1064,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["description"] = "~L.DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL_OR",
 				}),
 				i(202173, {	-- Magmote
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from mobs around the Obsidian Citadel after obtaining The Worldbreaker title.",
 						constant = "DROPS_FROM_MOBS_AROUND_THE_OBSIDIAN_CITADEL_2",
 						export = true,
@@ -1117,7 +1117,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				i(191255, {	-- Greater Obsidian Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Leaving the area will delete this Item!",
 						constant = "LEAVING_THE_AREA_WILL_DELETE_THIS_ITEM",
 						export = true,
@@ -1141,7 +1141,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 				i(191264, {	-- Restored Obsidian Key
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "NOTE: Ensure you have the correct amount for the specific event you're looking to trigger, and hand them in all at once. Otherwise, sharding can cause your progress to disappear!",
 						constant = "NOTE_ENSURE_YOU_HAVE_THE_CORRECT_AMOUNT_FOR_THE",
 						export = true,

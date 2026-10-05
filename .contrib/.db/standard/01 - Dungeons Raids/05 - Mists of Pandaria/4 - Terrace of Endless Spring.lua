@@ -630,7 +630,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					["crs"] = { 62983 },	-- Lei Shi
 					["groups"] = {
 						ach(6824, {	-- Face Clutchers
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You get afflicted by a creature found in the water around the circular platform. Be aware that the affliction only lasts a short time, so be prepared to kill Lei Shi.",
 								constant = "YOU_GET_AFFLICTED_BY_A_CREATURE_FOUND_IN_THE",
 								export = true,
@@ -675,7 +675,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						},
 						["groups"] = {
 							n(QUALITY_ELITE, {
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "You must kill Protector Kaolan last!",
 									constant = "YOU_MUST_KILL_PROTECTOR_KAOLAN_LAST",
 									export = true,

@@ -22,7 +22,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 		["groups"] = {
 			applyclassicphase(WRATH_PHASE_TWO_HAMMERPRIO,
 			header(HEADERS.Item, 46017, {	-- Val'anyr, Hammer of Ancient Kings
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Collect 30 x |cFFFF8000Fragment of Val'anyr|r from the bosses of Ulduar. Hard modes have higher drop chances.",
 					constant = "COLLECT_30_X_CFFFF8000FRAGMENT_OF_VAL_ANYR_R",
 					export = true,
@@ -180,7 +180,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					},
 				}),
 				ach(12360, {	-- Lumberjacked
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must be killed before killing Freya or they will despawn.",
 						constant = "MUST_BE_KILLED_BEFORE_KILLING_FREYA_OR_THEY",
 						export = true,
@@ -701,7 +701,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 								crit(10781),	-- Defeat Algalon the Observer
 							}),
 							ach(3316, {	-- Herald of the Titans
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "While your current character may now be too high level to earn it, it's good for players to know it exist.",
 									constant = "WHILE_YOUR_CURRENT_CHARACTER_MAY_NOW_BE_TOO",
 									export = true,
@@ -755,7 +755,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 						["groups"] = {
 							revampAch(2945, {	-- But I'm On Your Side (10 player)
 								["provider"] = { "i", 43499 },	-- Iron Boot Flask
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Use the \"Iron Boot Flask\" toy before engaging the boss.",
 									constant = "USE_THE_IRON_BOOT_FLASK_TOY_BEFORE_ENGAGING_THE",
 									export = true,
@@ -1045,7 +1045,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 								crit(10326),	-- The Tortured Champion
 							}),
 							revampAch(3009, {	-- Kiss and Make Up (10 player)
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "During phase 2, when Sara is flying above Yogg-Saron, /kiss her while she's angry.",
 									constant = "DURING_PHASE_2_WHEN_SARA_IS_FLYING_ABOVE_YOGG",
 									export = true,
@@ -1348,7 +1348,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 						}),
 					}),
 					applyclassicphase(WRATH_PHASE_TWO_HAMMERPRIO, n(QUALITY_LEGENDARY, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Collect 30 x |cFFFF8000Fragment of Val'anyr|r from the bosses in 25-Man Ulduar. Hard modes have higher drop chances.",
 							constant = "COLLECT_30_X_CFFFF8000FRAGMENT_OF_VAL_ANYR_R_2",
 							export = true,
@@ -1515,7 +1515,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 						["groups"] = {
 							applyclassicphase(WRATH_PHASE_TWO_HAMMERPRIO, i(45038)),	-- Fragment of Val'anyr
 							i(45087, {	-- Runed Orb
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can also drop from defeating 10-Man Hard Mode bosses.",
 									constant = "CAN_ALSO_DROP_FROM_DEFEATING_10_MAN_HARD_MODE",
 									export = true,

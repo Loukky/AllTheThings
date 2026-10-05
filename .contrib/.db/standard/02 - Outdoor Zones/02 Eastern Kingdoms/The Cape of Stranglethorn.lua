@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}},
 				["groups"] = {
 					pet(411, {	-- Baby Ape (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found on Jaguero Isle in The Cape of Stranglethorn. They only spawn when it's raining on the island, and this area has its own unique weather pattern. Although it might be raining in Stranglethorn, it may not be raining on the Isle.",
 							constant = "CAN_BE_FOUND_ON_JAGUERO_ISLE_IN_THE_CAPE_OF",
 							export = true,
@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 					pet(401),	-- Strand Crab (PET!)
 					pet(410, {	-- Wharf Rat (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found reliably as secondary pets alongside Baby Apes, but also found in Booty Bay.",
 							constant = "CAN_BE_FOUND_RELIABLY_AS_SECONDARY_PETS",
 							export = true,
@@ -142,7 +142,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(65656, {	-- Bill Buckler <Master Pet Tamer>
 					["coord"] = { 51.4, 73.2, THE_CAPE_OF_STRANGLETHORN },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Alliance only.\n\nBill's pets are level 11 of the following consecutive pet classes:\n1. Humanonoid - use Undead (powerful) or Beast (tanky) pet.\n2. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n3. Flying - see above.",
 						constant = "THIS_PET_TAMER_IS_ALLIANCE_ONLY_BILL_S_PETS_ARE",
 						export = true,
@@ -577,7 +577,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26826, {	-- Dask "The Flask" Gobfizzle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only available if you DID NOT complete |cff4a54e8The Source of the Corruption|r and |cff4a54e8The Mosh'Ogg Bounty|r in Northern Stranglethorn.",
 						constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_DID_NOT",
 						export = true,
@@ -603,7 +603,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(26825, {	-- Dask "The Flask" Gobfizzle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only available if you DID complete |cff4a54e8The Source of the Corruption|r and |cff4a54e8The Mosh'Ogg Bounty|r in Northern Stranglethorn.",
 						constant = "THIS_QUEST_IS_ONLY_AVAILABLE_IF_YOU_DID",
 						export = true,
@@ -867,7 +867,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isDaily"] = true,
 					["groups"] = {
 						i(122677, {	-- Bag of Gold
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Contains 200g.",
 								constant = "CONTAINS_200G",
 								export = true,
@@ -1032,7 +1032,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n", 43255 },	-- Zanzil the Outcast
 							},
 							["coord"] = { 78.0, 43.8, NORTHERN_STRANGLETHORN },
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Attack Zanzil first to interupt the cast.",
 								constant = "ATTACK_ZANZIL_FIRST_TO_INTERUPT_THE_CAST",
 								export = true,
@@ -1793,7 +1793,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								objective(3, {	-- 0/1 Cow Head
 									["provider"] = { "i", 59147 },	-- Cow Head
 									["coord"] = { 43.2, 71.6, THE_CAPE_OF_STRANGLETHORN },
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "\"I've killed thousands of players. I've committed genocide on entire species. Yet this was the first time I've felt sad about killing anything in WoW. Good night, sweet queen.\"\n -rabiesarebad (WoWHead)",
 										constant = "I_VE_KILLED_THOUSANDS_OF_PLAYERS_I_VE_COMMITTED",
 										export = true,
@@ -2012,7 +2012,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n",  43511 },	-- Deck Stain
 								{ "o", 204422 },	-- Swabbie's Mop
 							},
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You can pay \"Pretty Boy\" Duncan (just outside the door from the lower decks) 1g to swab the decks for you if you don't want to do the minigame.",
 								constant = "YOU_CAN_PAY_PRETTY_BOY_DUNCAN_JUST_OUTSIDE_THE",
 								export = true,
@@ -2149,7 +2149,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26609, {	-- The Bloodsail Buccaneers
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You need to complete at least one of [Kill-Collect], [Mok'rash the Cleaver], or [Mukla's Demise] to pick up this quest.",
 						constant = "YOU_NEED_TO_COMPLETE_AT_LEAST_ONE_OF_KILL",
 						export = true,
@@ -2206,7 +2206,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 35,
 				}),
 				q(26696, {	-- The Call of Kalimdor (H)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Swims in a circle near the dock.",
 						constant = "SWIMS_IN_A_CIRCLE_NEAR_THE_DOCK",
 						export = true,
@@ -2370,7 +2370,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26590, {	-- The Holy Water of Clarity
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is given to players that have completed '|cffe50d12Mok'thardin's Enchantment|r' quest chain prior to the Cataclysm.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_GIVEN_TO_PLAYERS_5",
 						export = true,
@@ -2483,7 +2483,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26811, {	-- Through the Troll Hole (A)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, talk to |cFFFFD700Maywiki|r at |cFFFFD700Explorers' League Digsite|r.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_TALK_TO",
 						export = true,
@@ -2512,7 +2512,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(26552, {	-- Through the Troll Hole (H)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you abandon this quest, talk to |cFFFFD700Chabal|r in |cFFFFD700Hardwrench Hideaway|r.",
 						constant = "IF_YOU_ABANDON_THIS_QUEST_TALK_TO_2",
 						export = true,
@@ -2857,7 +2857,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(1552, {	-- Scale Belly
 					["coord"] = { 67.8, 25.4, THE_CAPE_OF_STRANGLETHORN },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Found inside Crystalvein Mine.",
 						constant = "FOUND_INSIDE_CRYSTALVEIN_MINE",
 						export = true,
@@ -2890,7 +2890,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(TREASURES, {
 				pvp(o(179697, {	-- Arena Treasure Chest
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "WARNING: FREE-FOR-ALL PVP EVENT\n\nChest is dropped in arena every 3 hours, starting at midnight.\n\n00:00/12PM, 03:00/3AM, 06:00/6AM, 09:00/9AM,\n12:00/12AM, 15:00/3PM, 18:00/6PM, 21:00/9PM",
 						constant = "WARNING_FREE_FOR_ALL_PVP_EVENT_CHEST_IS_DROPPED",
 						export = true,
@@ -3004,7 +3004,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(44179, {	-- Harry No-Hooks <Birds and Rum>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "If you don't have the required reputation with Bloodsail Buccaneers, these pets are also sold in Booty Bay by Narkk.",
 						constant = "IF_YOU_DON_T_HAVE_THE_REQUIRED_REPUTATION_WITH",
 						export = true,
@@ -3239,7 +3239,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(105637, {	-- Scowling Rosa <Texts and Specialty Goods>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "These are completely useless as far as we know. I bought one of each and they're sitting in my bank just in case Blizzard ever removes the vendor.\n - Crieve",
 						constant = "THESE_ARE_COMPLETELY_USELESS_AS_FAR_AS_WE_KNOW",
 						export = true,

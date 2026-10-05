@@ -535,7 +535,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				}),
 				---
 				q(82219, {	-- Spice Up Your Life
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available after daily reset.",
 						constant = "BECOMES_AVAILABLE_AFTER_DAILY_RESET",
 						export = true,
@@ -700,7 +700,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			header(HEADERS.AchCriteria, 40844.06, {	-- Crushing Depths
 				q(81797, {	-- Targeted Recon
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Look for Arathi Captives in the area. They are an illusion. You can find Kobyss Shadeshapers right behind them.",
 						constant = "LOOK_FOR_ARATHI_CAPTIVES_IN_THE_AREA_THEY_ARE",
 						export = true,
@@ -1056,7 +1056,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				q(83279, {	-- Prove One's Mettle
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only obtainable as either a Death Knight, Demon Hunter, Shadow Priest, or Warlock or as an Undead or Void Elf.",
 						constant = "THIS_QUEST_IS_ONLY_OBTAINABLE_AS_EITHER_A_DEATH",
 						export = true,
@@ -1119,7 +1119,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				q(82810, {	-- Time Found
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Becomes available a week after 'Time Lost' was finished.",
 						constant = "BECOMES_AVAILABLE_A_WEEK_AFTER_TIME_LOST_WAS",
 						export = true,
@@ -1156,7 +1156,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					},
 				}),
 				q(82813, {	-- Time Borrowed
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Become available a week after 'Time Found' was finished.",
 						constant = "BECOME_AVAILABLE_A_WEEK_AFTER_TIME_FOUND_WAS",
 						export = true,
@@ -1273,7 +1273,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			}),
 			hqt(82025, {	-- Talk with Sky-Captain Aerthin
 				["name"] = "Talk with Sky-Captain Aerthin",
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This npc is on a patrolling airship.",
 					constant = "THIS_NPC_IS_ON_A_PATROLLING_AIRSHIP",
 					export = true,

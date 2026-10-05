@@ -888,7 +888,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			q(74495, {	-- The Tale of Hraxian
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available on next day after Dragonscale Camp quest chain finished.",
 					constant = "AVAILABLE_ON_NEXT_DAY_AFTER_DRAGONSCALE_CAMP",
 					export = true,

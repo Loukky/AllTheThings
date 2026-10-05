@@ -181,7 +181,7 @@ root(ROOTS.PVP, pvp(n(RATED, {
 		n(REWARDS, {
 			filter(RECIPES, bubbleDown({ ["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 }, }, {
 				-- #if BEFORE 8.0.1
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This has a chance to drop from any rated battleground win during Legion.",
 					constant = "THIS_HAS_A_CHANCE_TO_DROP_FROM_ANY_RATED",
 					export = true,
@@ -218,7 +218,7 @@ root(ROOTS.PVP, pvp(n(RATED, {
 			}),
 			i(103533, {	-- Vicious Saddle
 				-- #if BEFORE 10.0.2
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered as Season Reward Cap after you received your Seasonal Mount, up to 10 times per Season.\nAny win above 1000 rating will reward:\n10 points in 2v2 (0.42%)\n30 points in 3v3 (1.25%)\n60 points in RBG (2.5%)",
 					constant = "OFFERED_AS_SEASON_REWARD_CAP_AFTER_YOU_RECEIVED",
 					export = true,
@@ -237,7 +237,7 @@ root(ROOTS.PVP, pvp(n(RATED, {
 					},
 				}),
 				-- #elseif AFTER 11.0.0
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered as Season Reward Cap after you received your Seasonal Mount, up to 10 times per Season.\nAny win (3 round wins or more for Solo Shuffle) above 1000 rating will reward:\n10 points in 2v2 (0.42%)\n30 points in 3v3 (1.25%)\n50 points in Solo Shuffle (2.08%)\n50 points in BGBlitz (2.08%)\n60 points in RBG (2.5%)",
 					constant = "OFFERED_AS_SEASON_REWARD_CAP_AFTER_YOU_RECEIVED_2",
 					export = true,
@@ -256,7 +256,7 @@ root(ROOTS.PVP, pvp(n(RATED, {
 					},
 				}),
 				-- #else
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offered as Season Reward Cap after you received your Seasonal Mount, up to 10 times per Season.\nAny win (3 round wins or more for Solo Shuffle) above 1000 rating will reward:\n10 points in 2v2 (0.42%)\n30 points in 3v3 (1.25%)\n50 points in Solo Shuffle (2.08%)\n60 points in RBG (2.5%)",
 					constant = "OFFERED_AS_SEASON_REWARD_CAP_AFTER_YOU_RECEIVED_3",
 					export = true,

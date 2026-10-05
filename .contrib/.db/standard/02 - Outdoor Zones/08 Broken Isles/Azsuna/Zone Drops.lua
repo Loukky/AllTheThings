@@ -17,7 +17,7 @@ root(ROOTS.Zones, {
 					},
 				}),
 				i(137924, {	-- Pattern: Gravenscale Armbands [Rank 3] (RECIPE!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Drops from any giant in Azsuna.",
 						constant = "DROPS_FROM_ANY_GIANT_IN_AZSUNA",
 						export = true,

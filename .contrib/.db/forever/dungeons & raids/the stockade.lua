@@ -112,7 +112,7 @@ root(ROOTS.Instances, {
 				}),
 			}),
 			n(1720, {	-- Bruegal Ironknuckle
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is a rare that was not always present.",
 					constant = "THIS_IS_A_RARE_THAT_WAS_NOT_ALWAYS_PRESENT",
 					export = true,

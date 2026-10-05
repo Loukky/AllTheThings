@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66412, {	-- Elena Flutterfly <Master Pet Tamer>
 					["coord"] = { 46.0, 60.6, MOONGLADE },
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nElena's pets are level 17 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.",
 						constant = "THIS_PET_TAMER_IS_HORDE_ONLY_THOUGH_ALLIANCE_4",
 						export = true,
@@ -358,7 +358,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 				}),
 				q(47430, {	-- Moonkin Monitoring (HOLIDAY/WORLD EVENT: Moonkin Festival)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is only available during the Moonkin Festival event, on 12 November each year. The title granted by completing this quest is temporary.",
 						constant = "THIS_QUEST_IS_ONLY_AVAILABLE_DURING_THE_MOONKIN",
 						export = true,
@@ -707,7 +707,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(PROFESSIONS, {
 				applyclassicphase(SOD_PHASE_THREE, n(222188, {	-- Shadowy Figure
 					["sourceQuest"] = 81986,	-- Waking the Nightmare
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "She will only offer to teach you the recipes after you have collected an Inert Mantle of Nightmares once already by completing the Waking the Nightmare quest from ST.",
 						constant = "SHE_WILL_ONLY_OFFER_TO_TEACH_YOU_THE_RECIPES",
 						export = true,

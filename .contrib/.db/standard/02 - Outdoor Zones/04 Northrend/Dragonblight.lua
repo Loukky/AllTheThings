@@ -100,7 +100,7 @@ root(ROOTS.Zones, {
 					}},
 					["groups"] = {
 						pet(537, {	-- Dragonbone Hatchling (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Found around The Dragon Wastes.",
 								constant = "FOUND_AROUND_THE_DRAGON_WASTES",
 								export = true,
@@ -239,7 +239,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66638, {	-- Okrut Dragonwaste <Master Pet Tamer>
 						["coord"] = { 59.0, 77.0, DRAGONBLIGHT },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Okrut's pets are level 25 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anubisath Idol (Crush/Deflection) and Alpine Hare (Flurry/Dodge/Burrow).",
 							constant = "OKRUT_S_PETS_ARE_LEVEL_25_OF_THE_FOLLOWING",
 							export = true,
@@ -336,7 +336,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12055, {	-- A Strange Device (A)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700Prevent the Accord|r.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700PREVENT",
 							export = true,
@@ -1157,7 +1157,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(11958, {	-- Let Nothing Go To Waste
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The breadcrumb quests have collectible rewards. Make sure to do one of them before picking up this quest!",
 							constant = "THE_BREADCRUMB_QUESTS_HAVE_COLLECTIBLE_REWARDS",
 							export = true,
@@ -2344,7 +2344,7 @@ root(ROOTS.Zones, {
 						["crs"] = { 27680 },	-- Dahlia Suntouch
 					}),
 					q(12168, {	-- The Favor of Zangus
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700Kill the Cultists|r for the item to drop.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700KILL_THE",
 							export = true,
@@ -2620,7 +2620,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(12271, {	-- The Rod of Compulsion
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Must be on or have completed |cFFFFD700Torture the Torturer|r.",
 							constant = "MUST_BE_ON_OR_HAVE_COMPLETED_CFFFFD700TORTURE",
 							export = true,
@@ -3186,7 +3186,7 @@ root(ROOTS.Zones, {
 						["crs"] = { 27333 },	-- Onslaught Mason
 					}),
 					i(120137, {	-- Tome of Polymorph: Polar Bear Cub (CI!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Expect to kill hundreds of Actic Grizzly bears before seeing this tome drop.",
 							constant = "EXPECT_TO_KILL_HUNDREDS_OF_ACTIC_GRIZZLY_BEARS",
 							export = true,
@@ -3208,7 +3208,7 @@ root(ROOTS.Zones, {
 						["crs"] = { 26482 },	-- Arctic Grizzly
 					}),
 					i(38262, {	-- Well-Worn Bat
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only drops from Foreman Kaleiki, who spawns during the Horde quest 'A Means to an End'. The questline starts at Venomspite, and Foreman Kaleiki can be spawned as many times as needed.",
 							constant = "ONLY_DROPS_FROM_FOREMAN_KALEIKI_WHO_SPAWNS",
 							export = true,

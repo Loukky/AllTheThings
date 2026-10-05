@@ -464,7 +464,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(77838, {	-- Tattered Dreamleaf
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Appears that ANY class can be given this quest by another player with the Tattered Dreamleaf.",
 							constant = "APPEARS_THAT_ANY_CLASS_CAN_BE_GIVEN_THIS_QUEST",
 							export = true,
@@ -852,7 +852,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 				ach(19388),	-- Heroic: Amirdrassil, the Dream's Hope Guild Run
 			}),
 			o(382621, {	-- Revival Catalyst Console
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The Revival Catalyst is a system that lets you convert Emerald Dream's Zone Weekly Event Items (Superbloom, Dreamseeds, A Worthy Ally: Dream) & LFR Mode Non-set items from the Amirdrassil Raid into your class' LFR Transmog Set.\n\nThe catalyst is in Tyrhold in Thaldraszus, Dragon Isles.\n\nMake sure to equip your item first before converting it.",
 					constant = "THE_REVIVAL_CATALYST_IS_A_SYSTEM_THAT_LETS_YOU_3",
 					export = true,
@@ -1360,7 +1360,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 			}),
 			n(SPECIAL, {
 				i(210783, {	-- Awakening Sunfish
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fish in the lava pools of the Pit of Volcoross.",
 						constant = "FISH_IN_THE_LAVA_POOLS_OF_THE_PIT_OF_VOLCOROSS",
 						export = true,
@@ -1380,7 +1380,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 					}),
 				}),
 				i(210782, {	-- Slumbering Moonfish
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Fish in the waters of the Wellspring Atrium.",
 						constant = "FISH_IN_THE_WATERS_OF_THE_WELLSPRING_ATRIUM",
 						export = true,
@@ -1400,7 +1400,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 					}),
 				}),
 				i(210784, {	-- Xena, the Whimsical Whiskerfish
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "First get the Attuned Angler Buff by returing 10 Awakening Sunfish and 10 Slumbering Moonfish. Go back into the raid and fish in the biggest pool of water within the Wellspring Atrium.",
 						constant = "FIRST_GET_THE_ATTUNED_ANGLER_BUFF_BY_RETURING",
 						export = true,
@@ -1558,7 +1558,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						},
 					}),
 					q(78473, {	-- The Power of Dreams, Lost
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest allows a player to recover their Incandescent Essence if it was deleted.",
 							constant = "THIS_QUEST_ALLOWS_A_PLAYER_TO_RECOVER_THEIR",
 							export = true,

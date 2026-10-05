@@ -277,7 +277,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(createHeader({
 				{ "i", 22166 },	-- Gift of Adoration: Undercity
 				{ "i", 22157 },	-- Pledge of Adoration: Undercity
 			},
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "These items are contained within the Gifts and Pledges of Adoration.",
 				constant = "THESE_ITEMS_ARE_CONTAINED_WITHIN_THE_GIFTS_AND",
 				export = true,
@@ -335,7 +335,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(createHeader({
 			},
 		}),
 		n(ZONE_DROPS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Apply a perfume or cologne buff to your character and speak to a guard in a major city to receive one of these items. Items exclusively found within each container will be listed within.",
 				constant = "APPLY_A_PERFUME_OR_COLOGNE_BUFF_TO_YOUR",
 				export = true,

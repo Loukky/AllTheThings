@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164238, {	-- Deifir the Untamed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The rare runs laps through the water. You can hop on its back slow it and periodically stun it.",
 					constant = "THE_RARE_RUNS_LAPS_THROUGH_THE_WATER_YOU_CAN",
 					export = true,
@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(167851, {	-- Egg-Tender Leh'go
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the back of the cave. Destroy |cFFFFFFFFQuivering Gorm Eggs|r and defeat the Angry Egg-Tenders until the rare spawns.",
 					constant = "AT_THE_BACK_OF_THE_CAVE_DESTROY",
 					export = true,
@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(171688, {	-- Faeflayer
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In a cave behind a waterfall.",
 					constant = "IN_A_CAVE_BEHIND_A_WATERFALL",
 					export = true,
@@ -98,7 +98,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(163370, {	-- Gormbore
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill mobs on top of the dust cloud. Eventually, Watcher Ver'lo will yell a warning about something moving underground, at which point you've almost killed enough to force the rare to spawn.",
 					constant = "KILL_MOBS_ON_TOP_OF_THE_DUST_CLOUD_EVENTUALLY",
 					export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164107, {	-- Gormtamer Tizo
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill Deranged Guardians and Bristlecone Terrors until Chompy spawns. Gormtamer Tizo will spawn after Chompy is killed.",
 					constant = "KILL_DERANGED_GUARDIANS_AND_BRISTLECONE_TERRORS",
 					export = true,
@@ -149,7 +149,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164547, {	-- Mystic Rainbowhorn
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The horn can randomly spawn at one of many locations in Ardenweald. When the horn is used, the Mystic Rainbowhorn will spawn at |cFFFFFFFF65.7, 28.1|r.",
 					constant = "THE_HORN_CAN_RANDOMLY_SPAWN_AT_ONE_OF_MANY",
 					export = true,
@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164093, {	-- Macabre
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Shows up as 'Mysterious Mushroom Ring' on the minimap. Requires 3 players.\n\nAll 3 must stand in the Ring of Dance. Player 1 /dances with Player 2, Player 2 /dances with Player 3, and Player 3 /dances with Player 1.",
 					constant = "SHOWS_UP_AS_MYSTERIOUS_MUSHROOM_RING_ON_THE",
 					export = true,
@@ -233,7 +233,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(165053, {	-- Mymaen
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Shared spawn with Rotbriar Scrappers.",
 					constant = "SHARED_SPAWN_WITH_ROTBRIAR_SCRAPPERS",
 					export = true,
@@ -258,7 +258,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164391, {	-- Old Ardeite
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use either a |cff16bf0dPinch of Faerie Dust|r (dropped by the mobs in the area) or the buff from |cFFFFFFFFBasket of Enchanted Wings|r to fly up to the rare. When you get close enough, it will fly down and be attackable.",
 					constant = "USE_EITHER_A_CFF16BF0DPINCH_OF_FAERIE_DUST_R",
 					export = true,
@@ -283,7 +283,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(167726, {	-- Rootwrithe
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Poke the Dormant Blossoms repeatedly to summon the rare.",
 					constant = "POKE_THE_DORMANT_BLOSSOMS_REPEATEDLY_TO_SUMMON",
 					export = true,
@@ -321,7 +321,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164415, {	-- Skuld Vit
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use soulshape to cross the barrier.",
 					constant = "USE_SOULSHAPE_TO_CROSS_THE_BARRIER",
 					export = true,
@@ -354,7 +354,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(167721, {	-- The Slumbering Emperor
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You can use various toys (Darkmoon Cannon, Phial of Ravenous Slime), pet abilities, and AoE abilities to pull this rare. If you need help not falling asleep, pulling a nearby Greater Ardenmoth can apply a poison that will give you a few more seconds by waking you up with each tick.",
 					constant = "YOU_CAN_USE_VARIOUS_TOYS_DARKMOON_CANNON_PHIAL",
 					export = true,
@@ -380,7 +380,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			n(164147, {	-- Wrigglemortis
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Pull on the Wriggling Tendril to spawn the rare.",
 					constant = "PULL_ON_THE_WRIGGLING_TENDRIL_TO_SPAWN_THE_RARE",
 					export = true,

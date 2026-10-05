@@ -27,7 +27,7 @@ root(ROOTS.Zones, {
 				}),
 				battlepets({
 					pet(716, {	-- Amethyst Spiderling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can be found in the forests as well as secondary pets.",
 							constant = "CAN_BE_FOUND_IN_THE_FORESTS_AS_WELL_AS",
 							export = true,
@@ -50,7 +50,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 18.4, 46.2, KRASARANG_WILDS },	-- The Forbidden Jungle, south
 					}),
 					pet(678, {	-- Jungle Grub (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Very common through the zone.",
 							constant = "VERY_COMMON_THROUGH_THE_ZONE",
 							export = true,
@@ -74,7 +74,7 @@ root(ROOTS.Zones, {
 					}),
 					pet(708),	-- Malayan Quillrat (PET!)
 					pet(722, {	-- Mei Li Sparkler (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can spawn around Temple of the Red Crane, and uncommonly through the forests. Otherwise common as secondary pet.",
 							constant = "CAN_SPAWN_AROUND_TEMPLE_OF_THE_RED_CRANE_AND",
 							export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, {
 						["description"] = "~L.CAN_BE_FOUND_IN_THE_FORESTS_AS_WELL_AS",
 					}),
 					pet(723, {	-- Spiny Terrapin (PET!)
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Can be found by bodies of water.",
 								constant = "CAN_BE_FOUND_BY_BODIES_OF_WATER",
 								export = true,
@@ -288,7 +288,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30674, {	-- Balance Without Violence
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Automatically given you while moving through Nayeli Lagoon.",
 							constant = "AUTOMATICALLY_GIVEN_YOU_WHILE_MOVING_THROUGH",
 							export = true,
@@ -452,7 +452,7 @@ root(ROOTS.Zones, {
 						-- does this have different SQs than the previous version?
 					}),
 					q(30132, {	-- Going West
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This version is available if you have not completed the Temple of the Red Crane questline.",
 							constant = "THIS_VERSION_IS_AVAILABLE_IF_YOU_HAVE_NOT",
 							export = true,
@@ -511,7 +511,7 @@ root(ROOTS.Zones, {
 					})),
 					q(30376, {	-- Hope Springs Eternal
 						-- #if AFTER TWW
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest is reportedly bugged and is not always offered. However, turning in either version of 'Warn Stoneplow' also completes this quest.",
 							constant = "THIS_QUEST_IS_REPORTEDLY_BUGGED_AND_IS_NOT",
 							export = true,
@@ -1244,7 +1244,7 @@ root(ROOTS.Zones, {
 					}),
 					n(66936, {	-- Clawlord Kril'mandar <The Pinch King>
 						["provider"] = { "i", 90172 },	-- Clamshell Band
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Summoned with Clamshell Band, which is created by items dropping from makrura along the coast of Pandaria. Akkalou and Akkalar can be found in The Jade Forest, Damlak in Krasarang Wilds, Kishak in Kun-Lai Summit, Odd'nirok in Townlong Steppes and Clamstok in the Dread Wastes.",
 							constant = "SUMMONED_WITH_CLAMSHELL_BAND_WHICH_IS_CREATED",
 							export = true,
@@ -1273,7 +1273,7 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = {
 							i(90087, {	-- Lobstmourne
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Everyone in the group that tags Clawlord will receive their own copy of this item. Bring friends to spread the fun.",
 									constant = "EVERYONE_IN_THE_GROUP_THAT_TAGS_CLAWLORD_WILL",
 									export = true,
@@ -1379,7 +1379,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 42.3, 91.9, KRASARANG_WILDS },
 						["icon"] = 644388,
 						["questID"] = 31410,
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "On the bottom level of the ship. You will have to go down two sets of stairs.\nThis chest may follow the personal loot rule and be based on your current spec, NOT your Loot Spec.",
 							constant = "ON_THE_BOTTOM_LEVEL_OF_THE_SHIP_YOU_WILL_HAVE",
 							export = true,
@@ -1399,7 +1399,7 @@ root(ROOTS.Zones, {
 						}),
 						["groups"] = {
 							i(86122, {	-- Plankwalking Greaves
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Strength DPS Spec to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_STRENGTH_DPS_SPEC_TO",
 									export = true,
@@ -1419,7 +1419,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86115, {	-- Swashbuckling Boots
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Leather Agility Spec (Rogue/Feral/Guardian/Brewmaster/Windwalker) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_LEATHER_AGILITY_SPEC",
 									export = true,
@@ -1439,7 +1439,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86117, {	-- Seafarer's Treads of Precision
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Cloth DPS Spec (Mage/Warlock) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_CLOTH_DPS_SPEC_MAGE",
 									export = true,
@@ -1459,7 +1459,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86116, {	-- Agile Seafarer's Jackboots
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Mail Agility Spec (Hunter/Enhancement) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_MAIL_AGILITY_SPEC_HUNTER",
 									export = true,
@@ -1479,7 +1479,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86123, {	-- Seafarer's Sturdy Boots
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Strength Tank Spec to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_STRENGTH_TANK_SPEC_TO",
 									export = true,
@@ -1499,7 +1499,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86118, {	-- Seafaring Advisor's Slippers
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be a Priest (ingame class) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_A_PRIEST_INGAME_CLASS_TO",
 									export = true,
@@ -1519,7 +1519,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86119, {	-- Seafarer's Boots of Meditation
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Leather Intellect Spec (Mistweaver/Balance/Restoration) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_LEATHER_INTELLECT_SPEC",
 									export = true,
@@ -1539,7 +1539,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86120, {	-- Seafaring Sabatons of Meditation
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be in a Mail Intellect Spec (Elemental/Restoration) to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_IN_A_MAIL_INTELLECT_SPEC",
 									export = true,
@@ -1559,7 +1559,7 @@ root(ROOTS.Zones, {
 								}),
 							}),
 							i(86121, {	-- Radiant Seafarer's Boots
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Recommended to be a Paladin in Holy Spec to guarantee this item.",
 									constant = "RECOMMENDED_TO_BE_A_PALADIN_IN_HOLY_SPEC_TO",
 									export = true,
@@ -1602,7 +1602,7 @@ root(ROOTS.Zones, {
 							{ 71.0, 9.0, KRASARANG_WILDS },
 							{ 75.1, 55.1, VALLEY_OF_THE_FOUR_WINDS },
 						},
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Located at the back of the cave, to the right of the junk pile.",
 							constant = "LOCATED_AT_THE_BACK_OF_THE_CAVE_TO_THE_RIGHT_OF",
 							export = true,

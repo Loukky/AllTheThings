@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 		n(TREASURES, {
 			i(205260),	-- Fleeting Glowspores
 			o(386104, {	-- Ancient Zaqali Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with Bottled Magma at 36.5 48.2",
 					constant = "INTERACT_WITH_BOTTLED_MAGMA_AT_36_5_48_2",
 					export = true,
@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 61.2, 71.8, ZARALEK_CAVERN },
 			}),
 			o(385565, {	-- Blazing Shadowflame Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You'll need to equip an Onyxia Scale Cloak in order to open this chest.",
 					constant = "YOU_LL_NEED_TO_EQUIP_AN_ONYXIA_SCALE_CLOAK_IN",
 					export = true,
@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["questID"] = 73706,
 			}),
 			o(392591, {	-- Chest of the Flights
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Need to click in order Red - Black - Blue - Yellow - Green to open chest.",
 					constant = "NEED_TO_CLICK_IN_ORDER_RED_BLACK_BLUE_YELLOW",
 					export = true,
@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["isDaily"] = true,
 			}),
 			o(388896, {	-- Crystal-encased Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with the purple and yellow crystals to unlock the chest.",
 					constant = "INTERACT_WITH_THE_PURPLE_AND_YELLOW_CRYSTALS_TO",
 					export = true,
@@ -117,7 +117,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 43.3, 23.7, ZARALEK_CAVERN },
 			}),
 			o(401839, {	-- Dreamer's Bounty
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Attack a nearby Preying Dustmoth and wait until it casts Drowsy Dust - don't interrupt! Once you have the debuff, kill the moth and open the chest.",
 					constant = "ATTACK_A_NEARBY_PREYING_DUSTMOTH_AND_WAIT_UNTIL",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			o(398810, {	-- Fealty's Reward
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "/kneel near dragon statue (should start fire breath animation) to unlock this chest.",
 					constant = "KNEEL_NEAR_DRAGON_STATUE_SHOULD_START_FIRE",
 					export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["questID"] = 75019,
 			}),
 			o(398814, {	-- Molten Hoard
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Under the whole structure and behind the metal gate. You can get there from wall hopping on the right side or other movement abilities.",
 					constant = "UNDER_THE_WHOLE_STRUCTURE_AND_BEHIND_THE_METAL",
 					export = true,
@@ -198,7 +198,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			o(396339, {	-- Moth-Pilfered Pouch
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Go to his position, he will fly up a bit, go under his shadow on earth and 'help' him until he get 5 stacks of buff. After that - he will fly around a bit and reveal pouch.",
 					constant = "GO_TO_HIS_POSITION_HE_WILL_FLY_UP_A_BIT_GO",
 					export = true,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			o(401828, {	-- Nal ks'kol Reliquary
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Use the console nearby and solve the puzzle to unlock.",
 					constant = "USE_THE_CONSOLE_NEARBY_AND_SOLVE_THE_PUZZLE_TO",
 					export = true,
@@ -247,7 +247,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["questID"] = 75745,
 			}),
 			o(388911, {	-- Old Trunk
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Must catch the Thieving Rock Mouse 5 times for the key to open the chest",
 					constant = "MUST_CATCH_THE_THIEVING_ROCK_MOUSE_5_TIMES_FOR",
 					export = true,
@@ -311,7 +311,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["coord"] = { 47.4, 48.6, ZARALEK_CAVERN },
 			}),
 			o(386086, {	-- Seething Cache
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "You'll need to pick up 3x stacks of a Insidious Insight debuff from Seething Orbs located in the Zaqali Caldera (Plot coords in Debug).\n\nWarning: While you may click each Seething Orb with multiple players, when the first player clicks the Seething Cache, the debuff will be removed from all nearby players and the cache itself will be gone!",
 					constant = "YOU_LL_NEED_TO_PICK_UP_3X_STACKS_OF_A_INSIDIOUS",
 					export = true,
@@ -369,7 +369,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			o(386079, {	-- Well-Chewed Chest
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Loot the key under the massive corebeasts's head, then use it to open the chest",
 					constant = "LOOT_THE_KEY_UNDER_THE_MASSIVE_COREBEASTS_S",
 					export = true,
@@ -510,7 +510,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 			o(401844, {	-- Smelly Trash Pile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "These spawn basically everywhere in the zone, 120+ coords not listed :)",
 					constant = "THESE_SPAWN_BASICALLY_EVERYWHERE_IN_THE_ZONE",
 					export = true,

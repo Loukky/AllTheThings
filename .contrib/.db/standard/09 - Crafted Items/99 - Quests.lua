@@ -33,7 +33,7 @@ root(ROOTS.Craftables, {
 							i(103670),	-- Lil' Bling (PET!)
 							i(90561, {	-- Eternium Rose
 								-- #if AFTER 6.2.0
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Can be turned in in Booty Bay for a bag of gold!",
 									constant = "CAN_BE_TURNED_IN_IN_BOOTY_BAY_FOR_A_BAG_OF_GOLD",
 									export = true,

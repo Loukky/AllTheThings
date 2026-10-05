@@ -123,7 +123,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								q(62453, {	-- Into the Unknown (4)
 									["groups"] = {
 										i(183961, {	-- Gorm "Juice" (QI!)
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "Speak to Mixy Mak to mix a drink using this for you to relax.",
 												constant = "SPEAK_TO_MIXY_MAK_TO_MIX_A_DRINK_USING_THIS_FOR",
 												export = true,

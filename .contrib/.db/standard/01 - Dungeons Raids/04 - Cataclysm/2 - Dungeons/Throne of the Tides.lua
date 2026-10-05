@@ -10,7 +10,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 		["groups"] = {
 			n(QUESTS, sharedData({
 				-- #if AFTER 6.0.3
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Be careful not to oneshot the boss, otherwise you might not be able to turn in the quest.",
 					constant = "BE_CAREFUL_NOT_TO_ONESHOT_THE_BOSS_OTHERWISE",
 					export = true,

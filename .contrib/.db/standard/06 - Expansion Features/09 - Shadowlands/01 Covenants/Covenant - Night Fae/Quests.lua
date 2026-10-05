@@ -187,7 +187,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["isWeekly"] = true,
 			}),
 			q(62860, {	-- Return Lost Souls (20 soul version)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires Renown 32. Depending on the level of your Queen's Conservatory this will reward higher quality spirits. Rank 5 will grant you an Epic Spirit.",
 					constant = "REQUIRES_RENOWN_32_DEPENDING_ON_THE_LEVEL_OF",
 					export = true,
@@ -298,7 +298,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["coord"] = { 42.4, 45.2, ARDENWEALD },
 			}),
 			q(63006, {	-- For Queen and Grove! [Covenant Intro Skip]
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available when skipping Night Fae covenant intro quests.",
 					constant = "AVAILABLE_WHEN_SKIPPING_NIGHT_FAE_COVENANT",
 					export = true,

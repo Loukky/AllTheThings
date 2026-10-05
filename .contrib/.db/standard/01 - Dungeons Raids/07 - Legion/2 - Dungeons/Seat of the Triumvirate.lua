@@ -20,7 +20,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			}),
 			n(QUESTS, {
 				q(48230, {	-- Fragment of the Past
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "You must complete |cffffff00Seat of the Triumvirate: The Crest of Knowledge|r before this item will drop.",
 						constant = "YOU_MUST_COMPLETE_CFFFFFF00SEAT_OF_THE",
 						export = true,

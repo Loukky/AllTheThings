@@ -198,7 +198,7 @@ end
 root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.LEGION, {
 		n(ARTIFACTS, {
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "\nPressing |cFFFFD700CTRL + Left Click|r will allow you to preview the appropriate skin and tint.\n\n",
 				constant = "PRESSING_CFFFFD700CTRL_LEFT_CLICK_R_WILL_ALLOW",
 				export = true,

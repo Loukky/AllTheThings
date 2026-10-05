@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}},
 			["groups"] = {
 				pet(2399, {	-- Hermit Crab (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Best found around the coastline of Vol'dun. Can also be found in Tiragarde, best spot is East-ish of Bridgeport.",
 						constant = "BEST_FOUND_AROUND_THE_COASTLINE_OF_VOL_DUN_CAN",
 						export = true,
@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["coord"] = { 41.69, 42.54, VOLDUN },	-- Location chest spawns
 					["groups"] = {
 						i(166734, {	-- Banana-Shaped Power Cell
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "These parts are found during the Vol'dun Assault/Incursion in the \"Loose Parts\" container. To influence your robot to win you will want to hand in \"Alkalescent Salt\" which are also used for the World Quest \"Battle Bots\".",
 								constant = "THESE_PARTS_ARE_FOUND_DURING_THE_VOL_DUN",
 								export = true,

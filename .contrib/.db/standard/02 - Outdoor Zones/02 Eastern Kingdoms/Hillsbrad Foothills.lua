@@ -59,7 +59,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["coord"] = { 35.4, 69.6, HILLSBRAD_FOOTHILLS },
 					}),
 					pet(1159, {	-- Lofty Libram (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around the Dalaran Crater.",
 							constant = "FOUND_AROUND_THE_DALARAN_CRATER",
 							export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 					pet(452),	-- Red-Tailed Chipmunk (PET!)
 					pet(640, {	-- Snowshoe Hare (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around the Ruins of Alterac.",
 							constant = "FOUND_AROUND_THE_RUINS_OF_ALTERAC",
 							export = true,
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if AFTER CATA
 				exploration(278, {	-- Brazie Farmstead
 					-- #if AFTER DF
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This exploration node might fail to collect at its coordinates, or its location on the map, in the retail version of the game. This is due to erroneous data on Blizzard's end.",
 						constant = "THIS_EXPLORATION_NODE_MIGHT_FAIL_TO_COLLECT_AT",
 						export = true,
@@ -593,7 +593,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(550, {	-- Battle of Hillsbrad (7/7)
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is given to players that have not completed the wrath gate yet.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_GIVEN_TO_PLAYERS_3",
 						export = true,
@@ -639,7 +639,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(14351, {	-- Battle of Hillsbrad (7/7)
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This version of the quest is given to players that have completed the wrath gate.",
 						constant = "THIS_VERSION_OF_THE_QUEST_IS_GIVEN_TO_PLAYERS_4",
 						export = true,
@@ -2001,7 +2001,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 				}),
 				-- #endif
 				q(27480, {	-- Ley Energies
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Must complete part of the Silverpine Forest questline for the quest item to drop.",
 						constant = "MUST_COMPLETE_PART_OF_THE_SILVERPINE_FOREST",
 						export = true,
@@ -3771,7 +3771,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, i(210026, {	-- Symbol of the Third Owl
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Use Aquatic Form (or a swim speed potion) to click the statues one after another. Start at the eastern statue and swim to the western statue as the western statue's island can be climbed from the east, making it a direct line from eastern to western.",
 						constant = "USE_AQUATIC_FORM_OR_A_SWIM_SPEED_POTION_TO",
 						export = true,
@@ -3976,7 +3976,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 				-- #if AFTER CATA
 				i(5775, {	-- Pattern: Black Silk Pack (RECIPE!)
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pattern is very rare. Expect 1000+ of kills before looting it.",
 						constant = "THIS_PATTERN_IS_VERY_RARE_EXPECT_1000_OF_KILLS",
 						export = true,
@@ -4016,7 +4016,7 @@ Click Leave vehicle and repeat steps 3-8"]],
 				-- #endif
 				i(1485, {	-- Pitchfork
 					-- #if AFTER 10.1.7
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This items only drops from Risen Hillsbrad Farmers, which becomes unavailable to Horde players after completing the Sludge Fields questline due to phasing.\nPhasing can be circumvented with Party Sync, using an Horde alt that haven't reached the quest progress trigger for this phasing, or using an Alliance alt.",
 						constant = "THIS_ITEMS_ONLY_DROPS_FROM_RISEN_HILLSBRAD",
 						export = true,

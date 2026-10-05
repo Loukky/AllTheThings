@@ -51,7 +51,7 @@ root(ROOTS.Promotions, {
 
 		-- Chinese & Taiwan Servers only until 5.4.1
 		ach(3636, {	-- Jade Tiger
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Chinese & Taiwan Only",
 				constant = "CHINESE_TAIWAN_ONLY",
 				export = true,
@@ -72,7 +72,7 @@ root(ROOTS.Promotions, {
 			["timeline"] = { ADDED_4_0_3 },
 		}),
 		i(46894, {	-- Jade Tiger (PET!)
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Originally only available to the Chinese & Taiwan only, they have been added to the Recruit-A-Friend Program in 5.4.1.",
 				constant = "ORIGINALLY_ONLY_AVAILABLE_TO_THE_CHINESE_TAIWAN",
 				export = true,
@@ -107,7 +107,7 @@ root(ROOTS.Promotions, {
 
 		-- Desert Path
 		iensemble(173300, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_0_7 } }, {	-- Ensemble: Renowned Explorer's Attire
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Available to any player who has unlocked the Recruit a Friend rewards before the refresh during patch 10.0.7.",
 				constant = "AVAILABLE_TO_ANY_PLAYER_WHO_HAS_UNLOCKED_THE",
 				export = true,

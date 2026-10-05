@@ -62,7 +62,7 @@ root(ROOTS.ExpansionFeatures,
 						mi(2,   {	-- Gronnlings Abound
 							i(112737, {	-- Contract: Ka'la of the Frostwolves
 								follower(153, {	-- Ka'la
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Press Shift+Click to refresh or relog once you obtain this follower.",
 										constant = "PRESS_SHIFT_CLICK_TO_REFRESH_OR_RELOG_ONCE_YOU",
 										export = true,
@@ -109,7 +109,7 @@ root(ROOTS.ExpansionFeatures,
 						mi(478),	-- Early Mover
 						mi(479),	-- Mountain of Spirits
 						i(114053, {	-- Shimmering Gauntlets
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This token is a reward from one of the first missions when you initially unlock your garrison.",
 								constant = "THIS_TOKEN_IS_A_REWARD_FROM_ONE_OF_THE_FIRST",
 								export = true,
@@ -135,7 +135,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 						}),
 						i(118529, {	-- Cache of Highmaul Treasures [Normal]
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "The items from this cache are only displayed via mouseover to help showcase the potential rewards.",
 								constant = "THE_ITEMS_FROM_THIS_CACHE_ARE_ONLY_DISPLAYED",
 								export = true,
@@ -182,7 +182,7 @@ root(ROOTS.ExpansionFeatures,
 							["sym"] = {{"select", "instanceID", 457}, {"pop"}, {"where", "difficultyID", 16 }, {"pop"}, {"is","encounterID"}, {"pop"}, {"contains", "f", 2, 3, 4, 5, 6, 7, 51, 52, 53 }, {"not", "b", 2 }},
 						}),
 						i(114108, {	-- Tormented Armament
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "You must have level 34 active followers in order to get missions that reward this token.",
 								constant = "YOU_MUST_HAVE_LEVEL_34_ACTIVE_FOLLOWERS_IN",
 								export = true,
@@ -579,7 +579,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 						}),
 						mi(649, {	-- For Hate's Sake
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This rare mission has a chance to spawn after you build a level 3 Shipyard & completed the Quest Equipment Blueprint: Ghostly Spyglass, dropped from Captain Ironbeard in Tanaan Jungle.",
 								constant = "THIS_RARE_MISSION_HAS_A_CHANCE_TO_SPAWN_AFTER",
 								export = true,

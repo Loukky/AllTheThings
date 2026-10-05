@@ -175,7 +175,7 @@ local EncounterToLoot = {
 		}),
 		i(186410, {	-- Jaithys, the Prison Blade
 			-- #if BEFORE 10.0.2
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Only available in the great Vault.",
 				constant = "ONLY_AVAILABLE_IN_THE_GREAT_VAULT",
 				export = true,

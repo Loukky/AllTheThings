@@ -139,7 +139,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		}),
 		ach(13029, {	-- Eating Out of the Palm of My Tiny Hand
 			crit(41575, {	-- Brutosaur of Nazmir Fed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Buy Primitive Watermelon from Blind Wunja inside the cave at 34.6, 54.9 and feed it to Goramor.",
 					constant = "BUY_PRIMITIVE_WATERMELON_FROM_BLIND_WUNJA",
 					export = true,
@@ -164,7 +164,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				},
 			}),
 			crit(41578, {	-- Brutosaur of Vol'dun Fed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Buy Snake on a Stick from Rikati at 40.4, 55.4 and feed it to Ol' Stompy.",
 					constant = "BUY_SNAKE_ON_A_STICK_FROM_RIKATI_AT_40_4_55_4",
 					export = true,
@@ -189,7 +189,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				},
 			}),
 			crit(41580, {	-- Brutosaur of Zuldazar Fed
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Buy Extra-Dry Fruitcake from Golkada at 71.2, 29.6 and feed it to Irritable Maka'fon.",
 					constant = "BUY_EXTRA_DRY_FRUITCAKE_FROM_GOLKADA_AT_71_2_29",
 					export = true,
@@ -299,7 +299,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 			},
 		}),
 		ach(12482, {	-- Get Hek'd
-			createLocalizationString({
+			["description"] = createLocalizationString({
 				readable = "Make sure to loot the cache Jani leaves behind as you fulfill each requirement; that's what awards the actual achievement criteria.",
 				constant = "MAKE_SURE_TO_LOOT_THE_CACHE_JANI_LEAVES_BEHIND",
 				export = true,

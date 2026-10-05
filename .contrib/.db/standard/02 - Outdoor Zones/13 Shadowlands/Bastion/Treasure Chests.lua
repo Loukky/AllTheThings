@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(TREASURES, {
 			i(180866),	-- Gilded Wader (PET!)
 			o(354202, {	-- Abandoned Stockpile
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Coordinates are for a cave entrance hidden by plants.",
 					constant = "COORDINATES_ARE_FOR_A_CAVE_ENTRANCE_HIDDEN_BY",
 					export = true,
@@ -58,7 +58,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(354275, {	-- Experimental Construct Part
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires an |cFFFFFFFFUnstable Construct Anima|r, which can be found in the surrounding area. It looks similar to the other jars of anima, but is smaller and glows purple.",
 					constant = "REQUIRES_AN_CFFFFFFFFUNSTABLE_CONSTRUCT_ANIMA_R",
 					export = true,
@@ -84,7 +84,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353942, {	-- Gift of Agthia
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The coordinates are to the first object you need to click to unlock the chest, |cFFFFFFFFAgthia's Flame|r.\n\nRun south until you get to the second torch at |cFFFFFFFF38.4, 57.0|r and click it. An invisible walkway will appear to the west, lined with glowing orbs on either side.\n\nWalk between the orbs until you reach the floating rock. Keep clicking all the torches and walking across the invisible bridge until you reach the treasure.",
 					constant = "THE_COORDINATES_ARE_TO_THE_FIRST_OBJECT_YOU",
 					export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353941, {	-- Gift of Chyrus
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kneel in front of the chest.",
 					constant = "KNEEL_IN_FRONT_OF_THE_CHEST",
 					export = true,
@@ -141,7 +141,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353943, {	-- Gift of Thenios
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Requires taking multiple transport pads on the |cFFFFFFFFPath of Wisdom|r and clicking on objects in the correct order.\n\n1. Incense of Patience\n2. Incense of Knowledge\n3. Incense of Insight\n4. Blue orb behind the first Incense of Judgment\n5. The orb will transport you to the real Incense of Judgment\n\nTake the transport pad after using the real Incense of Judgment and you will get the |cFFFFFFFFProof of Wisdom|r buff for a short time, allowing you to open the chest.",
 					constant = "REQUIRES_TAKING_MULTIPLE_TRANSPORT_PADS_ON_THE",
 					export = true,
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 			o(353940, {	-- Gift of Vesiphone
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Ring one of the Bells of Purification on either side of the treasure. Then turn around and stand in the waterfall next to the Purity Steward. You will get a buff called Proof of Purity, allowing you to open the chest.",
 					constant = "RING_ONE_OF_THE_BELLS_OF_PURIFICATION_ON_EITHER",
 					export = true,
@@ -211,7 +211,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			-- Rewards
 			-- Objects
 				o(353868, {	-- Hidden Hoard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The coordinates are for a cliffside cave entrance.",
 						constant = "THE_COORDINATES_ARE_FOR_A_CLIFFSIDE_CAVE",
 						export = true,
@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353870, {	-- Hidden Hoard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The coordinates are for a cave entrance hidden behind some vines in the side of a cliff.",
 						constant = "THE_COORDINATES_ARE_FOR_A_CAVE_ENTRANCE_HIDDEN",
 						export = true,
@@ -262,7 +262,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["isDaily"] = true,
 				}),
 				o(353871, {	-- Hidden Hoard
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The coordinates are for a cave entrance hidden in the side of a cliff. You'll have to walk along a ledge halfway up the cliffside to access it.",
 						constant = "THE_COORDINATES_ARE_FOR_A_CAVE_ENTRANCE_HIDDEN_2",
 						export = true,
@@ -297,7 +297,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				}),
 			}),
 			o(354214, {	-- Larion Tamer's Harness
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "At the back of the cave.",
 					constant = "AT_THE_BACK_OF_THE_CAVE",
 					export = true,
@@ -346,7 +346,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["groups"] = { i(173973) },	-- Purian
 			}),
 			o(339601, {	-- Scroll of Aeons
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Take the |cFFFFFFFFPurian|r from the bench at |cFFFFFFFF54.3, 81.8|r, place them in the tribute bowls at |cFFFFFFFF54.4, 83.8|r and |cFFFFFFFF56.1, 83.0|r, and follow the light to the treasure at |cFFFFFFFF53.5, 80.4|r.",
 					constant = "TAKE_THE_CFFFFFFFFPURIAN_R_FROM_THE_BENCH_AT",
 					export = true,
@@ -443,7 +443,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			o(353650, {	-- Steward's Golden Chest
 				["sourceQuests"] = { 62733 },	-- The Sweetest Tribute
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Ask Elios about the Steward of the Day, and he will pin their location on your map. Take a Ripe Purian to the steward, and then you can come back and loot the chest.",
 					constant = "ASK_ELIOS_ABOUT_THE_STEWARD_OF_THE_DAY_AND_HE",
 					export = true,
@@ -507,7 +507,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isDaily"] = true,
 			}),
 			o(354289, {	-- Windsmith's Tools
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "The |cff0070ddBroken Kyrian Flute|r drops from |cFFFFFFFFUnsettled Etherwyrms|r near the treasure. After you've found the flute, use the |cFFFFFFFFWindsmith's Tools|r at the forge to restore it.",
 					constant = "THE_CFF0070DDBROKEN_KYRIAN_FLUTE_R_DROPS_FROM",
 					export = true,

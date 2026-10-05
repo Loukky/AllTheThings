@@ -60,7 +60,7 @@ root(ROOTS.Promotions, {
 		["groups"] = {
 			-- "Pre Season"
 			i(263301, {	-- Cuddly Green Grrgle (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between January 20th, 10:00 a.m. & February 17th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_13",
 					export = true,
@@ -81,7 +81,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { "removed 12.0.1.65899" },	-- Removed February 17th, 2026
 			}),
 			i(264241, {	-- Crimson Bow Tie (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available to players in the UK and EU from a QR code scan of applicable Pringles cans or from the UK/EU Pringles website. \nThe battle.net code can be redeemed in any region but the website is region locked.\n\nVisit pringles.eu/0pzaiz ON A MOBILE DEVICE to sign up; players outside of EU can use a VPN to do this.\nThe promotion runs between January 20th through May 5th, 2026.",
 					constant = "AVAILABLE_TO_PLAYERS_IN_THE_UK_AND_EU_FROM_A_QR",
 					export = true,
@@ -109,7 +109,7 @@ root(ROOTS.Promotions, {
 				i(232519),	-- Razeshi B. (PET!)
 			}));
 			ach(62387, {	-- It's Nearly Midnight
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained by logging in to an account with an active subscription before the release of Midnight on March 2nd, 2026.",
 					constant = "OBTAINED_BY_LOGGING_IN_TO_AN_ACCOUNT_WITH_AN",
 					export = true,
@@ -131,7 +131,7 @@ root(ROOTS.Promotions, {
 				["groups"] = { i(260785) },	-- The Dark Portal (DECOR!)
 			}),
 			i(264396, {	-- Naturally Elegant Doormat (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Visit |cFFFFD700zillow.com/warcraft|r\n\nFind the Doormat on the page\n\nClick on 'Claim Loot!' and authorize the Account connection.",
 					constant = "VISIT_CFFFFD700ZILLOW_COM_WARCRAFT_R_FIND_THE",
 					export = true,
@@ -152,7 +152,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { "added 12.0.1.65899", "removed 12.1.0.99999" },	-- TODO: Timeline out. Available through September 30, 2026.
 			}),
 			i(264397, {	-- Simply Adorned Vase and Flowers (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Visit |cFFFFD700zillow.com/warcraft|r\n\nClick on 'Explore Homes'\n\nFlip between Alliance and Horde until you see 'Greener's Plant Nursery' advertisement\n\nClick on 'Free Sample' and authorize the Account connection.",
 					constant = "VISIT_CFFFFD700ZILLOW_COM_WARCRAFT_R_CLICK_ON",
 					export = true,
@@ -173,7 +173,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { "added 12.0.1.65899", "removed 12.1.0.99999" },	-- TODO: Timeline out. Available through September 30, 2026.
 			}),
 			ach(62400, {	-- Craft Your World
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Open Options\n\nGo to Gameplay -> Social\n\nCheck Connect to Pinterest\n\nSign in through the in-game browser and authorize the connection.\n\nNote: If any sort of Parental Controls have been set up on your account, this will not be visible in the Options menu unless they are fully removed via Battle Net support ticket.",
 					constant = "OPEN_OPTIONS_GO_TO_GAMEPLAY_SOCIAL_CHECK",
 					export = true,
@@ -195,7 +195,7 @@ root(ROOTS.Promotions, {
 				["groups"] = { i(268695) },	-- Pin-o-Matic Camera (TOY!)
 			}),
 			i(263298, {	-- Cuddly Alliance Blue Grrgle (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between February 26th, 10:00 a.m. & March 24th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_14",
 					export = true,
@@ -220,7 +220,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH, "removed 12.0.1.66562" },
 			}),
 			i(252194, {	-- Fishmonger May (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained by gifting an eligible creator's channel two Twitch subscriptions between February 26th, 03:00 p.m. & March 26th, 03:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.\n\nSpecial Note: If you buy a sub for yourself and gift one more, that will also reward the pet!",
 					constant = "OBTAINED_BY_GIFTING_AN_ELIGIBLE_CREATOR_S_3",
 					export = true,
@@ -241,7 +241,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH, "removed 12.0.1.66562" },
 			}),
 			i(260360, {	-- Gummi the Glow Wyrm (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Trolli + Xbox promotional item. Available between March 1st 2026 - September 30th 2026 by purchasing Trolli Gummi Pop products in any retail store, photoing your receipt and uploading it as confirmation to trolli.com/xbox. Sometime later you should receive a code to your email to redeem on Battle.net or in the launcher.\n\nYou must have a U.S. address and phone number to participate.\n\nThe code is usable in any region.",
 					constant = "TROLLI_XBOX_PROMOTIONAL_ITEM_AVAILABLE_BETWEEN_5",
 					export = true,
@@ -264,7 +264,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 1
 			i(246917, {	-- Thunder-ridged Elekk (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available from the pringleswow.de promotion in a limited quantity to the first 3000 players who scanned a QR code found around cities in Germany.",
 					constant = "AVAILABLE_FROM_THE_PRINGLESWOW_DE_PROMOTION_IN",
 					export = true,
@@ -285,7 +285,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_1_LAUNCH },
 			}),
 			iensemble(229822, {	-- Arsenal: Golden Crests of the Kingdom (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Included as a code when ordering the World of Warcraft The Lich King 7-Inch Deluxe Figure (McFarlane Elite Edition #9)",
 					constant = "INCLUDED_AS_A_CODE_WHEN_ORDERING_THE_WORLD_OF",
 					export = true,
@@ -307,7 +307,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(265545, {	-- Cuddly Void Grrgle (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between March 26th, 3:00 p.m. & April 23rd, 3:00 p.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_15",
 					export = true,
@@ -328,7 +328,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH, "removed 12.0.5.67165" },	-- Removed April 23rd, 2026
 			}),
 			i(264283, {	-- Backboard and Hoop Playset (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available from the Pinterest Craft Your World promotion. Enter password 'Horde Board' at craftyourworldpromo.com to receive a code to the email you provided.",
 					constant = "AVAILABLE_FROM_THE_PINTEREST_CRAFT_YOUR_WORLD",
 					export = true,
@@ -349,7 +349,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH },	-- Its removal was announced for 6 April 2026 at 11:59pm (BST) but it is still active and working (last check 17/8/26)
 			}),
 			i(264282, {	-- Bluebird's Golden Cage (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available from the Pinterest Craft Your World promotion. Enter password 'Azeroth Inspiration' at craftyourworldpromo.com to receive a code to the email you provided.",
 					constant = "AVAILABLE_FROM_THE_PINTEREST_CRAFT_YOUR_WORLD_2",
 					export = true,
@@ -370,7 +370,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH },	-- Its removal was announced for 6 April 2026 at 11:59pm (BST) but it is still active and working (last check 17/8/26)
 			}),
 			i(264281, {	-- Preserved Gift of Gilneas (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available from the Pinterest Craft Your World promotion. Enter password 'Kalimdor Collage' at craftyourworldpromo.com to receive a code to the email you provided.",
 					constant = "AVAILABLE_FROM_THE_PINTEREST_CRAFT_YOUR_WORLD_3",
 					export = true,
@@ -391,7 +391,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_1_LAUNCH },	-- Its removal was announced for 6 April 2026 at 11:59pm (BST) but it is still active and working (last check 17/8/26)
 			}),
 			i(262660, {	-- Egg Farmer's Backpack (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available in a limited quantity from ign.com/rewards/claim-a-code-to-get-world-of-warcraft-in-game-content, you'll receive a code to redeem on Battle.net.",
 					constant = "AVAILABLE_IN_A_LIMITED_QUANTITY_FROM_IGN_COM",
 					export = true,
@@ -421,7 +421,7 @@ root(ROOTS.Promotions, {
 				i(264280),	-- Short Corked Bottle of Liquid Mystery (DECOR!)
 			}));
 			i(262881, {	-- Lil' Staropod (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Offer valid from April 13, 2026 (12pm ET) to May 15, 2026 (12pm ET). During the offer period, complete a purchase of eligible World of Warcraft items through the Blizzard Gear Store and receive a digital code.",
 					constant = "OFFER_VALID_FROM_APRIL_13_2026_12PM_ET_TO_MAY",
 					export = true,
@@ -443,7 +443,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(265394, {	-- Cuddly Pearl Grrgle (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between April 23rd, 3:00 p.m. & May 21st, 3:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_16",
 					export = true,
@@ -468,7 +468,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_5, REMOVED_12_0_5 },
 			}),
 			i(265389, {	-- Cuddly Cotton Candy Grrgle (DECOR!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between June 16th, 10:00 a.m. & July 14th, 10:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_17",
 					export = true,
@@ -489,7 +489,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_7, "removed 12.0.7.68453" },	-- Removed July 15th
 			}),
 			i(273655, {	-- Sunflare Driftmoth (MOUNT!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained if you set up a 6-Month WoW Subscription since Patch 12.0.7.",
 					constant = "OBTAINED_IF_YOU_SET_UP_A_6_MONTH_WOW_3",
 					export = true,
@@ -511,7 +511,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(272339, {	-- Umbral Champion's Illustrious Banner (TOY!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Break the Meta: Midnight Season 1\n\nBreak the Meta is focused on teams pushing keys as high as they can with off-meta specs and classes.\n\nComplete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +10|r or higher will receive an exclusive Toy to use in-game!.\n\nThe Event starts on July 14th at 8:00 AM PDT and lasts for 1 week.\nFor more details & requirements check out: raider.io/events/break-the-meta-midnight-season-1/event-info-rules",
 					constant = "BREAK_THE_META_MIDNIGHT_SEASON_1_BREAK_THE_META",
 					export = true,
@@ -532,7 +532,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_12_0_7, "removed 12.0.7.68453" },	-- Removed July 21st
 			}),
 			iensemble(257974, {	-- Ensemble: Sorcerer's Grassy Garb (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between August 11th, 10:00 a.m. & September 8th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 					constant = "OBTAINED_THROUGH_WATCHING_TWITCH_STREAMERS_WITH_18",
 					export = true,
@@ -554,7 +554,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 2
 			i(250293, {	-- Red Hot Portable Bakery (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "McDonald's UK exclusive promotion. Available from 25th August 2026 until 28th September 2026.\n\nItem is redeemable for 1500 points in the McDonald's UK app. You can get 1000 points for the registration, then 1 point per 1p spent.",
 					constant = "MCDONALD_S_UK_EXCLUSIVE_PROMOTION_AVAILABLE",
 					export = true,
@@ -576,7 +576,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(251038, {	-- Emerrrgl (PET!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available with the purchase of an Emrrrgl Murloc Funko Pop from the Blizzard Gear Store to a US/UK mailing address. The code will be emailed and can be redeemed on Battle.net or the launcher.",
 					constant = "AVAILABLE_WITH_THE_PURCHASE_OF_AN_EMRRRGL",
 					export = true,
@@ -598,7 +598,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(262840, {	-- Grassy Dunecloth Belt (COSMETIC!)
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Available with the purchase of anything from the Grassy Dunecloth Transmog Collection on the Blizzard Gear Store between Sept. 28, 2026 (12pm ET) and Oct. 12, 2026 (12pm ET). The code will be emailed and can be redeemed on Battle.net or the launcher.",
 					constant = "AVAILABLE_WITH_THE_PURCHASE_OF_ANYTHING_FROM",
 					export = true,

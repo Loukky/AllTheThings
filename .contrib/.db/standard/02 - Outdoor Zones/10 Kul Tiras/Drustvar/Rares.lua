@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(129805, {	-- Beshol
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Interact with \"Obviously Safe Chest\" to spawn this mob.",
 					constant = "INTERACT_WITH_OBVIOUSLY_SAFE_CHEST_TO_SPAWN",
 					export = true,
@@ -291,7 +291,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 65.0, 83.2, DRUSTVAR },
 				["groups"] = {
 					q(52061, {	-- Taptaf the Pig!
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Killing Idej the Wise will cause Taptaf to spawn and give you the quest.",
 							constant = "KILLING_IDEJ_THE_WISE_WILL_CAUSE_TAPTAF_TO",
 							export = true,

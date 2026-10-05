@@ -21,7 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 			ach(40628),	-- Notable Machines (automated)
 			ach(40473),	-- Not So Quick Fix (automated)
 			ach(40731, {	-- Panhandled
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Kill Overworked Cooks, click Frying Pans, quickly hit other nearby creatures.",
 					constant = "KILL_OVERWORKED_COOKS_CLICK_FRYING_PANS_QUICKLY",
 					export = true,

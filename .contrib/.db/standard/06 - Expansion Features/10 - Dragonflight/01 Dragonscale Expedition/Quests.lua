@@ -204,7 +204,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				}, {	-- RENOWN 4 --
 					q(70812, {	-- Expedition Cloaks
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Buying the Renowned cloaks will remove this quest from being available!",
 							constant = "BUYING_THE_RENOWNED_CLOAKS_WILL_REMOVE_THIS",
 							export = true,
@@ -790,7 +790,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coord"] = { 54.4, 55.5, THALDRASZUS },
 					}),
 					q(69888, {	-- Unusual Suspects
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This quest will become available on the next weekly reset after completing |cffffff00It Belongs in a Museum... Eventually|r.",
 							constant = "THIS_QUEST_WILL_BECOME_AVAILABLE_ON_THE_NEXT",
 							export = true,

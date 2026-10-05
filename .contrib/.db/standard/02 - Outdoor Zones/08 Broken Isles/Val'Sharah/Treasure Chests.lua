@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 			o(240519, {	-- Small Treasure Chest
 				["questID"] = 38893,
 				["coord"] = { 46.6, 86.3, VALSHARAH },
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "In |cFFFFD700The Undergorge|r cave.",
 					constant = "IN_CFFFFD700THE_UNDERGORGE_R_CAVE",
 					export = true,

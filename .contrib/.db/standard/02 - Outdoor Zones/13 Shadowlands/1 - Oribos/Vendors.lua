@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 61.7, 72.3, ORIBOS },
 				["groups"] = {
 					i(180970, {	-- Teregeer Crystal
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take this to Ta'ruca in Revendreth |cffffffff(51.1, 78.5)|r.",
 							constant = "TAKE_THIS_TO_TA_RUCA_IN_REVENDRETH_CFFFFFFFF_51",
 							export = true,
@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							{"pop"}},
 			}),
 			n(182864, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Au'Dara
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "Next to the flightmaster.",
 					constant = "NEXT_TO_THE_FLIGHTMASTER",
 					export = true,
@@ -175,7 +175,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						-- #ENDIF
 					}),
 					i(188198, {	-- Travlers Anima Cache
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This item allows you to transfer anima between characters in a one-to-one ratio.",
 							constant = "THIS_ITEM_ALLOWS_YOU_TO_TRANSFER_ANIMA_BETWEEN",
 							export = true,
@@ -445,7 +445,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 51.3, 43.0, 1672 },	-- Broker's Den
 				["groups"] = {
 					i(180971, {	-- Aquamarine Cartel Chit
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Take this to Acquirer Ta'gosh in Oribos |cffffffff(61.7, 72.3)|r.",
 							constant = "TAKE_THIS_TO_ACQUIRER_TA_GOSH_IN_ORIBOS",
 							export = true,

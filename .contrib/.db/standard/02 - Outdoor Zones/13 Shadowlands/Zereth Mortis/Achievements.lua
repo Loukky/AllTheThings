@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["coord"] = { 61.9, 68.0, ZERETH_MORTIS },
 					}),
 					crit(52553, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Only Available during the Daily Quest: Overgrown Story (64785).",
 							constant = "ONLY_AVAILABLE_DURING_THE_DAILY_QUEST_OVERGROWN",
 							export = true,
@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["coord"] = { 62.5, 24.6, ZERETH_MORTIS },
 					}),
 					crit(52568, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Can spawn in place of a Dominated Laborer.",
 							constant = "CAN_SPAWN_IN_PLACE_OF_A_DOMINATED_LABORER",
 							export = true,
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						},
 					}),
 					crit(52570, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a long pathway, Start: 61.1, 47.7 Finish: 58.1, 44.3.",
 							constant = "HAS_A_LONG_PATHWAY_START_61_1_47_7_FINISH_58_1",
 							export = true,
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						},
 					}),
 					crit(52571, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Friendly NPC. Short path out of the hub, then despawns.",
 							constant = "FRIENDLY_NPC_SHORT_PATH_OUT_OF_THE_HUB_THEN",
 							export = true,
@@ -156,7 +156,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["coord"] = { 53.5, 75.1, ZERETH_MORTIS },
 					}),
 					crit(52574, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This NPC is in stealth.",
 							constant = "THIS_NPC_IS_IN_STEALTH",
 							export = true,
@@ -201,7 +201,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						["coord"] = { 62.3, 60.1, ZERETH_MORTIS },
 					}),
 					crit(52569, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Has a big patrol path.",
 							constant = "HAS_A_BIG_PATROL_PATH",
 							export = true,

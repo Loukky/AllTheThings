@@ -44,7 +44,7 @@ root(ROOTS.WorldEvents, {
 			})),
 			-- #endif
 			n(14464, {	-- Avalanchion
-				createLocalizationString({
+				["description"] = createLocalizationString({
 					readable = "This is only available during an Elemental Invasion.",
 					constant = "THIS_IS_ONLY_AVAILABLE_DURING_AN_ELEMENTAL",
 					export = true,

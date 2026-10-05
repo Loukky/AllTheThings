@@ -368,7 +368,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
 				q(32009, {	-- Varzok
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "|CFFFF0000Do not under any circumstances abandon this quest, you cannot reobtain it.|r",
 						constant = "CFFFF0000DO_NOT_UNDER_ANY_CIRCUMSTANCES_ABANDON",
 						export = true,
@@ -772,7 +772,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(62265, {	-- A New Adventure Awaits
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered upon reaching the specified level while in Chromie Time.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED_UPON",
 						export = true,
@@ -1046,7 +1046,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				q(60961, {	-- Burning Crusade: Onward to Adventure in Outland
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete the prerequisite quest, switch to another timeline, then switch back to Burning Crusade and you will get this quest.",
 						constant = "COMPLETE_THE_PREREQUISITE_QUEST_SWITCH_TO",
 						export = true,
@@ -1265,7 +1265,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = { GOBLIN },
 				}),
 				q(27686, {	-- Forged Documents
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "After creating Forged Documents with Inscription, search the city for an NPC to accept them - the quest can end in a variety of different places.",
 						constant = "AFTER_CREATING_FORGED_DOCUMENTS_WITH",
 						export = true,
@@ -1446,7 +1446,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(32674, {	-- I Believe You Can Fly
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered to Horde players upon reaching level 30.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED_TO_HORDE",
 						export = true,
@@ -1633,7 +1633,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["DisablePartySync"] = true,
 				}),
 				q(14086, {	-- Learn to Ride in Orgrimmar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Orcs in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_2",
 						export = true,
@@ -1872,7 +1872,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_ONE, q(78197, {	-- Secrets of Undeath (2/2)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Completing this quest will allow you to meditate in the same manner as the undead.",
 						constant = "COMPLETING_THIS_QUEST_WILL_ALLOW_YOU_TO_2",
 						export = true,
@@ -2135,7 +2135,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(120, 120, 50),
 				}),
 				q(75519, {	-- The Long Hunt
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Probably, Undead need to complete The Hidden Need and I Am Forsaken, while non-Undead only need to complete Most Loyal. Undead are offered this quest in Undercity, while non-Undead are offered this quest in Orgrimmar.",
 						constant = "PROBABLY_UNDEAD_NEED_TO_COMPLETE_THE_HIDDEN",
 						export = true,
@@ -2405,7 +2405,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #elseif AFTER 9.0.3
 					["groups"] = {
 						n(14720, {	-- High Overlord Saurfang
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Saurfang will not give you any quests after turning in 'Warchief's Command: Twilight Highlands!'. You can get the proper beginning of the Twilight Highland intro questline from Eitrigg in the same room, with the quest 'Machines of War'.\n\nThe same applies for the quest 'Saurfang Will be Pleased', where the continuation yet again is obtained from Eitrigg with the quest 'Traitor's Bait'.",
 								constant = "SAURFANG_WILL_NOT_GIVE_YOU_ANY_QUESTS_AFTER",
 								export = true,
@@ -2531,7 +2531,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sym"] = { { "select", "itemID", 18796, 18798, 18797 } },
 				}),
 				q(60963, {	-- Wrath of the Lich King: Onward to Adventure in Northrend
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Complete the prerequisite quest, switch to another timeline, then switch back to Wrath of the Lich King and you will get this quest.",
 						constant = "COMPLETE_THE_PREREQUISITE_QUEST_SWITCH_TO_2",
 						export = true,
@@ -3326,7 +3326,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_TWELVE_GROUPS,
 					-- #if AFTER 4.2.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Sells gear related to Cataclysm raid tier 12 (Firelands) as well as Baradin Hold.",
 						constant = "SELLS_GEAR_RELATED_TO_CATACLYSM_RAID_TIER_12",
 						export = true,
@@ -3442,7 +3442,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_THIRTEEN_GROUPS,
 					-- #if AFTER 4.3.0
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Sells gear related to Cataclysm raid tier 13 (Dragon Soul).",
 						constant = "SELLS_GEAR_RELATED_TO_CATACLYSM_RAID_TIER_13",
 						export = true,
@@ -4332,7 +4332,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 41.0, 79.8, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_1 },
 					-- #if AFTER 7.3.5.25961
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This NPC is only visible if you have not yet unlocked the allied race Highmountain Tauren.",
 						constant = "THIS_NPC_IS_ONLY_VISIBLE_IF_YOU_HAVE_NOT_YET",
 						export = true,
@@ -4394,7 +4394,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				-- #endif
 				n(256119, {	-- Lonalo <Traveling Book Shop>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Not all items are sold each day.",
 						constant = "NOT_ALL_ITEMS_ARE_SOLD_EACH_DAY",
 						export = true,
@@ -4750,7 +4750,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(169166, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {	-- Provisioner Jin'hake
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Only sells items once the achievement |cffebae34Exile's Reach|r [14222] is completed.",
 						constant = "ONLY_SELLS_ITEMS_ONCE_THE_ACHIEVEMENT",
 						export = true,
@@ -4945,7 +4945,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_3_0 },
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_ELEVEN_GROUPS,
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",
 						constant = "SELLS_GEAR_RELATED_TO_CATACLYSM_RAID_TIER_11",
 						export = true,

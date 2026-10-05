@@ -339,7 +339,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									},
 								}),
 								crit(49921, {	-- Plague Pack
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "You need to obtain either Grungy Containment Pack or Pristine Containment Pack to be able to see this at the crafting table.",
 										constant = "YOU_NEED_TO_OBTAIN_EITHER_GRUNGY_CONTAINMENT",
 										export = true,
@@ -383,7 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									},
 								}),
 								crit(49925, {	-- Barrel O' Fish
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Becomes available at max Shadowlands Fishing skill.",
 										constant = "BECOMES_AVAILABLE_AT_MAX_SHADOWLANDS_FISHING",
 										export = true,
@@ -411,7 +411,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									},
 								}),
 								crit(50559, {	-- Underpowered Gravity Pack
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Your character must have unlocked Mechagon and learned the blueprint for Anti-Gravity Pack, and constructed rank 4 of the Abomination table, for this recipe to become available.",
 										constant = "YOUR_CHARACTER_MUST_HAVE_UNLOCKED_MECHAGON_AND",
 										export = true,
@@ -472,7 +472,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								},
 							}),
 							ach(14764, {	-- The Great Luckydo
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Possible to find the Great Luckydo when Chordy finds treasure.",
 									constant = "POSSIBLE_TO_FIND_THE_GREAT_LUCKYDO_WHEN_CHORDY",
 									export = true,
@@ -511,7 +511,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 						}),
 						n(REWARDS, {
 							i(184304, {	-- Anima-Touched Weapon Fragments
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Rewarded by the Weekly Quests from your Constructs and Chordy's Treasure Finding.",
 									constant = "REWARDED_BY_THE_WEEKLY_QUESTS_FROM_YOUR",
 									export = true,
@@ -531,7 +531,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								}),
 							}),
 							i(178061, {	-- Malleable Flesh
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Rewarded by any Shadowlands Activity.",
 									constant = "REWARDED_BY_ANY_SHADOWLANDS_ACTIVITY",
 									export = true,
@@ -551,7 +551,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								}),
 							}),
 							i(184843, {	-- Salvaged Supplies
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Rewarded by the Weekly Quests from your Constructs.",
 									constant = "REWARDED_BY_THE_WEEKLY_QUESTS_FROM_YOUR_2",
 									export = true,
@@ -571,7 +571,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								}),
 							}),
 							i(183744, {	-- Superior Parts
-								createLocalizationString({
+								["description"] = createLocalizationString({
 									readable = "Rewarded by the Weekly Quests from your Constructs and Command Table.",
 									constant = "REWARDED_BY_THE_WEEKLY_QUESTS_FROM_YOUR_3",
 									export = true,
@@ -634,7 +634,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 55.1, 68.6, MALDRAXXUS },
 									["groups"] = {
 										i(182489, {	-- Stitched Harbinger's Greatcloak
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "This cloak is only awarded to plate characters.",
 												constant = "THIS_CLOAK_IS_ONLY_AWARDED_TO_PLATE_CHARACTERS",
 												export = true,
@@ -654,7 +654,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											}),
 										}),
 										i(182498, {	-- Stitched Wraith's Cloak
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "This cloak is only awarded to leather characters.",
 												constant = "THIS_CLOAK_IS_ONLY_AWARDED_TO_LEATHER",
 												export = true,
@@ -674,7 +674,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											}),
 										}),
 										i(182507, {	-- Stitched Conjurer's Cape
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "This cloak is only awarded to cloth characters.",
 												constant = "THIS_CLOAK_IS_ONLY_AWARDED_TO_CLOTH_CHARACTERS",
 												export = true,
@@ -694,7 +694,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											}),
 										}),
 										i(182516, {	-- Stitched Tactician's Drape
-											createLocalizationString({
+											["description"] = createLocalizationString({
 												readable = "This cloak is only awarded to mail characters.",
 												constant = "THIS_CLOAK_IS_ONLY_AWARDED_TO_MAIL_CHARACTERS",
 												export = true,
@@ -784,7 +784,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["coord"] = { 24.2, 38.6, MALDRAXXUS },
 									}),
 									q(59747, {	-- A Lost Soul
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Pull the chain on the right side of the vault as you enter.",
 											constant = "PULL_THE_CHAIN_ON_THE_RIGHT_SIDE_OF_THE_VAULT",
 											export = true,
@@ -1097,7 +1097,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									}),
 								}),
 								n(161270, {	-- Chordy
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "These abomination crafting reagents can randomly be found using Chordy's ability in any Shadowlands zone",
 										constant = "THESE_ABOMINATION_CRAFTING_REAGENTS_CAN",
 										export = true,
@@ -1250,7 +1250,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									q(59615, {	-- Every Dog Has Its Day
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Kill Soul Harvester Anka at 70.1, 40.8 to obtain the Soul Harvester Key, which opens the cage and makes the quest available. The key will only drop if you have tier 2 or higher Abomination Table.",
 											constant = "KILL_SOUL_HARVESTER_ANKA_AT_70_1_40_8_TO_OBTAIN",
 											export = true,
@@ -1755,7 +1755,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									}),
 								}),
 								n(REWARDS, {
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "The cosmetic items under this header are occasionally random rewards from doing Maldraxxus world quests with Unity as your active abomination.",
 										constant = "THE_COSMETIC_ITEMS_UNDER_THIS_HEADER_ARE",
 										export = true,
@@ -1836,7 +1836,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								["crs"] = { 167161 },	-- Atticus (Ghost)
 								["groups"] = appendGroups(ATTICUS_GROUP, {
 									i(184589, {	-- Bag of Potions
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "This becomes available within Chill's Reach during 'A Brokered Deal'.",
 											constant = "THIS_BECOMES_AVAILABLE_WITHIN_CHILL_S_REACH",
 											export = true,
@@ -1858,7 +1858,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									i(180442),	-- Bag of Sin Stones
 									i(180277),	-- Battlefront Ration Key
 									i(184037, {	-- Maldraxxus Candles
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "These become available after you build rank 5 Abomination table.",
 											constant = "THESE_BECOME_AVAILABLE_AFTER_YOU_BUILD_RANK_5",
 											export = true,
@@ -1894,7 +1894,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									i(184047, {	-- Ascended Chest of Arms
-										createLocalizationString({
+										["description"] = createLocalizationString({
 											readable = "Contains one random weapon.",
 											constant = "CONTAINS_ONE_RANDOM_WEAPON",
 											export = true,

@@ -16,7 +16,7 @@ root(ROOTS.Zones, {
 				["groups"] = {
 					pet(706),	-- Bandicoon (PET!)
 					pet(1809, {	-- Crystalline Broodling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found around Falanaar.",
 							constant = "FOUND_AROUND_FALANAAR",
 							export = true,
@@ -37,7 +37,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 21.0, 41.0, SURAMAR },
 					}),
 					pet(1810, {	-- Thornclaw Broodling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Felsoul Hold.",
 							constant = "FOUND_IN_FELSOUL_HOLD",
 							export = true,
@@ -57,7 +57,7 @@ root(ROOTS.Zones, {
 						})
 					}),
 					pet(1807, {	-- Vicious Broodling (PET!)
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Found in Felsoul Hold. May be elusive, shares spawn with Thornclaw Broodling.",
 							constant = "FOUND_IN_FELSOUL_HOLD_MAY_BE_ELUSIVE_SHARES",
 							export = true,

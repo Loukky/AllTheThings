@@ -218,7 +218,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(12, 12, 10),
 				}),
 				q(32661, {	-- Learn To Ride
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This quest is automatically offered to Draenei upon reaching the specified level.",
 						constant = "THIS_QUEST_IS_AUTOMATICALLY_OFFERED_TO_DRAENEI",
 						export = true,
@@ -253,7 +253,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(20, 20, 10),
 				}),
 				q(14082, {	-- Learn to Ride at the Exodar
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The pamphlet that starts this quest is sent to Draenei in their Mailbox upon reaching the specified level.",
 						constant = "THE_PAMPHLET_THAT_STARTS_THIS_QUEST_IS_SENT_TO_3",
 						export = true,

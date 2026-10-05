@@ -172,7 +172,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			n(REWARDS, {
 				i(187410, {	-- Death's Advance Battlefield Drape
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Can be rewarded from any Maw Assault.",
 						constant = "CAN_BE_REWARDED_FROM_ANY_MAW_ASSAULT",
 						export = true,
@@ -271,7 +271,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					})),
 					n(SPECIAL, {
 						n(179096, {	-- Sly
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Speak to Orator Kloe and tell her you will help find the missing Vulpin. Follow the footprints and reassure Sly 3 times (over the course of 3 Kyrian Assaults) to earn the achievement and pet.",
 								constant = "SPEAK_TO_ORATOR_KLOE_AND_TELL_HER_YOU_WILL_HELP",
 								export = true,
@@ -358,7 +358,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					}),
 					n(ACHIEVEMENTS, {
 						ach(15039, {	-- Up For Grabs
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "There are a few Mawsworn Caches that are accessible just via grappling, but this achievement is much easier to complete when using the Overcharged Centurion from the |cFF349cffPutting A Plan Together|r quest.\n\nUse the Centurion's |cFFFFFFFFPurestep Ascension|r ability to scale walls and get to the Mawsworn Caches.",
 								constant = "THERE_ARE_A_FEW_MAWSWORN_CACHES_THAT_ARE",
 								export = true,
@@ -517,7 +517,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							},
 						}),
 						i(186602, {	-- Quartered Ancient Ring
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Mad Maw Construct will spawn in or around Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r. Once it spawns, you have a short amount of time to kill it before it despawns.",
 								constant = "MAD_MAW_CONSTRUCT_WILL_SPAWN_IN_OR_AROUND",
 								export = true,
@@ -543,7 +543,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							["crs"] = { 179601 },	-- Mad Maw Construct
 						}),
 						o(369143, {	-- Quartered Ancient Ring
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "This ring can be found in Perdition Hold once you've looted another |cFF1eff00Quartered Ancient Ring|r.",
 								constant = "THIS_RING_CAN_BE_FOUND_IN_PERDITION_HOLD_ONCE",
 								export = true,
@@ -581,7 +581,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							["isDaily"] = true,
 							["groups"] = {
 								i(186573, {	-- Defense Map
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "This item will start dropping during or after the quest |cFF349cffPutting A Plan Together|r.",
 										constant = "THIS_ITEM_WILL_START_DROPPING_DURING_OR_AFTER",
 										export = true,
@@ -766,7 +766,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						}),
 					})),
 					header(HEADERS.Spell, 354778, {	-- The Rift
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "The things in this section are only accessible when you are in the Rift, a version of the Maw populated by shades.\n\nIn Korthia, this phase can be accessed by using a |cFF1eff00Repaired Riftkey|r on a |cFFFFFFFFMaw Rift|r. To get there in the Maw, you can either walk to the Maw after entering a |cFFFFFFFFMaw Rift|r in Korthia, or use the |cFFFFFFFFUnbalanced Riftstone|r from the Night Fae covenant assault quest |cFF349cffA Shady Place|r.",
 							constant = "THE_THINGS_IN_THIS_SECTION_ARE_ONLY_ACCESSIBLE_2",
 							export = true,
@@ -791,7 +791,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						["groups"] = {
 							n(ACHIEVEMENTS, {
 								ach(15001, {	-- Jailer's Personal Stash
-									createLocalizationString({
+									["description"] = createLocalizationString({
 										readable = "Requires entering the Rift, either via the |cFF349cffA Shady Place|r quest or a Maw Rift in Korthia.",
 										constant = "REQUIRES_ENTERING_THE_RIFT_EITHER_VIA_THE",
 										export = true,

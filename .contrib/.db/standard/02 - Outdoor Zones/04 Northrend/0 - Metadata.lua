@@ -153,7 +153,7 @@ root(ROOTS.Zones, {
 			-- #if AFTER 5.3.0
 			battlepets({
 				pet(1238, {	-- Unborn Val'kyr (PET!)
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "This pet spawns in all ordinary questing zones in Northrend, but only at a few specific locations. Other pets might spawn in their place, they might be sensitive to phasing, and might only have one spawn per zone.",
 						constant = "THIS_PET_SPAWNS_IN_ALL_ORDINARY_QUESTING_ZONES",
 						export = true,

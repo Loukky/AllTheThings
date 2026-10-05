@@ -27,7 +27,7 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					n(QUESTS, {
 						q(37420, {	-- Fully Armed and Operational
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires Gnomish Gearworks Rank 3.",
 								constant = "REQUIRES_GNOMISH_GEARWORKS_RANK_3",
 								export = true,
@@ -49,7 +49,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(37418, {	-- Fully Armed and Operational
-							createLocalizationString({
+							["description"] = createLocalizationString({
 								readable = "Requires Goblin Workshop Rank 3.",
 								constant = "REQUIRES_GOBLIN_WORKSHOP_RANK_3",
 								export = true,

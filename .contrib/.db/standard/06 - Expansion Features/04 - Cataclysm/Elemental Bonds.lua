@@ -114,7 +114,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 				["coord"] = { 60.6, 31.4, MOUNT_HYJAL },
 				["groups"] = {
 					n(54313, {
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Ignore Thrall if you are doing the initial quests around Nordrassil, he will become relevant later in the story.",
 							constant = "IGNORE_THRALL_IF_YOU_ARE_DOING_THE_INITIAL",
 							export = true,

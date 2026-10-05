@@ -684,7 +684,7 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66553, {	-- Morulu The Elder <Master Pet Tamer>
 						["coord"] = { 59.0, 70.0, SHATTRATH_CITY },
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Morulu's pets are level 23 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Aquatic - see above.\n3. Aquatic - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
 							constant = "MORULU_S_PETS_ARE_LEVEL_23_OF_THE_FOLLOWING",
 							export = true,
@@ -838,7 +838,7 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 29426, 10 } },	-- Firewing Signet
 					}),
 					applyclassicphase(TBC_PHASE_FIVE, q(11875, {	-- Gaining the Advantage
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "This daily quest is only available to characters with Herbalism, Mining, or Skinning.",
 							constant = "THIS_DAILY_QUEST_IS_ONLY_AVAILABLE_TO",
 							export = true,
@@ -965,7 +965,7 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 30809, 10 } },	-- Mark of Sargeras
 					}),
 					q(10025, {	-- More Basilisk Eyes
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you want to switch from Aldor to Scryers, use this quest to regain lost Scryers reputation.",
 							constant = "IF_YOU_WANT_TO_SWITCH_FROM_ALDOR_TO_SCRYERS_USE",
 							export = true,
@@ -1041,7 +1041,7 @@ root(ROOTS.Zones, {
 						["repeatable"] = true,
 					}),
 					q(10019, {	-- More Venom Sacs
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "If you want to switch from Scryers to Aldor, use this quest to regain lost Aldor reputation.",
 							constant = "IF_YOU_WANT_TO_SWITCH_FROM_SCRYERS_TO_ALDOR_USE",
 							export = true,
@@ -1616,7 +1616,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10231, {	-- What Book? I Don't See Any Book.
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Walks around the |cFFFFD700Terrace of Light|r.",
 							constant = "WALKS_AROUND_THE_CFFFFD700TERRACE_OF_LIGHT_R",
 							export = true,
@@ -2295,7 +2295,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(19186, {	-- Kylene <Barmaid>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "Speak to her and tell her she's quite the cook to learn these recipes.",
 							constant = "SPEAK_TO_HER_AND_TELL_HER_SHE_S_QUITE_THE_COOK",
 							export = true,
@@ -2354,7 +2354,7 @@ root(ROOTS.Zones, {
 					}),
 					-- #endif
 					n(115546, {	-- Lunelli <Keeper of Lost Recipes>
-						createLocalizationString({
+						["description"] = createLocalizationString({
 							readable = "She will only sell these recipes to those who have completed the quests that reward them.",
 							constant = "SHE_WILL_ONLY_SELL_THESE_RECIPES_TO_THOSE_WHO",
 							export = true,

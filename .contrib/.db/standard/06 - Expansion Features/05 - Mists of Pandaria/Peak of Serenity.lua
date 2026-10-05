@@ -14,7 +14,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 	n(PEAK_OF_SERENITY, {
 		["lore"] = "The Peak of Serenity is a hidden monastery and sanctuary located high in the north-central reaches of Pandaria's Kun-Lai Summit. It served primarily as a training ground and place of refuge for monks, and was easily accessible to them through Zen Pilgrimage. In this way, it served a very similar function for monks as Moonglade did for druids and Acherus: The Ebon Hold did for death knights.",
 		-- #if AFTER LEGION
-		createLocalizationString({
+		["description"] = createLocalizationString({
 			readable = "This area phases once you have begun the Monk Class Hall Campaign and may not be accessible again until you complete it.",
 			constant = "THIS_AREA_PHASES_ONCE_YOU_HAVE_BEGUN_THE_MONK",
 			export = true,
@@ -348,7 +348,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 			}),
 			n(VENDORS, {
 				n(66354, {	-- Master Cannon <Tanner>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "All items on this vendor are quest rewards. You must have completed the respective quests to purchase the rewards.",
 						constant = "ALL_ITEMS_ON_THIS_VENDOR_ARE_QUEST_REWARDS_YOU",
 						export = true,
@@ -377,7 +377,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					},
 				}),
 				n(66356, {	-- Master Hwang <Staff Vendor>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The blue-quality staves on this vendor are quest rewards. You must have completed the respective quests to purchase the rewards.",
 						constant = "THE_BLUE_QUALITY_STAVES_ON_THIS_VENDOR_ARE",
 						export = true,
@@ -417,7 +417,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					},
 				}),
 				n(66359, {	-- Master Tan <Fist Weapon Vendor>
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "The blue-quality fist weapons on this vendor require that you have completed the level 30 Monk quest 'Continue Your Training: Master Hsu' (31839)",
 						constant = "THE_BLUE_QUALITY_FIST_WEAPONS_ON_THIS_VENDOR",
 						export = true,

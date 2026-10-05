@@ -104,7 +104,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 						470595	-- Fury of the Firelord [Protocol Inferno buff]
 					),
-					createLocalizationString({
+					["description"] = createLocalizationString({
 						readable = "Two Fissure Stone Fragments drop per boss in Protocol Inferno and the final boss of each dungeon will drop an extra three Fissure Stone Fragments if players have defeated all of the other bosses in the dungeon.",
 						constant = "TWO_FISSURE_STONE_FRAGMENTS_DROP_PER_BOSS_IN",
 						export = true,
