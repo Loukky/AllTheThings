@@ -903,24 +903,7 @@ COMMON_MOP_BLACKSMITHING_RECIPES = applyclassicphase(MOP_PHASE_ONE, sharedData({
 	i(84227),	-- Plans: Masterwork Spiritguard Shoulders (RECIPE!)
 }));
 DRAENOR_BLACKSMITHING = applyclassicphase(WOD_PHASE_ONE, i(115356, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
-	createLocalizationString({
-		readable = "This is a reward for completing the introductory Blacksmithing questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
-		constant = "THIS_IS_A_REWARD_FOR_COMPLETING_THE_2",
-		export = true,
-		text = {
-			en = "This is a reward for completing the introductory Blacksmithing questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
-			-- TODO: de = "",
-			-- TODO: es = "",
-			-- TODO: mx = "",
-			-- TODO: fr = "",
-			-- TODO: it = "",
-			-- TODO: ko = "",
-			-- TODO: pt = "",
-			-- TODO: ru = "",
-			cn = "这是完成锻造入门任务线的奖励，可从任何德拉诺生物身上掉落。也可在熔炉处以 100 金币购买。",
-			-- TODO: tw = "",
-		},
-	}),
+	["description"] = "This is a reward for completing the introductory Blacksmithing questline that can drop from any Draenor mob. Also sold at The Forge for 100 gold.",
 	["groups"] = {
 		r(158737, {	-- Blacksmithing (Draenor Master)
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },

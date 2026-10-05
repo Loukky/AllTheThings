@@ -956,24 +956,7 @@ COMMON_MOP_LEATHERWORKING_RECIPES = sharedData({ ["cost"] = {{ "i", SPIRIT_OF_HA
 	i(86271),	-- Pattern: Contender's Wyrmhide Shoulders (RECIPE!)
 });
 DRAENOR_LEATHERWORKING = applyclassicphase(WOD_PHASE_ONE, i(115358, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
-	createLocalizationString({
-		readable = "This is a reward for completing the introductory Leaterworking questline that can drop from any Draenor mob.",
-		constant = "THIS_IS_A_REWARD_FOR_COMPLETING_THE_6",
-		export = true,
-		text = {
-			en = "This is a reward for completing the introductory Leaterworking questline that can drop from any Draenor mob.",
-			-- TODO: de = "",
-			-- TODO: es = "",
-			-- TODO: mx = "",
-			-- TODO: fr = "",
-			-- TODO: it = "",
-			-- TODO: ko = "",
-			-- TODO: pt = "",
-			-- TODO: ru = "",
-			cn = "这是完成制皮入门任务线的奖励，可从任何德拉诺生物身上掉落。",
-			-- TODO: tw = "",
-		},
-	}),
+	["description"] = "This is a reward for completing the introductory Leaterworking questline that can drop from any Draenor mob.",
 	["groups"] = {
 		r(158752, {	-- Leatherworking (Draenor Master)
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },
